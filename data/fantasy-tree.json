@@ -1,0 +1,40 @@
+{
+  "phase": "fantasy",
+  "sections": [
+    {
+      "title": "Dashboard",
+      "items": [
+        {
+          "label": "Fantasy Dashboard",
+          "path": "/content/dashboards/fantasy-dash.html"
+        },
+        {
+          "label": "Producer's Note",
+          "path": "/content/fantasy/producers-note.html"
+        }
+      ]
+    },
+    {
+      "title": "Reading Shelf",
+      "items": [
+        {
+          "label": "Translation Draft",
+          "path": "/content/fantasy/translation-draft.html"
+        },
+        {
+          "label": "Essay Placeholder",
+          "path": "/content/fantasy/essay-placeholder.html"
+        }
+      ]
+    },
+    {
+      "title": "Archive",
+      "items": [
+        {
+          "label": "Future Entries",
+          "note": "More fantasy articles will appear later."
+        }
+      ]
+    }
+  ]
+}

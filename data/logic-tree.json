@@ -1,0 +1,40 @@
+{
+  "phase": "logic",
+  "sections": [
+    {
+      "title": "Overview",
+      "items": [
+        {
+          "label": "Logic Dashboard",
+          "path": "/content/dashboards/logic-dash.html"
+        },
+        {
+          "label": "Project Brief",
+          "path": "/content/logic/brief.html"
+        }
+      ]
+    },
+    {
+      "title": "Technical Notes",
+      "items": [
+        {
+          "label": "Segment Tree Template",
+          "path": "/content/logic/segment-tree.html"
+        },
+        {
+          "label": "Path Planning Draft",
+          "path": "/content/logic/path-planning.html"
+        }
+      ]
+    },
+    {
+      "title": "Archive",
+      "items": [
+        {
+          "label": "Future Entries",
+          "note": "Additional articles will be added here later."
+        }
+      ]
+    }
+  ]
+}

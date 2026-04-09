@@ -1,228 +1,76 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-phase="logic">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Terminal | Interface</title>
-    <style>
-        /* --- 1. 核心主题定义 (CSS Variables) --- */
-        :root {
-            /* Mode A: Professional (实验室逻辑位面) */
-            --bg-color: #0d1117;
-            --panel-bg: #161b22;
-            --accent-color: #58a6ff;
-            --text-main: #c9d1d9;
-            --text-dim: #8b949e;
-            --font-family: 'Fira Code', 'Cascadia Code', monospace;
-            --border-style: 1px solid #30363d;
-            --transition-speed: 0.8s;
-        }
-
-        html.mode-otaku {
-            /* Mode B: Otaku (幻想位面 - 琥珀色调) */
-            --bg-color: #fdf6e3; /* 类似旧书页的浅色 */
-            --panel-bg: rgba(255, 255, 255, 0.7);
-            --accent-color: #b58900; /* 琥珀/金色 */
-            --text-main: #586e75;
-            --text-dim: #93a1a1;
-            --font-family: 'Georgia', 'Noto Serif SC', serif;
-            --border-style: 1px solid rgba(181, 137, 0, 0.3);
-        }
-
-        /* --- 2. 基础布局 --- */
-        body {
-            margin: 0;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: var(--font-family);
-            transition: background-color var(--transition-speed), color var(--transition-speed);
-            overflow-x: hidden;
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: 250px 1fr;
-            grid-template-rows: 60px 1fr 40px;
-            height: 100vh;
-        }
-
-        /* 顶部导航 */
-        header {
-            grid-column: 1 / 3;
-            border-bottom: var(--border-style);
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            justify-content: space-between;
-        }
-
-        /* 侧边栏 */
-        aside {
-            border-right: var(--border-style);
-            padding: 20px;
-            background-color: var(--panel-bg);
-            transition: all var(--transition-speed);
-        }
-
-        /* 主内容区 */
-        main {
-            padding: 40px;
-            overflow-y: auto;
-        }
-
-        .card {
-            background-color: var(--panel-bg);
-            border: var(--border-style);
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 4px;
-        }
-
-        /* --- 3. 模式切换触发器 (隐藏终端) --- */
-        #cmd-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
-            display: none; /* 默认隐藏 */
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        #cmd-input {
-            background: none;
-            border: none;
-            border-bottom: 2px solid var(--accent-color);
-            color: white;
-            font-family: 'Fira Code', monospace;
-            font-size: 2rem;
-            text-align: center;
-            outline: none;
-            width: 60%;
-        }
-
-        /* 变身时的特殊动效 (Otaku 模式下的魔法感) */
-        .mode-otaku .card {
-            box-shadow: 0 4px 15px rgba(181, 137, 0, 0.1);
-            backdrop-filter: blur(10px);
-        }
-
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            display: inline-block;
-            background-color: #238636; /* 运行中 */
-            margin-right: 8px;
-        }
-
-    </style>
+    <meta name="description" content="BIFROST 是一个面向 GitHub Pages 的个人知识工作台。">
+    <title>BIFROST</title>
+    <link rel="stylesheet" href="/core/style.css">
+    <script defer src="/core/engine.js"></script>
 </head>
-<body class="mode-pro">
-
-    <div class="container">
-        <header>
-            <div id="site-title">SYSTEM_ARCHIVE_v1.0.4</div>
-            <div id="mode-hint" style="font-size: 12px; color: var(--text-dim);">
-                Press ` (Backtick) to command...
+<body>
+    <div class="shell">
+        <header class="header">
+            <div class="brand">
+                <h1 class="brand__title" data-site-title>BIFROST</h1>
+                <p class="brand__sub" data-site-subtitle>Logic workspace ready</p>
+            </div>
+            <div class="header__meta">
+                <span class="phase-pill" data-phase-pill>Logic</span>
+                <span data-phase-hint>Press ` to open the command palette</span>
             </div>
         </header>
 
-        <aside id="sidebar">
-            <h3 id="sidebar-title">Environment</h3>
-            <ul style="list-style: none; padding: 0; line-height: 2;">
-                <li><span class="status-dot"></span>WSL 2 (Ubuntu 24.04)</li>
-                <li><span class="status-dot"></span>ROS 2 Humble</li>
-                <li><span class="status-dot"></span>SyncTV Instance</li>
-            </ul>
-        </aside>
-
-        <main>
-            <section id="content-header">
-                <h1 id="main-heading">Cpower_2NG</h1>
-                <p id="sub-heading">"Theory first, practice second."</p>
+        <aside class="sidebar">
+            <section class="sidebar__section">
+                <h2 class="sidebar__heading">Navigation</h2>
+                <div class="tree" data-tree aria-label="Site navigation"></div>
             </section>
 
-            <div class="card">
-                <h3>Current Project: Embodied AI</h3>
-                <p>Deploy environment... Status: [SUCCESS]</p>
+            <section class="sidebar__section">
+                <h2 class="sidebar__heading">Status</h2>
+                <div class="card">
+                    <p class="hero__eyebrow">Current State</p>
+                    <p class="hero__text">This shell is ready for content. Articles, images, and richer dashboards can be added later without changing the structure.</p>
+                </div>
+            </section>
+        </aside>
+
+        <main class="main">
+            <div class="content-viewer" data-content-viewer>
+                <section class="article-surface">
+                    <p class="hero__eyebrow">Bootstrap</p>
+                    <h1 class="hero__title">BIFROST content shell</h1>
+                    <p class="hero__text">If JavaScript is disabled, this area remains a simple fallback. With JavaScript enabled, the dashboard and article fragments load here without refreshing the page.</p>
+                </section>
             </div>
 
-            <div class="card">
-                <h3>Algorithm Notes</h3>
-                <p>ACM/ICPC Template: Segment Tree optimization with Lazy Propagation.</p>
-            </div>
+            <noscript>
+                <section class="article-surface">
+                    <p class="hero__eyebrow">No Script</p>
+                    <h1 class="hero__title">JavaScript is required for dynamic navigation</h1>
+                    <p class="hero__text">The site still keeps a readable shell, but phase switching and article loading depend on JavaScript.</p>
+                </section>
+            </noscript>
         </main>
 
-        <footer style="grid-column: 1 / 3; border-top: var(--border-style); font-size: 12px; display: flex; align-items: center; padding: 0 20px;">
-            <span>napping</span>
+        <footer class="footer">
+            <span class="status"><span class="status__dot"></span><span data-footer-status>Initializing</span></span>
+            <span>GitHub Pages static workspace</span>
         </footer>
     </div>
 
-    <div id="cmd-overlay">
-        <input type="text" id="cmd-input" placeholder="Enter command..." autocomplete="off">
-    </div>
+    <section class="command-overlay" data-command-overlay aria-label="Command palette" role="dialog" aria-modal="true">
+        <div class="command-panel">
+            <input class="command-input" data-command-input type="text" autocomplete="off" placeholder="Type a command, then press Enter">
+            <p class="command-help">Accepted commands: set up!, setup, reset, shutdown.</p>
+        </div>
+    </section>
 
-    <script>
-        const htmlEl = document.documentElement;
-        const cmdOverlay = document.getElementById('cmd-overlay');
-        const cmdInput = document.getElementById('cmd-input');
-
-        // 监听反引号键呼出命令框
-        document.addEventListener('keydown', (e) => {
-            if (e.key === '`') {
-                cmdOverlay.style.display = 'flex';
-                cmdInput.focus();
-            }
-            if (e.key === 'Escape') {
-                closeCmd();
-            }
-        });
-
-        function closeCmd() {
-            cmdOverlay.style.display = 'none';
-            cmdInput.value = '';
-        }
-
-        // 核心逻辑：命令解析与模式切换
-        cmdInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                const val = cmdInput.value.toLowerCase().trim();
-                
-                if (val === 'set up!' || val === 'setup') {
-                    activateOtakuMode();
-                } else if (val === 'reset' || val === 'shutdown') {
-                    activateProMode();
-                }
-                
-                closeCmd();
-            }
-        });
-
-        function activateOtakuMode() {
-            htmlEl.classList.remove('mode-pro');
-            htmlEl.classList.add('mode-otaku');
-            
-            // 动态修改内容文本
-            document.getElementById('site-title').innerText = "Personal Archive | 幻想の回廊";
-            document.getElementById('sidebar-title').innerText = "Playlist & Collection";
-            document.getElementById('main-heading').innerText = "Welcome, Producer.";
-            document.getElementById('sub-heading').innerText = "“大家一起，才是偶像大师。”";
-        }
-
-        function activateProMode() {
-            htmlEl.classList.remove('mode-otaku');
-            htmlEl.classList.add('mode-pro');
-            
-            // 恢复初始文本
-            document.getElementById('site-title').innerText = "SYSTEM_ARCHIVE_v1.0.4";
-            document.getElementById('sidebar-title').innerText = "Environment";
-            document.getElementById('main-heading').innerText = "Cpower_2NG";
-            document.getElementById('sub-heading').innerText = "\"Theory first, practice second.\"";
-        }
-    </script>
+    <section class="boot-overlay" data-boot-overlay aria-label="Boot sequence" role="status" aria-live="polite">
+        <div class="boot-panel">
+            <div class="boot-log" data-boot-log></div>
+        </div>
+    </section>
 </body>
 </html>
