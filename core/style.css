@@ -32,6 +32,7 @@ html[data-phase="fantasy"] {
   --accent-strong: #b58900;
   --success: #5f8f4e;
   --warning: #a06a00;
+  --shadow: 0 12px 32px rgba(139, 126, 102, 0.15);
 }
 
 * {
@@ -284,6 +285,10 @@ html[data-phase="fantasy"] .header {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+html[data-phase="fantasy"] .grid-2 {
+  grid-template-columns: 3fr 2fr;
 }
 
 .stack {
