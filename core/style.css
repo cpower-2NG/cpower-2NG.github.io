@@ -475,6 +475,11 @@ html[data-phase="fantasy"] .grid-2 {
   font-size: 12px;
 }
 
+html[data-phase="fantasy"] .footer {
+  background: rgba(255, 251, 245, 0.75);
+  background-filter: blur(8px);
+}
+
 .status {
   display: inline-flex;
   align-items: center;
