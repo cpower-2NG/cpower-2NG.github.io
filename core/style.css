@@ -281,6 +281,13 @@ html[data-phase="fantasy"] .header {
   color: var(--text-dim);
 }
 
+.hero-xz {
+  font-size: 12px;
+  color: var(--text-dim);
+  opacity: 0.8;
+  margin-top: 8px;
+}
+
 .grid-2 {
   display: grid;
   gap: 16px;
@@ -477,7 +484,7 @@ html[data-phase="fantasy"] .grid-2 {
 
 html[data-phase="fantasy"] .footer {
   background: rgba(255, 251, 245, 0.75);
-  background-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .status {
