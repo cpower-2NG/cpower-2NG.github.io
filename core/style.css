@@ -17,6 +17,7 @@
   --radius-md: 6px;
   --radius-sm: 4px;
   --font-sans: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-serif: Georgia, "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
   --font-mono: "Fira Code", "Cascadia Code", "JetBrains Mono", monospace;
   --transition: 240ms ease;
 }
@@ -35,6 +36,25 @@ html[data-phase="fantasy"] {
   --success: #64855f;
   --warning: #a06a00;
   --shadow: 0 20px 60px rgba(85, 76, 61, 0.1);
+}
+
+html[data-phase="fantasy"] body {
+  font-family: var(--font-serif);
+}
+
+html[data-phase="fantasy"] .brand__title,
+html[data-phase="fantasy"] .sidebar__heading {
+  letter-spacing: 0.2em;
+}
+
+html[data-phase="fantasy"] .hero__title {
+  letter-spacing: 0.01em;
+  line-height: 1.24;
+}
+
+html[data-phase="fantasy"] .brand__mark,
+html[data-phase="fantasy"] .sidebar__index {
+  font-family: var(--font-mono);
 }
 
 * {
@@ -68,6 +88,19 @@ body.phase-fantasy {
 button,
 a {
   font: inherit;
+}
+
+body,
+.header,
+.sidebar,
+.footer,
+.article-surface,
+.card,
+.panel,
+.badge,
+.button,
+.tree__link {
+  transition: background-color var(--transition), color var(--transition), border-color var(--transition);
 }
 
 a {
@@ -240,6 +273,20 @@ html[data-phase="fantasy"] .header {
   text-decoration: none;
 }
 
+.tree__link.is-active {
+  border-color: var(--border-strong);
+  background: var(--bg-soft);
+  color: var(--accent-strong);
+}
+
+.tree__link.is-active::before {
+  content: "▸";
+  margin-right: 7px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
 .tree__leaf {
   color: var(--text-dim);
   font-size: 13px;
@@ -258,6 +305,18 @@ html[data-phase="fantasy"] .header {
   gap: 26px;
   width: min(100%, 980px);
   min-height: 100%;
+}
+
+.content-viewer.is-entering > * {
+  animation: content-in 360ms ease both;
+}
+
+.content-viewer.is-entering > :nth-child(2) {
+  animation-delay: 50ms;
+}
+
+.content-viewer.is-entering > :nth-child(3) {
+  animation-delay: 100ms;
 }
 
 .card,
@@ -494,6 +553,23 @@ html[data-phase="fantasy"] .grid-2 {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes content-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content-viewer.is-entering > * {
+    animation: none;
+  }
+
+  .boot-log__line {
+    animation-duration: 1ms;
   }
 }
 
