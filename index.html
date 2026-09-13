@@ -12,6 +12,7 @@
     <div class="shell">
         <header class="header">
             <div class="brand">
+                <span class="brand__mark" aria-hidden="true">//</span>
                 <h1 class="brand__title" data-site-title>BIFROST</h1>
                 <p class="brand__sub" data-site-subtitle>Logic workspace ready</p>
             </div>
@@ -23,13 +24,19 @@
 
         <aside class="sidebar">
             <section class="sidebar__section">
-                <h2 class="sidebar__heading">Navigation</h2>
+                <div class="sidebar__intro">
+                    <span class="sidebar__index">01</span>
+                    <h2 class="sidebar__heading">Navigation</h2>
+                </div>
                 <div class="tree" data-tree aria-label="Site navigation"></div>
             </section>
 
             <section class="sidebar__section">
-                <h2 class="sidebar__heading">Status</h2>
-                <div class="card">
+                <div class="sidebar__intro">
+                    <span class="sidebar__index">02</span>
+                    <h2 class="sidebar__heading">Status</h2>
+                </div>
+                <div class="status-note">
                     <p class="hero__eyebrow">Current State</p>
                     <p class="hero__text">This shell is ready for content.<br> Articles, images, and richer dashboards can be added later without changing the structure.</p>
                     <p class="hero-ext" data-status-title>update: 04.17 </p>
