@@ -1,10 +1,11 @@
+import { execFile } from 'node:child_process';
 import { createServer } from 'node:http';
 import { promises as fs } from 'node:fs';
-import { extname, join, normalize, relative, resolve } from 'node:path';
+import { extname, normalize, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
-const host = '127.0.0.1';
+const host = 'localhost';
 const port = Number(process.argv[2]) || 8000;
 
 const contentTypes = {
@@ -63,6 +64,12 @@ const server = createServer(async (request, response) => {
   }
 });
 
+function openBrowser(url) {
+  if (process.platform === 'win32') {
+    execFile('cmd.exe', ['/d', '/c', 'start', '', url]);
+  }
+}
+
 server.on('error', (error) => {
   if (error.code === 'EADDRINUSE') {
     console.error(`Port ${port} is already in use. Try: preview.cmd ${port + 1}`);
@@ -73,6 +80,8 @@ server.on('error', (error) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`BIFROST preview running at http://localhost:${port}/`);
+  const url = `http://${host}:${port}/`;
+  console.log(`BIFROST preview running at ${url}`);
+  openBrowser(url);
   console.log('Press Ctrl+C to stop the server.');
 });
