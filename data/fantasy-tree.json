@@ -28,6 +28,15 @@
       ]
     },
     {
+      "title": "Diary 手记",
+      "items": [
+        {
+          "label": "开廊手记",
+          "path": "/content/fantasy/diary/2026-09-13-open-the-corridor.html"
+        }
+      ]
+    },
+    {
       "title": "Archive",
       "items": [
         {

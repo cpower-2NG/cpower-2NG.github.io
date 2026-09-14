@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // GitHub Pages 深链修复：把 /content/... 直链转为 SPA 查询参数
+        (function () {
+            var path = window.location.pathname.replace(/\/index\.html$/, '/');
+            if (path === '/' || path.endsWith('/404.html')) {
+                return;
+            }
+            var phase = '';
+            if (path.indexOf('/content/fantasy/') === 0 || path.indexOf('/content/dashboards/fantasy') === 0) {
+                phase = '&phase=fantasy';
+            } else if (path.indexOf('/content/logic/') === 0 || path.indexOf('/content/dashboards/logic') === 0) {
+                phase = '&phase=logic';
+            }
+            window.location.replace('/?path=' + encodeURIComponent(path) + phase);
+        })();
+    </script>
     <meta name="robots" content="noindex">
     <meta name="theme-color" content="#0a0f14">
     <title>404 · BIFROST</title>
@@ -13,7 +29,7 @@
     <main class="main">
         <section class="article-surface">
             <p class="hero__eyebrow">Error 404</p>
-            <h1 class="hero__title">Signal Lost</h1>
+            <h1 class="hero__title">信号丢失</h1>
             <p class="hero__text">这个地址不在 BIFROST 的档案里。链接可能已经移动，或者对应的条目还没有归档。</p>
             <div class="article-actions">
                 <a class="button button--primary" href="/">返回工作台</a>

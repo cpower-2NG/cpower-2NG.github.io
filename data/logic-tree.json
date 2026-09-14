@@ -11,6 +11,10 @@
         {
           "label": "Project Brief",
           "path": "/content/logic/brief.html"
+        },
+        {
+          "label": "Markdown 写作指南",
+          "path": "/content/logic/article/2026-09-13-markdown-writing-guide.html"
         }
       ]
     },
@@ -24,6 +28,15 @@
         {
           "label": "Path Planning Draft",
           "path": "/content/logic/path-planning.html"
+        }
+      ]
+    },
+    {
+      "title": "Build Log",
+      "items": [
+        {
+          "label": "001 · 写作流水线上线",
+          "path": "/content/logic/diary/2026-09-13-build-log-001.html"
         }
       ]
     },

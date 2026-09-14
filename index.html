@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BIFROST 是一个面向 GitHub Pages 的个人知识工作台。">
+    <meta name="description" content="BIFROST 是一个面向 GitHub Pages 的个人知识工作台：双相位阅读、写作与归档。">
     <title>BIFROST</title>
     <meta name="theme-color" content="#0a0f14">
     <meta property="og:site_name" content="BIFROST">
@@ -13,7 +13,9 @@
     <meta property="og:url" content="https://cpower-2NG.github.io/">
     <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="BIFROST 更新" href="/feed.xml">
     <link rel="stylesheet" href="/core/style.css">
+    <script defer src="/core/ambience.js"></script>
     <script defer src="/core/engine.js"></script>
 </head>
 <body>
@@ -22,11 +24,15 @@
             <div class="brand">
                 <span class="brand__mark" aria-hidden="true">//</span>
                 <h1 class="brand__title" data-site-title>BIFROST</h1>
-                <p class="brand__sub" data-site-subtitle>Logic workspace ready</p>
+                <p class="brand__sub" data-site-subtitle>逻辑位面 · 就绪</p>
             </div>
             <div class="header__meta">
+                <button class="sound-toggle" type="button" data-sound-toggle aria-pressed="false">
+                    <span class="sound-toggle__mark" aria-hidden="true">◌</span>
+                    <span data-sound-label>环境音 关闭</span>
+                </button>
                 <span class="phase-pill" data-phase-pill>Logic</span>
-                <span data-phase-hint>Press ` to open the command palette</span>
+                <span data-phase-hint>按 ` 输入 fantasy 切换相位</span>
             </div>
         </header>
 
@@ -34,20 +40,20 @@
             <section class="sidebar__section">
                 <div class="sidebar__intro">
                     <span class="sidebar__index">01</span>
-                    <h2 class="sidebar__heading">Navigation</h2>
+                    <h2 class="sidebar__heading">导航</h2>
                 </div>
-                <div class="tree" data-tree aria-label="Site navigation"></div>
+                <div class="tree" data-tree aria-label="站点导航"></div>
             </section>
 
             <section class="sidebar__section">
                 <div class="sidebar__intro">
                     <span class="sidebar__index">02</span>
-                    <h2 class="sidebar__heading">Status</h2>
+                    <h2 class="sidebar__heading">状态</h2>
                 </div>
                 <div class="status-note">
-                    <p class="hero__eyebrow">Current State</p>
-                    <p class="hero__text">This shell is ready for content.<br> Articles, images, and richer dashboards can be added later without changing the structure.</p>
-                    <p class="hero-ext" data-status-title>update: 04.17 </p>
+                    <p class="hero__eyebrow">当前状态</p>
+                    <p class="hero__text" data-status-text>正在载入状态…</p>
+                    <p class="hero-ext" data-status-title>更新于 —</p>
                 </div>
             </section>
         </aside>
@@ -56,36 +62,38 @@
             <div class="content-viewer" data-content-viewer>
                 <section class="article-surface">
                     <p class="hero__eyebrow">Bootstrap</p>
-                    <h1 class="hero__title">BIFROST content shell</h1>
-                    <p class="hero__text">If JavaScript is disabled, this area remains a simple fallback. With JavaScript enabled, the dashboard and article fragments load here without refreshing the page.</p>
+                    <h1 class="hero__title">BIFROST 内容壳层</h1>
+                    <p class="hero__text">禁用脚本时，这里会保留一段可读的静态内容。启用脚本后，仪表盘与文章片段会在不刷新页面的前提下加载到此处。</p>
                 </section>
             </div>
 
             <noscript>
                 <section class="article-surface">
                     <p class="hero__eyebrow">No Script</p>
-                    <h1 class="hero__title">JavaScript is required for dynamic navigation</h1>
-                    <p class="hero__text">The site still keeps a readable shell, but phase switching and article loading depend on JavaScript.</p>
+                    <h1 class="hero__title">动态导航需要启用 JavaScript</h1>
+                    <p class="hero__text">页面仍保留基础可读性，但相位切换与文章加载依赖 JavaScript。</p>
                 </section>
             </noscript>
         </main>
 
         <footer class="footer">
-            <span class="status"><span class="status__dot"></span><span data-footer-status>Initializing</span></span>
-            <span>GitHub Pages static workspace</span>
+            <span class="status"><span class="status__dot"></span><span data-footer-status>正在初始化</span></span>
+            <span class="footer__meta"><span data-footer-clock></span><span>GitHub Pages 静态工作台</span></span>
         </footer>
     </div>
 
-    <section class="command-overlay" data-command-overlay aria-label="Command palette" role="dialog" aria-modal="true">
+    <section class="command-overlay" data-command-overlay aria-label="命令面板" role="dialog" aria-modal="true">
         <div class="command-panel">
-            <input class="command-input" data-command-input type="text" autocomplete="off" placeholder="Type a command, then press Enter">
-            <p class="command-help">Accepted commands: fantasy, logic. (set up! / reset / shutdown are also accepted.)</p>
+            <input class="command-input" data-command-input type="text" autocomplete="off" placeholder="搜索当前相位的文章，或输入命令">
+            <div class="command-results" data-command-results></div>
+            <p class="command-help">输入关键词搜索当前相位文章 · ↑↓ 选择 · Enter 打开 · Esc 关闭。相位命令：fantasy / logic（彩蛋：set up! / reset / shutdown）。</p>
         </div>
     </section>
 
-    <section class="boot-overlay" data-boot-overlay aria-label="Boot sequence" role="status" aria-live="polite">
+    <section class="boot-overlay" data-boot-overlay aria-label="启动序列" role="status" aria-live="polite">
         <div class="boot-panel">
             <div class="boot-log" data-boot-log></div>
+            <div class="boot-bar"><i data-boot-bar></i></div>
         </div>
     </section>
 </body>

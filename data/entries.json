@@ -1,0 +1,148 @@
+{
+  "generated": "2026-09-14T08:11:42.865Z",
+  "count": 9,
+  "entries": [
+    {
+      "path": "/content/fantasy/diary/2026-09-13-open-the-corridor.html",
+      "label": "开廊手记",
+      "date": "2026-09-13",
+      "phase": "fantasy",
+      "type": "diary",
+      "tags": [
+        "手记"
+      ],
+      "summary": "幻想回廊开张的第一篇手记。书架刚擦过，茶还温着，欢迎常来坐坐。",
+      "featured": false,
+      "words": 93,
+      "minutes": 1,
+      "source": "content-src/fantasy/diary/2026-09-13-open-the-corridor.md"
+    },
+    {
+      "path": "/content/logic/diary/2026-09-13-build-log-001.html",
+      "label": "Build Log 001：写作流水线上线",
+      "date": "2026-09-13",
+      "phase": "logic",
+      "type": "diary",
+      "tags": [
+        "build",
+        "workflow"
+      ],
+      "summary": "entries 索引与 Markdown 构建脚本接入完成，写作流切换为 front-matter + build.mjs。",
+      "featured": false,
+      "words": 92,
+      "minutes": 1,
+      "source": "content-src/logic/diary/2026-09-13-build-log-001.md"
+    },
+    {
+      "path": "/content/logic/article/2026-09-13-markdown-writing-guide.html",
+      "label": "Markdown 写作指南",
+      "date": "2026-09-13",
+      "phase": "logic",
+      "type": "article",
+      "tags": [
+        "workflow",
+        "markdown"
+      ],
+      "summary": "front-matter 字段说明、支持的语法范围，以及长文粘贴 HTML 的工作流。",
+      "featured": true,
+      "words": 453,
+      "minutes": 1,
+      "source": "content-src/logic/article/2026-09-13-markdown-writing-guide.md"
+    },
+    {
+      "path": "/content/fantasy/producers-note.html",
+      "label": "制作人手记",
+      "date": "2026-05-06",
+      "phase": "fantasy",
+      "type": "article",
+      "tags": [
+        "随笔"
+      ],
+      "summary": "问候语、短评与主题性随笔的预留条目。",
+      "featured": false,
+      "words": 64,
+      "minutes": 1,
+      "source": null
+    },
+    {
+      "path": "/content/logic/segment-tree.html",
+      "label": "线段树模板",
+      "date": "2026-04-17",
+      "phase": "logic",
+      "type": "article",
+      "tags": [
+        "算法",
+        "模板"
+      ],
+      "summary": "线段树模板、复杂度分析与适用场景的占位条目。",
+      "featured": false,
+      "words": 90,
+      "minutes": 1,
+      "source": null
+    },
+    {
+      "path": "/content/fantasy/translation-draft.html",
+      "label": "翻译草稿",
+      "date": "2026-04-02",
+      "phase": "fantasy",
+      "type": "article",
+      "tags": [
+        "翻译",
+        "访谈"
+      ],
+      "summary": "声优访谈翻译、术语注记与原文对照的预留条目。",
+      "featured": false,
+      "words": 78,
+      "minutes": 1,
+      "source": null
+    },
+    {
+      "path": "/content/logic/path-planning.html",
+      "label": "路径规划工程记录",
+      "date": "2026-03-28",
+      "phase": "logic",
+      "type": "article",
+      "tags": [
+        "ROS 2",
+        "工程记录"
+      ],
+      "summary": "路径规划、ROS 2 记录与工程实践内容的预留条目。",
+      "featured": false,
+      "words": 80,
+      "minutes": 1,
+      "source": null
+    },
+    {
+      "path": "/content/fantasy/essay-placeholder.html",
+      "label": "漫评与随笔",
+      "date": "2026-03-15",
+      "phase": "fantasy",
+      "type": "article",
+      "tags": [
+        "漫评",
+        "随笔"
+      ],
+      "summary": "完整感想文章、专题漫评与归档整理的预留条目。",
+      "featured": false,
+      "words": 73,
+      "minutes": 1,
+      "source": null
+    },
+    {
+      "path": "/content/logic/brief.html",
+      "label": "项目与页面架构说明",
+      "date": "2026-02-10",
+      "phase": "logic",
+      "type": "article",
+      "tags": [
+        "架构",
+        "笔记"
+      ],
+      "summary": "站点壳层、目录树与内容片段分离结构的说明条目。",
+      "featured": false,
+      "words": 136,
+      "minutes": 1,
+      "source": null
+    }
+  ]
+}

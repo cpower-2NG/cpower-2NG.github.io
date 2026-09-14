@@ -193,8 +193,108 @@ BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的
 - 相位切换：命令面板支持 `logic` / `fantasy` 命令，切换时旧相位的路径记录会被清理，避免恢复时相位错乱；色彩、字体（Fantasy 相位使用衬线字体）与内容入场均带过渡动效。
 - 资源路径：内容片段注入时统一重写 `src`、`href` 与 `srcset` 的相对路径。
 - 站点基建：提供与壳层风格一致的 404 页面、SVG favicon 与基础 og / theme-color 元信息。
+- 内容索引：`build.mjs` 汇总 `data/entries.json`（标题、日期、标签、摘要、类型、字数），仪表盘数据区块、命令面板搜索与文章页导航共用这份索引。
+- 仪表盘数据化：最近更新、精选、日记/日志流与"继续阅读"卡片由引擎挂载到 `[data-mount]` 区块，无条目时自动隐藏。
+- 命令面板：`` ` `` 打开后可直接模糊搜索全站文章（跨相位结果会自动切换相位再打开），↑↓ 选择、Enter 打开；`fantasy` / `logic` 与彩蛋别名保留。
+- 文章页 chrome：按索引自动注入日期 / 类型 / 阅读时长 / 标签元信息行与上一篇、下一篇导航，并按 `diary` / `article` 类型在容器上标记 `data-entry-type` 供后续分型展示。
+- 深链修复：访问不存在的路径时，404 页脚本将地址转为 `?path=&phase=` 重定向回 SPA，并落在正确相位。
+- 命令面板范围：搜索只覆盖当前相位，不跨相位展示条目；初始态只列出两条相位命令。
+- 视觉系统 token 化：圆角、动效时长与缓动、卡片底色/边框/投影全部走 CSS 变量。Logic 相位是"冷档案 HUD"——图纸网格背景、方括号小标签、卡片角标刻度、印章式大写 mono 标签、锐利圆角、140ms 硬朗动效；Fantasy 相位是"文库本手记"——暖纸噪点纹理与边缘 vignette、实底圆角纸卡、乾燥玫瑰主色、❧ 展开符、波浪下划线、420ms 柔缓动效，日记类型条目使用楷体并首行缩进两字符。
+- 相位切换光桥：切换时一道目标相位色的斜向光带扫过全屏，扫过中点完成相位提交；`prefers-reduced-motion` 下直接切换。
+- 活状态细节：页脚时钟（Logic 显示实时时间，Fantasy 显示日期与星期）、侧栏状态区显示当前相位最新更新日期、`theme-color` 随相位同步、boot 序列带进度条。
+- 语言策略：界面文案以中文为主，英文只作点缀——相位名（Logic / Fantasy）、站名、编号、命令名与代码术语保留英文，标题、状态、导航与按钮一律中文。
+- 中文排版：标题与正文各自用 `em` 控制行宽，**不要用 `ch`**——`ch` 是拉丁数字 "0" 的宽度，对全角汉字只有约一半宽，会让大标题在右侧还剩大片空白时提前换行（实测 13 字标题会被挤成两行）。标题用 `text-wrap: balance`，需要换行时各行长度接近，避免最后一行只剩一两个字；正文用 `text-wrap: pretty`；两者都设 `line-break: strict` 以遵循中文标点的避头尾规则。`.hero` 本身不再限制整块宽度，行宽由 `.hero__title`（15em）与 `.hero__text`（36em）分别决定。
+- 环境音（`core/ambience.js`）：按相位程序化生成的声音氛围，**不依赖任何音频素材文件**。Logic 是低频嗡鸣加极慢的滤波器摆动，Fantasy 是柔和风声加五声音阶的随机铃声；切换相位时交叉淡入淡出。默认静音，首次由访客点击开关后才创建 AudioContext，偏好写入 LocalStorage；上次开着环境音时，页面重新加载后会显示"点击启动"并在首次交互时恢复播放。
+- 评论（giscus）：由 `data/site.json` 驱动，填好 `comments` 里的 `repo` / `repoId` / `categoryId` 后自动出现在长文正文下方（日记类条目不挂评论），主题随相位切换；未填写配置时整块隐藏。
+- 订阅与站点地图：`build.mjs` 依 `data/site.json` 的 `siteUrl` 生成 `feed.xml`（RSS 2.0）与 `sitemap.xml`。
 
 后续主要工作是继续替换占位文章、补充图片与媒体资源、细化默认仪表盘内容，并根据审核意见调整视觉与信息架构。
+
+## 内容工作流
+
+日常写作走 Markdown，长文粘贴走 HTML 片段，两者最终都会进入同一份内容索引。
+
+### Markdown（推荐日常使用）
+
+在 `content-src/<相位>/<类型>/` 下新建 `.md` 文件，文件名建议带日期前缀（`YYYY-MM-DD-标题.md`）：
+
+```text
+content-src/
+├── logic/
+│   ├── diary/     逻辑位面 · 日志
+│   └── article/   逻辑位面 · 长文
+└── fantasy/
+    ├── diary/     幻想位面 · 手记
+    └── article/   幻想位面 · 长文
+```
+
+文件头部使用 front-matter 定义元数据：
+
+```yaml
+---
+title: 标题
+date: 2026-09-13
+phase: fantasy        # 可省略，默认取目录名
+type: diary           # diary（短内容）或 article（长文）
+tags: 手记, 随笔
+summary: 一句话摘要    # 可省略，自动截取首段
+featured: true        # 可省略，true 时进入仪表盘精选位
+---
+```
+
+写完双击 `build.cmd`（或运行 `node build.mjs`）：Markdown 编译为 `content/` 下的 HTML 片段，所有内容汇总进 `data/entries.json`，仪表盘、目录、命令面板与文章页导航随之自动更新。
+
+支持的语法：标题（正文从二级起写）、加粗、斜体、行内代码、链接、图片、引用、有序/无序列表（一层嵌套）、表格、分隔线、围栏代码块。段落内单个换行渲染为 `<br>`，适合日记体随手断行。当前不支持在表格、引用内嵌套复杂结构；Markdown 源内的原生 HTML 会被转义显示。
+
+### HTML 片段（长文粘贴 / 上传）
+
+从别处粘贴的现成 HTML 不走 Markdown：直接在 `content/` 对应目录新建片段，并在开头内嵌 meta 块即可入索引：
+
+```html
+<script type="application/x-bifrost-meta">
+{"title":"文章标题","date":"2026-09-13","tags":["随笔"],"summary":"一句话摘要","type":"article"}
+</script>
+```
+
+没有 meta 块的片段仍可被加载阅读，只是不进入最近更新等数据区块（标题会从 `<h1>` 推断）。
+
+### 条目类型与展示分型
+
+`diary` 与 `article` 目前影响：仪表盘归入哪个区块、文章页元信息行的类型文案。引擎同时会在内容容器上写入 `data-entry-type`，后续可以为两种类型做完全不同的版式（例如日记的窄栏时间线、长文的多级目录）。
+
+## 站点配置
+
+`data/site.json` 保存站点级配置，改完无需构建、刷新即可生效：
+
+```json
+{
+  "siteUrl": "https://cpower-2NG.github.io",
+  "comments": {
+    "provider": "giscus",
+    "repo": "owner/repo",
+    "repoId": "R_xxxx",
+    "category": "Announcements",
+    "categoryId": "DIC_xxxx",
+    "mapping": "pathname",
+    "reactionsEnabled": true,
+    "inputPosition": "top"
+  }
+}
+```
+
+- `siteUrl`：生成 `feed.xml` 与 `sitemap.xml` 时的绝对地址前缀。
+- `comments`：启用 giscus 评论需要在仓库安装 [giscus App](https://github.com/apps/giscus)，并在 [giscus.app](https://giscus.app) 填入仓库后取得 `repoId` 与 `categoryId`。三项 ID 任一为空时评论区整体隐藏，页面不会残留空壳。
+
+## 环境音
+
+环境音是程序化生成的，没有音频文件，音量与音色在 `core/ambience.js` 顶部附近调整：
+
+- 总音量：`start()` 里的 `fadeMaster(0.72)`。
+- Logic 嗡鸣：`buildLogicVoice()`，基频 55Hz / 82.5Hz 的正弦叠加，`droneBus` 控制整体电平。
+- Fantasy 风声与铃声：`buildFantasyVoice()` 的风声电平，`scheduleBell()` 里的和弦音阶（`BASS_SET`）与铃声间隔。
+- 淡入淡出时长：`FADE`。
+
+不需要环境音时，删掉 `core/ambience.js` 与 `index.html` 中的那行 `<script>` 即可，引擎会在缺少该模块时自动跳过。
 
 ## 后续开发顺序
 
@@ -209,7 +309,7 @@ BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的
 
 ## 项目状态
 
-当前阶段：骨架与交互机制（状态恢复、相位切换、资源路径处理、404 与站点元信息）已完成，进入内容填充前的整理阶段；占位文章暂保持空置。
+当前阶段：内容基建、视觉强化、表达扩展三个批次均已完成。写作流水线（Markdown 构建 + entries 索引）、仪表盘数据化、命令面板搜索（限当前相位）、文章页元信息与上下篇导航、404 深链重定向、环境音、giscus 评论接入位、RSS 与站点地图都可用；界面已中文化（英文仅作点缀）。剩余方向：持续填充真实内容、按 `data-entry-type` 做日记与长文的分型版式、`og:image` 社交卡片图、GitHub Actions 部署 workflow。
 
 ## 本地预览
 
@@ -231,4 +331,22 @@ BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的
 
 预览脚本会优先使用 PATH 中的 Node.js，其次检查当前用户目录中的 Node.js；如果仍找不到，则自动使用 Windows 自带的 PowerShell 服务，因此不需要安装 npm 依赖。修改文件后刷新浏览器即可生效；在服务窗口按 `Ctrl+C` 停止服务。
 
-如果指定端口已经有预览服务运行，再次双击脚本只会打开现有页面，不会重复启动服务。
+端口占用与重复启动的处理规则：
+
+- 如果该端口上已经有 BIFROST 预览服务在跑，脚本只会打开浏览器，不会重复启动服务。
+- 脚本通过 `/.bifrost-ping` 探测点确认端口上运行的是不是 BIFROST。如果端口被别的程序占用，脚本不会盲目打开那个无关页面，而是自动向后寻找空闲端口（最多 10 个）并在那里启动。
+- 连续 10 个端口都被占用时，脚本会提示换一个端口，例如 `preview.cmd 9000`。
+
+两个服务实现（Node 与 PowerShell 回退）行为保持一致：都同时监听 `127.0.0.1` 与 `::1`（因此 `localhost` 和 `127.0.0.1` 都能访问），都把未知路径交给 `404.html` 处理（本地也能验证深链重定向），都支持 `/.bifrost-ping` 探测点。
+
+脚本编码注意事项：`preview.cmd`、`preview-server.ps1`、`preview-port.ps1`、`build.cmd` 一律保持 **ASCII 内容**。Windows PowerShell 5.1 会把没有 BOM 的 `.ps1` 按系统 ANSI 代码页读取，cmd 也按 OEM 代码页读取批处理，脚本里出现中文会导致字符串被截断甚至整个脚本解析失败。中文说明统一放在本 README 里。
+
+需要在不弹浏览器窗口的情况下启动服务时（自动化脚本或排查问题）：
+
+```powershell
+node preview-server.mjs 8000 --no-open
+```
+
+```powershell
+./preview-server.ps1 -Port 8000 -NoBrowser
+```

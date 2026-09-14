@@ -1,17 +1,35 @@
 param(
-    [int]$Port = 8000
+    [int]$Port = 8000,
+    [switch]$NoBrowser
 )
 
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '.'))
 $rootWithSeparator = $root.TrimEnd([IO.Path]::DirectorySeparatorChar) + [IO.Path]::DirectorySeparatorChar
 $listener = $null
 
+# Identity endpoint: preview.cmd probes it to tell this server apart from
+# an unrelated program that happens to hold the port.
+$pingPath = '/.bifrost-ping'
+$pingToken = 'BIFROST_PREVIEW_OK'
+
 $contentTypes = @{
     '.css' = 'text/css; charset=utf-8'
     '.html' = 'text/html; charset=utf-8'
     '.js' = 'text/javascript; charset=utf-8'
+    '.mjs' = 'text/javascript; charset=utf-8'
     '.json' = 'application/json; charset=utf-8'
+    '.xml' = 'application/xml; charset=utf-8'
+    '.txt' = 'text/plain; charset=utf-8'
     '.svg' = 'image/svg+xml'
+    '.ico' = 'image/x-icon'
+    '.png' = 'image/png'
+    '.jpg' = 'image/jpeg'
+    '.jpeg' = 'image/jpeg'
+    '.webp' = 'image/webp'
+    '.avif' = 'image/avif'
+    '.woff' = 'font/woff'
+    '.woff2' = 'font/woff2'
+    '.webmanifest' = 'application/manifest+json'
 }
 
 function Write-Response($stream, [int]$statusCode, [string]$reason, [string]$contentType, [byte[]]$body, [string]$method) {
@@ -24,17 +42,35 @@ function Write-Response($stream, [int]$statusCode, [string]$reason, [string]$con
 }
 
 try {
-    $listener = [Net.Sockets.TcpListener]::new([Net.IPAddress]::IPv6Any, $Port)
-    $listener.Server.SetSocketOption(
-        [Net.Sockets.SocketOptionLevel]::IPv6,
-        [Net.Sockets.SocketOptionName]::IPv6Only,
-        $false
-    )
-    $listener.Start()
+    # Prefer a dual-stack IPv6 socket, but fall back to IPv4-only when the host
+    # has IPv6 disabled instead of failing to start.
+    foreach ($address in @([Net.IPAddress]::IPv6Any, [Net.IPAddress]::Any)) {
+        try {
+            $candidate = [Net.Sockets.TcpListener]::new($address, $Port)
+            if ($address.AddressFamily -eq [Net.Sockets.AddressFamily]::InterNetworkV6) {
+                $candidate.Server.SetSocketOption(
+                    [Net.Sockets.SocketOptionLevel]::IPv6,
+                    [Net.Sockets.SocketOptionName]::IPv6Only,
+                    $false
+                )
+            }
+            $candidate.Start()
+            $listener = $candidate
+            break
+        } catch {
+            if ($candidate) { $candidate.Stop() }
+        }
+    }
+
+    if (-not $listener) {
+        # Keep this file ASCII-only: Windows PowerShell 5.1 reads .ps1 without a BOM
+        # using the ANSI code page, which corrupts non-ASCII string literals.
+        throw "Port $Port is unavailable or already in use."
+    }
 
     $url = "http://localhost:$Port/"
     Write-Host "BIFROST preview running at $url"
-    Start-Process $url
+    if (-not $NoBrowser) { Start-Process $url }
     Write-Host 'Press Ctrl+C to stop the server.'
 
     while ($true) {
@@ -57,6 +93,12 @@ try {
 
             $path = [Uri]::UnescapeDataString(([Uri]::new("http://localhost$target")).AbsolutePath)
             if ($path -eq '/') { $path = '/index.html' }
+
+            if ($path -eq $pingPath) {
+                Write-Response $stream 200 'OK' 'text/plain; charset=utf-8' ([Text.Encoding]::UTF8.GetBytes($pingToken)) $method
+                continue
+            }
+
             $relativePath = $path.TrimStart('/').Replace('/', [IO.Path]::DirectorySeparatorChar)
             $filePath = [IO.Path]::GetFullPath((Join-Path $root $relativePath))
             if ($filePath -ne $root -and -not $filePath.StartsWith($rootWithSeparator, [StringComparison]::OrdinalIgnoreCase)) {
@@ -65,7 +107,14 @@ try {
             }
 
             if (-not (Test-Path -LiteralPath $filePath -PathType Leaf)) {
-                Write-Response $stream 404 'Not Found' 'text/plain; charset=utf-8' ([Text.Encoding]::UTF8.GetBytes('Not Found')) $method
+                # Mirror GitHub Pages and preview-server.mjs: unknown paths serve 404.html,
+                # which is what makes the deep-link redirect work locally.
+                $notFoundPath = Join-Path $root '404.html'
+                if (Test-Path -LiteralPath $notFoundPath -PathType Leaf) {
+                    Write-Response $stream 404 'Not Found' 'text/html; charset=utf-8' ([IO.File]::ReadAllBytes($notFoundPath)) $method
+                } else {
+                    Write-Response $stream 404 'Not Found' 'text/plain; charset=utf-8' ([Text.Encoding]::UTF8.GetBytes('Not Found')) $method
+                }
                 continue
             }
 
@@ -81,7 +130,7 @@ try {
         }
     }
 } catch {
-    Write-Error "无法启动本地预览服务：$($_.Exception.Message)"
+    Write-Error "Failed to start the local preview server: $($_.Exception.Message)"
     exit 1
 } finally {
     if ($listener) {

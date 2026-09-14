@@ -1,0 +1,13 @@
+{
+  "siteUrl": "https://cpower-2NG.github.io",
+  "comments": {
+    "provider": "giscus",
+    "repo": "",
+    "repoId": "",
+    "category": "",
+    "categoryId": "",
+    "mapping": "pathname",
+    "reactionsEnabled": true,
+    "inputPosition": "top"
+  }
+}

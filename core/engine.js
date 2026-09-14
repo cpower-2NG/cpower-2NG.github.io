@@ -4,32 +4,60 @@ const STORAGE_KEYS = {
   scroll: 'bifrost:scroll',
 };
 
+const ENTRIES_URL = '/data/entries.json';
+const SITE_CONFIG_URL = '/data/site.json';
+
 const PHASES = {
   logic: {
     label: 'Logic',
+    pill: 'LOGIC · STABLE',
     title: 'SYSTEM_ARCHIVE_v1.0.4',
-    subtitle: 'Theory first, practice second.',
-    hint: 'Press ` and type fantasy to switch phase',
+    subtitle: '理论先行，实践其次。',
+    hint: '按 ` 输入 fantasy 切换相位',
+    status: '索引已挂载，写作流水线就绪——把 Markdown 交给它，归档的事由它来管。',
+    footer: '逻辑位面就绪',
+    boot: [
+      '[ OK ] 挂载知识分区 logic...',
+      '[ OK ] 载入 data/entries.json',
+      '[ OK ] 重建目录索引',
+      '[ OK ] BIFROST 界面就绪。',
+    ],
+    themeColor: '#0a0f14',
+    bridgeColor: 'rgba(121, 201, 192, 0.4)',
+    commentsTheme: 'dark_dimmed',
     treeUrl: '/data/logic-tree.json',
     dashboardUrl: '/content/dashboards/logic-dash.html',
   },
   fantasy: {
     label: 'Fantasy',
+    pill: 'FANTASY · REVERIE',
     title: 'Personal Archive | 幻想の回廊',
-    subtitle: 'Reading first, resonance second.',
-    hint: 'Press ` and type logic to switch phase',
+    subtitle: '阅读先行，共鸣其次。',
+    hint: '按 ` 输入 logic 切换相位',
+    status: '书架已经掸过灰。手记、译稿与收藏会慢慢添进来。',
+    footer: '幻想位面就绪',
+    boot: [
+      '[ OK ] 点亮回廊灯火…',
+      '[ OK ] 载入 data/entries.json',
+      '[ OK ] 拂去书架浮尘…',
+      '[ OK ] BIFROST 界面就绪。',
+    ],
+    themeColor: '#f6f0e7',
+    bridgeColor: 'rgba(185, 122, 131, 0.45)',
+    commentsTheme: 'light',
     treeUrl: '/data/fantasy-tree.json',
     dashboardUrl: '/content/dashboards/fantasy-dash.html',
   },
 };
 
+// 键顺序决定搜索命中多个别名时的展示顺序，与默认相位保持一致：Logic 在前
 const COMMAND_PHASES = {
-  fantasy: 'fantasy',
-  'set up!': 'fantasy',
-  setup: 'fantasy',
   logic: 'logic',
   reset: 'logic',
   shutdown: 'logic',
+  fantasy: 'fantasy',
+  'set up!': 'fantasy',
+  setup: 'fantasy',
 };
 
 const state = {
@@ -37,6 +65,10 @@ const state = {
   currentPath: '',
   bootPlayed: false,
   treeData: null,
+  entries: [],
+  siteConfig: {},
+  paletteItems: [],
+  paletteIndex: 0,
 };
 
 const elements = {};
@@ -50,6 +82,7 @@ async function init() {
 
   state.phase = resolvePhase();
   applyPhase(state.phase);
+  initAmbience();
 
   if (!hasPersistentState()) {
     playBootSequence();
@@ -60,6 +93,21 @@ async function init() {
   } catch (_error) {
     elements.tree.innerHTML = '<p class="tree__leaf">目录加载失败，请刷新页面重试。</p>';
   }
+
+  try {
+    await loadEntries();
+  } catch (_error) {
+    state.entries = [];
+  }
+
+  try {
+    await loadSiteConfig();
+  } catch (_error) {
+    state.siteConfig = {};
+  }
+
+  updateStatusNote();
+  window.setInterval(updateFooterClock, 1000);
 
   const initialPath = resolveInitialPath();
   if (initialPath) {
@@ -85,17 +133,47 @@ function cacheElements() {
   elements.viewer = document.querySelector('[data-content-viewer]');
   elements.main = document.querySelector('.main');
   elements.footerStatus = document.querySelector('[data-footer-status]');
+  elements.footerClock = document.querySelector('[data-footer-clock]');
+  elements.statusText = document.querySelector('[data-status-text]');
+  elements.statusTitle = document.querySelector('[data-status-title]');
+  elements.themeColor = document.querySelector('meta[name="theme-color"]');
+  elements.bootBar = document.querySelector('[data-boot-bar]');
   elements.commandOverlay = document.querySelector('[data-command-overlay]');
   elements.commandInput = document.querySelector('[data-command-input]');
+  elements.commandResults = document.querySelector('[data-command-results]');
   elements.bootOverlay = document.querySelector('[data-boot-overlay]');
   elements.bootLog = document.querySelector('[data-boot-log]');
+  elements.soundToggle = document.querySelector('[data-sound-toggle]');
+  elements.soundLabel = document.querySelector('[data-sound-label]');
 }
 
 function bindGlobalEvents() {
   document.addEventListener('click', onDocumentClick);
   document.addEventListener('keydown', onKeyDown);
   elements.commandInput.addEventListener('keydown', onCommandKeyDown);
+  elements.commandInput.addEventListener('input', onCommandInput);
+  elements.commandOverlay.addEventListener('click', onCommandOverlayClick);
   elements.main.addEventListener('scroll', onMainScroll, { passive: true });
+  if (elements.soundToggle) {
+    elements.soundToggle.addEventListener('click', onSoundToggle);
+  }
+  document.addEventListener('pointerdown', onFirstInteraction, { once: true });
+}
+
+function onCommandInput() {
+  renderPaletteResults(elements.commandInput.value);
+}
+
+function onCommandOverlayClick(event) {
+  if (event.target === elements.commandOverlay) {
+    closeCommandOverlay();
+    return;
+  }
+
+  const item = event.target.closest('[data-palette-index]');
+  if (item) {
+    activatePaletteItem(Number(item.dataset.paletteIndex));
+  }
 }
 
 let scrollSaveTimer = 0;
@@ -228,10 +306,47 @@ function applyPhase(phase) {
   elements.body.classList.toggle('phase-fantasy', phase === 'fantasy');
   elements.siteTitle.textContent = config.title;
   elements.siteSubtitle.textContent = config.subtitle;
-  elements.phasePill.textContent = config.label;
+  elements.phasePill.textContent = config.pill;
   elements.phaseHint.textContent = config.hint;
-  elements.footerStatus.textContent = phase === 'logic' ? 'Logic workspace ready' : 'Fantasy workspace ready';
+  elements.footerStatus.textContent = config.footer;
+  if (elements.themeColor) {
+    elements.themeColor.setAttribute('content', config.themeColor);
+  }
+  if (window.BifrostAmbience) {
+    window.BifrostAmbience.setPhase(phase);
+  }
+  syncCommentsTheme();
+  updateStatusNote();
+  updateFooterClock();
   localStorage.setItem(STORAGE_KEYS.phase, phase);
+}
+
+function updateStatusNote() {
+  const config = PHASES[state.phase];
+  if (elements.statusText) {
+    elements.statusText.textContent = config.status;
+  }
+
+  const latest = phaseEntries(state.phase)[0];
+  if (elements.statusTitle) {
+    elements.statusTitle.textContent = latest ? `更新于 ${formatDate(latest.date)}` : '更新于 —';
+  }
+}
+
+function updateFooterClock() {
+  if (!elements.footerClock) {
+    return;
+  }
+
+  const now = new Date();
+  if (state.phase === 'logic') {
+    const pad = (value) => String(value).padStart(2, '0');
+    elements.footerClock.textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+    return;
+  }
+
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  elements.footerClock.textContent = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 · 星期${weekdays[now.getDay()]}`;
 }
 
 async function loadTree(phase) {
@@ -299,6 +414,317 @@ function renderTreeItem(item) {
   return leaf;
 }
 
+async function loadEntries() {
+  const response = await fetch(ENTRIES_URL);
+  if (!response.ok) {
+    throw new Error(`Failed to load entries: ${response.status}`);
+  }
+
+  const payload = await response.json();
+  state.entries = Array.isArray(payload.entries) ? payload.entries : [];
+}
+
+async function loadSiteConfig() {
+  const response = await fetch(SITE_CONFIG_URL);
+  if (!response.ok) {
+    throw new Error(`Failed to load site config: ${response.status}`);
+  }
+
+  const payload = await response.json();
+  state.siteConfig = payload && typeof payload === 'object' ? payload : {};
+}
+
+// ---------- 环境音 ----------
+
+const SOUND_LABELS = {
+  off: '环境音 关闭',
+  pending: '环境音 点击启动',
+  on: '环境音 开启',
+};
+
+function initAmbience() {
+  const ambience = window.BifrostAmbience;
+  if (!ambience) {
+    return;
+  }
+
+  ambience.restore((status) => renderSoundState(status));
+  ambience.setPhase(state.phase);
+}
+
+function renderSoundState(status) {
+  if (!elements.soundToggle) {
+    return;
+  }
+
+  elements.soundLabel.textContent = SOUND_LABELS[status] || SOUND_LABELS.off;
+  elements.soundToggle.dataset.soundState = status;
+  elements.soundToggle.setAttribute('aria-pressed', String(status !== 'off'));
+}
+
+async function onSoundToggle() {
+  const ambience = window.BifrostAmbience;
+  if (!ambience) {
+    return;
+  }
+
+  // 上次访问开着环境音时按钮显示"点击启动"：这一次点击应当开始播放，而不是关掉它
+  if (ambience.status() === 'pending') {
+    await ambience.resume();
+    return;
+  }
+
+  await ambience.toggle();
+}
+
+function onFirstInteraction(event) {
+  const ambience = window.BifrostAmbience;
+  if (!ambience || !ambience.isEnabled()) {
+    return;
+  }
+
+  // 开关自己会处理这次手势，避免先恢复播放又被 click 切成关闭
+  if (elements.soundToggle && event && event.target instanceof Node
+    && elements.soundToggle.contains(event.target)) {
+    return;
+  }
+
+  // 上次访问开着环境音：首次交互时补上浏览器要求的用户手势
+  void ambience.resume();
+}
+
+// ---------- 评论 ----------
+
+function commentsConfig() {
+  const comments = state.siteConfig ? state.siteConfig.comments : null;
+  if (!comments || comments.provider !== 'giscus') {
+    return null;
+  }
+
+  if (!comments.repo || !comments.repoId || !comments.categoryId) {
+    return null;
+  }
+
+  return comments;
+}
+
+function mountComments(entry) {
+  removeComments();
+  const config = commentsConfig();
+  if (!config || !entry || entry.type === 'diary') {
+    return;
+  }
+
+  const section = document.createElement('section');
+  section.className = 'comments';
+  section.innerHTML = '<p class="hero__eyebrow">讨论</p>';
+
+  const script = document.createElement('script');
+  script.src = 'https://giscus.app/client.js';
+  script.async = true;
+  script.crossOrigin = 'anonymous';
+  script.dataset.repo = config.repo;
+  script.dataset.repoId = config.repoId;
+  script.dataset.category = config.category || '';
+  script.dataset.categoryId = config.categoryId;
+  script.dataset.mapping = config.mapping || 'pathname';
+  script.dataset.strict = '0';
+  script.dataset.reactionsEnabled = config.reactionsEnabled === false ? '0' : '1';
+  script.dataset.emitMetadata = '0';
+  script.dataset.inputPosition = config.inputPosition || 'top';
+  script.dataset.theme = PHASES[state.phase].commentsTheme;
+  script.dataset.lang = 'zh-CN';
+
+  section.appendChild(script);
+  elements.viewer.append(section);
+}
+
+function removeComments() {
+  elements.viewer.querySelectorAll('.comments').forEach((node) => node.remove());
+}
+
+function syncCommentsTheme() {
+  const frame = elements.viewer.querySelector('iframe.giscus-frame');
+  if (!frame || !frame.contentWindow) {
+    return;
+  }
+
+  frame.contentWindow.postMessage(
+    { giscus: { setConfig: { theme: PHASES[state.phase].commentsTheme } } },
+    'https://giscus.app',
+  );
+}
+
+function entryByPath(path) {
+  return state.entries.find((entry) => entry.path === path) || null;
+}
+
+function byDateDesc(a, b) {
+  return (b.date || '').localeCompare(a.date || '');
+}
+
+function phaseEntries(phase) {
+  return state.entries.filter((entry) => entry.phase === phase).sort(byDateDesc);
+}
+
+function recentEntries(phase, limit) {
+  return phaseEntries(phase).slice(0, limit);
+}
+
+function formatDate(value) {
+  if (!value) {
+    return '—';
+  }
+
+  const currentYear = String(new Date().getFullYear());
+  return value.startsWith(`${currentYear}-`)
+    ? value.slice(5).replace('-', '.')
+    : value.replaceAll('-', '.');
+}
+
+function renderTagChips(entry, max) {
+  const tags = (entry.tags || []).slice(0, max);
+  if (!tags.length) {
+    return '';
+  }
+
+  return `<span class="recent-item__tags">${tags
+    .map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`)
+    .join('')}</span>`;
+}
+
+function setMount(name, html, hasContent) {
+  const mount = elements.viewer.querySelector(`[data-mount="${name}"]`);
+  if (!mount) {
+    return;
+  }
+
+  mount.innerHTML = html;
+  const host = mount.closest('.card, .panel');
+  if (host) {
+    host.classList.toggle('is-hidden', !hasContent);
+  }
+}
+
+function hydrateDashboard() {
+  const recent = recentEntries(state.phase, 5);
+  setMount(
+    'recent',
+    recent
+      .map(
+        (entry) => `
+        <a class="recent-item" href="${entry.path}" data-path="${entry.path}">
+          <span class="recent-item__date">${escapeHtml(formatDate(entry.date))}</span>
+          <span class="recent-item__label">${escapeHtml(entry.label)}</span>
+          ${renderTagChips(entry, 2)}
+        </a>
+      `,
+      )
+      .join(''),
+    recent.length > 0,
+  );
+
+  const featured = phaseEntries(state.phase).filter((entry) => entry.featured).slice(0, 4);
+  setMount(
+    'featured',
+    featured
+      .map(
+        (entry) => `
+        <a class="recent-item" href="${entry.path}" data-path="${entry.path}">
+          <span class="recent-item__date">${escapeHtml(formatDate(entry.date))}</span>
+          <span class="recent-item__label">${escapeHtml(entry.label)}</span>
+          ${renderTagChips(entry, 2)}
+        </a>
+      `,
+      )
+      .join(''),
+    featured.length > 0,
+  );
+
+  const diaries = phaseEntries(state.phase)
+    .filter((entry) => entry.type === 'diary')
+    .slice(0, 4);
+  setMount(
+    'diary',
+    diaries
+      .map(
+        (entry) => `
+        <a class="diary-item" href="${entry.path}" data-path="${entry.path}">
+          <span class="diary-item__meta">${escapeHtml(formatDate(entry.date))}${
+            entry.tags && entry.tags.length ? ` · ${escapeHtml(entry.tags.join(' / '))}` : ''
+          }</span>
+          <span class="diary-item__title">${escapeHtml(entry.label)}</span>
+          ${entry.summary ? `<span class="diary-item__summary">${escapeHtml(entry.summary)}</span>` : ''}
+        </a>
+      `,
+      )
+      .join(''),
+    diaries.length > 0,
+  );
+
+  const savedPath = normalizeStoredPath(localStorage.getItem(STORAGE_KEYS.path));
+  const savedEntry = savedPath && savedPath !== state.currentPath ? entryByPath(savedPath) : null;
+  setMount(
+    'continue',
+    savedEntry
+      ? `
+        <a class="recent-item" href="${savedEntry.path}" data-path="${savedEntry.path}">
+          <span class="recent-item__date">${escapeHtml(formatDate(savedEntry.date))}</span>
+          <span class="recent-item__label">${escapeHtml(savedEntry.label)}</span>
+        </a>
+        <p class="hero-xz">上次读到这里，滚动位置会自动恢复。</p>
+      `
+      : '',
+    Boolean(savedEntry),
+  );
+}
+
+function removeEntryChrome() {
+  elements.viewer.querySelectorAll('.entry-meta, .pager').forEach((node) => node.remove());
+}
+function siblingEntries(entry) {
+  const list = phaseEntries(entry.phase);
+  const index = list.findIndex((item) => item.path === entry.path);
+  return {
+    prev: index > 0 ? list[index - 1] : null,
+    next: index >= 0 && index < list.length - 1 ? list[index + 1] : null,
+  };
+}
+
+function estimateMinutes(text) {
+  const cjk = (text.match(/[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/g) || []).length;
+  const latin = (text.match(/[A-Za-z0-9]+/g) || []).length;
+  return Math.max(1, Math.round((cjk + latin) / 400));
+}
+
+function renderEntryChrome(entry) {
+  removeEntryChrome();
+  if (!entry) {
+    return;
+  }
+
+  const tags = entry.tags || [];
+  const minutes = entry.minutes || estimateMinutes(elements.viewer.textContent);
+  const meta = document.createElement('div');
+  meta.className = 'entry-meta';
+  meta.innerHTML = `
+    <span class="entry-meta__date">${escapeHtml(formatDate(entry.date))}</span>
+    <span class="entry-meta__sep">/</span>
+    <span>${entry.type === 'diary' ? '手记' : '文章'} · 约 ${minutes} 分钟</span>
+    ${tags.length ? `<span class="entry-meta__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</span>` : ''}
+  `;
+  elements.viewer.prepend(meta);
+
+  const { prev, next } = siblingEntries(entry);
+  const pager = document.createElement('nav');
+  pager.className = 'pager';
+  pager.innerHTML = `
+    ${prev ? `<a href="${prev.path}" data-path="${prev.path}"><span class="pager__dir">上一篇</span><span>${escapeHtml(prev.label)}</span></a>` : '<span></span>'}
+    ${next ? `<a href="${next.path}" data-path="${next.path}"><span class="pager__dir">下一篇</span><span>${escapeHtml(next.label)}</span></a>` : '<span></span>'}
+  `;
+  elements.viewer.append(pager);
+}
+
 function onDocumentClick(event) {
   const routeLink = event.target.closest('[data-path]');
   if (!routeLink) {
@@ -312,7 +738,9 @@ function onDocumentClick(event) {
 function onKeyDown(event) {
   if (event.key === '`') {
     event.preventDefault();
-    openCommandOverlay();
+    if (!elements.commandOverlay.classList.contains('is-active')) {
+      openCommandOverlay();
+    }
     return;
   }
 
@@ -322,7 +750,25 @@ function onKeyDown(event) {
 }
 
 function onCommandKeyDown(event) {
+  if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    event.preventDefault();
+    if (!state.paletteItems.length) {
+      return;
+    }
+
+    const delta = event.key === 'ArrowDown' ? 1 : -1;
+    state.paletteIndex = (state.paletteIndex + delta + state.paletteItems.length) % state.paletteItems.length;
+    updatePaletteActive();
+    return;
+  }
+
   if (event.key !== 'Enter') {
+    return;
+  }
+
+  const activeItem = state.paletteItems[state.paletteIndex];
+  if (activeItem) {
+    activatePaletteItem(state.paletteIndex);
     return;
   }
 
@@ -338,11 +784,114 @@ function onCommandKeyDown(event) {
 
 function openCommandOverlay() {
   elements.commandOverlay.classList.add('is-active');
+  elements.commandInput.value = '';
+  renderPaletteResults('');
   window.setTimeout(() => elements.commandInput.focus(), 0);
 }
 
 function closeCommandOverlay() {
   elements.commandOverlay.classList.remove('is-active');
+}
+
+function renderPaletteResults(rawQuery) {
+  const query = rawQuery.trim().toLowerCase();
+  state.paletteItems = collectPaletteItems(query);
+  state.paletteIndex = 0;
+
+  if (!state.paletteItems.length) {
+    elements.commandResults.innerHTML = '<p class="command-empty">没有匹配的内容。</p>';
+    return;
+  }
+
+  elements.commandResults.innerHTML = state.paletteItems
+    .map((item, index) => {
+      const label = item.kind === 'entry' ? item.entry.label : item.label;
+      const hint = item.kind === 'entry' ? paletteEntryHint(item.entry) : item.hint;
+      return `
+      <a class="command-item${index === 0 ? ' is-active' : ''}" data-palette-index="${index}">
+        <span class="command-item__label">${escapeHtml(label)}</span>
+        <span class="command-item__hint">${escapeHtml(hint)}</span>
+      </a>
+    `;
+    })
+    .join('');
+}
+
+function paletteEntryHint(entry) {
+  return [entry.date, entry.phase, ...(entry.tags || []).slice(0, 2)]
+    .filter(Boolean)
+    .join(' · ');
+}
+
+function collectPaletteItems(query) {
+  const items = [];
+
+  if (!query) {
+    // 顺序跟随默认相位：进入站点默认是 Logic，列表也以 Logic 打头
+    items.push({ kind: 'phase', phase: 'logic', label: '切换到 Logic 逻辑位面', hint: '输入 logic' });
+    items.push({ kind: 'phase', phase: 'fantasy', label: '切换到 Fantasy 幻想位面', hint: '输入 fantasy' });
+    return items;
+  }
+
+  Object.keys(COMMAND_PHASES).forEach((name) => {
+    if (!name.includes(query)) {
+      return;
+    }
+    const phase = COMMAND_PHASES[name];
+    if (!items.some((item) => item.kind === 'phase' && item.phase === phase)) {
+      items.push({
+        kind: 'phase',
+        phase,
+        label: `切换到 ${phase === 'fantasy' ? 'Fantasy 幻想位面' : 'Logic 逻辑位面'}`,
+        hint: `输入 ${name}`,
+      });
+    }
+  });
+
+  state.entries
+    .filter((entry) => entry.phase === state.phase && paletteEntryMatches(entry, query))
+    .slice(0, 8)
+    .forEach((entry) => items.push({ kind: 'entry', entry }));
+
+  return items.slice(0, 9);
+}
+
+function paletteEntryMatches(entry, query) {
+  const haystack = [entry.label, entry.summary, (entry.tags || []).join(' '), entry.path]
+    .join(' ')
+    .toLowerCase();
+  return haystack.includes(query);
+}
+
+function updatePaletteActive() {
+  elements.commandResults.querySelectorAll('.command-item').forEach((node, index) => {
+    node.classList.toggle('is-active', index === state.paletteIndex);
+  });
+
+  const active = elements.commandResults.querySelector('.command-item.is-active');
+  if (active) {
+    active.scrollIntoView({ block: 'nearest' });
+  }
+}
+
+async function activatePaletteItem(index) {
+  const item = state.paletteItems[index];
+  if (!item) {
+    return;
+  }
+
+  closeCommandOverlay();
+
+  if (item.kind === 'phase') {
+    await switchPhase(item.phase);
+    return;
+  }
+
+  const entry = item.entry;
+  if (entry.phase !== state.phase) {
+    await switchPhase(entry.phase);
+  }
+  await openRoute(entry.path);
 }
 
 async function switchPhase(nextPhase) {
@@ -351,18 +900,44 @@ async function switchPhase(nextPhase) {
   }
 
   const previousPhase = state.phase;
-  state.phase = nextPhase;
-  applyPhase(nextPhase);
-  localStorage.removeItem(STORAGE_KEYS.path);
+  const bridge = playBridgeTransition(nextPhase);
 
-  try {
-    await loadTree(nextPhase);
-    await openDashboard({ pushState: true, remember: false });
-  } catch (_error) {
-    state.phase = previousPhase;
-    applyPhase(previousPhase);
-    elements.viewer.innerHTML = renderError('相位切换失败，目录数据暂时无法加载。');
+  const commit = async () => {
+    state.phase = nextPhase;
+    applyPhase(nextPhase);
+    localStorage.removeItem(STORAGE_KEYS.path);
+
+    try {
+      await loadTree(nextPhase);
+      await openDashboard({ pushState: true, remember: false });
+    } catch (_error) {
+      state.phase = previousPhase;
+      applyPhase(previousPhase);
+      elements.viewer.innerHTML = renderError('相位切换失败，目录数据暂时无法加载。');
+    }
+  };
+
+  if (bridge) {
+    window.setTimeout(() => {
+      void commit();
+    }, 190);
+    return;
   }
+
+  await commit();
+}
+
+function playBridgeTransition(nextPhase) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return null;
+  }
+
+  const bridge = document.createElement('div');
+  bridge.className = 'bridge-overlay';
+  bridge.style.setProperty('--bridge-color', PHASES[nextPhase].bridgeColor);
+  document.body.appendChild(bridge);
+  window.setTimeout(() => bridge.remove(), 760);
+  return bridge;
 }
 
 async function openDashboard(options = {}) {
@@ -403,11 +978,22 @@ async function openRoute(path, options = {}) {
   const html = rewriteRelativePaths(rawHtml, normalizedPath);
   elements.viewer.innerHTML = html;
   state.currentPath = normalizedPath;
+
+  const isDashboard = normalizedPath.includes('/content/dashboards/');
+  const entry = entryByPath(normalizedPath);
+  elements.viewer.dataset.entryType = isDashboard ? '' : entry ? entry.type || 'article' : '';
+  if (isDashboard) {
+    hydrateDashboard();
+    removeComments();
+  } else {
+    renderEntryChrome(entry);
+    mountComments(entry);
+  }
+
   restoreScrollPosition(normalizedPath);
   updateTreeActive(normalizedPath);
   playContentEnter();
 
-  const isDashboard = normalizedPath.includes('/content/dashboards/');
   if (options.remember !== false && !isDashboard) {
     localStorage.setItem(STORAGE_KEYS.path, normalizedPath);
   }
@@ -501,10 +1087,12 @@ function renderError(message) {
     </section>
   `;
 }
-
 function updateDocumentMeta(path) {
-  const pageName = path.split('/').pop().replace(/\.html?$/i, '').replace(/[-_]/g, ' ');
-  document.title = `${PHASES[state.phase].label} · ${pageName || 'Dashboard'}`;
+  const entry = entryByPath(path);
+  const pageName = entry
+    ? entry.label
+    : path.split('/').pop().replace(/\.html?$/i, '').replace(/[-_]/g, ' ');
+  document.title = `${pageName || 'BIFROST'} · ${PHASES[state.phase].label}`;
 }
 
 function syncUrl(options = {}) {
@@ -552,12 +1140,7 @@ function playBootSequence() {
 
   state.bootPlayed = true;
   elements.bootOverlay.classList.add('is-active');
-  const lines = [
-    '[ OK ] Mounting knowledge partitions...',
-    '[ OK ] Loading phase assets...',
-    '[ OK ] Restoring dashboard shell...',
-    '[ OK ] BIFROST interface ready.',
-  ];
+  const lines = PHASES[state.phase].boot;
 
   elements.bootLog.innerHTML = '';
   lines.forEach((line, index) => {
@@ -568,9 +1151,15 @@ function playBootSequence() {
     elements.bootLog.appendChild(node);
   });
 
+  if (elements.bootBar) {
+    window.requestAnimationFrame(() => {
+      elements.bootBar.style.width = '100%';
+    });
+  }
+
   window.setTimeout(() => {
     elements.bootOverlay.classList.remove('is-active');
-  }, 1200);
+  }, 1500);
 }
 
 function escapeHtml(value) {

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BIFROST</title>
+    <link>https://cpower-2NG.github.io/</link>
+    <description>Logic 与 Fantasy 双相位的个人知识界面：技术笔记、翻译随笔与项目沉淀。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 14 Sep 2026 08:11:42 GMT</lastBuildDate>
+    <atom:link href="https://cpower-2NG.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开廊手记</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/diary/2026-09-13-open-the-corridor.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/diary/2026-09-13-open-the-corridor.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>手记</category>
+      <description>幻想回廊开张的第一篇手记。书架刚擦过，茶还温着，欢迎常来坐坐。</description>
+    </item>
+    <item>
+      <title>Build Log 001：写作流水线上线</title>
+      <link>https://cpower-2NG.github.io/content/logic/diary/2026-09-13-build-log-001.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/diary/2026-09-13-build-log-001.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>build</category>
+      <category>workflow</category>
+      <description>entries 索引与 Markdown 构建脚本接入完成，写作流切换为 front-matter + build.mjs。</description>
+    </item>
+    <item>
+      <title>Markdown 写作指南</title>
+      <link>https://cpower-2NG.github.io/content/logic/article/2026-09-13-markdown-writing-guide.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/article/2026-09-13-markdown-writing-guide.html</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>workflow</category>
+      <category>markdown</category>
+      <description>front-matter 字段说明、支持的语法范围，以及长文粘贴 HTML 的工作流。</description>
+    </item>
+    <item>
+      <title>制作人手记</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/producers-note.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/producers-note.html</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>随笔</category>
+      <description>问候语、短评与主题性随笔的预留条目。</description>
+    </item>
+    <item>
+      <title>线段树模板</title>
+      <link>https://cpower-2NG.github.io/content/logic/segment-tree.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/segment-tree.html</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>算法</category>
+      <category>模板</category>
+      <description>线段树模板、复杂度分析与适用场景的占位条目。</description>
+    </item>
+    <item>
+      <title>翻译草稿</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/translation-draft.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/translation-draft.html</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>翻译</category>
+      <category>访谈</category>
+      <description>声优访谈翻译、术语注记与原文对照的预留条目。</description>
+    </item>
+    <item>
+      <title>路径规划工程记录</title>
+      <link>https://cpower-2NG.github.io/content/logic/path-planning.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/path-planning.html</guid>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>ROS 2</category>
+      <category>工程记录</category>
+      <description>路径规划、ROS 2 记录与工程实践内容的预留条目。</description>
+    </item>
+    <item>
+      <title>漫评与随笔</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/essay-placeholder.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/essay-placeholder.html</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>漫评</category>
+      <category>随笔</category>
+      <description>完整感想文章、专题漫评与归档整理的预留条目。</description>
+    </item>
+    <item>
+      <title>项目与页面架构说明</title>
+      <link>https://cpower-2NG.github.io/content/logic/brief.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/brief.html</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>架构</category>
+      <category>笔记</category>
+      <description>站点壳层、目录树与内容片段分离结构的说明条目。</description>
+    </item>
+  </channel>
+</rss>
