@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T12:12:25.332Z",
-  "count": 22,
+  "generated": "2026-09-27T12:17:20.750Z",
+  "count": 25,
   "entries": [
     {
       "path": "/content/fantasy/article/2026-09-27-dong-muchuan-review.html",
@@ -283,6 +283,120 @@
       "media": [],
       "video": null,
       "syndication": null
+    },
+    {
+      "path": "/content/logic/diary/qq-b4ecdeb087d1b76a9f960b00.html",
+      "label": "被 Azure 设备认证折磨的一天",
+      "date": "2026-09-26",
+      "phase": "logic",
+      "type": "diary",
+      "kind": "qq-post",
+      "category": "技术日志",
+      "tags": [
+        "QQ空间",
+        "Azure"
+      ],
+      "summary": "登个azure被设备安全性认证气晕",
+      "featured": false,
+      "words": 18,
+      "minutes": 1,
+      "sourceFile": "content-src/imported/qq/qq-b4ecdeb087d1b76a9f960b00.json",
+      "source": {
+        "provider": "qq",
+        "id": "qq-b4ecdeb087d1b76a9f960b00",
+        "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb087d1b76a9f960b00",
+        "state": "active",
+        "visibility": "unknown",
+        "adapterVersion": 1
+      },
+      "sourceState": "active",
+      "cover": "",
+      "media": [],
+      "video": null,
+      "syndication": {
+        "author": "",
+        "source": "QQ 空间"
+      },
+      "historicalInteractions": {
+        "commentCount": 0,
+        "likeCount": 0
+      }
+    },
+    {
+      "path": "/content/fantasy/diary/qq-b4ecdeb02cd6b76a06070300.html",
+      "label": "铁丝扎穿鞋底之后",
+      "date": "2026-09-26",
+      "phase": "fantasy",
+      "type": "diary",
+      "kind": "qq-post",
+      "category": "生活随想",
+      "tags": [
+        "QQ空间",
+        "生活随想"
+      ],
+      "summary": "走路上还被铁丝扎穿鞋底，得亏运气好没戳进脚掌",
+      "featured": false,
+      "words": 80,
+      "minutes": 1,
+      "sourceFile": "content-src/imported/qq/qq-b4ecdeb02cd6b76a06070300.json",
+      "source": {
+        "provider": "qq",
+        "id": "qq-b4ecdeb02cd6b76a06070300",
+        "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02cd6b76a06070300",
+        "state": "active",
+        "visibility": "unknown",
+        "adapterVersion": 1
+      },
+      "sourceState": "active",
+      "cover": "",
+      "media": [],
+      "video": null,
+      "syndication": {
+        "author": "",
+        "source": "QQ 空间"
+      },
+      "historicalInteractions": {
+        "commentCount": 2,
+        "likeCount": 0
+      }
+    },
+    {
+      "path": "/content/fantasy/diary/qq-b4ecdeb0e701b16a0da80800.html",
+      "label": "体验 Icarace 后的一点随想",
+      "date": "2026-09-21",
+      "phase": "fantasy",
+      "type": "diary",
+      "kind": "qq-post",
+      "category": "ACG随想",
+      "tags": [
+        "QQ空间",
+        "ACG"
+      ],
+      "summary": "试了一下Icarace，仿佛体验了苍彼空竞的感觉",
+      "featured": false,
+      "words": 22,
+      "minutes": 1,
+      "sourceFile": "content-src/imported/qq/qq-b4ecdeb0e701b16a0da80800.json",
+      "source": {
+        "provider": "qq",
+        "id": "qq-b4ecdeb0e701b16a0da80800",
+        "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e701b16a0da80800",
+        "state": "active",
+        "visibility": "unknown",
+        "adapterVersion": 1
+      },
+      "sourceState": "active",
+      "cover": "",
+      "media": [],
+      "video": null,
+      "syndication": {
+        "author": "",
+        "source": "QQ 空间"
+      },
+      "historicalInteractions": {
+        "commentCount": 0,
+        "likeCount": 0
+      }
     },
     {
       "path": "/content/fantasy/diary/2026-09-13-open-the-corridor.html",

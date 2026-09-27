@@ -5,7 +5,7 @@
     <link>https://cpower-2NG.github.io/</link>
     <description>Logic 与 Fantasy 双相位的个人知识界面：技术笔记、翻译随笔与项目沉淀。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 27 Sep 2026 12:12:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 12:17:20 GMT</lastBuildDate>
     <atom:link href="https://cpower-2NG.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>冬暮川滚滚：浪漫与祈愿</title>
@@ -98,6 +98,36 @@
       <category>fantasy</category>
       <category>本地导入</category>
       <description>挺好的，就像许久不见的朋友久别重逢后久违的酒后畅谈一样。</description>
+    </item>
+    <item>
+      <title>被 Azure 设备认证折磨的一天</title>
+      <link>https://cpower-2NG.github.io/content/logic/diary/qq-b4ecdeb087d1b76a9f960b00.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/logic/diary/qq-b4ecdeb087d1b76a9f960b00.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <category>logic</category>
+      <category>QQ空间</category>
+      <category>Azure</category>
+      <description>登个azure被设备安全性认证气晕</description>
+    </item>
+    <item>
+      <title>铁丝扎穿鞋底之后</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/diary/qq-b4ecdeb02cd6b76a06070300.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/diary/qq-b4ecdeb02cd6b76a06070300.html</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>QQ空间</category>
+      <category>生活随想</category>
+      <description>走路上还被铁丝扎穿鞋底，得亏运气好没戳进脚掌</description>
+    </item>
+    <item>
+      <title>体验 Icarace 后的一点随想</title>
+      <link>https://cpower-2NG.github.io/content/fantasy/diary/qq-b4ecdeb0e701b16a0da80800.html</link>
+      <guid isPermaLink="true">https://cpower-2NG.github.io/content/fantasy/diary/qq-b4ecdeb0e701b16a0da80800.html</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <category>fantasy</category>
+      <category>QQ空间</category>
+      <category>ACG</category>
+      <description>试了一下Icarace，仿佛体验了苍彼空竞的感觉</description>
     </item>
     <item>
       <title>开廊手记</title>
