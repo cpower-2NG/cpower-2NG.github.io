@@ -24,7 +24,6 @@ const PHASES = {
     ],
     themeColor: '#0a0f14',
     bridgeColor: 'rgba(121, 201, 192, 0.4)',
-    commentsTheme: 'dark_dimmed',
     treeUrl: '/data/logic-tree.json',
     dashboardUrl: '/content/dashboards/logic-dash.html',
   },
@@ -44,7 +43,6 @@ const PHASES = {
     ],
     themeColor: '#f6f0e7',
     bridgeColor: 'rgba(185, 122, 131, 0.45)',
-    commentsTheme: 'light',
     treeUrl: '/data/fantasy-tree.json',
     dashboardUrl: '/content/dashboards/fantasy-dash.html',
   },
@@ -315,7 +313,9 @@ function applyPhase(phase) {
   if (window.BifrostAmbience) {
     window.BifrostAmbience.setPhase(phase);
   }
-  syncCommentsTheme();
+  if (window.BifrostInteractions) {
+    window.BifrostInteractions.setPhase(phase);
+  }
   updateStatusNote();
   updateFooterClock();
   localStorage.setItem(STORAGE_KEYS.phase, phase);
@@ -493,66 +493,26 @@ function onFirstInteraction(event) {
   void ambience.resume();
 }
 
-// ---------- 评论 ----------
-
-function commentsConfig() {
-  const comments = state.siteConfig ? state.siteConfig.comments : null;
-  if (!comments || comments.provider !== 'giscus') {
-    return null;
-  }
-
-  if (!comments.repo || !comments.repoId || !comments.categoryId) {
-    return null;
-  }
-
-  return comments;
-}
+// ---------- 评论与互动 ----------
 
 function mountComments(entry) {
-  removeComments();
-  const config = commentsConfig();
-  if (!config || !entry || entry.type === 'diary') {
+  if (!window.BifrostInteractions) {
     return;
   }
-
-  const section = document.createElement('section');
-  section.className = 'comments';
-  section.innerHTML = '<p class="hero__eyebrow">讨论</p>';
-
-  const script = document.createElement('script');
-  script.src = 'https://giscus.app/client.js';
-  script.async = true;
-  script.crossOrigin = 'anonymous';
-  script.dataset.repo = config.repo;
-  script.dataset.repoId = config.repoId;
-  script.dataset.category = config.category || '';
-  script.dataset.categoryId = config.categoryId;
-  script.dataset.mapping = config.mapping || 'pathname';
-  script.dataset.strict = '0';
-  script.dataset.reactionsEnabled = config.reactionsEnabled === false ? '0' : '1';
-  script.dataset.emitMetadata = '0';
-  script.dataset.inputPosition = config.inputPosition || 'top';
-  script.dataset.theme = PHASES[state.phase].commentsTheme;
-  script.dataset.lang = 'zh-CN';
-
-  section.appendChild(script);
-  elements.viewer.append(section);
+  window.BifrostInteractions.mount(
+    entry,
+    elements.viewer,
+    state.siteConfig ? state.siteConfig.interactions : null,
+    state.phase,
+  );
 }
 
 function removeComments() {
-  elements.viewer.querySelectorAll('.comments').forEach((node) => node.remove());
-}
-
-function syncCommentsTheme() {
-  const frame = elements.viewer.querySelector('iframe.giscus-frame');
-  if (!frame || !frame.contentWindow) {
+  if (window.BifrostInteractions) {
+    window.BifrostInteractions.clear(elements.viewer);
     return;
   }
-
-  frame.contentWindow.postMessage(
-    { giscus: { setConfig: { theme: PHASES[state.phase].commentsTheme } } },
-    'https://giscus.app',
-  );
+  elements.viewer.querySelectorAll('.comments').forEach((node) => node.remove());
 }
 
 function entryByPath(path) {
@@ -1093,6 +1053,21 @@ function updateDocumentMeta(path) {
     ? entry.label
     : path.split('/').pop().replace(/\.html?$/i, '').replace(/[-_]/g, ' ');
   document.title = `${pageName || 'BIFROST'} · ${PHASES[state.phase].label}`;
+
+  let image = document.querySelector('meta[property="og:image"]');
+  const twitterCard = document.querySelector('meta[name="twitter:card"]');
+  if (!image) {
+    image = document.createElement('meta');
+    image.setAttribute('property', 'og:image');
+    document.head.append(image);
+  }
+  if (entry?.cover) {
+    image.setAttribute('content', entry.cover);
+    twitterCard?.setAttribute('content', 'summary_large_image');
+  } else {
+    image.remove();
+    twitterCard?.setAttribute('content', 'summary');
+  }
 }
 
 function syncUrl(options = {}) {

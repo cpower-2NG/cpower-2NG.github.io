@@ -1,0 +1,6 @@
+.git*
+*.md
+test/
+local.settings.json
+local.settings.example.json
+npm-debug.log

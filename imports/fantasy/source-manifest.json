@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-09-27T06:48:21.9821600Z",
+  "source": "fantasy文档 (user supplied)",
+  "storage": "imports/fantasy/raw (local working copy; excluded from Git)",
+  "files": [
+    {
+      "path": "0自转.txt",
+      "size": 3460,
+      "extension": ".txt",
+      "sha256": "c7c8c96179b9c72a18c46390f89d06be9cb4ca0d5a923ebaa8133930ba8c7426"
+    },
+    {
+      "path": "冬滚滚——仙人星.docx",
+      "size": 6353982,
+      "extension": ".docx",
+      "sha256": "4cf2e3993b87940aebeab25ed248c88e8074f0b28ceaf2c0bc7a1ab9f9fc21fa"
+    },
+    {
+      "path": "冬滚滚.docx",
+      "size": 6353982,
+      "extension": ".docx",
+      "sha256": "4cf2e3993b87940aebeab25ed248c88e8074f0b28ceaf2c0bc7a1ab9f9fc21fa"
+    },
+    {
+      "path": "冬滚滚排版.pdf",
+      "size": 61806935,
+      "extension": ".pdf",
+      "sha256": "fd285f011119b848ddfb1632129a6d70d220cf192df763c3cf9c0f23fb9e0d5c"
+    },
+    {
+      "path": "冬暮川滚滚.txt",
+      "size": 1932,
+      "extension": ".txt",
+      "sha256": "e9a89816078f3cc7eed1edbd7ffea8aff2b36684aa0e65cf616531107b0e4652"
+    },
+    {
+      "path": "反乌托邦.txt",
+      "size": 1273,
+      "extension": ".txt",
+      "sha256": "ff8b314a26c2d8160f464feaeafa3c5c8f994c51cf1cff121867256257e34972"
+    },
+    {
+      "path": "迷失东京.txt",
+      "size": 285,
+      "extension": ".txt",
+      "sha256": "24fc63dc76bce621bde8a75b8cfe8fc26f3244ac804a633fdb343bca8fb1ec19"
+    },
+    {
+      "path": "名片.png",
+      "size": 592865,
+      "extension": ".png",
+      "sha256": "f142f279e602e3affec6b93fc9daf1be28ce48868a04f0d62a770d4fefb39efd"
+    },
+    {
+      "path": "名片背面.png",
+      "size": 78016,
+      "extension": ".png",
+      "sha256": "dc4d9b27f4e0396c5d8dd1d04e0adbc4c556b7968f612a55f6114a17349e174a"
+    },
+    {
+      "path": "情绪多变的少女.txt",
+      "size": 970,
+      "extension": ".txt",
+      "sha256": "f589113ff5ffcb552a6768e1117fedc39e90be01c1d756b0c7a77415b0258777"
+    },
+    {
+      "path": "三无.txt",
+      "size": 2395,
+      "extension": ".txt",
+      "sha256": "daa4de89734d82a033401d1ac5215052b95d0491579a96835f07a690cbc72fce"
+    },
+    {
+      "path": "生命的备件.txt",
+      "size": 946,
+      "extension": ".txt",
+      "sha256": "dd886f834e1bee05f56633294925cf6009213a857c4777028e9648c94b2c4b4e"
+    },
+    {
+      "path": "无职.txt",
+      "size": 2622,
+      "extension": ".txt",
+      "sha256": "e12b65f567559e26b8f48fe2e6d80ae10d1385242659bbccce30d3e73c044016"
+    },
+    {
+      "path": "筱泽广.txt",
+      "size": 891,
+      "extension": ".txt",
+      "sha256": "9dbef6140659d64e16aaff89b3bf54ee5dd9c35b10cb369646ede014bc6e647c"
+    },
+    {
+      "path": "纸上魔法使/1.翡翠的排挤原理.txt",
+      "size": 508,
+      "extension": ".txt",
+      "sha256": "35bce63873f07023abfcc6314dd527276e76e9492bbcc122268e2f83a3c766f6"
+    },
+    {
+      "path": "纸上魔法使/2.红宝石的天作之合.txt",
+      "size": 918,
+      "extension": ".txt",
+      "sha256": "d6e7f497f4efae6a938127307db97689a5052ee6e9726f142146dbd0610698be"
+    },
+    {
+      "path": "纸上魔法使/3.蓝宝石的存在证明.txt",
+      "size": 1711,
+      "extension": ".txt",
+      "sha256": "78990f3ffa3b9d9d440e1cec00f612ca85c1cd4f29478613100cc742cdc87f78"
+    },
+    {
+      "path": "纸上魔法使/4.紫水晶的怪异传说.txt",
+      "size": 543,
+      "extension": ".txt",
+      "sha256": "cc988ad94fbb5a11f0f8317b35f082fcb4bf3ccb674ebfcd2f0547f4763d8ab5"
+    },
+    {
+      "path": "纸上魔法使/5.磷灰石的怠惰现象.txt",
+      "size": 1047,
+      "extension": ".txt",
+      "sha256": "5a628bfc65ae2e63d0c93b9c220bfa82b78e0e64934b6e069917564799a6eb13"
+    },
+    {
+      "path": "akh‘s fmt.txt",
+      "size": 3367,
+      "extension": ".txt",
+      "sha256": "f5bdf758319e1a9485f816bbece9938a3bfb3760b06961167ca87322667d032c"
+    }
+  ],
+  "totals": {
+    "fileCount": 20,
+    "bytes": 75208648
+  }
+}

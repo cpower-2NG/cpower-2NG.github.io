@@ -79,7 +79,9 @@ BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而
 ├── index.html
 ├── core/
 │   ├── engine.js
-│   └── style.css
+│   ├── interactions.js
+│   ├── style.css
+│   └── admin.js
 ├── content/
 │   ├── dashboards/
 │   ├── logic/
@@ -87,6 +89,9 @@ BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而
 ├── data/
 │   ├── logic-tree.json
 │   └── fantasy-tree.json
+├── api/                  Azure Functions 互动 API
+├── sync/                 Playwright QQ 云端同步器
+├── infra/                Bicep 基础设施
 └── assets/
 ```
 
@@ -205,10 +210,11 @@ BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的
 - 语言策略：界面文案以中文为主，英文只作点缀——相位名（Logic / Fantasy）、站名、编号、命令名与代码术语保留英文，标题、状态、导航与按钮一律中文。
 - 中文排版：标题与正文各自用 `em` 控制行宽，**不要用 `ch`**——`ch` 是拉丁数字 "0" 的宽度，对全角汉字只有约一半宽，会让大标题在右侧还剩大片空白时提前换行（实测 13 字标题会被挤成两行）。标题用 `text-wrap: balance`，需要换行时各行长度接近，避免最后一行只剩一两个字；正文用 `text-wrap: pretty`；两者都设 `line-break: strict` 以遵循中文标点的避头尾规则。`.hero` 本身不再限制整块宽度，行宽由 `.hero__title`（15em）与 `.hero__text`（36em）分别决定。
 - 环境音（`core/ambience.js`）：按相位程序化生成的声音氛围，**不依赖任何音频素材文件**。Logic 是低频嗡鸣加极慢的滤波器摆动，Fantasy 是柔和风声加五声音阶的随机铃声；切换相位时交叉淡入淡出。默认静音，首次由访客点击开关后才创建 AudioContext，偏好写入 LocalStorage；上次开着环境音时，页面重新加载后会显示"点击启动"并在首次交互时恢复播放。
-- 评论（giscus）：由 `data/site.json` 驱动，填好 `comments` 里的 `repo` / `repoId` / `categoryId` 后自动出现在长文正文下方（日记类条目不挂评论），主题随相位切换；未填写配置时整块隐藏。
+- 评论、一层回复、点赞与阅读数：由 `data/site.json` 的 `interactions` 接入 Azure Functions + Cosmos DB；昵称可以留空并明确选择匿名，邮箱与个人网站可选。Azure 未配置或暂时不可用时，正文阅读不受影响。
+- QQ 云端同步：Container Apps Job 使用 Playwright 建立并保存加密会话，按规则将本人说说、图片、视频转发和匿名化历史互动提交到 `content-src/imported/qq/`。
 - 订阅与站点地图：`build.mjs` 依 `data/site.json` 的 `siteUrl` 生成 `feed.xml`（RSS 2.0）与 `sitemap.xml`。
 
-后续主要工作是继续替换占位文章、补充图片与媒体资源、细化默认仪表盘内容，并根据审核意见调整视觉与信息架构。
+进一步部署说明见 `docs/AZURE_SETUP.md`。公开文章始终保存在 Git 中，Azure 故障不会阻止内容部署。
 
 ## 内容工作流
 
@@ -239,6 +245,12 @@ type: diary           # diary（短内容）或 article（长文）
 tags: 手记, 随笔
 summary: 一句话摘要    # 可省略，自动截取首段
 featured: true        # 可省略，true 时进入仪表盘精选位
+kind: video           # 可省略：standard / video / pdf / qq-post
+video_platform: 哔哩哔哩
+video_embed: https://player.bilibili.com/player.html?bvid=BV...
+video_url: https://www.bilibili.com/video/BV...
+video_author: 原作者
+cover: https://...    # 社交卡片和视频封面
 ---
 ```
 
@@ -258,32 +270,59 @@ featured: true        # 可省略，true 时进入仪表盘精选位
 
 没有 meta 块的片段仍可被加载阅读，只是不进入最近更新等数据区块（标题会从 `<h1>` 推断）。
 
+### QQ 云端同步
+
+QQ 同步由 `sync/` 中的独立容器执行。第一次使用需要在管理页重新连接 QQ；之后 Container Apps Job 每日运行。同步器只读取本人动态，输出规范化 JSON 到 `content-src/imported/qq/`，再由 `build.mjs` 生成公开 HTML。
+
+同步内容支持图片响应式版本、视频来源卡片、来源删除状态和匿名化 QQ 历史评论。自动发布默认关闭，首轮 `--dry-run` 验收后由管理页开启。
+
+### 本地文章导入
+
+纯文本、Markdown、HTML 与 PDF 可通过本地导入工具进入内容目录：
+
+```powershell
+node tools/import-local.mjs "C:\path\to\article.md" --phase fantasy --type article --title "文章标题"
+```
+
+HTML 会移除脚本、事件属性与危险协议；PDF 保留原件并生成索引页。复杂出版物需要人工确认排版与附加媒体。
+
+当前已经保全的 Fantasy 原始文档与处理判断见 `imports/fantasy/README.md`。原始大文件保存在本地 `imports/fantasy/raw/`，暂不直接推入公开 Git 仓库。
+
+公开的 Bilibili Opus 文章可批量导入正文和图片：
+
+```powershell
+python tools/import_bilibili_opus.py "https://www.bilibili.com/opus/..."
+```
+
 ### 条目类型与展示分型
 
 `diary` 与 `article` 目前影响：仪表盘归入哪个区块、文章页元信息行的类型文案。引擎同时会在内容容器上写入 `data-entry-type`，后续可以为两种类型做完全不同的版式（例如日记的窄栏时间线、长文的多级目录）。
 
 ## 站点配置
 
-`data/site.json` 保存站点级配置，改完无需构建、刷新即可生效：
+`data/site.json` 保存站点级配置。Azure 地址与 Entra 应用标识部署后填写：
 
 ```json
 {
   "siteUrl": "https://cpower-2NG.github.io",
-  "comments": {
-    "provider": "giscus",
-    "repo": "owner/repo",
-    "repoId": "R_xxxx",
-    "category": "Announcements",
-    "categoryId": "DIC_xxxx",
-    "mapping": "pathname",
+  "interactions": {
+    "provider": "azure",
+    "enabled": true,
+    "apiBaseUrl": "https://example.azurewebsites.net/api",
+    "commentsEnabled": true,
     "reactionsEnabled": true,
-    "inputPosition": "top"
+    "viewsEnabled": true,
+    "admin": {
+      "tenantId": "Microsoft Entra tenant id",
+      "clientId": "SPA application client id",
+      "apiScope": "api://.../access_as_user"
+    }
   }
 }
 ```
 
 - `siteUrl`：生成 `feed.xml` 与 `sitemap.xml` 时的绝对地址前缀。
-- `comments`：启用 giscus 评论需要在仓库安装 [giscus App](https://github.com/apps/giscus)，并在 [giscus.app](https://giscus.app) 填入仓库后取得 `repoId` 与 `categoryId`。三项 ID 任一为空时评论区整体隐藏，页面不会残留空壳。
+- `interactions`：控制在文章与手记下方挂载的评论、点赞和阅读数。`enabled` 为 `false` 或地址为空时整块隐藏，不产生空壳。
 
 ## 环境音
 
@@ -309,7 +348,7 @@ featured: true        # 可省略，true 时进入仪表盘精选位
 
 ## 项目状态
 
-当前阶段：内容基建、视觉强化、表达扩展三个批次均已完成。写作流水线（Markdown 构建 + entries 索引）、仪表盘数据化、命令面板搜索（限当前相位）、文章页元信息与上下篇导航、404 深链重定向、环境音、giscus 评论接入位、RSS 与站点地图都可用；界面已中文化（英文仅作点缀）。剩余方向：持续填充真实内容、按 `data-entry-type` 做日记与长文的分型版式、`og:image` 社交卡片图、GitHub Actions 部署 workflow。
+当前阶段：静态内容基建、Azure 互动接口、管理页、基础设施模板、QQ 云端同步和自动部署 workflow 均已落地。生产启用前仍需在 Azure 创建 Entra 应用、GitHub App、部署资源并完成第一次 QQ 扫码验收；具体步骤见 `docs/AZURE_SETUP.md`。
 
 ## 本地预览
 
@@ -350,3 +389,20 @@ node preview-server.mjs 8000 --no-open
 ```powershell
 ./preview-server.ps1 -Port 8000 -NoBrowser
 ```
+
+## 本地验证
+
+```powershell
+node build.mjs
+node --test tests/*.test.mjs
+
+cd api
+npm install
+npm test
+
+cd ../sync
+npm install
+npm test
+```
+
+Azure 资源创建、Entra 登录、GitHub App 和第一次 QQ 扫码的完整步骤见 `docs/AZURE_SETUP.md`。

@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "由管理页或同步器维护的条目覆盖。键支持 id:<QQ动态ID>、path:<站点路径> 或 source:<来源类型>。",
+  "overrides": {}
+}

@@ -1,0 +1,65 @@
+name: Deploy Azure infrastructure
+
+on:
+  workflow_dispatch:
+    inputs:
+      location:
+        description: Azure region
+        required: true
+        default: eastasia
+      namePrefix:
+        description: Resource name prefix
+        required: true
+        default: bifrost
+      syncImage:
+        description: Temporary public container image used until the GHCR image is published
+        required: true
+        default: mcr.microsoft.com/k8se/quickstart-jobs:latest
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  infra:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Deploy Bicep
+        env:
+          RESOURCE_GROUP: ${{ secrets.AZURE_RESOURCE_GROUP }}
+          ENTRA_TENANT_ID: ${{ secrets.ENTRA_TENANT_ID }}
+          ENTRA_CLIENT_ID: ${{ secrets.ENTRA_CLIENT_ID }}
+          ENTRA_API_AUDIENCE: ${{ secrets.ENTRA_API_AUDIENCE }}
+          ADMIN_OBJECT_IDS: ${{ secrets.ENTRA_ADMIN_OBJECT_ID }}
+          GITHUB_APP_ID: ${{ secrets.GH_APP_ID }}
+          GITHUB_APP_INSTALLATION_ID: ${{ secrets.GH_APP_INSTALLATION_ID }}
+          GITHUB_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          HASH_SALT: ${{ secrets.INTERACTION_HASH_SALT }}
+          BUDGET_EMAIL: ${{ secrets.AZURE_BUDGET_EMAIL }}
+        run: |
+          args=(
+            --resource-group "$RESOURCE_GROUP"
+            --template-file infra/main.bicep
+            --parameters
+              location="${{ inputs.location }}"
+              namePrefix="${{ inputs.namePrefix }}"
+              syncImage="${{ inputs.syncImage }}"
+              entraTenantId="$ENTRA_TENANT_ID"
+              entraClientId="$ENTRA_CLIENT_ID"
+              entraApiAudience="$ENTRA_API_AUDIENCE"
+              adminObjectIds="[\"$ADMIN_OBJECT_IDS\"]"
+              githubAppId="$GITHUB_APP_ID"
+              githubAppInstallationId="$GITHUB_APP_INSTALLATION_ID"
+              githubAppPrivateKey="$GITHUB_APP_PRIVATE_KEY"
+              hashSalt="$HASH_SALT"
+          )
+          if [[ -n "$BUDGET_EMAIL" ]]; then
+            args+=(budgetContactEmails="[\"$BUDGET_EMAIL\"]")
+          fi
+          az deployment group create "${args[@]}"

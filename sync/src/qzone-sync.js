@@ -1,0 +1,420 @@
+import { createHash } from 'node:crypto';
+import { QzoneClient, QzoneNotFoundError } from 'qzone-sdk';
+import { clients } from './clients.js';
+import { anonymizeComment } from './anonymize.js';
+import { createRawArchive } from './archive.js';
+import {
+  commitRecords,
+  listContentRecords,
+  publishDryRunReport,
+  publishQuarantineRecords,
+} from './github.js';
+import { storeImage } from './media.js';
+import { contentHash, evaluatePost, hashSalt, loadRules, safeRecordId } from './rules.js';
+import { readState, setQzoneStatus, setStatus, writeState } from './state.js';
+import { videoSourceFromText } from './video.js';
+
+function sleep(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
+}
+
+async function loadSession() {
+  const secret = await clients().secrets.getSecret('qzone-session');
+  if (!secret.value) {
+    throw new Error('QQ 登录会话不存在，请先在管理台重新连接 QQ。');
+  }
+  return JSON.parse(secret.value);
+}
+
+async function persistSession(session) {
+  await clients().secrets.setSecret('qzone-session', JSON.stringify(session));
+}
+
+function typeFor(text, media) {
+  const length = String(text || '').replace(/\s+/g, '').length;
+  return length <= 180 && media.length <= 2 ? 'diary' : 'article';
+}
+
+function uniqueMedia(media) {
+  const seen = new Set();
+  return media.filter((item) => {
+    const key = item.url || item.sourceUrl;
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function applyOverride(record, overrides) {
+  const override = overrides[`id:${record.source?.id || ''}`]
+    || overrides[`path:${record.id}`]
+    || null;
+  if (!override || typeof override !== 'object') return record;
+  return {
+    ...record,
+    ...(override.phase === 'logic' || override.phase === 'fantasy' ? { phase: override.phase } : {}),
+    ...(override.type === 'diary' || override.type === 'article' ? { type: override.type } : {}),
+    ...(override.title ? { title: String(override.title) } : {}),
+    ...(override.summary ? { summary: String(override.summary) } : {}),
+    ...(Array.isArray(override.tags) ? { tags: override.tags.map(String) } : {}),
+    ...(typeof override.featured === 'boolean' ? { featured: override.featured } : {}),
+    ...(override.publishStatus ? { publishStatus: String(override.publishStatus) } : {}),
+    overrides: {
+      ...(record.overrides || {}),
+      ...override,
+    },
+  };
+}
+
+async function mapMedia(post, cookies) {
+  const media = [];
+  const warnings = [];
+  for (const item of post.media || []) {
+    try {
+      if (item.kind === 'image') {
+        media.push(await storeImage(item.url, cookies));
+      } else if (item.kind === 'video') {
+        let cover = '';
+        if (item.previewUrl) {
+          const stored = await storeImage(item.previewUrl, cookies);
+          cover = stored.url;
+          media.push({ ...stored, kind: 'video-cover' });
+        }
+        media.push({
+          kind: 'video',
+          url: item.url,
+          sourceUrl: item.url,
+          cover,
+        });
+      }
+    } catch (error) {
+      warnings.push(`MEDIA:${item.kind}:${error.message}`);
+    }
+  }
+  return { media: uniqueMedia(media), warnings };
+}
+
+function sourceMediaDescriptor(item) {
+  if (item.kind === 'video') {
+    return {
+      kind: 'video',
+      url: item.url || '',
+      sourceUrl: item.url || '',
+      cover: item.previewUrl || '',
+    };
+  }
+  if (item.kind === 'image') {
+    return {
+      kind: 'image',
+      url: item.url || '',
+      sourceUrl: item.url || '',
+      width: Number(item.width) || undefined,
+      height: Number(item.height) || undefined,
+      sourceQuality: Number(item.width) >= 1600 ? 'original' : Number(item.width) >= 720 ? 'high' : 'low',
+      variants: [],
+    };
+  }
+  return null;
+}
+
+function normalizeVideo(post, media) {
+  const fromText = videoSourceFromText(post.content);
+  if (fromText) {
+    return {
+      ...fromText,
+      cover: media.find((item) => item.kind === 'video-cover')?.url
+        || media.find((item) => item.kind === 'image')?.url
+        || '',
+      note: '转载视频，仅保存本站封面并链接原始来源。',
+    };
+  }
+  const native = (post.media || []).find((item) => item.kind === 'video');
+  if (!native) return null;
+  return {
+    platform: 'QQ 空间',
+    sourceUrl: native.url,
+    embedUrl: '',
+    cover: media.find((item) => item.kind === 'video-cover')?.url || native.previewUrl || '',
+    note: 'QQ 空间原生视频，播放可用性取决于原来源。',
+  };
+}
+
+async function normalizePost(post, rules, salt, cookies, { allowPublicMedia }) {
+  const sourceMedia = (post.media || []).map(sourceMediaDescriptor).filter(Boolean);
+  const sourceVideo = normalizeVideo(post, sourceMedia);
+  const comments = (post.comments || []).map((comment) => anonymizeComment(comment, salt));
+  const warnings = [];
+  if (post.commentsComplete === false) warnings.push('COMMENTS_INCOMPLETE');
+  const preliminaryDecision = evaluatePost(
+    {
+      content: String(post.content || '').trim(),
+      media: sourceMedia,
+      video: sourceVideo,
+      visibility: String(post.visibility || 'unknown'),
+      kind: post.kind,
+    },
+    rules,
+    'complete',
+  );
+
+  let media = sourceMedia;
+  let video = sourceVideo;
+  if (allowPublicMedia && preliminaryDecision.publishStatus === 'published') {
+    const mappedMedia = await mapMedia(post, cookies);
+    media = mappedMedia.media?.filter((item) => item.kind !== 'video-cover') || [];
+    video = normalizeVideo(post, mappedMedia.media || []);
+    warnings.push(...mappedMedia.warnings);
+  }
+
+  const candidate = {
+    id: `qq-${safeRecordId(post.id)}`,
+    schemaVersion: 1,
+    title: `QQ 说说 · ${post.createdAt?.slice(0, 10) || '日期未知'}`,
+    date: post.createdAt?.slice(0, 10) || '',
+    createdAt: post.createdAt || null,
+    phase: rules.defaultPhase || 'fantasy',
+    type: typeFor(post.content, media),
+    tags: ['QQ空间', '自动同步'],
+    summary: String(post.content || '').replace(/\s+/g, ' ').slice(0, 80),
+    text: String(post.content || '').trim(),
+    media,
+    video,
+    cover: video?.cover || media.find((item) => item.kind === 'image')?.url || '',
+    historicalInteractions: {
+      likeCount: Number(post.likeCount) || 0,
+      commentCount: Number(post.commentCount) || comments.length,
+      comments,
+    },
+    source: {
+      provider: 'qq',
+      id: String(post.id),
+      authorId: String(post.authorId),
+      url: `https://user.qzone.qq.com/${encodeURIComponent(post.authorId)}/mood/${encodeURIComponent(post.id)}`,
+      state: 'active',
+      visibility: String(post.visibility || 'unknown'),
+      adapterVersion: 1,
+      warnings,
+      missingChecks: 0,
+    },
+    syndication: {
+      author: '',
+      source: 'QQ 空间',
+    },
+  };
+  const decision = evaluatePost(
+    {
+      content: candidate.text,
+      media,
+      video,
+      visibility: candidate.source.visibility,
+      kind: post.kind,
+    },
+    rules,
+    warnings.some((warning) => warning.startsWith('MEDIA:')) ? 'partial' : 'complete',
+  );
+  candidate.publishStatus = decision.publishStatus;
+  candidate.reviewReasons = decision.reasons;
+  candidate.contentHash = contentHash({
+    text: candidate.text,
+    media: candidate.media,
+    video: candidate.video,
+  });
+  return candidate;
+}
+
+async function recheckDeleted(client, rules) {
+  const existing = await listContentRecords();
+  const candidates = existing
+    .filter(({ record }) => record.source?.state !== 'deleted' && record.source?.id && record.source?.authorId)
+    .sort((a, b) => String(a.record.source.lastCheckedAt || '').localeCompare(String(b.record.source.lastCheckedAt || '')))
+    .slice(0, 20);
+  const updates = [];
+
+  for (const { record } of candidates) {
+    try {
+      await client.getPost({
+        post: {
+          id: record.source.id,
+          authorId: record.source.authorId,
+        },
+      });
+      record.source.missingChecks = 0;
+    } catch (error) {
+      if (!(error instanceof QzoneNotFoundError)) throw error;
+      record.source.missingChecks = Number(record.source.missingChecks || 0) + 1;
+      if (record.source.missingChecks >= Number(rules.safety?.confirmedMissingChecks || 2)) {
+        record.source.state = 'deleted';
+        record.source.deletedDetectedAt = new Date().toISOString();
+      }
+    }
+    record.source.lastCheckedAt = new Date().toISOString();
+    updates.push(record);
+    await sleep(1200);
+  }
+  return updates;
+}
+
+export async function syncQzone() {
+  const { config, secrets } = clients();
+  const rules = await loadRules();
+  const overridesDocument = await readState('content-overrides', 'settings');
+  const overrides = overridesDocument?.overrides && typeof overridesDocument.overrides === 'object'
+    ? overridesDocument.overrides
+    : {};
+  const storedRequest = await readState('sync-request');
+  const request = storedRequest && storedRequest.state !== 'completed' ? storedRequest : null;
+  const dryRun = Boolean(request?.dryRun);
+  const days = request?.mode === 'backfill'
+    ? Number(request.backfillDays) || rules.initialBackfillDays || 31
+    : 7;
+  const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+  const salt = await hashSalt();
+  const session = await loadSession();
+  const client = new QzoneClient({
+    session,
+    onSessionChange: persistSession,
+    logger: (event) => {
+      if (event.level === 'warn' || event.level === 'error') {
+        console.warn(JSON.stringify(event));
+      }
+    },
+  });
+  await setQzoneStatus('connected', 'QQ 登录会话可用。');
+  const cookies = (await client.exportSession()).cookies;
+  const records = [];
+  const pendingReview = [];
+  const quarantined = [];
+  const rawArchive = createRawArchive();
+  let cursor = null;
+  let pages = 0;
+  let reachedCutoff = false;
+
+  await setStatus('running', dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。');
+  try {
+    do {
+      const page = await client.listFeeds({ scope: 'self', limit: 20, cursor });
+      pages += 1;
+      for (const feed of page.items) {
+        const created = feed.createdAt ? new Date(feed.createdAt).getTime() : 0;
+        if (created && created < cutoff) {
+          reachedCutoff = true;
+          break;
+        }
+        let post = feed;
+        try {
+          post = await client.getPost({ post: feed });
+        } catch (error) {
+          console.warn(`Unable to load QQ post detail ${feed.id}: ${error.message}`);
+        }
+        rawArchive.add(post);
+        const record = applyOverride(
+          await normalizePost(post, rules, salt, cookies, {
+            allowPublicMedia: rules.autoPublish && !dryRun,
+          }),
+          overrides,
+        );
+        if (record.publishStatus === 'published') {
+          records.push(record);
+        } else if (
+          record.reviewReasons?.length
+          && record.reviewReasons.every((reason) => reason === 'AUTO_PUBLISH_DISABLED')
+        ) {
+          pendingReview.push(record);
+        } else {
+          quarantined.push(record);
+        }
+        await sleep(1600 + Math.floor(Math.random() * 700));
+      }
+      cursor = page.nextCursor;
+      if (!cursor || reachedCutoff || pages >= 50) break;
+      await sleep(900);
+    } while (cursor);
+
+    const deletedUpdates = await recheckDeleted(client, rules).catch((error) => {
+      console.warn(`Deletion recheck skipped: ${error.message}`);
+      return [];
+    });
+    const allRecords = [...records, ...pendingReview, ...quarantined, ...deletedUpdates];
+    const rawArchivePath = await rawArchive.save();
+    const report = {
+      schemaVersion: 1,
+      generatedAt: new Date().toISOString(),
+      cutoff: new Date(cutoff).toISOString(),
+      dryRun,
+      candidates: allRecords.map((record) => ({
+        id: record.id,
+        date: record.date,
+        publishStatus: record.publishStatus,
+        reviewReasons: record.reviewReasons || [],
+        contentHash: record.contentHash,
+      })),
+      records: dryRun ? allRecords : undefined,
+      counts: {
+        publishedCandidate: records.length,
+        pendingReview: pendingReview.length,
+        quarantined: quarantined.length,
+        deletedUpdates: deletedUpdates.length,
+      },
+      rawArchivePath,
+    };
+
+    if (dryRun) {
+      const reportPath = await publishDryRunReport(report);
+      await writeState('last-sync-report', {
+        type: 'last-sync-report',
+        reportPath,
+        ...report,
+      });
+      await writeState('sync-request', {
+        type: 'sync-request',
+        state: 'completed',
+        dryRun: true,
+        completedAt: new Date().toISOString(),
+      });
+      await setStatus('dry_run_complete', `验收同步完成，共 ${allRecords.length} 条候选。`);
+      return { ...report, reportPath };
+    }
+
+    if (rules.autoPublish && !records.length && !deletedUpdates.length) {
+      if (request) {
+        await writeState('sync-request', {
+          type: 'sync-request',
+          state: 'completed',
+          dryRun: false,
+          completedAt: new Date().toISOString(),
+        });
+      }
+      await setStatus('idle', '没有需要发布的新内容。');
+      return report;
+    }
+    const quarantinePath = quarantined.length
+      ? await publishQuarantineRecords(quarantined)
+      : '';
+    const commit = await commitRecords([...records, ...deletedUpdates]);
+    await writeState('last-sync-report', {
+      type: 'last-sync-report',
+      ...report,
+      quarantinePath,
+      commit,
+    });
+    await writeState('sync-request', {
+      type: 'sync-request',
+      state: 'completed',
+      dryRun: false,
+      completedAt: new Date().toISOString(),
+    });
+    await setStatus(
+      'idle',
+      commit.changed ? `已提交 ${commit.files} 个内容文件。` : '内容没有变化。',
+    );
+    return { ...report, commit };
+  } catch (error) {
+    await setStatus('failed', error.message);
+    if (/登录|会话|session|auth/i.test(error.message)) {
+      await setQzoneStatus('auth_required', error.message);
+    }
+    throw error;
+  } finally {
+    await client.close().catch(() => undefined);
+  }
+}

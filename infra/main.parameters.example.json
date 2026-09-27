@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "japaneast"
+    },
+    "namePrefix": {
+      "value": "bifrost"
+    },
+    "entraTenantId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "entraClientId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "entraApiAudience": {
+      "value": "api://00000000-0000-0000-0000-000000000000"
+    },
+    "adminObjectIds": {
+      "value": [
+        "00000000-0000-0000-0000-000000000000"
+      ]
+    },
+    "githubAppId": {
+      "value": "0"
+    },
+    "githubAppInstallationId": {
+      "value": "0"
+    },
+    "githubAppPrivateKey": {
+      "value": "REPLACE_WITH_SECURE_VALUE"
+    },
+    "hashSalt": {
+      "value": "REPLACE_WITH_SECURE_VALUE"
+    },
+    "budgetContactEmails": {
+      "value": []
+    }
+  }
+}

@@ -1,0 +1,48 @@
+name: Build and deploy QQ sync image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - sync/**
+      - .github/workflows/deploy-sync-image.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: sync
+          push: true
+          tags: |
+            ghcr.io/cpower-2ng/bifrost-qzone-sync:latest
+            ghcr.io/cpower-2ng/bifrost-qzone-sync:${{ github.sha }}
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Update Container Apps Jobs
+        env:
+          RESOURCE_GROUP: ${{ secrets.AZURE_RESOURCE_GROUP }}
+          SYNC_JOB: ${{ secrets.AZURE_SYNC_JOB_NAME }}
+          AUTH_JOB: ${{ secrets.AZURE_AUTH_JOB_NAME }}
+        run: |
+          image="ghcr.io/cpower-2ng/bifrost-qzone-sync:${GITHUB_SHA}"
+          az containerapp job update -g "$RESOURCE_GROUP" -n "$SYNC_JOB" --image "$image"
+          az containerapp job update -g "$RESOURCE_GROUP" -n "$AUTH_JOB" --image "$image"
+

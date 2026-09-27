@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-phase="logic">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="theme-color" content="#0a0f14">
+    <title>BIFROST 管理台</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="stylesheet" href="/core/admin.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@azure/msal-browser@4/dist/msal-browser.min.js"></script>
+    <script defer src="/core/admin.js"></script>
+</head>
+<body>
+    <header class="admin-header">
+        <div>
+            <p class="admin-eyebrow">BIFROST · CONTROL PLANE</p>
+            <h1>内容与互动管理台</h1>
+        </div>
+        <div class="admin-header__actions">
+            <span data-admin-account>尚未登录</span>
+            <button type="button" class="admin-button" data-admin-login>Microsoft 登录</button>
+            <button type="button" class="admin-button" data-admin-logout hidden>退出</button>
+            <a class="admin-button" href="/">返回站点</a>
+        </div>
+    </header>
+
+    <main class="admin-shell">
+        <section class="admin-panel admin-panel--wide">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">OVERVIEW</p>
+                    <h2>运行状态</h2>
+                </div>
+                <button type="button" class="admin-button" data-refresh>刷新</button>
+            </header>
+            <div class="admin-status" data-status-grid>
+                <p class="admin-muted">配置完成后加载状态。</p>
+            </div>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">QZONE</p>
+                    <h2>QQ 云端同步</h2>
+                </div>
+                <button type="button" class="admin-button" data-qzone-reconnect>重新连接 QQ</button>
+            </header>
+            <div class="admin-stack">
+                <div class="admin-actions">
+                    <button type="button" class="admin-button" data-sync-dry>验收同步</button>
+                    <button type="button" class="admin-button" data-sync-incremental>增量同步</button>
+                    <button type="button" class="admin-button" data-sync-backfill>回填 31 天</button>
+                </div>
+                <div class="admin-qr" data-qzone-qr hidden>
+                    <img alt="QQ 登录二维码" data-qzone-qr-image>
+                    <p>请使用手机 QQ 扫码。二维码只通过受保护的管理接口临时读取。</p>
+                </div>
+                <p class="admin-message" data-qzone-message></p>
+                <div class="admin-review-list" data-sync-report>
+                    <p class="admin-muted">验收同步完成后，这里会显示候选与隔离内容。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="admin-panel admin-panel--wide">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">COMMENTS</p>
+                    <h2>评论管理</h2>
+                </div>
+                <div class="admin-actions">
+                    <select class="admin-input" data-comment-status-filter>
+                        <option value="">全部状态</option>
+                        <option value="published">已发布</option>
+                        <option value="pending">待审核</option>
+                        <option value="hidden">已隐藏</option>
+                        <option value="deleted">已删除</option>
+                    </select>
+                    <button type="button" class="admin-button" data-comments-load>读取评论</button>
+                </div>
+            </header>
+            <div class="admin-comments" data-comments-list>
+                <p class="admin-muted">尚未读取评论。</p>
+            </div>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">RULES</p>
+                    <h2>同步规则</h2>
+                </div>
+                <button type="button" class="admin-button" data-rules-save>保存规则</button>
+            </header>
+            <textarea class="admin-code" data-rules-editor spellcheck="false"></textarea>
+            <p class="admin-message" data-rules-message></p>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">OVERRIDES</p>
+                    <h2>人工覆盖</h2>
+                </div>
+                <button type="button" class="admin-button" data-overrides-save>保存覆盖</button>
+            </header>
+            <textarea class="admin-code" data-overrides-editor spellcheck="false"></textarea>
+            <p class="admin-message" data-overrides-message></p>
+        </section>
+
+        <section class="admin-panel admin-panel--wide">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">PORTABILITY</p>
+                    <h2>导出与迁移</h2>
+                </div>
+                <button type="button" class="admin-button" data-export>立即导出</button>
+            </header>
+            <p class="admin-muted">每日自动生成 NDJSON 与 CSV 快照。公开文章不依赖 Azure，可直接继续部署。</p>
+            <p class="admin-message" data-export-message></p>
+        </section>
+    </main>
+
+    <div class="admin-toast" data-admin-toast role="status" aria-live="polite" hidden></div>
+</body>
+</html>

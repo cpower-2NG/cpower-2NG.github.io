@@ -1,6 +1,14 @@
 # Local preview and tooling output
 *.log
 .cache/
+node_modules/
+__pycache__/
+*.pyc
+.pages/
+api/local.settings.json
+artifacts/
+imports/**/raw/
+imports/**/derived/
 
 # Operating system files
 .DS_Store

@@ -1,0 +1,41 @@
+{
+  "tenantId": "0d4d7772-1969-44d1-be14-edfbbb2b69aa",
+  "subscriptionId": "ad9f2682-9ca0-47fe-8290-9848ab17cb9e",
+  "resourceGroup": "rg-bifrost-prod",
+  "location": "japaneast",
+  "admin": {
+    "displayName": "bifrost-admin-spa",
+    "applicationObjectId": "294132cb-5ba3-4bb7-a266-60324492a03b",
+    "servicePrincipalObjectId": "6e468e9d-1da1-49c2-84d9-74ab596029e1",
+    "clientId": "ea698470-98c7-4eb0-a697-2191a7f23270",
+    "apiAudience": "api://ea698470-98c7-4eb0-a697-2191a7f23270",
+    "apiScope": "api://ea698470-98c7-4eb0-a697-2191a7f23270/access_as_user"
+  },
+  "githubDeploy": {
+    "displayName": "bifrost-github-deploy",
+    "applicationObjectId": "80064ca8-6f46-4c33-804e-dbb4c0bbb1d4",
+    "servicePrincipalObjectId": "fa93a5a6-d944-4748-a960-cf90b4301ae4",
+    "clientId": "b64fb7d3-9826-49e2-9f77-773945ba35d4",
+    "federatedCredentialName": "github-main",
+    "repository": "cpower-2NG/cpower-2NG.github.io",
+    "branch": "main"
+  },
+  "githubApp": {
+    "displayName": "BIFROST Content Sync",
+    "appId": "5095307",
+    "clientId": "Iv23li8KqaWdAxn353vo",
+    "installationId": "165407698",
+    "privateKeySecretName": "github-app-private-key",
+    "repository": "cpower-2NG/cpower-2NG.github.io"
+  },
+  "deployment": {
+    "functionAppName": "func-bifrost-z43zcc",
+    "functionAppHostName": "func-bifrost-z43zcc.azurewebsites.net",
+    "keyVaultName": "kv-bifrost-z43zcc",
+    "keyVaultUri": "https://kv-bifrost-z43zcc.vault.azure.net/",
+    "cosmosEndpoint": "https://cosmos-bifrost-z43zcc.documents.azure.com:443/",
+    "blobEndpoint": "https://stbifrostz43zcc.blob.core.windows.net/",
+    "syncJobName": "qzone-sync",
+    "authJobName": "qzone-auth"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "NODE_ENV": "development",
+    "COSMOS_ENDPOINT": "",
+    "COSMOS_DATABASE": "bifrost",
+    "BLOB_ACCOUNT_URL": "",
+    "MEDIA_CONTAINER": "media",
+    "PRIVATE_CONTAINER": "private",
+    "HASH_SALT": "replace-with-a-long-random-dev-value",
+    "ALLOWED_ORIGINS": "http://localhost:8000,http://127.0.0.1:8000",
+    "ENTRA_TENANT_ID": "",
+    "ENTRA_CLIENT_ID": "",
+    "ENTRA_API_AUDIENCE": "",
+    "ADMIN_OBJECT_IDS": "",
+    "ADMIN_DEV_BYPASS": "false",
+    "INTERACTIONS_ENABLED": "true",
+    "SUBSCRIPTION_ID": "",
+    "RESOURCE_GROUP": "",
+    "SYNC_AUTH_JOB_NAME": "qzone-auth",
+    "SYNC_JOB_NAME": "qzone-sync"
+  }
+}

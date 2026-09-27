@@ -1,0 +1,23 @@
+{
+  "name": "bifrost-qzone-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.10.0",
+    "@azure/identity": "^4.13.0",
+    "@azure/keyvault-secrets": "^4.10.0",
+    "@azure/storage-blob": "^12.34.0",
+    "jose": "^6.2.0",
+    "playwright": "1.63.0",
+    "qzone-sdk": "^0.3.3",
+    "sharp": "^0.35.0"
+  }
+}

@@ -1,13 +1,16 @@
 {
   "siteUrl": "https://cpower-2NG.github.io",
-  "comments": {
-    "provider": "giscus",
-    "repo": "",
-    "repoId": "",
-    "category": "",
-    "categoryId": "",
-    "mapping": "pathname",
+  "interactions": {
+    "provider": "azure",
+    "enabled": true,
+    "apiBaseUrl": "https://func-bifrost-z43zcc.azurewebsites.net/api",
+    "commentsEnabled": true,
     "reactionsEnabled": true,
-    "inputPosition": "top"
+    "viewsEnabled": true,
+    "admin": {
+      "tenantId": "0d4d7772-1969-44d1-be14-edfbbb2b69aa",
+      "clientId": "ea698470-98c7-4eb0-a697-2191a7f23270",
+      "apiScope": "api://ea698470-98c7-4eb0-a697-2191a7f23270/access_as_user"
+    }
   }
 }
