@@ -670,7 +670,7 @@ function renderEntryChrome(entry) {
   meta.innerHTML = `
     <span class="entry-meta__date">${escapeHtml(formatDate(entry.date))}</span>
     <span class="entry-meta__sep">/</span>
-    <span>${entry.type === 'diary' ? '手记' : '文章'} · 约 ${minutes} 分钟</span>
+    <span>${escapeHtml(entry.category || (entry.type === 'diary' ? '手记' : '文章'))} · ${entry.type === 'diary' ? '手记' : '文章'} · 约 ${minutes} 分钟</span>
     ${tags.length ? `<span class="entry-meta__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</span>` : ''}
   `;
   elements.viewer.prepend(meta);

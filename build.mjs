@@ -497,6 +497,15 @@ function normalizeTags(value) {
   return [];
 }
 
+function categoryFor(type, kind, tags, title, explicit = '') {
+  if (explicit) return String(explicit).trim();
+  if (kind === 'pdf') return 'PDF 归档';
+  if (tags.includes('活动记录')) return '活动记录';
+  if (tags.includes('诗歌') || /短歌/.test(title)) return '短歌与诗';
+  if (type === 'diary') return '随想与记录';
+  return '作品评论';
+}
+
 async function readJsonFile(filePath, fallback = null) {
   try {
     return JSON.parse(await readFile(filePath, 'utf8'));
@@ -613,6 +622,7 @@ async function collectMarkdownEntries(errors, generatedPaths, overrides) {
       phase,
       type,
       kind,
+      category: categoryFor(type, kind, normalizeTags(meta.tags), String(title), meta.category),
       tags: normalizeTags(meta.tags),
       summary: meta.summary ? String(meta.summary) : deriveSummary(markdownBody),
       featured: Boolean(meta.featured),
@@ -680,6 +690,13 @@ async function collectHtmlEntries(errors, generatedPaths) {
       phase,
       type: meta.type === 'diary' ? 'diary' : 'article',
       kind: KINDS.includes(meta.kind) ? meta.kind : 'standard',
+      category: categoryFor(
+        meta.type === 'diary' ? 'diary' : 'article',
+        KINDS.includes(meta.kind) ? meta.kind : 'standard',
+        normalizeTags(meta.tags),
+        String(meta.title || fallbackTitle),
+        meta.category,
+      ),
       tags: normalizeTags(meta.tags),
       summary: meta.summary ? String(meta.summary) : '',
       featured: Boolean(meta.featured),
@@ -830,6 +847,13 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
       phase,
       type,
       kind: video ? 'video' : 'qq-post',
+      category: categoryFor(
+        type,
+        video ? 'video' : 'qq-post',
+        normalizeTags(record.tags || ['QQ空间', '自动同步']),
+        String(record.title || date || id),
+        record.category,
+      ),
       tags: normalizeTags(record.tags || ['QQ空间', '自动同步']),
       summary: String(record.summary || deriveSummary(record.text || '')),
       featured: Boolean(record.featured),

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T11:14:44.353Z",
+  "generated": "2026-09-27T12:12:25.332Z",
   "count": 22,
   "entries": [
     {
@@ -9,6 +9,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -36,6 +37,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -63,6 +65,7 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
+      "category": "随想与记录",
       "tags": [
         "本地导入"
       ],
@@ -90,6 +93,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -117,6 +121,7 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
+      "category": "随想与记录",
       "tags": [
         "本地导入"
       ],
@@ -144,6 +149,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -171,6 +177,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -198,6 +205,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "本地导入"
       ],
@@ -225,6 +233,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "短歌与诗",
       "tags": [
         "书评",
         "纸上魔法使",
@@ -254,6 +263,7 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
+      "category": "随想与记录",
       "tags": [
         "本地导入"
       ],
@@ -281,6 +291,7 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
+      "category": "随想与记录",
       "tags": [
         "手记"
       ],
@@ -308,6 +319,7 @@
       "phase": "logic",
       "type": "diary",
       "kind": "standard",
+      "category": "随想与记录",
       "tags": [
         "build",
         "workflow"
@@ -336,6 +348,7 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "workflow",
         "markdown"
@@ -364,6 +377,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "随笔"
       ],
@@ -391,6 +405,7 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "算法",
         "模板"
@@ -419,6 +434,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "翻译",
         "访谈"
@@ -447,6 +463,7 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "ROS 2",
         "工程记录"
@@ -475,6 +492,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "漫评",
         "随笔"
@@ -503,6 +521,7 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
+      "category": "作品评论",
       "tags": [
         "架构",
         "笔记"
@@ -531,6 +550,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "video",
+      "category": "活动记录",
       "tags": [
         "FMT",
         "声优见面会",
@@ -571,6 +591,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "video",
+      "category": "活动记录",
       "tags": [
         "FMT",
         "声优见面会",
@@ -611,6 +632,7 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "video",
+      "category": "活动记录",
       "tags": [
         "FMT",
         "声优见面会",
