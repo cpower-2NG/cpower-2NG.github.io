@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb087d1b76a9f960b00",
+  "schemaVersion": 1,
+  "title": "被 Azure 设备认证折磨的一天",
+  "date": "2026-09-26",
+  "createdAt": "2026-09-26T14:07:03.000Z",
+  "phase": "logic",
+  "type": "diary",
+  "tags": [
+    "QQ空间",
+    "Azure"
+  ],
+  "category": "技术日志",
+  "summary": "登个azure被设备安全性认证气晕",
+  "text": "登个azure被设备安全性认证气晕",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb087d1b76a9f960b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb087d1b76a9f960b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "7eab06940551b1efdc0a394fe956aae6d5ff8a9baa377a53e34654a14f03fc7f",
+  "overrides": {
+    "publishStatus": "published",
+    "phase": "logic",
+    "type": "diary",
+    "category": "技术日志",
+    "title": "被 Azure 设备认证折磨的一天",
+    "tags": [
+      "QQ空间",
+      "Azure"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0e701b16a0da80800",
+  "schemaVersion": 1,
+  "title": "体验 Icarace 后的一点随想",
+  "date": "2026-09-21",
+  "createdAt": "2026-09-21T10:07:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "tags": [
+    "QQ空间",
+    "ACG"
+  ],
+  "category": "ACG随想",
+  "summary": "试了一下Icarace，仿佛体验了苍彼空竞的感觉",
+  "text": "试了一下Icarace，仿佛体验了苍彼空竞的感觉",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e701b16a0da80800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e701b16a0da80800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "a3f4f2bf38f9ae4174337b7cc937758914bb72af4aaea1e1650fc06e99502503",
+  "overrides": {
+    "publishStatus": "published",
+    "phase": "fantasy",
+    "type": "diary",
+    "category": "ACG随想",
+    "title": "体验 Icarace 后的一点随想",
+    "tags": [
+      "QQ空间",
+      "ACG"
+    ]
+  }
+}
