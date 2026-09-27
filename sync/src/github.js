@@ -1,4 +1,4 @@
-import { createHash } from 'node:crypto';
+import { createHash, createPrivateKey } from 'node:crypto';
 import { SignJWT, importPKCS8 } from 'jose';
 import { clients } from './clients.js';
 
@@ -17,7 +17,8 @@ async function appToken() {
   if (!pem.includes('BEGIN')) {
     throw new Error('GitHub App 私钥尚未写入 Key Vault。');
   }
-  const key = await importPKCS8(pem, 'RS256');
+  const pkcs8 = createPrivateKey(pem).export({ type: 'pkcs8', format: 'pem' });
+  const key = await importPKCS8(pkcs8, 'RS256');
   const now = Math.floor(Date.now() / 1000);
   const jwt = await new SignJWT({})
     .setProtectedHeader({ alg: 'RS256' })
@@ -176,7 +177,7 @@ export async function publishDryRunReport(report) {
   const { private: container } = clients();
   const name = `sync-reports/${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
   await container.getBlockBlobClient(name).uploadData(
-    `${JSON.stringify(report, null, 2)}\n`,
+    Buffer.from(`${JSON.stringify(report, null, 2)}\n`, 'utf8'),
     {
       blobHTTPHeaders: { blobContentType: 'application/json; charset=utf-8' },
     },
@@ -188,7 +189,7 @@ export async function publishQuarantineRecords(records) {
   const { private: container } = clients();
   const name = `quarantine/${new Date().toISOString().replace(/[:.]/g, '-')}.ndjson.json`;
   await container.getBlockBlobClient(name).uploadData(
-    `${JSON.stringify(records, null, 2)}\n`,
+    Buffer.from(`${JSON.stringify(records, null, 2)}\n`, 'utf8'),
     {
       blobHTTPHeaders: { blobContentType: 'application/json; charset=utf-8' },
     },

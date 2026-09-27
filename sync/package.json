@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
+    "auth:local": "node src/local-auth.js",
     "test": "node --test test/*.test.js"
   },
   "dependencies": {

@@ -16,7 +16,7 @@ export function createRawArchive() {
       const day = new Date().toISOString().slice(0, 10);
       const name = `raw/qzone/${day}/${id}.json`;
       const body = `${records.map((record) => JSON.stringify(record)).join('\n')}\n`;
-      await clients().private.getBlockBlobClient(name).uploadData(body, {
+      await clients().private.getBlockBlobClient(name).uploadData(Buffer.from(body, 'utf8'), {
         blobHTTPHeaders: { blobContentType: 'application/x-ndjson; charset=utf-8' },
         metadata: { schema: '1', sensitivity: 'private' },
       });

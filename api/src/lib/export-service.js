@@ -45,7 +45,7 @@ export async function exportInteractions({ reason = 'scheduled' } = {}) {
 
   const outputs = [
     { name: `${prefix}/bifrost-interactions-${stamp}.ndjson.gz`, data: await gzipAsync(ndjson), contentType: 'application/gzip' },
-    { name: `${prefix}/bifrost-interactions-${stamp}.csv`, data: csv, contentType: 'text/csv; charset=utf-8' },
+    { name: `${prefix}/bifrost-interactions-${stamp}.csv`, data: Buffer.from(csv, 'utf8'), contentType: 'text/csv; charset=utf-8' },
   ];
 
   for (const output of outputs) {

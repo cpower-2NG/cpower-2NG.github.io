@@ -169,6 +169,16 @@ az ad sp create --id <app-client-id>
 
 旧会话失效时，管理页会显示 `auth_required`。重新扫码即可，不需要登录服务器或修改本地文件。
 
+如果云端二维码截图链路延迟导致扫码失效，可以在项目 `sync/` 目录运行一次本地有头浏览器认证：
+
+```powershell
+az login --tenant <TENANT_ID>
+$env:KEY_VAULT_URI = "https://kv-bifrost-z43zcc.vault.azure.net/"
+npm run auth:local
+```
+
+脚本会打开真实浏览器显示 QQ 二维码。扫码成功后，会话直接加密写入 Key Vault；这只用于首次登录或会话失效后的重新认证，日常同步仍在云端运行。
+
 ## 9. 数据导出与迁移
 
 每日定时函数会在私有容器生成：

@@ -294,6 +294,8 @@ HTML 会移除脚本、事件属性与危险协议；PDF 保留原件并生成�
 python tools/import_bilibili_opus.py "https://www.bilibili.com/opus/..."
 ```
 
+QQ 会话失效且云端二维码不方便扫描时，可在 `sync/` 中运行一次 `npm run auth:local`，通过本地浏览器完成扫码并将会话写入 Key Vault。
+
 ### 条目类型与展示分型
 
 `diary` 与 `article` 目前影响：仪表盘归入哪个区块、文章页元信息行的类型文案。引擎同时会在内容容器上写入 `data-entry-type`，后续可以为两种类型做完全不同的版式（例如日记的窄栏时间线、长文的多级目录）。

@@ -667,6 +667,26 @@ resource authKeyVaultRole 'Microsoft.Authorization/roleAssignments@2022-04-01' =
   }
 }
 
+resource syncKeyVaultOfficer 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(keyVault.id, syncJob.id, 'key-vault-secrets-officer')
+  scope: keyVault
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b86a8fe4-44ce-4948-aee5-eccb2c155cd7')
+    principalId: syncJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+resource authKeyVaultOfficer 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(keyVault.id, authJob.id, 'key-vault-secrets-officer')
+  scope: keyVault
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b86a8fe4-44ce-4948-aee5-eccb2c155cd7')
+    principalId: authJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
 resource monthlyBudget 'Microsoft.Consumption/budgets@2023-11-01' = if (length(budgetContactEmails) > 0) {
   name: 'bifrost-monthly-budget'
   properties: {
