@@ -188,6 +188,10 @@ async function testLightbox(page) {
   );
   const first = page.locator('.article-surface img.media-preview-trigger').first();
   await first.waitFor();
+  await page.waitForFunction(() => {
+    const image = document.querySelector('.article-surface img.media-preview-trigger');
+    return Boolean(image?.dataset.imageShape);
+  });
   assert.equal(await first.getAttribute('data-image-shape'), 'portrait');
   await first.click();
   assert.equal(await page.locator('.media-preview__counter').innerText(), '1 / 5');
