@@ -89,7 +89,6 @@ window.addEventListener('popstate', onPopState);
 async function init() {
   cacheElements();
   bindGlobalEvents();
-  applyReadingPreview();
 
   state.phase = resolvePhase();
   applyPhase(state.phase);
@@ -165,12 +164,6 @@ function bindGlobalEvents() {
     elements.soundToggle.addEventListener('click', onSoundToggle);
   }
   document.addEventListener('pointerdown', onFirstInteraction, { once: true });
-}
-
-function applyReadingPreview() {
-  const requested = new URL(window.location.href).searchParams.get('reader');
-  const mode = requested === 'b' ? 'b' : 'a';
-  elements.html.dataset.readingVeil = mode;
 }
 
 function onCommandInput() {

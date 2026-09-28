@@ -14,8 +14,8 @@
   --warning: #d29922;
   --wash: rgba(121, 201, 192, 0.1);
   --grid-line: rgba(121, 201, 192, 0.052);
-  --reader-veil: rgba(10, 15, 20, 0.42);
-  --reader-shadow: rgba(3, 8, 12, 0.28);
+  --reader-veil: rgba(10, 15, 20, 0.24);
+  --reader-shadow: rgba(3, 8, 12, 0.12);
   --shadow: 0 20px 60px rgba(0, 0, 0, 0.24);
   --card-bg: transparent;
   --card-border: var(--border);
@@ -45,8 +45,8 @@ html[data-phase="fantasy"] {
   --warning: #b07d3f;
   --wash: rgba(185, 122, 131, 0.09);
   --grid-line: rgba(158, 118, 108, 0.035);
-  --reader-veil: rgba(246, 240, 231, 0.42);
-  --reader-shadow: rgba(105, 76, 65, 0.11);
+  --reader-veil: rgba(246, 240, 231, 0.22);
+  --reader-shadow: rgba(105, 76, 65, 0.05);
   --shadow: 0 16px 40px rgba(150, 110, 95, 0.12);
   --card-bg: rgba(253, 250, 244, 0.92);
   --card-border: rgba(158, 118, 108, 0.2);
@@ -109,16 +109,6 @@ html[data-phase="fantasy"] body {
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.42 0 0 0 0 0.33 0 0 0 0 0.27 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23p)'/%3E%3C/svg%3E"),
     var(--bg);
   background-size: auto, 34px 34px, 34px 34px, 220px 220px, auto;
-}
-
-html[data-reading-veil="b"] {
-  --reader-veil: rgba(10, 15, 20, 0.55);
-  --reader-shadow: rgba(3, 8, 12, 0.36);
-}
-
-html[data-phase="fantasy"][data-reading-veil="b"] {
-  --reader-veil: rgba(246, 240, 231, 0.55);
-  --reader-shadow: rgba(105, 76, 65, 0.16);
 }
 
 button,
@@ -1653,8 +1643,8 @@ html[data-phase="fantasy"] .tree__search {
     linear-gradient(
       180deg,
       transparent 0,
-      transparent 96px,
-      var(--reader-veil) 300px,
+      transparent 120px,
+      var(--reader-veil) 380px,
       var(--reader-veil) 100%
     );
   box-shadow: 0 34px 72px -64px var(--reader-shadow);
