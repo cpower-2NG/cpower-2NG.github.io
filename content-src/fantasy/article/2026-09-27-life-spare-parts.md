@@ -3,6 +3,7 @@ title: 生命的备件：成为彼此的备件
 date: 2026-09-27
 type: article
 kind: standard
+section: review
 tags: 本地导入
 ---
 

@@ -80,6 +80,8 @@ BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而
 ├── core/
 │   ├── engine.js
 │   ├── interactions.js
+│   ├── media-preview.js
+│   ├── publication-reader.js
 │   ├── style.css
 │   └── admin.js
 ├── content/
@@ -87,8 +89,8 @@ BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而
 │   ├── logic/
 │   └── fantasy/
 ├── data/
-│   ├── logic-tree.json
-│   └── fantasy-tree.json
+│   ├── entries.json
+│   └── publications/
 ├── api/                  Azure Functions 互动 API
 ├── sync/                 Playwright QQ 云端同步器
 ├── infra/                Bicep 基础设施
@@ -115,7 +117,7 @@ BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而
 
 ### 数据层
 
-`data/` 目录保存目录树与索引数据。目录数据应尽量与内容解耦，这样前端可以根据相位、分类或排序策略重新渲染导航，而不需要改写文章本体。
+`data/` 目录保存统一内容索引和出版物清单。侧栏由 `entries.json` 动态生成，不再手工维护两份相位目录树。
 
 ### 资源层
 
@@ -202,6 +204,11 @@ BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的
 - 仪表盘数据化：最近更新、精选、日记/日志流与"继续阅读"卡片由引擎挂载到 `[data-mount]` 区块，无条目时自动隐藏。
 - 命令面板：`` ` `` 打开后可直接模糊搜索全站文章（跨相位结果会自动切换相位再打开），↑↓ 选择、Enter 打开；`fantasy` / `logic` 与彩蛋别名保留。
 - 文章页 chrome：按索引自动注入日期 / 类型 / 阅读时长 / 标签元信息行与上一篇、下一篇导航，并按 `diary` / `article` 类型在容器上标记 `data-entry-type` 供后续分型展示。
+- 内容模型：条目包含 `section`、`kind`、`layout`、`source`、`publication` 与 `video`。Fantasy 固定为总览、日常、活动、评论、随笔；Logic 固定为总览、技术笔记、工程记录、开发日志。
+- 侧栏搜索：标题、摘要、标签、分类和年份可即时检索；清空后恢复带文章数量的分类树，并自动展开当前文章所在分类。
+- 阅读版式：正文使用约 `42em` 版心、17px 字号与 1.8 行高；`note`、`event`、`longform` 三套数据驱动版式分别服务短记、活动和长文。正文区从标题网格向下极轻地渐隐，保留网格氛围而不过度形成底板。
+- 图片预览：正文图片点击后使用原生 `<dialog>` 放大，支持方向键、遮罩、Esc 和上一张/下一张；竖版与超长图在正文中限高 `64vh`，不裁切原图。
+- PDF 出版物：`冬滚滚` 保留独立出版物入口页，桌面按 `1`、`2–3`、`4–5` 对页阅读，手机切为单页；原 PDF 保存在公开 Blob，网页使用 WebP 页面图。
 - 深链修复：访问不存在的路径时，404 页脚本将地址转为 `?path=&phase=` 重定向回 SPA，并落在正确相位。
 - 命令面板范围：搜索只覆盖当前相位，不跨相位展示条目；初始态只列出两条相位命令。
 - 视觉系统 token 化：圆角、动效时长与缓动、卡片底色/边框/投影全部走 CSS 变量。Logic 相位是"冷档案 HUD"——图纸网格背景、方括号小标签、卡片角标刻度、印章式大写 mono 标签、锐利圆角、140ms 硬朗动效；Fantasy 相位是"文库本手记"——暖纸噪点纹理与边缘 vignette、实底圆角纸卡、乾燥玫瑰主色、❧ 展开符、波浪下划线、420ms 柔缓动效，日记类型条目使用楷体并首行缩进两字符。
@@ -398,13 +405,26 @@ node preview-server.mjs 8000 --no-open
 node build.mjs
 node --test tests/*.test.mjs
 
-cd api
-npm install
-npm test
+npm ci --prefix api
+npm test --prefix api
 
-cd ../sync
-npm install
-npm test
+npm ci --prefix sync
+npm test --prefix sync
+node tests/e2e/reader-interactions.mjs
+```
+
+本地浏览器测试会自行启动 `8125` 端口并模拟互动 API，覆盖分类搜索、图片预览、PDF 对页/单页、匿名评论、回复、点赞、阅读数去重和接口失败降级。
+
+线上只读检查：
+
+```powershell
+node tools/live-readonly-check.mjs
+```
+
+真实写入检查会使用不会出现在公开文章中的专用测试路径，验证评论、回复、点赞和阅读去重，随后从 Cosmos DB 清理测试文档。必须显式确认：
+
+```powershell
+node tools/interaction-live-check.mjs --confirm=WRITE
 ```
 
 Azure 资源创建、Entra 登录、GitHub App 和第一次 QQ 扫码的完整步骤见 `docs/AZURE_SETUP.md`。

@@ -24,8 +24,13 @@ const PHASES = {
     ],
     themeColor: '#0a0f14',
     bridgeColor: 'rgba(121, 201, 192, 0.4)',
-    treeUrl: '/data/logic-tree.json',
     dashboardUrl: '/content/dashboards/logic-dash.html',
+    sections: [
+      { id: 'overview', label: '总览' },
+      { id: 'tech', label: '技术笔记' },
+      { id: 'project', label: '工程记录' },
+      { id: 'log', label: '开发日志' },
+    ],
   },
   fantasy: {
     label: 'Fantasy',
@@ -43,8 +48,14 @@ const PHASES = {
     ],
     themeColor: '#f6f0e7',
     bridgeColor: 'rgba(185, 122, 131, 0.45)',
-    treeUrl: '/data/fantasy-tree.json',
     dashboardUrl: '/content/dashboards/fantasy-dash.html',
+    sections: [
+      { id: 'overview', label: '总览' },
+      { id: 'daily', label: '日常' },
+      { id: 'activity', label: '活动' },
+      { id: 'review', label: '评论' },
+      { id: 'essay', label: '随笔' },
+    ],
   },
 };
 
@@ -63,6 +74,7 @@ const state = {
   currentPath: '',
   bootPlayed: false,
   treeData: null,
+  treeQuery: '',
   entries: [],
   siteConfig: {},
   paletteItems: [],
@@ -87,12 +99,6 @@ async function init() {
   }
 
   try {
-    await loadTree(state.phase);
-  } catch (_error) {
-    elements.tree.innerHTML = '<p class="tree__leaf">目录加载失败，请刷新页面重试。</p>';
-  }
-
-  try {
     await loadEntries();
   } catch (_error) {
     state.entries = [];
@@ -104,6 +110,7 @@ async function init() {
     state.siteConfig = {};
   }
 
+  renderNavigation();
   updateStatusNote();
   window.setInterval(updateFooterClock, 1000);
 
@@ -152,6 +159,7 @@ function bindGlobalEvents() {
   elements.commandInput.addEventListener('input', onCommandInput);
   elements.commandOverlay.addEventListener('click', onCommandOverlayClick);
   elements.main.addEventListener('scroll', onMainScroll, { passive: true });
+  elements.tree.addEventListener('input', onTreeSearchInput);
   if (elements.soundToggle) {
     elements.soundToggle.addEventListener('click', onSoundToggle);
   }
@@ -349,69 +357,104 @@ function updateFooterClock() {
   elements.footerClock.textContent = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 · 星期${weekdays[now.getDay()]}`;
 }
 
-async function loadTree(phase) {
-  const response = await fetch(PHASES[phase].treeUrl);
-  if (!response.ok) {
-    throw new Error(`Failed to load tree: ${response.status}`);
+function onTreeSearchInput(event) {
+  if (!event.target.matches('[data-tree-search]')) {
+    return;
   }
-
-  state.treeData = await response.json();
-  renderTree(state.treeData);
+  state.treeQuery = event.target.value;
+  renderNavigation({ preserveFocus: true, selectionStart: event.target.selectionStart });
 }
 
-function renderTree(treeData) {
-  elements.tree.innerHTML = '';
-  const sections = treeData.sections || [];
-
-  sections.forEach((section, index) => {
-    const details = document.createElement('details');
-    details.open = index === 0;
-
-    const summary = document.createElement('summary');
-    summary.textContent = section.title;
-    details.appendChild(summary);
-
-    const itemWrap = document.createElement('div');
-    itemWrap.className = 'tree__items';
-    (section.items || []).forEach((item) => {
-      itemWrap.appendChild(renderTreeItem(item));
-    });
-
-    details.appendChild(itemWrap);
-    elements.tree.appendChild(details);
-  });
+function entrySearchText(entry) {
+  return [
+    entry.label,
+    entry.summary,
+    entry.category,
+    entry.sectionLabel,
+    ...(entry.tags || []),
+    String(entry.date || '').slice(0, 4),
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
 }
 
-function renderTreeItem(item) {
-  if (item.children && item.children.length > 0) {
-    const details = document.createElement('details');
-    const summary = document.createElement('summary');
-    summary.textContent = item.label;
-    details.appendChild(summary);
+function renderNavigation({ preserveFocus = false, selectionStart = null } = {}) {
+  if (!elements.tree) {
+    return;
+  }
+  const phaseConfig = PHASES[state.phase];
+  const query = state.treeQuery.trim().toLowerCase();
+  const allEntries = phaseEntries(state.phase);
+  const activePath = state.currentPath || '';
 
-    const itemWrap = document.createElement('div');
-    itemWrap.className = 'tree__items';
-    item.children.forEach((child) => {
-      itemWrap.appendChild(renderTreeItem(child));
-    });
-
-    details.appendChild(itemWrap);
-    return details;
+  if (query) {
+    const matches = allEntries.filter((entry) => entrySearchText(entry).includes(query));
+    elements.tree.innerHTML = `
+      <input class="tree__search" type="search" data-tree-search value="${escapeHtml(state.treeQuery)}" placeholder="搜索标题、标签、分类或年份" aria-label="搜索当前相位内容">
+      <p class="tree__search-meta">${matches.length} 条匹配</p>
+      <div class="tree__flat">
+        ${matches
+          .map(
+            (entry) => `
+              <a class="tree__link tree__link--result${entry.path === activePath ? ' is-active' : ''}" href="${escapeHtml(entry.path)}" data-path="${escapeHtml(entry.path)}">
+                <span>${escapeHtml(entry.label)}</span>
+                <small>${escapeHtml(entry.sectionLabel || entry.category || '')} · ${escapeHtml(formatDate(entry.date))}</small>
+              </a>
+            `,
+          )
+          .join('')}
+      </div>
+    `;
+  } else {
+    const sections = phaseConfig.sections
+      .map((section, index) => {
+        const items = section.id === 'overview'
+          ? [
+              {
+                label: `${phaseConfig.label} 总览`,
+                path: phaseConfig.dashboardUrl,
+              },
+            ]
+          : allEntries
+              .filter((entry) => entry.section === section.id)
+              .map((entry) => ({ label: entry.label, path: entry.path }));
+        const count = section.id === 'overview' ? 0 : items.length;
+        const hasActive = items.some((item) => item.path === activePath);
+        return `
+          <details class="tree__section"${hasActive || (!activePath && index === 0) ? ' open' : ''}>
+            <summary>
+              <span>${escapeHtml(section.label)}</span>
+              ${count ? `<span class="tree__count">${count}</span>` : ''}
+            </summary>
+            <div class="tree__items">
+              ${items
+                .map(
+                  (item) => `
+                    <a class="tree__link${item.path === activePath ? ' is-active' : ''}" href="${escapeHtml(item.path)}" data-path="${escapeHtml(item.path)}">${escapeHtml(item.label)}</a>
+                  `,
+                )
+                .join('')}
+            </div>
+          </details>
+        `;
+      })
+      .join('');
+    elements.tree.innerHTML = `
+      <input class="tree__search" type="search" data-tree-search value="${escapeHtml(state.treeQuery)}" placeholder="搜索标题、标签、分类或年份" aria-label="搜索当前相位内容">
+      <div class="tree__sections">${sections}</div>
+    `;
   }
 
-  if (item.path) {
-    const link = document.createElement('a');
-    link.href = item.path;
-    link.className = 'tree__link';
-    link.dataset.path = item.path;
-    link.textContent = item.label;
-    return link;
+  if (preserveFocus) {
+    const input = elements.tree.querySelector('[data-tree-search]');
+    if (input) {
+      input.focus();
+      if (typeof selectionStart === 'number') {
+        input.setSelectionRange(selectionStart, selectionStart);
+      }
+    }
   }
-
-  const leaf = document.createElement('div');
-  leaf.className = 'tree__leaf';
-  leaf.textContent = item.label;
-  return leaf;
 }
 
 async function loadEntries() {
@@ -868,7 +911,7 @@ async function switchPhase(nextPhase) {
     localStorage.removeItem(STORAGE_KEYS.path);
 
     try {
-      await loadTree(nextPhase);
+      renderNavigation();
       await openDashboard({ pushState: true, remember: false });
     } catch (_error) {
       state.phase = previousPhase;
@@ -911,6 +954,8 @@ async function openRoute(path, options = {}) {
   const normalizedPath = normalizePath(path);
   const token = ++routeToken;
   let response;
+  window.BifrostMediaPreview?.clear();
+  window.BifrostPublicationReader?.clear();
 
   try {
     response = await fetch(normalizedPath);
@@ -942,12 +987,19 @@ async function openRoute(path, options = {}) {
   const isDashboard = normalizedPath.includes('/content/dashboards/');
   const entry = entryByPath(normalizedPath);
   elements.viewer.dataset.entryType = isDashboard ? '' : entry ? entry.type || 'article' : '';
+  elements.viewer.dataset.entryKind = isDashboard ? '' : entry ? entry.kind || 'standard' : '';
+  elements.viewer.dataset.entryLayout = isDashboard ? '' : entry ? entry.layout || 'longform' : '';
+  window.BifrostMediaPreview?.mount(elements.viewer);
+  window.BifrostPublicationReader?.mount(elements.viewer);
   if (isDashboard) {
     hydrateDashboard();
     removeComments();
   } else {
     renderEntryChrome(entry);
     mountComments(entry);
+    if (entry?.kind === 'pdf' && new URL(window.location.href).searchParams.get('view') === 'spread') {
+      window.BifrostPublicationReader?.openFromViewer(elements.viewer);
+    }
   }
 
   restoreScrollPosition(normalizedPath);
@@ -969,6 +1021,11 @@ function updateTreeActive(path) {
   elements.tree.querySelectorAll('.tree__link').forEach((link) => {
     link.classList.toggle('is-active', link.dataset.path === path);
   });
+  const active = Array.from(elements.tree.querySelectorAll('.tree__link'))
+    .find((link) => link.dataset.path === path);
+  if (active) {
+    active.closest('details')?.setAttribute('open', '');
+  }
 }
 
 function playContentEnter() {
@@ -1095,17 +1152,17 @@ function onPopState() {
 
   state.phase = phase;
   applyPhase(phase);
-  loadTree(phase)
-    .then(() => {
-      if (path) {
-        return openRoute(path, { pushState: false, remember: false });
-      }
-
-      return openDashboard({ pushState: false });
-    })
-    .catch(() => {
+  state.treeQuery = '';
+  renderNavigation();
+  if (path) {
+    openRoute(path, { pushState: false, remember: false }).catch(() => {
       elements.viewer.innerHTML = renderError('历史记录恢复失败。');
     });
+    return;
+  }
+  openDashboard({ pushState: false }).catch(() => {
+    elements.viewer.innerHTML = renderError('历史记录恢复失败。');
+  });
 }
 
 function playBootSequence() {

@@ -6,6 +6,7 @@
   "createdAt": "2026-09-21T10:07:35.000Z",
   "phase": "fantasy",
   "type": "diary",
+  "section": "daily",
   "tags": [
     "QQ空间",
     "ACG"
@@ -45,7 +46,8 @@
     "publishStatus": "published",
     "phase": "fantasy",
     "type": "diary",
-    "category": "ACG随想",
+    "section": "daily",
+    "category": "日常",
     "title": "体验 Icarace 后的一点随想",
     "tags": [
       "QQ空间",

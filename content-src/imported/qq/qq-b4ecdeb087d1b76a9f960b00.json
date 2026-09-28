@@ -4,8 +4,9 @@
   "title": "被 Azure 设备认证折磨的一天",
   "date": "2026-09-26",
   "createdAt": "2026-09-26T14:07:03.000Z",
-  "phase": "logic",
+  "phase": "fantasy",
   "type": "diary",
+  "section": "daily",
   "tags": [
     "QQ空间",
     "Azure"
@@ -43,9 +44,10 @@
   "contentHash": "7eab06940551b1efdc0a394fe956aae6d5ff8a9baa377a53e34654a14f03fc7f",
   "overrides": {
     "publishStatus": "published",
-    "phase": "logic",
+    "phase": "fantasy",
     "type": "diary",
-    "category": "技术日志",
+    "section": "daily",
+    "category": "日常",
     "title": "被 Azure 设备认证折磨的一天",
     "tags": [
       "QQ空间",

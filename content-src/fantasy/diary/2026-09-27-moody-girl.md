@@ -2,6 +2,7 @@
 title: 情绪多变的少女
 date: 2026-09-27
 type: diary
+section: essay
 kind: standard
 tags: 本地导入
 ---

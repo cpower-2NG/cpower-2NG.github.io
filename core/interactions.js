@@ -23,16 +23,26 @@
   }
 
   async function request(config, route, options = {}) {
-    const response = await fetch(apiUrl(config, route), {
-      method: options.method || 'GET',
-      headers: {
-        accept: 'application/json',
-        ...(options.body ? { 'content-type': 'application/json' } : {}),
-      },
-      body: options.body ? JSON.stringify(options.body) : undefined,
-      signal: options.signal,
-      credentials: 'omit',
-    });
+    const timeoutController = new AbortController();
+    const timer = window.setTimeout(() => timeoutController.abort(), 8000);
+    const signal = options.signal && typeof AbortSignal.any === 'function'
+      ? AbortSignal.any([options.signal, timeoutController.signal])
+      : options.signal || timeoutController.signal;
+    let response;
+    try {
+      response = await fetch(apiUrl(config, route), {
+        method: options.method || 'GET',
+        headers: {
+          accept: 'application/json',
+          ...(options.body ? { 'content-type': 'application/json' } : {}),
+        },
+        body: options.body ? JSON.stringify(options.body) : undefined,
+        signal,
+        credentials: 'omit',
+      });
+    } finally {
+      window.clearTimeout(timer);
+    }
     let payload = null;
     try {
       payload = await response.json();
@@ -291,7 +301,9 @@
         { signal: activeController.signal },
       );
     } catch (error) {
-      loading.textContent = error.message;
+      // Azure 不可用时不要留下空壳或错误占位，正文保持完整可读。
+      section.remove();
+      viewer.dataset.interactions = 'unavailable';
       return;
     }
     if (!section.isConnected) return;

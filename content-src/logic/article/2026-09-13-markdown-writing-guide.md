@@ -3,6 +3,7 @@ title: Markdown 写作指南
 date: 2026-09-13
 phase: logic
 type: article
+section: log
 tags: workflow, markdown
 summary: front-matter 字段说明、支持的语法范围，以及长文粘贴 HTML 的工作流。
 featured: true

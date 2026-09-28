@@ -3,6 +3,7 @@ title: 冬暮川滚滚：浪漫与祈愿
 date: 2026-09-27
 type: article
 kind: standard
+section: review
 tags: 本地导入
 ---
 
