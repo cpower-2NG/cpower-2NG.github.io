@@ -3,6 +3,7 @@ title: 筱泽广与偶像生活的故事
 date: 2026-09-27
 type: article
 kind: standard
+section: review
 tags: 本地导入
 ---
 

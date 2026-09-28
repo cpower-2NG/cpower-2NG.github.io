@@ -1,0 +1,44 @@
+name: Live interaction checks
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: read-only or write
+        required: true
+        default: read-only
+        type: choice
+        options:
+          - read-only
+          - write
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Cosmos dependencies for write check
+        if: ${{ inputs.mode == 'write' }}
+        run: npm ci --prefix sync
+      - uses: azure/login@v2
+        if: ${{ inputs.mode == 'write' }}
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Read-only production check
+        if: ${{ inputs.mode == 'read-only' }}
+        run: node tools/live-readonly-check.mjs
+      - name: Write and cleanup production check
+        if: ${{ inputs.mode == 'write' }}
+        env:
+          COSMOS_ENDPOINT: ${{ secrets.COSMOS_ENDPOINT }}
+          COSMOS_DATABASE: bifrost
+        run: node tools/interaction-live-check.mjs --confirm=WRITE

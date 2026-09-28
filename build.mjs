@@ -18,7 +18,16 @@ const CONTENT_MANIFEST_FILE = join(root, 'data', 'content-manifest.json');
 const OVERRIDES_FILE = join(root, 'data', 'content-overrides.json');
 const META_SCRIPT_TYPE = 'application/x-bifrost-meta';
 const PHASES = ['logic', 'fantasy'];
-const KINDS = ['standard', 'video', 'pdf', 'qq-post'];
+const KINDS = ['standard', 'video', 'pdf', 'note', 'qq-post'];
+const SECTION_LABELS = {
+  daily: '日常',
+  activity: '活动',
+  review: '评论',
+  essay: '随笔',
+  tech: '技术笔记',
+  project: '工程记录',
+  log: '开发日志',
+};
 const DEFAULT_SYNC_RULES_FILE = join(root, 'data', 'sync-rules.default.json');
 
 // ---------- 通用工具 ----------
@@ -259,7 +268,9 @@ function normalizeVideoMeta(value) {
   const rawCover = String(value.cover || '').trim();
   const cover = safeHttpsUrl(rawCover)
     || (rawCover.startsWith('/') && !rawCover.startsWith('//') ? rawCover : '');
-  if (!sourceUrl && !embedUrl && !cover) {
+  // A cover alone is not a video. Some imported articles have a cover image
+  // but no video metadata; those should stay ordinary articles.
+  if (!sourceUrl && !embedUrl) {
     return null;
   }
 
@@ -497,13 +508,54 @@ function normalizeTags(value) {
   return [];
 }
 
-function categoryFor(type, kind, tags, title, explicit = '') {
-  if (explicit) return String(explicit).trim();
-  if (kind === 'pdf') return 'PDF 归档';
-  if (tags.includes('活动记录')) return '活动记录';
-  if (tags.includes('诗歌') || /短歌/.test(title)) return '短歌与诗';
-  if (type === 'diary') return '随想与记录';
-  return '作品评论';
+function renderPublicationCard(publication) {
+  if (!publication?.readerUrl) {
+    return '';
+  }
+  const cover = publication.cover
+    ? `<img class="publication-card__cover" src="${escapeAttribute(publication.cover)}" alt="" loading="lazy">`
+    : '';
+  const download = publication.pdfUrl
+    ? `<a class="button" href="${escapeAttribute(publication.pdfUrl)}" target="_blank" rel="noopener">下载原 PDF</a>`
+    : '';
+  const pageCount = Number(publication.pageCount) > 0
+    ? `<span class="publication-card__count">${Number(publication.pageCount)} 页</span>`
+    : '';
+  return `<figure class="publication-card">
+  ${cover}
+  <figcaption>
+    <p class="hero__eyebrow">PDF PUBLICATION</p>
+    <div class="publication-card__title-row">
+      <strong>${escapeHtml(publication.title || '出版物阅读')}</strong>
+      ${pageCount}
+    </div>
+    <p>${escapeHtml(publication.description || '保留原始对页排版，提供横向翻页阅读。')}</p>
+    <div class="article-actions">
+      <button class="button button--primary" type="button" data-publication-reader data-publication-url="${escapeAttribute(publication.readerUrl)}" data-publication-title="${escapeAttribute(publication.title || '')}">开始横向阅读</button>
+      ${download}
+    </div>
+  </figcaption>
+</figure>`;
+}
+
+function sectionFor(phase, type, kind, tags, title, explicit = '') {
+  if (explicit && SECTION_LABELS[explicit]) return explicit;
+  if (kind === 'note' || kind === 'qq-post') return 'daily';
+  if (tags.includes('活动记录')) return 'activity';
+  if (phase === 'logic') {
+    if (tags.some((tag) => /算法|技术|ROS|编程/.test(tag))) return 'tech';
+    if (tags.some((tag) => /工程|项目/.test(tag))) return 'project';
+    return 'log';
+  }
+  if (kind === 'pdf' || tags.includes('诗歌') || /短歌/.test(title)) return 'essay';
+  return type === 'diary' ? 'essay' : 'review';
+}
+
+function layoutFor(kind, section) {
+  if (kind === 'pdf') return 'publication';
+  if (kind === 'note' || kind === 'qq-post') return 'note';
+  if (section === 'activity') return 'event';
+  return 'longform';
 }
 
 async function readJsonFile(filePath, fallback = null) {
@@ -538,6 +590,7 @@ function applyOverride(entry, overrides) {
     ...entry,
     ...(override.phase && PHASES.includes(override.phase) ? { phase: override.phase } : {}),
     ...(override.type === 'diary' || override.type === 'article' ? { type: override.type } : {}),
+    ...(override.section && SECTION_LABELS[override.section] ? { section: override.section } : {}),
     ...(override.label ? { label: String(override.label) } : {}),
     ...(override.tags ? { tags: normalizeTags(override.tags) } : {}),
     ...(override.summary ? { summary: String(override.summary) } : {}),
@@ -545,7 +598,6 @@ function applyOverride(entry, overrides) {
     overrides: {
       ...(entry.overrides || {}),
       ...override,
-      updatedAt: new Date().toISOString(),
     },
   };
 }
@@ -587,23 +639,49 @@ async function collectMarkdownEntries(errors, generatedPaths, overrides) {
     }
 
     const date = meta.date || dateFromName(basename(filePath)) || todayStamp();
-    const video = normalizeVideoMeta({
-      platform: meta.video_platform,
-      title: meta.video_title || title,
-      author: meta.video_author,
-      embedUrl: meta.video_embed,
-      sourceUrl: meta.video_url,
-      cover: meta.cover,
-      note: meta.video_note,
-    });
+    const video = (meta.video_embed || meta.video_url)
+      ? normalizeVideoMeta({
+          platform: meta.video_platform,
+          title: meta.video_title || title,
+          author: meta.video_author,
+          embedUrl: meta.video_embed,
+          sourceUrl: meta.video_url,
+          cover: meta.cover,
+          note: meta.video_note,
+        })
+      : null;
     const kind = video
       ? 'video'
       : meta.kind === 'pdf'
         ? 'pdf'
+        : meta.kind === 'note'
+          ? 'note'
         : meta.kind === 'qq-post'
           ? 'qq-post'
           : 'standard';
-    const html = [renderMarkdown(markdownBody), video ? renderVideoCard(video) : ''].filter(Boolean).join('\n');
+    const publication = kind === 'pdf'
+      ? {
+          title: String(title),
+          description: meta.summary ? String(meta.summary) : '',
+          cover: safeRootPath(meta.cover) || safeHttpsUrl(meta.cover),
+          readerUrl: safeRootPath(meta.pdf_reader) || safeHttpsUrl(meta.pdf_reader),
+          pdfUrl: safeHttpsUrl(meta.pdf_url),
+          pageCount: Number(meta.pdf_page_count) || 0,
+        }
+      : null;
+    const section = sectionFor(
+      phase,
+      type,
+      kind,
+      normalizeTags(meta.tags),
+      String(title),
+      meta.section,
+    );
+    const html = [
+      renderMarkdown(markdownBody),
+      video ? renderVideoCard(video) : '',
+      publication ? renderPublicationCard(publication) : '',
+    ].filter(Boolean).join('\n');
     const words = countWords(htmlToText(html));
 
     const outputName = `${stripExt(basename(filePath))}.html`;
@@ -622,7 +700,10 @@ async function collectMarkdownEntries(errors, generatedPaths, overrides) {
       phase,
       type,
       kind,
-      category: categoryFor(type, kind, normalizeTags(meta.tags), String(title), meta.category),
+      section,
+      sectionLabel: SECTION_LABELS[section],
+      layout: layoutFor(kind, section),
+      category: SECTION_LABELS[section],
       tags: normalizeTags(meta.tags),
       summary: meta.summary ? String(meta.summary) : deriveSummary(markdownBody),
       featured: Boolean(meta.featured),
@@ -639,6 +720,7 @@ async function collectMarkdownEntries(errors, generatedPaths, overrides) {
       cover: safeHttpsUrl(meta.cover) || safeRootPath(meta.cover) || video?.cover || '',
       media: [],
       video,
+      publication,
       syndication: meta.syndication_author
         ? {
             author: String(meta.syndication_author),
@@ -682,21 +764,28 @@ async function collectHtmlEntries(errors, generatedPaths) {
     const fallbackTitle = h1 ? h1[1].replace(/<[^>]+>/g, '').trim() : stripExt(basename(filePath));
     const text = htmlToText(html);
     const words = typeof meta.words === 'number' ? meta.words : countWords(text);
+    const type = meta.type === 'diary' ? 'diary' : 'article';
+    const kind = KINDS.includes(meta.kind) ? meta.kind : 'standard';
+    const section = sectionFor(
+      phase,
+      type,
+      kind,
+      normalizeTags(meta.tags),
+      String(meta.title || fallbackTitle),
+      meta.section,
+    );
 
     entries.push({
       path,
       label: String(meta.title || fallbackTitle),
       date: meta.date ? String(meta.date) : '',
       phase,
-      type: meta.type === 'diary' ? 'diary' : 'article',
-      kind: KINDS.includes(meta.kind) ? meta.kind : 'standard',
-      category: categoryFor(
-        meta.type === 'diary' ? 'diary' : 'article',
-        KINDS.includes(meta.kind) ? meta.kind : 'standard',
-        normalizeTags(meta.tags),
-        String(meta.title || fallbackTitle),
-        meta.category,
-      ),
+      type,
+      kind,
+      section,
+      sectionLabel: SECTION_LABELS[section],
+      layout: layoutFor(kind, section),
+      category: SECTION_LABELS[section],
       tags: normalizeTags(meta.tags),
       summary: meta.summary ? String(meta.summary) : '',
       featured: Boolean(meta.featured),
@@ -719,7 +808,10 @@ async function collectHtmlEntries(errors, generatedPaths) {
       sourceState: meta.source?.state === 'deleted' ? 'deleted' : 'active',
       cover: safeHttpsUrl(meta.cover) || safeRootPath(meta.cover),
       media: [],
-      video: normalizeVideoMeta(meta.video),
+      video: (meta.video?.embedUrl || meta.video?.sourceUrl)
+        ? normalizeVideoMeta(meta.video)
+        : null,
+      publication: meta.publication || null,
       syndication: meta.syndication || null,
     });
 
@@ -823,6 +915,7 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
       errors.push(`${relative(root, filePath)}：QQ 条目缺少稳定 id。`);
       continue;
     }
+    const sourceId = String(record.source?.id || id.replace(/^qq-/, '')).trim();
 
     const phase = PHASES.includes(record.phase) ? record.phase : 'fantasy';
     const type = record.type === 'article' ? 'article' : 'diary';
@@ -840,20 +933,21 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
     const video = normalizeVideoMeta(record.video);
     const words = countWords(htmlToText(generatedHtml));
     const date = String(record.date || record.createdAt?.slice(0, 10) || '');
+    const kind = video ? 'video' : 'note';
+    const section = record.section && SECTION_LABELS[record.section]
+      ? record.section
+      : sectionFor(phase, type, kind, normalizeTags(record.tags || []), String(record.title || ''), 'daily');
     const rawEntry = {
       path: `/${relative(root, outputPath).split(sep).join('/')}`,
       label: String(record.title || `QQ 说说 · ${date || id}`),
       date,
       phase,
       type,
-      kind: video ? 'video' : 'qq-post',
-      category: categoryFor(
-        type,
-        video ? 'video' : 'qq-post',
-        normalizeTags(record.tags || ['QQ空间', '自动同步']),
-        String(record.title || date || id),
-        record.category,
-      ),
+      kind,
+      section,
+      sectionLabel: SECTION_LABELS[section],
+      layout: layoutFor(kind, section),
+      category: SECTION_LABELS[section],
       tags: normalizeTags(record.tags || ['QQ空间', '自动同步']),
       summary: String(record.summary || deriveSummary(record.text || '')),
       featured: Boolean(record.featured),
@@ -862,7 +956,7 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
       sourceFile: relative(root, filePath).split(sep).join('/'),
       source: {
         provider: 'qq',
-        id,
+        id: sourceId,
         url: safeHttpsUrl(record.source?.url),
         state: sourceState,
         visibility: String(record.source?.visibility || 'unknown'),

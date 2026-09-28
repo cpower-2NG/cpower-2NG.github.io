@@ -24,6 +24,19 @@ jobs:
           node-version: 22
       - name: Build content index
         run: node build.mjs
+      - name: Install test dependencies
+        run: |
+          npm ci --prefix sync
+          npm ci --prefix api
+          cd sync
+          npx playwright install --with-deps chromium
+      - name: Run unit and API tests
+        run: |
+          node --test tests/*.test.mjs
+          npm test --prefix sync
+          npm test --prefix api
+      - name: Run browser end-to-end checks
+        run: node tests/e2e/reader-interactions.mjs
       - name: Prepare static artifact
         run: |
           mkdir -p .pages

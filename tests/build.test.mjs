@@ -48,3 +48,22 @@ test('video cards reject unknown embed origins', () => {
   assert.equal(html.includes('data-video-embed'), false);
   assert.match(html, /查看原视频/);
 });
+
+test('cover-only metadata does not create a video card', () => {
+  const html = renderStructuredPost({
+    id: 'cover-only',
+    schemaVersion: 1,
+    text: '这是一条普通图文记录。',
+    cover: 'https://example.qpic.cn/cover.jpg',
+    media: [
+      {
+        kind: 'image',
+        url: 'https://example.qpic.cn/photo.jpg',
+        width: 1200,
+        height: 1600,
+      },
+    ],
+  });
+  assert.equal(html.includes('video-card'), false);
+  assert.match(html, /qq-media/);
+});

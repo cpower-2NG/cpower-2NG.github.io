@@ -67,6 +67,9 @@ export async function claimRateLimit(key, { windowSeconds, maximum }) {
     record = (await rateLimits.item(id, id).read()).resource;
   } catch (error) {
     if (error.code !== 404) throw error;
+    record = null;
+  }
+  if (!record) {
     record = {
       id,
       key: id,
@@ -192,6 +195,9 @@ export async function addComment(input) {
       }
       throw error;
     }
+    if (!parent) {
+      throw new HttpError(404, '要回复的评论不存在。', 'COMMENT_NOT_FOUND');
+    }
     if (parent.status !== 'published') {
       throw new HttpError(404, '要回复的评论不存在。', 'COMMENT_NOT_FOUND');
     }
@@ -253,6 +259,8 @@ export async function toggleReaction(path, requestKey) {
     document = (await activity.item(id, path).read()).resource;
   } catch (error) {
     if (error.code !== 404) throw error;
+  }
+  if (!document) {
     document = {
       id,
       type: 'reaction',
@@ -320,6 +328,9 @@ export async function updateCommentStatus(id, path, status) {
   const { comments } = cosmosContainers();
   const item = comments.item(id, path);
   const current = (await item.read()).resource;
+  if (!current) {
+    throw new HttpError(404, '评论不存在。', 'COMMENT_NOT_FOUND');
+  }
   const wasVisible = current.status === 'published';
   const isVisible = status === 'published';
   const updated = {
@@ -337,7 +348,7 @@ export async function updateCommentStatus(id, path, status) {
 export async function readState(id, partitionKey) {
   const { state } = cosmosContainers();
   try {
-    return (await state.item(id, partitionKey).read()).resource;
+    return (await state.item(id, partitionKey).read()).resource || null;
   } catch (error) {
     if (error.code === 404) return null;
     throw error;

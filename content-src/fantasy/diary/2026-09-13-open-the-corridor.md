@@ -3,6 +3,7 @@ title: 开廊手记
 date: 2026-09-13
 phase: fantasy
 type: diary
+section: essay
 tags: 手记
 summary: 幻想回廊开张的第一篇手记。书架刚擦过，茶还温着，欢迎常来坐坐。
 ---

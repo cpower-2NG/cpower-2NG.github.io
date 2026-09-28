@@ -1,7 +1,48 @@
 {
-  "generated": "2026-09-27T12:17:20.750Z",
-  "count": 25,
+  "generated": "2026-09-28T06:26:35.274Z",
+  "count": 26,
   "entries": [
+    {
+      "path": "/content/fantasy/article/2026-09-28-dongungun-publication.html",
+      "label": "冬滚滚",
+      "date": "2026-09-28",
+      "phase": "fantasy",
+      "type": "article",
+      "kind": "pdf",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "publication",
+      "category": "随笔",
+      "tags": [
+        "出版物",
+        "冬滚滚",
+        "PDF"
+      ],
+      "summary": "《冬滚滚》的完整排版稿。保留原书对页节奏，提供网页横向阅读与原 PDF 下载。",
+      "featured": false,
+      "words": 165,
+      "minutes": 1,
+      "sourceFile": "content-src/fantasy/article/2026-09-28-dongungun-publication.md",
+      "source": {
+        "provider": "local",
+        "id": "",
+        "url": "",
+        "state": "active"
+      },
+      "sourceState": "active",
+      "cover": "/assets/publications/dongungun/page-1.webp",
+      "media": [],
+      "video": null,
+      "publication": {
+        "title": "冬滚滚",
+        "description": "《冬滚滚》的完整排版稿。保留原书对页节奏，提供网页横向阅读与原 PDF 下载。",
+        "cover": "/assets/publications/dongungun/page-1.webp",
+        "readerUrl": "/data/publications/dongungun.json",
+        "pdfUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/docs/dongungun.pdf",
+        "pageCount": 5
+      },
+      "syndication": null
+    },
     {
       "path": "/content/fantasy/article/2026-09-27-dong-muchuan-review.html",
       "label": "冬暮川滚滚：浪漫与祈愿",
@@ -9,7 +50,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -28,6 +72,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -37,7 +82,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -56,6 +104,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -65,7 +114,10 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
-      "category": "随想与记录",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "longform",
+      "category": "随笔",
       "tags": [
         "本地导入"
       ],
@@ -84,6 +136,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -93,7 +146,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -112,6 +168,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -121,7 +178,10 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
-      "category": "随想与记录",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "longform",
+      "category": "随笔",
       "tags": [
         "本地导入"
       ],
@@ -140,6 +200,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -149,7 +210,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -168,6 +232,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -177,7 +242,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -196,6 +264,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -205,7 +274,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "本地导入"
       ],
@@ -224,6 +296,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -233,7 +306,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "短歌与诗",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "longform",
+      "category": "随笔",
       "tags": [
         "书评",
         "纸上魔法使",
@@ -254,6 +330,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -263,7 +340,10 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
-      "category": "随想与记录",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "longform",
+      "category": "随笔",
       "tags": [
         "本地导入"
       ],
@@ -282,16 +362,20 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
-      "path": "/content/logic/diary/qq-b4ecdeb087d1b76a9f960b00.html",
+      "path": "/content/fantasy/diary/qq-b4ecdeb087d1b76a9f960b00.html",
       "label": "被 Azure 设备认证折磨的一天",
       "date": "2026-09-26",
-      "phase": "logic",
+      "phase": "fantasy",
       "type": "diary",
-      "kind": "qq-post",
-      "category": "技术日志",
+      "kind": "note",
+      "section": "daily",
+      "sectionLabel": "日常",
+      "layout": "note",
+      "category": "日常",
       "tags": [
         "QQ空间",
         "Azure"
@@ -303,7 +387,7 @@
       "sourceFile": "content-src/imported/qq/qq-b4ecdeb087d1b76a9f960b00.json",
       "source": {
         "provider": "qq",
-        "id": "qq-b4ecdeb087d1b76a9f960b00",
+        "id": "b4ecdeb087d1b76a9f960b00",
         "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb087d1b76a9f960b00",
         "state": "active",
         "visibility": "unknown",
@@ -320,6 +404,12 @@
       "historicalInteractions": {
         "commentCount": 0,
         "likeCount": 0
+      },
+      "overrides": {
+        "phase": "fantasy",
+        "type": "diary",
+        "section": "daily",
+        "category": "日常"
       }
     },
     {
@@ -328,8 +418,11 @@
       "date": "2026-09-26",
       "phase": "fantasy",
       "type": "diary",
-      "kind": "qq-post",
-      "category": "生活随想",
+      "kind": "note",
+      "section": "daily",
+      "sectionLabel": "日常",
+      "layout": "note",
+      "category": "日常",
       "tags": [
         "QQ空间",
         "生活随想"
@@ -341,7 +434,7 @@
       "sourceFile": "content-src/imported/qq/qq-b4ecdeb02cd6b76a06070300.json",
       "source": {
         "provider": "qq",
-        "id": "qq-b4ecdeb02cd6b76a06070300",
+        "id": "b4ecdeb02cd6b76a06070300",
         "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02cd6b76a06070300",
         "state": "active",
         "visibility": "unknown",
@@ -358,6 +451,12 @@
       "historicalInteractions": {
         "commentCount": 2,
         "likeCount": 0
+      },
+      "overrides": {
+        "phase": "fantasy",
+        "type": "diary",
+        "section": "daily",
+        "category": "日常"
       }
     },
     {
@@ -366,8 +465,11 @@
       "date": "2026-09-21",
       "phase": "fantasy",
       "type": "diary",
-      "kind": "qq-post",
-      "category": "ACG随想",
+      "kind": "note",
+      "section": "daily",
+      "sectionLabel": "日常",
+      "layout": "note",
+      "category": "日常",
       "tags": [
         "QQ空间",
         "ACG"
@@ -379,7 +481,7 @@
       "sourceFile": "content-src/imported/qq/qq-b4ecdeb0e701b16a0da80800.json",
       "source": {
         "provider": "qq",
-        "id": "qq-b4ecdeb0e701b16a0da80800",
+        "id": "b4ecdeb0e701b16a0da80800",
         "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e701b16a0da80800",
         "state": "active",
         "visibility": "unknown",
@@ -396,6 +498,12 @@
       "historicalInteractions": {
         "commentCount": 0,
         "likeCount": 0
+      },
+      "overrides": {
+        "phase": "fantasy",
+        "type": "diary",
+        "section": "daily",
+        "category": "日常"
       }
     },
     {
@@ -405,7 +513,10 @@
       "phase": "fantasy",
       "type": "diary",
       "kind": "standard",
-      "category": "随想与记录",
+      "section": "essay",
+      "sectionLabel": "随笔",
+      "layout": "longform",
+      "category": "随笔",
       "tags": [
         "手记"
       ],
@@ -424,6 +535,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -433,7 +545,10 @@
       "phase": "logic",
       "type": "diary",
       "kind": "standard",
-      "category": "随想与记录",
+      "section": "log",
+      "sectionLabel": "开发日志",
+      "layout": "longform",
+      "category": "开发日志",
       "tags": [
         "build",
         "workflow"
@@ -453,6 +568,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -462,7 +578,10 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "log",
+      "sectionLabel": "开发日志",
+      "layout": "longform",
+      "category": "开发日志",
       "tags": [
         "workflow",
         "markdown"
@@ -482,6 +601,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -491,7 +611,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "随笔"
       ],
@@ -510,6 +633,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -519,7 +643,10 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "tech",
+      "sectionLabel": "技术笔记",
+      "layout": "longform",
+      "category": "技术笔记",
       "tags": [
         "算法",
         "模板"
@@ -539,6 +666,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -548,7 +676,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "翻译",
         "访谈"
@@ -568,6 +699,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -577,7 +709,10 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "tech",
+      "sectionLabel": "技术笔记",
+      "layout": "longform",
+      "category": "技术笔记",
       "tags": [
         "ROS 2",
         "工程记录"
@@ -597,6 +732,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -606,7 +742,10 @@
       "phase": "fantasy",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "review",
+      "sectionLabel": "评论",
+      "layout": "longform",
+      "category": "评论",
       "tags": [
         "漫评",
         "随笔"
@@ -626,6 +765,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -635,7 +775,10 @@
       "phase": "logic",
       "type": "article",
       "kind": "standard",
-      "category": "作品评论",
+      "section": "log",
+      "sectionLabel": "开发日志",
+      "layout": "longform",
+      "category": "开发日志",
       "tags": [
         "架构",
         "笔记"
@@ -655,6 +798,7 @@
       "cover": "",
       "media": [],
       "video": null,
+      "publication": null,
       "syndication": null
     },
     {
@@ -663,8 +807,11 @@
       "date": "2025-11-24",
       "phase": "fantasy",
       "type": "article",
-      "kind": "video",
-      "category": "活动记录",
+      "kind": "standard",
+      "section": "activity",
+      "sectionLabel": "活动",
+      "layout": "event",
+      "category": "活动",
       "tags": [
         "FMT",
         "声优见面会",
@@ -672,7 +819,7 @@
       ],
       "summary": "个人记录用，本文可能存在张冠李戴，时序混乱、高度流水账等问题，如有冒犯请见谅。",
       "featured": false,
-      "words": 2656,
+      "words": 2642,
       "minutes": 7,
       "sourceFile": "content-src/fantasy/article/2025-11-24-幸运小特种兵的中村先生fmt见闻.md",
       "source": {
@@ -684,15 +831,8 @@
       "sourceState": "active",
       "cover": "/assets/media/bilibili/1138505511312818176/01.webp",
       "media": [],
-      "video": {
-        "platform": "",
-        "title": "幸运小特种兵的中村先生FMT见闻",
-        "author": "",
-        "embedUrl": "",
-        "sourceUrl": "",
-        "cover": "/assets/media/bilibili/1138505511312818176/01.webp",
-        "note": ""
-      },
+      "video": null,
+      "publication": null,
       "syndication": {
         "author": "2NG仙人星p",
         "url": "https://www.bilibili.com/opus/1138505511312818176"
@@ -704,8 +844,11 @@
       "date": "2025-11-03",
       "phase": "fantasy",
       "type": "article",
-      "kind": "video",
-      "category": "活动记录",
+      "kind": "standard",
+      "section": "activity",
+      "sectionLabel": "活动",
+      "layout": "event",
+      "category": "活动",
       "tags": [
         "FMT",
         "声优见面会",
@@ -713,7 +856,7 @@
       ],
       "summary": "本文存在高度流水账，请谨慎观看。",
       "featured": false,
-      "words": 3030,
+      "words": 3011,
       "minutes": 8,
       "sourceFile": "content-src/fantasy/article/2025-11-03-忙里偷闲的治愈之旅-黑木穗乃香fmt活动记录.md",
       "source": {
@@ -725,15 +868,8 @@
       "sourceState": "active",
       "cover": "/assets/media/bilibili/1130747194114048001/01.webp",
       "media": [],
-      "video": {
-        "platform": "",
-        "title": "忙里偷闲的治愈之旅（黑木穗乃香FMT活动记录）",
-        "author": "",
-        "embedUrl": "",
-        "sourceUrl": "",
-        "cover": "/assets/media/bilibili/1130747194114048001/01.webp",
-        "note": ""
-      },
+      "video": null,
+      "publication": null,
       "syndication": {
         "author": "2NG仙人星p",
         "url": "https://www.bilibili.com/opus/1130747194114048001"
@@ -745,8 +881,11 @@
       "date": "2025-10-03",
       "phase": "fantasy",
       "type": "article",
-      "kind": "video",
-      "category": "活动记录",
+      "kind": "standard",
+      "section": "activity",
+      "sectionLabel": "活动",
+      "layout": "event",
+      "category": "活动",
       "tags": [
         "FMT",
         "声优见面会",
@@ -754,7 +893,7 @@
       ],
       "summary": "个人纪念用，本文掺杂了大量个人无关内容，时序混乱，且高度流水账，一番思索后听了akh夜场的建议写下的这篇repo。",
       "featured": false,
-      "words": 4097,
+      "words": 4080,
       "minutes": 10,
       "sourceFile": "content-src/fantasy/article/2025-10-03-被榨干激情的梦幻一天-凉本秋穗fmt纪事.md",
       "source": {
@@ -766,15 +905,8 @@
       "sourceState": "active",
       "cover": "/assets/media/bilibili/1119506031994470441/01.webp",
       "media": [],
-      "video": {
-        "platform": "",
-        "title": "被榨干激情的梦幻一天（凉本秋穗FMT纪事）",
-        "author": "",
-        "embedUrl": "",
-        "sourceUrl": "",
-        "cover": "/assets/media/bilibili/1119506031994470441/01.webp",
-        "note": ""
-      },
+      "video": null,
+      "publication": null,
       "syndication": {
         "author": "2NG仙人星p",
         "url": "https://www.bilibili.com/opus/1119506031994470441"

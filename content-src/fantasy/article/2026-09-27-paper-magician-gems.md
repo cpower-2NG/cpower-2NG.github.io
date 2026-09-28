@@ -3,6 +3,7 @@ title: 纸上魔法使：宝石短歌
 date: 2026-09-27
 type: article
 kind: standard
+section: essay
 tags: 书评, 纸上魔法使, 诗歌
 summary: 五首围绕《纸上魔法使》角色与章节写成的短歌。
 ---
