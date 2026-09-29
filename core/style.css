@@ -1751,6 +1751,7 @@ html[data-phase="fantasy"] .tree__search {
 .content-viewer > .pager,
 .content-viewer > .comments {
   width: min(100%, 42em);
+  margin-inline: auto;
   font-size: 17px;
 }
 
@@ -2124,6 +2125,18 @@ html[data-phase="fantasy"] body {
   border-bottom: 0 !important;
 }
 
+.article-surface > p {
+  margin-bottom: 1.55em;
+}
+
+.content-viewer[data-entry-layout="note"] .article-surface > p {
+  margin-bottom: 1.3em;
+}
+
+.content-viewer[data-entry-layout="event"] .article-surface > p {
+  margin-bottom: 1.45em;
+}
+
 .content-viewer[data-entry-layout="note"] .article-surface {
   width: min(100%, 36em);
   margin-inline: auto;
@@ -2171,7 +2184,7 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > h2,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > h3,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > .hero__title {
-  max-width: min(100%, 900px);
+  width: min(100%, 748px);
   margin-inline: auto;
 }
 
@@ -2186,7 +2199,7 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h1,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h2,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h3 {
-  max-width: min(100%, 900px);
+  width: min(100%, 748px);
   margin-inline: auto;
 }
 
@@ -2217,6 +2230,12 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] 
   html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .comments {
     grid-column: 1;
     min-width: 0;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .pager,
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .comments {
+    width: min(100%, 44em);
+    margin-inline: auto;
   }
 
   html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .reading-gutter {
