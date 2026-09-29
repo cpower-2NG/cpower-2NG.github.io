@@ -2275,6 +2275,8 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] 
     display: grid;
     grid-column: 2;
     grid-row: 1 / span 4;
+    position: sticky;
+    top: 24px;
     align-self: start;
     padding-top: 46px;
   }
@@ -2479,5 +2481,47 @@ html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"]
 @keyframes bridge-mist-wide {
   to {
     transform: translateX(205vw) skewX(-8deg);
+  }
+}
+
+/* 桌面端让主区成为唯一滚动容器，左右两侧保持稳定。 */
+@media (min-width: 961px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .shell {
+    height: 100vh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .main,
+  .sidebar {
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+  }
+
+  .sidebar {
+    align-self: stretch;
+  }
+}
+
+@media (max-width: 960px) {
+  html,
+  body,
+  .shell {
+    height: auto;
+    min-height: 100%;
+    overflow: visible;
+  }
+
+  .main,
+  .sidebar {
+    height: auto;
+    overflow: visible;
   }
 }

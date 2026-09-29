@@ -335,6 +335,22 @@ async function testControlsAndReadingLayouts(browser) {
   await page.waitForSelector('.article-surface h1');
   assert.equal(await page.locator('.reading-gutter--edge').count(), 1);
   assert.equal(await page.locator('.reading-gutter--edge .reading-gutter__meta').count(), 0);
+  await page.waitForFunction(() => getComputedStyle(document.querySelector('.reading-gutter')).position === 'sticky');
+  await page.waitForTimeout(500);
+  const beforeScroll = await page.evaluate(() => ({
+    sidebarTop: document.querySelector('.sidebar').getBoundingClientRect().top,
+    gutterTop: document.querySelector('.reading-gutter').getBoundingClientRect().top,
+  }));
+  await page.evaluate(() => {
+    document.querySelector('.main').scrollTop = 1600;
+  });
+  await page.waitForTimeout(150);
+  const afterScroll = await page.evaluate(() => ({
+    sidebarTop: document.querySelector('.sidebar').getBoundingClientRect().top,
+    gutterTop: document.querySelector('.reading-gutter').getBoundingClientRect().top,
+  }));
+  assert.ok(Math.abs(afterScroll.sidebarTop - beforeScroll.sidebarTop) < 2);
+  assert.ok(Math.abs(afterScroll.gutterTop - beforeScroll.gutterTop) < 2);
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(
