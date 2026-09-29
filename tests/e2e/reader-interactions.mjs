@@ -305,13 +305,6 @@ async function testControlsAndReadingLayouts(browser) {
   await page.keyboard.press('Escape');
 
   await page.goto(
-    articleUrl('/content/fantasy/article/2026-09-27-dong-muchuan-review.html', { reading: 'column' }),
-    { waitUntil: 'domcontentloaded' },
-  );
-  await page.waitForSelector('.article-surface h1');
-  assert.equal(await page.locator('.reading-gutter').count(), 0);
-
-  await page.goto(
     articleUrl('/content/fantasy/article/2026-09-27-dong-muchuan-review.html', { reading: 'magazine' }),
     { waitUntil: 'domcontentloaded' },
   );

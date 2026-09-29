@@ -96,7 +96,7 @@ window.addEventListener('popstate', onPopState);
 async function init() {
   cacheElements();
   bindGlobalEvents();
-  state.readingLayout = resolveReadingLayout();
+  state.readingLayout = 'magazine';
   state.imageLayout = resolveImageLayout();
   elements.html.dataset.readingLayout = state.readingLayout;
   elements.html.dataset.imageLayout = state.imageLayout;
@@ -136,11 +136,6 @@ async function init() {
     replace: true,
     path: state.currentPath && !state.currentPath.includes('/content/dashboards/') ? state.currentPath : '',
   });
-}
-
-function resolveReadingLayout() {
-  const requested = new URL(window.location.href).searchParams.get('reading');
-  return requested === 'magazine' ? 'magazine' : 'column';
 }
 
 function resolveImageLayout() {
