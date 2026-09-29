@@ -15,22 +15,28 @@
     logic: {
       title: 'LOGIC ARCHIVE',
       subtitle: '把复杂的事拆开，慢慢记下来。',
+      dashboardTitle: '技术整理与项目记录',
+      dashboardText: '把复杂的问题拆开，记下解决过程、取舍和还需要继续想的地方。',
+      status: '技术整理与项目记录还在收拢，留下的内容会慢慢出现在这里。',
       pill: 'LOGIC · STABLE',
       footer: 'Logic 位面',
       themeColor: '#0a0f14',
       bridgeColor: 'rgba(121, 201, 192, 0.24)',
       boot: ['点亮 Logic 的档案灯…', '整理目录与近作…', '准备阅读界面…'],
-      empty: '技术整理与项目记录还在收拢。',
+      empty: '第一份真正准备好的技术记录出现后，会从这里开始。',
     },
     fantasy: {
       title: '幻想回廊',
       subtitle: '把读过的、想过的，慢慢留在这里。',
+      dashboardTitle: '阅读、活动与慢慢写下的文字',
+      dashboardText: '从最近读到的、见到的和还留在心里的内容开始。',
+      status: '书架已经掸过灰，新的阅读、活动与手记会陆续到来。',
       pill: 'FANTASY · REVERIE',
       footer: 'Fantasy 位面',
       themeColor: '#f6f0e7',
       bridgeColor: 'rgba(185, 122, 131, 0.28)',
       boot: ['点亮回廊灯火…', '拂去书架浮尘…', '准备阅读界面…'],
-      empty: '书架已经掸过灰，新的内容会陆续到来。',
+      empty: '等第一篇文章准备好，它会从这里出现。',
     },
   };
 
@@ -57,9 +63,6 @@
   async function init() {
     cacheElements();
     bindEvents();
-    state.phase = resolvePhase();
-    applyPhase(state.phase);
-    initAmbience();
 
     try {
       const response = await fetch(INDEX_URL);
@@ -79,6 +82,11 @@
       el.view.innerHTML = renderMessage('内容索引暂时没有读到', '稍后刷新页面，或检查 /data/site-index.json 是否已生成。');
       return;
     }
+
+    // 位面列表来自索引，必须等索引到位后再解析，否则 ?phase=logic 这类直链会失效
+    state.phase = resolvePhase();
+    applyPhase(state.phase);
+    initAmbience();
 
     renderSidebar();
     updateStatusNote();
@@ -279,8 +287,9 @@
     el.view.innerHTML = `
       <section class="article-surface view__hero">
         <p class="hero__eyebrow">${escapeHtml(config.label)} · 总览</p>
-        <h1 class="hero__title">${escapeHtml(style.subtitle)}</h1>
-        <p class="hero__text">${entries.length + phaseMoments().length ? `共 ${entries.length} 篇文章 · ${phaseMoments().length} 条动态` : escapeHtml(style.empty)}</p>
+        <h1 class="hero__title">${escapeHtml(style.dashboardTitle)}</h1>
+        <p class="hero__text">${escapeHtml(style.dashboardText)}</p>
+        ${entries.length + phaseMoments().length ? `<p class="hero-ext">共 ${entries.length} 篇文章 · ${phaseMoments().length} 条动态</p>` : `<p class="hero-ext">${escapeHtml(style.empty)}</p>`}
       </section>
 
       <section class="section-cards">
@@ -904,7 +913,7 @@
 
   function updateStatusNote() {
     const style = PHASE_STYLE[state.phase] || PHASE_STYLE.fantasy;
-    if (el.statusText) el.statusText.textContent = style.subtitle;
+    if (el.statusText) el.statusText.textContent = style.status;
     const latest = phaseEntries()[0] || phaseMoments()[0];
     const date = latest ? String(latest.publishedAt || latest.date || '').slice(0, 10) : '';
     if (el.statusTitle) el.statusTitle.textContent = date ? `更新于 ${formatDate(date)}` : '更新于 —';

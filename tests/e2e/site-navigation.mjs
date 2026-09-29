@@ -55,9 +55,14 @@ async function main() {
       if (message.type() === 'error') errors.push(message.text());
     });
 
+    // 默认位面：与旧站一致，首次进入落在 Logic
     await page.goto(`${baseUrl}/`, { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.view__hero .hero__title');
+    const defaultPhase = await page.evaluate(() => document.documentElement.dataset.phase);
+    assert.equal(defaultPhase, 'logic', `首次进入应落在 Logic，实际 ${defaultPhase}`);
 
-    // 侧栏只放结构导航，且不展开具体条目
+    // Fantasy 位面：侧栏只放结构导航，且不展开具体条目
+    await page.goto(`${baseUrl}/?phase=fantasy`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.tree__link[data-action="section"]');
     const sectionCount = await page.locator('.tree__link[data-action="section"]').count();
     assert.ok(sectionCount >= 5, `分区入口应 >= 5，实际 ${sectionCount}`);
@@ -65,6 +70,12 @@ async function main() {
 
     // 总览
     await page.waitForSelector('.section-card');
+    const heroTitle = (await page.locator('.view__hero .hero__title').first().textContent())?.trim();
+    assert.equal(
+      heroTitle,
+      '阅读、活动与慢慢写下的文字',
+      `首页标题应使用原文案，实际「${heroTitle}」`,
+    );
 
     // 分区列表（杂志式）
     await page.locator('.tree__link[data-action="section"]', { hasText: '漫评' }).first().click();
@@ -102,6 +113,12 @@ async function main() {
     await page.locator('[data-phase-id="logic"]').click();
     await page.waitForFunction(() => document.documentElement.dataset.phase === 'logic');
     await page.waitForSelector('.section-card');
+
+    // 位面直链：?phase=logic 必须直接落在 Logic（曾因索引未就绪而失效）
+    await page.goto(`${baseUrl}/?phase=logic`, { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.view__hero .hero__title');
+    const logicTitle = (await page.locator('.view__hero .hero__title').first().textContent())?.trim();
+    assert.equal(logicTitle, '技术整理与项目记录', `?phase=logic 应直接进入 Logic，实际「${logicTitle}」`);
 
     // 深链：静态页自动进入阅读视图
     await page.goto(`${baseUrl}/content/冬滚滚.html`, { waitUntil: 'domcontentloaded' });
