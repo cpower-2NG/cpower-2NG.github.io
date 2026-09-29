@@ -325,7 +325,10 @@ async function testControlsAndReadingLayouts(browser) {
     articleUrl('/content/fantasy/article/2025-11-24-幸运小特种兵的中村先生fmt见闻.html', { reading: 'magazine' }),
     { waitUntil: 'domcontentloaded' },
   );
-  await page.waitForSelector('.article-surface h1');
+  await page.waitForFunction(
+    () => document.querySelector('[data-content-viewer]')?.dataset.entryLayout === 'event',
+  );
+  await page.locator('.article-surface h1', { hasText: '幸运小特种兵' }).waitFor();
   assert.equal(await page.locator('.reading-gutter--event').count(), 1);
   assert.equal(await page.locator('.reading-gutter--event .reading-gutter__meta').count(), 1);
   await page.waitForFunction(() => getComputedStyle(document.querySelector('.reading-gutter')).position === 'sticky');
