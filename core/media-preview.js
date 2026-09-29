@@ -107,7 +107,9 @@
       }
       const ratio = height / width;
       let shape = 'landscape';
-      if (ratio > 2.25) {
+      if (width / height > 2.4) {
+        shape = 'panorama';
+      } else if (ratio > 2.25) {
         shape = 'long';
       } else if (ratio > 1.12) {
         shape = 'portrait';

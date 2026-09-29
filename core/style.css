@@ -2401,6 +2401,13 @@ html[data-phase="fantasy"] .command-item.is-active {
   object-fit: contain;
 }
 
+html[data-image-layout="uniform56"] .article-surface img[data-image-shape="landscape"],
+html[data-image-layout="editorial56"] .article-surface img[data-image-shape="landscape"],
+html[data-image-layout="editorial64"] .article-surface img[data-image-shape="landscape"] {
+  max-width: min(100%, 782px);
+  max-height: 56vh;
+}
+
 html[data-image-layout="uniform56"] .article-surface img[data-image-shape="portrait"],
 html[data-image-layout="uniform56"] .article-surface img[data-image-shape="long"] {
   max-height: 56vh;
@@ -2420,15 +2427,22 @@ html[data-image-layout="editorial64"] .article-surface img[data-image-shape="lon
   max-height: 64vh;
 }
 
-html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child),
-html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child) {
+html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="panorama"]:only-child),
+html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="panorama"]:only-child) {
   max-width: 980px;
+}
+
+html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="panorama"]:only-child,
+html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="panorama"]:only-child {
+  width: 100%;
+  max-height: none;
 }
 
 html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child,
 html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child {
-  width: 100%;
-  max-height: none;
+  width: auto;
+  max-width: min(100%, 782px);
+  max-height: 56vh;
 }
 
 /* ---------- 柔光雾：保留方向感，但不再使用高亮白芯 ---------- */
@@ -2528,5 +2542,41 @@ html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"]
   .sidebar {
     height: auto;
     overflow: visible;
+  }
+}
+
+/* 图片预览始终占满原生 dialog 的可视区域，再在内部居中。 */
+.media-preview {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  place-items: center;
+  background: transparent;
+}
+
+.media-preview[open] {
+  display: grid;
+}
+
+.media-preview__frame {
+  width: min(96vw, 1500px);
+  height: 100%;
+  min-height: 0;
+  margin: auto;
+  padding: 46px 64px 52px;
+  place-items: center;
+}
+
+@media (max-width: 720px) {
+  .media-preview__frame {
+    width: 100vw;
+    height: 100vh;
+    padding: 46px 12px 58px;
   }
 }
