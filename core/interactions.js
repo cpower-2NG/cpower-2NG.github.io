@@ -289,7 +289,7 @@
     const section = element('section', 'comments');
     section.dataset.phase = phase;
     section.innerHTML = '<p class="hero__eyebrow">讨论</p>';
-    const loading = element('p', 'comments__status', '正在读取互动数据…');
+    const loading = element('p', 'comments__status', '正在读取评论…');
     section.append(loading);
     viewer.append(section);
 

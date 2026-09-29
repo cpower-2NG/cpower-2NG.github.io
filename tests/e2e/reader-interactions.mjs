@@ -169,7 +169,9 @@ async function testNavigation(page) {
   await page.waitForSelector('[data-tree-search]');
   assert.equal(await page.locator('.tree__section').count(), 5);
   const counts = await page.locator('.tree__count').allTextContents();
-  assert.deepEqual(counts, ['3', '3', '9', '6']);
+  assert.deepEqual(counts, ['3', '3', '6', '6']);
+  const visibleText = await page.locator('body').innerText();
+  assert.doesNotMatch(visibleText, /entries\.json|构建|索引|占位|手工维护|Bootstrap|\[ OK \]/);
 
   await page.locator('[data-tree-search]').fill('冬暮');
   assert.equal(await page.locator('.tree__link--result').count(), 1);
@@ -274,6 +276,99 @@ async function testFailureDegradation(browser) {
   await context.close();
 }
 
+async function testControlsAndReadingLayouts(browser) {
+  const context = await browser.newContext({ viewport: { width: 1600, height: 1000 } });
+  const page = await context.newPage();
+  await page.route('https://func-bifrost-z43zcc.azurewebsites.net/**', (route) =>
+    route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: '{"enabled":true,"comments":[],"likes":0,"views":0,"liked":false}',
+    }),
+  );
+
+  await page.goto(`${baseUrl}/?phase=fantasy`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('[data-tree-search]');
+  assert.equal(
+    await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--grid-line').trim()),
+    'transparent',
+  );
+  await page.keyboard.press('`');
+  await page.waitForTimeout(100);
+  assert.equal(await page.locator('[data-command-overlay]').evaluate((node) => node.classList.contains('is-active')), false);
+  await page.keyboard.press('Control+K');
+  assert.equal(await page.locator('[data-command-overlay]').evaluate((node) => node.classList.contains('is-active')), true);
+  const commandHelp = await page.locator('.command-help').innerText();
+  assert.doesNotMatch(commandHelp, /set up|reset|shutdown|彩蛋/);
+  await page.locator('[data-command-input]').fill('reset');
+  assert.equal(await page.locator('.command-item').count(), 0);
+  await page.keyboard.press('Escape');
+
+  await page.goto(
+    articleUrl('/content/fantasy/article/2026-09-27-dong-muchuan-review.html', { reading: 'column' }),
+    { waitUntil: 'domcontentloaded' },
+  );
+  await page.waitForSelector('.article-surface h1');
+  assert.equal(await page.locator('.reading-gutter').count(), 0);
+
+  await page.goto(
+    articleUrl('/content/fantasy/article/2026-09-27-dong-muchuan-review.html', { reading: 'magazine' }),
+    { waitUntil: 'domcontentloaded' },
+  );
+  await page.waitForSelector('.reading-gutter');
+  const magazine = await page.evaluate(() => {
+    const article = document.querySelector('.article-surface').getBoundingClientRect();
+    const gutter = document.querySelector('.reading-gutter').getBoundingClientRect();
+    return {
+      articleWidth: article.width,
+      gutterLeft: gutter.left,
+      articleRight: article.right,
+    };
+  });
+  assert.ok(magazine.articleWidth > 800);
+  assert.ok(magazine.gutterLeft > magazine.articleRight);
+
+  await page.goto(
+    articleUrl('/content/fantasy/article/2025-11-24-幸运小特种兵的中村先生fmt见闻.html', { reading: 'magazine' }),
+    { waitUntil: 'domcontentloaded' },
+  );
+  await page.waitForSelector('.article-surface h1');
+  assert.equal(await page.locator('.reading-gutter--edge').count(), 1);
+  assert.equal(await page.locator('.reading-gutter--edge .reading-gutter__meta').count(), 0);
+  await page.waitForFunction(() => getComputedStyle(document.querySelector('.reading-gutter')).position === 'sticky');
+  await page.waitForTimeout(500);
+  const beforeScroll = await page.evaluate(() => ({
+    sidebarTop: document.querySelector('.sidebar').getBoundingClientRect().top,
+    gutterTop: document.querySelector('.reading-gutter').getBoundingClientRect().top,
+  }));
+  await page.evaluate(() => {
+    document.querySelector('.main').scrollTop = 1600;
+  });
+  await page.waitForTimeout(150);
+  const afterScroll = await page.evaluate(() => ({
+    sidebarTop: document.querySelector('.sidebar').getBoundingClientRect().top,
+    gutterTop: document.querySelector('.reading-gutter').getBoundingClientRect().top,
+  }));
+  assert.ok(Math.abs(afterScroll.sidebarTop - beforeScroll.sidebarTop) < 2);
+  assert.ok(Math.abs(afterScroll.gutterTop - beforeScroll.gutterTop) < 2);
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(
+    articleUrl('/content/fantasy/article/2026-09-27-dong-muchuan-review.html', { reading: 'magazine' }),
+    { waitUntil: 'domcontentloaded' },
+  );
+  await page.waitForSelector('.article-surface h1');
+  assert.equal(await page.locator('.reading-gutter').isVisible(), false);
+
+  await page.goto(`${baseUrl}/?phase=logic`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('[data-tree-search]');
+  const logicGrid = await page.evaluate(() =>
+    getComputedStyle(document.documentElement).getPropertyValue('--grid-line').trim(),
+  );
+  assert.notEqual(logicGrid, 'transparent');
+  await context.close();
+}
+
 const server = spawn(process.execPath, ['preview-server.mjs', String(port), '--no-open'], {
   cwd: root,
   stdio: ['ignore', 'pipe', 'pipe'],
@@ -294,6 +389,8 @@ try {
   await testLightbox(navigationPage);
   await testPublicationReader(navigationPage, false);
   await navigation.close();
+
+  await testControlsAndReadingLayouts(browser);
 
   const mobile = await browser.newContext({ viewport: { width: 390, height: 844 } });
   const mobilePage = await mobile.newPage();
