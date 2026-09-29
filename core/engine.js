@@ -761,9 +761,21 @@ function renderEntryChrome(entry) {
 
   if (state.readingLayout === 'magazine' && entry.layout === 'event') {
     const gutter = document.createElement('aside');
-    gutter.className = 'reading-gutter reading-gutter--edge';
-    gutter.setAttribute('aria-hidden', 'true');
-    gutter.innerHTML = '<div class="reading-gutter__line"></div>';
+    gutter.className = 'reading-gutter reading-gutter--event';
+    gutter.setAttribute('aria-label', '阅读信息与进度');
+    gutter.innerHTML = `
+      <div class="reading-gutter__line" aria-hidden="true"><i data-reading-progress-fill></i></div>
+      <div class="reading-gutter__meta">
+        <span>${escapeHtml(formatDate(entry.date))}</span>
+        <span>约 ${minutes} 分钟</span>
+        <span>${escapeHtml(entry.sectionLabel || entry.category || '活动记录')}</span>
+      </div>
+      ${tags.length ? `<div class="reading-gutter__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>` : ''}
+      <button class="reading-gutter__top" type="button" data-reading-top>↑<span>回到顶部</span></button>
+    `;
+    gutter.querySelector('[data-reading-top]').addEventListener('click', () => {
+      elements.main.scrollTo({ top: 0, behavior: 'smooth' });
+    });
     elements.viewer.append(gutter);
   }
 

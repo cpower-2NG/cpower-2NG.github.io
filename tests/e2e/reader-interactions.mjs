@@ -326,8 +326,8 @@ async function testControlsAndReadingLayouts(browser) {
     { waitUntil: 'domcontentloaded' },
   );
   await page.waitForSelector('.article-surface h1');
-  assert.equal(await page.locator('.reading-gutter--edge').count(), 1);
-  assert.equal(await page.locator('.reading-gutter--edge .reading-gutter__meta').count(), 0);
+  assert.equal(await page.locator('.reading-gutter--event').count(), 1);
+  assert.equal(await page.locator('.reading-gutter--event .reading-gutter__meta').count(), 1);
   await page.waitForFunction(() => getComputedStyle(document.querySelector('.reading-gutter')).position === 'sticky');
   await page.waitForTimeout(500);
   const beforeScroll = await page.evaluate(() => ({

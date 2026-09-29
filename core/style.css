@@ -2271,17 +2271,22 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] 
     margin-inline: auto;
   }
 
-  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--edge {
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--event {
     display: grid;
     grid-column: 2;
     grid-row: 1 / span 4;
     position: sticky;
     top: 24px;
     align-self: start;
+    gap: 18px;
     padding-top: 46px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    transform: translateX(18px);
   }
 
-  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--edge .reading-gutter__line {
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--event .reading-gutter__line {
     height: 220px;
   }
 
@@ -2297,6 +2302,7 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] 
     color: var(--text-dim);
     font-family: var(--font-mono);
     font-size: 10px;
+    transform: translateX(14px);
   }
 }
 
