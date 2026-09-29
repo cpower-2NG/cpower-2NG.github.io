@@ -3,7 +3,7 @@ import { config } from '../lib/config.js';
 import { HttpError } from '../lib/errors.js';
 import { handleError, json, readJson } from '../lib/http.js';
 import { claimRateLimit, toggleReaction } from '../lib/repository.js';
-import { identifier, interactionPath } from '../lib/validation.js';
+import { entryId as parseEntryId, identifier } from '../lib/validation.js';
 
 app.http('reactions', {
   methods: ['POST'],
@@ -15,7 +15,7 @@ app.http('reactions', {
         throw new HttpError(503, '点赞功能暂时关闭。', 'INTERACTIONS_DISABLED');
       }
       const body = await readJson(request);
-      const path = interactionPath(body.path);
+      const entryId = parseEntryId(body.entryId);
       const visitorId = identifier(body.visitorId, '访客标识');
       const limit = await claimRateLimit(`reaction:hour:${visitorId}`, {
         windowSeconds: 3600,
@@ -24,7 +24,7 @@ app.http('reactions', {
       if (!limit.allowed) {
         throw new HttpError(429, '操作过于频繁，请稍后再试。', 'RATE_LIMITED');
       }
-      return json(request, await toggleReaction(path, visitorId));
+      return json(request, await toggleReaction(entryId, visitorId));
     } catch (error) {
       return handleError(request, error, context);
     }

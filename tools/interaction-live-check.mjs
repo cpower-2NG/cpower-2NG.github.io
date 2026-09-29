@@ -1,3 +1,5 @@
+// 真实写入检查：用不会出现在公开内容里的专用 entryId 验证评论、回复、点赞与阅读去重，随后清理。
+// 必须显式确认：node tools/interaction-live-check.mjs --confirm=WRITE
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
@@ -9,24 +11,23 @@ const requireFromSync = createRequire(resolve(root, 'sync', 'package.json'));
 const { CosmosClient } = requireFromSync('@azure/cosmos');
 const { DefaultAzureCredential } = requireFromSync('@azure/identity');
 const site = JSON.parse(await readFile(resolve(root, 'data', 'site.json'), 'utf8'));
-const entries = JSON.parse(await readFile(resolve(root, 'data', 'entries.json'), 'utf8'));
+const index = JSON.parse(await readFile(resolve(root, 'data', 'site-index.json'), 'utf8'));
 const apiBase = String(site.interactions?.apiBaseUrl || '').replace(/\/+$/, '');
-const testPath = '/content/fantasy/article/__interaction-live-test__.html';
+// 专用测试 id：不会出现在公开内容里，且符合 entryId 校验规则
+const testEntryId = '__interaction-live-test__';
 const confirm = process.argv.includes('--confirm=WRITE');
 const cosmosEndpoint = process.env.COSMOS_ENDPOINT || 'https://cosmos-bifrost-z43zcc.documents.azure.com:443/';
 const cosmosDatabase = process.env.COSMOS_DATABASE || 'bifrost';
 const visitorId = `live-check-${Date.now()}`;
 const runId = Date.now().toString(36);
-const created = {
-  comments: [],
-  activity: [],
-};
+const containers = ['comments', 'signals'];
 
 if (!confirm) {
   throw new Error('真实写入检查必须显式传入 --confirm=WRITE。');
 }
-if (entries.entries.some((entry) => entry.path === testPath)) {
-  throw new Error(`测试路径已存在于公开内容索引：${testPath}`);
+if ((index.entries || []).some((entry) => entry.entryId === testEntryId)
+  || (index.moments || []).some((moment) => moment.id === testEntryId)) {
+  throw new Error(`测试 entryId 已存在于公开索引：${testEntryId}`);
 }
 
 async function api(route, options = {}) {
@@ -46,51 +47,55 @@ async function api(route, options = {}) {
   return payload;
 }
 
-async function cleanup() {
-  const client = new CosmosClient(
+function cosmos() {
+  return new CosmosClient(
     process.env.COSMOS_KEY
       ? { endpoint: cosmosEndpoint, key: process.env.COSMOS_KEY }
       : { endpoint: cosmosEndpoint, aadCredentials: new DefaultAzureCredential() },
-  );
-  const database = client.database(cosmosDatabase);
-  const results = { deleted: 0 };
-  for (const containerName of ['comments', 'activity']) {
+  ).database(cosmosDatabase);
+}
+
+async function cleanup() {
+  const database = cosmos();
+  let deleted = 0;
+  for (const containerName of containers) {
     const container = database.container(containerName);
     const query = await container.items.query(
       {
-        query: 'SELECT * FROM c WHERE c.path = @path',
-        parameters: [{ name: '@path', value: testPath }],
+        query: 'SELECT * FROM c WHERE c.entryId = @entryId',
+        parameters: [{ name: '@entryId', value: testEntryId }],
       },
-      { partitionKey: testPath },
+      { partitionKey: testEntryId },
     ).fetchAll();
     for (const item of query.resources) {
-      await container.item(item.id, testPath).delete();
-      results.deleted += 1;
+      await container.item(item.id, testEntryId).delete();
+      deleted += 1;
     }
   }
   const remaining = [];
-  for (const containerName of ['comments', 'activity']) {
+  for (const containerName of containers) {
     const container = database.container(containerName);
     const query = await container.items.query(
       {
-        query: 'SELECT VALUE COUNT(1) FROM c WHERE c.path = @path',
-        parameters: [{ name: '@path', value: testPath }],
+        query: 'SELECT VALUE COUNT(1) FROM c WHERE c.entryId = @entryId',
+        parameters: [{ name: '@entryId', value: testEntryId }],
       },
-      { partitionKey: testPath },
+      { partitionKey: testEntryId },
     ).fetchAll();
     remaining.push({ container: containerName, count: Number(query.resources[0]) || 0 });
   }
-  return { ...results, remaining };
+  return { deleted, remaining };
 }
 
 let report = null;
 let failure = null;
 try {
-  const baseline = await api(`/interactions?path=${encodeURIComponent(testPath)}&visitorId=${encodeURIComponent(visitorId)}`);
+  const baseline = await api(`/interactions?entryId=${encodeURIComponent(testEntryId)}&visitorId=${encodeURIComponent(visitorId)}`);
+
   const rootComment = await api('/comments', {
     method: 'POST',
     body: {
-      path: testPath,
+      entryId: testEntryId,
       visitorId,
       content: `BIFROST 写入检查 ${runId}：根评论`,
       parentId: null,
@@ -102,12 +107,11 @@ try {
       elapsedMs: 2500,
     },
   });
-  created.comments.push(rootComment.id);
 
   const reply = await api('/comments', {
     method: 'POST',
     body: {
-      path: testPath,
+      entryId: testEntryId,
       visitorId,
       content: `BIFROST 写入检查 ${runId}：回复`,
       parentId: rootComment.id,
@@ -119,36 +123,24 @@ try {
       elapsedMs: 2500,
     },
   });
-  created.comments.push(reply.id);
 
-  await api('/reactions', {
-    method: 'POST',
-    body: { path: testPath, visitorId },
-  });
-  const unliked = await api('/reactions', {
-    method: 'POST',
-    body: { path: testPath, visitorId },
-  });
+  await api('/reactions', { method: 'POST', body: { entryId: testEntryId, visitorId } });
+  const unliked = await api('/reactions', { method: 'POST', body: { entryId: testEntryId, visitorId } });
   assert.equal(unliked.liked, false);
   assert.equal(Number(unliked.likes), Number(baseline.likes));
 
-  const firstView = await api('/views', {
-    method: 'POST',
-    body: { path: testPath, visitorId },
-  });
-  const secondView = await api('/views', {
-    method: 'POST',
-    body: { path: testPath, visitorId },
-  });
+  const firstView = await api('/views', { method: 'POST', body: { entryId: testEntryId, visitorId } });
+  const secondView = await api('/views', { method: 'POST', body: { entryId: testEntryId, visitorId } });
   assert.equal(Number(secondView.views), Number(firstView.views), '同一访客同一天的阅读数被重复累加。');
 
-  const after = await api(`/interactions?path=${encodeURIComponent(testPath)}&visitorId=${encodeURIComponent(visitorId)}`);
+  const after = await api(`/interactions?entryId=${encodeURIComponent(testEntryId)}&visitorId=${encodeURIComponent(visitorId)}`);
   assert.equal(Number(after.commentCount), 2);
   assert.equal(Number(after.likes), Number(baseline.likes));
   assert.equal(Number(after.views), Number(baseline.views) + 1);
+
   report = {
     ok: true,
-    path: testPath,
+    entryId: testEntryId,
     baseline,
     after,
     rootCommentId: rootComment.id,
@@ -168,9 +160,7 @@ try {
 
 if (failure) {
   process.stderr.write(`${failure.stack || failure.message}\n`);
-  if (report?.cleanup) {
-    process.stderr.write(`${JSON.stringify(report.cleanup, null, 2)}\n`);
-  }
+  if (report?.cleanup) process.stderr.write(`${JSON.stringify(report.cleanup, null, 2)}\n`);
   process.exitCode = 1;
 } else {
   process.stdout.write(`${JSON.stringify(report, null, 2)}\n`);

@@ -4,9 +4,9 @@ export function countLinks(value) {
   return (String(value || '').match(/https?:\/\/|www\./gi) || []).length;
 }
 
-export function commentFingerprint(path, nickname, content) {
+export function commentFingerprint(entryId, nickname, content) {
   return createHash('sha256')
-    .update(`${path}\n${nickname}\n${content}`)
+    .update(`${entryId}\n${nickname}\n${content}`)
     .digest('hex')
     .slice(0, 32);
 }

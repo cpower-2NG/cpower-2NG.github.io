@@ -243,9 +243,9 @@
     });
   }
 
-  function markViewOnce(path) {
+  function markViewOnce(entryId) {
     const today = new Date().toISOString().slice(0, 10);
-    const key = `${today}:${path}`;
+    const key = `${today}:${entryId}`;
     const todayPrefix = `${today}:`;
     let keys = [];
     try {
@@ -309,7 +309,7 @@
     try {
       payload = await request(
         config,
-        `/interactions?path=${encodeURIComponent(entry.path)}&visitorId=${encodeURIComponent(visitorId())}`,
+        `/interactions?entryId=${encodeURIComponent(entry.entryId)}&visitorId=${encodeURIComponent(visitorId())}`,
         { signal: activeController.signal },
       );
     } catch (error) {
@@ -346,7 +346,7 @@
       try {
         const result = await request(config, '/reactions', {
           method: 'POST',
-          body: { path: entry.path, visitorId: visitorId() },
+          body: { entryId: entry.entryId, visitorId: visitorId() },
         });
         liked = Boolean(result.liked);
         likes = Number(result.likes) || 0;
@@ -370,7 +370,7 @@
       const profile = savedProfile();
       const anonymous = Boolean(extra.anonymous);
       const body = {
-        path: entry.path,
+        entryId: entry.entryId,
         visitorId: visitorId(),
         content,
         parentId,
@@ -484,10 +484,10 @@
     });
     section.append(form);
 
-    if (configured(config) && config.viewsEnabled !== false && markViewOnce(entry.path)) {
+    if (configured(config) && config.viewsEnabled !== false && markViewOnce(entry.entryId)) {
       request(config, '/views', {
         method: 'POST',
-        body: { path: entry.path, visitorId: visitorId() },
+        body: { entryId: entry.entryId, visitorId: visitorId() },
       }).catch(() => undefined);
     }
   }

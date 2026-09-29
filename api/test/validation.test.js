@@ -1,13 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { interactionPath, optionalWebsite, text } from '../src/lib/validation.js';
+import { entryId, optionalWebsite, text } from '../src/lib/validation.js';
 
-test('interaction paths reject dashboard and unsafe routes', () => {
-  assert.equal(
-    interactionPath('/content/fantasy/diary/2026-09-13-open-the-corridor.html'),
-    '/content/fantasy/diary/2026-09-13-open-the-corridor.html',
-  );
-  assert.throws(() => interactionPath('/content/dashboards/fantasy-dash.html'));
+test('entry ids accept ULID style ids and reject paths', () => {
+  assert.equal(entryId('01M3PF9QCGS7FMTCMMKDYTAQ68'), '01M3PF9QCGS7FMTCMMKDYTAQ68');
+  assert.equal(entryId('qq-b4ecdeb0e701b16a0da80800'), 'qq-b4ecdeb0e701b16a0da80800');
+  assert.throws(() => entryId('/content/fantasy/article/foo.html'));
+  assert.throws(() => entryId('short'));
 });
 
 test('text is trimmed and bounded', () => {

@@ -11,6 +11,8 @@ export function config(overrides = {}) {
     interactionsEnabled: process.env.INTERACTIONS_ENABLED !== 'false',
     cosmosEndpoint: process.env.COSMOS_ENDPOINT || '',
     cosmosDatabase: process.env.COSMOS_DATABASE || 'bifrost',
+    searchEndpoint: process.env.SEARCH_ENDPOINT || '',
+    searchIndex: process.env.SEARCH_INDEX || 'bifrost-content',
     blobAccountUrl: process.env.BLOB_ACCOUNT_URL || '',
     mediaContainer: process.env.MEDIA_CONTAINER || 'media',
     privateContainer: process.env.PRIVATE_CONTAINER || 'private',

@@ -24,15 +24,14 @@ export function optionalWebsite(value) {
   return url.toString();
 }
 
-export function interactionPath(value) {
-  const path = text(value, '文章路径', { min: 8, max: 240, required: true });
-  assert(
-    /^\/content\/(?:logic|fantasy)\/(?:article|diary)\/[A-Za-z0-9._/-]+\.html$/.test(path),
-   400,
-    '文章路径无效。',
-   'INVALID_PATH',
-  );
-  return path;
+/**
+ * 互动数据以 entryId 为归属，不再绑定可变的 URL 路径。
+ * 内容 id 由导入流程生成（ULID），另有迁移期沿用的旧式 id。
+ */
+export function entryId(value) {
+  const id = text(value, '内容标识', { min: 8, max: 64, required: true });
+  assert(/^[A-Za-z0-9_-]+$/.test(id), 400, '内容标识无效。', 'INVALID_ENTRY_ID');
+  return id;
 }
 
 export function identifier(value, field, max = 120) {

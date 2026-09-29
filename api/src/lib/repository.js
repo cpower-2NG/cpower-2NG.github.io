@@ -12,11 +12,11 @@ function shortHash(value) {
   return createHash('sha256').update(String(value)).digest('hex').slice(0, 32);
 }
 
-function metricDocument(path) {
+function metricDocument(entryId) {
   return {
     id: 'metric',
     type: 'metric',
-    path,
+    entryId,
     likes: 0,
     views: 0,
     comments: 0,
@@ -24,36 +24,36 @@ function metricDocument(path) {
   };
 }
 
-async function readMetric(path) {
-  const { activity } = cosmosContainers();
+async function readMetric(entryId) {
+  const { signals } = cosmosContainers();
   let existing;
   try {
-    existing = (await activity.item('metric', path).read())?.resource;
+    existing = (await signals.item('metric', entryId).read())?.resource;
   } catch (error) {
     if (error.code !== 404) throw error;
   }
   if (existing) {
     return existing;
   }
-  const metric = metricDocument(path);
+  const metric = metricDocument(entryId);
   try {
-    await activity.items.create(metric);
+    await signals.items.create(metric);
   } catch (createError) {
     if (createError.code !== 409) throw createError;
-    return (await activity.item('metric', path).read())?.resource || metric;
+    return (await signals.item('metric', entryId).read())?.resource || metric;
   }
   return metric;
 }
 
-async function patchMetric(path, operations) {
-  const { activity } = cosmosContainers();
-  await readMetric(path);
+async function patchMetric(entryId, operations) {
+  const { signals } = cosmosContainers();
+  await readMetric(entryId);
   try {
-    const result = await activity.item('metric', path).patch(operations);
+    const result = await signals.item('metric', entryId).patch(operations);
     return result.resource;
   } catch (error) {
     if (error.code !== 404) throw error;
-    return readMetric(path);
+    return readMetric(entryId);
   }
 }
 
@@ -108,13 +108,13 @@ export function visitorHash(visitorId) {
   return hashSecret(`visitor:${visitorId}`);
 }
 
-export async function getInteractionSummary(path, viewerId) {
+export async function getInteractionSummary(entryId, viewerId) {
   const { comments } = cosmosContainers();
-  const metric = await readMetric(path);
+  const metric = await readMetric(entryId);
   const viewer = visitorHash(viewerId);
   let liked = false;
   try {
-    const response = await cosmosContainers().activity.item(`reaction-${viewer}`, path).read();
+    const response = await cosmosContainers().signals.item(`reaction-${viewer}`, entryId).read();
     liked = Boolean(response?.resource?.active);
   } catch (error) {
     if (error.code !== 404) throw error;
@@ -124,7 +124,7 @@ export async function getInteractionSummary(path, viewerId) {
     {
       query: "SELECT VALUE COUNT(1) FROM c WHERE c.type = 'comment' AND c.status = 'published'",
     },
-    { partitionKey: path },
+    { partitionKey: entryId },
   ).fetchAll();
   const commentCount = Number(result.resources[0]) || Number(metric.comments) || 0;
   return {
@@ -135,18 +135,18 @@ export async function getInteractionSummary(path, viewerId) {
   };
 }
 
-export async function listComments(path, viewerId, { limit = 100, cursor = '' } = {}) {
+export async function listComments(entryId, viewerId, { limit = 100, cursor = '' } = {}) {
   const { comments } = cosmosContainers();
   const response = await comments.items.query(
     {
       query: "SELECT * FROM c WHERE c.type = 'comment' AND c.status = 'published'",
     },
-    { partitionKey: path },
+    { partitionKey: entryId },
   ).fetchAll();
   const all = response.resources.sort((a, b) => String(a.createdAt).localeCompare(String(b.createdAt)));
   const visible = all.map((item) => ({
     id: item.id,
-    path: item.path,
+    entryId: item.entryId,
     nickname: item.anonymous ? '匿名用户' : item.nickname,
     avatarUrl: item.avatarUrl || '',
     website: item.website || '',
@@ -179,7 +179,7 @@ export async function listComments(path, viewerId, { limit = 100, cursor = '' } 
 }
 
 export async function addComment(input) {
-  const { comments, activity } = cosmosContainers();
+  const { comments } = cosmosContainers();
   const id = randomUUID();
   const now = new Date().toISOString();
   let rootId = null;
@@ -188,7 +188,7 @@ export async function addComment(input) {
   if (input.parentId) {
     let parent;
     try {
-      parent = (await comments.item(input.parentId, input.path).read()).resource;
+      parent = (await comments.item(input.parentId, input.entryId).read()).resource;
     } catch (error) {
       if (error.code === 404) {
         throw new HttpError(404, '要回复的评论不存在。', 'COMMENT_NOT_FOUND');
@@ -210,7 +210,7 @@ export async function addComment(input) {
       query: "SELECT TOP 1 c.id FROM c WHERE c.type = 'comment' AND c.fingerprint = @fingerprint AND c.status IN ('published', 'pending')",
       parameters: [{ name: '@fingerprint', value: input.fingerprint }],
     },
-    { partitionKey: input.path },
+    { partitionKey: input.entryId },
   ).fetchAll();
   if (duplicate.resources.length) {
     throw new HttpError(409, '这条评论已经提交过了。', 'DUPLICATE_COMMENT');
@@ -219,7 +219,7 @@ export async function addComment(input) {
   const document = {
     id,
     type: 'comment',
-    path: input.path,
+    entryId: input.entryId,
     parentId: input.parentId || null,
     rootId,
     replyToId,
@@ -241,7 +241,7 @@ export async function addComment(input) {
   };
   await comments.items.create(document);
   if (document.status === 'published') {
-    await patchMetric(input.path, [{ op: 'incr', path: '/comments', value: 1 }]);
+    await patchMetric(input.entryId, [{ op: 'incr', path: '/comments', value: 1 }]);
   }
   return {
     id,
@@ -250,13 +250,13 @@ export async function addComment(input) {
   };
 }
 
-export async function toggleReaction(path, requestKey) {
-  const { activity } = cosmosContainers();
+export async function toggleReaction(entryId, requestKey) {
+  const { signals } = cosmosContainers();
   const viewer = visitorHash(requestKey);
   const id = `reaction-${viewer}`;
   let document;
   try {
-    document = (await activity.item(id, path).read()).resource;
+    document = (await signals.item(id, entryId).read()).resource;
   } catch (error) {
     if (error.code !== 404) throw error;
   }
@@ -264,7 +264,7 @@ export async function toggleReaction(path, requestKey) {
     document = {
       id,
       type: 'reaction',
-      path,
+      entryId,
       visitorHash: viewer,
       active: false,
       createdAt: new Date().toISOString(),
@@ -274,44 +274,44 @@ export async function toggleReaction(path, requestKey) {
   const active = !document.active;
   document.active = active;
   document.updatedAt = new Date().toISOString();
-  await activity.items.upsert(document);
-  const metric = await patchMetric(path, [{ op: 'incr', path: '/likes', value: active ? 1 : -1 }]);
+  await signals.items.upsert(document);
+  const metric = await patchMetric(entryId, [{ op: 'incr', path: '/likes', value: active ? 1 : -1 }]);
   return {
     liked: active,
     likes: Math.max(0, Number(metric.likes) || 0),
   };
 }
 
-export async function recordView(path, visitorId) {
-  const { activity } = cosmosContainers();
+export async function recordView(entryId, visitorId) {
+  const { signals } = cosmosContainers();
   const viewer = visitorHash(visitorId);
   const day = new Date().toISOString().slice(0, 10);
   const id = `view-${day}-${viewer}`;
   const document = {
     id,
     type: 'view',
-    path,
+    entryId,
     visitorHash: viewer,
     day,
     createdAt: new Date().toISOString(),
     ttl: 60 * 60 * 24 * 180,
   };
   try {
-    await activity.items.create(document);
-    await patchMetric(path, [{ op: 'incr', path: '/views', value: 1 }]);
+    await signals.items.create(document);
+    await patchMetric(entryId, [{ op: 'incr', path: '/views', value: 1 }]);
   } catch (error) {
     if (error.code !== 409) throw error;
   }
-  return getInteractionSummary(path, visitorId);
+  return getInteractionSummary(entryId, visitorId);
 }
 
-export async function listAllComments({ path = '', status = '' } = {}) {
+export async function listAllComments({ entryId = '', status = '' } = {}) {
   const { comments } = cosmosContainers();
   const clauses = ["c.type = 'comment'"];
   const parameters = [];
-  if (path) {
-    clauses.push('c.path = @path');
-    parameters.push({ name: '@path', value: path });
+  if (entryId) {
+    clauses.push('c.entryId = @entryId');
+    parameters.push({ name: '@entryId', value: entryId });
   }
   if (status) {
     clauses.push('c.status = @status');
@@ -324,9 +324,9 @@ export async function listAllComments({ path = '', status = '' } = {}) {
   return result.resources;
 }
 
-export async function updateCommentStatus(id, path, status) {
+export async function updateCommentStatus(id, entryId, status) {
   const { comments } = cosmosContainers();
-  const item = comments.item(id, path);
+  const item = comments.item(id, entryId);
   const current = (await item.read()).resource;
   if (!current) {
     throw new HttpError(404, '评论不存在。', 'COMMENT_NOT_FOUND');
@@ -340,7 +340,7 @@ export async function updateCommentStatus(id, path, status) {
   };
   await item.replace(updated);
   if (wasVisible !== isVisible) {
-    await patchMetric(path, [{ op: 'incr', path: '/comments', value: isVisible ? 1 : -1 }]);
+    await patchMetric(entryId, [{ op: 'incr', path: '/comments', value: isVisible ? 1 : -1 }]);
   }
   return updated;
 }
@@ -373,10 +373,10 @@ export async function collectExportRecords() {
   const comments = await containers.comments.items.query({
     query: "SELECT * FROM c WHERE c.type = 'comment' AND c.status IN ('published', 'hidden', 'pending', 'deleted')",
   }).fetchAll();
-  const activity = await containers.activity.items.query({
+  const signals = await containers.signals.items.query({
     query: "SELECT * FROM c WHERE c.type IN ('metric', 'reaction')",
   }).fetchAll();
-  return [...comments.resources, ...activity.resources].map((record) => ({
+  return [...comments.resources, ...signals.resources].map((record) => ({
     exportedAt: new Date().toISOString(),
     ...record,
     emailHash: undefined,

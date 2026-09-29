@@ -1,0 +1,14 @@
+{
+  "name": "bifrost-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本地内容管线与迁移工具。与站点本身无关，站点不需要 npm。",
+  "dependencies": {
+    "@azure/cosmos": "^4.5.0",
+    "@azure/identity": "^4.11.0",
+    "@azure/search-documents": "^12.1.0",
+    "@azure/storage-blob": "^12.28.0",
+    "sharp": "^0.34.0"
+  }
+}

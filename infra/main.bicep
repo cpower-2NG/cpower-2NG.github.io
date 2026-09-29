@@ -14,6 +14,12 @@ param allowedOrigins array = [
   'https://cpower-2ng.github.io'
   'http://localhost:8000'
   'http://127.0.0.1:8000'
+  'http://localhost:8123'
+  'http://127.0.0.1:8123'
+  'http://localhost:8124'
+  'http://127.0.0.1:8124'
+  'http://localhost:8125'
+  'http://127.0.0.1:8125'
 ]
 
 @description('GitHub owner/repository receiving synchronized content commits.')
@@ -64,6 +70,8 @@ var syncJobName = 'qzone-sync'
 var authJobName = 'qzone-auth'
 var mediaContainerName = 'media'
 var privateContainerName = 'private'
+var searchName = 'search-${namePrefix}-${suffix}'
+var searchIndexName = 'bifrost-content'
 
 resource storage 'Microsoft.Storage/storageAccounts@2024-01-01' = {
   name: storageName
@@ -141,8 +149,9 @@ resource commentsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/c
   properties: {
     resource: {
       id: 'comments'
+      // 以 entryId 归属：内容改网址后评论不会丢
       partitionKey: {
-        paths: ['/path']
+        paths: ['/entryId']
         kind: 'Hash'
       }
       indexingPolicy: {
@@ -155,29 +164,6 @@ resource commentsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/c
           { path: '/content/?' }
         ]
       }
-    }
-  }
-}
-
-resource activityContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
-  parent: database
-  name: 'activity'
-  properties: {
-    resource: {
-      id: 'activity'
-      partitionKey: {
-        paths: ['/path']
-        kind: 'Hash'
-      }
-      indexingPolicy: {
-        indexingMode: 'consistent'
-        automatic: true
-        includedPaths: [
-          { path: '/*' }
-        ]
-        excludedPaths: []
-      }
-      defaultTtl: -1
     }
   }
 }
@@ -224,6 +210,190 @@ resource rateLimitsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases
       }
       defaultTtl: 86400
     }
+  }
+}
+
+// ---------- 内容侧容器（见 docs/design/10-data-design.md 容器清单）----------
+// 注意：正文 Markdown 与渲染 HTML 只用于展示，不参与查询，因此排除出索引。
+
+resource contentArticlesContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'content-articles'
+  properties: {
+    resource: {
+      id: 'content-articles'
+      partitionKey: {
+        paths: ['/entryId']
+        kind: 'Hash'
+      }
+      // 同一分区内放条目元数据、正文与历史版本，打开一篇只读一个分区
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: [
+          { path: '/markdown/?' }
+          { path: '/html/?' }
+          { path: '/text/?' }
+        ]
+      }
+    }
+  }
+}
+
+resource contentMomentsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'content-moments'
+  properties: {
+    resource: {
+      id: 'content-moments'
+      // 动态按发布月份分桶：翻最近只碰少数分区
+      partitionKey: {
+        paths: ['/month']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: [
+          { path: '/html/?' }
+          { path: '/text/?' }
+        ]
+      }
+    }
+  }
+}
+
+resource taxonomyContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'taxonomy'
+  properties: {
+    resource: {
+      id: 'taxonomy'
+      partitionKey: {
+        paths: ['/kind']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: []
+      }
+    }
+  }
+}
+
+resource assetsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'assets'
+  properties: {
+    resource: {
+      id: 'assets'
+      partitionKey: {
+        paths: ['/assetId']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: []
+      }
+    }
+  }
+}
+
+resource routesContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'routes'
+  properties: {
+    resource: {
+      id: 'routes'
+      // 分区键是路径本身；文档 id 不含路径，因为 Cosmos 的 id 不允许出现斜杠
+      partitionKey: {
+        paths: ['/path']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: []
+      }
+    }
+  }
+}
+
+resource signalsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'signals'
+  properties: {
+    resource: {
+      id: 'signals'
+      partitionKey: {
+        paths: ['/entryId']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: []
+      }
+      // 容器本身不过期；阅读去重文档自带 180 天 TTL
+      defaultTtl: -1
+    }
+  }
+}
+
+resource searchDocsContainer 'Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers@2024-11-15' = {
+  parent: database
+  name: 'search-docs'
+  properties: {
+    resource: {
+      id: 'search-docs'
+      // 检索投影：唯一数据源，供 AI Search 索引器读取
+      partitionKey: {
+        paths: ['/entryId']
+        kind: 'Hash'
+      }
+      indexingPolicy: {
+        indexingMode: 'consistent'
+        automatic: true
+        includedPaths: [
+          { path: '/*' }
+        ]
+        excludedPaths: []
+      }
+    }
+  }
+}
+
+// 检索服务：免费层起步；索引定义见 tools/lib/search-config.mjs
+resource search 'Microsoft.Search/searchServices@2023-11-01' = {
+  name: searchName
+  location: location
+  sku: {
+    name: 'free'
+  }
+  properties: {
+    replicaCount: 1
+    partitionCount: 1
+    hostingMode: 'default'
   }
 }
 
@@ -367,6 +537,14 @@ resource functionApp 'Microsoft.Web/sites@2023-12-01' = {
         {
           name: 'COSMOS_DATABASE'
           value: 'bifrost'
+        }
+        {
+          name: 'SEARCH_ENDPOINT'
+          value: 'https://${searchName}.search.windows.net'
+        }
+        {
+          name: 'SEARCH_INDEX'
+          value: searchIndexName
         }
         {
           name: 'BLOB_ACCOUNT_URL'
@@ -663,6 +841,18 @@ resource authKeyVaultRole 'Microsoft.Authorization/roleAssignments@2022-04-01' =
   properties: {
     roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '4633458b-17de-408a-b874-0445c86b69e6')
     principalId: authJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+// 函数应用只读检索索引
+resource functionSearchRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(search.id, functionApp.id, 'search-index-data-reader')
+  scope: search
+  properties: {
+    // Search Index Data Reader
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '1407120a-92aa-4202-b7e9-c0e197c71c8f')
+    principalId: functionApp.identity.principalId
     principalType: 'ServicePrincipal'
   }
 }

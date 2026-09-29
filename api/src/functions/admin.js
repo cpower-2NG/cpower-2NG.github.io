@@ -60,7 +60,7 @@ app.http('admin', {
       if (action === 'comments' && request.method === 'GET') {
         return json(request, {
           items: await listAllComments({
-            path: request.query.get('path') || '',
+            entryId: request.query.get('entryId') || '',
             status: request.query.get('status') || '',
           }),
         });
@@ -68,15 +68,15 @@ app.http('admin', {
 
       if (action === 'comments' && ['PATCH', 'DELETE'].includes(request.method)) {
         const body = await readJson(request);
-        const path = String(body.path || '');
-        if (!id || !path) {
-          throw new HttpError(400, '缺少评论 id 或文章路径。', 'MISSING_COMMENT_TARGET');
+        const entryId = String(body.entryId || '');
+        if (!id || !entryId) {
+          throw new HttpError(400, '缺少评论 id 或内容标识。', 'MISSING_COMMENT_TARGET');
         }
         const status = request.method === 'DELETE' ? 'deleted' : String(body.status || '');
         if (!['published', 'pending', 'hidden', 'deleted'].includes(status)) {
           throw new HttpError(400, '评论状态无效。', 'INVALID_STATUS');
         }
-        return json(request, await updateCommentStatus(id, path, status));
+        return json(request, await updateCommentStatus(id, entryId, status));
       }
 
       if (action === 'settings' && request.method === 'GET') {

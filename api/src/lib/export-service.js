@@ -15,7 +15,7 @@ function toCsv(records) {
     'exportedAt',
     'type',
     'id',
-    'path',
+    'entryId',
     'status',
     'nickname',
     'content',

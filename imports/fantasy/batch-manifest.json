@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "description": "批量导入清单：source 为原件，out 为生成的内容包目录。分类、标签、标题可自由修改后重跑（node tools/batch-import.mjs）。",
+  "items": [
+    {
+      "source": "imports/fantasy/raw/0自转.txt",
+      "out": "imports/fantasy/derived/batch/zi-zhuan",
+      "title": "自转",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "tags": "自传"
+    },
+    {
+      "source": "imports/fantasy/raw/冬暮川滚滚.txt",
+      "out": "imports/fantasy/derived/batch/dongmuchuan",
+      "title": "冬暮川滚滚：浪漫与祈愿",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "漫评,冬暮川滚滚"
+    },
+    {
+      "source": "imports/fantasy/raw/反乌托邦.txt",
+      "out": "imports/fantasy/derived/batch/anti-utopia",
+      "title": "反乌托邦题材还有现实意义吗",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "tags": "反乌托邦"
+    },
+    {
+      "source": "imports/fantasy/raw/迷失东京.txt",
+      "out": "imports/fantasy/derived/batch/lost-in-tokyo",
+      "title": "迷失东京",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "tags": "诗歌"
+    },
+    {
+      "source": "imports/fantasy/raw/情绪多变的少女.txt",
+      "out": "imports/fantasy/derived/batch/moody-girl",
+      "title": "情绪多变的少女",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "tags": ""
+    },
+    {
+      "source": "imports/fantasy/raw/三无.txt",
+      "out": "imports/fantasy/derived/batch/kuudere",
+      "title": "浅谈三无",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "漫评,萌属性,三无"
+    },
+    {
+      "source": "imports/fantasy/raw/生命的备件.txt",
+      "out": "imports/fantasy/derived/batch/life-spare-parts",
+      "title": "生命的备件：成为彼此的备件",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "漫评,生命的备件"
+    },
+    {
+      "source": "imports/fantasy/raw/无职.txt",
+      "out": "imports/fantasy/derived/batch/mushoku",
+      "title": "无职转生：认真的活下去",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "漫评,无职转生"
+    },
+    {
+      "source": "imports/fantasy/raw/筱泽广.txt",
+      "out": "imports/fantasy/derived/batch/sagisawa",
+      "title": "筱泽广与偶像生活的故事",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "漫评,学园偶像大师,筱泽广"
+    },
+    {
+      "source": "imports/fantasy/raw/纸上魔法使/1.翡翠的排挤原理.txt",
+      "out": "imports/fantasy/derived/batch/paper-magician-1",
+      "title": "翡翠的排挤原理",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "短歌,纸上魔法使",
+      "series": "纸上魔法使"
+    },
+    {
+      "source": "imports/fantasy/raw/纸上魔法使/2.红宝石的天作之合.txt",
+      "out": "imports/fantasy/derived/batch/paper-magician-2",
+      "title": "红宝石的天作之合",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "短歌,纸上魔法使",
+      "series": "纸上魔法使"
+    },
+    {
+      "source": "imports/fantasy/raw/纸上魔法使/3.蓝宝石的存在证明.txt",
+      "out": "imports/fantasy/derived/batch/paper-magician-3",
+      "title": "蓝宝石的存在证明",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "短歌,纸上魔法使",
+      "series": "纸上魔法使"
+    },
+    {
+      "source": "imports/fantasy/raw/纸上魔法使/4.紫水晶的怪异传说.txt",
+      "out": "imports/fantasy/derived/batch/paper-magician-4",
+      "title": "紫水晶的怪异传说",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "短歌,纸上魔法使",
+      "series": "纸上魔法使"
+    },
+    {
+      "source": "imports/fantasy/raw/纸上魔法使/5.磷灰石的怠惰现象.txt",
+      "out": "imports/fantasy/derived/batch/paper-magician-5",
+      "title": "磷灰石的怠惰现象",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "tags": "短歌,纸上魔法使",
+      "series": "纸上魔法使"
+    },
+    {
+      "source": "imports/fantasy/raw/冬滚滚.docx",
+      "out": "imports/fantasy/derived/batch/dongungun",
+      "title": "冬滚滚",
+      "date": "2026-09-28",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "pdf",
+      "pdf": "imports/fantasy/raw/冬滚滚排版.pdf",
+      "tags": "漫评,冬滚滚",
+      "author": "仙人星"
+    },
+    {
+      "source": "content-src/fantasy/diary/2026-09-13-open-the-corridor.md",
+      "out": "imports/fantasy/derived/batch/open-the-corridor",
+      "title": "开廊手记",
+      "date": "2026-09-13",
+      "phase": "fantasy",
+      "section": "essay",
+      "tags": ""
+    },
+    {
+      "source": "content-src/fantasy/article/2025-11-24-幸运小特种兵的中村先生fmt见闻.md",
+      "out": "imports/fantasy/derived/batch/fmt-nakamura",
+      "title": "幸运小特种兵的中村先生FMT见闻",
+      "date": "2025-11-24",
+      "phase": "fantasy",
+      "section": "activity",
+      "tags": "FMT,中村绘里子"
+    },
+    {
+      "source": "content-src/fantasy/article/2025-11-03-忙里偷闲的治愈之旅-黑木穗乃香fmt活动记录.md",
+      "out": "imports/fantasy/derived/batch/fmt-kuroki",
+      "title": "忙里偷闲的治愈之旅（黑木穗乃香FMT活动记录）",
+      "date": "2025-11-03",
+      "phase": "fantasy",
+      "section": "activity",
+      "tags": "FMT,黑木穗乃香"
+    },
+    {
+      "source": "content-src/fantasy/article/2025-10-03-被榨干激情的梦幻一天-凉本秋穗fmt纪事.md",
+      "out": "imports/fantasy/derived/batch/fmt-suzumoto",
+      "title": "被榨干激情的梦幻一天（凉本秋穗FMT纪事）",
+      "date": "2025-10-03",
+      "phase": "fantasy",
+      "section": "activity",
+      "tags": "FMT,凉本秋穗"
+    }
+  ]
+}

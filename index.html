@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-phase="logic">
+<html lang="zh-CN" data-phase="fantasy">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BIFROST 是一个双位面个人阅读与记录空间，收录活动、评论、随笔与未来的技术整理。">
+    <meta name="description" content="BIFROST 是一个双位面个人阅读与记录空间，收录日常动态、漫评、活动纪录与杂记。">
     <title>BIFROST</title>
-    <meta name="theme-color" content="#0a0f14">
+    <meta name="theme-color" content="#f6f0e7">
     <meta property="og:site_name" content="BIFROST">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="BIFROST — 个人知识工作台">
+    <meta property="og:title" content="BIFROST — 个人阅读空间">
     <meta property="og:description" content="在 Logic 与 Fantasy 两个位面之间，阅读记录、活动见闻与慢慢写下的文字。">
-    <meta property="og:url" content="https://cpower-2ng.github.io/">
-    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="alternate" type="application/rss+xml" title="BIFROST 更新" href="/feed.xml">
     <link rel="stylesheet" href="/core/style.css">
     <script defer src="/core/ambience.js"></script>
-    <script defer src="/core/interactions.js"></script>
     <script defer src="/core/media-preview.js"></script>
-    <script defer src="/core/publication-reader.js"></script>
+    <script defer src="/core/interactions.js"></script>
     <script defer src="/core/engine.js"></script>
 </head>
 <body>
@@ -31,17 +28,21 @@
             <div class="brand">
                 <span class="brand__mark" aria-hidden="true">//</span>
                 <h1 class="brand__title" data-site-title>BIFROST</h1>
-                <p class="brand__sub" data-site-subtitle>Logic 位面 · 正在整理</p>
+                <p class="brand__sub" data-site-subtitle>正在读取内容索引</p>
             </div>
             <div class="header__meta">
                 <button class="sound-toggle" type="button" data-sound-toggle aria-pressed="false">
                     <span class="sound-toggle__mark" aria-hidden="true">◌</span>
                     <span data-sound-label>环境音 关闭</span>
                 </button>
-                <span class="phase-pill" data-phase-pill>Logic</span>
-                <button class="command-trigger" type="button" data-command-trigger aria-haspopup="dialog" aria-controls="command-overlay" aria-label="打开搜索与位面切换面板">
+                <span class="phase-pill" data-phase-pill>Fantasy</span>
+                <button class="command-trigger" type="button" data-search-trigger aria-haspopup="dialog" aria-controls="search-panel">
+                    <kbd class="command-trigger__key" aria-hidden="true">⌘K</kbd>
+                    <span class="command-trigger__label">搜索</span>
+                </button>
+                <button class="command-trigger" type="button" data-phase-trigger aria-haspopup="dialog" aria-controls="phase-panel">
                     <kbd class="command-trigger__key" aria-hidden="true">~</kbd>
-                    <span class="command-trigger__label" data-phase-hint>按 ~ 搜索或切换位面</span>
+                    <span class="command-trigger__label">位面</span>
                 </button>
             </div>
         </header>
@@ -52,7 +53,7 @@
                     <span class="sidebar__index">01</span>
                     <h2 class="sidebar__heading">导航</h2>
                 </div>
-                <div class="tree" data-tree aria-label="站点导航"></div>
+                <nav class="tree" data-tree aria-label="站点导航"></nav>
             </section>
 
             <section class="sidebar__section">
@@ -61,7 +62,7 @@
                     <h2 class="sidebar__heading">状态</h2>
                 </div>
                 <div class="status-note">
-                    <p class="hero__eyebrow">当前状态</p>
+                    <p class="hero__eyebrow">当前位面</p>
                     <p class="hero__text" data-status-text>正在准备内容…</p>
                     <p class="hero-ext" data-status-title>更新于 —</p>
                 </div>
@@ -69,21 +70,13 @@
         </aside>
 
         <main class="main">
-            <div class="content-viewer" data-content-viewer>
+            <div class="content-viewer" data-view>
                 <section class="article-surface">
                     <p class="hero__eyebrow">BIFROST</p>
                     <h1 class="hero__title">正在打开阅读空间</h1>
-                    <p class="hero__text">如果这里短暂停留，说明导航与内容还在准备。启用 JavaScript 后，可以在不刷新页面的情况下切换位面与文章。</p>
+                    <p class="hero__text">如果这里短暂停留，说明内容索引还在准备。</p>
                 </section>
             </div>
-
-            <noscript>
-                <section class="article-surface">
-                    <p class="hero__eyebrow">No Script</p>
-                    <h1 class="hero__title">完整导航需要 JavaScript</h1>
-                    <p class="hero__text">你仍可以阅读当前页面，但目录、搜索和位面切换需要启用 JavaScript。</p>
-                </section>
-            </noscript>
         </main>
 
         <footer class="footer">
@@ -92,11 +85,19 @@
         </footer>
     </div>
 
-    <section class="command-overlay" id="command-overlay" data-command-overlay aria-label="命令面板" role="dialog" aria-modal="true">
+    <section class="command-overlay" id="search-panel" data-search-panel aria-label="搜索" role="dialog" aria-modal="true">
+        <div class="command-panel search-panel">
+            <input class="command-input" data-search-input type="search" autocomplete="off" placeholder="搜索标题、正文与标签">
+            <div class="search-facets" data-search-facets></div>
+            <div class="command-results" data-search-results></div>
+            <p class="command-help">输入关键词，或点选筛选条件组合查找 · ↑↓ 选择 · Enter 打开 · Esc 关闭</p>
+        </div>
+    </section>
+
+    <section class="command-overlay" id="phase-panel" data-phase-panel aria-label="位面切换" role="dialog" aria-modal="true">
         <div class="command-panel">
-            <input class="command-input" data-command-input type="text" autocomplete="off" placeholder="搜索文章，或输入 logic / fantasy 切换位面">
-            <div class="command-results" data-command-results></div>
-            <p class="command-help">输入关键词搜索文章 · ↑↓ 选择 · Enter 打开 · Esc 关闭。按 ~ 或 Ctrl/Cmd+K 随时呼出。也可以输入 logic 或 fantasy 切换位面。</p>
+            <div class="command-results" data-phase-results></div>
+            <p class="command-help">↑↓ 选择 · Enter 切换 · Esc 关闭</p>
         </div>
     </section>
 

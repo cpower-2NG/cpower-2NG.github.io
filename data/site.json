@@ -1,9 +1,15 @@
 {
   "siteUrl": "https://cpower-2ng.github.io",
+  "search": {
+    "provider": "azure",
+    "enabled": true,
+    "apiBaseUrl": "https://func-bifrost-z43zcc.azurewebsites.net/api"
+  },
   "interactions": {
     "provider": "azure",
     "enabled": true,
     "apiBaseUrl": "https://func-bifrost-z43zcc.azurewebsites.net/api",
+    "entryModel": "entryId",
     "commentsEnabled": true,
     "reactionsEnabled": true,
     "viewsEnabled": true,

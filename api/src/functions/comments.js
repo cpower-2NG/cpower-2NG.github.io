@@ -13,7 +13,7 @@ import {
   requestIpHash,
   visitorHash,
 } from '../lib/repository.js';
-import { email as parseEmail, identifier, interactionPath, optionalWebsite, text } from '../lib/validation.js';
+import { email as parseEmail, entryId as parseEntryId, identifier, optionalWebsite, text } from '../lib/validation.js';
 
 function avatarUrlForEmail(emailHash) {
   return emailHash ? `https://gravatar.com/avatar/${emailHash}?d=identicon&s=96` : '';
@@ -29,7 +29,7 @@ app.http('comments', {
         throw new HttpError(503, '评论功能暂时关闭。', 'INTERACTIONS_DISABLED');
       }
       const body = await readJson(request);
-      const path = interactionPath(body.path);
+      const entryId = parseEntryId(body.entryId);
       const visitorId = identifier(body.visitorId, '访客标识');
       const admin = await optionalAdmin(request);
       const anonymous = Boolean(body.anonymous);
@@ -64,7 +64,7 @@ app.http('comments', {
       }
 
       const result = await addComment({
-        path,
+        entryId,
         parentId,
         nickname,
         anonymous,
@@ -75,15 +75,15 @@ app.http('comments', {
         status: moderation.status,
         moderationReason: moderation.reason,
         isOwner: Boolean(admin),
-        fingerprint: commentFingerprint(path, nickname, content),
+        fingerprint: commentFingerprint(entryId, nickname, content),
         visitorHash: visitor,
         ipHash,
         userAgentHash: createHash('sha256').update(request.headers.get('user-agent') || '').digest('hex'),
       });
 
       const [summary, commentsPage] = await Promise.all([
-        getInteractionSummary(path, visitorId),
-        listComments(path, visitorId),
+        getInteractionSummary(entryId, visitorId),
+        listComments(entryId, visitorId),
       ]);
       return json(request, {
         ...result,

@@ -20,7 +20,7 @@ export function cosmosContainers() {
     client,
     database,
     comments: database.container('comments'),
-    activity: database.container('activity'),
+    signals: database.container('signals'),
     state: database.container('state'),
     rateLimits: database.container('rate-limits'),
   };

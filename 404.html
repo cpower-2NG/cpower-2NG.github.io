@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-phase="logic">
+<html lang="zh-CN" data-phase="fantasy">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        // GitHub Pages 深链修复：把 /content/... 直链转为 SPA 查询参数
+        // GitHub Pages 深链修复：内容页各有自己的静态文件；
+        // 走到 404 说明地址确实不存在，带回首页并说明原因即可。
         (function () {
-            var path = window.location.pathname.replace(/\/index\.html$/, '/');
-            if (path === '/' || path.endsWith('/404.html')) {
-                return;
-            }
-            var phase = '';
-            if (path.indexOf('/content/fantasy/') === 0 || path.indexOf('/content/dashboards/fantasy') === 0) {
-                phase = '&phase=fantasy';
-            } else if (path.indexOf('/content/logic/') === 0 || path.indexOf('/content/dashboards/logic') === 0) {
-                phase = '&phase=logic';
-            }
-            window.location.replace('/?path=' + encodeURIComponent(path) + phase);
+            if (window.location.pathname.endsWith('/404.html')) return;
+            window.location.replace('/');
         })();
     </script>
     <meta name="robots" content="noindex">
-    <meta name="theme-color" content="#0a0f14">
+    <meta name="theme-color" content="#f6f0e7">
     <title>404 · BIFROST</title>
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="stylesheet" href="/core/style.css">

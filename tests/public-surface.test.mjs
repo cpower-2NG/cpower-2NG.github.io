@@ -20,9 +20,8 @@ test('public HTML avoids implementation-facing copy', async () => {
   const files = [
     join(root, 'index.html'),
     join(root, '404.html'),
-    join(root, 'content', 'dashboards', 'logic-dash.html'),
-    join(root, 'content', 'dashboards', 'fantasy-dash.html'),
     ...await walk(join(root, 'content')),
+    ...await walk(join(root, 'moment')),
   ];
   const forbidden = [
     'data/entries.json',
@@ -46,8 +45,11 @@ test('public HTML avoids implementation-facing copy', async () => {
 });
 
 test('removed development and placeholder entries stay out of the public index', async () => {
-  const payload = JSON.parse(await readFile(join(root, 'data', 'entries.json'), 'utf8'));
-  const publicPaths = payload.entries.map((entry) => entry.path);
+  const payload = JSON.parse(await readFile(join(root, 'data', 'site-index.json'), 'utf8'));
+  const publicPaths = [
+    ...payload.entries.map((entry) => entry.path),
+    ...(payload.moments || []).map((moment) => moment.path),
+  ];
   const removed = [
     'brief.html',
     'path-planning.html',

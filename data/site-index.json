@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-09-29T13:20:38.669Z",
+  "siteUrl": "https://cpower-2ng.github.io",
+  "phases": [
+    {
+      "id": "logic",
+      "label": "Logic",
+      "order": 1,
+      "sections": [
+        {
+          "id": "showcase",
+          "label": "展示",
+          "layout": "showcase"
+        },
+        {
+          "id": "docs",
+          "label": "技术文档",
+          "layout": "compact"
+        },
+        {
+          "id": "notes",
+          "label": "心得",
+          "layout": "magazine"
+        },
+        {
+          "id": "algo",
+          "label": "算法",
+          "layout": "compact"
+        }
+      ]
+    },
+    {
+      "id": "fantasy",
+      "label": "Fantasy",
+      "order": 2,
+      "sections": [
+        {
+          "id": "daily",
+          "label": "日常",
+          "layout": "timeline"
+        },
+        {
+          "id": "review",
+          "label": "漫评",
+          "layout": "magazine"
+        },
+        {
+          "id": "activity",
+          "label": "活动纪录",
+          "layout": "magazine"
+        },
+        {
+          "id": "essay",
+          "label": "杂记",
+          "layout": "magazine"
+        },
+        {
+          "id": "archive",
+          "label": "档案馆",
+          "layout": "magazine"
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "daily": {
+      "id": "daily",
+      "label": "日常",
+      "phase": "fantasy",
+      "layout": "timeline"
+    },
+    "showcase": {
+      "id": "showcase",
+      "label": "展示",
+      "phase": "logic",
+      "layout": "showcase"
+    },
+    "review": {
+      "id": "review",
+      "label": "漫评",
+      "phase": "fantasy",
+      "layout": "magazine"
+    },
+    "docs": {
+      "id": "docs",
+      "label": "技术文档",
+      "phase": "logic",
+      "layout": "compact"
+    },
+    "activity": {
+      "id": "activity",
+      "label": "活动纪录",
+      "phase": "fantasy",
+      "layout": "magazine"
+    },
+    "notes": {
+      "id": "notes",
+      "label": "心得",
+      "phase": "logic",
+      "layout": "magazine"
+    },
+    "essay": {
+      "id": "essay",
+      "label": "杂记",
+      "phase": "fantasy",
+      "layout": "magazine"
+    },
+    "algo": {
+      "id": "algo",
+      "label": "算法",
+      "phase": "logic",
+      "layout": "compact"
+    },
+    "archive": {
+      "id": "archive",
+      "label": "档案馆",
+      "phase": "fantasy",
+      "layout": "magazine"
+    }
+  },
+  "tags": [
+    {
+      "label": "漫评",
+      "count": 6
+    },
+    {
+      "label": "短歌",
+      "count": 5
+    },
+    {
+      "label": "纸上魔法使",
+      "count": 5
+    },
+    {
+      "label": "FMT",
+      "count": 3
+    },
+    {
+      "label": "QQ空间",
+      "count": 3
+    },
+    {
+      "label": "冬滚滚",
+      "count": 1
+    },
+    {
+      "label": "冬暮川滚滚",
+      "count": 1
+    },
+    {
+      "label": "反乌托邦",
+      "count": 1
+    },
+    {
+      "label": "黑木穗乃香",
+      "count": 1
+    },
+    {
+      "label": "凉本秋穗",
+      "count": 1
+    },
+    {
+      "label": "萌属性",
+      "count": 1
+    },
+    {
+      "label": "三无",
+      "count": 1
+    },
+    {
+      "label": "生活随想",
+      "count": 1
+    },
+    {
+      "label": "生命的备件",
+      "count": 1
+    },
+    {
+      "label": "诗歌",
+      "count": 1
+    },
+    {
+      "label": "无职转生",
+      "count": 1
+    },
+    {
+      "label": "筱泽广",
+      "count": 1
+    },
+    {
+      "label": "学园偶像大师",
+      "count": 1
+    },
+    {
+      "label": "中村绘里子",
+      "count": 1
+    },
+    {
+      "label": "自传",
+      "count": 1
+    },
+    {
+      "label": "ACG",
+      "count": 1
+    },
+    {
+      "label": "Azure",
+      "count": 1
+    }
+  ],
+  "entries": [
+    {
+      "id": "01M3PFKWKZ28H734VQKWVEPQN7",
+      "entryId": "01M3PFKWKZ28H734VQKWVEPQN7",
+      "path": "/content/冬滚滚.html",
+      "slug": "冬滚滚",
+      "title": "冬滚滚",
+      "summary": "在galgame的大海中，总有一些作品会以其独特的魅力俘获玩家的心。《ふゆから、くるる。》（后文简称冬滚滚）便是这样一部作品，由silky's plus打造，于2021年9月24日发售。这是一部弱化角色、弱化故事、强调氛围的浪漫电波galg…",
+      "publishedAt": "2026-09-28T00:00:00+08:00",
+      "date": "2026-09-28",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "pdf",
+      "tags": [
+        "漫评",
+        "冬滚滚"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">冬滚滚</span>",
+      "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKWKZ28H734VQKWVEPQN7/01.png",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": true
+    },
+    {
+      "id": "01M3PFKTMEAD0B81B7VHHQXYKD",
+      "entryId": "01M3PFKTMEAD0B81B7VHHQXYKD",
+      "path": "/content/反乌托邦题材还有现实意义吗.html",
+      "slug": "反乌托邦题材还有现实意义吗",
+      "title": "反乌托邦题材还有现实意义吗",
+      "summary": "现在反乌托邦题材是否还具有现实意义？ 现代意义的反乌托邦作品应该是在上个世纪正式出现。纳粹统治的“日耳曼尼亚”作为其主要发生地，同时，伴随着诸如未来科技对人类的反统治。在当时，作为恐惧的是事物本身，是那个尚未到来的事物，或是已被扼杀的可能的…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "kind": "standard",
+      "tags": [
+        "反乌托邦"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">反乌托邦</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKTFGZT1BHE70GX5VYAC6",
+      "entryId": "01M3PFKTFGZT1BHE70GX5VYAC6",
+      "path": "/content/冬暮川滚滚-浪漫与祈愿.html",
+      "slug": "冬暮川滚滚-浪漫与祈愿",
+      "title": "冬暮川滚滚：浪漫与祈愿",
+      "summary": "《冬暮川滚滚》——一部畅快淋漓、完成度极高的浪漫galgame 首先，作为作品的门面，其美术算是让我接触她的原因了（其实应该是futa）。可爱清楚的立绘，简洁又不失张力的CG，很好地让人投入到故事中。而且后期惊人的CG用量，相当奢侈，弥补了…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "漫评",
+        "冬暮川滚滚"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">冬暮川滚滚</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKV34YY0FX9C1NCMN1B0H",
+      "entryId": "01M3PFKV34YY0FX9C1NCMN1B0H",
+      "path": "/content/浅谈三无.html",
+      "slug": "浅谈三无",
+      "title": "浅谈三无",
+      "summary": "浅谈三无 三无：无口、无心、无表情，作为三无的基本概念是不准确的，这皆是对其面的描述，而不是对里的归纳。三无的核心应该是情感、欲望的缺失（参考长门），或者压抑（参考凌波丽），而表现出的对外物的反应弱化，甚至是无反应。也就是通常定义的 无口（…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "漫评",
+        "萌属性",
+        "三无"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">萌属性</span><span class=\"tag-chip\">三无</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKV80MK1ASQERZ19G5A2N",
+      "entryId": "01M3PFKV80MK1ASQERZ19G5A2N",
+      "path": "/content/生命的备件-成为彼此的备件.html",
+      "slug": "生命的备件-成为彼此的备件",
+      "title": "生命的备件：成为彼此的备件",
+      "summary": "磨磨蹭蹭四个月，总算推完这一部，不得不感叹这真的是一部完成度极高的作品，一级棒!（ 我在推之前并不知道任何剧情，只知道大致基调。游玩过程中我对剧情的种种期待，它都用惊喜的方式给我回应。姐妹矛盾的爆发，二人病发后的选择，对过去的释然，从始至终…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "漫评",
+        "生命的备件"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">生命的备件</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKTSA14WW4P3ANZPMMBV0",
+      "entryId": "01M3PFKTSA14WW4P3ANZPMMBV0",
+      "path": "/content/迷失东京.html",
+      "slug": "迷失东京",
+      "title": "迷失东京",
+      "summary": "「街道上飘荡的魂灵，奔波着，找寻着 当志同道合成为目的 当嬉笑怒骂成为商品 存在主义的消解与盛行 神明已死的呼唤与沉沦 幻想与真实的界限 生与死的境界 都将淹没在欲望的孤洋 对了，一起来回忆 吧」",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "kind": "standard",
+      "tags": [
+        "诗歌"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">诗歌</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKTY8WC0EVK07CCSC5KQM",
+      "entryId": "01M3PFKTY8WC0EVK07CCSC5KQM",
+      "path": "/content/情绪多变的少女.html",
+      "slug": "情绪多变的少女",
+      "title": "情绪多变的少女",
+      "summary": "这是一段气候多变，让天气预报频频出错的日子。少女的『情绪』也如这多变的天气一般。可她不并像地球是一个独立的系统，这份多变是因为其他『人』的影响。 她会因为她那不争气的朋友错误归因、盲目焦虑而生气；她也会因为她那认真的朋友经验性地出谋划策而无…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "kind": "standard",
+      "tags": [],
+      "tagsHtml": "",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKVCXM2BKH70RDWGS8MGC",
+      "entryId": "01M3PFKVCXM2BKH70RDWGS8MGC",
+      "path": "/content/无职转生-认真的活下去.html",
+      "slug": "无职转生-认真的活下去",
+      "title": "无职转生：认真的活下去",
+      "summary": "无职动画确实top1级别啊，松弛有度的节奏，耐人寻味的故事，剑与魔法的世界，都让人沉醉啊。 剧情方面：从转生的平和闲致到转移的紧张刺激，尤其在制作组的厨力放出下，代入感极佳。作为转生而来的天才，虽说也算得上努力，深得他人的信任。但前世留下的…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "漫评",
+        "无职转生"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">无职转生</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKVPD7HHADG1PFJJ5C6AY",
+      "entryId": "01M3PFKVPD7HHADG1PFJJ5C6AY",
+      "path": "/content/翡翠的排挤原理.html",
+      "slug": "翡翠的排挤原理",
+      "title": "翡翠的排挤原理",
+      "summary": "翡翠的本质， 是心力交瘁的爱情。 这便是《翡翠的排挤原理》。 不过这终究是青春恋爱故事， 而不是侦探小说。 王子的吻可是恋爱故事的最佳尾页， 而舞台下却是禁忌之恋。 比恋爱小说更故事化的， 青春故事正在上演。 观众是无人教室的夕霞， 演出者…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "短歌",
+        "纸上魔法使"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "series:纸上魔法使",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKVV595S0G0TEEGN4BBRX",
+      "entryId": "01M3PFKVV595S0G0TEEGN4BBRX",
+      "path": "/content/红宝石的天作之合.html",
+      "slug": "红宝石的天作之合",
+      "title": "红宝石的天作之合",
+      "summary": "《红宝石的天作之合》， 一个平淡的恋爱喜剧。 安静的白发少女走出来书房， 解除到了新奇的世界。 做出了美妙的告白， 诞生了幸福的情侣。 这就是故事的结尾， 《红宝石的天作之合》的和平结局。 配角只是物语的仆从， 从来都无法影响故事。 主角们…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "短歌",
+        "纸上魔法使"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "series:纸上魔法使",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKW00F80X9HHW31H8YVPE",
+      "entryId": "01M3PFKW00F80X9HHW31H8YVPE",
+      "path": "/content/蓝宝石的存在证明.html",
+      "slug": "蓝宝石的存在证明",
+      "title": "蓝宝石的存在证明",
+      "summary": "世人不再认识少女的世界的故事， 那是蓝宝石描绘的故事。 某个地方有一对情侣， 他们恰当的相爱相知。 勾魂摄魄的深青色， 啊，多么漂亮啊。 那是降临于少女身边的幸运， 也是从家中仓库找出的不幸。 世界把少女置身于孤立中， 蓝宝石的孤身一人的诅…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "短歌",
+        "纸上魔法使"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "series:纸上魔法使",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKW4ZB8A4BP6MD4NFNMSH",
+      "entryId": "01M3PFKW4ZB8A4BP6MD4NFNMSH",
+      "path": "/content/紫水晶的怪异传说.html",
+      "slug": "紫水晶的怪异传说",
+      "title": "紫水晶的怪异传说",
+      "summary": "少年遇到了翡翠色的少女， 紫水晶的诡异光芒不知何时笼罩。 高楼窗边仰望烧云的少女， 祈求幸福的自尽少女。 少年拿起与现实战斗的剑， 欲把诡谲的紫光斩断。 翡翠的底色未消， 紫水晶的光芒笼罩。 祈求幸福的悲恋故事， 去除遗憾的悲恋少女。 是收…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "短歌",
+        "纸上魔法使"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "series:纸上魔法使",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKW9RHJ6X8ZFS9PGEQS96",
+      "entryId": "01M3PFKW9RHJ6X8ZFS9PGEQS96",
+      "path": "/content/磷灰石的怠惰现象.html",
+      "slug": "磷灰石的怠惰现象",
+      "title": "磷灰石的怠惰现象",
+      "summary": "《磷灰石的怠惰现象》， 无意中发现的少女的日记幻想。 图书馆内的平静安详， 藤壶高中的欢乐高扬。 那是一位少女梦想过的， 自在怠惰的普通日常。 而少女的离去， 似乎让着一切沦为空谈。 爱书的少女加剧闭门不出， 忠心的女仆一心在旁看护， 轻佻…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "短歌",
+        "纸上魔法使"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "series:纸上魔法使",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKVHNDBMMSVQM7Z0XWSS9",
+      "entryId": "01M3PFKVHNDBMMSVQM7Z0XWSS9",
+      "path": "/content/筱泽广与偶像生活的故事.html",
+      "slug": "筱泽广与偶像生活的故事",
+      "title": "筱泽广与偶像生活的故事",
+      "summary": "正好借此机会说说我心中的广吧，虽然更多是我自己的主观投射（笑）。 小广她​大多数时候表现出来的夸张的抖m属性和对困难、失败、绝望的痴迷，源于的是对自身故事性和情感性的追求。可以是因为曾经的自己太一帆风顺，也可以是对可爱的偶像有了憧憬，但最后…",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "review",
+      "kind": "standard",
+      "tags": [
+        "漫评",
+        "学园偶像大师",
+        "筱泽广"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">学园偶像大师</span><span class=\"tag-chip\">筱泽广</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKTAKEXV1C67VBJ4NGHCE",
+      "entryId": "01M3PFKTAKEXV1C67VBJ4NGHCE",
+      "path": "/content/自转.html",
+      "slug": "自转",
+      "title": "自转",
+      "summary": "挺好的，就像许久不见的朋友久别重逢后久违的酒后畅谈一样。",
+      "publishedAt": "2026-09-27T00:00:00+08:00",
+      "date": "2026-09-27",
+      "phase": "fantasy",
+      "section": "essay",
+      "kind": "standard",
+      "tags": [
+        "自传"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">自传</span>",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKWS4V4ZPHC21KWBTT58Q",
+      "entryId": "01M3PFKWS4V4ZPHC21KWBTT58Q",
+      "path": "/content/开廊手记.html",
+      "slug": "开廊手记",
+      "title": "开廊手记",
+      "summary": "回廊今天正式开张。",
+      "publishedAt": "2026-09-13T00:00:00+08:00",
+      "date": "2026-09-13",
+      "phase": "fantasy",
+      "section": "essay",
+      "kind": "standard",
+      "tags": [],
+      "tagsHtml": "",
+      "coverUrl": "",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKWY6ZNSBZMNRDSVTN9WF",
+      "entryId": "01M3PFKWY6ZNSBZMNRDSVTN9WF",
+      "path": "/content/幸运小特种兵的中村先生fmt见闻.html",
+      "slug": "幸运小特种兵的中村先生fmt见闻",
+      "title": "幸运小特种兵的中村先生FMT见闻",
+      "summary": "个人记录用，本文可能存在张冠李戴，时序混乱、高度流水账等问题，如有冒犯请见谅。",
+      "publishedAt": "2025-11-24T00:00:00+08:00",
+      "date": "2025-11-24",
+      "phase": "fantasy",
+      "section": "activity",
+      "kind": "standard",
+      "tags": [
+        "FMT",
+        "中村绘里子"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">中村绘里子</span>",
+      "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKWY6ZNSBZMNRDSVTN9WF/01.webp",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKX3BBG7GNX20ZZT3162C",
+      "entryId": "01M3PFKX3BBG7GNX20ZZT3162C",
+      "path": "/content/忙里偷闲的治愈之旅-黑木穗乃香fmt活动记录.html",
+      "slug": "忙里偷闲的治愈之旅-黑木穗乃香fmt活动记录",
+      "title": "忙里偷闲的治愈之旅（黑木穗乃香FMT活动记录）",
+      "summary": "本文存在高度流水账，请谨慎观看。",
+      "publishedAt": "2025-11-03T00:00:00+08:00",
+      "date": "2025-11-03",
+      "phase": "fantasy",
+      "section": "activity",
+      "kind": "standard",
+      "tags": [
+        "FMT",
+        "黑木穗乃香"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">黑木穗乃香</span>",
+      "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKX3BBG7GNX20ZZT3162C/01.webp",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    },
+    {
+      "id": "01M3PFKX8NMTEWSDXTXRVGZNMF",
+      "entryId": "01M3PFKX8NMTEWSDXTXRVGZNMF",
+      "path": "/content/被榨干激情的梦幻一天-凉本秋穗fmt纪事.html",
+      "slug": "被榨干激情的梦幻一天-凉本秋穗fmt纪事",
+      "title": "被榨干激情的梦幻一天（凉本秋穗FMT纪事）",
+      "summary": "个人纪念用，本文掺杂了大量个人无关内容，时序混乱，且高度流水账，一番思索后听了akh夜场的建议写下的这篇repo。",
+      "publishedAt": "2025-10-03T00:00:00+08:00",
+      "date": "2025-10-03",
+      "phase": "fantasy",
+      "section": "activity",
+      "kind": "standard",
+      "tags": [
+        "FMT",
+        "凉本秋穗"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">凉本秋穗</span>",
+      "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKX8NMTEWSDXTXRVGZNMF/01.webp",
+      "wordCount": 0,
+      "seriesId": "",
+      "hasPublication": false
+    }
+  ],
+  "moments": [
+    {
+      "id": "01M3F1S6Z0YATR1KS3VH0RQP0Y",
+      "path": "/moment/01M3F1S6Z0YATR1KS3VH0RQP0Y.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-26T14:26:52.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "走路上还被铁丝扎穿鞋底，得亏运气好没戳进脚掌",
+      "html": "<p>走路上还被铁丝扎穿鞋底，得亏运气好没戳进脚掌</p>",
+      "summary": "走路上还被铁丝扎穿鞋底，得亏运气好没戳进脚掌",
+      "tags": [
+        "QQ空间",
+        "生活随想"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
+      }
+    },
+    {
+      "id": "01M3F0MXTRK7W9VQQDW4JJ3D4E",
+      "path": "/moment/01M3F0MXTRK7W9VQQDW4JJ3D4E.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-26T14:07:03.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "登个azure被设备安全性认证气晕",
+      "html": "<p>登个azure被设备安全性认证气晕</p>",
+      "summary": "登个azure被设备安全性认证气晕",
+      "tags": [
+        "QQ空间",
+        "Azure"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "01M31PYVJRN4A8DWNEF2G0VVKD",
+      "path": "/moment/01M31PYVJRN4A8DWNEF2G0VVKD.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-21T10:07:35.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "试了一下Icarace，仿佛体验了苍彼空竞的感觉",
+      "html": "<p>试了一下Icarace，仿佛体验了苍彼空竞的感觉</p>",
+      "summary": "试了一下Icarace，仿佛体验了苍彼空竞的感觉",
+      "tags": [
+        "QQ空间",
+        "ACG"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      }
+    }
+  ]
+}

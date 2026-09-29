@@ -1,434 +1,79 @@
 # BIFROST 个人网页
 
-BIFROST 是一个面向 GitHub Pages 的静态个人站点方案，目标不是把网页做成传统博客，而是把它设计成一套可持续扩展的“个人知识界面”。它将内容阅读、项目展示、兴趣归档和沉浸式视觉表达统一到同一个单页容器中，形成一套兼顾效率、风格与可维护性的网页架构。
+BIFROST 是一个面向 GitHub Pages 的个人内容站点，以**文章与动态**为中心，在 Logic 与 Fantasy 两个位面之间承载阅读、记录与展示。
 
-当前仓库处于原型与方案整理阶段，README 的作用不是介绍某个已完成产品，而是定义后续搭建时遵循的设计边界、技术选型和实现原则。这样做的好处是：在真正开始写页面之前，先把产品形态、交互逻辑和内容组织方式定清楚，避免后续出现风格漂移和结构返工。
+站点目前是"静态内容 + Azure 服务"的混合形态：阅读走静态产物，查找与互动走云端服务。内容数据库架构正在重新设计，目标是把内容集中到数据库，使查找与迁移都更容易。
 
-## 项目定位
+## 快速开始
 
-BIFROST 的核心定位可以概括为三点：
-
-1. 作为一个个人主页，它需要承担“是谁、在做什么、最近更新了什么”的展示职责。
-2. 作为一个知识仓库，它需要支持技术笔记、阅读记录、翻译整理和专题文章的长期沉淀。
-3. 作为一个具备视觉记忆点的站点，它需要有明确的主题气质，而不是通用模板式的首页。
-
-因此，这个项目更接近“静态知识工作台”，而不是一个单纯的博客主题。用户进入页面后，应当直接看到可用内容、清晰导航和稳定的状态恢复能力，而不是二级跳转、空白落地页或过度装饰的首页动画。
-
-## 设计原则
-
-### 单页容器，内容分片
-
-站点采用单页应用式容器承载内容，但不依赖重型前端框架。页面始终保留一个稳定的壳层，真正变化的是主内容区域与侧边索引。这样既保留了 GitHub Pages 的部署简洁性，也让页面具备更好的浏览连续性。
-
-### 双相位视觉系统
-
-项目在视觉上定义两种明确的内容相位：
-
-- Logic：偏技术、偏工具化、偏深色终端风格，适合工程笔记、算法记录和系统性内容。
-- Fantasy：偏阅读、偏收藏、偏温润文学感，适合翻译、漫评、随笔和偏个人表达的条目。
-
-两种相位不是简单换肤，而是同一信息架构下的两套视觉语义。它们共享相同的页面骨架，但允许颜色、字体、卡片语言、交互动效与默认内容不同步切换。
-
-### 先内容后装饰
-
-所有页面动效、背景与主题化表达都必须服务于内容，而不是掩盖内容。首页仪表盘、目录树、文章片段和状态提示是主体，视觉风格是组织这些主体的方式，不应反过来让用户在页面里找信息。
-
-### 渐进增强
-
-即使关闭脚本，站点仍应保留基础可读性与可访问性。JavaScript 负责增强体验，例如无刷新切换、状态缓存和主题切换；HTML 和 CSS 则负责最基本的展示和结构表达。
-
-## 目标体验
-
-BIFROST 希望实现的用户体验不是“打开后先看一堆导航”，而是进入一个可以直接阅读和探索的工作台：
-
-- 首次进入时，页面立即进入默认相位，并展示概览式内容。
-- 通过侧边目录直接浏览文章，无需整页刷新。
-- 在文章列表与仪表盘之间切换时，保持视觉连续性和历史记录可回退性。
-- 当用户回到站点时，能够恢复上次离开的阅读位置和相位状态。
-- 内容展示既能支持技术记录的结构化阅读，也能支持带有情绪和氛围的文艺型内容。
-
-## 技术栈
-
-### 基础技术
-
-- HTML5：负责整体语义结构、导航、文章容器和可访问性骨架。
-- CSS3：负责布局、主题变量、响应式适配、动效和视觉风格切换。
-- 原生 JavaScript：负责路由拦截、内容加载、状态管理、目录渲染和主题切换。
-
-### 预期使用能力
-
-- Fetch API：按需拉取文章片段、目录数据和仪表盘内容。
-- History API：在不刷新的情况下维护地址栏、前进后退和分享链接。
-- LocalStorage：记录当前相位、最近浏览路径和必要的 UI 偏好。
-- 原生 `<details>` / `<summary>`：用于折叠式信息展示，减少额外依赖。
-
-### 可选增强
-
-根据后续实现需要，可引入以下能力，但不作为首选默认依赖：
-
-- Markdown 预编译：将 Markdown 在构建阶段或简单运行时转换为 HTML 片段。
-- 图片路径重写：确保被动态注入的内容在相对路径场景下依然可用。
-- 音频播放器集成：用于相位切换后的背景音乐或氛围音。
-
-## 架构概览
-
-站点按“壳层、内容、数据、资源”四层组织。
-
-```text
-/root
-├── index.html
-├── core/
-│   ├── engine.js
-│   ├── interactions.js
-│   ├── media-preview.js
-│   ├── publication-reader.js
-│   ├── style.css
-│   └── admin.js
-├── content/
-│   ├── dashboards/
-│   ├── logic/
-│   └── fantasy/
-├── data/
-│   ├── entries.json
-│   └── publications/
-├── api/                  Azure Functions 互动 API
-├── sync/                 Playwright QQ 云端同步器
-├── infra/                Bicep 基础设施
-└── assets/
-```
-
-### 壳层
-
-`index.html` 是唯一入口，它只负责承载站点骨架，不承载具体文章逻辑。页面中通常包含顶部状态区、侧边目录区、主内容区和命令入口。
-
-### 引擎层
-
-`engine.js` 负责站点运行时逻辑，包括：
-
-- 拦截目录点击并执行无刷新导航。
-- 根据路径加载内容片段并插入主内容区。
-- 根据当前相位切换目录数据和默认仪表盘。
-- 维护历史记录与页面恢复逻辑。
-- 对动态注入内容进行资源路径修正。
-
-### 内容层
-
-`content/` 目录保存所有文章和仪表盘内容。构建产物是**同时承担两种角色的完整文档**：SPA 用 `fetch` 读取其中的正文片段，直接访问同一个 URL 时又依赖文档头部的引导脚本跳回 SPA。正文本身仍应保持纯净，只包含正文、必要的语义结构和少量局部样式；文档头与引导脚本由 `build.mjs` 统一生成，不要手写。
-
-### 数据层
-
-`data/` 目录保存统一内容索引和出版物清单。侧栏由 `entries.json` 动态生成，不再手工维护两份相位目录树。
-
-### 资源层
-
-`assets/` 用于存放图片、封面、图标、音频和其他静态资源。资源应按用途组织，避免在内容层中散落难以维护的外链路径。
-
-## 内容模型
-
-BIFROST 的文章内容不是一次性拼接出来的完整网页，而是可复用的内容片段。这个选择带来两个直接好处：
-
-1. 文章可以被独立加载，适合 SPA 式阅读。
-2. 仪表盘、专题页和正文页可以共享同一套渲染机制。
-
-推荐的内容形态有两类：
-
-- HTML 片段：适合结构复杂、包含较多自定义布局的页面。
-- Markdown 片段：适合偏文档型、写作频率高、排版要求稳定的页面。
-
-如果文章包含图片或内部跳转，应在加载时统一处理相对路径，确保它们在被注入主容器后仍能正确解析。
-
-## 交互方式
-
-### 导航逻辑
-
-用户与站点的主要交互入口是侧边目录。点击目录项后，页面应在主内容区完成切换，同时保持当前页面的地址可复制、可分享、可回退。
-
-### 仪表盘逻辑
-
-在未打开具体文章时，主区域显示默认仪表盘。仪表盘不是纯装饰首页，而是内容入口的摘要层，用来展示最近更新、精选文章、状态概览和推荐阅读。
-
-### 相位切换
-
-相位切换是这个项目最重要的身份特征之一。它不仅改变配色与字体，还应当同步改变默认内容、目录索引、信息密度和阅读气质。为了让切换显得自然，所有切换都应以 CSS 变量和状态驱动实现，而不是通过大面积硬编码替换 DOM。
-
-### 状态恢复
-
-站点需要记住最近一次访问的相位和路径。用户重新打开页面时，应该尽可能恢复到离开时的阅读位置，而不是回到完全陌生的首页。
-
-## 关键实现约束
-
-### 资源路径处理
-
-动态加载内容时，文章内部的相对路径可能因为基准地址变化而失效。实现层需要统一处理这类资源引用，避免文章被搬运到主容器后出现图片、链接或媒体无法加载的问题。
-
-### 折叠信息组织
-
-仪表盘上的摘要信息建议优先使用原生折叠组件实现。它比自定义组件更轻、更稳定，也更容易保持跨浏览器兼容性。
-
-### 状态持久化
-
-建议只持久化真正需要恢复的状态，例如：
-
-- 当前相位
-- 最近访问路径
-- 可能的布局偏好
-
-不要把过多临时 UI 状态写入本地存储，以免后续演进时增加清理成本。
-
-## 视觉方向
-
-BIFROST 的视觉策略不是“漂亮的网页模板”，而是“有身份的个人界面”。因此，视觉设计应满足以下要求：
-
-- 有明确的主视觉情绪，而不是中性无差别风格。
-- 采用克制但清晰的层级关系，避免卡片堆叠过度。
-- 颜色、字体和间距必须支持双相位切换。
-- 动效应服务于状态变化，例如进入、切换、展开和恢复，而不是单纯炫技。
-
-## 当前实现参考
-
-当前仓库已经完成第一轮可运行骨架，包含壳层、主题样式、目录树、占位内容和无刷新加载脚本。它已经表达出几个方向性的信号：
-
-- 页面以单个容器承载全部内容。
-- 使用 CSS 变量定义主题状态。
-- 通过键盘命令触发视觉相位切换。
-- 用卡片式布局承载站点的核心概览。
-
-在此之上，交互机制已经细化落地：
-
-- 状态恢复：相位、最近文章路径与阅读滚动位置保存在 LocalStorage，回访时自动恢复，并跳过启动动画。
-- 目录高亮：当前打开的文章在侧边目录中带激活标记。
-- 相位切换：命令面板支持 `logic` / `fantasy` 命令，切换时旧相位的路径记录会被清理，避免恢复时相位错乱；色彩、字体（Fantasy 相位使用衬线字体）与内容入场均带过渡动效。
-- 资源路径：内容片段注入时统一重写 `src`、`href` 与 `srcset` 的相对路径。
-- 站点基建：提供与壳层风格一致的 404 页面、SVG favicon 与基础 og / theme-color 元信息。
-- 内容索引：`build.mjs` 汇总 `data/entries.json`（标题、日期、标签、摘要、类型、字数），仪表盘数据区块、命令面板搜索与文章页导航共用这份索引。
-- 仪表盘数据化：最近更新、精选、日记/日志流与"继续阅读"卡片由引擎挂载到 `[data-mount]` 区块，无条目时自动隐藏。
-- 命令面板：按 `~`（`Ctrl/Cmd+K` 亦可）或点击页头的 `~` 入口打开，可直接模糊搜索全站文章（跨相位结果会自动切换相位再打开），↑↓ 选择、Enter 打开；`fantasy` / `logic` 与彩蛋别名保留。在输入框内输入 `~` 不会触发面板。
-- 文章页 chrome：按索引自动注入日期 / 类型 / 阅读时长 / 标签元信息行与上一篇、下一篇导航，并按 `diary` / `article` 类型在容器上标记 `data-entry-type` 供后续分型展示。
-- 内容模型：条目包含 `section`、`kind`、`layout`、`source`、`publication` 与 `video`。Fantasy 固定为总览、日常、活动、评论、随笔；Logic 固定为总览、技术笔记、工程记录、开发日志。
-- 侧栏搜索：标题、摘要、标签、分类和年份可即时检索；清空后恢复带文章数量的分类树，并自动展开当前文章所在分类。
-- 阅读版式：正文使用约 `42em` 版心、17px 字号与 1.8 行高；`note`、`event`、`longform`、`publication` 四套数据驱动版式分别服务短记、活动、长文与出版物。正文区从标题网格向下极轻地渐隐，保留网格氛围而不过度形成底板。
-- 阅读边缘栏：`≥1200px` 时正文右侧提供进度线、日期 / 时长 / 分类、标签与"回到顶部"，`longform`、`event`、`note`、`publication` 四种条目一致提供；窄屏隐藏。
-- 图片预览：正文图片点击后使用原生 `<dialog>` 放大，支持方向键、遮罩、Esc 和上一张/下一张；滚轮、双击与 `−` / `＋` 按钮可缩放（1×–6×），放大后可拖动平移。竖版与超长图在正文中限高 `64vh`，不裁切原图。构建时会给本地图片写入宽高，提前预留版面。
-- PDF 出版物：`冬滚滚` 先按普通正文排入每一页，可以滚动阅读并点开放大；额外提供横向阅读器（桌面按 `1`、`2–3`、`4–5` 对页，手机单页，打开时铺满屏幕，可缩放 1×–4×）与 PDF 下载。
-- 深链修复：`content/` 下的文章文件本身带引导脚本，直接访问 `/content/...` 会重定向为 `?path=&phase=` 并落在正确相位；访问不存在的路径时由 404 页脚本完成同样的重定向。
-- 窄屏导航：`≤960px` 时侧栏默认收起，正文紧贴页头，点页头的"目录"按钮才展开；选择条目后自动收起。
-- 命令面板范围：搜索只覆盖当前相位，不跨相位展示条目；初始态只列出两条相位命令。
-- 视觉系统 token 化：圆角、动效时长与缓动、卡片底色/边框/投影全部走 CSS 变量。Logic 相位是"冷档案 HUD"——图纸网格背景、方括号小标签、卡片角标刻度、印章式大写 mono 标签、锐利圆角、140ms 硬朗动效；Fantasy 相位是"文库本手记"——暖纸噪点纹理与边缘 vignette、实底圆角纸卡、乾燥玫瑰主色、❧ 展开符、波浪下划线、420ms 柔缓动效，日记类型条目使用楷体并首行缩进两字符。
-- 相位切换光桥：切换时一道目标相位色的斜向光带扫过全屏，扫过中点完成相位提交；`prefers-reduced-motion` 下直接切换。
-- 活状态细节：页脚时钟（Logic 显示实时时间，Fantasy 显示日期与星期）、侧栏状态区显示当前相位最新更新日期、`theme-color` 随相位同步、boot 序列带进度条。
-- 语言策略：界面文案以中文为主，英文只作点缀——相位名（Logic / Fantasy）、站名、编号、命令名与代码术语保留英文，标题、状态、导航与按钮一律中文。
-- 中文排版：标题与正文各自用 `em` 控制行宽，**不要用 `ch`**——`ch` 是拉丁数字 "0" 的宽度，对全角汉字只有约一半宽，会让大标题在右侧还剩大片空白时提前换行（实测 13 字标题会被挤成两行）。标题用 `text-wrap: balance`，需要换行时各行长度接近，避免最后一行只剩一两个字；正文用 `text-wrap: pretty`；两者都设 `line-break: strict` 以遵循中文标点的避头尾规则。`.hero` 本身不再限制整块宽度，行宽由 `.hero__title`（15em）与 `.hero__text`（36em）分别决定。
-- 环境音（`core/ambience.js`）：按相位程序化生成的声音氛围，**不依赖任何音频素材文件**。Logic 是低频嗡鸣加极慢的滤波器摆动，Fantasy 是柔和风声加五声音阶的随机铃声；切换相位时交叉淡入淡出。默认静音，首次由访客点击开关后才创建 AudioContext，偏好写入 LocalStorage；上次开着环境音时，页面重新加载后会显示"点击启动"并在首次交互时恢复播放。
-- 评论、一层回复、点赞与阅读数：由 `data/site.json` 的 `interactions` 接入 Azure Functions + Cosmos DB；昵称可以留空并明确选择匿名，邮箱与个人网站可选。Azure 未配置或暂时不可用时，正文阅读不受影响。
-- QQ 云端同步：Container Apps Job 使用 Playwright 建立并保存加密会话，按规则将本人说说、图片、视频转发和匿名化历史互动提交到 `content-src/imported/qq/`。
-- 订阅与站点地图：`build.mjs` 依 `data/site.json` 的 `siteUrl` 生成 `feed.xml`（RSS 2.0）与 `sitemap.xml`。
-
-进一步部署说明见 `docs/AZURE_SETUP.md`。公开文章始终保存在 Git 中，Azure 故障不会阻止内容部署。
-
-## 内容工作流
-
-日常写作走 Markdown，长文粘贴走 HTML 片段，两者最终都会进入同一份内容索引。
-
-### Markdown（推荐日常使用）
-
-在 `content-src/<相位>/<类型>/` 下新建 `.md` 文件，文件名建议带日期前缀（`YYYY-MM-DD-标题.md`）：
-
-```text
-content-src/
-├── logic/
-│   ├── diary/     逻辑位面 · 日志
-│   └── article/   逻辑位面 · 长文
-└── fantasy/
-    ├── diary/     幻想位面 · 手记
-    └── article/   幻想位面 · 长文
-```
-
-文件头部使用 front-matter 定义元数据：
-
-```yaml
----
-title: 标题
-date: 2026-09-13
-phase: fantasy        # 可省略，默认取目录名
-type: diary           # diary（短内容）或 article（长文）
-tags: 手记, 随笔
-summary: 一句话摘要    # 可省略，自动截取首段
-featured: true        # 可省略，true 时进入仪表盘精选位
-kind: video           # 可省略：standard / video / pdf / qq-post
-video_platform: 哔哩哔哩
-video_embed: https://player.bilibili.com/player.html?bvid=BV...
-video_url: https://www.bilibili.com/video/BV...
-video_author: 原作者
-cover: https://...    # 社交卡片和视频封面
----
-```
-
-写完双击 `build.cmd`（或运行 `node build.mjs`）：Markdown 编译为 `content/` 下的 HTML 文档，所有内容汇总进 `data/entries.json`，仪表盘、目录、命令面板与文章页导航随之自动更新。构建会顺带补上文章头部的标题 / OG / canonical、深链引导脚本，以及本地图片的宽高。
-
-支持的语法：标题（正文从二级起写）、加粗、斜体、行内代码、链接、图片、引用、有序/无序列表（一层嵌套）、表格、分隔线、围栏代码块。段落内单个换行渲染为 `<br>`，适合日记体随手断行。当前不支持在表格、引用内嵌套复杂结构；Markdown 源内的原生 HTML 会被转义显示。
-
-### HTML 片段（长文粘贴 / 上传）
-
-从别处粘贴的现成 HTML 不走 Markdown：直接在 `content/` 对应目录新建片段，并在开头内嵌 meta 块即可入索引：
-
-```html
-<script type="application/x-bifrost-meta">
-{"title":"文章标题","date":"2026-09-13","tags":["随笔"],"summary":"一句话摘要","type":"article"}
-</script>
-```
-
-没有 meta 块的片段仍可被加载阅读，只是不进入最近更新等数据区块（标题会从 `<h1>` 推断）。
-
-构建会把这类手写片段包进统一的文档壳，并在下次运行时识别 `<!--bifrost:fragment:start-->` 标记后原地重写，因此重复运行 `node build.mjs` 不会层层嵌套。
-
-### QQ 云端同步
-
-QQ 同步由 `sync/` 中的独立容器执行。第一次使用需要在管理页重新连接 QQ；之后 Container Apps Job 每日运行。同步器只读取本人动态，输出规范化 JSON 到 `content-src/imported/qq/`，再由 `build.mjs` 生成公开 HTML。
-
-同步内容支持图片响应式版本、视频来源卡片、来源删除状态和匿名化 QQ 历史评论。自动发布默认关闭，首轮 `--dry-run` 验收后由管理页开启。
-
-### 本地文章导入
-
-纯文本、Markdown、HTML 与 PDF 可通过本地导入工具进入内容目录：
+本地预览：
 
 ```powershell
-node tools/import-local.mjs "C:\path\to\article.md" --phase fantasy --type article --title "文章标题"
+./preview.cmd            # 默认 http://localhost:8000/
+./preview.cmd 8080       # 指定端口
 ```
 
-HTML 会移除脚本、事件属性与危险协议；PDF 保留原件并生成索引页。复杂出版物需要人工确认排版与附加媒体。
-
-当前已经保全的 Fantasy 原始文档与处理判断见 `imports/fantasy/README.md`。原始大文件保存在本地 `imports/fantasy/raw/`，暂不直接推入公开 Git 仓库。
-
-公开的 Bilibili Opus 文章可批量导入正文和图片：
+本地验证：
 
 ```powershell
-python tools/import_bilibili_opus.py "https://www.bilibili.com/opus/..."
-```
-
-QQ 会话失效且云端二维码不方便扫描时，可在 `sync/` 中运行一次 `npm run auth:local`，通过本地浏览器完成扫码并将会话写入 Key Vault。
-
-### 条目类型与展示分型
-
-`diary` 与 `article` 目前影响：仪表盘归入哪个区块、文章页元信息行的类型文案。引擎同时会在内容容器上写入 `data-entry-type`，后续可以为两种类型做完全不同的版式（例如日记的窄栏时间线、长文的多级目录）。
-
-## 站点配置
-
-`data/site.json` 保存站点级配置。Azure 地址与 Entra 应用标识部署后填写：
-
-```json
-{
-  "siteUrl": "https://cpower-2NG.github.io",
-  "interactions": {
-    "provider": "azure",
-    "enabled": true,
-    "apiBaseUrl": "https://example.azurewebsites.net/api",
-    "commentsEnabled": true,
-    "reactionsEnabled": true,
-    "viewsEnabled": true,
-    "admin": {
-      "tenantId": "Microsoft Entra tenant id",
-      "clientId": "SPA application client id",
-      "apiScope": "api://.../access_as_user"
-    }
-  }
-}
-```
-
-- `siteUrl`：生成 `feed.xml` 与 `sitemap.xml` 时的绝对地址前缀。
-- `interactions`：控制在文章与手记下方挂载的评论、点赞和阅读数。`enabled` 为 `false` 或地址为空时整块隐藏，不产生空壳。
-
-## 环境音
-
-环境音是程序化生成的，没有音频文件，音量与音色在 `core/ambience.js` 顶部附近调整：
-
-- 总音量：`start()` 里的 `fadeMaster(0.72)`。
-- Logic 嗡鸣：`buildLogicVoice()`，基频 55Hz / 82.5Hz 的正弦叠加，`droneBus` 控制整体电平。
-- Fantasy 风声与铃声：`buildFantasyVoice()` 的风声电平，`scheduleBell()` 里的和弦音阶（`BASS_SET`）与铃声间隔。
-- 淡入淡出时长：`FADE`。
-
-不需要环境音时，删掉 `core/ambience.js` 与 `index.html` 中的那行 `<script>` 即可，引擎会在缺少该模块时自动跳过。
-
-## 后续开发顺序
-
-建议按以下顺序落地，而不是一开始就追求完整功能：
-
-1. 先完成壳层结构和基础主题变量。
-2. 再实现目录树与内容加载机制。
-3. 然后补默认仪表盘和相位切换。
-4. 最后再处理资源路径、状态恢复和细节动效。
-
-这样可以先把站点骨架跑通，再逐步加深视觉与交互层级，避免前期设计过重导致实现碎片化。
-
-## 项目状态
-
-当前阶段：静态内容基建、Azure 互动接口、管理页、基础设施模板、QQ 云端同步和自动部署 workflow 均已落地。生产启用前仍需在 Azure 创建 Entra 应用、GitHub App、部署资源并完成第一次 QQ 扫码验收；具体步骤见 `docs/AZURE_SETUP.md`。
-
-## 本地预览
-
-项目不依赖 npm。Windows 环境下可以双击根目录中的 `preview.cmd`，脚本会先启动本地预览服务，确认服务就绪后再自动打开浏览器：
-
-`http://localhost:8000/`
-
-也可以在项目目录的 PowerShell 中运行：
-
-```powershell
-./preview.cmd
-```
-
-如果 8000 端口已被占用，可以指定其他端口：
-
-```powershell
-./preview.cmd 8080
-```
-
-预览脚本会优先使用 PATH 中的 Node.js，其次检查当前用户目录中的 Node.js；如果仍找不到，则自动使用 Windows 自带的 PowerShell 服务，因此不需要安装 npm 依赖。修改文件后刷新浏览器即可生效；在服务窗口按 `Ctrl+C` 停止服务。
-
-端口占用与重复启动的处理规则：
-
-- 如果该端口上已经有 BIFROST 预览服务在跑，脚本只会打开浏览器，不会重复启动服务。
-- 脚本通过 `/.bifrost-ping` 探测点确认端口上运行的是不是 BIFROST。如果端口被别的程序占用，脚本不会盲目打开那个无关页面，而是自动向后寻找空闲端口（最多 10 个）并在那里启动。
-- 连续 10 个端口都被占用时，脚本会提示换一个端口，例如 `preview.cmd 9000`。
-
-两个服务实现（Node 与 PowerShell 回退）行为保持一致：都同时监听 `127.0.0.1` 与 `::1`（因此 `localhost` 和 `127.0.0.1` 都能访问），都把未知路径交给 `404.html` 处理（本地也能验证深链重定向），都支持 `/.bifrost-ping` 探测点。
-
-脚本编码注意事项：`preview.cmd`、`preview-server.ps1`、`preview-port.ps1`、`build.cmd` 一律保持 **ASCII 内容**。Windows PowerShell 5.1 会把没有 BOM 的 `.ps1` 按系统 ANSI 代码页读取，cmd 也按 OEM 代码页读取批处理，脚本里出现中文会导致字符串被截断甚至整个脚本解析失败。中文说明统一放在本 README 里。
-
-需要在不弹浏览器窗口的情况下启动服务时（自动化脚本或排查问题）：
-
-```powershell
-node preview-server.mjs 8000 --no-open
-```
-
-```powershell
-./preview-server.ps1 -Port 8000 -NoBrowser
-```
-
-## 本地验证
-
-```powershell
-node build.mjs
 node --test tests/*.test.mjs
+node tests/e2e/site-navigation.mjs
 
 npm ci --prefix api
 npm test --prefix api
 
 npm ci --prefix sync
 npm test --prefix sync
-node tests/e2e/reader-interactions.mjs
 ```
 
-本地浏览器测试会自行启动 `8125` 端口并模拟互动 API，覆盖分类搜索、图片预览、PDF 对页/单页、匿名评论、回复、点赞、阅读数去重和接口失败降级。
-
-线上只读检查：
+内容管线（从数据库物化静态站点；需要 Azure 登录）见 [40-migration-ops.md](docs/design/40-migration-ops.md)：
 
 ```powershell
-node tools/live-readonly-check.mjs
+node tools/batch-import.mjs      # 原件 → 内容包 → 文档
+node tools/blob-push.mjs         # 媒体上云
+node tools/cosmos-push.mjs       # 写入权威容器
+node tools/materialize-site.mjs  # 数据库 → 静态站点
+node tools/search-setup.mjs      # 创建检索索引
+node tools/search-push.mjs       # 推送检索投影
 ```
 
-真实写入检查会使用不会出现在公开文章中的专用测试路径，验证评论、回复、点赞和阅读去重，随后从 Cosmos DB 清理测试文档。必须显式确认：
+端口占用规则、脚本编码约束与线上检查命令见 [40-migration-ops.md](docs/design/40-migration-ops.md)。
 
-```powershell
-node tools/interaction-live-check.mjs --confirm=WRITE
+## 文档索引
+
+设计文档按职责拆分，推荐从上往下阅读：
+
+| 文档 | 内容 |
+|---|---|
+| [docs/design/00-overview.md](docs/design/00-overview.md) | 总览、术语表、模块地图与决策记录 |
+| [docs/design/10-data-design.md](docs/design/10-data-design.md) | 内容模型、分类体系、数据库组织与检索投影 |
+| [docs/design/20-backend.md](docs/design/20-backend.md) | 后端服务边界与契约 |
+| [docs/design/30-frontend.md](docs/design/30-frontend.md) | 前端呈现契约与交互结构 |
+| [docs/design/40-migration-ops.md](docs/design/40-migration-ops.md) | 迁移策略、云资源、本地开发与验证 |
+| [docs/AZURE_SETUP.md](docs/AZURE_SETUP.md) | Azure 资源创建、Entra 登录与 QQ 同步部署 |
+| [imports/fantasy/README.md](imports/fantasy/README.md) | Fantasy 原始文档的保全与处理判断 |
+
+## 目录结构
+
+```text
+.
+├── index.html          站点壳层（唯一入口）
+├── core/               前端引擎、样式与交互脚本
+├── content/            构建产出的内容文档
+├── content-src/        内容源（Markdown 与导入数据）
+├── data/               站点配置与内容索引
+├── assets/             图片、出版物等静态资源
+├── docs/               文档（设计集合与部署说明）
+├── api/                Azure Functions 互动与管理接口
+├── sync/               QQ 云端同步器
+├── infra/              Bicep 基础设施模板
+├── tools/              导入、校验与检查脚本
+├── tests/              单元与浏览器测试
+└── imports/            原始文档保全目录
 ```
 
-Azure 资源创建、Entra 登录、GitHub App 和第一次 QQ 扫码的完整步骤见 `docs/AZURE_SETUP.md`。
+## 项目状态
+
+静态内容基建、Azure 互动接口、管理页、基础设施模板、QQ 云端同步与自动部署 workflow 均已落地。
+
+内容数据库架构处于重新设计阶段：设计文档已建立，实现尚未开始。

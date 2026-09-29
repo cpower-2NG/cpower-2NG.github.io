@@ -222,7 +222,7 @@
     meta.className = 'admin-comment__meta';
     [
       comment.nickname || '匿名用户',
-      comment.path,
+      comment.entryId,
       new Date(comment.createdAt).toLocaleString('zh-CN'),
     ].forEach((value) => {
       const item = document.createElement('span');
@@ -257,7 +257,7 @@
         try {
           await api(`/manage/comments/${encodeURIComponent(comment.id)}`, {
             method: value === 'deleted' ? 'DELETE' : 'PATCH',
-            body: { path: comment.path, status: value },
+            body: { entryId: comment.entryId, status: value },
           });
           await loadComments();
         } catch (error) {

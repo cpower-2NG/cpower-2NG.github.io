@@ -22,8 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build content index
-        run: node build.mjs
+      # 内容不再由 CI 从 Git 源编译：静态产物由 tools/materialize-site.mjs
+      # 从数据库生成后提交（Git 保留的是发布快照），CI 只做校验与部署。
       - name: Install test dependencies
         run: |
           npm ci --prefix sync
@@ -36,11 +36,11 @@ jobs:
           npm test --prefix sync
           npm test --prefix api
       - name: Run browser end-to-end checks
-        run: node tests/e2e/reader-interactions.mjs
+        run: node tests/e2e/site-navigation.mjs
       - name: Prepare static artifact
         run: |
           mkdir -p .pages
-          cp -r 404.html assets content core data feed.xml index.html sitemap.xml admin.html robots.txt .pages/
+          cp -r 404.html assets content core data feed.xml index.html sitemap.xml admin.html robots.txt moment .pages/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
