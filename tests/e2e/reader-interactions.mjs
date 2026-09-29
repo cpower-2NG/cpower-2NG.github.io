@@ -333,7 +333,8 @@ async function testControlsAndReadingLayouts(browser) {
     { waitUntil: 'domcontentloaded' },
   );
   await page.waitForSelector('.article-surface h1');
-  assert.equal(await page.locator('.reading-gutter').count(), 0);
+  assert.equal(await page.locator('.reading-gutter--edge').count(), 1);
+  assert.equal(await page.locator('.reading-gutter--edge .reading-gutter__meta').count(), 0);
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(

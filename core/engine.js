@@ -764,6 +764,14 @@ function renderEntryChrome(entry) {
     elements.viewer.append(gutter);
   }
 
+  if (state.readingLayout === 'magazine' && entry.layout === 'event') {
+    const gutter = document.createElement('aside');
+    gutter.className = 'reading-gutter reading-gutter--edge';
+    gutter.setAttribute('aria-hidden', 'true');
+    gutter.innerHTML = '<div class="reading-gutter__line"></div>';
+    elements.viewer.append(gutter);
+  }
+
   const { prev, next } = siblingEntries(entry);
   const pager = document.createElement('nav');
   pager.className = 'pager';

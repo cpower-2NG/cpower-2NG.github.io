@@ -2184,7 +2184,7 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > h2,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > h3,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > .hero__title {
-  width: min(100%, 748px);
+  width: min(100%, 782px);
   margin-inline: auto;
 }
 
@@ -2192,14 +2192,22 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > ul,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > ol,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] .article-surface > blockquote {
-  max-width: 44em;
+  max-width: 46em;
   margin-inline: auto;
 }
 
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h1,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h2,
 html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > h3 {
-  width: min(100%, 748px);
+  width: min(100%, 782px);
+  margin-inline: auto;
+}
+
+html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > p:not(:has(> img:only-child)),
+html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > ul,
+html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > ol,
+html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] .article-surface > blockquote {
+  max-width: 46em;
   margin-inline: auto;
 }
 
@@ -2234,8 +2242,45 @@ html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] 
 
   html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .pager,
   html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .comments {
-    width: min(100%, 44em);
+    width: min(100%, 46em);
     margin-inline: auto;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] {
+    display: grid;
+    width: min(100%, 1158px);
+    grid-template-columns: minmax(0, 1fr) 150px;
+    column-gap: 28px;
+    align-items: start;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .entry-meta {
+    display: none;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .article-surface,
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .pager,
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .comments {
+    grid-column: 1;
+    min-width: 0;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .pager,
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .comments {
+    width: min(100%, 46em);
+    margin-inline: auto;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--edge {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / span 4;
+    align-self: start;
+    padding-top: 46px;
+  }
+
+  html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="event"] > .reading-gutter--edge .reading-gutter__line {
+    height: 220px;
   }
 
   html[data-reading-layout="magazine"] .content-viewer[data-entry-layout="longform"] > .reading-gutter {
