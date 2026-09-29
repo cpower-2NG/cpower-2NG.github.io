@@ -13,7 +13,7 @@ const PHASES = {
     pill: 'LOGIC · STABLE',
     title: 'LOGIC ARCHIVE',
     subtitle: '把复杂的事拆开，慢慢记下来。',
-    hint: '按 Ctrl/Cmd+K 搜索或切换位面',
+    hint: '按 ~ 搜索或切换位面',
     status: '技术整理与项目记录还在收拢，留下的内容会慢慢出现在这里。',
     footer: 'Logic 位面',
     boot: [
@@ -36,7 +36,7 @@ const PHASES = {
     pill: 'FANTASY · REVERIE',
     title: '幻想回廊',
     subtitle: '把读过的、想过的，慢慢留在这里。',
-    hint: '按 Ctrl/Cmd+K 搜索或切换位面',
+    hint: '按 ~ 搜索或切换位面',
     status: '书架已经掸过灰，新的阅读、活动与手记会陆续到来。',
     footer: 'Fantasy 位面',
     boot: [
@@ -73,6 +73,7 @@ const PUBLIC_COMMANDS = {
 };
 
 const IMAGE_LAYOUTS = ['uniform56', 'editorial56', 'editorial64'];
+const READING_LAYOUTS = ['magazine', 'column'];
 
 const state = {
   phase: 'logic',
@@ -96,7 +97,9 @@ window.addEventListener('popstate', onPopState);
 async function init() {
   cacheElements();
   bindGlobalEvents();
-  state.readingLayout = 'magazine';
+  // 是否首次访问要在 applyPhase() 写入 localStorage 之前判断，否则启动动画永远不会播放。
+  const isFirstVisit = !hasPersistentState();
+  state.readingLayout = resolveReadingLayout();
   state.imageLayout = resolveImageLayout();
   elements.html.dataset.readingLayout = state.readingLayout;
   elements.html.dataset.imageLayout = state.imageLayout;
@@ -105,7 +108,7 @@ async function init() {
   applyPhase(state.phase);
   initAmbience();
 
-  if (!hasPersistentState()) {
+  if (isFirstVisit) {
     playBootSequence();
   }
 
@@ -121,11 +124,14 @@ async function init() {
     state.siteConfig = {};
   }
 
+  // 先确定初始路径，侧栏首次渲染就能直接展开正确的分区，避免列表二次跳动。
+  const initialPath = resolveInitialPath();
+  state.currentPath = initialPath ? normalizePath(initialPath) : normalizePath('');
+
   renderNavigation();
   updateStatusNote();
   window.setInterval(updateFooterClock, 1000);
 
-  const initialPath = resolveInitialPath();
   if (initialPath) {
     await openRoute(initialPath, { pushState: false, remember: false });
   } else {
@@ -143,9 +149,16 @@ function resolveImageLayout() {
   return IMAGE_LAYOUTS.includes(requested) ? requested : 'editorial56';
 }
 
+function resolveReadingLayout() {
+  const requested = new URL(window.location.href).searchParams.get('reading');
+  return READING_LAYOUTS.includes(requested) ? requested : 'magazine';
+}
+
 function cacheElements() {
   elements.html = document.documentElement;
   elements.body = document.body;
+  elements.shell = document.querySelector('.shell');
+  elements.navToggle = document.querySelector('[data-nav-toggle]');
   elements.siteTitle = document.querySelector('[data-site-title]');
   elements.siteSubtitle = document.querySelector('[data-site-subtitle]');
   elements.phasePill = document.querySelector('[data-phase-pill]');
@@ -162,6 +175,7 @@ function cacheElements() {
   elements.commandOverlay = document.querySelector('[data-command-overlay]');
   elements.commandInput = document.querySelector('[data-command-input]');
   elements.commandResults = document.querySelector('[data-command-results]');
+  elements.commandTrigger = document.querySelector('[data-command-trigger]');
   elements.bootOverlay = document.querySelector('[data-boot-overlay]');
   elements.bootLog = document.querySelector('[data-boot-log]');
   elements.soundToggle = document.querySelector('[data-sound-toggle]');
@@ -174,6 +188,12 @@ function bindGlobalEvents() {
   elements.commandInput.addEventListener('keydown', onCommandKeyDown);
   elements.commandInput.addEventListener('input', onCommandInput);
   elements.commandOverlay.addEventListener('click', onCommandOverlayClick);
+  if (elements.commandTrigger) {
+    elements.commandTrigger.addEventListener('click', () => openCommandOverlay());
+  }
+  if (elements.navToggle) {
+    elements.navToggle.addEventListener('click', () => setNavOpen(!isNavOpen()));
+  }
   elements.main.addEventListener('scroll', onMainScroll, { passive: true });
   elements.tree.addEventListener('input', onTreeSearchInput);
   if (elements.soundToggle) {
@@ -739,9 +759,12 @@ function renderEntryChrome(entry) {
   `;
   elements.viewer.prepend(meta);
 
-  if (state.readingLayout === 'magazine' && entry.layout === 'longform') {
+  // 阅读边缘栏（进度 / 元信息 / 回到顶部）对所有正文类型一致提供，
+  // 不再区分长文、活动、手记或出版物。
+  if (state.readingLayout === 'magazine') {
+    const layout = entry.layout || 'longform';
     const gutter = document.createElement('aside');
-    gutter.className = 'reading-gutter';
+    gutter.className = `reading-gutter reading-gutter--${layout}`;
     gutter.setAttribute('aria-label', '阅读信息与进度');
     gutter.innerHTML = `
       <div class="reading-gutter__line" aria-hidden="true"><i data-reading-progress-fill></i></div>
@@ -749,26 +772,6 @@ function renderEntryChrome(entry) {
         <span>${escapeHtml(formatDate(entry.date))}</span>
         <span>约 ${minutes} 分钟</span>
         <span>${escapeHtml(entry.sectionLabel || entry.category || '阅读')}</span>
-      </div>
-      ${tags.length ? `<div class="reading-gutter__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>` : ''}
-      <button class="reading-gutter__top" type="button" data-reading-top>↑<span>回到顶部</span></button>
-    `;
-    gutter.querySelector('[data-reading-top]').addEventListener('click', () => {
-      elements.main.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    elements.viewer.append(gutter);
-  }
-
-  if (state.readingLayout === 'magazine' && entry.layout === 'event') {
-    const gutter = document.createElement('aside');
-    gutter.className = 'reading-gutter reading-gutter--event';
-    gutter.setAttribute('aria-label', '阅读信息与进度');
-    gutter.innerHTML = `
-      <div class="reading-gutter__line" aria-hidden="true"><i data-reading-progress-fill></i></div>
-      <div class="reading-gutter__meta">
-        <span>${escapeHtml(formatDate(entry.date))}</span>
-        <span>约 ${minutes} 分钟</span>
-        <span>${escapeHtml(entry.sectionLabel || entry.category || '活动记录')}</span>
       </div>
       ${tags.length ? `<div class="reading-gutter__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>` : ''}
       <button class="reading-gutter__top" type="button" data-reading-top>↑<span>回到顶部</span></button>
@@ -811,10 +814,39 @@ function onDocumentClick(event) {
   }
 
   event.preventDefault();
+  setNavOpen(false);
   openRoute(routeLink.dataset.path);
 }
 
+// 窄屏上侧栏默认收起，避免整块导航把正文顶到首屏之外。
+function isNavOpen() {
+  return Boolean(elements.shell?.classList.contains('is-nav-open'));
+}
+
+function setNavOpen(open) {
+  if (!elements.shell || !elements.navToggle) {
+    return;
+  }
+  elements.shell.classList.toggle('is-nav-open', open);
+  elements.navToggle.setAttribute('aria-expanded', String(open));
+}
+
 function onKeyDown(event) {
+  const target = event.target;
+  const typing = target instanceof Element
+    && (target.matches('input, textarea, select') || target.isContentEditable);
+
+  // `~`（含 Shift+`）是呼出面板的首选快捷键，Ctrl/Cmd+K 继续作为备选。
+  if (!typing && (event.key === '~' || event.key === '`') && !event.ctrlKey && !event.metaKey && !event.altKey) {
+    event.preventDefault();
+    if (elements.commandOverlay.classList.contains('is-active')) {
+      closeCommandOverlay();
+    } else {
+      openCommandOverlay();
+    }
+    return;
+  }
+
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
     event.preventDefault();
     if (!elements.commandOverlay.classList.contains('is-active')) {
@@ -1129,6 +1161,10 @@ function rewriteRelativePaths(html, sourcePath) {
   const doc = parser.parseFromString(`<body>${html}</body>`, 'text/html');
   const basePath = sourcePath.slice(0, sourcePath.lastIndexOf('/') + 1);
   const selectors = ['img[src]', 'source[src]', 'audio[src]', 'video[src]', 'iframe[src]', 'a[href]'];
+
+  // 片段文件本身是带 <head> 的完整文档（供直接访问时跳转与分享卡片使用）。
+  // 注入正文前先剥掉 head 元素与脚本，只保留真正的正文内容。
+  doc.querySelectorAll('script, meta, title, link, base, style, noscript').forEach((node) => node.remove());
 
   selectors.forEach((selector) => {
     doc.querySelectorAll(selector).forEach((node) => {

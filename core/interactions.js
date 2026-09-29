@@ -246,14 +246,26 @@
   function markViewOnce(path) {
     const today = new Date().toISOString().slice(0, 10);
     const key = `${today}:${path}`;
-    const raw = localStorage.getItem(VIEW_KEY);
+    const todayPrefix = `${today}:`;
+    let keys = [];
     try {
-      const value = JSON.parse(raw || '{}');
-      if (value.key === key) return false;
+      const value = JSON.parse(localStorage.getItem(VIEW_KEY) || 'null');
+      if (Array.isArray(value?.keys)) {
+        keys = value.keys.filter((item) => typeof item === 'string');
+      } else if (typeof value?.key === 'string') {
+        // 兼容旧版本只记录单条路径的格式。
+        keys = [value.key];
+      }
     } catch {
-      // Ignore corrupt local state.
+      keys = [];
     }
-    localStorage.setItem(VIEW_KEY, JSON.stringify({ key }));
+    if (keys.includes(key)) {
+      return false;
+    }
+    // 只保留当天的记录，避免长期累积。
+    keys = keys.filter((item) => item.startsWith(todayPrefix));
+    keys.push(key);
+    localStorage.setItem(VIEW_KEY, JSON.stringify({ keys: keys.slice(-400) }));
     return true;
   }
 

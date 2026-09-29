@@ -293,7 +293,11 @@ async function testControlsAndReadingLayouts(browser) {
     await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--grid-line').trim()),
     'transparent',
   );
-  await page.keyboard.press('`');
+  // `~` 是呼出面板的首选快捷键（Ctrl/Cmd+K 仍然可用）。
+  await page.keyboard.press('~');
+  await page.waitForTimeout(150);
+  assert.equal(await page.locator('[data-command-overlay]').evaluate((node) => node.classList.contains('is-active')), true);
+  await page.keyboard.press('Escape');
   await page.waitForTimeout(100);
   assert.equal(await page.locator('[data-command-overlay]').evaluate((node) => node.classList.contains('is-active')), false);
   await page.keyboard.press('Control+K');
@@ -357,7 +361,12 @@ async function testControlsAndReadingLayouts(browser) {
   assert.equal(await page.locator('.reading-gutter').isVisible(), false);
 
   await page.goto(`${baseUrl}/?phase=logic`, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('[data-tree-search]');
+  // 窄屏默认收起侧栏，只保留可点按的目录入口。
+  await page.waitForSelector('.nav-toggle');
+  assert.equal(await page.locator('.sidebar').isVisible(), false);
+  await page.locator('.nav-toggle').click();
+  await page.waitForTimeout(200);
+  assert.equal(await page.locator('.sidebar').isVisible(), true);
   const logicGrid = await page.evaluate(() =>
     getComputedStyle(document.documentElement).getPropertyValue('--grid-line').trim(),
   );

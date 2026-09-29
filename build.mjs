@@ -7,7 +7,7 @@
 // 用法：node build.mjs（或双击 build.cmd）
 
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
-import { basename, extname, join, relative, resolve, sep } from 'node:path';
+import { basename, dirname, extname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const root = resolve(fileURLToPath(new URL('.', import.meta.url)));
@@ -19,6 +19,7 @@ const OVERRIDES_FILE = join(root, 'data', 'content-overrides.json');
 const META_SCRIPT_TYPE = 'application/x-bifrost-meta';
 const PHASES = ['logic', 'fantasy'];
 const KINDS = ['standard', 'video', 'pdf', 'note', 'qq-post'];
+const DEFAULT_SITE_URL = 'https://cpower-2ng.github.io';
 const SECTION_LABELS = {
   daily: '日常',
   activity: '活动',
@@ -29,6 +30,9 @@ const SECTION_LABELS = {
   log: '开发日志',
 };
 const DEFAULT_SYNC_RULES_FILE = join(root, 'data', 'sync-rules.default.json');
+
+// 构建期解析出的站点地址，用于生成片段的 canonical / og:url。
+let siteOrigin = DEFAULT_SITE_URL;
 
 // ---------- 通用工具 ----------
 
@@ -95,6 +99,194 @@ function safeEmbedUrl(value) {
 
 function stripExt(fileName) {
   return fileName.replace(/\.(md|markdown|html?)$/i, '');
+}
+
+// ---------- 本地图片尺寸（零依赖探测，用于预留版面、消除滚动抖动） ----------
+
+const IMAGE_EXTENSIONS = new Set(['.webp', '.png', '.jpg', '.jpeg', '.gif']);
+const FRAGMENT_START = '<!--bifrost:fragment:start-->';
+const FRAGMENT_END = '<!--bifrost:fragment:end-->';
+
+function readJpegSize(buffer) {
+  let offset = 2;
+  while (offset + 9 < buffer.length) {
+    if (buffer[offset] !== 0xff) {
+      offset += 1;
+      continue;
+    }
+    const marker = buffer[offset + 1];
+    if (marker === 0xd8 || marker === 0xd9 || (marker >= 0xd0 && marker <= 0xd7)) {
+      offset += 2;
+      continue;
+    }
+    const length = buffer.readUInt16BE(offset + 2);
+    if (length < 2) {
+      return null;
+    }
+    const isStartOfFrame = (marker >= 0xc0 && marker <= 0xc3)
+      || (marker >= 0xc5 && marker <= 0xc7)
+      || (marker >= 0xc9 && marker <= 0xcb)
+      || (marker >= 0xcd && marker <= 0xcf);
+    if (isStartOfFrame) {
+      return {
+        height: buffer.readUInt16BE(offset + 5),
+        width: buffer.readUInt16BE(offset + 7),
+      };
+    }
+    offset += 2 + length;
+  }
+  return null;
+}
+
+function readImageSize(buffer) {
+  if (buffer.length > 24 && buffer.toString('ascii', 1, 4) === 'PNG') {
+    return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+  }
+  if (buffer.length > 30 && buffer.toString('ascii', 0, 4) === 'RIFF' && buffer.toString('ascii', 8, 12) === 'WEBP') {
+    const fourcc = buffer.toString('ascii', 12, 16);
+    if (fourcc === 'VP8 ' && buffer[23] === 0x9d && buffer[24] === 0x01 && buffer[25] === 0x2a) {
+      return {
+        width: buffer.readUInt16LE(26) & 0x3fff,
+        height: buffer.readUInt16LE(28) & 0x3fff,
+      };
+    }
+    if (fourcc === 'VP8L' && buffer[20] === 0x2f) {
+      const bits = buffer.readUInt32LE(21);
+      return { width: (bits & 0x3fff) + 1, height: ((bits >> 14) & 0x3fff) + 1 };
+    }
+    if (fourcc === 'VP8X') {
+      return {
+        width: 1 + (buffer[24] | (buffer[25] << 8) | (buffer[26] << 16)),
+        height: 1 + (buffer[27] | (buffer[28] << 8) | (buffer[29] << 16)),
+      };
+    }
+    return null;
+  }
+  if (buffer.length > 4 && buffer[0] === 0xff && buffer[1] === 0xd8) {
+    return readJpegSize(buffer);
+  }
+  if (buffer.length > 10 && buffer.toString('ascii', 0, 3) === 'GIF') {
+    return { width: buffer.readUInt16LE(6), height: buffer.readUInt16LE(8) };
+  }
+  return null;
+}
+
+function resolveLocalAsset(ref, baseDir) {
+  let decoded = String(ref || '').trim();
+  try {
+    decoded = decodeURIComponent(decoded);
+  } catch {
+    // 保留原始字符串
+  }
+  const clean = decoded.split('#')[0].split('?')[0];
+  if (!clean || /^[a-z][a-z0-9+.-]*:/i.test(clean) || clean.startsWith('//')) {
+    return null;
+  }
+  const absolute = clean.startsWith('/') ? resolve(root, `.${clean}`) : resolve(baseDir, clean);
+  const rel = relative(root, absolute);
+  if (!rel || rel.startsWith('..') || rel.includes(':')) {
+    return null;
+  }
+  return IMAGE_EXTENSIONS.has(extname(absolute).toLowerCase()) ? absolute : null;
+}
+
+async function localImageSize(ref, baseDir) {
+  const filePath = resolveLocalAsset(ref, baseDir);
+  if (!filePath) {
+    return null;
+  }
+  try {
+    return readImageSize(await readFile(filePath));
+  } catch {
+    return null;
+  }
+}
+
+// 为正文里指向本地文件的 <img> 补上宽高，让浏览器提前预留位置。
+async function applyLocalImageSizes(html, baseDir) {
+  const tags = [...html.matchAll(/<img\b[^>]*>/gi)].map((match) => match[0]);
+  let result = html;
+  for (const tag of tags) {
+    if (/\bwidth=/i.test(tag) && /\bheight=/i.test(tag)) {
+      continue;
+    }
+    const src = tag.match(/\bsrc="([^"]*)"/i)?.[1];
+    if (!src) {
+      continue;
+    }
+    const size = await localImageSize(src, baseDir);
+    if (!size) {
+      continue;
+    }
+    const patched = `${tag
+      .replace(/\s*\/?>$/, '')
+      .replace(/\s+width="[^"]*"/i, '')
+      .replace(/\s+height="[^"]*"/i, '')} width="${size.width}" height="${size.height}" decoding="async">`;
+    result = result.replace(tag, patched);
+  }
+  return result;
+}
+
+// ---------- 独立片段文档 ----------
+//
+// content/** 下的 HTML 同时承担两种角色：
+// 1) SPA 用 fetch 读取的正文片段；
+// 2) 直接访问 /content/... 时的落地页。
+// 因此每个文件都是带 <head> 的完整文档：head 提供标题与分享元信息，
+// 并带一段“非嵌入访问就跳回 SPA”的引导脚本。SPA 注入正文前会剥掉
+// head 元素与脚本，所以两条路径互不影响。
+
+function unwrapFragment(html) {
+  const start = html.indexOf(FRAGMENT_START);
+  const end = html.indexOf(FRAGMENT_END);
+  if (start === -1 || end === -1 || end < start) {
+    return html;
+  }
+  return html.slice(start + FRAGMENT_START.length, end).trim();
+}
+
+function renderFragmentDocument({ body, title, description, url, phase, cover = '' }) {
+  const safePhase = PHASES.includes(phase) ? phase : 'fantasy';
+  const ogImage = cover
+    ? `\n<meta property="og:image" content="${escapeAttribute(cover)}">`
+    : '';
+  const twitterCard = cover ? 'summary_large_image' : 'summary';
+  return `<!DOCTYPE html>
+<html lang="zh-CN" data-phase="${safePhase}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${escapeHtml(title)} · BIFROST</title>
+<meta name="description" content="${escapeAttribute(description)}">
+<link rel="canonical" href="${escapeAttribute(url)}">
+<meta property="og:site_name" content="BIFROST">
+<meta property="og:type" content="article">
+<meta property="og:title" content="${escapeAttribute(title)}">
+<meta property="og:description" content="${escapeAttribute(description)}">
+<meta property="og:url" content="${escapeAttribute(url)}">${ogImage}
+<meta name="twitter:card" content="${twitterCard}">
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === '1') {
+    return;
+  }
+  params.delete('embed');
+  var extra = params.toString();
+  var target = '/?phase=${safePhase}&path=' + encodeURIComponent(window.location.pathname)
+    + (extra ? '&' + extra : '')
+    + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+</head>
+<body>
+${FRAGMENT_START}
+${body.trim()}
+${FRAGMENT_END}
+</body>
+</html>
+`;
 }
 
 function todayStamp() {
@@ -538,6 +730,40 @@ function renderPublicationCard(publication) {
 </figure>`;
 }
 
+// 把出版物的每一页作为普通正文图排进文章，读者可以直接滚动阅读，
+// 也可以点开图片放大；横向阅读器与 PDF 下载保留为额外的进阶入口。
+function resolvePublicationReader(readerUrl) {
+  const clean = String(readerUrl || '').trim();
+  if (!clean.startsWith('/') || clean.startsWith('//')) {
+    return '';
+  }
+  const absolute = resolve(root, `.${clean}`);
+  const rel = relative(root, absolute);
+  if (!rel || rel.startsWith('..') || rel.includes(':')) {
+    return '';
+  }
+  return extname(absolute).toLowerCase() === '.json' ? absolute : '';
+}
+
+function renderPublicationPages(publication, readerData) {
+  const pages = Array.isArray(readerData?.pages) ? readerData.pages : [];
+  if (!pages.length) {
+    return '';
+  }
+  const title = publication?.title ? `${publication.title} ` : '';
+  const items = pages
+    .map((page) => {
+      const number = Number(page.number) || 0;
+      const size = `${page.width ? ` width="${Number(page.width)}"` : ''}${page.height ? ` height="${Number(page.height)}"` : ''}`;
+      return `  <figure class="publication-pages__item">
+    <img src="${escapeAttribute(page.src)}" alt="${escapeAttribute(`${title}第 ${number} 页`)}" loading="lazy" decoding="async"${size}>
+    <figcaption>第 ${number} 页</figcaption>
+  </figure>`;
+    })
+    .join('\n');
+  return `<div class="publication-pages">\n${items}\n</div>`;
+}
+
 function sectionFor(phase, type, kind, tags, title, explicit = '') {
   if (explicit && SECTION_LABELS[explicit]) return explicit;
   if (kind === 'note' || kind === 'qq-post') return 'daily';
@@ -677,19 +903,32 @@ async function collectMarkdownEntries(errors, generatedPaths, overrides) {
       String(title),
       meta.section,
     );
+    const publicationPages = publication
+      ? renderPublicationPages(publication, await readJsonFile(resolvePublicationReader(publication.readerUrl)))
+      : '';
     const html = [
       renderMarkdown(markdownBody),
       video ? renderVideoCard(video) : '',
+      publicationPages,
       publication ? renderPublicationCard(publication) : '',
     ].filter(Boolean).join('\n');
-    const words = countWords(htmlToText(html));
+    const sizedHtml = await applyLocalImageSizes(html, dirname(filePath));
+    const words = countWords(htmlToText(sizedHtml));
 
     const outputName = `${stripExt(basename(filePath))}.html`;
     const outputDir = join(CONTENT_DIR, phase, type);
     const outputPath = join(outputDir, outputName);
 
     await mkdir(outputDir, { recursive: true });
-    const wrapped = `<article class="article-surface">\n${html.trimEnd()}\n</article>\n`;
+    const articleBody = `<article class="article-surface">\n${sizedHtml.trimEnd()}\n</article>`;
+    const wrapped = renderFragmentDocument({
+      body: articleBody,
+      title: String(title),
+      description: meta.summary ? String(meta.summary) : deriveSummary(markdownBody),
+      url: pageUrl(`/${relative(root, outputPath).split(sep).join('/')}`),
+      phase,
+      cover: absoluteAsset(meta.cover),
+    });
     await writeFile(outputPath, wrapped, 'utf8');
     generatedPaths.add(outputPath);
 
@@ -745,7 +984,8 @@ async function collectHtmlEntries(errors, generatedPaths) {
     .filter((file) => !generatedPaths.has(file));
 
   for (const filePath of files) {
-    const html = await readFile(filePath, 'utf8');
+    const rawFile = await readFile(filePath, 'utf8');
+    const html = unwrapFragment(rawFile);
     const path = `/${relative(root, filePath).split(sep).join('/')}`;
     const phase = path.startsWith('/content/fantasy/') ? 'fantasy' : 'logic';
 
@@ -775,9 +1015,26 @@ async function collectHtmlEntries(errors, generatedPaths) {
       meta.section,
     );
 
+    const title = String(meta.title || fallbackTitle);
+    const description = meta.summary ? String(meta.summary) : '';
+    const sizedHtml = await applyLocalImageSizes(html, dirname(filePath));
+
+    await writeFile(
+      filePath,
+      renderFragmentDocument({
+        body: sizedHtml.trim(),
+        title,
+        description,
+        url: pageUrl(path),
+        phase,
+        cover: absoluteAsset(meta.cover),
+      }),
+      'utf8',
+    );
+
     entries.push({
       path,
-      label: String(meta.title || fallbackTitle),
+      label: title,
       date: meta.date ? String(meta.date) : '',
       phase,
       type,
@@ -787,7 +1044,7 @@ async function collectHtmlEntries(errors, generatedPaths) {
       layout: layoutFor(kind, section),
       category: SECTION_LABELS[section],
       tags: normalizeTags(meta.tags),
-      summary: meta.summary ? String(meta.summary) : '',
+      summary: description,
       featured: Boolean(meta.featured),
       words,
       minutes: readingMinutes(words),
@@ -924,9 +1181,25 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
     const outputDir = join(CONTENT_DIR, phase, type);
     const outputPath = join(outputDir, outputName);
     const generatedHtml = renderStructuredPost(record);
+    const sizedHtml = await applyLocalImageSizes(generatedHtml, dirname(filePath));
 
     await mkdir(outputDir, { recursive: true });
-    await writeFile(outputPath, `${generatedHtml}\n`, 'utf8');
+    const outputPublicPath = `/${relative(root, outputPath).split(sep).join('/')}`;
+    const coverAsset = absoluteAsset(record.cover)
+      || absoluteAsset(normalizeMediaItem(record.video)?.cover)
+      || absoluteAsset(
+        (Array.isArray(record.media) ? record.media.map(normalizeMediaItem).filter(Boolean) : [])
+          .find((item) => item.kind === 'image')?.url,
+      );
+    const wrapped = renderFragmentDocument({
+      body: sizedHtml.trimEnd(),
+      title: String(record.title || `QQ 说说 · ${record.date || id}`),
+      description: String(record.summary || deriveSummary(record.text || '')),
+      url: pageUrl(outputPublicPath),
+      phase,
+      cover: coverAsset,
+    });
+    await writeFile(outputPath, wrapped, 'utf8');
     generatedPaths.add(outputPath);
 
     const media = Array.isArray(record.media) ? record.media.map(normalizeMediaItem).filter(Boolean) : [];
@@ -984,7 +1257,6 @@ async function collectQqEntries(errors, generatedPaths, overrides) {
 // ---------- 订阅与站点地图 ----------
 
 const SITE_CONFIG_FILE = join(root, 'data', 'site.json');
-const DEFAULT_SITE_URL = 'https://cpower-2NG.github.io';
 const FEED_LIMIT = 40;
 
 async function readSiteConfig() {
@@ -998,6 +1270,20 @@ async function readSiteConfig() {
 function absoluteUrl(siteUrl, path) {
   const base = siteUrl.replace(/\/+$/, '');
   return path === '/' ? `${base}/` : `${base}${path}`;
+}
+
+function pageUrl(path) {
+  return absoluteUrl(siteOrigin, path);
+}
+
+// 封面可能是 https 外链或站点根路径，统一转成可分享的绝对地址。
+function absoluteAsset(ref) {
+  const https = safeHttpsUrl(ref);
+  if (https) {
+    return https;
+  }
+  const rootPath = safeRootPath(ref);
+  return rootPath ? pageUrl(rootPath) : '';
 }
 
 function rfc822(value) {
@@ -1079,6 +1365,8 @@ async function main() {
   const errors = [];
   const generatedPaths = new Set();
   const overrides = await loadOverrides();
+  const siteConfig = await readSiteConfig();
+  siteOrigin = String(siteConfig.siteUrl || DEFAULT_SITE_URL).replace(/\/+$/, '');
   const markdownEntries = await collectMarkdownEntries(errors, generatedPaths, overrides);
   const qqEntries = await collectQqEntries(errors, generatedPaths, overrides);
   const htmlEntries = await collectHtmlEntries(errors, generatedPaths);
@@ -1103,7 +1391,6 @@ async function main() {
     'utf8',
   );
 
-  const siteConfig = await readSiteConfig();
   const siteUrl = siteConfig.siteUrl || DEFAULT_SITE_URL;
   await writeFile(join(root, 'feed.xml'), buildFeed(siteUrl, entries), 'utf8');
   await writeFile(join(root, 'sitemap.xml'), buildSitemap(siteUrl, entries), 'utf8');

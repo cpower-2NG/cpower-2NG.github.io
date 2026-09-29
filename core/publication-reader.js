@@ -8,7 +8,10 @@
     currentPosition: 0,
     mobile: false,
     touchStartX: 0,
+    zoom: 1,
   };
+  const ZOOM_MIN = 1;
+  const ZOOM_MAX = 4;
   const cache = new Map();
 
   function isMobile() {
@@ -31,6 +34,11 @@
           </div>
           <div class="publication-reader__status">
             <span data-reader-counter></span>
+            <span class="publication-reader__zoom" role="group" aria-label="缩放">
+              <button class="publication-reader__tool" type="button" data-reader-zoom-out aria-label="缩小">−</button>
+              <button class="publication-reader__tool publication-reader__tool--label" type="button" data-reader-zoom-reset aria-label="重置缩放">适应</button>
+              <button class="publication-reader__tool" type="button" data-reader-zoom-in aria-label="放大">＋</button>
+            </span>
             <button class="publication-reader__close" type="button" data-reader-close aria-label="关闭阅读器">关闭</button>
           </div>
         </header>
@@ -40,7 +48,7 @@
           <button class="publication-reader__nav publication-reader__nav--next" type="button" data-reader-next aria-label="下一组">→</button>
         </div>
         <footer class="publication-reader__footer">
-          <p>桌面为对页阅读；窄屏自动切换为单页横向滑动。方向键或左右滑动可翻页。</p>
+          <p>桌面为对页阅读；窄屏自动切换为单页横向滑动。方向键或左右滑动可翻页，可用缩放按钮或双击放大细看。</p>
           <a class="button" data-reader-download href="#" target="_blank" rel="noopener">下载原 PDF</a>
         </footer>
       </div>
@@ -50,6 +58,19 @@
     dialog.querySelector('[data-reader-close]').addEventListener('click', close);
     dialog.querySelector('[data-reader-prev]').addEventListener('click', () => move(-1));
     dialog.querySelector('[data-reader-next]').addEventListener('click', () => move(1));
+    dialog.querySelector('[data-reader-zoom-in]').addEventListener('click', () => setZoom(state.zoom * 1.35));
+    dialog.querySelector('[data-reader-zoom-out]').addEventListener('click', () => setZoom(state.zoom / 1.35));
+    dialog.querySelector('[data-reader-zoom-reset]').addEventListener('click', () => setZoom(1));
+    dialog.querySelector('[data-reader-pages]').addEventListener('dblclick', () => {
+      setZoom(state.zoom > 1 ? 1 : 2.2);
+    });
+    dialog.addEventListener('wheel', (event) => {
+      if (!(event.ctrlKey || event.metaKey)) {
+        return;
+      }
+      event.preventDefault();
+      setZoom(state.zoom * (event.deltaY < 0 ? 1.12 : 1 / 1.12));
+    }, { passive: false });
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) {
         close();
@@ -73,6 +94,10 @@
       state.touchStartX = event.changedTouches[0]?.clientX || 0;
     }, { passive: true });
     stage.addEventListener('touchend', (event) => {
+      // 放大后横向拖动用于滚动查看，不翻页。
+      if (state.zoom > 1.001) {
+        return;
+      }
       const delta = (event.changedTouches[0]?.clientX || 0) - state.touchStartX;
       if (Math.abs(delta) > 50) {
         move(delta > 0 ? -1 : 1);
@@ -161,6 +186,7 @@
     state.dialog.querySelector('[data-reader-next]').disabled = state.currentPosition >= positions.length - 1;
     state.dialog.querySelector('[data-reader-stage]').dataset.spread = String(!state.mobile && pages.length > 1);
     state.dialog.classList.toggle('is-mobile', state.mobile);
+    applyZoom();
 
     const nextIndex = positions[state.currentPosition + 1]?.[0];
     if (Number.isInteger(nextIndex)) {
@@ -168,11 +194,37 @@
     }
   }
 
+  // 缩放只改变页面高度：适应屏幕时为 1，放大后舞台可滚动查看细节。
+  function applyZoom() {
+    if (!state.dialog) {
+      return;
+    }
+    const pages = state.dialog.querySelector('[data-reader-pages]');
+    const stage = state.dialog.querySelector('[data-reader-stage]');
+    const label = state.dialog.querySelector('[data-reader-zoom-reset]');
+    pages.style.setProperty('--reader-zoom', String(state.zoom));
+    stage.dataset.zoomed = String(state.zoom > 1.001);
+    if (label) {
+      label.textContent = state.zoom > 1.001 ? `${Math.round(state.zoom * 100)}%` : '适应';
+    }
+    const zoomOut = state.dialog.querySelector('[data-reader-zoom-out]');
+    const zoomIn = state.dialog.querySelector('[data-reader-zoom-in]');
+    if (zoomOut) zoomOut.disabled = state.zoom <= ZOOM_MIN + 0.001;
+    if (zoomIn) zoomIn.disabled = state.zoom >= ZOOM_MAX - 0.001;
+  }
+
+  function setZoom(next) {
+    state.zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, next));
+    applyZoom();
+  }
+
   function move(delta) {
     if (!state.positions.length) {
       return;
     }
     state.currentPosition = Math.max(0, Math.min(state.currentPosition + delta, state.positions.length - 1));
+    state.zoom = 1;
+    state.dialog?.querySelector('[data-reader-stage]')?.scrollTo({ top: 0, left: 0 });
     render();
   }
 
@@ -188,6 +240,7 @@
       state.currentUrl = url;
       state.publication = publication;
       state.currentPosition = 0;
+      state.zoom = 1;
       rebuildPositions();
       dialog.querySelector('[data-reader-title]').textContent = publication.title || button.dataset.publicationTitle || '出版阅读';
       const download = dialog.querySelector('[data-reader-download]');

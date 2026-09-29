@@ -10,7 +10,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="BIFROST — 个人知识工作台">
     <meta property="og:description" content="在 Logic 与 Fantasy 两个位面之间，阅读记录、活动见闻与慢慢写下的文字。">
-    <meta property="og:url" content="https://cpower-2NG.github.io/">
+    <meta property="og:url" content="https://cpower-2ng.github.io/">
     <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="alternate" type="application/rss+xml" title="BIFROST 更新" href="/feed.xml">
@@ -24,6 +24,10 @@
 <body>
     <div class="shell">
         <header class="header">
+            <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-sidebar">
+                <span class="nav-toggle__mark" aria-hidden="true">≡</span>
+                <span class="nav-toggle__label">目录</span>
+            </button>
             <div class="brand">
                 <span class="brand__mark" aria-hidden="true">//</span>
                 <h1 class="brand__title" data-site-title>BIFROST</h1>
@@ -35,11 +39,14 @@
                     <span data-sound-label>环境音 关闭</span>
                 </button>
                 <span class="phase-pill" data-phase-pill>Logic</span>
-                <span data-phase-hint>按 Ctrl/Cmd+K 搜索或切换位面</span>
+                <button class="command-trigger" type="button" data-command-trigger aria-haspopup="dialog" aria-controls="command-overlay" aria-label="打开搜索与位面切换面板">
+                    <kbd class="command-trigger__key" aria-hidden="true">~</kbd>
+                    <span class="command-trigger__label" data-phase-hint>按 ~ 搜索或切换位面</span>
+                </button>
             </div>
         </header>
 
-        <aside class="sidebar">
+        <aside class="sidebar" id="site-sidebar">
             <section class="sidebar__section">
                 <div class="sidebar__intro">
                     <span class="sidebar__index">01</span>
@@ -85,11 +92,11 @@
         </footer>
     </div>
 
-    <section class="command-overlay" data-command-overlay aria-label="命令面板" role="dialog" aria-modal="true">
+    <section class="command-overlay" id="command-overlay" data-command-overlay aria-label="命令面板" role="dialog" aria-modal="true">
         <div class="command-panel">
             <input class="command-input" data-command-input type="text" autocomplete="off" placeholder="搜索文章，或输入 logic / fantasy 切换位面">
             <div class="command-results" data-command-results></div>
-            <p class="command-help">输入关键词搜索文章 · ↑↓ 选择 · Enter 打开 · Esc 关闭。也可以输入 logic 或 fantasy 切换位面。</p>
+            <p class="command-help">输入关键词搜索文章 · ↑↓ 选择 · Enter 打开 · Esc 关闭。按 ~ 或 Ctrl/Cmd+K 随时呼出。也可以输入 logic 或 fantasy 切换位面。</p>
         </div>
     </section>
 
