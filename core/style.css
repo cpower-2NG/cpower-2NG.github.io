@@ -2359,6 +2359,10 @@ html[data-image-layout="uniform56"] .article-surface img[data-image-shape="long"
   max-height: 56vh;
 }
 
+html[data-image-layout="uniform56"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img:only-child) {
+  max-width: 714px;
+}
+
 html[data-image-layout="editorial56"] .article-surface img[data-image-shape="portrait"],
 html[data-image-layout="editorial56"] .article-surface img[data-image-shape="long"] {
   max-height: 56vh;
