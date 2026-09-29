@@ -2339,6 +2339,45 @@ html[data-phase="fantasy"] .command-item.is-active {
   background: var(--wash);
 }
 
+/* ---------- 图片节奏原型：活动页优先保证一屏内的阅读连续性 ---------- */
+
+.content-viewer[data-entry-layout="event"] .article-surface > p:has(> img:only-child) {
+  max-width: 980px;
+}
+
+.content-viewer[data-entry-layout="event"] .article-surface > p > img:only-child {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain;
+}
+
+html[data-image-layout="uniform56"] .article-surface img[data-image-shape="portrait"],
+html[data-image-layout="uniform56"] .article-surface img[data-image-shape="long"] {
+  max-height: 56vh;
+}
+
+html[data-image-layout="uniform64"] .article-surface img[data-image-shape="portrait"],
+html[data-image-layout="uniform64"] .article-surface img[data-image-shape="long"] {
+  max-height: 64vh;
+}
+
+html[data-image-layout="editorial"] .article-surface img[data-image-shape="portrait"],
+html[data-image-layout="editorial"] .article-surface img[data-image-shape="long"] {
+  max-height: 64vh;
+}
+
+html[data-image-layout="editorial"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child) {
+  max-width: 980px;
+}
+
+html[data-image-layout="editorial"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child {
+  width: 100%;
+  max-height: none;
+}
+
 /* ---------- 柔光雾：保留方向感，但不再使用高亮白芯 ---------- */
 
 .bridge-overlay::before,

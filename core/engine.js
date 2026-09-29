@@ -72,10 +72,13 @@ const PUBLIC_COMMANDS = {
   fantasy: 'fantasy',
 };
 
+const IMAGE_LAYOUTS = ['uniform56', 'uniform64', 'editorial'];
+
 const state = {
   phase: 'logic',
   currentPath: '',
   readingLayout: 'column',
+  imageLayout: 'uniform64',
   bootPlayed: false,
   treeData: null,
   treeQuery: '',
@@ -94,7 +97,9 @@ async function init() {
   cacheElements();
   bindGlobalEvents();
   state.readingLayout = resolveReadingLayout();
+  state.imageLayout = resolveImageLayout();
   elements.html.dataset.readingLayout = state.readingLayout;
+  elements.html.dataset.imageLayout = state.imageLayout;
 
   state.phase = resolvePhase();
   applyPhase(state.phase);
@@ -136,6 +141,11 @@ async function init() {
 function resolveReadingLayout() {
   const requested = new URL(window.location.href).searchParams.get('reading');
   return requested === 'magazine' ? 'magazine' : 'column';
+}
+
+function resolveImageLayout() {
+  const requested = new URL(window.location.href).searchParams.get('images');
+  return IMAGE_LAYOUTS.includes(requested) ? requested : 'uniform64';
 }
 
 function cacheElements() {
