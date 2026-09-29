@@ -2359,21 +2359,23 @@ html[data-image-layout="uniform56"] .article-surface img[data-image-shape="long"
   max-height: 56vh;
 }
 
-html[data-image-layout="uniform64"] .article-surface img[data-image-shape="portrait"],
-html[data-image-layout="uniform64"] .article-surface img[data-image-shape="long"] {
+html[data-image-layout="editorial56"] .article-surface img[data-image-shape="portrait"],
+html[data-image-layout="editorial56"] .article-surface img[data-image-shape="long"] {
+  max-height: 56vh;
+}
+
+html[data-image-layout="editorial64"] .article-surface img[data-image-shape="portrait"],
+html[data-image-layout="editorial64"] .article-surface img[data-image-shape="long"] {
   max-height: 64vh;
 }
 
-html[data-image-layout="editorial"] .article-surface img[data-image-shape="portrait"],
-html[data-image-layout="editorial"] .article-surface img[data-image-shape="long"] {
-  max-height: 64vh;
-}
-
-html[data-image-layout="editorial"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child) {
+html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child),
+html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p:has(> img[data-image-shape="landscape"]:only-child) {
   max-width: 980px;
 }
 
-html[data-image-layout="editorial"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child {
+html[data-image-layout="editorial56"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child,
+html[data-image-layout="editorial64"] .content-viewer[data-entry-layout="event"] .article-surface > p > img[data-image-shape="landscape"]:only-child {
   width: 100%;
   max-height: none;
 }

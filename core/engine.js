@@ -72,7 +72,7 @@ const PUBLIC_COMMANDS = {
   fantasy: 'fantasy',
 };
 
-const IMAGE_LAYOUTS = ['uniform56', 'uniform64', 'editorial'];
+const IMAGE_LAYOUTS = ['uniform56', 'editorial56', 'editorial64'];
 
 const state = {
   phase: 'logic',
@@ -145,7 +145,7 @@ function resolveReadingLayout() {
 
 function resolveImageLayout() {
   const requested = new URL(window.location.href).searchParams.get('images');
-  return IMAGE_LAYOUTS.includes(requested) ? requested : 'uniform64';
+  return IMAGE_LAYOUTS.includes(requested) ? requested : 'editorial56';
 }
 
 function cacheElements() {
