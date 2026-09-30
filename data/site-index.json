@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-29T13:20:38.669Z",
+  "generated": "2026-09-30T11:38:24.093Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -68,57 +68,83 @@
       "id": "daily",
       "label": "日常",
       "phase": "fantasy",
-      "layout": "timeline"
+      "layout": "timeline",
+      "description": "短动态与转发，按月份往回翻"
     },
     "showcase": {
       "id": "showcase",
       "label": "展示",
       "phase": "logic",
-      "layout": "showcase"
+      "layout": "showcase",
+      "description": "简介、技术栈与项目"
     },
     "review": {
       "id": "review",
       "label": "漫评",
       "phase": "fantasy",
-      "layout": "magazine"
+      "layout": "magazine",
+      "description": "动画、游戏、企划与萌属性"
     },
     "docs": {
       "id": "docs",
       "label": "技术文档",
       "phase": "logic",
-      "layout": "compact"
+      "layout": "compact",
+      "description": "学习与应用某个技术的记录"
     },
     "activity": {
       "id": "activity",
       "label": "活动纪录",
       "phase": "fantasy",
-      "layout": "magazine"
+      "layout": "magazine",
+      "description": "FMT 与出游见闻"
     },
     "notes": {
       "id": "notes",
       "label": "心得",
       "phase": "logic",
-      "layout": "magazine"
+      "layout": "magazine",
+      "description": "更抽象的技术杂谈"
     },
     "essay": {
       "id": "essay",
       "label": "杂记",
       "phase": "fantasy",
-      "layout": "magazine"
+      "layout": "magazine",
+      "description": "随想、反思与观察"
     },
     "algo": {
       "id": "algo",
       "label": "算法",
       "phase": "logic",
-      "layout": "compact"
+      "layout": "compact",
+      "description": "代码型模板与整理"
     },
     "archive": {
       "id": "archive",
       "label": "档案馆",
       "phase": "fantasy",
-      "layout": "magazine"
+      "layout": "magazine",
+      "description": "翻译与过程文档"
     }
   },
+  "series": [
+    {
+      "id": "series:纸上魔法使",
+      "slug": "纸上魔法使",
+      "path": "/series/纸上魔法使.html",
+      "title": "纸上魔法使",
+      "description": "五篇短歌，围绕五位魔法使与各自的宝石展开。",
+      "memberIds": [
+        "01M3PFKVPD7HHADG1PFJJ5C6AY",
+        "01M3PFKVV595S0G0TEEGN4BBRX",
+        "01M3PFKW00F80X9HHW31H8YVPE",
+        "01M3PFKW4ZB8A4BP6MD4NFNMSH",
+        "01M3PFKW9RHJ6X8ZFS9PGEQS96"
+      ]
+    }
+  ],
+  "showcase": null,
   "tags": [
     {
       "label": "漫评",
@@ -228,8 +254,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">冬滚滚</span>",
       "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKWKZ28H734VQKWVEPQN7/01.png",
-      "wordCount": 0,
+      "wordCount": 3546,
+      "minutes": 9,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": true
     },
     {
@@ -249,8 +279,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">反乌托邦</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 385,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -271,8 +305,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">冬暮川滚滚</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 563,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -294,8 +332,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">萌属性</span><span class=\"tag-chip\">三无</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 680,
+      "minutes": 2,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -316,8 +358,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">生命的备件</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 281,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -337,8 +383,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">诗歌</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 84,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -356,8 +406,12 @@
       "tags": [],
       "tagsHtml": "",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 291,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -378,8 +432,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">无职转生</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 784,
+      "minutes": 2,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -400,8 +458,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 141,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "series:纸上魔法使",
+      "seriesOrder": 1,
       "hasPublication": false
     },
     {
@@ -422,8 +484,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 254,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "series:纸上魔法使",
+      "seriesOrder": 2,
       "hasPublication": false
     },
     {
@@ -444,8 +510,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 483,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "series:纸上魔法使",
+      "seriesOrder": 3,
       "hasPublication": false
     },
     {
@@ -466,8 +536,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 152,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "series:纸上魔法使",
+      "seriesOrder": 4,
       "hasPublication": false
     },
     {
@@ -488,8 +562,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">短歌</span><span class=\"tag-chip\">纸上魔法使</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 297,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "series:纸上魔法使",
+      "seriesOrder": 5,
       "hasPublication": false
     },
     {
@@ -511,8 +589,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">漫评</span><span class=\"tag-chip\">学园偶像大师</span><span class=\"tag-chip\">筱泽广</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 270,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -532,8 +614,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">自传</span>",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 1050,
+      "minutes": 3,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -551,8 +637,12 @@
       "tags": [],
       "tagsHtml": "",
       "coverUrl": "",
-      "wordCount": 0,
+      "wordCount": 93,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -573,8 +663,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">中村绘里子</span>",
       "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKWY6ZNSBZMNRDSVTN9WF/01.webp",
-      "wordCount": 0,
+      "wordCount": 2648,
+      "minutes": 7,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -595,8 +689,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">黑木穗乃香</span>",
       "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKX3BBG7GNX20ZZT3162C/01.webp",
-      "wordCount": 0,
+      "wordCount": 3017,
+      "minutes": 8,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     },
     {
@@ -617,8 +715,12 @@
       ],
       "tagsHtml": "<span class=\"tag-chip\">FMT</span><span class=\"tag-chip\">凉本秋穗</span>",
       "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3PFKX8NMTEWSDXTXRVGZNMF/01.webp",
-      "wordCount": 0,
+      "wordCount": 4086,
+      "minutes": 10,
+      "layout": "longform",
+      "type": "article",
       "seriesId": "",
+      "seriesOrder": null,
       "hasPublication": false
     }
   ],

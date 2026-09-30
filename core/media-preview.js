@@ -111,8 +111,20 @@
     return dialog;
   }
 
+  /**
+   * 只有正文里的图片可以放大：卡片封面、评论区、视频卡片等一律排除，
+   * 否则点卡片封面会既跳转又弹出预览。
+   */
+  function previewable(image) {
+    if (!(image instanceof HTMLImageElement)) return false;
+    if (image.matches(EXCLUDED_SELECTOR)) return false;
+    if (!image.closest('.article-surface')) return false;
+    if (image.closest('.comments, .video-card, .publication-card, .publication-reader, .history-comments')) return false;
+    return true;
+  }
+
   function markImage(image) {
-    if (!(image instanceof HTMLImageElement) || image.matches(EXCLUDED_SELECTOR)) {
+    if (!previewable(image)) {
       return;
     }
     image.classList.add('media-preview-trigger');
@@ -157,12 +169,7 @@
     if (!viewer) {
       return [];
     }
-    return Array.from(viewer.querySelectorAll('img')).filter((image) => {
-      if (!(image instanceof HTMLImageElement) || image.matches(EXCLUDED_SELECTOR)) {
-        return false;
-      }
-      return !image.closest('.comments, .video-card, .publication-card, .publication-reader, .history-comments');
-    });
+    return Array.from(viewer.querySelectorAll('img')).filter(previewable);
   }
 
   function renderCurrent() {

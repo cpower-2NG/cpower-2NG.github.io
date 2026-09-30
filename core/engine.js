@@ -1,16 +1,22 @@
-// BIFROST 引擎（重写版）
+// BIFROST 引擎
 // 数据来源：/data/site-index.json（由 tools/materialize-site.mjs 从数据库物化）。
-// 阅读走静态产物；搜索在当前阶段先基于索引在客户端完成，后续换成检索服务。
+// 阅读走静态产物；搜索走检索接口，接口不可用时退回索引内的本地过滤。
 (() => {
   const INDEX_URL = '/data/site-index.json';
   const SITE_CONFIG_URL = '/data/site.json';
+
+  // 位面用 sessionStorage：刷新保持，重开（新会话）回到 Logic
   const STORAGE = {
     phase: 'bifrost:phase',
     section: 'bifrost:section',
     entry: 'bifrost:entry',
   };
 
-  // 视觉与身份仍由前端定义；分类法与内容列表来自索引
+  const READING_LAYOUTS = ['magazine', 'column'];
+  const IMAGE_LAYOUTS = ['uniform56', 'editorial56', 'editorial64'];
+  const SEARCH_LIMIT = 30;
+
+  // 视觉与身份由前端定义；分类法与内容列表来自索引
   const PHASE_STYLE = {
     logic: {
       title: 'LOGIC ARCHIVE',
@@ -40,25 +46,48 @@
     },
   };
 
-  const SEARCH_LIMIT = 30;
-
   const state = {
     index: null,
     siteConfig: {},
-    phase: 'fantasy',
+    phase: 'logic',
     view: 'dashboard',
     section: '',
     entryId: '',
+    seriesId: '',
+    readingLayout: 'magazine',
+    imageLayout: 'editorial56',
     query: '',
     facets: { phase: '', section: '', tags: new Set() },
     results: [],
     activeIndex: 0,
+    phaseIndex: 0,
   };
 
   const el = {};
 
   window.addEventListener('DOMContentLoaded', init);
   window.addEventListener('popstate', onPopState);
+
+  // ---------- 存储 ----------
+
+  function readStored(key) {
+    try {
+      return sessionStorage.getItem(key) || '';
+    } catch {
+      return '';
+    }
+  }
+
+  function writeStored(key, value) {
+    try {
+      if (value) sessionStorage.setItem(key, value);
+      else sessionStorage.removeItem(key);
+    } catch {
+      /* 隐私模式下忽略 */
+    }
+  }
+
+  // ---------- 启动 ----------
 
   async function init() {
     cacheElements();
@@ -84,20 +113,23 @@
     }
 
     // 位面列表来自索引，必须等索引到位后再解析，否则 ?phase=logic 这类直链会失效
+    state.readingLayout = resolveLayout('reading', READING_LAYOUTS, 'magazine');
+    state.imageLayout = resolveLayout('images', IMAGE_LAYOUTS, 'editorial56');
     state.phase = resolvePhase();
     applyPhase(state.phase);
+    applyLayoutAttributes(null);
     initAmbience();
 
     renderSidebar();
     updateStatusNote();
     window.setInterval(updateFooterClock, 1000);
     updateFooterClock();
-
     await restoreRoute();
   }
 
   function cacheElements() {
     el.html = document.documentElement;
+    el.body = document.body;
     el.shell = document.querySelector('.shell');
     el.navToggle = document.querySelector('[data-nav-toggle]');
     el.siteTitle = document.querySelector('[data-site-title]');
@@ -123,40 +155,39 @@
     el.phasePanel = document.querySelector('[data-phase-panel]');
     el.phaseTrigger = document.querySelector('[data-phase-trigger]');
     el.phaseResults = document.querySelector('[data-phase-results]');
-
-    el.bootOverlay = document.querySelector('[data-boot-overlay]');
-    el.bootLog = document.querySelector('[data-boot-log]');
-    el.bootBar = document.querySelector('[data-boot-bar]');
   }
 
   function bindEvents() {
     document.addEventListener('click', onDocumentClick);
     document.addEventListener('keydown', onKeyDown);
-    el.main.addEventListener('scroll', onScroll, { passive: true });
+    el.main.addEventListener('scroll', onMainScroll, { passive: true });
     if (el.navToggle) el.navToggle.addEventListener('click', () => setNavOpen(!isNavOpen()));
     if (el.soundToggle) el.soundToggle.addEventListener('click', onSoundToggle);
     if (el.searchTrigger) el.searchTrigger.addEventListener('click', () => openSearch());
     if (el.phaseTrigger) el.phaseTrigger.addEventListener('click', () => openPhasePanel());
+
     if (el.searchInput) {
       el.searchInput.addEventListener('input', () => {
         state.query = el.searchInput.value;
         scheduleSearch();
       });
-      el.searchInput.addEventListener('keydown', onPanelKeyDown);
     }
+    el.searchPanel.addEventListener('keydown', onSearchKeyDown);
     el.searchPanel.addEventListener('click', (event) => {
       if (event.target === el.searchPanel) closePanels();
     });
     el.searchResults.addEventListener('click', onPanelResultClick);
     el.searchFacets.addEventListener('click', onFacetClick);
-    el.phasePanel.addEventListener('click', (event) => {
-      if (event.target === el.phasePanel) closePanels();
-    });
-    el.phaseResults.addEventListener('click', onPanelResultClick);
+
+    // 面板内部每次打开都会重建，所以事件都委托在面板根节点上
+    el.phasePanel.addEventListener('keydown', onPhaseKeyDown);
+    el.phasePanel.addEventListener('input', onPhaseInput);
+    el.phasePanel.addEventListener('click', onPhasePanelClick);
+
     document.addEventListener('pointerdown', onFirstInteraction, { once: true });
   }
 
-  // ---------- 阶段 ----------
+  // ---------- 位面与版式 ----------
 
   function phases() {
     return state.index?.phases || [];
@@ -166,21 +197,29 @@
     return phases().find((phase) => phase.id === id) || phases()[0] || { id: 'fantasy', label: 'Fantasy', sections: [] };
   }
 
+  function sectionMeta(id) {
+    return (state.index?.sections || {})[id] || { id, label: id, layout: 'magazine' };
+  }
+
+  function resolveLayout(name, allowed, fallback) {
+    const requested = new URL(window.location.href).searchParams.get(name);
+    return allowed.includes(requested) ? requested : fallback;
+  }
+
   function resolvePhase() {
     const url = new URL(window.location.href);
     const urlPhase = url.searchParams.get('phase');
     if (phases().some((phase) => phase.id === urlPhase)) return urlPhase;
-    const stored = localStorage.getItem(STORAGE.phase);
+    const stored = readStored(STORAGE.phase);
     if (phases().some((phase) => phase.id === stored)) return stored;
-    if (phases().length) return phases()[0].id;
-    return 'fantasy';
+    return phases()[0]?.id || 'logic';
   }
 
   function applyPhase(phase) {
     state.phase = phase;
-    const style = PHASE_STYLE[phase] || PHASE_STYLE.fantasy;
+    const style = PHASE_STYLE[phase] || PHASE_STYLE.logic;
     el.html.dataset.phase = phase;
-    document.body.classList.toggle('phase-fantasy', phase === 'fantasy');
+    el.body.classList.toggle('phase-fantasy', phase === 'fantasy');
     if (el.siteTitle) el.siteTitle.textContent = style.title;
     if (el.siteSubtitle) el.siteSubtitle.textContent = style.subtitle;
     if (el.phasePill) el.phasePill.textContent = style.pill;
@@ -188,19 +227,47 @@
     if (el.themeColor) el.themeColor.setAttribute('content', style.themeColor);
     if (window.BifrostAmbience) window.BifrostAmbience.setPhase(phase);
     if (window.BifrostInteractions) window.BifrostInteractions.setPhase(phase);
-    localStorage.setItem(STORAGE.phase, phase);
+    writeStored(STORAGE.phase, phase);
+  }
+
+  /**
+   * 补齐版式属性——CSS 里有 100+ 条规则依赖它们。
+   * 缺了这层，分型排版、阅读版式与评论区对齐都会失效。
+   */
+  function applyLayoutAttributes(entry) {
+    if (el.html) {
+      el.html.dataset.readingLayout = state.readingLayout;
+      el.html.dataset.imageLayout = state.imageLayout;
+    }
+    if (!el.view) return;
+    if (!entry) {
+      delete el.view.dataset.entryType;
+      delete el.view.dataset.entryLayout;
+      delete el.main.dataset.entryLayout;
+      return;
+    }
+    const isDiary = entry.kind === 'note' || entry.entryType === 'moment';
+    el.view.dataset.entryType = isDiary ? 'diary' : 'article';
+    el.view.dataset.entryLayout = entry.layout || 'longform';
+    el.main.dataset.entryLayout = entry.layout || 'longform';
   }
 
   function switchPhase(phase) {
-    if (phase === state.phase) return;
-    const style = PHASE_STYLE[phase] || PHASE_STYLE.fantasy;
+    // 选择当前位面时也算一次导航：回到该位面的总览
+    if (phase === state.phase) {
+      renderDashboard();
+      syncUrl();
+      return;
+    }
+    const style = PHASE_STYLE[phase] || PHASE_STYLE.logic;
     const bridge = playBridge(style.bridgeColor);
     const commit = () => {
       applyPhase(phase);
-      localStorage.removeItem(STORAGE.section);
-      localStorage.removeItem(STORAGE.entry);
+      writeStored(STORAGE.section, '');
+      writeStored(STORAGE.entry, '');
       state.section = '';
       state.entryId = '';
+      state.seriesId = '';
       renderSidebar();
       renderDashboard();
       syncUrl({ replace: false });
@@ -219,13 +286,54 @@
     return node;
   }
 
+  // ---------- 数据访问 ----------
+
+  function entryById(id) {
+    return (state.index?.entries || []).find((entry) => entry.entryId === id) || null;
+  }
+
+  function entryByPath(path) {
+    return (state.index?.entries || []).find((entry) => entry.path === path) || null;
+  }
+
+  function phaseEntries(phase = state.phase) {
+    return (state.index?.entries || []).filter((entry) => entry.phase === phase);
+  }
+
+  function phaseMoments(phase = state.phase) {
+    return (state.index?.moments || []).filter((moment) => moment.phase === phase);
+  }
+
+  function allSeries() {
+    return state.index?.series || [];
+  }
+
+  function seriesById(id) {
+    return allSeries().find((series) => series.id === id) || null;
+  }
+
+  function seriesMembers(series) {
+    return (series?.memberIds || []).map(entryById).filter(Boolean);
+  }
+
+  function sectionCounts() {
+    const map = new Map();
+    for (const entry of phaseEntries()) {
+      map.set(entry.section, (map.get(entry.section) || 0) + 1);
+    }
+    for (const moment of phaseMoments()) {
+      map.set(moment.section, (map.get(moment.section) || 0) + 1);
+    }
+    return map;
+  }
+
   // ---------- 侧栏 ----------
 
   function renderSidebar() {
     const config = phaseConfig(state.phase);
-    const sections = config.sections || [];
-    const activeSection = state.view === 'section' ? state.section : '';
+    const sections = (config.sections || []).filter((section) => section.id !== 'showcase');
     const counts = sectionCounts();
+    const activeSection = state.view === 'section' ? state.section : '';
     el.tree.innerHTML = `
       <a class="tree__link tree__link--overview${state.view === 'dashboard' ? ' is-active' : ''}" data-action="dashboard" href="?phase=${state.phase}">
         <span>${escapeHtml(config.label)} 总览</span>
@@ -242,19 +350,6 @@
     updateTreeActive();
   }
 
-  function sectionCounts() {
-    const map = new Map();
-    for (const entry of (state.index?.entries || [])) {
-      if (entry.phase !== state.phase) continue;
-      map.set(entry.section, (map.get(entry.section) || 0) + 1);
-    }
-    if (state.phase === 'fantasy') {
-      const moments = (state.index?.moments || []).filter((moment) => moment.section === 'daily').length;
-      if (moments) map.set('daily', moments);
-    }
-    return map;
-  }
-
   function updateTreeActive() {
     el.tree.querySelectorAll('.tree__link').forEach((link) => {
       const isSection = link.dataset.section === state.section && state.view === 'section';
@@ -263,64 +358,144 @@
     });
   }
 
-  // ---------- 视图 ----------
-
-  function phaseEntries(phase = state.phase) {
-    return (state.index?.entries || []).filter((entry) => entry.phase === phase);
-  }
-
-  function phaseMoments() {
-    return (state.index?.moments || []).filter((moment) => moment.phase === state.phase);
-  }
+  // ---------- 首页 ----------
 
   function renderDashboard() {
     state.view = 'dashboard';
     state.section = '';
     state.entryId = '';
-    const config = phaseConfig(state.phase);
-    const style = PHASE_STYLE[state.phase] || PHASE_STYLE.fantasy;
-    const entries = phaseEntries();
-    const recent = entries.slice(0, 5);
-    const moments = phaseMoments().slice(0, 3);
-    const sections = config.sections || [];
+    state.seriesId = '';
+    writeStored(STORAGE.section, '');
+    writeStored(STORAGE.entry, '');
+    applyLayoutAttributes(null);
+    if (state.phase === 'logic') renderLogicDashboard();
+    else renderFantasyDashboard();
+    updateTreeActive();
+    window.BifrostMediaPreview?.mount(el.view);
+  }
 
-    el.view.innerHTML = `
+  function renderHero(config, style) {
+    return `
       <section class="article-surface view__hero">
         <p class="hero__eyebrow">${escapeHtml(config.label)} · 总览</p>
         <h1 class="hero__title">${escapeHtml(style.dashboardTitle)}</h1>
         <p class="hero__text">${escapeHtml(style.dashboardText)}</p>
-        ${entries.length + phaseMoments().length ? `<p class="hero-ext">共 ${entries.length} 篇文章 · ${phaseMoments().length} 条动态</p>` : `<p class="hero-ext">${escapeHtml(style.empty)}</p>`}
       </section>
+    `;
+  }
 
-      <section class="section-cards">
-        ${sections.map((section) => `
-          <a class="section-card" data-action="section" data-section="${escapeHtml(section.id)}" href="?phase=${state.phase}&section=${encodeURIComponent(section.id)}">
-            <span class="section-card__label">${escapeHtml(section.label)}</span>
-            <span class="section-card__meta">${sectionCounts().get(section.id) || 0} 条${section.layout === 'timeline' ? ' · 时间流' : ''}</span>
-          </a>
-        `).join('')}
-      </section>
+  function renderFantasyDashboard() {
+    const config = phaseConfig(state.phase);
+    const style = PHASE_STYLE[state.phase] || PHASE_STYLE.fantasy;
+    const entries = phaseEntries();
+    const moments = phaseMoments();
+    const sections = (config.sections || []).filter((section) => section.id !== 'showcase');
+    const counts = sectionCounts();
 
-      ${recent.length ? `
-        <section class="article-surface">
-          <p class="hero__eyebrow">最近更新</p>
-          <div class="entry-list entry-list--compact">
-            ${recent.map((entry) => renderCompactRow(entry)).join('')}
-          </div>
-        </section>` : ''}
+    el.view.innerHTML = `
+      ${renderHero(config, style)}
 
       ${moments.length ? `
-        <section class="article-surface">
-          <p class="hero__eyebrow">日常</p>
-          <div class="moment-feed moment-feed--preview">
-            ${moments.map((moment) => renderMoment(moment)).join('')}
+        <section class="home-card">
+          <div class="home-card__head">
+            <h2>日常</h2>
+            <a class="home-card__more" data-action="section" data-section="daily" href="?phase=${state.phase}&section=daily">全部 ${moments.length} 条 →</a>
+          </div>
+          ${moments.slice(0, 3).map((moment) => renderHomeMoment(moment)).join('')}
+        </section>` : ''}
+
+      <section class="home-block">
+        <div class="home-block__head"><h2>去哪里看</h2></div>
+        <div class="section-tiles">
+          ${sections.map((section) => {
+            const meta = sectionMeta(section.id);
+            const count = counts.get(section.id) || 0;
+            const desc = meta.description || (meta.layout === 'timeline' ? '短动态时间流' : '');
+            return `
+              <a class="section-tile" data-action="section" data-section="${escapeHtml(section.id)}" href="?phase=${state.phase}&section=${encodeURIComponent(section.id)}">
+                <span class="section-tile__label">${escapeHtml(section.label)}</span>
+                <span class="section-tile__desc">${escapeHtml([desc, count ? `${count} 篇` : '暂无'].filter(Boolean).join(' · '))}</span>
+              </a>`;
+          }).join('')}
+        </div>
+      </section>
+
+      ${entries.length ? `
+        <section class="home-block">
+          <div class="home-block__head">
+            <h2>最近更新</h2>
+            <span class="home-card__more">共 ${entries.length} 篇</span>
+          </div>
+          <div class="entry-rows">
+            ${entries.slice(0, 6).map((entry) => renderEntryRow(entry)).join('')}
           </div>
         </section>` : ''}
     `;
-    updateTreeActive();
-    updateDocumentMeta(config.label, style.subtitle);
-    window.BifrostMediaPreview?.mount(el.view);
+    updateDocumentMeta(config.label, style.dashboardText);
   }
+
+  function renderLogicDashboard() {
+    const config = phaseConfig(state.phase);
+    const style = PHASE_STYLE.logic;
+    const showcase = state.index?.showcase || null;
+    const techStack = showcase?.techStack || [];
+    const projects = (showcase?.projectIds || []).map(entryById).filter(Boolean);
+
+    el.view.innerHTML = `
+      ${renderHero(config, style)}
+
+      <section class="article-surface">
+        <p class="hero__eyebrow">简介</p>
+        <p class="hero__text">${escapeHtml(showcase?.intro || '简介还没写。')}</p>
+      </section>
+
+      <section class="home-block">
+        <div class="home-block__head"><h2>技术栈</h2></div>
+        ${techStack.length
+          ? `<div class="entry-rows">
+              ${techStack.map((group) => `
+                <div class="entry-row">
+                  <span class="entry-row__date">${escapeHtml(group.group || '')}</span>
+                  <span class="entry-row__title">${escapeHtml((group.items || []).join(' · '))}</span>
+                </div>
+              `).join('')}
+            </div>`
+          : '<p class="hero__text">技术栈还没填。</p>'}
+      </section>
+
+      <section class="home-block">
+        <div class="home-block__head"><h2>项目</h2></div>
+        ${projects.length
+          ? `<div class="card-grid">${projects.map((project) => renderCard(project)).join('')}</div>`
+          : `<p class="hero__text">${escapeHtml('项目还在整理，之后会出现在这里。')}</p>`}
+      </section>
+    `;
+    updateDocumentMeta(config.label, style.dashboardText);
+  }
+
+  function renderHomeMoment(moment) {
+    return `
+      <article class="home-moment">
+        <div class="home-moment__meta">
+          <span class="home-moment__time">${escapeHtml(formatDate(String(moment.publishedAt).slice(0, 10)))}</span>
+          ${(moment.tags || []).slice(0, 2).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
+        </div>
+        <p class="home-moment__text">${escapeHtml(moment.text || moment.summary || '')}</p>
+      </article>
+    `;
+  }
+
+  function renderEntryRow(entry) {
+    return `
+      <a class="entry-row" data-action="entry" data-entry="${escapeHtml(entry.entryId)}" href="${escapeHtml(entry.path)}">
+        <span class="entry-row__date">${escapeHtml(formatDate(entry.date))}</span>
+        <span class="entry-row__title">${escapeHtml(entry.title)}</span>
+        <span class="entry-row__section">${escapeHtml(sectionMeta(entry.section).label || '')}</span>
+      </a>
+    `;
+  }
+
+  // ---------- 分区 ----------
 
   function renderSection(sectionId) {
     const config = phaseConfig(state.phase);
@@ -332,39 +507,22 @@
     state.view = 'section';
     state.section = sectionId;
     state.entryId = '';
+    state.seriesId = '';
+    applyLayoutAttributes(null);
+    writeStored(STORAGE.section, sectionId);
+    writeStored(STORAGE.entry, '');
 
     if (section.layout === 'timeline' || sectionId === 'daily') {
-      const moments = phaseMoments().filter((moment) => moment.section === sectionId);
-      const byMonth = new Map();
-      for (const moment of moments) {
-        const list = byMonth.get(moment.month) || [];
-        list.push(moment);
-        byMonth.set(moment.month, list);
-      }
-      el.view.innerHTML = `
-        <section class="article-surface view__hero">
-          <p class="hero__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(section.label)}</p>
-          <h1 class="hero__title">${escapeHtml(section.label)}</h1>
-          <p class="hero__text">共 ${moments.length} 条，按月份倒序。</p>
-        </section>
-        <div class="moment-feed">
-          ${[...byMonth.entries()].map(([month, list]) => `
-            <section class="moment-month">
-              <h2 class="moment-month__label">${escapeHtml(month)}</h2>
-              ${list.map((moment) => renderMoment(moment)).join('')}
-            </section>
-          `).join('')}
-        </div>
-      `;
+      renderDailyFeed(config, section);
     } else {
-      const entries = phaseEntries().filter((entry) => entry.section === sectionId);
+      const items = sectionItems(sectionId);
       el.view.innerHTML = `
         <section class="article-surface view__hero">
           <p class="hero__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(section.label)}</p>
           <h1 class="hero__title">${escapeHtml(section.label)}</h1>
-          <p class="hero__text">共 ${entries.length} 篇。</p>
+          <p class="hero__text">共 ${countForSection(sectionId)} 篇。</p>
         </section>
-        ${entries.length ? renderMagazine(entries) : renderMessage('这里还没有内容', '等第一份内容准备好，它会出现在这里。')}
+        ${items.length ? renderMagazine(items) : renderMessage('这里还没有内容', '等第一份内容准备好，它会出现在这里。')}
       `;
     }
     updateTreeActive();
@@ -373,16 +531,43 @@
     window.BifrostMediaPreview?.mount(el.view);
   }
 
-  function renderMagazine(entries) {
-    const [lead, ...rest] = entries;
+  function countForSection(sectionId) {
+    return sectionItems(sectionId).reduce((total, item) => total + (item.type === 'series' ? item.series.memberIds.length : 1), 0);
+  }
+
+  /** 分区内的条目：同一系列的成员收成一张卡片。 */
+  function sectionItems(sectionId) {
+    const entries = phaseEntries().filter((entry) => entry.section === sectionId);
+    const seenSeries = new Set();
+    const items = [];
+    for (const entry of entries) {
+      const series = entry.seriesId ? seriesById(entry.seriesId) : null;
+      if (!series) {
+        items.push({ type: 'entry', entry, date: entry.date || '' });
+        continue;
+      }
+      if (seenSeries.has(series.id)) continue;
+      seenSeries.add(series.id);
+      const members = seriesMembers(series);
+      items.push({ type: 'series', series, date: members[0]?.date || entry.date || '' });
+    }
+    return items;
+  }
+
+  function renderMagazine(items) {
+    const [lead, ...rest] = items;
     return `
       <section class="magazine">
-        ${renderLeadCard(lead)}
+        ${renderLead(lead)}
         <div class="card-grid">
-          ${rest.map((entry) => renderCard(entry)).join('')}
+          ${rest.map((item) => (item.type === 'series' ? renderSeriesCard(item.series) : renderCard(item.entry))).join('')}
         </div>
       </section>
     `;
+  }
+
+  function renderLead(item) {
+    return item.type === 'series' ? renderSeriesCard(item.series, 'lead-card') : renderLeadCard(item.entry);
   }
 
   function renderLeadCard(entry) {
@@ -413,17 +598,33 @@
     `;
   }
 
+  function renderSeriesCard(series, wrapperClass = 'entry-card') {
+    const members = seriesMembers(series);
+    const cover = members.find((member) => member.coverUrl);
+    return `
+      <a class="${wrapperClass}" data-action="series" data-series="${escapeHtml(series.id)}" href="${escapeHtml(series.path)}">
+        ${wrapperClass === 'lead-card'
+          ? `<span class="lead-card__cover">${cover ? `<img src="${escapeHtml(cover.coverUrl)}" alt="" loading="lazy">` : ''}</span>`
+          : ''}
+        <span class="${wrapperClass === 'lead-card' ? 'lead-card__body' : 'entry-card__body'}">
+          <span class="series-card__badge">系列 · ${members.length} 篇</span>
+          <span class="${wrapperClass === 'lead-card' ? 'lead-card__title' : 'entry-card__title'}">${escapeHtml(series.title)}</span>
+          ${series.description ? `<span class="${wrapperClass === 'lead-card' ? 'lead-card__summary' : 'entry-card__summary'}">${escapeHtml(series.description)}</span>` : ''}
+        </span>
+      </a>
+    `;
+  }
+
   function renderCover(entry, className) {
     if (entry.coverUrl) {
       return `<span class="${className}"><img src="${escapeHtml(entry.coverUrl)}" alt="" loading="lazy"></span>`;
     }
-    // 文字封面：无图时由标题排版而成
     return `<span class="${className} ${className}--text" aria-hidden="true"><span>${escapeHtml(textCover(entry.title))}</span></span>`;
   }
 
   function textCover(title) {
     const text = String(title || '').trim();
-    return text.length > 18 ? `${text.slice(0, 18)}` : text;
+    return text.length > 18 ? text.slice(0, 18) : text;
   }
 
   function renderTags(entry, max) {
@@ -432,13 +633,32 @@
     return `<span class="entry-card__tags">${tags.map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}</span>`;
   }
 
-  function renderCompactRow(entry) {
-    return `
-      <a class="recent-item" data-action="entry" data-entry="${escapeHtml(entry.entryId)}" href="${escapeHtml(entry.path)}">
-        <span class="recent-item__date">${escapeHtml(formatDate(entry.date))}</span>
-        <span class="recent-item__label">${escapeHtml(entry.title)}</span>
-      </a>
+  // ---------- 日常时间流 ----------
+
+  function renderDailyFeed(config, section) {
+    const moments = phaseMoments().filter((moment) => moment.section === section.id);
+    const byMonth = new Map();
+    for (const moment of moments) {
+      const list = byMonth.get(moment.month) || [];
+      list.push(moment);
+      byMonth.set(moment.month, list);
+    }
+    el.view.innerHTML = `
+      <section class="article-surface view__hero">
+        <p class="hero__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(section.label)}</p>
+        <h1 class="hero__title">${escapeHtml(section.label)}</h1>
+        <p class="hero__text">共 ${moments.length} 条，按月份倒序。</p>
+      </section>
+      <div class="moment-feed">
+        ${[...byMonth.entries()].map(([month, list]) => `
+          <section class="moment-month">
+            <h2 class="moment-month__label">${escapeHtml(month)}</h2>
+            ${list.map((moment) => renderMoment(moment)).join('')}
+          </section>
+        `).join('')}
+      </div>
     `;
+    mountInlineInteractions();
   }
 
   function renderMoment(moment) {
@@ -449,70 +669,87 @@
         </a>`
       : '';
     return `
-      <article class="moment-card">
+      <article class="moment-card" id="m-${escapeHtml(moment.id)}" data-moment="${escapeHtml(moment.id)}">
         <header class="moment__meta">
-          <time>${escapeHtml(formatDate(String(moment.publishedAt).slice(0, 10)))}</time>
+          <a class="moment__permalink" href="${escapeHtml(moment.path)}" title="这条动态的独立页面">
+            <time>${escapeHtml(formatDate(String(moment.publishedAt).slice(0, 10)))}</time>
+          </a>
           ${(moment.tags || []).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
         </header>
         <div class="moment__body">${moment.html || `<p>${escapeHtml(moment.text || '')}</p>`}</div>
         ${video}
-        <footer class="moment__actions">
-          <a class="moment__permalink" href="${escapeHtml(moment.path)}" title="打开这条动态的独立页面">链接</a>
-        </footer>
       </article>
     `;
   }
 
-  function renderMessage(title, text) {
-    return `
-      <section class="article-surface">
-        <p class="hero__eyebrow">BIFROST</p>
-        <h2 class="hero__title">${escapeHtml(title)}</h2>
-        <p class="hero__text">${escapeHtml(text)}</p>
-      </section>
-    `;
+  /** 时间流里的每条动态各挂一个独立的互动块（按需加载，互不干扰）。 */
+  function mountInlineInteractions() {
+    const interactions = window.BifrostInteractions;
+    const config = state.siteConfig ? state.siteConfig.interactions : null;
+    if (!interactions || typeof interactions.mountInline !== 'function') return;
+    el.view.querySelectorAll('[data-moment]').forEach((card) => {
+      const bar = interactions.mountInline(
+        { entryId: card.dataset.moment },
+        config,
+        state.phase,
+      );
+      card.append(bar);
+    });
   }
 
-  // ---------- 打开条目 ----------
+  // ---------- 系列 ----------
 
-  let routeToken = 0;
-
-  async function openEntry(entryId) {
-    const entry = (state.index.entries || []).find((item) => item.entryId === entryId);
-    if (!entry) return;
-    const token = ++routeToken;
-    state.view = 'entry';
-    state.section = entry.section;
-    state.entryId = entryId;
+  async function renderSeries(seriesId, memberId = '') {
+    const series = seriesById(seriesId);
+    if (!series) {
+      renderDashboard();
+      return;
+    }
+    const members = seriesMembers(series);
+    const active = members.find((member) => member.entryId === memberId) || members[0];
+    if (!active) {
+      renderDashboard();
+      return;
+    }
+    state.view = 'series';
+    state.seriesId = seriesId;
+    state.entryId = active.entryId;
+    state.section = active.section;
     renderSidebar();
 
-    el.view.innerHTML = renderMessage('正在打开…', entry.title);
+    const nav = `
+      <section class="article-surface series-intro">
+        <p class="hero__eyebrow">系列 · ${members.length} 篇</p>
+        <h1 class="hero__title">${escapeHtml(series.title)}</h1>
+        ${series.description ? `<p class="hero__text">${escapeHtml(series.description)}</p>` : ''}
+        <nav class="series-nav" aria-label="系列成员">
+          ${members.map((member) => `
+            <a class="series-nav__item${member.entryId === active.entryId ? ' is-active' : ''}"
+               data-action="series-member" data-series="${escapeHtml(series.id)}" data-entry="${escapeHtml(member.entryId)}"
+               href="?phase=${state.phase}&series=${encodeURIComponent(series.id)}&entry=${encodeURIComponent(member.entryId)}">${escapeHtml(member.title)}</a>
+          `).join('')}
+        </nav>
+      </section>
+    `;
+    const body = await fetchEntryBody(active);
+    el.view.innerHTML = `${nav}${renderEntryMeta(active)}${body}`;
+    applyLayoutAttributes(active);
+    mountEntryExtras(active);
+    updateTreeActive();
+    updateDocumentMeta(series.title, series.description || '');
+    el.main.scrollTo({ top: 0 });
+  }
+
+  // ---------- 阅读页 ----------
+
+  async function fetchEntryBody(entry) {
     try {
       const response = await fetch(entry.path);
-      const raw = await response.text();
-      if (token !== routeToken) return;
       if (!response.ok) throw new Error(String(response.status));
-      const body = extractFragment(raw);
-      el.view.innerHTML = `
-        <section class="entry-chrome">
-          <p class="entry-meta">
-            <span>${escapeHtml(formatDate(entry.date))}</span>
-            <span>·</span>
-            <span>${escapeHtml((state.index.sections[entry.section] || {}).label || '')}</span>
-            ${entry.wordCount ? `<span>· 约 ${Math.max(1, Math.round(entry.wordCount / 400))} 分钟</span>` : ''}
-          </p>
-          ${renderTags(entry, 6)}
-        </section>
-        ${body}
-      `;
-      window.BifrostMediaPreview?.mount(el.view);
-      mountInteractions(entry);
+      return extractFragment(await response.text());
     } catch {
-      if (token === routeToken) el.view.innerHTML = renderMessage('这一页暂时没有打开', '稍后再试，或返回总览。');
+      return renderMessage('这一页暂时没有打开', '稍后再试，或返回总览。');
     }
-    updateTreeActive();
-    updateDocumentMeta(entry.title, entry.summary || '');
-    el.main.scrollTo({ top: 0 });
   }
 
   function extractFragment(html) {
@@ -522,37 +759,161 @@
     return doc.body.innerHTML;
   }
 
+  /** 元信息行必须是 .content-viewer 的直接子元素：宽屏有右侧栏时 CSS 会隐藏它。 */
+  function renderEntryMeta(entry) {
+    const tags = entry.tags || [];
+    const minutes = entry.minutes || 1;
+    const sectionLabel = sectionMeta(entry.section).label || '';
+    return `
+      <div class="entry-meta">
+        <span class="entry-meta__date">${escapeHtml(formatDate(entry.date))}</span>
+        <span>${escapeHtml(sectionLabel)} · 约 ${minutes} 分钟</span>
+        ${tags.length ? `<span class="entry-meta__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</span>` : ''}
+      </div>
+    `;
+  }
+
+  /** 右侧阅读信息栏与上一篇 / 下一篇：结构补齐后，CSS 里现成的规则就会生效。 */
+  function renderReadingGutter(entry) {
+    const minutes = entry.minutes || 1;
+    const tags = entry.tags || [];
+    const gutter = document.createElement('aside');
+    gutter.className = `reading-gutter reading-gutter--${entry.layout || 'longform'}`;
+    gutter.setAttribute('aria-label', '阅读信息与进度');
+    gutter.innerHTML = `
+      <div class="reading-gutter__line" aria-hidden="true"><i data-reading-progress-fill></i></div>
+      <div class="reading-gutter__meta">
+        <span>${escapeHtml(formatDate(entry.date))}</span>
+        <span>约 ${minutes} 分钟</span>
+        <span>${escapeHtml(sectionMeta(entry.section).label || '')}</span>
+      </div>
+      ${tags.length ? `<div class="reading-gutter__tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>` : ''}
+      <button class="reading-gutter__top" type="button" data-reading-top>↑<span>回到顶部</span></button>
+    `;
+    gutter.querySelector('[data-reading-top]').addEventListener('click', () => {
+      el.main.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    el.view.append(gutter);
+  }
+
+  function renderPager(entry) {
+    const list = phaseEntries();
+    const index = list.findIndex((item) => item.entryId === entry.entryId);
+    if (index < 0) return;
+    const prev = index > 0 ? list[index - 1] : null;
+    const next = index < list.length - 1 ? list[index + 1] : null;
+    if (!prev && !next) return;
+    const pager = document.createElement('nav');
+    pager.className = 'pager';
+    pager.innerHTML = `
+      ${prev ? `<a data-action="entry" data-entry="${escapeHtml(prev.entryId)}" href="${escapeHtml(prev.path)}"><span class="pager__dir">上一篇</span><span>${escapeHtml(prev.title)}</span></a>` : '<span></span>'}
+      ${next ? `<a data-action="entry" data-entry="${escapeHtml(next.entryId)}" href="${escapeHtml(next.path)}"><span class="pager__dir">下一篇</span><span>${escapeHtml(next.title)}</span></a>` : '<span></span>'}
+    `;
+    el.view.append(pager);
+  }
+
+  function mountEntryExtras(entry) {
+    renderReadingGutter(entry);
+    renderPager(entry);
+    mountInteractions(entry);
+    window.BifrostMediaPreview?.mount(el.view);
+    window.requestAnimationFrame(updateReadingProgress);
+  }
+
+  async function openEntry(entryId, options = {}) {
+    const entry = entryById(entryId);
+    if (!entry) {
+      renderDashboard();
+      return;
+    }
+    state.view = 'entry';
+    state.entryId = entryId;
+    state.section = entry.section;
+    state.seriesId = options.seriesId || '';
+    writeStored(STORAGE.entry, entryId);
+    writeStored(STORAGE.section, entry.section);
+    renderSidebar();
+    applyLayoutAttributes(entry);
+
+    const series = entry.seriesId ? seriesById(entry.seriesId) : null;
+    const note = series && !options.seriesId
+      ? `<p class="entry-series-note">属于系列 <a data-action="series" data-series="${escapeHtml(series.id)}" href="${escapeHtml(series.path)}">${escapeHtml(series.title)}</a></p>`
+      : '';
+
+    el.view.innerHTML = `${note}${renderEntryMeta(entry)}<p class="hero__text">正在打开…</p>`;
+    const body = await fetchEntryBody(entry);
+    el.view.innerHTML = `${note}${renderEntryMeta(entry)}${body}`;
+    mountEntryExtras(entry);
+    updateTreeActive();
+    updateDocumentMeta(entry.title, entry.summary || '');
+    el.main.scrollTo({ top: 0 });
+  }
+
   function mountInteractions(entry) {
-    if (!window.BifrostInteractions) return;
-    // 互动接口迁移到 entryId 之前，接口不认识新路径，先不发起注定失败的请求。
-    // 迁移完成后把 data/site.json 的 interactions.entryModel 改为 "entryId" 即可开启。
+    const interactions = window.BifrostInteractions;
     const config = state.siteConfig ? state.siteConfig.interactions : null;
+    if (!interactions) return;
     if (config && config.entryModel !== 'entryId') return;
-    window.BifrostInteractions.mount(
-      { path: entry.path, entryId: entry.entryId, title: entry.title },
+    interactions.mount(
+      { entryId: entry.entryId, path: entry.path, title: entry.title },
       el.view,
       config,
       state.phase,
     );
   }
 
+  let progressFrame = 0;
+
+  function onMainScroll() {
+    if (progressFrame) return;
+    progressFrame = window.requestAnimationFrame(() => {
+      progressFrame = 0;
+      updateReadingProgress();
+    });
+  }
+
+  function updateReadingProgress() {
+    const fill = el.view?.querySelector('[data-reading-progress-fill]');
+    const article = el.view?.querySelector('.article-surface');
+    if (!fill || !article) return;
+    const mainRect = el.main.getBoundingClientRect();
+    const articleRect = article.getBoundingClientRect();
+    const start = articleRect.top - mainRect.top + el.main.scrollTop;
+    const end = start + article.offsetHeight - el.main.clientHeight * 0.72;
+    const ratio = Math.max(0, Math.min(1, (el.main.scrollTop - start) / Math.max(1, end - start)));
+    fill.style.setProperty('--reading-progress', `${(ratio * 100).toFixed(2)}%`);
+  }
+
   // ---------- 路由 ----------
 
   async function restoreRoute() {
     const url = new URL(window.location.href);
-    // URL 参数优先于"上次阅读"：显式打开某个分区时，不应被恢复逻辑带偏
     const urlEntry = url.searchParams.get('entry') || '';
     const urlSection = url.searchParams.get('section') || '';
-    const entryId = urlEntry || (urlSection ? '' : (localStorage.getItem(STORAGE.entry) || ''));
-    const section = urlSection || (entryId ? '' : (localStorage.getItem(STORAGE.section) || ''));
-    if (entryId && (state.index.entries || []).some((entry) => entry.entryId === entryId)) {
+    const urlSeries = url.searchParams.get('series') || '';
+    const explicitPhase = url.searchParams.has('phase');
+    // 显式给定位面（但没有指定内容）时回到该位面总览，不恢复上次阅读
+    const restoreRead = !urlEntry && !urlSection && !urlSeries && !explicitPhase;
+    const entryId = urlEntry || (restoreRead ? readStored(STORAGE.entry) : '');
+    const section = urlSection || (restoreRead && !entryId ? readStored(STORAGE.section) : '');
+
+    if (urlSeries && seriesById(urlSeries)) {
+      await renderSeries(urlSeries, urlEntry);
+      syncUrl({ replace: true });
+      return;
+    }
+    if (entryId && entryById(entryId)) {
       await openEntry(entryId);
+      syncUrl({ replace: true });
+      return;
+    }
+    if (entryId && momentById(entryId)) {
+      await openMomentDeepLink(entryId);
       return;
     }
     if (section && (phaseConfig(state.phase).sections || []).some((item) => item.id === section)) {
-      localStorage.removeItem(STORAGE.entry);
+      writeStored(STORAGE.entry, '');
       renderSection(section);
-      localStorage.setItem(STORAGE.section, section);
       syncUrl({ replace: true });
       return;
     }
@@ -560,29 +921,56 @@
     syncUrl({ replace: true });
   }
 
+  function momentById(id) {
+    return (state.index?.moments || []).find((moment) => moment.id === id) || null;
+  }
+
+  /** 动态的独立页：回到时间流并定位到那一条。 */
+  async function openMomentDeepLink(id) {
+    const moment = momentById(id);
+    if (!moment) {
+      renderDashboard();
+      return;
+    }
+    applyPhase(moment.phase || 'fantasy');
+    renderSidebar();
+    renderSection(moment.section || 'daily');
+    syncUrl({ replace: true, entryId: id });
+    const card = el.view.querySelector(`[data-moment="${CSS.escape(id)}"]`);
+    if (card) {
+      card.scrollIntoView({ block: 'center' });
+      card.classList.add('is-highlighted');
+      window.setTimeout(() => card.classList.remove('is-highlighted'), 2000);
+    }
+  }
+
   function onPopState() {
     const url = new URL(window.location.href);
     const phase = url.searchParams.get('phase');
     if (phase && phase !== state.phase) applyPhase(phase);
+    const series = url.searchParams.get('series');
     const entryId = url.searchParams.get('entry');
     const section = url.searchParams.get('section');
-    if (entryId) openEntry(entryId);
+    if (series) renderSeries(series, entryId || '');
+    else if (entryId && entryById(entryId)) openEntry(entryId);
     else if (section) renderSection(section);
     else renderDashboard();
+    renderSidebar();
   }
 
-  function syncUrl({ replace = false } = {}) {
+  function syncUrl({ replace = false, entryId = '' } = {}) {
     const url = new URL(window.location.href);
     url.searchParams.set('phase', state.phase);
-    if (state.view === 'entry' && state.entryId) {
+    url.searchParams.delete('series');
+    url.searchParams.delete('entry');
+    url.searchParams.delete('section');
+    if (state.view === 'series' && state.seriesId) {
+      url.searchParams.set('series', state.seriesId);
+      url.searchParams.set('entry', entryId || state.entryId);
+    } else if (state.view === 'entry' && state.entryId) {
       url.searchParams.set('entry', state.entryId);
-      url.searchParams.delete('section');
     } else if (state.view === 'section' && state.section) {
       url.searchParams.set('section', state.section);
-      url.searchParams.delete('entry');
-    } else {
-      url.searchParams.delete('entry');
-      url.searchParams.delete('section');
     }
     const method = replace ? 'replaceState' : 'pushState';
     window.history[method]({ phase: state.phase }, '', url);
@@ -598,14 +986,15 @@
       renderDashboard();
       syncUrl();
     } else if (action === 'section') {
+      writeStored(STORAGE.entry, '');
       renderSection(link.dataset.section);
-      localStorage.setItem(STORAGE.section, link.dataset.section);
-      localStorage.removeItem(STORAGE.entry);
       syncUrl();
     } else if (action === 'entry') {
-      const entryId = link.dataset.entry;
-      localStorage.setItem(STORAGE.entry, entryId);
-      openEntry(entryId).then(() => syncUrl());
+      openEntry(link.dataset.entry).then(() => syncUrl());
+    } else if (action === 'series') {
+      renderSeries(link.dataset.series).then(() => syncUrl());
+    } else if (action === 'series-member') {
+      openEntry(link.dataset.entry, { seriesId: link.dataset.series }).then(() => syncUrl());
     }
   }
 
@@ -614,7 +1003,6 @@
   let searchTimer = 0;
   let searchToken = 0;
 
-  /** 检索服务地址：没配置时退回索引内的本地过滤。 */
   function searchEndpoint() {
     const config = state.siteConfig ? state.siteConfig.search : null;
     if (!config || config.enabled === false || !config.apiBaseUrl) return '';
@@ -649,6 +1037,16 @@
     return [...entries, ...moments];
   }
 
+  function openSearch() {
+    closePanels();
+    el.searchPanel.classList.add('is-active');
+    state.query = '';
+    state.facets = { phase: state.phase, section: '', tags: new Set() };
+    if (el.searchInput) el.searchInput.value = '';
+    void runSearch();
+    window.setTimeout(() => el.searchInput?.focus(), 0);
+  }
+
   function scheduleSearch() {
     if (searchTimer) window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(() => {
@@ -662,7 +1060,6 @@
       renderSearchLocal();
       return;
     }
-
     const token = (searchToken += 1);
     const params = new URLSearchParams();
     const query = state.query.trim();
@@ -671,7 +1068,6 @@
     if (state.facets.section) params.set('section', state.facets.section);
     if (state.facets.tags.size) params.set('tags', [...state.facets.tags].join(','));
     params.set('limit', String(SEARCH_LIMIT));
-
     try {
       const response = await fetch(`${endpoint}/search?${params.toString()}`, {
         signal: AbortSignal.timeout(6000),
@@ -687,7 +1083,6 @@
       renderSearchFacets(payload.facets || {});
       renderSearchResults();
     } catch {
-      // 检索服务不可用时退回本地过滤，保证搜索仍然可用
       if (token === searchToken) renderSearchLocal();
     }
   }
@@ -713,7 +1108,6 @@
     const sections = Object.values(state.index.sections || {})
       .filter((section) => !state.facets.phase || section.phase === state.facets.phase);
     const tags = (facetCounts.tags || []).slice(0, 12);
-
     el.searchFacets.innerHTML = `
       <div class="facet-row">
         <span class="facet-label">位面</span>
@@ -738,23 +1132,12 @@
       ? state.results.map((doc, index) => `
           <a class="command-item${index === 0 ? ' is-active' : ''}" data-result-index="${index}" data-path="${escapeHtml(doc.path)}" data-id="${escapeHtml(doc.id)}" data-kind="${escapeHtml(doc.kind)}">
             <span class="command-item__label">${escapeHtml(doc.title)}</span>
-            <span class="command-item__hint">${escapeHtml([formatDate(doc.date), (state.index.sections[doc.section] || {}).label, ...(doc.tags || []).slice(0, 2)].filter(Boolean).join(' · '))}</span>
+            <span class="command-item__hint">${escapeHtml([formatDate(doc.date), sectionMeta(doc.section).label, ...(doc.tags || []).slice(0, 2)].filter(Boolean).join(' · '))}</span>
           </a>
         `).join('')
       : '<p class="command-empty">没有匹配的内容。</p>';
   }
 
-  function openSearch() {
-    closePanels();
-    el.searchPanel.classList.add('is-active');
-    state.query = '';
-    state.facets = { phase: state.phase, section: '', tags: new Set() };
-    if (el.searchInput) el.searchInput.value = '';
-    void runSearch();
-    window.setTimeout(() => el.searchInput?.focus(), 0);
-  }
-
-  /** 本地过滤：检索服务未配置或不可用时使用。 */
   function renderSearchLocal() {
     const docs = searchDocs();
     const query = state.query.trim().toLowerCase();
@@ -798,8 +1181,20 @@
   }
 
   function onPanelResultClick(event) {
-    const item = event.target.closest('[data-result-index]');
-    if (item) activateResult(Number(item.dataset.resultIndex));
+    const result = event.target.closest('[data-result-index]');
+    if (result) {
+      activateResult(Number(result.dataset.resultIndex));
+    }
+  }
+
+  function onPhasePanelClick(event) {
+    const phaseItem = event.target.closest('[data-phase-id]');
+    if (phaseItem) {
+      closePanels();
+      switchPhase(phaseItem.dataset.phaseId);
+      return;
+    }
+    if (event.target === el.phasePanel) closePanels();
   }
 
   async function activateResult(index) {
@@ -813,14 +1208,15 @@
     if (doc.kind === 'moment') {
       renderSection(doc.section);
       syncUrl();
-      window.setTimeout(() => el.main.scrollTo({ top: 0 }), 0);
+      const card = el.view.querySelector(`[data-moment="${CSS.escape(doc.id)}"]`);
+      card?.scrollIntoView({ block: 'center' });
       return;
     }
     await openEntry(doc.id);
     syncUrl();
   }
 
-  function onPanelKeyDown(event) {
+  function onSearchKeyDown(event) {
     if (event.key === 'Escape') {
       closePanels();
       return;
@@ -842,31 +1238,101 @@
     }
   }
 
-  // ---------- 位面面板 ----------
+  // ---------- 位面面板（~） ----------
+
+  const PHASE_COMMANDS = {
+    logic: 'logic',
+    reset: 'logic',
+    shutdown: 'logic',
+    fantasy: 'fantasy',
+    'set up!': 'fantasy',
+    setup: 'fantasy',
+  };
 
   function openPhasePanel() {
     closePanels();
     el.phasePanel.classList.add('is-active');
+    el.phasePanel.innerHTML = `
+      <div class="command-panel phase-panel">
+        <input class="command-input" data-phase-input type="text" autocomplete="off" placeholder="输入 logic / fantasy 切换位面">
+        <div class="command-results" data-phase-results></div>
+        <p class="command-help">↑↓ 选择 · Enter 切换 · Esc 关闭</p>
+      </div>
+    `;
+    el.phaseInput = el.phasePanel.querySelector('[data-phase-input]');
+    el.phaseResults = el.phasePanel.querySelector('[data-phase-results]');
+    state.phaseIndex = 0;
+    renderPhaseResults('');
+    window.setTimeout(() => el.phaseInput?.focus(), 0);
+  }
+
+  function phaseCommandMatches(query) {
+    const items = [];
+    const names = Object.keys(PHASE_COMMANDS);
+    for (const name of names) {
+      if (query && !name.includes(query)) continue;
+      const phase = PHASE_COMMANDS[name];
+      if (items.some((item) => item.phase === phase)) continue;
+      items.push({ phase, label: phase === 'fantasy' ? 'Fantasy 位面' : 'Logic 位面', hint: `输入 ${name}` });
+    }
+    return items.slice(0, 4);
+  }
+
+  function renderPhaseResults(query) {
     const list = phases();
-    el.phaseResults.innerHTML = list.map((phase, index) => `
-      <a class="command-item${phase.id === state.phase ? ' is-active' : ''}" data-phase-id="${escapeHtml(phase.id)}" data-index="${index}">
-        <span class="command-item__label">${escapeHtml(phase.label)} 位面</span>
-        <span class="command-item__hint">${phase.id === state.phase ? '当前' : `${(phase.sections || []).length} 个分区`}</span>
-      </a>
-    `).join('');
-    el.phaseResults.querySelectorAll('[data-phase-id]').forEach((node) => {
-      node.addEventListener('click', () => {
-        closePanels();
-        switchPhase(node.dataset.phaseId);
+    const matched = phaseCommandMatches(query.trim().toLowerCase());
+    const items = matched.length
+      ? matched
+      : list.map((phase) => ({ phase: phase.id, label: `${phase.label} 位面`, hint: phase.id === state.phase ? '当前' : `${(phase.sections || []).length} 个分区` }));
+    state.phaseItems = items;
+    if (state.phaseIndex >= items.length) state.phaseIndex = 0;
+    el.phaseResults.innerHTML = items.length
+      ? items.map((item, index) => `
+          <a class="command-item${index === state.phaseIndex ? ' is-active' : ''}" data-phase-id="${escapeHtml(item.phase)}" data-phase-index="${index}">
+            <span class="command-item__label">${escapeHtml(item.label)}</span>
+            <span class="command-item__hint">${escapeHtml(item.hint || '')}</span>
+          </a>
+        `).join('')
+      : '<p class="command-empty">没有匹配的命令。</p>';
+  }
+
+  function onPhaseInput(event) {
+    if (!event.target.matches('[data-phase-input]')) return;
+    state.phaseIndex = 0;
+    renderPhaseResults(event.target.value);
+  }
+
+  function onPhaseKeyDown(event) {
+    if (event.key === 'Escape') {
+      closePanels();
+      return;
+    }
+    const items = state.phaseItems || [];
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      if (!items.length) return;
+      const delta = event.key === 'ArrowDown' ? 1 : -1;
+      state.phaseIndex = (state.phaseIndex + delta + items.length) % items.length;
+      el.phaseResults.querySelectorAll('.command-item').forEach((node, index) => {
+        node.classList.toggle('is-active', index === state.phaseIndex);
       });
-    });
+      el.phaseResults.querySelector('.command-item.is-active')?.scrollIntoView({ block: 'nearest' });
+      return;
+    }
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      const item = items[state.phaseIndex];
+      if (item) {
+        closePanels();
+        switchPhase(item.phase);
+      }
+    }
   }
 
   function closePanels() {
     const active = document.activeElement;
     el.searchPanel?.classList.remove('is-active');
     el.phasePanel?.classList.remove('is-active');
-    // 面板关闭后若焦点还留在输入框里，会挡住全局快捷键，这里主动释放
     if (active instanceof HTMLElement
       && (el.searchPanel?.contains(active) || el.phasePanel?.contains(active))) {
       active.blur();
@@ -907,12 +1373,8 @@
     return Boolean(el.shell?.classList.contains('is-nav-open'));
   }
 
-  function onScroll() {
-    /* 阅读进度等后续按需接入 */
-  }
-
   function updateStatusNote() {
-    const style = PHASE_STYLE[state.phase] || PHASE_STYLE.fantasy;
+    const style = PHASE_STYLE[state.phase] || PHASE_STYLE.logic;
     if (el.statusText) el.statusText.textContent = style.status;
     const latest = phaseEntries()[0] || phaseMoments()[0];
     const date = latest ? String(latest.publishedAt || latest.date || '').slice(0, 10) : '';
@@ -940,6 +1402,16 @@
       document.head.append(meta);
     }
     meta.setAttribute('content', description || '');
+  }
+
+  function renderMessage(title, text) {
+    return `
+      <section class="article-surface">
+        <p class="hero__eyebrow">BIFROST</p>
+        <h2 class="hero__title">${escapeHtml(title)}</h2>
+        <p class="hero__text">${escapeHtml(text)}</p>
+      </section>
+    `;
   }
 
   function formatDate(value) {

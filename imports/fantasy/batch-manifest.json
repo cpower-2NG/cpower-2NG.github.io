@@ -91,7 +91,8 @@
       "phase": "fantasy",
       "section": "review",
       "tags": "短歌,纸上魔法使",
-      "series": "纸上魔法使"
+      "series": "纸上魔法使",
+      "seriesOrder": 1
     },
     {
       "source": "imports/fantasy/raw/纸上魔法使/2.红宝石的天作之合.txt",
@@ -101,7 +102,8 @@
       "phase": "fantasy",
       "section": "review",
       "tags": "短歌,纸上魔法使",
-      "series": "纸上魔法使"
+      "series": "纸上魔法使",
+      "seriesOrder": 2
     },
     {
       "source": "imports/fantasy/raw/纸上魔法使/3.蓝宝石的存在证明.txt",
@@ -111,7 +113,8 @@
       "phase": "fantasy",
       "section": "review",
       "tags": "短歌,纸上魔法使",
-      "series": "纸上魔法使"
+      "series": "纸上魔法使",
+      "seriesOrder": 3
     },
     {
       "source": "imports/fantasy/raw/纸上魔法使/4.紫水晶的怪异传说.txt",
@@ -121,7 +124,8 @@
       "phase": "fantasy",
       "section": "review",
       "tags": "短歌,纸上魔法使",
-      "series": "纸上魔法使"
+      "series": "纸上魔法使",
+      "seriesOrder": 4
     },
     {
       "source": "imports/fantasy/raw/纸上魔法使/5.磷灰石的怠惰现象.txt",
@@ -131,7 +135,8 @@
       "phase": "fantasy",
       "section": "review",
       "tags": "短歌,纸上魔法使",
-      "series": "纸上魔法使"
+      "series": "纸上魔法使",
+      "seriesOrder": 5
     },
     {
       "source": "imports/fantasy/raw/冬滚滚.docx",

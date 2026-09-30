@@ -34,6 +34,7 @@ function importArgs(item) {
   if (item.pdf) args.push('--pdf', item.pdf);
   if (item.author) args.push('--author', item.author);
   if (item.series) args.push('--series', item.series);
+  if (item.seriesOrder) args.push('--series-order', String(item.seriesOrder));
   if (item.cover) args.push('--cover', String(item.cover));
   return args;
 }

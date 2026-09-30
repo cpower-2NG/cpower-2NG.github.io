@@ -3,6 +3,7 @@
   const PROFILE_KEY = 'bifrost:comment-profile';
   const VIEW_KEY = 'bifrost:viewed';
   let activeController = null;
+  const inlineControllers = new Set();
   let currentPhase = 'logic';
 
   function visitorId() {
@@ -492,10 +493,187 @@
     }
   }
 
+  /** 时间流里的轻量互动块：默认只有「评论 / 赞」两个按钮，点开评论才加载。 */
+  function mountInline(entry, config, phase) {
+    const bar = element('div', 'moment__actions');
+    const commentButton = element('button', 'moment-action', '评论');
+    commentButton.type = 'button';
+    const likeButton = element('button', 'moment-action', '赞');
+    likeButton.type = 'button';
+    bar.append(commentButton, likeButton);
+
+    if (!configured(config) || !entry) {
+      return bar;
+    }
+
+    const controller = new AbortController();
+    inlineControllers.add(controller);
+    let panel = null;
+
+    function createCompactForm(onSubmit) {
+      const form = element('form', 'comment-form');
+      const profile = savedProfile();
+      const head = element('div', 'comment-form__grid');
+      const nickname = element('input', 'comment-form__input');
+      nickname.name = 'nickname';
+      nickname.maxLength = 30;
+      nickname.placeholder = '昵称';
+      nickname.value = profile.nickname || '';
+      const anonymousLabel = element('label', 'comment-form__anonymous');
+      const anonymous = document.createElement('input');
+      anonymous.type = 'checkbox';
+      anonymous.name = 'anonymous';
+      anonymousLabel.append(anonymous, document.createTextNode(' 匿名'));
+      head.append(nickname, anonymousLabel);
+
+      const honeypotWrap = element('label', 'comment-form__honeypot');
+      const honeypot = document.createElement('input');
+      honeypot.type = 'text';
+      honeypot.name = 'company';
+      honeypot.tabIndex = -1;
+      honeypot.autocomplete = 'off';
+      honeypotWrap.append(honeypot);
+
+      const textarea = element('textarea', 'comment-form__textarea');
+      textarea.name = 'content';
+      textarea.rows = 2;
+      textarea.maxLength = 2000;
+      textarea.required = true;
+      textarea.placeholder = '写下你的想法…';
+
+      const actions = element('div', 'comment-form__actions');
+      const status = element('span', 'comment-form__status');
+      const submitButton = element('button', 'button button--primary', '发表');
+      submitButton.type = 'submit';
+      actions.append(status, submitButton);
+      form.append(head, honeypotWrap, textarea, actions);
+
+      anonymous.addEventListener('change', () => {
+        nickname.disabled = anonymous.checked;
+        nickname.value = anonymous.checked ? '' : (profile.nickname || '');
+      });
+
+      const startedAt = Date.now();
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        status.textContent = '';
+        if (!anonymous.checked && !nickname.value.trim()) {
+          status.textContent = '请填写昵称，或选择匿名。';
+          nickname.focus();
+          return;
+        }
+        submitButton.disabled = true;
+        try {
+          const result = await onSubmit(textarea.value.trim(), null, {
+            anonymous: anonymous.checked,
+            nickname: nickname.value,
+            honeypot: honeypot.value,
+            startedAt,
+          });
+          textarea.value = '';
+          honeypot.value = '';
+          status.textContent = result.status === 'pending' ? '已提交，等待审核。' : '已发布。';
+        } catch (error) {
+          status.textContent = error.message;
+        } finally {
+          submitButton.disabled = false;
+        }
+      });
+      return form;
+    }
+
+    function buildThread(payload) {
+      const thread = element('div', 'moment-thread');
+      const list = element('div', 'comments__list');
+      thread.append(list);
+
+      async function submit(content, parentId = null, extra = {}) {
+        const profile = savedProfile();
+        const anonymous = Boolean(extra.anonymous);
+        const body = {
+          entryId: entry.entryId,
+          visitorId: visitorId(),
+          content,
+          parentId,
+          anonymous,
+          nickname: anonymous ? '' : (extra.nickname || profile.nickname || ''),
+          email: emailOf(extra),
+          website: anonymous ? '' : (profile.website || ''),
+          honeypot: extra.honeypot || '',
+          elapsedMs: Math.max(0, Date.now() - Number(extra.startedAt || Date.now())),
+        };
+        const result = await request(config, '/comments', { method: 'POST', body });
+        if (!anonymous) saveProfile({ nickname: body.nickname, website: body.website });
+        payload.comments = result.comments || payload.comments;
+        renderComments(list, payload.comments, submit);
+        return result;
+      }
+
+      renderComments(list, payload.comments || [], submit);
+      thread.append(createCompactForm(submit));
+      return thread;
+    }
+
+    commentButton.addEventListener('click', async () => {
+      if (panel) {
+        panel.remove();
+        panel = null;
+        commentButton.classList.remove('is-open');
+        return;
+      }
+      commentButton.disabled = true;
+      try {
+        const payload = await request(
+          config,
+          `/interactions?entryId=${encodeURIComponent(entry.entryId)}&visitorId=${encodeURIComponent(visitorId())}`,
+          { signal: controller.signal },
+        );
+        if (!payload.enabled) {
+          bar.remove();
+          return;
+        }
+        panel = buildThread(payload);
+        bar.after(panel);
+        commentButton.classList.add('is-open');
+        commentButton.textContent = `评论 ${Number(payload.commentCount) || 0}`;
+      } catch (error) {
+        commentButton.title = error.message;
+      } finally {
+        commentButton.disabled = false;
+      }
+    });
+
+    likeButton.addEventListener('click', async () => {
+      likeButton.disabled = true;
+      try {
+        const result = await request(config, '/reactions', {
+          method: 'POST',
+          body: { entryId: entry.entryId, visitorId: visitorId() },
+        });
+        const liked = Boolean(result.liked);
+        const likes = Number(result.likes) || 0;
+        likeButton.classList.toggle('is-active', liked);
+        likeButton.textContent = liked ? `已赞 ${likes}` : `赞 ${likes}`;
+      } catch (error) {
+        likeButton.title = error.message;
+      } finally {
+        likeButton.disabled = false;
+      }
+    });
+
+    return bar;
+  }
+
+  function emailOf(extra) {
+    return extra && typeof extra.email === 'string' ? extra.email : '';
+  }
+
   function clear(viewer) {
     activeController?.abort();
     activeController = null;
-    viewer.querySelectorAll('.comments').forEach((node) => node.remove());
+    for (const controller of inlineControllers) controller.abort();
+    inlineControllers.clear();
+    viewer?.querySelectorAll('.comments, .moment-thread').forEach((node) => node.remove());
   }
 
   function setPhase(phase) {
@@ -508,6 +686,7 @@
   window.BifrostInteractions = {
     clear,
     mount,
+    mountInline,
     setPhase,
     get phase() {
       return currentPhase;

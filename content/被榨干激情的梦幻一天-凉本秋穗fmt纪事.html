@@ -19,8 +19,7 @@
   if (params.get('embed') === '1') return;
   params.delete('embed');
   var extra = params.toString();
-  var target = '/?phase=fantasy&entry=01M3PFKX8NMTEWSDXTXRVGZNMF'
-    + (extra ? '&' + extra : '') + window.location.hash;
+  var target = '/?phase=fantasy&entry=01M3PFKX8NMTEWSDXTXRVGZNMF' + (extra ? '&' + extra : '') + window.location.hash;
   window.location.replace(target);
 })();
 </script>

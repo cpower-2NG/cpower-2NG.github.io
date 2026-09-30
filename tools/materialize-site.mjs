@@ -6,7 +6,7 @@ import { CosmosClient } from '@azure/cosmos';
 import { DefaultAzureCredential } from '@azure/identity';
 import { copyFile, cp, mkdir, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
-import { ensureDir } from './lib/content-common.mjs';
+import { ensureDir, slugify } from './lib/content-common.mjs';
 
 const ENDPOINT = process.env.COSMOS_ENDPOINT || 'https://cosmos-bifrost-z43zcc.documents.azure.com:443/';
 const DATABASE = process.env.COSMOS_DATABASE || 'bifrost';
@@ -48,28 +48,27 @@ function rewriteImages(html, assetBySourceFile) {
   );
 }
 
-function renderPublicationBlock(publication, assetsById) {
+/** 出版物只在正文顶部留一个入口，交给浏览器自带的 PDF 阅读器。 */
+function renderPublicationBar(publication, assetsById) {
   if (!publication) return '';
-  const pages = (publication.pageAssetIds || []).map((id) => assetsById.get(id)).filter(Boolean);
   const pdf = assetsById.get(publication.pdfAssetId);
-  const cover = pages[0];
   return `
-<section class="publication" data-publication>
-  <p class="hero__eyebrow">出版物</p>
-  <p class="hero__text">保留原始排版，共 ${publication.pageCount} 页。</p>
-  ${cover ? `<a class="publication__cover" href="${escapeHtml(pdf?.blobUrl || cover.blobUrl)}" target="_blank" rel="noopener"><img src="${escapeHtml(cover.blobUrl)}" alt="封面" loading="lazy"></a>` : ''}
-  <div class="article-actions">
-    ${pdf ? `<a class="button button--primary" href="${escapeHtml(pdf.blobUrl)}" target="_blank" rel="noopener">打开 PDF</a>` : ''}
-    ${pdf ? `<a class="button" href="${escapeHtml(pdf.blobUrl)}" download>下载原件</a>` : ''}
-  </div>
-  <div class="publication__pages">
-    ${pages.map((page) => `<img src="${escapeHtml(page.blobUrl)}" alt="${escapeHtml(page.caption || '')}" loading="lazy">`).join('\n')}
-  </div>
-</section>`;
+<div class="publication-bar">
+  <p class="publication-bar__text">出版物 · 共 ${publication.pageCount} 页，保留原始排版</p>
+  ${pdf ? `<a class="button button--primary" href="${escapeHtml(pdf.blobUrl)}" target="_blank" rel="noopener">打开 PDF</a>` : ''}
+</div>`;
 }
 
-function renderDocument({ body, title, description, url, phase, cover = '', entryId = '' }) {
+/** 条目正文：图片换成 Blob 地址，出版物在顶部插入入口。 */
+function renderEntryInner(entry, bodyByEntry, assetsByEntry, assetsById) {
+  const body = bodyByEntry.get(entry.id);
+  const assetMap = assetsByEntry.get(entry.id) || new Map();
+  return `${renderPublicationBar(entry.publication, assetsById)}${rewriteImages(body?.html || '', assetMap)}`;
+}
+
+function renderDocument({ body, title, description, url, phase, cover = '', entryId = '', redirectTo = '' }) {
   const ogImage = cover ? `\n<meta property="og:image" content="${escapeHtml(cover)}">` : '';
+  const target = redirectTo || `/?phase=${encodeURIComponent(phase)}&entry=${encodeURIComponent(entryId)}`;
   return `<!DOCTYPE html>
 <html lang="zh-CN" data-phase="${escapeHtml(phase)}">
 <head>
@@ -90,8 +89,7 @@ function renderDocument({ body, title, description, url, phase, cover = '', entr
   if (params.get('embed') === '1') return;
   params.delete('embed');
   var extra = params.toString();
-  var target = '/?phase=${encodeURIComponent(phase)}&entry=${encodeURIComponent(entryId)}'
-    + (extra ? '&' + extra : '') + window.location.hash;
+  var target = '${target}' + (extra ? '&' + extra : '') + window.location.hash;
   window.location.replace(target);
 })();
 </script>
@@ -123,7 +121,11 @@ function entryCard(entry) {
     tagsHtml: tags,
     coverUrl: entry.coverUrl || '',
     wordCount: entry.wordCount || 0,
+    minutes: entry.minutes || 1,
+    layout: entry.layout || 'longform',
+    type: entry.kind === 'note' ? 'diary' : 'article',
     seriesId: entry.seriesId || '',
+    seriesOrder: entry.seriesOrder || null,
     hasPublication: Boolean(entry.publication),
   };
 }
@@ -152,18 +154,25 @@ async function main() {
   }
   const bodyByEntry = new Map(bodiesRes.resources.map((body) => [body.entryId, body]));
 
+  // kind=page 是展示页等特殊页面，不进内容列表与订阅
+  const pageEntries = entriesRes.resources.filter((entry) => entry.kind === 'page');
   const entries = entriesRes.resources
+    .filter((entry) => entry.kind !== 'page')
     .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)))
     .map((entry) => {
       const cover = entry.cover?.assetId ? assetsById.get(entry.cover.assetId) : null;
-      return { ...entry, coverUrl: cover?.blobUrl || '' };
+      const body = bodyByEntry.get(entry.id);
+      return {
+        ...entry,
+        coverUrl: cover?.blobUrl || '',
+        wordCount: body?.wordCount || 0,
+        minutes: body?.readingMinutes || 1,
+      };
     });
 
   let pages = 0;
   for (const entry of entries) {
-    const body = bodyByEntry.get(entry.id);
-    const assetMap = assetsByEntry.get(entry.id) || new Map();
-    const inner = `${rewriteImages(body?.html || '', assetMap)}${renderPublicationBlock(entry.publication, assetsById)}`;
+    const inner = renderEntryInner(entry, bodyByEntry, assetsByEntry, assetsById);
     const html = `<article class="article-surface">${inner}</article>`;
     const document = renderDocument({
       body: html,
@@ -206,6 +215,70 @@ async function main() {
     .filter((item) => item.kind === 'phase')
     .sort((a, b) => (a.order || 0) - (b.order || 0));
 
+  // 系列：成员来自条目上的 seriesId，标题与简介来自 taxonomy
+  const seriesDocs = taxonomyRes.resources.filter((item) => item.kind === 'series');
+  const seriesGroups = new Map();
+  for (const entry of entries) {
+    if (!entry.seriesId) continue;
+    const list = seriesGroups.get(entry.seriesId) || [];
+    list.push(entry);
+    seriesGroups.set(entry.seriesId, list);
+  }
+  const series = [...seriesGroups.entries()].map(([id, list]) => {
+    const doc = seriesDocs.find((item) => item.id === id);
+    const slug = slugify(id.replace(/^series:/, ''));
+    const members = list.slice().sort((a, b) => (a.seriesOrder || 999) - (b.seriesOrder || 999));
+    return {
+      id,
+      slug,
+      path: `/series/${slug}.html`,
+      title: doc?.label || id.replace(/^series:/, ''),
+      description: doc?.description || '',
+      memberIds: members.map((item) => item.id),
+    };
+  });
+
+  for (const item of series) {
+    const members = item.memberIds.map((id) => entries.find((entry) => entry.id === id)).filter(Boolean);
+    const first = members[0];
+    if (!first) continue;
+    const nav = members
+      .map((member, index) => `<span class="series-nav__item${index === 0 ? ' is-active' : ''}">${escapeHtml(member.title)}</span>`)
+      .join('');
+    const body = `
+<article class="article-surface series-page">
+  <p class="hero__eyebrow">系列 · ${members.length} 篇</p>
+  <h1 class="hero__title">${escapeHtml(item.title)}</h1>
+  ${item.description ? `<p class="hero__text">${escapeHtml(item.description)}</p>` : ''}
+  <nav class="series-nav">${nav}</nav>
+  ${renderEntryInner(first, bodyByEntry, assetsByEntry, assetsById)}
+</article>`;
+    const document = renderDocument({
+      body,
+      title: item.title,
+      description: item.description,
+      url: `${SITE_URL}${item.path}`,
+      phase: first.phase,
+      cover: first.coverUrl,
+      redirectTo: `/?phase=${encodeURIComponent(first.phase)}&series=${encodeURIComponent(item.id)}&entry=${encodeURIComponent(first.id)}`,
+    });
+    const file = pathToFile(outDir, item.path);
+    await ensureDir(file.replace(/[^\\/]+$/, ''));
+    await writeFile(file, document, 'utf8');
+    pages += 1;
+  }
+
+  // Logic 展示页：kind=page 的条目承载简介与技术栈
+  const showcaseEntry = pageEntries.find((entry) => entry.phase === 'logic');
+  const showcase = showcaseEntry
+    ? {
+      entryId: showcaseEntry.id,
+      intro: showcaseEntry.intro || '',
+      techStack: showcaseEntry.techStack || [],
+      projectIds: showcaseEntry.projects || [],
+    }
+    : null;
+
   const tagCounts = new Map();
   for (const item of [...entries, ...moments]) {
     for (const tag of item.tags || []) {
@@ -230,7 +303,10 @@ async function main() {
       label: section.label,
       phase: section.phase,
       layout: section.layout || 'magazine',
+      description: section.description || '',
     }])),
+    series,
+    showcase,
     tags: [...tagCounts.entries()]
       .map(([label, count]) => ({ label, count }))
       .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'zh-Hans-CN')),
@@ -266,7 +342,11 @@ async function main() {
     await cp(resolve('assets/favicon.svg'), join(outDir, 'assets/favicon.svg'));
   }
 
-  const items = [...entries.map((entry) => ({ path: entry.path, date: entry.publishedAt, title: entry.title })), ...moments.map((moment) => ({ path: `/moment/${moment.id}.html`, date: moment.publishedAt, title: moment.summary?.slice(0, 30) || '动态' }))];
+  const items = [
+    ...entries.map((entry) => ({ path: entry.path, date: entry.publishedAt, title: entry.title })),
+    ...series.map((item) => ({ path: item.path, date: new Date().toISOString(), title: item.title })),
+    ...moments.map((moment) => ({ path: `/moment/${moment.id}.html`, date: moment.publishedAt, title: moment.summary?.slice(0, 30) || '动态' })),
+  ];
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <title>BIFROST</title>

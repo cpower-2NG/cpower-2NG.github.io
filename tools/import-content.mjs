@@ -437,6 +437,7 @@ async function main() {
     section,
     tags,
     seriesId: argument('series') ? `series:${slugify(argument('series'))}` : (reuse.seriesId || null),
+    seriesOrder: Number(argument('series-order', reuse.seriesOrder || 0)) || null,
     slug,
     path,
     title,

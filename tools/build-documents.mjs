@@ -176,6 +176,7 @@ async function main() {
     section: pkg.section,
     tags: pkg.tags || [],
     seriesId: pkg.seriesId || null,
+    seriesOrder: pkg.seriesOrder || null,
     slug: pkg.slug || slugify(pkg.title),
     path: pkg.path,
     title: pkg.title,
