@@ -46,9 +46,10 @@ async function main() {
     stdio: 'ignore',
   });
 
+  let browser = null;
   try {
     await waitForServer();
-    const browser = await chromium.launch({ executablePath: chromiumExecutable() });
+    browser = await chromium.launch({ executablePath: chromiumExecutable() });
     // 宽屏：阅读信息栏只在 ≥1200px 出现
     const page = await browser.newPage({ viewport: { width: 1400, height: 1000 } });
     const step = (name) => console.log(`  · ${name}`);
@@ -231,9 +232,10 @@ async function main() {
 
     const blocking = errors.filter((message) => !/favicon|net::ERR_/i.test(message));
     assert.equal(blocking.length, 0, `控制台有错误：${blocking.slice(0, 3).join(' | ')}`);
-    await browser.close();
     console.log('site-navigation: 全部通过');
   } finally {
+    // 浏览器必须在 finally 里关掉：断言失败时若留着连接，进程不会退出，CI 会一直挂着
+    await browser?.close().catch(() => undefined);
     server.kill();
   }
 }
