@@ -40,7 +40,7 @@ jobs:
       - name: Prepare static artifact
         run: |
           mkdir -p .pages
-          cp -r 404.html assets content core data feed.xml index.html sitemap.xml admin.html robots.txt moment .pages/
+          cp -r 404.html assets content core data feed.xml index.html sitemap.xml admin.html robots.txt moment series .pages/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
