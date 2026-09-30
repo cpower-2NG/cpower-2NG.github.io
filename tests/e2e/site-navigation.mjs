@@ -166,6 +166,14 @@ async function main() {
     assert.equal(await page.locator('.moment-card').count(), 3, '日常应有 3 条动态');
     assert.equal(await page.locator('.moment-card .moment-card').count(), 0, '日常条目不应再套卡片');
     assert.equal(await page.locator('.moment-feed').evaluate((node) => getComputedStyle(node).maxWidth !== 'none'), true, '日常流应有版心宽度');
+    // 计数默认显示，不需要先点开
+    await page.waitForFunction(
+      () => /\d/.test(document.querySelector('.moment-action')?.textContent || ''),
+      { timeout: 20000 },
+    );
+    const actionText = (await page.locator('.moment-action').first().textContent())?.trim();
+    assert.match(actionText, /\d/, `评论按钮应默认显示数量，实际「${actionText}」`);
+    step(`计数默认显示：${actionText}`);
     await page.locator('.moment-action', { hasText: '评论' }).first().click();
     await page.waitForSelector('.moment-thread', { timeout: 20000 });
     assert.ok(await page.locator('.moment-thread .comment-form').count() >= 1, '展开后应有评论表单');

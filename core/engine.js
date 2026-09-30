@@ -658,7 +658,7 @@
         `).join('')}
       </div>
     `;
-    mountInlineInteractions();
+    void mountInlineInteractions();
   }
 
   function renderMoment(moment) {
@@ -682,19 +682,22 @@
     `;
   }
 
-  /** 时间流里的每条动态各挂一个独立的互动块（按需加载，互不干扰）。 */
-  function mountInlineInteractions() {
+  /** 时间流里的每条动态各挂一个独立的互动块；计数用一次批量请求取回。 */
+  async function mountInlineInteractions() {
     const interactions = window.BifrostInteractions;
     const config = state.siteConfig ? state.siteConfig.interactions : null;
     if (!interactions || typeof interactions.mountInline !== 'function') return;
-    el.view.querySelectorAll('[data-moment]').forEach((card) => {
-      const bar = interactions.mountInline(
-        { entryId: card.dataset.moment },
-        config,
-        state.phase,
-      );
-      card.append(bar);
-    });
+    const cards = [...el.view.querySelectorAll('[data-moment]')];
+    if (!cards.length) return;
+    const summaries = typeof interactions.fetchSummaries === 'function'
+      ? await interactions.fetchSummaries(cards.map((card) => card.dataset.moment), config)
+      : new Map();
+    for (const card of cards) {
+      // 批量请求期间可能已经切走，跳过已卸载的卡片
+      if (!card.isConnected) continue;
+      const id = card.dataset.moment;
+      card.append(interactions.mountInline({ entryId: id }, config, state.phase, summaries.get(id) || null));
+    }
   }
 
   // ---------- 系列 ----------

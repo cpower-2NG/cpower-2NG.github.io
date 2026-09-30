@@ -493,13 +493,39 @@
     }
   }
 
-  /** 时间流里的轻量互动块：默认只有「评论 / 赞」两个按钮，点开评论才加载。 */
-  function mountInline(entry, config, phase) {
+  /** 批量取回多条条目的互动计数；失败时返回空表，页面照常显示。 */
+  async function fetchSummaries(entryIds, config) {
+    const ids = [...new Set((entryIds || []).filter(Boolean))];
+    if (!configured(config) || !ids.length) return new Map();
+    try {
+      const payload = await request(
+        config,
+        `/summaries?entryIds=${encodeURIComponent(ids.join(','))}&visitorId=${encodeURIComponent(visitorId())}`,
+      );
+      if (!payload?.enabled) return new Map();
+      return new Map((payload.items || []).map((item) => [item.entryId, item]));
+    } catch {
+      return new Map();
+    }
+  }
+
+  /**
+   * 时间流里的轻量互动块：计数默认显示，点「评论」只是展开评论面板。
+   * summary 由 fetchSummaries 批量取得；没取到就退化成不带数字的按钮。
+   */
+  function mountInline(entry, config, phase, summary = null) {
     const bar = element('div', 'moment__actions');
-    const commentButton = element('button', 'moment-action', '评论');
+    const commentButton = element('button', 'moment-action', summary ? `评论 ${Number(summary.commentCount) || 0}` : '评论');
     commentButton.type = 'button';
-    const likeButton = element('button', 'moment-action', '赞');
+    const likeButton = element('button', 'moment-action');
     likeButton.type = 'button';
+    const applyLike = (liked, likes) => {
+      likeButton.classList.toggle('is-active', liked);
+      likeButton.setAttribute('aria-pressed', String(liked));
+      likeButton.textContent = `${liked ? '已赞' : '赞'} ${Number(likes) || 0}`;
+    };
+    if (summary) applyLike(Boolean(summary.liked), summary.likes);
+    else likeButton.textContent = '赞';
     bar.append(commentButton, likeButton);
 
     if (!configured(config) || !entry) {
@@ -650,10 +676,7 @@
           method: 'POST',
           body: { entryId: entry.entryId, visitorId: visitorId() },
         });
-        const liked = Boolean(result.liked);
-        const likes = Number(result.likes) || 0;
-        likeButton.classList.toggle('is-active', liked);
-        likeButton.textContent = liked ? `已赞 ${likes}` : `赞 ${likes}`;
+        applyLike(Boolean(result.liked), result.likes);
       } catch (error) {
         likeButton.title = error.message;
       } finally {
@@ -685,6 +708,7 @@
 
   window.BifrostInteractions = {
     clear,
+    fetchSummaries,
     mount,
     mountInline,
     setPhase,

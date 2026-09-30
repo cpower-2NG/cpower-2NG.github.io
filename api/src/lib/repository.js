@@ -108,6 +108,44 @@ export function visitorHash(visitorId) {
   return hashSecret(`visitor:${visitorId}`);
 }
 
+/**
+ * 批量摘要：时间流里一次取回多条动态的计数，避免逐条请求。
+ * 三条查询都是跨分区聚合，但一次搞定，比 N 次点读便宜得多。
+ */
+export async function getInteractionSummaries(entryIds, viewerId) {
+  const ids = [...new Set((entryIds || []).filter(Boolean))].slice(0, 60);
+  if (!ids.length) return [];
+  const { signals, comments } = cosmosContainers();
+  const viewer = visitorHash(viewerId);
+
+  const [metrics, reactions, commentCounts] = await Promise.all([
+    signals.items.query({
+      query: "SELECT c.entryId, c.likes, c.views FROM c WHERE c.type = 'metric' AND ARRAY_CONTAINS(@ids, c.entryId)",
+      parameters: [{ name: '@ids', value: ids }],
+    }).fetchAll(),
+    signals.items.query({
+      query: "SELECT c.entryId, c.active FROM c WHERE c.type = 'reaction' AND c.visitorHash = @viewer AND ARRAY_CONTAINS(@ids, c.entryId)",
+      parameters: [{ name: '@viewer', value: viewer }, { name: '@ids', value: ids }],
+    }).fetchAll(),
+    comments.items.query({
+      query: "SELECT c.entryId, COUNT(1) AS n FROM c WHERE c.type = 'comment' AND c.status = 'published' AND ARRAY_CONTAINS(@ids, c.entryId) GROUP BY c.entryId",
+      parameters: [{ name: '@ids', value: ids }],
+    }).fetchAll(),
+  ]);
+
+  const metricByEntry = new Map(metrics.resources.map((item) => [item.entryId, item]));
+  const likedByEntry = new Map(reactions.resources.map((item) => [item.entryId, Boolean(item.active)]));
+  const commentsByEntry = new Map(commentCounts.resources.map((item) => [item.entryId, Number(item.n) || 0]));
+
+  return ids.map((entryId) => ({
+    entryId,
+    likes: Number(metricByEntry.get(entryId)?.likes) || 0,
+    views: Number(metricByEntry.get(entryId)?.views) || 0,
+    commentCount: commentsByEntry.get(entryId) || 0,
+    liked: likedByEntry.get(entryId) || false,
+  }));
+}
+
 export async function getInteractionSummary(entryId, viewerId) {
   const { comments } = cosmosContainers();
   const metric = await readMetric(entryId);
