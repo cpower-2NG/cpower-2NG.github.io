@@ -112,7 +112,8 @@ async function main() {
     // 打开文章：版式属性齐全 + 阅读信息栏 + 上下篇
     step('阅读页版式与阅读信息栏');
     await page.locator('.magazine .entry-card').first().click();
-    await page.waitForSelector('.entry-meta');
+    // 宽屏下元信息行会被 CSS 隐藏，用阅读信息栏判断是否已进入阅读视图
+    await page.waitForSelector('.reading-gutter');
     await page.waitForSelector('.content-viewer .article-surface');
     const attrs = await page.evaluate(() => ({
       reading: document.documentElement.dataset.readingLayout,
@@ -198,7 +199,7 @@ async function main() {
     await page.goto(`${baseUrl}/?phase=fantasy&section=activity`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.lead-card__cover img');
     await page.locator('.lead-card__cover img').first().click();
-    await page.waitForSelector('.entry-meta', { timeout: 15000 });
+    await page.waitForSelector('.reading-gutter', { timeout: 15000 });
     assert.equal(await page.locator('dialog[open]').count(), 0, '点封面不应弹出图片预览');
 
     // 深链：静态页自动进入阅读视图
