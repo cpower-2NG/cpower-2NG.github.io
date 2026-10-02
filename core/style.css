@@ -4300,6 +4300,8 @@ html[data-phase="fantasy"] .moment-month__label::before {
 
 .search-panel .command-input {
   height: 46px;
+  /* 给聚焦描边留出空间，避免压到下面的分面标签 */
+  margin-bottom: 12px;
   font-size: 16px;
   border-color: var(--border-strong);
 }
