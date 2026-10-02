@@ -103,7 +103,24 @@ ${FRAGMENT_END}
 `;
 }
 
-function entryCard(entry) {
+/** 本地兜底搜索用的正文纯文本（前 800 字）：去标记、去脚本、合并空白。 */
+function extractSearchText(html) {
+  return String(html || '')
+    .replace(/<!--[\s\S]*?-->/g, ' ')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 800);
+}
+
+function entryCard(entry, body) {
   const tags = (entry.tags || []).slice(0, 3).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('');
   return {
     id: entry.id,
@@ -127,6 +144,7 @@ function entryCard(entry) {
     seriesId: entry.seriesId || '',
     seriesOrder: entry.seriesOrder || null,
     hasPublication: Boolean(entry.publication),
+    searchText: extractSearchText(body?.html),
   };
 }
 
@@ -310,7 +328,7 @@ async function main() {
     tags: [...tagCounts.entries()]
       .map(([label, count]) => ({ label, count }))
       .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'zh-Hans-CN')),
-    entries: entries.map(entryCard),
+    entries: entries.map((entry) => entryCard(entry, bodyByEntry.get(entry.id))),
     moments: moments.map((moment) => ({
       id: moment.id,
       path: `/moment/${moment.id}.html`,

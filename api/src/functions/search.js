@@ -20,6 +20,25 @@ function quote(value) {
   return `'${String(value).replaceAll("'", "''")}'`;
 }
 
+/** from 参数只接受 YYYY-MM-DD，转成 UTC 零点的 OData 日期字面量（不带引号）。 */
+function dateLiteral(value) {
+  const raw = String(value || '').trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return '';
+  return `${raw}T00:00:00.000Z`;
+}
+
+/** 从命中高亮里挑一段摘要：正文优先，其次摘要与标题。 */
+function snippetFrom(highlights) {
+  if (!highlights) return '';
+  for (const field of ['bodyText', 'summary', 'title']) {
+    const fragments = highlights[field];
+    if (Array.isArray(fragments) && fragments.length) {
+      return fragments.join(' … ').slice(0, 220);
+    }
+  }
+  return '';
+}
+
 const SELECT_FIELDS = [
   'entryId', 'entryType', 'title', 'summary', 'phase', 'section', 'tags',
   'seriesId', 'kind', 'publishedAt', 'path', 'coverUrl', 'wordCount',
@@ -41,6 +60,7 @@ app.http('search', {
       const phase = text(request.query.get('phase'), '位面', { max: 20 });
       const section = text(request.query.get('section'), '分区', { max: 40 });
       const entryType = text(request.query.get('type'), '类型', { max: 20 });
+      const from = dateLiteral(request.query.get('from'));
       const tags = String(request.query.get('tags') || '')
         .split(',')
         .map((tag) => tag.trim())
@@ -52,6 +72,7 @@ app.http('search', {
       if (phase) filters.push(`phase eq ${quote(phase)}`);
       if (section) filters.push(`section eq ${quote(section)}`);
       if (entryType) filters.push(`entryType eq ${quote(entryType)}`);
+      if (from) filters.push(`publishedAt ge ${from}`);
       for (const tag of tags) {
         filters.push(`tags/any(t: t eq ${quote(tag)})`);
       }
@@ -63,11 +84,22 @@ app.http('search', {
         includeTotalCount: true,
         orderBy: query ? undefined : ['pinned desc', 'publishedAt desc'],
         select: SELECT_FIELDS,
+        ...(query
+          ? {
+              highlightFields: 'title,summary,bodyText',
+              highlightPreTag: '<mark>',
+              highlightPostTag: '</mark>',
+            }
+          : {}),
       });
 
       const items = [];
       for await (const result of response.results) {
-        items.push({ score: result.score ?? null, ...result.document });
+        items.push({
+          score: result.score ?? null,
+          snippet: snippetFrom(result.highlights || result.document?.['@search.highlights'] || null),
+          ...result.document,
+        });
       }
       const facets = (await response.facets) || {};
 

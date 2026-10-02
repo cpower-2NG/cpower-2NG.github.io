@@ -46,6 +46,19 @@
     },
   };
 
+  // 分区英文角标：比直译更讲究一档，Logic 保持简短技术风
+  const SECTION_EN = {
+    daily: 'MOMENTS',
+    review: 'CRITIQUE',
+    activity: 'FIELDNOTES',
+    essay: 'MISCELLANY',
+    archive: 'ARCHIVES',
+    docs: 'DOCS',
+    notes: 'NOTES',
+    algo: 'ALGO',
+    showcase: 'SHOWCASE',
+  };
+
   const state = {
     index: null,
     siteConfig: {},
@@ -148,6 +161,7 @@
 
     el.searchPanel = document.querySelector('[data-search-panel]');
     el.searchTrigger = document.querySelector('[data-search-trigger]');
+    el.searchKey = document.querySelector('[data-search-key]');
     el.searchInput = document.querySelector('[data-search-input]');
     el.searchFacets = document.querySelector('[data-search-facets]');
     el.searchResults = document.querySelector('[data-search-results]');
@@ -165,6 +179,7 @@
     if (el.soundToggle) el.soundToggle.addEventListener('click', onSoundToggle);
     if (el.searchTrigger) el.searchTrigger.addEventListener('click', () => openSearch());
     if (el.phaseTrigger) el.phaseTrigger.addEventListener('click', () => openPhasePanel());
+    if (el.searchKey) el.searchKey.textContent = isApplePlatform() ? '⌘K' : 'Ctrl K';
 
     if (el.searchInput) {
       el.searchInput.addEventListener('input', () => {
@@ -176,7 +191,7 @@
     el.searchPanel.addEventListener('click', (event) => {
       if (event.target === el.searchPanel) closePanels();
     });
-    el.searchResults.addEventListener('click', onPanelResultClick);
+    el.searchResults.addEventListener('click', onSearchResultsClick);
     el.searchFacets.addEventListener('click', onFacetClick);
 
     // 面板内部每次打开都会重建，所以事件都委托在面板根节点上
@@ -389,11 +404,24 @@
     const style = PHASE_STYLE[state.phase] || PHASE_STYLE.fantasy;
     const entries = phaseEntries();
     const moments = phaseMoments();
-    const sections = (config.sections || []).filter((section) => section.id !== 'showcase');
+    // 日常已有专属预览卡，磁贴里不再重复入口
+    const sections = (config.sections || []).filter((section) => section.id !== 'showcase' && section.id !== 'daily');
     const counts = sectionCounts();
+    const totalWords = entries.reduce((sum, entry) => sum + (entry.wordCount || 0), 0);
+    const wordText = totalWords >= 10000 ? `${(totalWords / 10000).toFixed(1)} 万字` : `${totalWords} 字`;
+    const lastUpdate = entries[0]?.date || '';
 
     el.view.innerHTML = `
       ${renderHero(config, style)}
+
+      <section class="home-stats" aria-label="站点统计">
+        <span class="home-stats__item"><b>${entries.length}</b> 篇文章</span>
+        <span class="home-stats__dot" aria-hidden="true"></span>
+        <span class="home-stats__item"><b>${moments.length}</b> 条日常</span>
+        <span class="home-stats__dot" aria-hidden="true"></span>
+        <span class="home-stats__item">共 <b>${escapeHtml(wordText)}</b></span>
+        ${lastUpdate ? `<span class="home-stats__dot" aria-hidden="true"></span><span class="home-stats__item">最近更新 <b>${escapeHtml(lastUpdate)}</b></span>` : ''}
+      </section>
 
       ${moments.length ? `
         <section class="home-card">
@@ -411,10 +439,12 @@
             const meta = sectionMeta(section.id);
             const count = counts.get(section.id) || 0;
             const desc = meta.description || (meta.layout === 'timeline' ? '短动态时间流' : '');
+            const glyph = escapeHtml(String(section.label || '?').charAt(0));
             return `
-              <a class="section-tile" data-action="section" data-section="${escapeHtml(section.id)}" href="?phase=${state.phase}&section=${encodeURIComponent(section.id)}">
+              <a class="section-tile${count ? '' : ' section-tile--empty'}" data-action="section" data-section="${escapeHtml(section.id)}" href="?phase=${state.phase}&section=${encodeURIComponent(section.id)}">
+                <span class="section-tile__glyph" aria-hidden="true">${glyph}</span>
                 <span class="section-tile__label">${escapeHtml(section.label)}</span>
-                <span class="section-tile__desc">${escapeHtml([desc, count ? `${count} 篇` : '暂无'].filter(Boolean).join(' · '))}</span>
+                <span class="section-tile__desc">${escapeHtml([desc, count ? `${count} 篇` : '筹备中'].filter(Boolean).join(' · '))}</span>
               </a>`;
           }).join('')}
         </div>
@@ -424,7 +454,7 @@
         <section class="home-block">
           <div class="home-block__head">
             <h2>最近更新</h2>
-            <span class="home-card__more">共 ${entries.length} 篇</span>
+            <button class="home-card__more" type="button" data-action="search-all">共 ${entries.length} 篇 →</button>
           </div>
           <div class="entry-rows">
             ${entries.slice(0, 6).map((entry) => renderEntryRow(entry)).join('')}
@@ -474,24 +504,47 @@
   }
 
   function renderHomeMoment(moment) {
+    const media = moment.video && moment.video.coverUrl
+      ? `<span class="home-moment__media"><img src="${escapeHtml(moment.video.coverUrl)}" alt="" loading="lazy"></span>`
+      : '';
     return `
-      <article class="home-moment">
+      <a class="home-moment" href="${escapeHtml(moment.path)}" data-action="moment" data-moment="${escapeHtml(moment.id)}">
         <div class="home-moment__meta">
-          <span class="home-moment__time">${escapeHtml(formatDate(String(moment.publishedAt).slice(0, 10)))}</span>
+          <span class="home-moment__time">${escapeHtml(relativeDate(moment.publishedAt))}</span>
           ${(moment.tags || []).slice(0, 2).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
         </div>
+        ${media}
         <p class="home-moment__text">${escapeHtml(moment.text || moment.summary || '')}</p>
-      </article>
+      </a>
     `;
   }
 
   function renderEntryRow(entry) {
+    const thumb = entry.coverUrl
+      ? `<span class="entry-row__thumb"><img src="${escapeHtml(entry.coverUrl)}" alt="" loading="lazy"></span>`
+      : renderMiniCover(entry);
     return `
       <a class="entry-row" data-action="entry" data-entry="${escapeHtml(entry.entryId)}" href="${escapeHtml(entry.path)}">
+        ${thumb}
         <span class="entry-row__date">${escapeHtml(formatDate(entry.date))}</span>
         <span class="entry-row__title">${escapeHtml(entry.title)}</span>
         <span class="entry-row__section">${escapeHtml(sectionMeta(entry.section).label || '')}</span>
       </a>
+    `;
+  }
+
+  /** 最近更新行的 36px mini 封面：与卡片封面同一套哈希变体。 */
+  function renderMiniCover(entry) {
+    const title = String(entry.title || '').trim();
+    const hash = coverHash(title);
+    const glyph = escapeHtml(title.charAt(0) || '文');
+    const textures = ['noise', 'grid', 'dots', 'diag'];
+    return `
+      <span class="entry-row__thumb cover cover--mini cover--w${hash % 5} cover--tex-${textures[hash % textures.length]}" aria-hidden="true">
+        <i class="cover__wash"></i>
+        <i class="cover__tex"></i>
+        <span class="cover__title"><span class="cover__title-text">${glyph}</span></span>
+      </span>
     `;
   }
 
@@ -601,11 +654,17 @@
   function renderSeriesCard(series, wrapperClass = 'entry-card') {
     const members = seriesMembers(series);
     const cover = members.find((member) => member.coverUrl);
+    // 系列封面：成员封面 → 以系列标题生成的文字封面
+    const coverHtml = cover
+      ? `<span class="${wrapperClass === 'lead-card' ? 'lead-card__cover' : 'entry-card__cover'}"><img src="${escapeHtml(cover.coverUrl)}" alt="" loading="lazy"></span>`
+      : renderTextCover({
+          title: series.title,
+          section: members[0]?.section || '',
+          date: members[0]?.date || '',
+        }, wrapperClass === 'lead-card' ? 'lead-card__cover' : 'entry-card__cover');
     return `
       <a class="${wrapperClass}" data-action="series" data-series="${escapeHtml(series.id)}" href="${escapeHtml(series.path)}">
-        ${wrapperClass === 'lead-card'
-          ? `<span class="lead-card__cover">${cover ? `<img src="${escapeHtml(cover.coverUrl)}" alt="" loading="lazy">` : ''}</span>`
-          : ''}
+        ${coverHtml}
         <span class="${wrapperClass === 'lead-card' ? 'lead-card__body' : 'entry-card__body'}">
           <span class="series-card__badge">系列 · ${members.length} 篇</span>
           <span class="${wrapperClass === 'lead-card' ? 'lead-card__title' : 'entry-card__title'}">${escapeHtml(series.title)}</span>
@@ -619,12 +678,62 @@
     if (entry.coverUrl) {
       return `<span class="${className}"><img src="${escapeHtml(entry.coverUrl)}" alt="" loading="lazy"></span>`;
     }
-    return `<span class="${className} ${className}--text" aria-hidden="true"><span>${escapeHtml(textCover(entry.title))}</span></span>`;
+    return renderTextCover(entry, className);
   }
 
-  function textCover(title) {
-    const text = String(title || '').trim();
-    return text.length > 18 ? text.slice(0, 18) : text;
+  // ---------- 文字封面：标题哈希决定 wash/纹理/排布，同一篇全站恒定 ----------
+
+  function coverHash(text) {
+    let hash = 0;
+    const value = String(text || '');
+    for (let i = 0; i < value.length; i += 1) hash = (hash * 31 + value.charCodeAt(i)) >>> 0;
+    return hash;
+  }
+
+  /** 标点优先断句：在断点插 <wbr>，浏览器优先在此换行；行数上限交给 CSS line-clamp。 */
+  function breakableTitle(title) {
+    return escapeHtml(title)
+      .replace(/[·・—–：:，,、。；;！!？?）)]/g, (mark) => `${mark}<wbr>`)
+      .replace(/[（(]/g, (mark) => `<wbr>${mark}`);
+  }
+
+  function coverDate(date) {
+    const value = String(date || '');
+    return value.length >= 7 ? `${value.slice(0, 4)}.${value.slice(5, 7)}` : '';
+  }
+
+  function renderTextCover(entry, className) {
+    const title = String(entry.title || '').trim() || '未命名';
+    const hash = coverHash(title);
+    const phase = state.phase === 'fantasy' ? 'fantasy' : 'logic';
+    // 竖排题笺仅 Fantasy 且短标题；长标题在 A/B/D 之间轮换
+    const layouts = phase === 'fantasy' && title.length <= 10
+      ? ['center', 'spine', 'vertical', 'dossier']
+      : ['center', 'spine', 'dossier'];
+    const layout = layouts[hash % layouts.length];
+    const wash = hash % 5;
+    const textures = phase === 'fantasy' ? ['noise', 'grid', 'dots', 'diag'] : ['grid', 'dots', 'diag', 'noise'];
+    const texture = textures[hash % textures.length];
+    const glyph = escapeHtml(title.charAt(0));
+    const sectionLabel = entry.section ? sectionMeta(entry.section).label : '';
+    const sectionEn = entry.section ? (SECTION_EN[entry.section] || sectionMeta(entry.section).id.toUpperCase()) : '';
+    // 编号档案框：分区英文前三位 + 年月（如 CRI 2026.09）
+    const refPrefix = sectionEn ? sectionEn.slice(0, 3) : 'REF';
+    const kicker = sectionLabel || sectionEn
+      ? `<span class="cover__kicker" aria-hidden="true">${escapeHtml(sectionLabel)}${sectionLabel && sectionEn ? ' · ' : ''}${escapeHtml(sectionEn)}</span>`
+      : '<span class="cover__kicker" aria-hidden="true">系列 · SERIES</span>';
+    const size = className.startsWith('lead-') ? ' cover--lead' : '';
+    return `
+      <span class="${className} ${className}--text cover cover--${layout} cover--w${wash} cover--tex-${texture}${size}" aria-hidden="true">
+        <i class="cover__wash"></i>
+        <i class="cover__tex"></i>
+        <span class="cover__watermark">${glyph}</span>
+        ${kicker}
+        <span class="cover__title"><span class="cover__title-text">${breakableTitle(title)}</span></span>
+        ${coverDate(entry.date) ? `<span class="cover__date" data-ref="${escapeHtml(refPrefix)}">${escapeHtml(coverDate(entry.date))}</span>` : ''}
+        <span class="cover__stamp">${glyph}</span>
+      </span>
+    `;
   }
 
   function renderTags(entry, max) {
@@ -635,48 +744,138 @@
 
   // ---------- 日常时间流 ----------
 
+  const DAILY_BATCH = 3;
+
+  /** 纯文本动态：裸链自动成链接、#话题# 染色（QQ 空间常见格式）。 */
+  function formatMomentText(text) {
+    return escapeHtml(text)
+      .replace(/#([^#\s]{1,24})#/g, '<span class="moment__topic">#$1#</span>')
+      .replace(/(https?:\/\/[^\s<"]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+  }
+
+  function relativeDate(value) {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return formatDate(value);
+    const days = Math.floor((Date.now() - date.getTime()) / 86400000);
+    if (days <= 0) return '今天';
+    if (days === 1) return '昨天';
+    if (days < 30) return `${days} 天前`;
+    if (days < 365) return `${Math.floor(days / 30)} 个月前`;
+    return formatDate(String(value).slice(0, 10));
+  }
+
   function renderDailyFeed(config, section) {
-    const moments = phaseMoments().filter((moment) => moment.section === section.id);
+    // 置顶排最前，其余按月份倒序；月份分批渲染（设计决策 4：滚动加载）
+    const all = phaseMoments().filter((moment) => moment.section === section.id);
+    const pinned = all.filter((moment) => moment.pinned);
+    const rest = all.filter((moment) => !moment.pinned);
     const byMonth = new Map();
-    for (const moment of moments) {
+    for (const moment of rest) {
       const list = byMonth.get(moment.month) || [];
       list.push(moment);
       byMonth.set(moment.month, list);
     }
+    const months = [...byMonth.entries()];
+    state.dailyMonths = months;
+    state.dailyRendered = 0;
+
     el.view.innerHTML = `
-      <section class="article-surface view__hero">
-        <p class="hero__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(section.label)}</p>
-        <h1 class="hero__title">${escapeHtml(section.label)}</h1>
-        <p class="hero__text">共 ${moments.length} 条，按月份倒序。</p>
-      </section>
+      <header class="daily-head">
+        <p class="daily-head__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(SECTION_EN[section.id] || section.id.toUpperCase())}</p>
+        <div class="daily-head__row">
+          <h1 class="daily-head__title">${escapeHtml(section.label)}</h1>
+          <span class="daily-head__count">共 ${all.length} 条 · 按月份倒序${pinned.length ? ` · 置顶 ${pinned.length}` : ''}</span>
+        </div>
+      </header>
       <div class="moment-feed">
-        ${[...byMonth.entries()].map(([month, list]) => `
-          <section class="moment-month">
-            <h2 class="moment-month__label">${escapeHtml(month)}</h2>
-            ${list.map((moment) => renderMoment(moment)).join('')}
-          </section>
-        `).join('')}
+        ${pinned.length ? `
+          <section class="moment-month moment-month--pinned">
+            <h2 class="moment-month__label">置顶</h2>
+            ${pinned.map((moment) => renderMoment(moment, true)).join('')}
+          </section>` : ''}
+        ${renderDailyMonths()}
       </div>
+      ${months.length > DAILY_BATCH ? `
+        <div class="moment-feed__foot">
+          <button class="moment-feed__more" type="button" data-daily-more>
+            显示更早的动态 <i>还有 ${months.length - DAILY_BATCH} 个月</i>
+          </button>
+        </div>` : ''}
     `;
+    state.dailyRendered = Math.min(DAILY_BATCH, months.length);
+    bindDailyMore();
     void mountInlineInteractions();
   }
 
-  function renderMoment(moment) {
+  /** 渲染下一批月份的 HTML（含首次批量）。 */
+  function renderDailyMonths() {
+    const months = state.dailyMonths || [];
+    const from = state.dailyRendered || 0;
+    const to = Math.min(months.length, from + DAILY_BATCH);
+    return months.slice(from, to).map(([month, list]) => `
+      <section class="moment-month">
+        <h2 class="moment-month__label">
+          <span>${escapeHtml(month)}</span>
+          <i>${list.length} 条</i>
+        </h2>
+        ${list.map((moment) => renderMoment(moment)).join('')}
+      </section>
+    `).join('');
+  }
+
+  function bindDailyMore() {
+    const button = el.view.querySelector('[data-daily-more]');
+    if (!button) return;
+    const append = () => {
+      const html = renderDailyMonths();
+      state.dailyRendered = Math.min((state.dailyMonths || []).length, (state.dailyRendered || 0) + DAILY_BATCH);
+      button.closest('.moment-feed__foot').insertAdjacentHTML('beforebegin', html);
+      const remaining = (state.dailyMonths || []).length - state.dailyRendered;
+      if (remaining <= 0) {
+        button.closest('.moment-feed__foot').remove();
+        if (state.dailyObserver) {
+          state.dailyObserver.disconnect();
+          state.dailyObserver = null;
+        }
+      } else {
+        button.querySelector('i').textContent = `还有 ${remaining} 个月`;
+      }
+      void mountInlineInteractions();
+    };
+    button.addEventListener('click', append);
+    // 滚动到底自动加载
+    state.dailyObserver = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        state.dailyObserver.disconnect();
+        state.dailyObserver = null;
+        append();
+        bindDailyMore();
+      }
+    }, { root: el.main, rootMargin: '160px' });
+    state.dailyObserver.observe(button);
+  }
+
+  function renderMoment(moment, isPinned = false) {
     const video = moment.video && moment.video.watchUrl
       ? `<a class="moment__video" href="${escapeHtml(moment.video.watchUrl)}" target="_blank" rel="noopener noreferrer">
           ${moment.video.coverUrl ? `<img src="${escapeHtml(moment.video.coverUrl)}" alt="" loading="lazy">` : ''}
           <span class="moment__video-title">${escapeHtml(moment.video.title || moment.video.watchUrl)}</span>
         </a>`
       : '';
+    const flags = [
+      isPinned || moment.pinned ? '<span class="moment__flag">置顶</span>' : '',
+      moment.featured ? '<span class="moment__flag moment__flag--featured">精选</span>' : '',
+    ].filter(Boolean).join('');
     return `
-      <article class="moment-card" id="m-${escapeHtml(moment.id)}" data-moment="${escapeHtml(moment.id)}">
+      <article class="moment-card${moment.featured ? ' is-featured' : ''}" id="m-${escapeHtml(moment.id)}" data-moment="${escapeHtml(moment.id)}">
         <header class="moment__meta">
           <a class="moment__permalink" href="${escapeHtml(moment.path)}" title="这条动态的独立页面">
             <time>${escapeHtml(formatDate(String(moment.publishedAt).slice(0, 10)))}</time>
           </a>
+          ${flags}
           ${(moment.tags || []).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
         </header>
-        <div class="moment__body">${moment.html || `<p>${escapeHtml(moment.text || '')}</p>`}</div>
+        <div class="moment__body">${moment.html || `<p>${formatMomentText(moment.text || '')}</p>`}</div>
         ${video}
       </article>
     `;
@@ -687,7 +886,9 @@
     const interactions = window.BifrostInteractions;
     const config = state.siteConfig ? state.siteConfig.interactions : null;
     if (!interactions || typeof interactions.mountInline !== 'function') return;
-    const cards = [...el.view.querySelectorAll('[data-moment]')];
+    // 只挂未挂载过的卡片（分批加载后会重复进入这里）
+    const cards = [...el.view.querySelectorAll('[data-moment]')]
+      .filter((card) => card.dataset.interactionsMounted !== '1');
     if (!cards.length) return;
     const summaries = typeof interactions.fetchSummaries === 'function'
       ? await interactions.fetchSummaries(cards.map((card) => card.dataset.moment), config)
@@ -696,6 +897,7 @@
       // 批量请求期间可能已经切走，跳过已卸载的卡片
       if (!card.isConnected) continue;
       const id = card.dataset.moment;
+      card.dataset.interactionsMounted = '1';
       card.append(interactions.mountInline({ entryId: id }, config, state.phase, summaries.get(id) || null));
     }
   }
@@ -994,6 +1196,10 @@
       syncUrl();
     } else if (action === 'entry') {
       openEntry(link.dataset.entry).then(() => syncUrl());
+    } else if (action === 'moment') {
+      openMomentDeepLink(link.dataset.moment);
+    } else if (action === 'search-all') {
+      openSearch();
     } else if (action === 'series') {
       renderSeries(link.dataset.series).then(() => syncUrl());
     } else if (action === 'series-member') {
@@ -1013,7 +1219,8 @@
   }
 
   function searchDocs() {
-    const entries = (state.index.entries || []).map((entry) => ({
+    // 索引未就绪时（启动瞬间按 Ctrl/K）返回空表，面板降级为空态而不是抛错
+    const entries = (state.index?.entries || []).map((entry) => ({
       kind: 'entry',
       id: entry.entryId,
       path: entry.path,
@@ -1023,9 +1230,10 @@
       section: entry.section,
       tags: entry.tags || [],
       date: entry.date,
-      text: `${entry.title}\n${entry.summary || ''}\n${(entry.tags || []).join(' ')}`,
+      // searchText 由物化管线写入（正文前 800 字）；缺省时退回标题+摘要+标签
+      text: `${entry.title}\n${entry.summary || ''}\n${(entry.tags || []).join(' ')}\n${entry.searchText || ''}`,
     }));
-    const moments = (state.index.moments || []).map((moment) => ({
+    const moments = (state.index?.moments || []).map((moment) => ({
       kind: 'moment',
       id: moment.id,
       path: moment.path,
@@ -1040,11 +1248,90 @@
     return [...entries, ...moments];
   }
 
+  const RECENT_SEARCH_KEY = 'bifrost:recent-searches';
+  const TIME_FACETS = [
+    { key: 'week', label: '近一周', days: 7 },
+    { key: 'month', label: '近一月', days: 31 },
+    { key: 'quarter', label: '近三月', days: 92 },
+    { key: 'year', label: '今年', days: 366 },
+  ];
+
+  function isApplePlatform() {
+    const source = navigator.userAgentData?.platform || navigator.platform || navigator.userAgent || '';
+    return /Mac|iPhone|iPad|iPod/i.test(String(source));
+  }
+
+  function readRecentSearches() {
+    try {
+      const list = JSON.parse(localStorage.getItem(RECENT_SEARCH_KEY) || '[]');
+      return Array.isArray(list) ? list.filter((item) => typeof item === 'string') : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveRecentSearch(query) {
+    const trimmed = String(query || '').trim();
+    if (!trimmed) return;
+    const list = readRecentSearches().filter((item) => item !== trimmed);
+    list.unshift(trimmed);
+    try {
+      localStorage.setItem(RECENT_SEARCH_KEY, JSON.stringify(list.slice(0, 5)));
+    } catch {
+      /* 隐私模式下忽略 */
+    }
+  }
+
+  function clearRecentSearches() {
+    try {
+      localStorage.removeItem(RECENT_SEARCH_KEY);
+    } catch {
+      /* 忽略 */
+    }
+  }
+
+  function fromDateFor(key) {
+    const hit = TIME_FACETS.find((item) => item.key === key);
+    if (!hit) return '';
+    return new Date(Date.now() - hit.days * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  }
+
+  /** 转义后高亮查询词；剔除会破坏 HTML 实体的字符，避免 mark 截断 &amp; 这类转义序列。 */
+  function highlightText(text, query) {
+    const escaped = escapeHtml(text);
+    const safe = String(query || '').replace(/[&<>"'\s]*$/g, '').replace(/[.*+?^${}()|[\]\\&<>"']/g, '');
+    if (!safe) return escaped;
+    try {
+      return escaped.replace(new RegExp(safe, 'gi'), (match) => `<mark>${match}</mark>`);
+    } catch {
+      return escaped;
+    }
+  }
+
+  function snippetAround(text, query, radius = 72) {
+    const source = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!query) return source.slice(0, radius);
+    const index = source.toLowerCase().indexOf(query.toLowerCase());
+    if (index < 0) return '';
+    const start = Math.max(0, index - Math.floor(radius / 3));
+    const end = Math.min(source.length, start + radius);
+    return `${start > 0 ? '…' : ''}${source.slice(start, end)}${end < source.length ? '…' : ''}`;
+  }
+
+  function renderSearchSkeleton() {
+    el.searchResults.innerHTML = `
+      <div class="search-skeleton" aria-hidden="true">
+        ${'<span class="search-skeleton__row"></span>'.repeat(5)}
+      </div>`;
+  }
+
   function openSearch() {
     closePanels();
     el.searchPanel.classList.add('is-active');
     state.query = '';
-    state.facets = { phase: state.phase, section: '', tags: new Set() };
+    state.facets = { phase: state.phase, section: '', type: '', from: '', tags: new Set() };
+    state.showAllTags = false;
+    state.searchMeta = null;
     if (el.searchInput) el.searchInput.value = '';
     void runSearch();
     window.setTimeout(() => el.searchInput?.focus(), 0);
@@ -1058,6 +1345,18 @@
   }
 
   async function runSearch() {
+    const activeQuery = state.query.trim();
+    // 空态：没有关键词、也没有收窄条件时不打远程，只展示最近搜索与热门标签
+    const narrowed = Boolean(state.facets.section || state.facets.type || state.facets.from || state.facets.tags.size);
+    if (!activeQuery && !narrowed) {
+      searchToken += 1;
+      state.results = [];
+      state.activeIndex = 0;
+      state.searchMeta = null;
+      renderSearchFacets(localFacetCounts());
+      renderSearchResults();
+      return;
+    }
     const endpoint = searchEndpoint();
     if (!endpoint) {
       renderSearchLocal();
@@ -1065,12 +1364,15 @@
     }
     const token = (searchToken += 1);
     const params = new URLSearchParams();
-    const query = state.query.trim();
+    const query = activeQuery;
     if (query) params.set('q', query);
     if (state.facets.phase) params.set('phase', state.facets.phase);
     if (state.facets.section) params.set('section', state.facets.section);
+    if (state.facets.type) params.set('type', state.facets.type === 'moment' ? 'moment' : 'article');
+    if (state.facets.from) params.set('from', fromDateFor(state.facets.from));
     if (state.facets.tags.size) params.set('tags', [...state.facets.tags].join(','));
     params.set('limit', String(SEARCH_LIMIT));
+    if (token === searchToken) renderSearchSkeleton();
     try {
       const response = await fetch(`${endpoint}/search?${params.toString()}`, {
         signal: AbortSignal.timeout(6000),
@@ -1083,6 +1385,7 @@
       }
       state.results = (payload.items || []).map(toResultItem);
       state.activeIndex = 0;
+      state.searchMeta = { total: typeof payload.total === 'number' ? payload.total : state.results.length, source: 'remote' };
       renderSearchFacets(payload.facets || {});
       renderSearchResults();
     } catch {
@@ -1100,21 +1403,32 @@
       section: doc.section,
       tags: doc.tags || [],
       date: String(doc.publishedAt || '').slice(0, 10),
+      snippet: doc.snippet || '',
     };
   }
 
   function renderSearchFacets(facetCounts) {
+    state.lastFacetCounts = facetCounts;
     const countOf = (name, value) => {
       const hit = (facetCounts[name] || []).find((item) => item.value === value);
       return hit ? hit.count : 0;
     };
-    const sections = Object.values(state.index.sections || {})
+    const sections = Object.values(state.index?.sections || {})
       .filter((section) => !state.facets.phase || section.phase === state.facets.phase);
-    const tags = (facetCounts.tags || []).slice(0, 12);
+    const tagLimit = state.showAllTags ? 40 : 12;
+    const tags = (facetCounts.tags || []).slice(0, tagLimit);
+    const tagTotal = (facetCounts.tags || []).length;
+    const typeCountOf = (kind) => countOf('entryType', kind === 'moment' ? 'moment' : 'article');
     el.searchFacets.innerHTML = `
       <div class="facet-row">
         <span class="facet-label">位面</span>
-        ${(state.index.phases || []).map((phase) => `<button class="facet${state.facets.phase === phase.id ? ' is-on' : ''}" data-facet="phase" data-value="${escapeHtml(phase.id)}">${escapeHtml(phase.label)}${countOf('phase', phase.id) ? ` <i>${countOf('phase', phase.id)}</i>` : ''}</button>`).join('')}
+        ${(state.index?.phases || []).map((phase) => `<button class="facet${state.facets.phase === phase.id ? ' is-on' : ''}" data-facet="phase" data-value="${escapeHtml(phase.id)}">${escapeHtml(phase.label)}${countOf('phase', phase.id) ? ` <i>${countOf('phase', phase.id)}</i>` : ''}</button>`).join('')}
+      </div>
+      <div class="facet-row">
+        <span class="facet-label">类型</span>
+        <button class="facet${state.facets.type ? '' : ' is-on'}" data-facet="type" data-value="">全部</button>
+        <button class="facet${state.facets.type === 'entry' ? ' is-on' : ''}" data-facet="type" data-value="entry">文章${typeCountOf('entry') ? ` <i>${typeCountOf('entry')}</i>` : ''}</button>
+        <button class="facet${state.facets.type === 'moment' ? ' is-on' : ''}" data-facet="type" data-value="moment">动态${typeCountOf('moment') ? ` <i>${typeCountOf('moment')}</i>` : ''}</button>
       </div>
       <div class="facet-row">
         <span class="facet-label">分区</span>
@@ -1122,52 +1436,115 @@
         ${sections.map((section) => `<button class="facet${state.facets.section === section.id ? ' is-on' : ''}" data-facet="section" data-value="${escapeHtml(section.id)}">${escapeHtml(section.label)}${countOf('section', section.id) ? ` <i>${countOf('section', section.id)}</i>` : ''}</button>`).join('')}
       </div>
       <div class="facet-row">
+        <span class="facet-label">时间</span>
+        <button class="facet${state.facets.from ? '' : ' is-on'}" data-facet="from" data-value="">任何时间</button>
+        ${TIME_FACETS.map((item) => `<button class="facet${state.facets.from === item.key ? ' is-on' : ''}" data-facet="from" data-value="${item.key}">${item.label}</button>`).join('')}
+      </div>
+      <div class="facet-row">
         <span class="facet-label">标签</span>
         ${tags.length
           ? tags.map((tag) => `<button class="facet${state.facets.tags.has(tag.value) ? ' is-on' : ''}" data-facet="tag" data-value="${escapeHtml(tag.value)}">${escapeHtml(tag.value)} <i>${tag.count}</i></button>`).join('')
           : '<span class="facet-label">暂无</span>'}
+        ${tagTotal > 12 ? `<button class="facet facet--more" data-facet="tags-more">${state.showAllTags ? '收起' : `显示全部 ${tagTotal}`}</button>` : ''}
       </div>
     `;
   }
 
+  function renderSearchIdle() {
+    const recent = readRecentSearches();
+    const tags = (state.index?.tags || []).slice(0, 10);
+    return `
+      ${recent.length ? `
+        <div class="search-idle">
+          <div class="search-idle__head">
+            <span class="facet-label">最近搜索</span>
+            <button class="search-idle__clear" type="button" data-search-clear-recent>清空</button>
+          </div>
+          <div class="search-idle__chips">
+            ${recent.map((item) => `<button class="facet" type="button" data-recent="${escapeHtml(item)}">${escapeHtml(item)}</button>`).join('')}
+          </div>
+        </div>` : ''}
+      ${tags.length ? `
+        <div class="search-idle">
+          <div class="search-idle__head"><span class="facet-label">热门标签</span></div>
+          <div class="search-idle__chips">
+            ${tags.map((tag) => `<button class="facet" type="button" data-hot-tag="${escapeHtml(tag.label)}">${escapeHtml(tag.label)} <i>${tag.count}</i></button>`).join('')}
+          </div>
+        </div>` : ''}
+      ${recent.length || tags.length ? '' : '<p class="command-empty">输入关键词开始搜索。</p>'}
+    `;
+  }
+
   function renderSearchResults() {
+    const query = state.query.trim();
+    const meta = state.searchMeta || {};
+    const head = `
+      <div class="search-meta${state.results.length ? '' : ' search-meta--empty'}">
+        <span>${meta.total != null ? `找到 ${meta.total} 条` : ''}</span>
+        ${meta.source === 'local' ? '<span class="search-meta__note">检索服务不可用，已切换本地搜索</span>' : ''}
+      </div>`;
+    if (!query && !state.results.length) {
+      el.searchResults.innerHTML = head + renderSearchIdle();
+      return;
+    }
     el.searchResults.innerHTML = state.results.length
-      ? state.results.map((doc, index) => `
+      ? head + state.results.map((doc, index) => `
           <a class="command-item${index === 0 ? ' is-active' : ''}" data-result-index="${index}" data-path="${escapeHtml(doc.path)}" data-id="${escapeHtml(doc.id)}" data-kind="${escapeHtml(doc.kind)}">
-            <span class="command-item__label">${escapeHtml(doc.title)}</span>
-            <span class="command-item__hint">${escapeHtml([formatDate(doc.date), sectionMeta(doc.section).label, ...(doc.tags || []).slice(0, 2)].filter(Boolean).join(' · '))}</span>
+            <i class="command-item__dot" data-phase="${escapeHtml(doc.phase || '')}" aria-hidden="true"></i>
+            <span class="command-item__main">
+              <span class="command-item__label">${highlightText(doc.title, query)}</span>
+              <span class="command-item__hint">${escapeHtml([formatDate(doc.date), sectionMeta(doc.section).label, ...(doc.tags || []).slice(0, 2)].filter(Boolean).join(' · '))}</span>
+              ${doc.snippet ? `<span class="command-item__snippet">${highlightText(doc.snippet, query)}</span>` : ''}
+            </span>
           </a>
         `).join('')
-      : '<p class="command-empty">没有匹配的内容。</p>';
+      : head + '<p class="command-empty">没有匹配的内容。换个关键词，或减少几个筛选条件试试。</p>';
   }
 
   function renderSearchLocal() {
     const docs = searchDocs();
     const query = state.query.trim().toLowerCase();
+    const fromIso = state.facets.from ? fromDateFor(state.facets.from) : '';
     const results = docs.filter((doc) => {
       if (state.facets.phase && doc.phase !== state.facets.phase) return false;
       if (state.facets.section && doc.section !== state.facets.section) return false;
+      if (state.facets.type && doc.kind !== state.facets.type) return false;
+      if (fromIso && doc.date && String(doc.date) < fromIso) return false;
       for (const tag of state.facets.tags) {
         if (!doc.tags.includes(tag)) return false;
       }
       if (!query) return true;
       return doc.text.toLowerCase().includes(query);
     });
-    state.results = results.slice(0, SEARCH_LIMIT);
+    state.results = results.slice(0, SEARCH_LIMIT).map((doc) => ({
+      ...doc,
+      snippet: query ? snippetAround(doc.text, state.query.trim()) : '',
+    }));
     state.activeIndex = 0;
+    state.searchMeta = { total: results.length, source: 'local' };
 
+    renderSearchFacets(localFacetCounts());
+    renderSearchResults();
+  }
+
+  /** 本地分面计数：空态与降级搜索共用，避免为了分面每次都打一次远程请求。 */
+  function localFacetCounts() {
+    const docs = searchDocs();
+    const visible = docs.filter((doc) => !state.facets.phase || doc.phase === state.facets.phase);
     const tagCounts = new Map();
-    for (const doc of docs) {
-      if (state.facets.phase && doc.phase !== state.facets.phase) continue;
+    for (const doc of visible) {
       for (const tag of doc.tags) tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
     }
-    const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
-    renderSearchFacets({
-      phase: (state.index.phases || []).map((phase) => ({ value: phase.id, count: phaseEntries(phase.id).length })),
+    const topTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 40);
+    return {
+      phase: (state.index?.phases || []).map((phase) => ({ value: phase.id, count: phaseEntries(phase.id).length })),
+      entryType: [
+        { value: 'article', count: visible.filter((doc) => doc.kind === 'entry').length },
+        { value: 'moment', count: visible.filter((doc) => doc.kind === 'moment').length },
+      ],
       section: [...new Set(docs.map((doc) => doc.section))].map((section) => ({ value: section, count: docs.filter((doc) => doc.section === section).length })),
       tags: topTags.map(([value, count]) => ({ value, count })),
-    });
-    renderSearchResults();
+    };
   }
 
   function onFacetClick(event) {
@@ -1176,14 +1553,38 @@
     const { facet, value } = button.dataset;
     if (facet === 'phase') state.facets.phase = value;
     else if (facet === 'section') state.facets.section = value;
+    else if (facet === 'type') state.facets.type = value;
+    else if (facet === 'from') state.facets.from = value;
     else if (facet === 'tag') {
       if (state.facets.tags.has(value)) state.facets.tags.delete(value);
       else state.facets.tags.add(value);
+    } else if (facet === 'tags-more') {
+      state.showAllTags = !state.showAllTags;
+      renderSearchFacets(state.lastFacetCounts || {});
+      return;
     }
     void runSearch();
   }
 
-  function onPanelResultClick(event) {
+  function onSearchResultsClick(event) {
+    if (event.target.closest('[data-search-clear-recent]')) {
+      clearRecentSearches();
+      renderSearchResults();
+      return;
+    }
+    const recent = event.target.closest('[data-recent]');
+    if (recent) {
+      state.query = recent.dataset.recent;
+      if (el.searchInput) el.searchInput.value = state.query;
+      void runSearch();
+      return;
+    }
+    const hotTag = event.target.closest('[data-hot-tag]');
+    if (hotTag) {
+      state.facets.tags.add(hotTag.dataset.hotTag);
+      void runSearch();
+      return;
+    }
     const result = event.target.closest('[data-result-index]');
     if (result) {
       activateResult(Number(result.dataset.resultIndex));
@@ -1203,6 +1604,7 @@
   async function activateResult(index) {
     const doc = state.results[index];
     if (!doc) return;
+    saveRecentSearch(state.query);
     closePanels();
     if (doc.phase !== state.phase) {
       applyPhase(doc.phase);
@@ -1213,6 +1615,10 @@
       syncUrl();
       const card = el.view.querySelector(`[data-moment="${CSS.escape(doc.id)}"]`);
       card?.scrollIntoView({ block: 'center' });
+      if (card) {
+        card.classList.add('is-highlighted');
+        window.setTimeout(() => card.classList.remove('is-highlighted'), 2000);
+      }
       return;
     }
     await openEntry(doc.id);

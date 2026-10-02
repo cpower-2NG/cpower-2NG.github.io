@@ -182,8 +182,12 @@ async function main() {
     step('搜索面板');
     await page.keyboard.press('Control+k');
     await page.waitForSelector('[data-search-panel].is-active');
+    // 空态：没有关键词时不列全量结果，只展示最近搜索与热门标签
+    assert.ok(await page.locator('.search-idle').count() >= 1, '搜索面板空态应展示最近搜索或热门标签');
+    assert.equal(await page.locator('[data-search-results] .command-item').count(), 0, '空态不应列出全部内容');
     await page.fill('[data-search-input]', '冬滚滚');
     await page.waitForSelector('.search-facets .facet');
+    await page.waitForSelector('[data-search-results] .command-item', { timeout: 20000 });
     assert.ok(await page.locator('[data-search-results] .command-item').count() >= 1, '搜索应有命中');
     await page.keyboard.press('Escape');
 

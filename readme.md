@@ -2,7 +2,7 @@
 
 BIFROST 是一个面向 GitHub Pages 的个人内容站点，以**文章与动态**为中心，在 Logic 与 Fantasy 两个位面之间承载阅读、记录与展示。
 
-站点目前是"静态内容 + Azure 服务"的混合形态：阅读走静态产物，查找与互动走云端服务。内容数据库架构正在重新设计，目标是把内容集中到数据库，使查找与迁移都更容易。
+站点是"静态内容 + Azure 服务"的混合形态：阅读走静态产物，查找与互动走云端服务。内容已集中到 Cosmos 数据库，静态产物由数据库物化而来，使查找与迁移都更容易。
 
 ## 快速开始
 
@@ -50,6 +50,7 @@ node tools/search-push.mjs       # 推送检索投影
 | [docs/design/20-backend.md](docs/design/20-backend.md) | 后端服务边界与契约 |
 | [docs/design/30-frontend.md](docs/design/30-frontend.md) | 前端呈现契约与交互结构 |
 | [docs/design/40-migration-ops.md](docs/design/40-migration-ops.md) | 迁移策略、云资源、本地开发与验证 |
+| [docs/handover.md](docs/handover.md) | 未实现功能清单与接手入口 |
 | [docs/AZURE_SETUP.md](docs/AZURE_SETUP.md) | Azure 资源创建、Entra 登录与 QQ 同步部署 |
 | [imports/fantasy/README.md](imports/fantasy/README.md) | Fantasy 原始文档的保全与处理判断 |
 
@@ -74,6 +75,8 @@ node tools/search-push.mjs       # 推送检索投影
 
 ## 项目状态
 
-静态内容基建、Azure 互动接口、管理页、基础设施模板、QQ 云端同步与自动部署 workflow 均已落地。
+静态站点、Azure 互动接口、管理页、基础设施模板、QQ 云端同步与自动部署 workflow 均已落地。
 
-内容数据库架构处于重新设计阶段：设计文档已建立，实现尚未开始。
+内容数据库架构已完成设计与实现：Cosmos 是内容的唯一权威，Git 只存源码与发布快照，站点由数据库物化而来（导入 → Blob → Cosmos → 静态物化 → Pages）。
+
+尚未实现的功能（管理员内容管理、上传入口等）见 [docs/handover.md](docs/handover.md)。

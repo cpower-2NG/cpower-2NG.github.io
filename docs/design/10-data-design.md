@@ -141,7 +141,7 @@
 
 动态自包含：正文直接存在动态文档内，不再拆出独立 body 文档（内容极短）。历史版本同样以 `revision:<n>` 文档保存在同一分区。
 
-动态支持 `pinned`（置顶）与 `featured`（精选）两个布尔字段，供时间流与聚合页排序使用。
+动态支持 `pinned`（置顶）与 `featured`（精选）两个布尔字段，供时间流与列表排序使用。
 
 #### 展示页（Logic 首页）
 
@@ -203,9 +203,7 @@ Logic 的首页是工作展示页，作为 `kind: "page"` 的条目存放于 `co
 
 - 自由输入，类似社交媒体的 hashtag；提交后自动登记进分类表。
 - 支持在管理页重命名与合并，避免"冬滚滚 / 冬滾滾"这类重复。
-- 每个标签自动生成标签页（由检索层按标签筛选）。
-- 标签只出现在搜索面板中，不占用侧栏。
-- 标签文档可有可选 `description`，用作标签页顶部说明；留空则不显示。
+- 标签只出现在搜索面板中，作为筛选与分面维度，不占用侧栏，也不生成独立页面（见 D-49）。
 
 系列规则：
 
@@ -327,9 +325,9 @@ Logic 的首页是工作展示页，作为 `kind: "page"` 的条目存放于 `co
 | 动态时间流 | `content-moments` 范围查询 | 分区 `/month` 按月范围 |
 | 关键词搜索 | AI Search | `title` / `summary` / `bodyText` / `tags` |
 | 组合筛选 + 分面 | AI Search facets | `entryType` / `phase` / `section` / `tags` / `kind` |
-| 标签页 | AI Search | 过滤 `tags` |
+| 按标签筛选 | AI Search | 过滤 `tags`（由搜索面板消费） |
 | 系列页 | `taxonomy` + AI Search | 系列成员列表 + 过滤 `seriesId` |
-| 年份归档 | AI Search | 过滤 `publishedAt` 范围 |
+| 按时间筛选 | AI Search | 过滤 `publishedAt` 范围（由搜索面板消费） |
 | 侧栏导航 | 静态物化产物 | 由分类法与条目计数生成 |
 | 评论列表 | `comments` | 分区 `/entryId`，按状态与时间 |
 | 点赞与阅读 | `signals` | 分区 `/entryId` |

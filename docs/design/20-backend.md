@@ -24,7 +24,7 @@
    - 写入：条目、正文、分类登记、路由，以及检索投影。
    - 收尾：触发静态物化。
 3. **检索服务**：对外提供统一的查询接口，读 AI Search；支持关键词、组合筛选、分面计数、排序与分页。
-   - 端点：`GET /api/search?q=&phase=&section=&type=&tags=&limit=`，返回 `items` 与 `facets`。
+   - 端点：`GET /api/search?q=&phase=&section=&type=&from=&tags=&limit=`，返回 `items` 与 `facets`；`from` 为 `YYYY-MM-DD`，按 `publishedAt` 过滤。
    - 索引字段见 `tools/lib/search-config.mjs`；内容发布后由 `tools/search-push.mjs` 推送。
    - 前端在检索服务不可用时自动退回索引内的本地过滤。
 4. **互动接口改键**：评论、点赞、阅读从按 `path` 改为按 `entryId`，URL 变化不再影响互动数据归属。

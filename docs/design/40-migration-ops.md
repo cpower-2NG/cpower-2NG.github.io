@@ -149,21 +149,19 @@ node preview-server.mjs 8000 --no-open
 - 通过 `/.bifrost-ping` 探测点确认端口上是 BIFROST；被别的程序占用时自动向后寻找空闲端口（最多 10 个）。
 - 两个服务实现（Node 与 PowerShell 回退）都监听 `127.0.0.1` 与 `::1`，都把未知路径交给 `404.html`。
 
-脚本编码约束：`preview.cmd`、`preview-server.ps1`、`preview-port.ps1`、`build.cmd` 必须保持 ASCII 内容。Windows PowerShell 5.1 会按系统 ANSI 代码页读取无 BOM 的 `.ps1`，cmd 按 OEM 代码页读取批处理，出现中文会导致脚本解析失败。
+脚本编码约束：`preview.cmd`、`preview-server.ps1`、`preview-port.ps1` 必须保持 ASCII 内容。Windows PowerShell 5.1 会按系统 ANSI 代码页读取无 BOM 的 `.ps1`，cmd 按 OEM 代码页读取批处理，出现中文会导致脚本解析失败。
 
 ### 本地验证
 
 ```powershell
-node build.mjs
 node --test tests/*.test.mjs
+node tests/e2e/site-navigation.mjs
 
 npm ci --prefix api
 npm test --prefix api
 
 npm ci --prefix sync
 npm test --prefix sync
-
-node tests/e2e/reader-interactions.mjs
 ```
 
 线上只读检查：
