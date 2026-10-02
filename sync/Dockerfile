@@ -18,6 +18,13 @@ RUN npm ci --prefix tools
 COPY sync/src ./sync/src
 COPY tools ./tools
 
+# 物化静态站点（content-publish 任务）要读站点外壳：data/site.json、core/、
+# index.html、404.html、robots.txt、assets/favicon.svg。
+COPY data/site.json ./data/site.json
+COPY core ./core
+COPY index.html 404.html robots.txt ./
+COPY assets/favicon.svg ./assets/favicon.svg
+
 ENV NODE_ENV=production
 # 工作目录固定为 /app：QQ 同步入口是 sync/src/index.js，
 # 导入与发布任务入口是 tools/cloud-import.mjs / tools/cloud-publish.mjs。

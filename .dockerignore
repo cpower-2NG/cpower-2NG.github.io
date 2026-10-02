@@ -8,3 +8,10 @@
 !tools/package-lock.json
 !tools/*.mjs
 !tools/lib
+# 发布任务在容器里跑 materialize-site.mjs，需要站点外壳作为输入
+!data/site.json
+!core
+!index.html
+!404.html
+!robots.txt
+!assets/favicon.svg
