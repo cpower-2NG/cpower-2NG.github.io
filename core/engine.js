@@ -1318,6 +1318,17 @@
     return `${start > 0 ? '…' : ''}${source.slice(start, end)}${end < source.length ? '…' : ''}`;
   }
 
+  /** 检索服务返回的片段已经用 <mark> 标出命中：整体转义后再把标记还原，避免当成正文显示。 */
+  function renderSnippet(snippet, query) {
+    const raw = String(snippet || '');
+    if (raw.includes('<mark>')) {
+      return escapeHtml(raw)
+        .replaceAll('&lt;mark&gt;', '<mark>')
+        .replaceAll('&lt;/mark&gt;', '</mark>');
+    }
+    return highlightText(raw, query);
+  }
+
   function renderSearchSkeleton() {
     el.searchResults.innerHTML = `
       <div class="search-skeleton" aria-hidden="true">
@@ -1494,7 +1505,7 @@
             <span class="command-item__main">
               <span class="command-item__label">${highlightText(doc.title, query)}</span>
               <span class="command-item__hint">${escapeHtml([formatDate(doc.date), sectionMeta(doc.section).label, ...(doc.tags || []).slice(0, 2)].filter(Boolean).join(' · '))}</span>
-              ${doc.snippet ? `<span class="command-item__snippet">${highlightText(doc.snippet, query)}</span>` : ''}
+              ${doc.snippet ? `<span class="command-item__snippet">${renderSnippet(doc.snippet, query)}</span>` : ''}
             </span>
           </a>
         `).join('')

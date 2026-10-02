@@ -189,6 +189,10 @@ async function main() {
     await page.waitForSelector('.search-facets .facet');
     await page.waitForSelector('[data-search-results] .command-item', { timeout: 20000 });
     assert.ok(await page.locator('[data-search-results] .command-item').count() >= 1, '搜索应有命中');
+    // 命中高亮必须是真的 <mark>，不能把标记当正文显示
+    assert.ok(await page.locator('[data-search-results] .command-item__snippet mark').count() >= 1, '摘要应高亮命中词');
+    const snippetText = await page.locator('.command-item__snippet').first().innerText();
+    assert.ok(!snippetText.includes('<mark>'), `摘要不应显示原始标记：「${snippetText.slice(0, 40)}」`);
     await page.keyboard.press('Escape');
 
     // 位面面板：方向键 + 命令输入 + 彩蛋
