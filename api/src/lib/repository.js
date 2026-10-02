@@ -2,6 +2,7 @@ import { createHash, createHmac, randomUUID } from 'node:crypto';
 import { config } from './config.js';
 import { cosmosContainers } from './cosmos.js';
 import { HttpError } from './errors.js';
+import { diffTags, normalizeTags } from './content-admin.js';
 
 function hashSecret(value) {
   const current = config();
@@ -362,6 +363,14 @@ export async function listAllComments({ entryId = '', status = '' } = {}) {
   return result.resources;
 }
 
+export async function commentStatusCounts() {
+  const { comments } = cosmosContainers();
+  const result = await comments.items.query({
+    query: "SELECT c.status, COUNT(1) AS n FROM c WHERE c.type = 'comment' GROUP BY c.status",
+  }).fetchAll();
+  return Object.fromEntries(result.resources.map((item) => [item.status, Number(item.n) || 0]));
+}
+
 export async function updateCommentStatus(id, entryId, status) {
   const { comments } = cosmosContainers();
   const item = comments.item(id, entryId);
@@ -423,4 +432,280 @@ export async function collectExportRecords() {
     visitorHash: undefined,
     userAgentHash: undefined,
   }));
+}
+
+// ---------------------------------------------------------------------------
+// 内容管理（条目、系列、标签、动态）。content-articles 分区键 /entryId，
+// 条目文档 id = entryId，正文文档 id 固定 'body'；taxonomy 分区键 /kind（值为 phase/section/tag/series）。
+// ---------------------------------------------------------------------------
+
+const ENTRY_SUMMARY = 'c.id, c.entryType, c.kind, c.phase, c.section, c.title, c.summary, c.slug, c.path, c.tags, c.seriesId, c.seriesOrder, c.status, c.publishedAt, c.cover, c.coverSource, c.updatedAt';
+
+async function readEntryDoc(entryId) {
+  const { contentArticles } = cosmosContainers();
+  try {
+    return (await contentArticles.item(entryId, entryId).read()).resource || null;
+  } catch (error) {
+    if (error.code === 404) return null;
+    throw error;
+  }
+}
+
+async function replaceEntryDoc(entry) {
+  const { contentArticles } = cosmosContainers();
+  const updated = { ...entry, updatedAt: new Date().toISOString() };
+  await contentArticles.item(entry.id, entry.id).replace(updated);
+  return updated;
+}
+
+export async function listEntries({ phase = '', section = '', status = '' } = {}) {
+  const { contentArticles } = cosmosContainers();
+  const clauses = ["c.type = 'entry'"];
+  const parameters = [];
+  if (phase) {
+    clauses.push('c.phase = @phase');
+    parameters.push({ name: '@phase', value: phase });
+  }
+  if (section) {
+    clauses.push('c.section = @section');
+    parameters.push({ name: '@section', value: section });
+  }
+  if (status) {
+    clauses.push('c.status = @status');
+    parameters.push({ name: '@status', value: status });
+  }
+  const result = await contentArticles.items.query({
+    query: `SELECT ${ENTRY_SUMMARY} FROM c WHERE ${clauses.join(' AND ')} ORDER BY c.publishedAt DESC`,
+    parameters,
+  }).fetchAll();
+  return result.resources;
+}
+
+export async function getEntryDetail(entryId) {
+  const { contentArticles, assets } = cosmosContainers();
+  const entry = await readEntryDoc(entryId);
+  if (!entry) {
+    throw new HttpError(404, '条目不存在。', 'ENTRY_NOT_FOUND');
+  }
+  const body = (await contentArticles.item('body', entryId).read().catch(() => null))?.resource || null;
+  const candidates = await assets.items.query({
+    query: 'SELECT * FROM c WHERE ARRAY_CONTAINS(c.ownerEntryIds, @entryId)',
+    parameters: [{ name: '@entryId', value: entryId }],
+  }).fetchAll();
+  return {
+    entry: {
+      id: entry.id,
+      title: entry.title,
+      summary: entry.summary || '',
+      phase: entry.phase,
+      section: entry.section,
+      kind: entry.kind,
+      status: entry.status,
+      slug: entry.slug || '',
+      path: entry.path || '',
+      tags: Array.isArray(entry.tags) ? entry.tags : [],
+      seriesId: entry.seriesId || null,
+      seriesOrder: entry.seriesOrder ?? null,
+      cover: entry.cover || null,
+      coverSource: entry.coverSource || '',
+      publishedAt: entry.publishedAt,
+      updatedAt: entry.updatedAt,
+      wordCount: body?.wordCount || 0,
+    },
+    coverCandidates: candidates.resources,
+  };
+}
+
+export async function updateEntryCover(entryId, assetId) {
+  const { assets } = cosmosContainers();
+  const entry = await readEntryDoc(entryId);
+  if (!entry) {
+    throw new HttpError(404, '条目不存在。', 'ENTRY_NOT_FOUND');
+  }
+  if (!assetId) {
+    return replaceEntryDoc({ ...entry, cover: null, coverSource: 'text' });
+  }
+  let asset;
+  try {
+    asset = (await assets.item(assetId, assetId).read()).resource;
+  } catch (error) {
+    if (error.code === 404) throw new HttpError(404, '封面媒体不存在。', 'ASSET_NOT_FOUND');
+    throw error;
+  }
+  if (!asset) {
+    throw new HttpError(404, '封面媒体不存在。', 'ASSET_NOT_FOUND');
+  }
+  return replaceEntryDoc({ ...entry, cover: { assetId }, coverSource: 'manual' });
+}
+
+export async function updateEntryTags(entryId, tags) {
+  const entry = await readEntryDoc(entryId);
+  if (!entry) {
+    throw new HttpError(404, '条目不存在。', 'ENTRY_NOT_FOUND');
+  }
+  const next = normalizeTags(tags);
+  const { added } = diffTags(entry.tags, next);
+  for (const tag of added) {
+    await ensureTagDoc(tag);
+  }
+  return replaceEntryDoc({ ...entry, tags: next });
+}
+
+export async function setEntrySeries(entryId, seriesId, seriesOrder) {
+  const entry = await readEntryDoc(entryId);
+  if (!entry) {
+    throw new HttpError(404, '条目不存在。', 'ENTRY_NOT_FOUND');
+  }
+  return replaceEntryDoc({
+    ...entry,
+    seriesId: seriesId || null,
+    seriesOrder: seriesId ? (Number(seriesOrder) || null) : null,
+  });
+}
+
+export async function listMoments() {
+  const { contentMoments } = cosmosContainers();
+  const result = await contentMoments.items.query({
+    query: 'SELECT c.id, c.month, c.section, c.phase, c.summary, c.text, c.publishedAt, c.pinned, c.featured, c.status FROM c ORDER BY c.publishedAt DESC',
+  }).fetchAll();
+  return result.resources;
+}
+
+export async function updateMomentFlags(id, month, flags) {
+  const { contentMoments, searchDocs } = cosmosContainers();
+  let moment;
+  try {
+    moment = (await contentMoments.item(id, month).read()).resource;
+  } catch (error) {
+    if (error.code === 404) throw new HttpError(404, '动态不存在。', 'MOMENT_NOT_FOUND');
+    throw error;
+  }
+  if (!moment) {
+    throw new HttpError(404, '动态不存在。', 'MOMENT_NOT_FOUND');
+  }
+  const updated = { ...moment, ...flags, updatedAt: new Date().toISOString() };
+  await contentMoments.item(id, month).replace(updated);
+  // 检索投影同步两个字段，避免发布前搜索面板读到旧值。
+  try {
+    const { resource: doc } = await searchDocs.item(id, id).read();
+    if (doc) {
+      await searchDocs.item(id, id).replace({ ...doc, ...flags });
+    }
+  } catch (error) {
+    if (error.code !== 404) throw error;
+  }
+  return { id, month, ...flags };
+}
+
+async function readTaxonomyDoc(id, kind) {
+  const { taxonomy } = cosmosContainers();
+  try {
+    return (await taxonomy.item(id, kind).read()).resource || null;
+  } catch (error) {
+    if (error.code === 404) return null;
+    throw error;
+  }
+}
+
+async function ensureTagDoc(label) {
+  const { taxonomy } = cosmosContainers();
+  const id = `tag:${label}`;
+  const existing = await readTaxonomyDoc(id, 'tag');
+  if (existing) return existing;
+  const doc = {
+    id,
+    type: 'taxonomy',
+    schemaVersion: 1,
+    kind: 'tag',
+    label,
+    description: '',
+    parentId: '',
+    order: 0,
+    aliases: [],
+    status: 'active',
+  };
+  await taxonomy.items.upsert(doc);
+  return doc;
+}
+
+export async function listSeries() {
+  const { taxonomy } = cosmosContainers();
+  const result = await taxonomy.items.query(
+    { query: 'SELECT * FROM c WHERE c.status = \'active\'' },
+    { partitionKey: 'series' },
+  ).fetchAll();
+  return result.resources;
+}
+
+export async function createSeries({ label, description = '', slug, coverAssetId = '' }) {
+  const { taxonomy } = cosmosContainers();
+  const id = `series:${slug}`;
+  if (await readTaxonomyDoc(id, 'series')) {
+    throw new HttpError(409, '同名系列已存在。', 'SERIES_EXISTS');
+  }
+  const doc = {
+    id,
+    type: 'taxonomy',
+    schemaVersion: 1,
+    kind: 'series',
+    label,
+    description,
+    cover: coverAssetId ? { assetId: coverAssetId } : null,
+    parentId: '',
+    order: 0,
+    aliases: [],
+    status: 'active',
+    createdAt: new Date().toISOString(),
+  };
+  await taxonomy.items.upsert(doc);
+  return doc;
+}
+
+export async function updateSeries(id, { label, description, coverAssetId } = {}) {
+  const existing = await readTaxonomyDoc(id, 'series');
+  if (!existing) {
+    throw new HttpError(404, '系列不存在。', 'SERIES_NOT_FOUND');
+  }
+  const updated = {
+    ...existing,
+    ...(label !== undefined ? { label } : {}),
+    ...(description !== undefined ? { description } : {}),
+    ...(coverAssetId !== undefined ? { cover: coverAssetId ? { assetId: coverAssetId } : null } : {}),
+    updatedAt: new Date().toISOString(),
+  };
+  const { taxonomy } = cosmosContainers();
+  await taxonomy.item(id, 'series').replace(updated);
+  return updated;
+}
+
+export async function deleteSeries(id) {
+  const { taxonomy } = cosmosContainers();
+  try {
+    await taxonomy.item(id, 'series').delete();
+  } catch (error) {
+    if (error.code === 404) throw new HttpError(404, '系列不存在。', 'SERIES_NOT_FOUND');
+    throw error;
+  }
+}
+
+/**
+ * 标签重命名/合并落地：确保目标 tag 文档存在，批量改条目，再删除源 tag 文档。
+ * 条目更新使用点读+替换，条目数量级（几十）下足够，且每条都幂等。
+ */
+export async function applyTagReplace({ from, to, updates }) {
+  await ensureTagDoc(to);
+  let updated = 0;
+  for (const update of updates) {
+    const entry = await readEntryDoc(update.entryId);
+    if (!entry) continue;
+    await replaceEntryDoc({ ...entry, tags: update.tags });
+    updated += 1;
+  }
+  const { taxonomy } = cosmosContainers();
+  try {
+    await taxonomy.item(`tag:${from}`, 'tag').delete();
+  } catch (error) {
+    if (error.code !== 404) throw error;
+  }
+  return { updated, to };
 }

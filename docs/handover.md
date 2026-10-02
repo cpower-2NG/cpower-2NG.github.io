@@ -3,99 +3,35 @@
 > 本文件只记录"设计已定、代码未实现"与"已实现但未验证"的部分，供新会话接手。
 > 设计意图读 `docs/design/`，实际行为读代码与测试；本文件不重复定义设计。
 > 与设计文档冲突时以设计文档为准，并回来更新本文件。
-> 数据快照时间：2026-09-30。
+> 数据快照时间：2026-09-30；G1/G2/G3/G6 于 2026-10-02 落地（见文末"本轮完成"）。
 
 ## 缺口总表
 
 | 编号 | 缺口 | 建议接手会话 | 规模 |
 |---|---|---|---|
-| G1 | 管理员内容管理：封面 / 系列 / 标签 | 管理员会话 | 中 |
-| G2 | 评论审核收尾与待审核计数 | 管理员会话 | 小 |
-| G3 | 上传文章链路：上传 → 导入任务 → 入库 → 物化 → 发布 | 管理员会话（第二轮） | 大 |
+| ~~G1~~ | ~~管理员内容管理：封面 / 系列 / 标签~~ | 已完成，见文末 | — |
+| G2 | 评论审核收尾：真登录实测仍待做 | 管理员会话 | 小 |
+| ~~G3~~ | ~~上传文章链路~~ | 代码已落地，云端部署与实测待做，见文末 | — |
 | G5 | Logic 展示页内容与项目条目写入 | Logic 会话 | 中 |
-| G6 | 动态置顶 / 精选没有数据通路：前端已实现渲染，物化管线未输出字段 | 管理员会话 | 小 |
+| ~~G6~~ | ~~动态置顶 / 精选数据通路~~ | 已完成，见文末 | — |
 | V1 | 管理页评论审核在 `entryId` 改造后未实测 | 管理员会话 | 小 |
 | V2 | 每日互动导出任务在换容器后未跑过 | 管理员会话 | 小 |
-| V3 | 数据里的遗留脏项：重复系列、未清理标签 | 管理员会话 | 小 |
+| V3 | 数据里的遗留脏项：重复系列、未清理标签 | 管理员会话（现在可以直接在管理台标签面板处理） | 小 |
+| D1 | 云端链路首次部署：bicep、镜像、真实上传实测 | 部署会话（需 Azure 登录） | 中 |
 
-建议顺序：`G1 → G2 → V1/V2/V3 → G3`，`G6` 随手做，`G5` 单独会话。
+建议顺序：`D1 → V1/V2 → V3`（V3 用管理台标签面板即可），`G5` 单独会话。
 
-## G1 管理员内容管理：封面 / 系列 / 标签
+## G1 管理员内容管理：封面 / 系列 / 标签（已完成，2026-10-02）
 
-**现状**
+服务端新增 `manage/entries|series|tags|moments` 动作（`api/src/functions/admin.js`），内容读写函数在 `api/src/lib/repository.js`，纯函数校验在 `api/src/lib/content-admin.js`（配单测）。管理页新增条目/系列/标签/动态四个面板。改动只写权威库并置 `publish-state.dirty`，上线走"发布"按钮（云端物化 + 回写 + 检索推送）。云端部署与真登录实测见 D1。
 
-- `admin.html` + `core/admin.js` + `core/admin.css` 已有：Microsoft 登录、运行状态、QQ 同步、评论审核、同步规则、内容覆盖项、手动导出。
-- 服务端在 `api/src/functions/admin.js`，路由 `manage/{action}/{id?}`，动作有 `status` / `comments` / `settings` / `overrides` / `sync` / `qzone` / `export`。
-- 内容侧写入能力为零：`api/src/lib/repository.js` 里没有任何条目或分类法的写入函数。
-- 等价能力目前只在本机 CLI：`tools/seed-taxonomy.mjs`（阶段 / 分区 / 系列）、`tools/import-content.mjs --cover N`（只改内容包封面）、`tools/cosmos-push.mjs`。
+## G2 评论审核收尾（代码已完成，实测待做）
 
-**缺什么**
+待审核计数已进 `status` 动作并渲染为状态卡；审核规则（干净评论直接发布、含链接转待审核、蜜罐/过快拒绝，见 `api/src/lib/moderation.js`）已在评论面板顶部展示。剩余：V1 真登录实测四条路径。
 
-1. 封面：按 `entryId` 列出候选图（该篇正文图 + `assets` 里归属于该篇的媒体），点一张写入条目的 `cover` 与 `coverSource`，再触发物化。当前 19 篇里只有 4 篇有手动封面，其余走"正文首图 → 文字封面"兜底。
-2. 系列：新建 / 修改系列文档（`label`、`description`、封面、`slug`），给成员设置 `seriesId` 与 `seriesOrder`，并支持调整顺序。
-3. 标签：重命名、合并（写 `taxonomy` 的 tag 文档 + 批量改条目的 `tags`）。
-4. 三者共用的"写权威库 → 重新物化 → 发布"链路；目前这条链路只能在本机或 CI 触发。
+## G3 上传文章链路（代码已落地，云端部署与实测待做 → 见 D1）
 
-**涉及位置**
-
-- 服务端：`api/src/functions/admin.js`、`api/src/lib/repository.js`、必要时 `api/src/lib/storage.js`。
-- 前端：`admin.html`、`core/admin.js`、`core/admin.css`。
-- 物化：`tools/materialize-site.mjs`、`tools/search-push.mjs`。
-
-**验收**
-
-- 登录管理页后不碰命令行即可：换一篇文章的封面、新建一个系列并把若干文章挂进去并排序、把两个重复标签合并。
-- 改动在发布流程跑完后站点可见，`content-articles` 与 `search-docs` 一致。
-
-**阻塞与风险**
-
-- 点完不会自动上线，物化与发布仍在本机或 CI（见 G3）。本批可以只做到"写库 + 标记待发布"，也可以先复用现有 Pages workflow 触发发布。
-- Cosmos 文档 `id` 不能含 `/`；`class` 是保留字（已改成 `assetClass`）。
-
-## G2 评论审核收尾
-
-**现状**：评论已按 `entryId` 归属，`comments` 容器分区键为 `/entryId`；`GET` / `PATCH` / `DELETE /manage/comments/{id}` 已按 `entryId` 改完；库里现有 1 条 `published` 评论。
-
-**缺什么**
-
-- 真登录实测列表、状态筛选、通过 / 隐藏 / 删除四条路径。
-- 待审核数量的提示（管理页角标或状态卡片）。
-- 确认新评论默认进入 `pending` 还是直接 `published`，并在管理页显示该规则。
-
-**验收**：新评论出现在管理台；审核为 `published` 后前台立即可见；隐藏后前台消失；删除后不再出现。
-
-## G3 上传文章链路
-
-**现状**：导入链路只有本机 CLI，云端没有任何导入入口。
-
-1. `tools/import-content.mjs` 把原件转成内容包（支持 `--cover N`）
-2. `tools/blob-push.mjs` 媒体上云
-3. `tools/cosmos-push.mjs` 写权威容器
-4. `tools/materialize-site.mjs` 物化静态站点
-5. `tools/search-push.mjs` 推送检索投影
-6. `git push` 触发 Pages
-
-云端只有 QQ 同步用的 Container Apps Job（`qzone-sync`，跑 `sync/` 镜像，`mode` 区分 `sync` / `auth`）。
-
-**缺什么**
-
-1. 上传接口：`POST /api/manage/import`，multipart 收文件，原件存私有 Blob，在 `state` 建导入任务记录，启动导入 Job。
-2. 导入 Job：新增 `content-import`（镜像内加 pandoc，复用 `tools/` 的转换与建文档逻辑），或在同一镜像里加 `mode=import`。
-3. 任务状态查询、失败原因、重试与幂等（设计文档明确留待后续阶段讨论）。
-4. 云端产物回写 GitHub，才能"上传即上线"；`sync/src/github.js` 已有提交能力可复用。
-5. CI：新增导入与检索相关 workflow（D-45），旧 Pages 流程保留至切换完成。
-
-**验收**
-
-- 在管理页上传 `冬滚滚.docx`，任务跑完后站点出现新文章，图片正常、封面可用、评论可发。
-- docx 保真按 D-44：段落数、标题数、列表项数、图片数四项计数一致。
-- 失败时任务记录里能看到原因，不是静默失败。
-
-**阻塞与风险**
-
-- 需要 pandoc 进入镜像、GitHub token 具备写权限、Container Apps Job 部署。
-- 上传体积上限、允许的扩展名与安全校验规则尚未定（见 `20-backend.md` 留待后续阶段讨论）。
-- VPN 不稳定时 `git push` 会 connection reset，重试 2–4 次可过。
+已落地：`POST /manage/import`（multipart，校验在 `api/src/lib/import-validate.js`）→ 原件入私有 Blob `originals/` → 导入任务文档（`state`，分区 `imports`）→ `content-import` Job 复用 `tools/` 管线完成转换与入库 → 管理台上传面板轮询任务状态。发布走 `content-publish` Job（统一发布按钮）。镜像已加 pandoc 与 poppler-utils，`deploy-sync-image.yml` 构建上下文改为仓库根并同步更新两个新 Job。云端首次部署（bicep + 镜像 + 真实上传 `冬滚滚.docx` 验收）待做。
 
 ## G5 Logic 展示页内容
 
@@ -108,16 +44,9 @@
 
 **建议**：单独会话做。Logic 与 Fantasy 的内容管理基本不共用逻辑，混在一起会让两边都变慢。
 
-## G6 动态置顶 / 精选的数据通路
+## G6 动态置顶 / 精选的数据通路（已完成，2026-10-02）
 
-**现状**：D-38 要求动态带置顶（`pinned`）与精选（`featured`）。前端已落地：`core/engine.js` 的 `renderDailyFeed` 把置顶排在最前并加「置顶」徽标，`renderMoment` 给精选加描边与「精选」徽标。Cosmos 侧的字段也存在，`tools/import-moments.mjs` 写入时会带上这两个布尔值。
-
-**缺什么**
-
-1. `tools/materialize-site.mjs` 物化 `moments` 时没有带出 `pinned` / `featured`，因此 `data/site-index.json` 里没有这两个字段，前端读不到，置顶与精选实际不生效。
-2. 目前所有动态的 `pinned` / `featured` 都是 `false`，即使补上字段也没有可验证的样本。
-
-**验收**：物化产物里带上两个字段；在库里把一条动态设为 `pinned`、另一条设为 `featured` 并重新物化后，时间流顶部出现置顶条目并带徽标，精选条目带描边。
+`tools/materialize-site.mjs` 已输出 `pinned` / `featured`；`tools/moment-flags.mjs` 可直接设置样本并同步检索投影；管理台"动态置顶与精选"面板提供开关。剩余：部署后设一条置顶、一条精选并发布，在前台验收徽标与描边。
 
 ## V1 / V2 未验证项
 
@@ -174,3 +103,19 @@ npm ci --prefix sync; npm test --prefix sync
 | 静态产物目录 | `content/`、`moment/`、`series/`、`assets/`、`data/`、`core/` |
 
 线上站点：<https://cpower-2ng.github.io>
+
+## 本轮完成（2026-10-02：G1 / G2 / G3 / G6 代码落地）
+
+- **服务端**：`manage/entries|series|tags|moments|import|publish` 全套动作；`repository.js` 内容读写；`content-admin.js` 与 `import-validate.js` 纯函数（含单测）；`storage.js` 新增 `uploadPrivateBlob`。
+- **管理台**：发布、条目管理、系列管理、标签管理、动态置顶/精选、上传文章六个新面板（`admin.html` / `core/admin.js` / `core/admin.css`）。
+- **云端任务**：`tools/cloud-import.mjs`（导入）与 `tools/cloud-publish.mjs`（投影全量重建 → 物化 → 回写 GitHub → 推送 AI Search）；`sync/src/github.js` 抽出通用 `commitFiles` 与 `listBlobPaths`。
+- **基础设施**：`infra/main.bicep` 新增 `content-import` / `content-publish` Job 与对应角色（含 Search Index Data Contributor）；镜像加 pandoc + poppler-utils，构建上下文改仓库根（根 `.dockerignore` 白名单）。
+- **G6**：物化输出 `pinned`/`featured`；`tools/moment-flags.mjs` 设置样本。
+
+### D1 首次部署清单（需 Azure 登录，单独会话执行）
+
+1. `az deployment sub/group create` 部署 `infra/main.bicep`（新 Job、角色、函数应用设置）。
+2. push 到 main 触发 `deploy-sync-image.yml` 构建新镜像并更新四个 Job（VPN 不稳时 git push 重试 2–4 次）。
+3. 部署 Function App 代码（`deploy-api.yml` 自动）。
+4. 管理台实测：改一篇封面 → 发布 → 前台可见；上传 `冬滚滚.docx` → 任务 succeeded → 发布 → 前台出现新文章（D-44 四项计数由本机 `verify-imports` 复核）。
+5. `node tools/moment-flags.mjs` 设一条置顶、一条精选 → 发布 → 前台验收徽标与描边；随后 V1/V2 实测。

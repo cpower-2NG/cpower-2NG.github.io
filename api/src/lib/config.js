@@ -27,6 +27,9 @@ export function config(overrides = {}) {
     resourceGroup: process.env.RESOURCE_GROUP || '',
     syncAuthJobName: process.env.SYNC_AUTH_JOB_NAME || 'qzone-auth',
     syncJobName: process.env.SYNC_JOB_NAME || 'qzone-sync',
+    importJobName: process.env.IMPORT_JOB_NAME || 'content-import',
+    publishJobName: process.env.PUBLISH_JOB_NAME || 'content-publish',
+    maxUploadBytes: Number(process.env.MAX_UPLOAD_BYTES) || 100 * 1024 * 1024,
     ...overrides,
   };
 }

@@ -72,8 +72,12 @@ function treePath(path) {
     .join('/');
 }
 
-export async function commitRecords(records, { removePaths = [] } = {}) {
-  if (!records.length && !removePaths.length) {
+/**
+ * 通用多文件提交：files = [{ path, content }]（content 为 utf8 字符串）。
+ * 一次 commit 完成全部新增/修改与 removePaths 删除，fast-forward 到分支。
+ */
+export async function commitFiles(files, { removePaths = [], message } = {}) {
+  if (!files.length && !removePaths.length) {
     return { changed: false, files: 0 };
   }
 
@@ -89,9 +93,9 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
   const existing = new Map((baseTree.tree || []).map((entry) => [entry.path, entry]));
   const newEntries = [];
 
-  for (const record of records) {
-    const path = `${config.contentPrefix}/${record.id}.json`;
-    const content = `${JSON.stringify(record, null, 2)}\n`;
+  for (const file of files) {
+    const path = treePath(file.path);
+    const content = file.content;
     const expectedSha = gitBlobSha(content);
     if (existing.get(path)?.sha === expectedSha) continue;
     const blob = await githubApi(token, `/repos/${repo}/git/blobs`, {
@@ -110,8 +114,8 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
   }
 
   for (const path of removePaths) {
-    if (existing.has(path)) {
-      newEntries.push({ path, mode: '100644', type: 'blob', sha: null });
+    if (existing.has(treePath(path))) {
+      newEntries.push({ path: treePath(path), mode: '100644', type: 'blob', sha: null });
     }
   }
 
@@ -129,7 +133,7 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
   const commit = await githubApi(token, `/repos/${repo}/git/commits`, {
     method: 'POST',
     body: {
-      message: `sync(qzone): publish ${newEntries.length} content update(s)`,
+      message: message || `sync: publish ${newEntries.length} file update(s)`,
       tree: tree.sha,
       parents: [baseCommitSha],
     },
@@ -146,6 +150,30 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
     commit: commit.sha,
     files: newEntries.length,
   };
+}
+
+/** 分支头当前全部 blob 路径，用于发布前对比出应删除的旧产物。 */
+export async function listBlobPaths() {
+  const { config } = clients();
+  const token = await appToken();
+  const repo = config.githubRepository;
+  const ref = await githubApi(token, `/repos/${repo}/git/ref/heads/${config.githubBranch}`);
+  const commit = await githubApi(token, `/repos/${repo}/git/commits/${ref.object.sha}`);
+  const tree = await githubApi(token, `/repos/${repo}/git/trees/${commit.tree.sha}?recursive=1`);
+  return (tree.tree || [])
+    .filter((entry) => entry.type === 'blob')
+    .map((entry) => entry.path);
+}
+
+export async function commitRecords(records, { removePaths = [] } = {}) {
+  const { config } = clients();
+  return commitFiles(
+    records.map((record) => ({
+      path: `${config.contentPrefix}/${record.id}.json`,
+      content: `${JSON.stringify(record, null, 2)}\n`,
+    })),
+    { removePaths, message: `sync(qzone): publish ${records.length} content update(s)` },
+  );
 }
 
 export async function listContentRecords() {

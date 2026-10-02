@@ -68,6 +68,8 @@ var functionName = 'func-${namePrefix}-${suffix}'
 var environmentName = 'cae-${namePrefix}-${suffix}'
 var syncJobName = 'qzone-sync'
 var authJobName = 'qzone-auth'
+var importJobName = 'content-import'
+var publishJobName = 'content-publish'
 var mediaContainerName = 'media'
 var privateContainerName = 'private'
 var searchName = 'search-${namePrefix}-${suffix}'
@@ -606,6 +608,18 @@ resource functionApp 'Microsoft.Web/sites@2023-12-01' = {
           name: 'SYNC_JOB_NAME'
           value: syncJobName
         }
+        {
+          name: 'IMPORT_JOB_NAME'
+          value: importJobName
+        }
+        {
+          name: 'PUBLISH_JOB_NAME'
+          value: publishJobName
+        }
+        {
+          name: 'MAX_UPLOAD_BYTES'
+          value: string(100 * 1024 * 1024)
+        }
       ]
     }
   }
@@ -717,6 +731,107 @@ resource syncJob 'Microsoft.App/jobs@2024-03-01' = {
         }
       ]
     }
+  }
+}
+
+// 内容导入与发布任务：与 QQ 同步共用同一镜像，靠 command 覆盖选择入口脚本。
+var contentEnvironment = concat(syncEnvironment, [
+  { name: 'SEARCH_ENDPOINT', value: 'https://${searchName}.search.windows.net' }
+  { name: 'SEARCH_INDEX', value: 'bifrost-content' }
+  { name: 'SITE_URL', value: 'https://cpower-2ng.github.io' }
+])
+
+resource importJob 'Microsoft.App/jobs@2024-03-01' = {
+  name: importJobName
+  location: location
+  identity: {
+    type: 'SystemAssigned'
+  }
+  properties: {
+    environmentId: containerEnvironment.id
+    configuration: {
+      triggerType: 'Manual'
+      replicaTimeout: 3600
+      replicaRetryLimit: 1
+      manualTriggerConfig: {
+        parallelism: 1
+        replicaCompletionCount: 1
+      }
+    }
+    template: {
+      containers: [
+        {
+          name: importJobName
+          image: syncImage
+          command: [
+            'node'
+            'tools/cloud-import.mjs'
+          ]
+          env: contentEnvironment
+          resources: {
+            cpu: json('1.0')
+            memory: '2Gi'
+          }
+        }
+      ]
+    }
+  }
+}
+
+resource publishJob 'Microsoft.App/jobs@2024-03-01' = {
+  name: publishJobName
+  location: location
+  identity: {
+    type: 'SystemAssigned'
+  }
+  properties: {
+    environmentId: containerEnvironment.id
+    configuration: {
+      triggerType: 'Manual'
+      replicaTimeout: 3600
+      replicaRetryLimit: 1
+      manualTriggerConfig: {
+        parallelism: 1
+        replicaCompletionCount: 1
+      }
+    }
+    template: {
+      containers: [
+        {
+          name: publishJobName
+          image: syncImage
+          command: [
+            'node'
+            'tools/cloud-publish.mjs'
+          ]
+          env: contentEnvironment
+          resources: {
+            cpu: json('1.0')
+            memory: '2Gi'
+          }
+        }
+      ]
+    }
+  }
+}
+
+resource functionImportJobOperator 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(importJob.id, functionApp.id, 'container-apps-job-contributor')
+  scope: importJob
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b24988ac-6180-42a0-ab88-20f7382dd24c')
+    principalId: functionApp.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+resource functionPublishJobOperator 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(publishJob.id, functionApp.id, 'container-apps-job-contributor')
+  scope: publishJob
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b24988ac-6180-42a0-ab88-20f7382dd24c')
+    principalId: functionApp.identity.principalId
+    principalType: 'ServicePrincipal'
   }
 }
 
@@ -873,6 +988,58 @@ resource authKeyVaultOfficer 'Microsoft.Authorization/roleAssignments@2022-04-01
   properties: {
     roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'b86a8fe4-44ce-4948-aee5-eccb2c155cd7')
     principalId: authJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+resource importCosmosRole 'Microsoft.DocumentDB/databaseAccounts/sqlRoleAssignments@2024-11-15' = {
+  parent: cosmos
+  name: guid(cosmos.id, importJob.id, cosmosDataContributorRoleId.id)
+  properties: {
+    roleDefinitionId: cosmosDataContributorRoleId.id
+    principalId: importJob.identity.principalId
+    scope: cosmos.id
+  }
+}
+
+resource publishCosmosRole 'Microsoft.DocumentDB/databaseAccounts/sqlRoleAssignments@2024-11-15' = {
+  parent: cosmos
+  name: guid(cosmos.id, publishJob.id, cosmosDataContributorRoleId.id)
+  properties: {
+    roleDefinitionId: cosmosDataContributorRoleId.id
+    principalId: publishJob.identity.principalId
+    scope: cosmos.id
+  }
+}
+
+resource importBlobRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(storage.id, importJob.id, 'storage-blob-data-contributor')
+  scope: storage
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', 'ba92f5b4-2d11-453d-a403-e96b0029c9fe')
+    principalId: importJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+resource publishKeyVaultRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(keyVault.id, publishJob.id, 'key-vault-secrets-user')
+  scope: keyVault
+  properties: {
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '4633458b-17de-408a-b874-0445c86b69e6')
+    principalId: publishJob.identity.principalId
+    principalType: 'ServicePrincipal'
+  }
+}
+
+// 发布任务要把投影推送到 AI Search，需要索引写入权限。
+resource publishSearchRole 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+  name: guid(search.id, publishJob.id, 'search-index-data-contributor')
+  scope: search
+  properties: {
+    // Search Index Data Contributor
+    roleDefinitionId: subscriptionResourceId('Microsoft.Authorization/roleDefinitions', '8ebe5a00-799e-43f5-93ac-243d3dce84a7')
+    principalId: publishJob.identity.principalId
     principalType: 'ServicePrincipal'
   }
 }

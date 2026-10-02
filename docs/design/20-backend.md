@@ -20,6 +20,7 @@
 2. **异步导入任务**：转换在任务中完成，不在请求内同步执行，避免大文件（如 60MB PDF）超时。
    - 转换：docx / txt → Markdown 可编辑源。
    - 渲染：由 Markdown 生成正文 HTML。
+   - 公式：Markdown 中的 `$…$`、`$$…$$`、`\[…\]` 与 `\begin{env}…\end{env}` 在导入时用 KaTeX 预渲染成 HTML；样式与字体随站点发布（`core/katex/`），阅读页不引入运行时脚本。
    - 媒体：抽取文中图片，作为原件写入 Blob 与 `assets`。
    - 写入：条目、正文、分类登记、路由，以及检索投影。
    - 收尾：触发静态物化。
@@ -56,12 +57,38 @@
 
 | 现有接口 | 说明 |
 |---|---|
-| `GET /api/interactions` | 按 `path` 返回互动摘要与评论 |
+| `GET /api/interactions` | 按 `entryId` 返回互动摘要与评论 |
 | `POST /api/comments` | 提交评论与回复 |
 | `POST /api/reactions` | 点赞切换 |
 | `POST /api/views` | 阅读计数（按天去重） |
+| `GET /api/search` | 检索服务（关键词、组合筛选、分面） |
 | `GET/PATCH/DELETE /api/manage/*` | 管理：状态、评论审核、同步规则、覆盖项、同步与导出 |
 | 定时任务 `exportDaily` | 每天导出互动数据 |
+
+### 新增接口（内容管理与上传链路，已定案）
+
+管理操作全部挂在既有 `manage/{action}/{id?}` 路由下，鉴权沿用 Entra `requireAdmin`：
+
+| 接口 | 说明 |
+|---|---|
+| `GET /manage/entries` | 条目列表（`phase` / `section` / `q` / `status` 过滤） |
+| `GET /manage/entries/{id}` | 条目详情 + 封面候选（正文图与归属媒体） |
+| `PATCH /manage/entries/{id}` | 更新封面 / 标签 / 系列归属（单一职责字段） |
+| `GET/POST /manage/series`、`PATCH/DELETE /manage/series/{id}` | 系列 CRUD；`PATCH` 接受有序 `memberIds` 完成成员排序；删除仅限无成员引用 |
+| `GET /manage/tags`、`POST /manage/tags/rename` | 标签清单（含使用计数）与重命名/合并（同一落地路径） |
+| `GET/PATCH /manage/moments[/{id}]` | 动态列表与置顶（`pinned`）/精选（`featured`）开关 |
+| `POST /manage/import` | multipart 上传（字段 `file` + `title` / `phase` / `section` / `tags` / `coverIndex`），建导入任务并启动 `content-import` Job |
+| `GET /manage/import[/{id}]` | 导入任务列表（最近 20 条）与详情（状态、阶段、失败原因、条目 id） |
+| `POST /manage/publish` | 触发 `content-publish` Job：物化 → 回写 GitHub → 推送检索 |
+
+发布模式采用"统一发布按钮"：内容改动只写权威库并置 `publish-state.dirty`，管理页点击发布才执行物化与上线；导入完成同样只标脏。
+
+### 上传与导入规则（定案）
+
+- 允许扩展名：`docx` / `doc` / `pdf` / `txt` / `md` / `markdown` / `html` / `htm`；配图仅支持文档内嵌。
+- 体积上限：100MB（`MAX_UPLOAD_BYTES` 可调）。上传校验见 `api/src/lib/import-validate.js`。
+- 导入任务幂等最简实现：任务置 `running` 后不被重复拾取，崩溃残留超过 2 小时回收回队列；失败不自动重试，重新上传即生成新任务。重试与幂等的完整设计、请求与响应结构、缓存策略仍留待后续阶段讨论。
+- 云端任务的转换与入库复用 `tools/` 的同一套脚本（见 `40-migration-ops.md`），D-44 四项计数验收仍由本机 `verify-imports` 承担，云端任务记录图片数与字数。
 
 ### 转换工具验证结论（第 0 步实验）
 

@@ -42,6 +42,122 @@
         <section class="admin-panel">
             <header class="admin-panel__header">
                 <div>
+                    <p class="admin-eyebrow">PUBLISH</p>
+                    <h2>发布</h2>
+                </div>
+                <button type="button" class="admin-button" data-publish-now disabled>发布站点</button>
+            </header>
+            <div class="admin-stack">
+                <p class="admin-muted" data-publish-state>内容改动落库后这里会出现“待发布”标记；发布会把数据库物化为静态站点并推送检索索引。</p>
+                <p class="admin-message" data-publish-message></p>
+            </div>
+        </section>
+
+        <section class="admin-panel admin-panel--wide">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">CONTENT</p>
+                    <h2>条目管理</h2>
+                </div>
+                <div class="admin-actions">
+                    <select class="admin-input" data-entry-phase>
+                        <option value="">全部位面</option>
+                        <option value="logic">Logic</option>
+                        <option value="fantasy">Fantasy</option>
+                    </select>
+                    <input class="admin-input" data-entry-section placeholder="分区，如 review" size="10">
+                    <input class="admin-input" data-entry-query placeholder="搜索标题或摘要" size="14">
+                    <button type="button" class="admin-button" data-entries-load>加载条目</button>
+                </div>
+            </header>
+            <div class="admin-rows" data-entries-list>
+                <p class="admin-muted">尚未加载条目。</p>
+            </div>
+            <div data-entry-detail></div>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">SERIES</p>
+                    <h2>系列管理</h2>
+                </div>
+            </header>
+            <div class="admin-stack">
+                <div class="admin-actions">
+                    <input class="admin-input" data-series-label placeholder="新系列名称" size="16">
+                    <input class="admin-input" data-series-description placeholder="简介（可选）" size="20">
+                    <button type="button" class="admin-button" data-series-create>新建系列</button>
+                </div>
+                <div class="admin-rows" data-series-list>
+                    <p class="admin-muted">尚未加载系列。</p>
+                </div>
+                <p class="admin-message" data-series-message></p>
+            </div>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">TAGS</p>
+                    <h2>标签管理</h2>
+                </div>
+                <button type="button" class="admin-button" data-tags-load>加载标签</button>
+            </header>
+            <p class="admin-muted">改名与合并走同一条路径：填入目标标签名后确认，原标签的使用会全部转移过去。</p>
+            <div class="admin-rows" data-tags-list>
+                <p class="admin-muted">尚未加载标签。</p>
+            </div>
+            <p class="admin-message" data-tags-message></p>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">MOMENTS</p>
+                    <h2>动态置顶与精选</h2>
+                </div>
+                <button type="button" class="admin-button" data-moments-load>加载动态</button>
+            </header>
+            <div class="admin-rows" data-moments-list>
+                <p class="admin-muted">尚未加载动态。</p>
+            </div>
+            <p class="admin-message" data-moments-message></p>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
+                    <p class="admin-eyebrow">UPLOAD</p>
+                    <h2>上传文章</h2>
+                </div>
+            </header>
+            <div class="admin-stack">
+                <p class="admin-muted">支持 docx / doc / pdf / txt / md，单文件不超过 100MB；配图随文档内嵌。转换完成后回到“发布”触发上线。</p>
+                <div class="admin-actions">
+                    <input type="file" class="admin-input" data-upload-file accept=".docx,.doc,.pdf,.txt,.md,.markdown">
+                    <input class="admin-input" data-upload-title placeholder="标题（留空用文件名）" size="18">
+                </div>
+                <div class="admin-actions">
+                    <select class="admin-input" data-upload-phase>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="logic">Logic</option>
+                    </select>
+                    <select class="admin-input" data-upload-section></select>
+                    <input class="admin-input" data-upload-tags placeholder="标签，逗号分隔（可选）" size="18">
+                    <input class="admin-input" data-upload-cover placeholder="封面序号（可选）" size="8">
+                    <button type="button" class="admin-button" data-upload-submit>上传并导入</button>
+                </div>
+                <p class="admin-message" data-upload-message></p>
+                <div class="admin-rows" data-import-tasks>
+                    <p class="admin-muted">还没有导入任务。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="admin-panel">
+            <header class="admin-panel__header">
+                <div>
                     <p class="admin-eyebrow">QZONE</p>
                     <h2>QQ 云端同步</h2>
                 </div>
@@ -81,6 +197,7 @@
                     <button type="button" class="admin-button" data-comments-load>读取评论</button>
                 </div>
             </header>
+            <p class="admin-muted">审核规则：正常评论直接发布；正文含链接时转待审核；触发蜜罐或提交过快的直接拒绝。</p>
             <div class="admin-comments" data-comments-list>
                 <p class="admin-muted">尚未读取评论。</p>
             </div>

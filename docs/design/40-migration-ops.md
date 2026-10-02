@@ -117,6 +117,26 @@ node tools/cosmos-push.mjs imports/fantasy/derived/moments
 
 > 原先基于 `build.mjs` 的 Git 写作工作流已随切换退役。
 
+## 云端任务（管理台链路）
+
+除 QQ 同步（`qzone-sync` / `qzone-auth`）外，另有三个手工触发的 Container Apps Job，共用同一镜像（`sync/Dockerfile`，内含 pandoc 与 poppler-utils，`tools/` 随镜像发布）：
+
+| Job | 入口 | 职责 |
+|---|---|---|
+| `content-import` | `tools/cloud-import.mjs` | 取 `state` 里最旧的 `queued` 导入任务：下载原件 → `import-content` 转换 → `build-documents` → `blob-push` → `cosmos-push` 入库，任务文档记录结果与失败原因 |
+| `content-publish` | `tools/cloud-publish.mjs` | 全量重建 `search-docs` 投影 → `materialize-site` 物化 → 产物以单个 commit 回写 GitHub（push 到 main 自动触发 Pages）→ `search-push` 推送 AI Search → 写 `last-publish` 并清除脏标记 |
+| 定时 `qzone-sync` | `sync/src/index.js` | QQ 空间动态同步（既有） |
+
+操作闭环（发布模式 = 统一发布按钮）：管理台上传或改动封面/系列/标签 → 只写权威库并置 `publish-state.dirty` → 管理台点"发布" → `content-publish` 上线。
+
+镜像由 `deploy-sync-image.yml` 构建（构建上下文为仓库根），push 到 main 的 `sync/**` 或 `tools/**` 变更都会触发，并更新全部 Job 的镜像。首次启用需先 `az deployment` 部署 `infra/main.bicep`（新 Job、角色与函数应用设置 `IMPORT_JOB_NAME` / `PUBLISH_JOB_NAME`），再推送镜像。
+
+本地设置动态置顶/精选样本（需 Azure 登录）：
+
+```powershell
+node tools/moment-flags.mjs --id <momentId> --month <YYYY-MM> --pinned on
+```
+
 ## 本地开发与验证
 
 ### 本地预览

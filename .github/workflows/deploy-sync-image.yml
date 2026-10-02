@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - sync/**
+      - tools/**
       - .github/workflows/deploy-sync-image.yml
   workflow_dispatch:
 
@@ -26,7 +27,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v6
         with:
-          context: sync
+          # 上下文是仓库根：同一镜像同时承载 QQ 同步、内容导入与发布入口。
+          context: .
+          file: sync/Dockerfile
           push: true
           tags: |
             ghcr.io/cpower-2ng/bifrost-qzone-sync:latest
@@ -45,4 +48,6 @@ jobs:
           image="ghcr.io/cpower-2ng/bifrost-qzone-sync:${GITHUB_SHA}"
           az containerapp job update -g "$RESOURCE_GROUP" -n "$SYNC_JOB" --image "$image"
           az containerapp job update -g "$RESOURCE_GROUP" -n "$AUTH_JOB" --image "$image"
-
+          # 导入与发布任务名由 bicep 固定为 content-import / content-publish
+          az containerapp job update -g "$RESOURCE_GROUP" -n "content-import" --image "$image"
+          az containerapp job update -g "$RESOURCE_GROUP" -n "content-publish" --image "$image"

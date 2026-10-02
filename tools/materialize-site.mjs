@@ -342,6 +342,8 @@ async function main() {
       tags: moment.tags || [],
       video: moment.video || null,
       counts: moment.counts || { likes: 0, views: 0, comments: 0 },
+      pinned: Boolean(moment.pinned),
+      featured: Boolean(moment.featured),
     })),
   };
 

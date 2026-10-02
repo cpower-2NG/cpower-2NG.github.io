@@ -23,6 +23,11 @@ export function cosmosContainers() {
     signals: database.container('signals'),
     state: database.container('state'),
     rateLimits: database.container('rate-limits'),
+    contentArticles: database.container('content-articles'),
+    contentMoments: database.container('content-moments'),
+    taxonomy: database.container('taxonomy'),
+    assets: database.container('assets'),
+    searchDocs: database.container('search-docs'),
   };
   return cached;
 }

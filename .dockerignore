@@ -1,0 +1,10 @@
+# 构建上下文是仓库根：只保留镜像需要的源码与清单，其余全部排除，
+# 避免 imports/raw（约 75MB 原件）与媒体目录进入构建上下文。
+**
+!sync/package.json
+!sync/package-lock.json
+!sync/src
+!tools/package.json
+!tools/package-lock.json
+!tools/*.mjs
+!tools/lib

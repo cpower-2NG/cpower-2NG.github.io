@@ -52,3 +52,12 @@ export async function readPrivateJson(blobName) {
   }
   return JSON.parse(Buffer.concat(chunks).toString('utf8'));
 }
+
+/** 原件与导入报告都落在私有容器；上传不经过公开访问面。 */
+export async function uploadPrivateBlob(blobName, buffer, contentType = 'application/octet-stream') {
+  const blob = blobService().private.getBlockBlobClient(blobName);
+  await blob.uploadData(buffer, {
+    blobHTTPHeaders: { blobContentType: contentType },
+  });
+  return blobName;
+}
