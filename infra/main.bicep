@@ -396,6 +396,13 @@ resource search 'Microsoft.Search/searchServices@2023-11-01' = {
     replicaCount: 1
     partitionCount: 1
     hostingMode: 'default'
+    // 函数应用与发布任务都用 DefaultAzureCredential 访问索引；
+    // 必须显式声明 Entra ID 鉴权，否则 ARM 更新会把服务退回 apiKeyOnly。
+    authOptions: {
+      aadOrApiKey: {
+        aadAuthFailureMode: 'http401WithBearerChallenge'
+      }
+    }
   }
 }
 
