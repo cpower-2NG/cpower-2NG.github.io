@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-phase="logic">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AtCoder ABC449 E - A += v · BIFROST</title>
+<meta name="description" content="最少出现次数优先的构造序列：BIT 维护出现次数与阶段边界，离线回答位置查询。">
+<link rel="canonical" href="https://cpower-2ng.github.io/content/atcoder-abc449-e-a-v.html">
+<meta property="og:site_name" content="BIFROST">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AtCoder ABC449 E - A += v">
+<meta property="og:description" content="最少出现次数优先的构造序列：BIT 维护出现次数与阶段边界，离线回答位置查询。">
+<meta property="og:url" content="https://cpower-2ng.github.io/content/atcoder-abc449-e-a-v.html">
+<meta name="twitter:card" content="summary">
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === '1') return;
+  params.delete('embed');
+  var extra = params.toString();
+  var target = '/?phase=logic&entry=01M3Y8JS85FVWPC1Z6AB38PDWS' + (extra ? '&' + extra : '') + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+</head>
+<body>
+<!--bifrost:fragment:start-->
+<article class="article-surface"><h1>AtCoder ABC449 E - A += v</h1>
+<h2>Problem</h2>
+<p>给定长度为 <code>N</code> 的序列 <code>A</code>，元素范围是 <code>1..M</code>。重复执行如下操作很多次：</p>
+<ul><li>选择当前出现次数最少的值 <code>v</code></li><li>若最少值有多个，取数值最小的那个</li><li>把 <code>v</code> 追加到序列末尾</li></ul>
+<p>给出 <code>Q</code> 个位置 <code>X</code>，询问最终序列在该位置上的值。</p>
+<p>约束里操作次数非常大（题面写成 <code>10^100</code>），<code>X</code> 也可到 <code>1e18</code>，不能按操作过程硬模拟。</p>
+<h2>Insight</h2>
+<h3>1. 直觉模型：寻找循环，且是分层循环</h3>
+<p>把每个值的出现次数看成柱子高度。<br>每次操作都给当前最低柱子加 1（并列时选编号小的）。</p>
+<p>这个模型类比经典的灌水问题：</p>
+<ul><li>先把最矮的一批柱子补到第二矮高度</li><li>再把这批一起补到第三矮高度</li><li>如此分阶段推进</li></ul>
+<p>所以关键不是找“一个拐点”，而是找“第几个阶段”。</p>
+<h3>2. 排序后做阶段边界</h3>
+<p>记 <code>cnt[i]</code> 为值 <code>i</code> 的频次，把 <code>(cnt[i], i)</code> 排序得到 <code>s</code>。</p>
+<p><code>r[k]</code> 定义为：完成前 <code>k</code> 个最矮柱子的阶段后，序列总长度。</p>
+<ul><li><code>r[0] = N</code></li><li>递推：<ul><li>前 <code>k+1</code> 根柱子从高度 <code>s[k].first</code> 补到 <code>s[k+1].first</code></li><li>需要增加 <code>(k+1) * (s[k+1].first - s[k].first)</code> 次</li></ul></li></ul>
+<p>即：</p>
+<p><code>r[k+1] = r[k] + (k+1) * (s[k+1].first - s[k].first)</code></p>
+<p>这一步就是把“操作过程”转换成“阶段边界数组”。</p>
+<h3>3. 查询方法</h3>
+<p>给定 <code>X</code>：</p>
+<ul><li>若 <code>X <= N</code>：答案就是原数组 <code>A[X-1]</code></li><li>否则：在 <code>r</code> 上二分，找到最小 <code>ok</code> 使 <code>r[ok] >= X</code><ul><li>说明 <code>X</code> 落在“前 <code>ok</code> 个值轮流被补”的阶段</li></ul></li></ul>
+<p>把 <code>X</code> 映射到该阶段内部：</p>
+<ul><li><code>x = X - (r[ok-1] + 1)</code></li><li><code>x %= ok</code></li></ul>
+<p>此时问题变成：</p>
+<ul><li>在“当前参与循环的 <code>ok</code> 个值”中，取按数值升序的第 <code>x</code> 个</li></ul>
+<h3>4.  BIT（Fenwick）加速</h3>
+<p>需要支持：</p>
+<ul><li>动态加入一个值（该值进入当前阶段）</li><li>查询第 <code>k</code> 小值</li></ul>
+<p>Fenwick 树可做：</p>
+<ul><li><code>add(pos, 1)</code> 表示值 <code>pos</code> 已激活</li><li><code>lower_bound(k)</code> 找前缀和首次达到 <code>k</code> 的位置，即第 <code>k</code> 小</li></ul>
+<p>把查询按 <code>ok</code> 升序处理，可让激活过程单调推进，整体复杂度稳定。</p>
+<h2>Complexity</h2>
+<ul><li>计数：<code>O(N)</code></li><li>排序：<code>O(M log M)</code></li><li>阶段边界：<code>O(M)</code></li><li>查询：每次二分 <code>O(log M)</code> + Fenwick <code>O(log M)</code></li><li>额外按 <code>ok</code> 排序查询：<code>O(Q log Q)</code></li></ul>
+<p>总复杂度可写为 <code>O(M log M + Q log Q + Q log M + N)</code>，在本题范围内可通过。</p>
+<h2>Pitfalls</h2>
+<ul><li>误判成“两段式”过程：只处理最小频次一轮后直接全体循环，导致wa。</li></ul>
+<h2>Note</h2>
+<ul><li>代码实现层面已可 AC。</li><li>对BIT的数学理解仍不够深入</li></ul></article>
+<!--bifrost:fragment:end-->
+</body>
+</html>

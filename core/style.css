@@ -681,6 +681,22 @@ html[data-phase="fantasy"] .grid-2 {
   border-radius: 14px;
 }
 
+/* 数学公式：物化时用 KaTeX 预渲染成 HTML，字体与样式随站点发布（core/katex/）。
+   宽公式允许横向滚动，不撑破版心。 */
+.content-viewer .math-block {
+  margin: 1.4em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.content-viewer .math-block .katex-display {
+  margin: 0;
+}
+
+.content-viewer .katex {
+  font-size: 1.04em;
+}
+
 /* 正文图片带 width/height 时仍按比例缩放，避免被拉伸出错比例。 */
 .content-viewer img {
   height: auto;

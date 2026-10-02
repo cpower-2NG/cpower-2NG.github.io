@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-phase="logic">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOLO 视觉感知实验：从数据集到推理评估 · BIFROST</title>
+<meta name="description" content="在 COCO10 上跑通 YOLOv8n 的完整链路：环境、数据、训练、推理与评估，附训练曲线、街景视频与分辨率对比的实测数据。">
+<link rel="canonical" href="https://cpower-2ng.github.io/content/yolo-视觉感知实验-从数据集到推理评估.html">
+<meta property="og:site_name" content="BIFROST">
+<meta property="og:type" content="article">
+<meta property="og:title" content="YOLO 视觉感知实验：从数据集到推理评估">
+<meta property="og:description" content="在 COCO10 上跑通 YOLOv8n 的完整链路：环境、数据、训练、推理与评估，附训练曲线、街景视频与分辨率对比的实测数据。">
+<meta property="og:url" content="https://cpower-2ng.github.io/content/yolo-视觉感知实验-从数据集到推理评估.html">
+<meta property="og:image" content="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/04.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === '1') return;
+  params.delete('embed');
+  var extra = params.toString();
+  var target = '/?phase=logic&entry=01M3Y8JS5H7RTB2Z56K2SN562D' + (extra ? '&' + extra : '') + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+</head>
+<body>
+<!--bifrost:fragment:start-->
+<article class="article-surface"><h1>YOLO 视觉感知实验：从数据集到推理评估</h1>
+<p>在这台机器上跑 YOLO 的动机很实际：抓取流程需要一个能把螺丝、方块从桌面上找出来的视觉环节。我拿 <strong>COCO10</strong>（从 MS COCO 里截取的 10 类子集）当统一数据集，从环境搭建一路走到视频流推理，核心结论先放在前面——YOLOv8n 训练 50 轮约 35 分钟（GPU）收敛，验证集 mAP@50 大约 0.55，单图推理在 10 毫秒量级；用在仿真环境的常规目标检出上够用，但小目标、遮挡和极端光照仍然是明显的短板。</p>
+<p>这篇记录走一遍的完整过程：原理、环境、数据、训练、推理与评估，以及中途踩到的坑。</p>
+<hr>
+<h2>YOLO 核心原理</h2>
+<p><strong>YOLO</strong>（You Only Look Once）是一种单阶段目标检测算法。其核心思想可概括为：<strong>将整张图像输入一个神经网络，单次前向传播即可同时预测所有物体的边界框位置和所属类别</strong>。相比需要分步执行&quot;候选区域提取 → 分类&quot;的传统两阶段方法，YOLO 将检测建模为端到端的回归任务，推理速度达到实时级别（毫秒级），非常适合机器人等对延迟敏感的场景。</p>
+<p>YOLO 系列自 2016 年提出以来迭代了多个版本（v1 → v8 → v10 → v11 等），这里用工程生态最成熟的 YOLOv8。下面从检测问题的本质出发，展开它的工作机制。</p>
+<h3>目标检测问题的本质</h3>
+<p>目标检测需要同时回答两个问题：</p>
+<ul><li><strong>定位（where）</strong>：物体在图像的什么位置？</li><li><strong>分类（what）</strong>：这个物体是什么类别？</li></ul>
+<p>传统方法将这两个问题拆成串行步骤：先用滑动窗口或区域提议算法扫描全图，找到&quot;可能有物体&quot;的候选区域，再对每个区域单独运行分类器。计算量随候选区域数量线性增长，难以实时。</p>
+<p>YOLO 的设计出发点是：<strong>将检测重新定义为一个单一的回归问题</strong>——直接从输入图像像素映射到边界框坐标和类别概率，中间不经过&quot;区域提议 → 分类&quot;的分步流水线。</p>
+<p><img src="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/01.png" alt="YOLO 检测流程" loading="lazy"></p>
+<p><em>图 1 YOLO 单阶段检测：输入图像经过一次神经网络前向传播，同时输出所有物体的边界框和类别</em></p>
+<h3>网格划分与单次前向传播</h3>
+<p>YOLO 将输入图像划分为 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.0576em;">S</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0576em;">S</span></span></span></span> 的网格（grid）。每个网格单元负责预测<strong>中心点落在该单元内的物体</strong>。单次前向传播后，每个网格单元输出：</p>
+<ul><li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span></span></span></span> 个边界框（每个包含 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.0269em;">w</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">h</span></span></span></span> 和置信度 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0715em;">C</span></span></span></span>）</li><li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0715em;">K</span></span></span></span> 个类别概率</li></ul>
+<p>整张图的预测结果是一个 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.0576em;">S</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.0576em;">S</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0715em;">K</span><span class="mclose">)</span></span></span></span> 的张量。以 YOLOv8 在 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">640</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">640</span></span></span></span> 输入下为例，最终输出约 8400 个候选框。</p>
+<p>这个设计的核心效果是：<strong>无论图像中有多少物体，计算量基本恒定</strong>——不像两阶段方法随候选区域数线性增长。</p>
+<h3>边界框的归一化坐标表示</h3>
+<p>YOLO 输出的边界框采用<strong>中心点归一化坐标</strong>：</p>
+<pre><code class="language-text">class_id   x_center   y_center   width   height
+   0        0.5234     0.4120    0.0875   0.0650</code></pre>
+<ul><li><code>x_center</code>, <code>y_center</code>：框中心在图像中的相对位置（<span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>，相对于图像宽高）</li><li><code>width</code>, <code>height</code>：框宽高（同样归一化到 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>）</li><li><code>class_id</code>：类别编号，从 0 开始</li></ul>
+<p>归一化使坐标与图像分辨率解耦，模型可在任意尺寸输入上训练和推理。</p>
+<h3>置信度与 NMS 后处理</h3>
+<p>每个边界框附带一个<strong>置信度分数</strong>（confidence score）：</p>
+<div class="math-block"><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6944em;"></span><span class="mord text"><span class="mord">confidence</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span><span class="mopen">(</span><span class="mord text"><span class="mord">object</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1.3054em;vertical-align:-0.3831em;"></span><span class="mord"><span class="mord text"><span class="mord">IoU</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9223em;"><span style="top:-2.453em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">pred</span></span></span></span></span><span style="top:-3.1362em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">truth</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3831em;"><span></span></span></span></span></span></span></span></span></span></span></div>
+<p>其中 IoU（Intersection over Union，交并比）是衡量两个边界框重叠程度的指标，定义为两框交集面积除以并集面积。直观理解：IoU = 1 表示两框完全重合，IoU = 0 表示完全不重叠。因此置信度综合了两个信息——&quot;框内很可能有物体&quot;且&quot;框的位置比较准&quot;。</p>
+<p>推理时实际使用类别条件概率：</p>
+<div class="math-block"><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span><span class="mopen">(</span><span class="mord"><span class="mord text"><span class="mord">class</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">∣</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">object</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span><span class="mopen">(</span><span class="mord text"><span class="mord">object</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord">IoU</span></span></span></span></span></span></div>
+<p>后处理分两步：</p>
+<ol><li><strong>置信度过滤</strong>：丢弃置信度低于阈值（如 0.25）的框</li><li><strong>非极大值抑制（NMS）</strong>：对同一物体的多个重叠框，只保留置信度最高的，抑制 IoU 超过阈值（如 0.7）的重复框</li></ol>
+<p>NMS 后每个物体仅保留一个最优边界框。</p>
+<h3>核心评估指标：mAP</h3>
+<p><strong>mAP（mean Average Precision，平均精度均值）</strong> 是目标检测的核心指标。理解 mAP 需要先了解两个基础概念：</p>
+<p><strong>IoU（Intersection over Union）</strong>：预测框与真实框的交集面积除以并集面积，衡量定位精度。</p>
+<p><strong>Precision 与 Recall</strong>：当一个预测框与某个真实框的 IoU ≥ 阈值且类别正确时，记为 TP（True Positive，正确检测）；没有匹配到真实框的预测框记为 FP（False Positive，误检）；没有被预测框匹配到的真实框记为 FN（False Negative，漏检）。由此定义：</p>
+<div class="math-block"><span class="katex-display"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord">Precision</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:2.1297em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">TP</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord">FP</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">TP</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:1em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">Recall</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:2.1297em;vertical-align:-0.7693em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">TP</span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord text"><span class="mord">FN</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord">TP</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></div>
+<p>改变置信度阈值会产生不同的 (Precision, Recall) 对，连成 P-R 曲线，曲线下面积即为 Average Precision（AP）。对所有类别取平均得到 mAP。</p>
+<p>常见两种 mAP 变体：</p>
+<table><thead><tr><th>指标</th><th>含义</th><th>用途</th></tr></thead><tbody><tr><td><strong>mAP@0.5</strong></td><td>IoU ≥ 0.5 即算正确</td><td>宽松评估，衡量&quot;是否找到物体&quot;</td></tr><tr><td><strong>mAP@0.5:0.95</strong></td><td>IoU 从 0.5 到 0.95（步长 0.05）取平均</td><td>COCO 官方标准，严格考察定位精度</td></tr></tbody></table>
+<p>不同 mAP@0.5 数值对应的大致表现：</p>
+<ul><li><strong>0.9 以上</strong>：几乎每个物体都被找到，框的位置也很准</li><li><strong>0.5 左右</strong>：大多数物体能被找到，但存在一定比例的漏检或定位偏差。这次 COCO10 训练 50 轮后约 0.55，属于典型的入门级结果</li><li><strong>0.2 及以下</strong>：模型只能稳定检测少数几个&quot;简单&quot;类别，多数类别要么大量漏检，要么框的位置偏差很大。此时需要检查数据质量、增加训练轮数或换用更大模型</li></ul>
+<p>实际中，mAP 的高低取决于三个因素：<strong>数据质量</strong>（标注是否准确、覆盖是否全面）、<strong>场景复杂度</strong>（目标大小、遮挡程度、类内差异）和<strong>模型容量</strong>（参数量是否匹配任务难度）。</p>
+<h3>YOLOv8 模型族</h3>
+<p>YOLOv8 因其成熟的工程实现和广泛社区支持，是当前入门与部署的稳妥选择。Ultralytics 提供 5 种预训练规模：</p>
+<table><thead><tr><th>模型</th><th>参数量</th><th>COCO mAP50-95</th><th>GPU 延迟</th><th>适用场景</th></tr></thead><tbody><tr><td>YOLOv8n</td><td>3.2M</td><td>37.3</td><td>~2ms</td><td>边缘设备、实时检测</td></tr><tr><td>YOLOv8s</td><td>11.2M</td><td>44.9</td><td>~3ms</td><td>精度要求稍高</td></tr><tr><td>YOLOv8m</td><td>25.9M</td><td>50.2</td><td>~6ms</td><td>桌面 GPU 首选</td></tr><tr><td>YOLOv8l</td><td>43.7M</td><td>52.9</td><td>~9ms</td><td>高精度场景</td></tr><tr><td>YOLOv8x</td><td>68.2M</td><td>53.9</td><td>~12ms</td><td>极致精度</td></tr></tbody></table>
+<p>这里统一用 YOLOv8n：参数最少、训练最快，上手成本最低。</p>
+<hr>
+<h2>实验环境与开发准备</h2>
+<p>环境搭建这一步大约 10 分钟就能完成。</p>
+<h3>硬件要求</h3>
+<table><thead><tr><th>配置项</th><th>最低要求</th><th>推荐配置</th></tr></thead><tbody><tr><td>操作系统</td><td>Windows 10+ / macOS / Linux</td><td>任意，实测环境为 Ubuntu 24.04</td></tr><tr><td>GPU</td><td>无（CPU 可跑，训练耗时 3~6 小时）</td><td>NVIDIA 显卡 + CUDA ≥ 11.8</td></tr><tr><td>内存</td><td>≥ 8 GB</td><td>≥ 16 GB</td></tr><tr><td>磁盘</td><td>≥ 10 GB 空闲</td><td>≥ 20 GB 空闲</td></tr></tbody></table>
+<p>纯 CPU 训练虽然耗时更长，但模型正确性和最终精度不受影响。</p>
+<p>下面所有实测数据（推理耗时、帧率等）都来自这台机器，可以拿来对照：</p>
+<ul><li>GPU：NVIDIA GeForce RTX 2060（6 GB 显存）</li><li>CPU：Intel Core i5-10400F</li><li>内存：16 GB</li><li>操作系统：Ubuntu 24.04</li></ul>
+<p>换一台机器，推理速度会有差异，但 mAP 这类精度指标不受硬件影响。</p>
+<h3>Conda 环境搭建</h3>
+<p>环境用仓库里的 <code>environment_coco.yml</code> 一键创建：</p>
+<pre><code class="language-bash">cd yolo_coco
+conda env create -f environment_coco.yml
+conda activate yolo_coco</code></pre>
+<p>验证安装是否成功：</p>
+<pre><code class="language-bash">python -c &quot;import torch; print(f&#39;PyTorch: {torch.__version__}&#39;)&quot;
+python -c &quot;import torch; print(f&#39;CUDA: {torch.cuda.is_available()}&#39;)&quot;
+python -c &quot;from ultralytics import YOLO; print(&#39;ultralytics OK&#39;)&quot;</code></pre>
+<p>如果 <code>torch.cuda.is_available()</code> 返回 <code>False</code>，说明 PyTorch 将使用 CPU 模式——训练能正常运行，只是速度较慢。</p>
+<h3>项目目录结构</h3>
+<p>实验全部在 <code>yolo_coco/</code> 目录下进行：</p>
+<pre><code>yolo_coco/
+├── config/
+│   ├── coco10.yaml          # COCO10 数据集配置（10 类，约 2800 张）
+│   ├── coco128.yaml         # COCO128 配置（80 类，128 张，快速测试用）
+│   └── coco.yaml            # 全量 COCO 配置（80 类，约 12 万张，约 20GB）
+├── scripts/
+│   ├── prepare_coco10.py    # 下载并筛选 COCO10 数据集
+│   ├── train.py             # 训练脚本
+│   ├── evaluate.py          # 评估脚本
+│   ├── detect.py            # 推理脚本
+│   └── detect_video.py      # 视频流检测脚本
+├── assets/                  # 示例图片与图表
+└── data/
+    └── coco10/              # 下载后生成的数据集目录
+        ├── images/
+        │   ├── train/       # 训练集图像
+        │   └── val/         # 验证集图像
+        └── labels/
+            ├── train/       # 训练集标注（.txt）
+            └── val/         # 验证集标注（.txt）</code></pre>
+<h3>预训练权重与 COCO10 数据集简介</h3>
+<p>为了省掉从零训练的时间，这里走<strong>迁移学习</strong>：用官方提供的 YOLOv8n 预训练权重（<code>yolov8n.pt</code>，在 MS COCO 完整数据集上预训练，80 类、约 12 万张图像，具备通用的视觉特征提取能力），再用 COCO10 微调，GPU 上约 35 分钟即可收敛。</p>
+<p><strong>COCO10</strong> 是从 MS COCO 标准基准中筛选的 10 类子集：</p>
+<table><thead><tr><th>类别 ID</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th></tr></thead><tbody><tr><td>名称</td><td>person</td><td>bicycle</td><td>car</td><td>motorcycle</td><td>bus</td><td>truck</td><td>cat</td><td>dog</td><td>chair</td><td>bottle</td></tr></tbody></table>
+<p>COCO10 包含约 2800 张图像，下载体积约 500 MB。相比完整 COCO（80 类、约 12 万张、约 20GB），它规模小、下载快、训练快，适合先把链路跑通。若算力充足、想冲更高精度，把 <code>coco10.yaml</code> 换成 <code>coco.yaml</code>、epochs 提到 100+ 即可。</p>
+<hr>
+<h2>数据集准备</h2>
+<h3>COCO10 下载与预处理</h3>
+<p>运行以下脚本一键完成数据集的下载与预处理：</p>
+<pre><code class="language-bash">cd yolo_coco
+conda activate yolo_coco
+python scripts/prepare_coco10.py</code></pre>
+<p>脚本自动完成以下步骤：</p>
+<ol><li>从 COCO 官网下载标注文件和图片（约 500 MB）</li><li>从 80 类中筛选出上述 10 类</li><li>确保每类不少于 200 个标注实例</li><li>按 80/20 比例划分训练集与验证集</li><li>生成 YOLO 标准格式的标注文件（<code>.txt</code>）</li><li>输出到 <code>data/coco10/</code></li></ol>
+<p>完成后可检查目录结构：</p>
+<pre><code class="language-bash">ls data/coco10/images/train/ | head -5   # 查看训练集图片
+ls data/coco10/labels/train/ | head -5   # 查看对应的标注文件</code></pre>
+<h3>数据集配置文件解析</h3>
+<p><code>config/coco10.yaml</code> 是 YOLO 训练脚本与数据集之间的桥梁：</p>
+<pre><code class="language-yaml"># config/coco10.yaml
+path: data/coco10             # 数据集根目录
+train: images/train           # 训练集图像（相对于 path）
+val: images/val               # 验证集图像（相对于 path）
+
+# 10 个类别
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: cat
+  7: dog
+  8: chair
+  9: bottle</code></pre>
+<p>各字段含义：</p>
+<table><thead><tr><th>字段</th><th>说明</th></tr></thead><tbody><tr><td><code>path</code></td><td>数据集根目录，所有相对路径以此为准</td></tr><tr><td><code>train</code></td><td>训练集图像所在子目录</td></tr><tr><td><code>val</code></td><td>验证集图像所在子目录</td></tr><tr><td><code>names</code></td><td>类别 ID 到名称的映射字典，ID 从 0 开始，必须连续</td></tr></tbody></table>
+<p>YOLO 约定：标注文件与图像同名（仅扩展名不同），位于并行目录中。例如 <code>images/train/000001.jpg</code> 对应的标注文件为 <code>labels/train/000001.txt</code>。每个 <code>.txt</code> 文件每行描述一个目标：</p>
+<pre><code class="language-text"># 格式: class_id x_center y_center width height (均归一化)
+0 0.5234 0.4120 0.0875 0.0650
+3 0.2341 0.5678 0.1200 0.0800</code></pre>
+<p><strong>提示</strong>：如需使用全量 COCO 或其他数据集，只需新建一个类似的 YAML 配置文件，无需修改训练脚本。</p>
+<hr>
+<h2>YOLO 模型训练</h2>
+<p>下面进入训练：怎么启动、怎么读训练过程中的输出、以及常见异常怎么处理。</p>
+<h3>训练参数详解</h3>
+<p>训练的核心调用如下：</p>
+<pre><code class="language-python">from ultralytics import YOLO
+model = YOLO(&#39;yolov8n.pt&#39;)
+model.train(data=&#39;config/coco10.yaml&#39;, epochs=50, batch=16, imgsz=640, device=&#39;cuda:0&#39;)</code></pre>
+<p>通过命令行启动（这次用的 <code>scripts/train.py</code> 就是把上面的逻辑封装起来）：</p>
+<pre><code class="language-bash">python scripts/train.py
+  --model yolov8n.pt
+  --data config/coco10.yaml
+  --epochs 50
+  --batch 16</code></pre>
+<p>各参数的含义与选值建议：</p>
+<table><thead><tr><th>参数</th><th>含义</th><th>推荐值</th><th>说明</th></tr></thead><tbody><tr><td><code>--model</code></td><td>预训练权重文件</td><td><code>yolov8n.pt</code></td><td>迁移学习的起点</td></tr><tr><td><code>--data</code></td><td>数据集配置文件</td><td><code>config/coco10.yaml</code></td><td>指定训练集、验证集、类别</td></tr><tr><td><code>--epochs</code></td><td>完整遍历数据集的次数</td><td>50</td><td>越多越充分，但边际收益递减</td></tr><tr><td><code>--batch</code></td><td>每次参数更新使用的样本数</td><td>16</td><td>显存不足时报 OOM，降至 8</td></tr><tr><td><code>--imgsz</code></td><td>输入图像尺寸（像素）</td><td>640</td><td>YOLO 标准输入分辨率</td></tr><tr><td><code>--device</code></td><td>计算设备</td><td>自动检测</td><td>手动指定 <code>cpu</code> 可强制 CPU 模式</td></tr></tbody></table>
+<p>此外，训练脚本内部还启用了<strong>早停机制</strong>（patience=20）：当验证集 mAP 连续 20 轮没有提升时自动终止训练，避免浪费时间。</p>
+<h3>训练启动与过程监控</h3>
+<p>执行训练命令后，终端会输出实时训练日志。每个 epoch 包含两行：第一行为训练损失，第二行为验证集评估结果（含 mAP）：</p>
+<pre><code>Epoch    GPU_mem   box_loss   cls_loss   dfl_loss   Instances       Size
+  1/50      2.5G      1.452      1.843      1.267        248        640: 100%
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%
+                   all        562       2896      0.473      0.431       0.44      0.271</code></pre>
+<p>关键监控指标：</p>
+<table><thead><tr><th>指标</th><th>出现在</th><th>趋势预期</th><th>说明</th></tr></thead><tbody><tr><td><code>box_loss</code></td><td>训练行</td><td>持续下降 ↓</td><td>边界框定位误差，越低框越准</td></tr><tr><td><code>cls_loss</code></td><td>训练行</td><td>持续下降 ↓</td><td>分类误差，越低类别判断越准</td></tr><tr><td><code>mAP@0.5</code></td><td>验证行</td><td>逐步上升 ↑</td><td>验证集上&quot;是否找到物体&quot;的能力</td></tr><tr><td><code>mAP@0.5:0.95</code></td><td>验证行</td><td>逐步上升 ↑</td><td>验证集上的综合定位精度</td></tr></tbody></table>
+<p>训练会持续约 35 分钟（RTX 2060 GPU）。若意外中断，可通过 <code>--resume</code> 从最近的 checkpoint 恢复：</p>
+<pre><code class="language-bash">python scripts/train.py --resume</code></pre>
+<p>训练产物保存在 <code>outputs/train/<时间戳>/</code> 目录下：</p>
+<table><thead><tr><th>文件</th><th>用途</th></tr></thead><tbody><tr><td><code>weights/best.pt</code></td><td>验证集上 mAP 最高的模型权重（推理用）</td></tr><tr><td><code>weights/last.pt</code></td><td>最后一个 epoch 的权重（续训用）</td></tr><tr><td><code>results.png</code></td><td>训练曲线图（loss 与 mAP 随 epoch 变化）</td></tr></tbody></table>
+<h3>训练损失分析与收敛判断</h3>
+<p>训练过程中自动记录三类核心损失：</p>
+<ul><li><strong>box_loss（边界框回归损失）</strong>：衡量预测框与真实标注框的位置偏差</li><li><strong>cls_loss（分类损失）</strong>：衡量预测类别概率与真实类别的偏差</li><li><strong>dfl_loss（分布焦点损失）</strong>：YOLOv8 特有，辅助边界框概率分布的精细回归</li></ul>
+<p>典型的训练过程可分为三个阶段：</p>
+<table><thead><tr><th>阶段</th><th>Epoch 范围</th><th>现象</th><th>含义</th></tr></thead><tbody><tr><td>快速收敛</td><td>1-20</td><td>三类损失快速下降</td><td>模型从预训练权重快速适配新数据</td></tr><tr><td>精细调优</td><td>20-40</td><td>损失下降放缓，mAP 逐步提升</td><td>模型逐步学习数据中的细节特征</td></tr><tr><td>收敛稳定</td><td>40-50</td><td>损失基本平稳，mAP 微幅波动</td><td>模型在当前设置下接近性能上限</td></tr></tbody></table>
+<p>如果训练结束时损失仍有明显下降趋势，可以适当增加 epochs；如果早停机制在 30 轮左右就触发了，说明模型已充分收敛。</p>
+<p><code>results.png</code> 直观展示了上述变化趋势：</p>
+<p><img src="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/02.png" alt="训练曲线" loading="lazy"></p>
+<p><em>图 2 COCO10 训练曲线：loss 持续下降、mAP 稳步上升</em></p>
+<h3>常见训练异常排查</h3>
+<p>实验过程中可能遇到以下三类高频问题：</p>
+<p><strong>问题一：训练损失出现 NaN</strong></p>
+<p>现象：训练几个 epoch 后，box_loss 或 cls_loss 突然变为 NaN（Not a Number）。</p>
+<p>原因：初始学习率过高，导致梯度爆炸。</p>
+<p>解决：降低初始学习率（在 train.py 中增加 lr0=0.001 参数），同时检查数据集中是否存在标注为空的异常样本。</p>
+<p><strong>问题二：损失不下降、mAP 很低</strong></p>
+<p>现象：训练了 10 个 epoch，损失几乎不变，mAP@0.5 始终在 0.1 以下。</p>
+<p>原因：最常见的原因是数据路径配置错误——coco10.yaml 中的 path 字段与实际目录不匹配，导致模型读取不到图像；其次是显存溢出（OOM）导致 batch 内数据损坏。</p>
+<p>解决：首先确认 data/coco10/images/train/ 下是否有图像文件；其次检查 coco10.yaml 中的路径是否正确；如果显存不足，将 --batch 降至 8。</p>
+<p><strong>问题三：显存溢出（Out of Memory）</strong></p>
+<p>现象：训练开始时报 CUDA out of memory。</p>
+<p>解决：依次尝试 (1) 减小 batch size：--batch 8；(2) 降低输入分辨率：--imgsz 320；(3) 换用更小的模型如 yolov8n.pt（这里默认就是它）。</p>
+<hr>
+<h2>模型推理与性能测试</h2>
+<p>训练完成后取验证集 mAP 最高的 <code>best.pt</code> 作为推理模型，下面从单图推理一路测到视频流检测。</p>
+<h3>单张图像推理</h3>
+<p>首先在单张图片上测试模型的基本检测能力：</p>
+<pre><code class="language-bash">python scripts/detect.py
+  --model outputs/train/&lt;时间戳&gt;/weights/best.pt
+  --source data/coco10/images/val/000000000001.jpg
+  --save</code></pre>
+<p>推理过程：读取图像 → 缩放至 640×640 → 送入 YOLO 模型完成前向传播 → 置信度过滤（conf=0.25）→ NMS 去重（iou=0.7）→ 将检测框、类别名称与置信度数值绘制在原图上 → 保存结果。</p>
+<p><img src="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/03.jpg" alt="COCO10 检测结果" loading="lazy"></p>
+<p><em>图 3 COCO10 单图检测结果示例：person、bicycle、car 等被准确检出</em></p>
+<p>可以挑几张不同类型的图（人物为主、车辆为主、动物为主）分别测，看看不同场景下的表现差异。</p>
+<h3>批量图像推理与耗时统计</h3>
+<p>对验证集中所有图像进行批量推理，统计平均耗时：</p>
+<pre><code class="language-bash">python scripts/detect.py
+  --model outputs/train/&lt;时间戳&gt;/weights/best.pt
+  --source data/coco10/images/val
+  --save</code></pre>
+<p>脚本将遍历验证集中的所有图像，逐一完成检测并统一保存到 outputs/detect/ 目录。在 RTX 2060 上实测，对 560 张验证集图像进行批量推理：</p>
+<ul><li>总耗时约 8.8 秒</li><li>平均每张约 15.7 ms（有效约 64 FPS）</li><li>单图推理耗时中位数约 14.9 ms</li></ul>
+<p>注意：首次推理时模型需要进行 GPU 预热，前几张图像的耗时可能偏高（约 20-30 ms），稳定后波动在 13-18 ms 之间。</p>
+<p>这些速度数据将作为后续性能分析和不同分辨率对比实验的基准。</p>
+<h3>视频流实时检测</h3>
+<p>实际用起来，YOLO 更多是跑在视频流上——连续吃帧、实时吐结果。这里拿一段公开街景视频，把 COCO10 模型套到连续帧上，看实时推理扛不扛得住。</p>
+<h4>视频选材</h4>
+<p>这里用一段公开的无版权街景视频（约 6 秒，353 帧，1920 × 1080，60 fps，约 2.7 MB），画面是日间的交叉路口，出现 person、car、truck、bicycle 等行人和车辆目标，与 COCO10 的类别高度匹配。素材来自 YouTube 上的无版权街景片段，也可以自己找类似的素材，只要画面里包含 COCO10 十类中的若干类即可。</p>
+<h4>基本原理</h4>
+<p>视频流检测的核心思路与单图推理完全一致，唯一的区别在于输入源：不再是一次性读入一张图像文件，而是通过 OpenCV 的 VideoCapture 持续读取视频的每一帧，逐帧送入 YOLO 模型完成推理，再将标注后的画面实时显示或写回视频文件。整个处理流水线由三个环节构成：</p>
+<p>（1）帧读取。OpenCV 从视频文件（或摄像头）中逐帧读取图像数据，返回的是与单张图片完全相同的 BGR 格式的 NumPy 数组。这意味着 YOLO 模型不需要任何修改——它接收的仍然是一张张独立的图像。</p>
+<p>（2）逐帧推理。将每一帧送入 YOLO 模型，模型完成前向传播后返回该帧中所有检测到的目标（类别、边界框坐标、置信度）。这一过程与 3.6.1 节中的单图推理完全一致，只是循环执行。</p>
+<p>（3）结果输出。模型返回的结果通过 OpenCV 绘制到原始帧上，可选择实时弹窗显示（--show），也可将标注后的帧逐帧写入 MP4 文件（默认行为），得到完整的检测结果视频。</p>
+<p>检测脚本在 <code>yolo_coco/scripts/detect_video.py</code>，直接用即可。</p>
+<h4>运行方式</h4>
+<pre><code class="language-bash">cd yolo_coco
+conda activate yolo_coco
+
+# 使用训练好的 COCO10 模型对街景视频进行检测
+python scripts/detect_video.py
+  --model outputs/train/&lt;时间戳&gt;/weights/best.pt
+  --source assets/street_scene.mp4
+  --show</code></pre>
+<p>各参数含义如下：</p>
+<ul><li>--model：训练好的模型权重路径（.pt 文件）。</li><li>--source：输入视频文件路径，或摄像头索引（如 0 表示默认摄像头）。</li><li>--conf：置信度阈值，低于该值的检测框将被丢弃，默认为 0.25。</li><li>--show：启用后实时弹窗显示检测画面，按 Q 键可提前退出。</li><li>--no-save：启用后不保存结果视频，仅用于快速查看效果。</li></ul>
+<p>程序运行完成后，结果视频保存在 outputs/detect_video/result.mp4。</p>
+<h4>预期结果</h4>
+<p>在 RTX 2060（6 GB 显存）上使用 YOLOv8n，对 1920 × 1080 街景视频推理的实测表现如表 1 所示。</p>
+<table><thead><tr><th>指标</th><th>数值</th></tr></thead><tbody><tr><td>视频属性</td><td>1920 × 1080，60 fps，353 帧，约 6 秒</td></tr><tr><td>平均推理耗时</td><td>约 24 ms/帧</td></tr><tr><td>有效推理帧率</td><td>约 42 FPS</td></tr><tr><td>平均每帧检出目标数</td><td>约 10.4 个</td></tr><tr><td>主要检出类别</td><td>person、car、truck、bicycle</td></tr></tbody></table>
+<p>表 1  街景视频 YOLO 推理性能实测</p>
+<p>图 4 和图 5 展示了检测结果的两个典型帧。可以看到：车辆和行人均被准确检出，边界框贴合目标轮廓，类别标签和置信度数值清晰可读；画面左上角叠加了当前帧号和单帧推理耗时，便于实时监控检测性能。</p>
+<p><img src="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/04.jpg" alt="街景检测结果1" loading="lazy"></p>
+<p>图 4  街景视频检测结果示例（第 100 帧）</p>
+<p><img src="https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/05.jpg" alt="街景检测结果2" loading="lazy"></p>
+<p>图 5  街景视频检测结果示例（第 200 帧）</p>
+<p>COCO10 模型训练时只见过 10 类，因此视频中的其他物体（如交通信号灯、路牌等）不会被检测，这是正常现象。观察检测结果还可总结以下几点规律：</p>
+<p>（1）行人检测的置信度普遍较高（0.7 以上），因为 COCO 中 person 类别样本最丰富，模型对该类别学得最充分。</p>
+<p>（2）远处行人的置信度明显降低，甚至出现漏检。这反映了小目标检测的固有挑战——目标在画面中占比过小时，经 640 × 640 缩放后特征信息严重不足（将在 3.7.3 节详细分析）。</p>
+<p>（3）模型对车辆（car、truck）的定位精度和置信度整体优于行人，因为车辆的形态一致性更强、视觉特征更稳定。</p>
+<p>也可以接电脑摄像头做实时检测：</p>
+<pre><code class="language-bash">python scripts/detect_video.py
+  --model outputs/train/&lt;时间戳&gt;/weights/best.pt
+  --source 0
+  --show</code></pre>
+<p>其中 --source 0 表示使用默认摄像头（索引 0），该方法同样适用于 USB 外接摄像头。</p>
+<h3>不同输入分辨率下的推理速度对比</h3>
+<p>为了直观体验 YOLO 模型速度与精度之间的权衡关系，在同一硬件环境下，对同一段视频分别使用三种不同分辨率进行推理测试。</p>
+<p>修改 <code>detect_video.py</code> 中模型加载一行（或通过 <code>--imgsz</code> 参数扩展脚本）：</p>
+<pre><code class="language-python"># 分别测试三种分辨率
+for imgsz in [320, 640, 1280]:
+    model = YOLO(model_path)
+    results = model(frame, imgsz=imgsz, conf=0.25, iou=0.7, verbose=False)</code></pre>
+<p>在 RTX 2060 上使用 street_scene.mp4 的同一帧重复推理 100 次，实测结果如表 2 所示。</p>
+<table><thead><tr><th>输入分辨率</th><th>平均推理耗时</th><th>有效帧率</th><th>平均检出目标数</th></tr></thead><tbody><tr><td>320 × 320</td><td>11.8 ms</td><td>85 FPS</td><td>7 个</td></tr><tr><td>640 × 640</td><td>14.5 ms</td><td>69 FPS</td><td>10 个</td></tr><tr><td>1280 × 1280</td><td>17.1 ms</td><td>59 FPS</td><td>13 个</td></tr></tbody></table>
+<p>表 2  不同输入分辨率下的推理性能对比（RTX 2060，同一帧重复 100 次）</p>
+<p>速度与精度的权衡在数据里看得很清楚：分辨率从 320 提到 1280，推理耗时增加约 45%，检出目标数从 7 个增加到 13 个——分辨率越高，越多的远处小目标和边缘模糊目标会被检出。640 × 640 是 YOLO 系列的标准输入尺寸，速度与精度的平衡最好，也是这里推荐的配置。</p>
+<h3>检测结果的结构化保存</h3>
+<p>除了可视化图像和视频外，<code>detect.py</code> 和 <code>detect_video.py</code> 还自动将检测结果保存为结构化文本格式。在 <code>outputs/detect/</code> 目录下，每张输入图像对应一个同名的 <code>.txt</code> 文件：</p>
+<pre><code class="language-text"># outputs/detect/000000000001.txt
+person 0.85 120 45 380 510
+car 0.72 50 200 290 420
+bicycle 0.68 400 150 550 380</code></pre>
+<p>格式为：<code>类别名称 置信度 左 上 右 下</code>（像素坐标，非归一化）。这种结构化输出便于后续程序化处理，例如统计各类别出现频次、筛选高置信度目标、与其他模块对接等。</p>
+<hr>
+<h2>实验结果评估与分析</h2>
+<p>下面从定量到定性，把训练出来的模型评估一遍。</p>
+<h3>核心评估指标计算与解读</h3>
+<p>运行评估脚本，在验证集上计算所有核心指标：</p>
+<pre><code class="language-bash">python scripts/evaluate.py
+  --model outputs/train/&lt;时间戳&gt;/weights/best.pt
+  --data config/coco10.yaml</code></pre>
+<p>在 RTX 2060 上使用 yolo_coco_best.pt 对 COCO10 验证集（560 张图像，3993 个标注实例）的实测评估结果如下：</p>
+<pre><code>Class       Images  Instances      P      R   mAP50  mAP50-95
+all           560       3993  0.649  0.511   0.552      0.356
+person        508       1592  0.749  0.594   0.669      0.390
+bicycle       145        222  0.666  0.518   0.560      0.316
+car           352        866  0.663  0.530   0.589      0.367
+motorcycle    146        231  0.777  0.573   0.619      0.362
+bus           172        207  0.743  0.671   0.761      0.600
+truck         256        327  0.533  0.531   0.534      0.355
+cat            48         52  0.624  0.538   0.571      0.385
+dog           106        118  0.609  0.517   0.527      0.362
+chair         148        228  0.480  0.280   0.266      0.156
+bottle        118        150  0.639  0.353   0.422      0.270</code></pre>
+<p>各指标含义：</p>
+<table><thead><tr><th>指标</th><th>全称</th><th>含义</th><th>越高越好</th></tr></thead><tbody><tr><td><strong>P (Precision)</strong></td><td>精确率</td><td>所有预测框中，真正正确的比例</td><td>✓</td></tr><tr><td><strong>R (Recall)</strong></td><td>召回率</td><td>所有真实目标中，被模型找到的比例</td><td>✓</td></tr><tr><td><strong>mAP@0.5</strong></td><td>均值平均精度（IoU≥0.5）</td><td>衡量&quot;是否找到物体&quot;的综合指标</td><td>✓</td></tr><tr><td><strong>mAP@0.5:0.95</strong></td><td>均值平均精度（严格）</td><td>COCO 官方标准，严格考察定位精度</td><td>✓</td></tr></tbody></table>
+<p>训练各阶段的指标变化（参考）：</p>
+<table><thead><tr><th>轮数</th><th>box_loss</th><th>cls_loss</th><th>mAP@0.5</th><th>mAP@0.5:0.95</th></tr></thead><tbody><tr><td>10</td><td>1.319</td><td>1.572</td><td>0.443</td><td>0.273</td></tr><tr><td>20</td><td>1.216</td><td>1.338</td><td>0.488</td><td>0.310</td></tr><tr><td>30</td><td>1.155</td><td>1.179</td><td>0.519</td><td>0.333</td></tr><tr><td>50</td><td>0.997</td><td>0.856</td><td><strong>0.538</strong></td><td>0.353</td></tr></tbody></table>
+<p>从表中可以看出：box_loss 从 1.319 降至 0.997，cls_loss 从 1.572 降至 0.856，模型在定位和分类两个任务上均在持续学习。mAP@0.5 从 0.443 提升至最终的 0.552（best.pt），mAP@0.5:0.95 从 0.273 提升至 0.356——后者相对提升幅度更大（约 30% vs 约 25%），说明模型在边界框的定位精度上进步尤为明显。</p>
+<h3>训练-验证曲线对比与过拟合判断</h3>
+<p>导出训练过程中自动生成的 <code>results.png</code>（参见图 2），观察以下关键信号：</p>
+<ol><li><strong>训练损失 vs 验证损失</strong>：如果训练集损失持续下降而验证集损失反而上升，说明模型出现了<strong>过拟合</strong>——即模型&quot;记住&quot;了训练集的特定样本，而不是学到了通用特征。COCO10 上 50 轮训练通常不会出现过拟合，两条曲线下降趋势基本一致。</li></ol>
+<ol><li><strong>mAP 收敛时机</strong>：观察 mAP 曲线可以定位模型在哪个 epoch 达到峰值。这次大约在第 40~45 轮接近收敛，之后再训练 mAP 提升非常有限。这说明 50 epochs 对这个数据集是合适的——训练过少欠拟合，过多则浪费时间。</li></ol>
+<ol><li><strong>box_loss 与 cls_loss 的相对变化</strong>：通常 cls_loss 下降更快、收敛更早，因为分类任务比定位任务更&quot;容易&quot;。如果 cls_loss 很低但 mAP 不高，说明问题出在定位而非分类——可能是标注质量有问题或 NMS 阈值不合适。</li></ol>
+<h3>逐类 AP 分析与漏检误检归因</h3>
+<p>COCO10 上不同类别的 AP 差异显著：</p>
+<table><thead><tr><th>类别</th><th>AP@0.5</th><th>分析</th></tr></thead><tbody><tr><td>bus</td><td>0.761</td><td>形态方正、特征一致、类内差异小</td></tr><tr><td>person</td><td>0.669</td><td>样本最多（1592 实例），但姿态、穿着、尺度差异巨大</td></tr><tr><td>motorcycle</td><td>0.619</td><td>形态特征较明显，样本量中等</td></tr><tr><td>car</td><td>0.589</td><td>形态较统一，但颜色和角度变化多</td></tr><tr><td>cat</td><td>0.571</td><td>样本极少（仅 52 实例），但猫的形态在 COCO 中相对一致</td></tr><tr><td>bicycle</td><td>0.560</td><td>视角变化大，常与 motorcycle 混淆</td></tr><tr><td>truck</td><td>0.534</td><td>形态多样（货车、卡车差异大），类内一致性低</td></tr><tr><td>dog</td><td>0.527</td><td>品种多样，形态差异极大</td></tr><tr><td>bottle</td><td>0.422</td><td>小物体，特征信息少</td></tr><tr><td>chair</td><td>0.266</td><td>形状、材质、视角差异极大，公认的难检测类别</td></tr></tbody></table>
+<p>从上述差异可以总结出三类典型的检测失败场景：</p>
+<p><strong>第一类：小目标漏检。</strong>画面中距离镜头较远的行人或车辆，由于在图像中占比过小（例如小于 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">32</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:0.6444em;"></span><span class="mord">32</span></span></span></span> 像素），经 640×640 缩放后特征信息不足，容易被模型漏检。在视频流实验中，远处行人的置信度通常在 0.3 以下甚至完全不被检出。解决方案包括增大输入分辨率（如 1280）、使用针对小目标优化的数据增强策略。</p>
+<p><strong>第二类：密集遮挡漏检。</strong>当多个同类目标紧密堆叠、互相遮挡时（如拥挤人行道上的行人），被大面积遮挡的目标无法被模型识别——因为 YOLO 仅依赖可见部分的视觉特征。这也是目标检测领域的共性难题。</p>
+<p><strong>第三类：相似类别误检。</strong>bicycle 与 motorcycle、cat 与 dog 之间由于外观相似，模型偶尔会出现类别混淆。尤其在目标较小、画面模糊时，分类错误的概率明显增大。这反映了基于纯外观特征的分类在细粒度任务上的固有局限。</p>
+<h3>超参数横向对比实验</h3>
+<p>控制其他变量不变，仅调整批次大小（batch）和初始学习率（lr0）两个核心超参数，设置多组对照实验，理解超参数对训练结果的影响。</p>
+<p><strong>实验方案</strong>：在 <code>scripts/train.py</code> 中增加 <code>--lr0</code> 参数支持，分别测试以下组合：</p>
+<table><thead><tr><th>实验组</th><th>batch</th><th>lr0</th><th>预期结果</th></tr></thead><tbody><tr><td>基准组</td><td>16</td><td>0.01</td><td>mAP@0.5 ≈ 0.54</td></tr><tr><td>大 batch</td><td>32</td><td>0.01</td><td>收敛更平稳，但需要更大显存</td></tr><tr><td>小 batch</td><td>8</td><td>0.01</td><td>梯度噪声大，收敛可能震荡</td></tr><tr><td>高学习率</td><td>16</td><td>0.05</td><td>极易 NaN 或不收敛</td></tr><tr><td>低学习率</td><td>16</td><td>0.001</td><td>收敛慢，50 epochs 可能欠拟合</td></tr></tbody></table>
+<p>可以按自己的硬件挑几组实测对比。几个关键结论：</p>
+<ul><li><strong>学习率是最敏感的超参数</strong>——过大直接导致训练崩溃（NaN），过小导致收敛缓慢</li><li><strong>batch size</strong> 主要影响训练的稳定性和显存占用，对最终精度的直接影响较小（在合理范围内）</li><li>默认值 <code>lr0=0.01, batch=16</code> 是 YOLOv8 在大量实验中验证的稳健起点，一般情况下无需调整</li></ul>
+<hr>
+<h2>结语</h2>
+<p>这次把 YOLO 从原理到推理的链路完整跑了一遍：环境搭建 → 数据集准备 → 训练 → 推理测试 → 性能分析。走完之后，对几件事有了具体的体感：</p>
+<ul><li>网格划分 + 单次前向传播 + 归一化坐标这套设计，是它能做到毫秒级出结果的根因；</li><li>mAP、Precision、Recall 真正读起来，比只看单个数字更能判断模型坏在哪；</li><li>训练里的 NaN、不收敛、OOM 基本都有固定的排查顺序，先降 batch 和分辨率，再换小模型，多数能救回来；</li><li>漏检和误检的归因最后都会落回数据：类别样本多少、目标大小、遮挡程度。</li></ul>
+<h3>落地时的边界</h3>
+<p>真实场景里 YOLO 的局限也很明显：</p>
+<ul><li><strong>极端光照条件</strong>：在画面严重过曝或过暗时，模型的检测精度会大幅下降——因为训练数据以正常光照为主</li><li><strong>大面积遮挡</strong>：当目标被大面积、长时间遮挡时，模型无法仅凭可见部分推断完整目标</li><li><strong>细粒度类别区分</strong>：对于外观高度相似的类别（如不同品种的狗），YOLO 的识别能力仍然有限</li><li><strong>小目标检测</strong>：远处的小目标特征信息不足，是 YOLO 乃至所有目标检测器的共性难题</li></ul>
+<p>这些不是 YOLO 独有的问题，而是当前视觉感知的普遍边界。知道边界在哪，方案就好设计——比如补光改善光照、多相机覆盖减少遮挡。</p>
+<h3>还想继续验证的问题</h3>
+<ol><li>YOLO 将目标检测转化为回归问题，这个设计为什么能实现实时推理？与两阶段方法（如 Faster R-CNN）相比，优势在哪、代价是什么？</li></ol>
+<ol><li>为什么公交车（bus）的 AP 远高于椅子（chair）？从数据特征的角度分析原因。如果要在实际项目中提升椅子的检测精度，你会从哪些方面入手？</li></ol>
+<ol><li>训练曲线显示训练集 loss 持续下降但验证集 mAP 不再上升时，说明什么问题？应该怎么处理？</li></ol>
+<ol><li>视频流实验中，远处行人的检测置信度明显低于近处行人。除了换用更大模型外，还有哪些方法可以改善小目标检测？</li></ol>
+<ol><li>要把这套 COCO10 模型放进真实场景（比如校园安防监控），还差哪些工作？</li></ol>
+<hr>
+<h2>参考资料</h2>
+<ul><li><a href="https://docs.ultralytics.com/">Ultralytics YOLOv8 官方文档</a></li><li><a href="https://github.com/ultralytics/ultralytics">Ultralytics YOLOv8 GitHub</a></li><li><a href="https://cocodataset.org/">COCO Dataset 官网</a></li></ul>
+<ul><li>Redmon J, et al. <em>You Only Look Once: Unified, Real-Time Object Detection.</em> CVPR, 2016.</li><li>Jocher G, et al. <em>Ultralytics YOLOv8.</em> 2023.</li></ul></article>
+<!--bifrost:fragment:end-->
+</body>
+</html>

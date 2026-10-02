@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-30T12:39:00.488Z",
+  "generated": "2026-10-02T12:35:49.026Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -159,6 +159,14 @@
       "count": 5
     },
     {
+      "label": "题解",
+      "count": 3
+    },
+    {
+      "label": "AtCoder",
+      "count": 3
+    },
+    {
       "label": "FMT",
       "count": 3
     },
@@ -191,7 +199,15 @@
       "count": 1
     },
     {
+      "label": "目标检测",
+      "count": 1
+    },
+    {
       "label": "三无",
+      "count": 1
+    },
+    {
+      "label": "深度学习",
       "count": 1
     },
     {
@@ -204,6 +220,18 @@
     },
     {
       "label": "诗歌",
+      "count": 1
+    },
+    {
+      "label": "数据结构",
+      "count": 1
+    },
+    {
+      "label": "数论",
+      "count": 1
+    },
+    {
+      "label": "图论",
       "count": 1
     },
     {
@@ -233,9 +261,125 @@
     {
       "label": "Azure",
       "count": 1
+    },
+    {
+      "label": "YOLO",
+      "count": 1
     }
   ],
   "entries": [
+    {
+      "id": "01M3Y8JS85FVWPC1Z6AB38PDWS",
+      "entryId": "01M3Y8JS85FVWPC1Z6AB38PDWS",
+      "path": "/content/atcoder-abc449-e-a-v.html",
+      "slug": "atcoder-abc449-e-a-v",
+      "title": "AtCoder ABC449 E - A += v",
+      "summary": "最少出现次数优先的构造序列：BIT 维护出现次数与阶段边界，离线回答位置查询。",
+      "publishedAt": "2026-10-02T00:00:00+08:00",
+      "date": "2026-10-02",
+      "phase": "logic",
+      "section": "algo",
+      "kind": "standard",
+      "tags": [
+        "AtCoder",
+        "题解",
+        "数据结构"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">AtCoder</span><span class=\"tag-chip\">题解</span><span class=\"tag-chip\">数据结构</span>",
+      "coverUrl": "",
+      "wordCount": 640,
+      "minutes": 2,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "",
+      "seriesOrder": null,
+      "hasPublication": false,
+      "searchText": "AtCoder ABC449 E - A += v Problem 给定长度为 N 的序列 A ，元素范围是 1..M 。重复执行如下操作很多次： 选择当前出现次数最少的值 v 若最少值有多个，取数值最小的那个 把 v 追加到序列末尾 给出 Q 个位置 X ，询问最终序列在该位置上的值。 约束里操作次数非常大（题面写成 10^100 ）， X 也可到 1e18 ，不能按操作过程硬模拟。 Insight 1. 直觉模型：寻找循环，且是分层循环 把每个值的出现次数看成柱子高度。 每次操作都给当前最低柱子加 1（并列时选编号小的）。 这个模型类比经典的灌水问题： 先把最矮的一批柱子补到第二矮高度 再把这批一起补到第三矮高度 如此分阶段推进 所以关键不是找“一个拐点”，而是找“第几个阶段”。 2. 排序后做阶段边界 记 cnt[i] 为值 i 的频次，把 (cnt[i], i) 排序得到 s 。 r[k] 定义为：完成前 k 个最矮柱子的阶段后，序列总长度。 r[0] = N 递推： 前 k+1 根柱子从高度 s[k].first 补到 s[k+1].first 需要增加 (k+1) * (s[k+1].first - s[k].first) 次 即： r[k+1] = r[k] + (k+1) * (s[k+1].first - s[k].first) 这一步就是把“操作过程”转换成“阶段边界数组”。 3. 查询方法 给定 X ： 若 X ：答案就是原数组 A[X-1] 否则：在 r 上二分，找到最小 ok 使 r[ok] >= X 说明 X 落在“前 ok 个值轮流被补”的阶段 把 X 映射到该阶段内部： x = X - (r[ok-1] + 1) x %= ok 此时问题变成： 在“当前参与循环的 ok 个值”中，取按数值升序的第 x 个 4. BIT（Fenwick）加速 "
+    },
+    {
+      "id": "01M3Y8JSBBP90G2ZNSG7474CN6",
+      "entryId": "01M3Y8JSBBP90G2ZNSG7474CN6",
+      "path": "/content/atcoder-abc451-e-tree-distance.html",
+      "slug": "atcoder-abc451-e-tree-distance",
+      "title": "AtCoder ABC451 E - Tree Distance",
+      "summary": "给定距离矩阵判断能否还原成一棵边权树：Prim 生成候选树后用全源距离验证，复杂度 O(N²)。",
+      "publishedAt": "2026-10-02T00:00:00+08:00",
+      "date": "2026-10-02",
+      "phase": "logic",
+      "section": "algo",
+      "kind": "standard",
+      "tags": [
+        "AtCoder",
+        "题解",
+        "图论"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">AtCoder</span><span class=\"tag-chip\">题解</span><span class=\"tag-chip\">图论</span>",
+      "coverUrl": "",
+      "wordCount": 365,
+      "minutes": 1,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "",
+      "seriesOrder": null,
+      "hasPublication": false,
+      "searchText": "AtCoder ABC451 E - Tree Distance Problem 给定一个 N × N 的距离矩阵 A ，其中 A [ i ] [ j ] 表示点 i 和点 j 的距离。判断是否存在一棵 N 个顶点的边带权无向树，使得树上任意两点的距离恰好等于给定矩阵中的对应值。 约束 2 ≤ N ≤ 3000 时间限制：6 秒 A [ i ] [ j ] < 1 0 6 Insight 关键观察 树的唯一性 ：给定的距离矩阵如果对应某棵树，则该树是唯一的。这是因为树的任意两点间的路径是唯一的。 MST 性质 ：如果存在满足条件的树，那么用 Prim 或 Kruskal 在完全图上（边权为 A [ i ] [ j ] ）生成的最小生成树就会是这棵树。 这是本题的核心性质 。 算法策略 分两阶段： 阶段一：用 Prim 生成候选树（ O ( N 2 ) ） 构建完全图，任意两点间有一条边，权重为 A [ i ] [ j ] 。 用 Prim 的\"稠密图版本\"（数组扫最小，不用堆）生成 MST。 这棵 MST 是我们的候选树。 为什么选 Prim？ 完全图是稠密图（ M = O ( N 2 ) ），数组版 Prim 的 O ( N 2 ) 比堆版本的 O ( M lo g N ) 更优。 阶段二：全遍历距离验证（ O ( N 2 ) ） 对候选树，从每个点出发做 DFS 累加边权，得到到达所有其他点的距离。 逐项与输入矩阵 A 比对。 所有距离都相等则 Yes ，否则 No 。 为什么要验证？ 虽然 MST 是唯一的候选，但完全图的边权可能有特殊结构（如违反三角不等式的部分扭曲），导致 MST 虽然存在但不满足距离条件。 验证是\"保险机制\"，确保最终答案正确。 Complexity 时间复杂度 Prim 阶段 ： O ( N 2 ) （每轮扫 N 个点找最小值，共 N 轮） 验"
+    },
+    {
+      "id": "01M3Y8JSE3B6MAFEQGJANRVXCF",
+      "entryId": "01M3Y8JSE3B6MAFEQGJANRVXCF",
+      "path": "/content/atcoder-abc452-e-you-will-like-sigma-problem.html",
+      "slug": "atcoder-abc452-e-you-will-like-sigma-problem",
+      "title": "AtCoder ABC452 E - You WILL Like Sigma Problem",
+      "summary": "双求和取模问题的两种等价做法：按 j 分段与按 i 分段，配合前缀和在 O(N log M) 内求出答案。",
+      "publishedAt": "2026-10-02T00:00:00+08:00",
+      "date": "2026-10-02",
+      "phase": "logic",
+      "section": "algo",
+      "kind": "standard",
+      "tags": [
+        "AtCoder",
+        "题解",
+        "数论"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">AtCoder</span><span class=\"tag-chip\">题解</span><span class=\"tag-chip\">数论</span>",
+      "coverUrl": "",
+      "wordCount": 736,
+      "minutes": 2,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "",
+      "seriesOrder": null,
+      "hasPublication": false,
+      "searchText": "AtCoder ABC452 E - You WILL Like Sigma Problem 题目与目标 给定序列 A = ( A 1 ​ , … , A N ​ ) 与 B = ( B 1 ​ , … , B M ​ ) ，求 i = 1 ∑ N ​ j = 1 ∑ M ​ A i ​ B j ​ ( i mod j ) ( mod 998244353 ) . 下面给出完整的数学推导与算法，实现时应注意取模和整型溢出。 一、式子变换（去掉模运算） 利用恒等 i mod j = i − j ⌊ j i ​ ⌋ , 可得 S ​ = i = 1 ∑ N ​ j = 1 ∑ M ​ A i ​ B j ​ ( i mod j ) ​ = i = 1 ∑ N ​ j = 1 ∑ M ​ A i ​ B j ​ ( i − j ⌊ j i ​ ⌋ ) ​ = i = 1 ∑ N ​ A i ​ i j = 1 ∑ M ​ B j ​ − i = 1 ∑ N ​ A i ​ j = 1 ∑ M ​ B j ​ j ⌊ j i ​ ⌋ . ​ 把求和顺序按 j 展开也是常见做法；下面给出两种等价且常用的实现思路，重点在于如何高效计算含有 ⌊ ⋅ ⌋ 的项。 二、按 j 外层（推荐实现）——对 A 分段 我们把原式按 j 展开：令 S = j = 1 ∑ M ​ B j ​ ⋅ S j ​ , S j ​ = i = 1 ∑ N ​ A i ​ ( i mod j ) . 由 i mod j = i − j ⌊ i / j ⌋ ，得到 S j ​ = 可预计算一次 i = 1 ∑ N ​ A i ​ i ​ ​ − j ⋅ T j ​ , T j ​ = i = 1 ∑ N ​ A i ​ ⌊ j i ​ ⌋ . 关键在于高效计算 T j ​ . 观察到：对固定 j ， ⌊ i / j "
+    },
+    {
+      "id": "01M3Y8JS5H7RTB2Z56K2SN562D",
+      "entryId": "01M3Y8JS5H7RTB2Z56K2SN562D",
+      "path": "/content/yolo-视觉感知实验-从数据集到推理评估.html",
+      "slug": "yolo-视觉感知实验-从数据集到推理评估",
+      "title": "YOLO 视觉感知实验：从数据集到推理评估",
+      "summary": "在 COCO10 上跑通 YOLOv8n 的完整链路：环境、数据、训练、推理与评估，附训练曲线、街景视频与分辨率对比的实测数据。",
+      "publishedAt": "2026-10-02T00:00:00+08:00",
+      "date": "2026-10-02",
+      "phase": "logic",
+      "section": "docs",
+      "kind": "standard",
+      "tags": [
+        "YOLO",
+        "目标检测",
+        "深度学习"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">YOLO</span><span class=\"tag-chip\">目标检测</span><span class=\"tag-chip\">深度学习</span>",
+      "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/content/01M3Y8JS5H7RTB2Z56K2SN562D/04.jpg",
+      "wordCount": 7655,
+      "minutes": 19,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "",
+      "seriesOrder": null,
+      "hasPublication": false,
+      "searchText": "YOLO 视觉感知实验：从数据集到推理评估 在这台机器上跑 YOLO 的动机很实际：抓取流程需要一个能把螺丝、方块从桌面上找出来的视觉环节。我拿 COCO10 （从 MS COCO 里截取的 10 类子集）当统一数据集，从环境搭建一路走到视频流推理，核心结论先放在前面——YOLOv8n 训练 50 轮约 35 分钟（GPU）收敛，验证集 mAP@50 大约 0.55，单图推理在 10 毫秒量级；用在仿真环境的常规目标检出上够用，但小目标、遮挡和极端光照仍然是明显的短板。 这篇记录走一遍的完整过程：原理、环境、数据、训练、推理与评估，以及中途踩到的坑。 YOLO 核心原理 YOLO （You Only Look Once）是一种单阶段目标检测算法。其核心思想可概括为： 将整张图像输入一个神经网络，单次前向传播即可同时预测所有物体的边界框位置和所属类别 。相比需要分步执行\"候选区域提取 → 分类\"的传统两阶段方法，YOLO 将检测建模为端到端的回归任务，推理速度达到实时级别（毫秒级），非常适合机器人等对延迟敏感的场景。 YOLO 系列自 2016 年提出以来迭代了多个版本（v1 → v8 → v10 → v11 等），这里用工程生态最成熟的 YOLOv8。下面从检测问题的本质出发，展开它的工作机制。 目标检测问题的本质 目标检测需要同时回答两个问题： 定位（where） ：物体在图像的什么位置？ 分类（what） ：这个物体是什么类别？ 传统方法将这两个问题拆成串行步骤：先用滑动窗口或区域提议算法扫描全图，找到\"可能有物体\"的候选区域，再对每个区域单独运行分类器。计算量随候选区域数量线性增长，难以实时。 YOLO 的设计出发点是： 将检测重新定义为一个单一的回归问题 ——直接从输入图像像素映射到边界框坐标和类别概率，中间不经过\"区域提议 → 分类\"的分步流水线。 图 1 YOL"
+    },
     {
       "id": "01M3PFKWKZ28H734VQKWVEPQN7",
       "entryId": "01M3PFKWKZ28H734VQKWVEPQN7",
@@ -261,7 +405,7 @@
       "seriesId": "",
       "seriesOrder": null,
       "hasPublication": true,
-      "searchText": "出版物 · 共 5 页，保留原始排版 打开 PDF 国际象棋上，祈祷的希望——《冬滚滚》评析 作者：仙人星 【导语】 在galgame的大海中，总有一些作品会以其独特的魅力俘获玩家的心。《ふゆから、くるる。》（后文简称冬滚滚）便是这样一部作品，由silky's plus打造，于2021年9月24日发售。这是一部弱化角色、弱化故事、强调氛围的浪漫电波galgame。冬滚滚的故事一直被人诟病成小儿科的悬疑推理，只是套了个侦探题材的模板——甜腻腻日常🡪身边人出事🡪主人公决心找出凶手🡪找人调查-->主角凭借平时的喜好（国际象棋）发现重要信息🡪真相大白，但它用其精致的美术、动人的音乐、微妙且细腻的哲学思考和渡边（脚本）一手构建的奇特游玩氛围，深深吸引了笔者（其实主要原因是futa要素，毕竟最开始我只想找个futa拔作www），我在此分享我的游戏体验和心得，带你走进这场跨越星辰的浪漫之旅。 【制作团队】 开发公司 ：silky's plus 脚本 ：渡边僚一 原画 ：あめとゆき（雨夹雪）/なのはなこひな 音乐 ：逢瀬アキラ，SHIM 【观前提示！】 本文将对《冬滚滚》的剧情和主题进行分析，含有部分剧透。如果你还未体验这部作品，建议先游玩后再阅读，以获得更好的体验。 本文基于个人理解和感受进行分析，可能存在主观偏差，欢迎读者提出不同的见解和讨论。 3.本人文学功底极差，如有表达不当或不尽人意之处，深表歉意，恳请读者见谅，并欢迎补充和指正。 【美术与音乐：视听盛宴的绽放】 （游戏封面） 《冬滚滚》最令人惊艳的地方，莫过于其精致的视觉呈现。游戏的角色立绘以清新明快的风格为主，色彩搭配柔和却富有层次感，不仅展现了少女们的可爱，还巧妙地揭示了角色的复杂性。下面就以两位配角，炽火淀和水名荆白为例，简单展开分析。 炽火淀人设造型看似清纯可爱，犹如可爱的大白兔，但这与她内心的“疯狂”形成了强烈"
+      "searchText": "国际象棋上，祈祷的希望——《冬滚滚》评析 作者：仙人星 【导语】 在galgame的大海中，总有一些作品会以其独特的魅力俘获玩家的心。《ふゆから、くるる。》（后文简称冬滚滚）便是这样一部作品，由silky's plus打造，于2021年9月24日发售。这是一部弱化角色、弱化故事、强调氛围的浪漫电波galgame。冬滚滚的故事一直被人诟病成小儿科的悬疑推理，只是套了个侦探题材的模板——甜腻腻日常🡪身边人出事🡪主人公决心找出凶手🡪找人调查-->主角凭借平时的喜好（国际象棋）发现重要信息🡪真相大白，但它用其精致的美术、动人的音乐、微妙且细腻的哲学思考和渡边（脚本）一手构建的奇特游玩氛围，深深吸引了笔者（其实主要原因是futa要素，毕竟最开始我只想找个futa拔作www），我在此分享我的游戏体验和心得，带你走进这场跨越星辰的浪漫之旅。 【制作团队】 开发公司 ：silky's plus 脚本 ：渡边僚一 原画 ：あめとゆき（雨夹雪）/なのはなこひな 音乐 ：逢瀬アキラ，SHIM 【观前提示！】 本文将对《冬滚滚》的剧情和主题进行分析，含有部分剧透。如果你还未体验这部作品，建议先游玩后再阅读，以获得更好的体验。 本文基于个人理解和感受进行分析，可能存在主观偏差，欢迎读者提出不同的见解和讨论。 3.本人文学功底极差，如有表达不当或不尽人意之处，深表歉意，恳请读者见谅，并欢迎补充和指正。 【美术与音乐：视听盛宴的绽放】 （游戏封面） 《冬滚滚》最令人惊艳的地方，莫过于其精致的视觉呈现。游戏的角色立绘以清新明快的风格为主，色彩搭配柔和却富有层次感，不仅展现了少女们的可爱，还巧妙地揭示了角色的复杂性。下面就以两位配角，炽火淀和水名荆白为例，简单展开分析。 炽火淀人设造型看似清纯可爱，犹如可爱的大白兔，但这与她内心的“疯狂”形成了强烈的对比，又是当之无愧的“脱兔”。 设计者巧妙的通过立"
     },
     {
       "id": "01M3PFKTMEAD0B81B7VHHQXYKD",
@@ -763,7 +907,9 @@
         "likes": 0,
         "views": 0,
         "comments": 2
-      }
+      },
+      "pinned": false,
+      "featured": false
     },
     {
       "id": "01M3F0MXTRK7W9VQQDW4JJ3D4E",
@@ -784,7 +930,9 @@
         "likes": 0,
         "views": 0,
         "comments": 0
-      }
+      },
+      "pinned": false,
+      "featured": false
     },
     {
       "id": "01M31PYVJRN4A8DWNEF2G0VVKD",
@@ -805,7 +953,9 @@
         "likes": 0,
         "views": 0,
         "comments": 0
-      }
+      },
+      "pinned": false,
+      "featured": false
     }
   ]
 }

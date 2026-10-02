@@ -1,7 +1,11 @@
 // 站点使用的 Markdown 渲染器。
 // 支持范围见 docs/design/20-backend.md：标题、加粗、斜体、行内代码、链接、图片、
-// 引用、列表（一层嵌套）、表格、分隔线与围栏代码块；段内单换行渲染为 <br>，
+// 引用、列表（一层嵌套）、表格、分隔线、围栏代码块与数学公式；段内单换行渲染为 <br>，
 // Markdown 里的原生 HTML 一律转义。
+// 公式在物化（导入）时用 KaTeX 预渲染成 HTML，样式与字体随站点发布（core/katex/），
+// 阅读页不需要任何运行时脚本。
+
+import katex from 'katex';
 
 function escapeHtml(value) {
   return String(value)
@@ -12,22 +16,87 @@ function escapeHtml(value) {
     .replaceAll("'", '&#39;');
 }
 
-function renderInline(text) {
-  let out = escapeHtml(text);
-  const codes = [];
+/** 数学公式：KaTeX 预渲染；渲染失败时退回原文，避免整篇渲染失败。 */
+export function renderMath(tex, displayMode) {
+  try {
+    return katex.renderToString(String(tex ?? '').trim(), {
+      displayMode: Boolean(displayMode),
+      throwOnError: false,
+      strict: false,
+      output: 'html',
+    });
+  } catch {
+    return `<code>${escapeHtml(tex)}</code>`;
+  }
+}
 
+function renderInline(text) {
+  const codes = [];
+  const maths = [];
+
+  // 代码与公式都要在转义前取出：LaTeX 里的 < > & \ 不能被当成 Markdown 或 HTML 处理
+  let out = String(text ?? '');
   out = out.replace(/`([^`]+)`/g, (_, code) => {
     codes.push(code);
     return `\u0000${codes.length - 1}\u0000`;
   });
+  out = out.replace(/\$([^$\n]+?)\$/g, (_, tex) => {
+    maths.push(tex);
+    return `\u0001${maths.length - 1}\u0001`;
+  });
+  out = escapeHtml(out);
   out = out.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, '<img src="$2" alt="$1" loading="lazy">');
   out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>');
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/(^|[^*\w])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
   out = out.replace(/(^|[^_\w])_([^_\n]+)_(?![\w_])/g, '$1<em>$2</em>');
   out = out.replace(/\u0000(\d+)\u0000/g, (_, index) => `<code>${codes[Number(index)]}</code>`);
+  out = out.replace(/\u0001(\d+)\u0001/g, (_, index) => renderMath(maths[Number(index)], false));
 
   return out;
+}
+
+/** 块级公式：$$…$$、\[…\] 与 \begin{env}…\end{env}（env 如 align*）。 */
+function readMathBlock(lines, start) {
+  const line = lines[start].trim();
+  let first = '';
+  let closing = '';
+
+  if (line.startsWith('$$')) {
+    if (line.length > 4 && line.endsWith('$$')) {
+      return { tex: line.slice(2, -2), next: start + 1 };
+    }
+    first = line.slice(2);
+    closing = '$$';
+  } else if (line.startsWith('\\[')) {
+    if (line.length > 4 && line.endsWith('\\]')) {
+      return { tex: line.slice(2, -2), next: start + 1 };
+    }
+    first = line.slice(2);
+    closing = '\\]';
+  } else {
+    const environment = line.match(/^\\begin\{([A-Za-z*]+)\}/);
+    if (!environment) {
+      return null;
+    }
+    first = line;
+    closing = `\\end{${environment[1]}}`;
+  }
+
+  const buffer = [first];
+  let index = start + 1;
+  while (index < lines.length) {
+    const current = lines[index];
+    const at = current.indexOf(closing);
+    if (at >= 0) {
+      // $$ 与 \[ 的结束符不进入公式；\end{env} 必须保留，否则环境不闭合
+      buffer.push(closing.startsWith('\\end{') ? current.slice(at) : current.slice(0, at));
+      return { tex: buffer.join('\n'), next: index + 1 };
+    }
+    buffer.push(current);
+    index += 1;
+  }
+  return { tex: buffer.join('\n'), next: lines.length };
 }
 
 function isTableStart(lines, index) {
@@ -123,6 +192,14 @@ export function renderMarkdown(md) {
     if (!line.trim()) {
       flushParagraph();
       i += 1;
+      continue;
+    }
+
+    const mathBlock = readMathBlock(lines, i);
+    if (mathBlock) {
+      flushParagraph();
+      out.push(`<div class="math-block">${renderMath(mathBlock.tex, true)}</div>`);
+      i = mathBlock.next;
       continue;
     }
 
