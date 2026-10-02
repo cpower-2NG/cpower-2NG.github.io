@@ -28,6 +28,7 @@ jobs:
         run: |
           npm ci --prefix sync
           npm ci --prefix api
+          npm ci --prefix tools
           cd sync
           npx playwright install --with-deps chromium
       - name: Run unit and API tests
