@@ -1606,6 +1606,10 @@
     const phaseItem = event.target.closest('[data-phase-id]');
     if (phaseItem) {
       closePanels();
+      if (phaseItem.dataset.phaseId === 'admin') {
+        window.location.href = '/admin.html';
+        return;
+      }
       switchPhase(phaseItem.dataset.phaseId);
       return;
     }
@@ -1667,6 +1671,8 @@
     fantasy: 'fantasy',
     'set up!': 'fantasy',
     setup: 'fantasy',
+    admin: 'admin',
+    管理: 'admin',
   };
 
   function openPhasePanel() {
@@ -1674,9 +1680,9 @@
     el.phasePanel.classList.add('is-active');
     el.phasePanel.innerHTML = `
       <div class="command-panel phase-panel">
-        <input class="command-input" data-phase-input type="text" autocomplete="off" placeholder="输入 logic / fantasy 切换位面">
+        <input class="command-input" data-phase-input type="text" autocomplete="off" placeholder="输入 logic / fantasy 切换位面，admin 进管理台">
         <div class="command-results" data-phase-results></div>
-        <p class="command-help">↑↓ 选择 · Enter 切换 · Esc 关闭</p>
+        <p class="command-help">↑↓ 选择 · Enter 确认 · Esc 关闭</p>
       </div>
     `;
     el.phaseInput = el.phasePanel.querySelector('[data-phase-input]');
@@ -1693,7 +1699,11 @@
       if (query && !name.includes(query)) continue;
       const phase = PHASE_COMMANDS[name];
       if (items.some((item) => item.phase === phase)) continue;
-      items.push({ phase, label: phase === 'fantasy' ? 'Fantasy 位面' : 'Logic 位面', hint: `输入 ${name}` });
+      const label = phase === 'fantasy' ? 'Fantasy 位面'
+        : phase === 'admin' ? '管理台'
+          : 'Logic 位面';
+      const hint = phase === 'admin' ? `输入 ${name} · 需 Microsoft 登录` : `输入 ${name}`;
+      items.push({ phase, label, hint });
     }
     return items.slice(0, 4);
   }
@@ -1744,6 +1754,10 @@
       const item = items[state.phaseIndex];
       if (item) {
         closePanels();
+        if (item.phase === 'admin') {
+          window.location.href = '/admin.html';
+          return;
+        }
         switchPhase(item.phase);
       }
     }
