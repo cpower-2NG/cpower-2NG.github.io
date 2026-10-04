@@ -104,6 +104,13 @@ npm ci --prefix sync; npm test --prefix sync
 
 线上站点：<https://cpower-2ng.github.io>
 
+## 本轮完成（2026-10-04：管理台推倒重做）
+
+- **前端重写**：`admin.html` / `core/admin.css`（亮色 token 体系）从零重写；旧 `core/admin.js`（1271 行 IIFE）删除，改为 `core/admin/` 下的 ES Modules（`app/store/ui/api/format` + `views/` 十个页面）。左侧分组侧栏 + hash 路由，进入页面自动拉数。
+- **后端唯一补丁**：`PATCH /manage/entries/{id}` 新增 `title`/`summary` 字段（`content-admin.js` 纯函数 `parseEntryMetaPatch` + `repository.js` `updateEntryMeta`，含单测）。
+- **QQ 同步页重设计**：扫码改为 3 秒自动轮询 + 二维码倒计时（修复旧版只轮询一次导致二维码永远不显示的 bug）；`autoPublish` 开关前置；审查队列支持逐条「放行 / 排除」→ 覆盖草稿 → 一键保存 → 跑真实同步生效。
+- **测试**：`tests/e2e/admin-login.mjs` 重写适配新 DOM（登录、路由、刷新保持、退出全链路），api 单测 26 项全绿。
+
 ## 本轮完成（2026-10-02：G1 / G2 / G3 / G6 代码落地）
 
 - **服务端**：`manage/entries|series|tags|moments|import|publish` 全套动作；`repository.js` 内容读写；`content-admin.js` 与 `import-validate.js` 纯函数（含单测）；`storage.js` 新增 `uploadPrivateBlob`。

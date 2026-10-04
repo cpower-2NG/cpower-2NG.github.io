@@ -1,265 +1,84 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-phase="logic">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex,nofollow">
-    <meta name="theme-color" content="#0a0f14">
+    <meta name="theme-color" content="#f4f6f8">
     <title>BIFROST 管理台</title>
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="stylesheet" href="/core/admin.css">
     <!-- MSAL 本地托管：jsdelivr 在部分网络不可达，会导致 Microsoft 登录永远转圈 -->
     <script defer src="/core/vendor/msal-browser.min.js"></script>
-    <script defer src="/core/admin.js"></script>
+    <script type="module" src="/core/admin/app.js"></script>
 </head>
 <body>
-    <section class="admin-login" data-login-gate hidden>
-        <div class="admin-login__card">
-            <p class="admin-eyebrow">BIFROST · CONTROL PLANE</p>
+
+    <section class="gate" data-gate hidden>
+        <div class="gate__card">
+            <p class="gate__eyebrow">BIFROST · CONTROL PLANE</p>
             <h1>管理员登录</h1>
-            <p class="admin-muted">登录后才能管理内容、评论与同步任务。</p>
-            <button type="button" class="admin-button admin-button--primary" data-gate-ms-login>使用 Microsoft 账号登录</button>
-            <div class="admin-login__divider"><span>或使用站点口令</span></div>
-            <form class="admin-login__form" data-gate-form>
-                <input class="admin-input" data-gate-user placeholder="管理员账号" autocomplete="username">
-                <input class="admin-input" data-gate-pass type="password" placeholder="口令" autocomplete="current-password">
-                <button type="submit" class="admin-button admin-button--primary" data-gate-submit>登录</button>
+            <p class="muted">登录后才能管理内容、评论与同步任务。</p>
+            <button type="button" class="btn btn--primary btn--block" data-gate-ms>使用 Microsoft 账号登录</button>
+            <div class="gate__divider"><span>或使用站点口令</span></div>
+            <form class="gate__form" data-gate-form>
+                <input class="input" data-gate-user placeholder="管理员账号" autocomplete="username">
+                <input class="input" data-gate-pass type="password" placeholder="口令" autocomplete="current-password">
+                <button type="submit" class="btn btn--primary btn--block" data-gate-submit>登录</button>
             </form>
-            <p class="admin-message" data-gate-message></p>
-            <a class="admin-button" href="/">返回站点</a>
+            <p class="msg" data-gate-message></p>
+            <a class="btn btn--block" href="/">返回站点</a>
         </div>
     </section>
 
-    <div data-admin-app hidden>
-    <header class="admin-header">
-        <div>
-            <p class="admin-eyebrow">BIFROST · CONTROL PLANE</p>
-            <h1>内容与互动管理台</h1>
+    <div class="shell" data-shell hidden>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar__brand">
+                <p class="sidebar__eyebrow">BIFROST</p>
+                <strong>管理台</strong>
+            </div>
+            <nav class="nav" data-nav>
+                <a class="nav__item" data-nav-item="overview" href="#/overview">概览</a>
+                <p class="nav__group">内容</p>
+                <a class="nav__item" data-nav-item="entries" href="#/entries">条目</a>
+                <a class="nav__item" data-nav-item="series" href="#/series">系列</a>
+                <a class="nav__item" data-nav-item="tags" href="#/tags">标签</a>
+                <a class="nav__item" data-nav-item="moments" href="#/moments">动态</a>
+                <p class="nav__group">来源</p>
+                <a class="nav__item" data-nav-item="upload" href="#/upload">上传导入</a>
+                <a class="nav__item" data-nav-item="qzone" href="#/qzone">QQ 空间同步</a>
+                <p class="nav__group">互动</p>
+                <a class="nav__item" data-nav-item="comments" href="#/comments">评论 <span class="nav__count" data-nav-count="pendingComments" hidden></span></a>
+                <p class="nav__group">系统</p>
+                <a class="nav__item" data-nav-item="rules" href="#/rules">同步规则</a>
+                <a class="nav__item" data-nav-item="export" href="#/export">数据导出</a>
+            </nav>
+            <div class="sidebar__foot">
+                <div class="side-status">
+                    <span class="side-status__item" data-side-qzone title="QQ 连接状态"><i class="dot dot--muted" data-side-qzone-dot></i><span data-side-qzone-text>QQ 未连接</span></span>
+                    <span class="side-status__item" data-side-publish hidden><span class="dot dot--warn"></span>有待发布</span>
+                </div>
+                <div class="sidebar__account">
+                    <span data-account>已登录</span>
+                    <button type="button" class="btn btn--sm" data-admin-logout>退出</button>
+                </div>
+                <a class="sidebar__back" href="/">返回站点 →</a>
+            </div>
+        </aside>
+
+        <div class="main">
+            <header class="topbar">
+                <div class="topbar__left">
+                    <button type="button" class="btn btn--sm topbar__menu" data-menu aria-label="打开菜单">☰</button>
+                    <h1 class="topbar__title" data-view-title>概览</h1>
+                </div>
+                <button type="button" class="btn btn--sm" data-refresh>刷新</button>
+            </header>
+            <main class="view" data-view></main>
         </div>
-        <div class="admin-header__actions">
-            <span data-admin-account>尚未登录</span>
-            <button type="button" class="admin-button" data-admin-login>Microsoft 登录</button>
-            <button type="button" class="admin-button" data-admin-logout hidden>退出</button>
-            <a class="admin-button" href="/">返回站点</a>
-        </div>
-    </header>
-
-    <main class="admin-shell">
-        <section class="admin-panel admin-panel--wide">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">OVERVIEW</p>
-                    <h2>运行状态</h2>
-                </div>
-                <button type="button" class="admin-button" data-refresh>刷新</button>
-            </header>
-            <div class="admin-status" data-status-grid>
-                <p class="admin-muted">配置完成后加载状态。</p>
-            </div>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">PUBLISH</p>
-                    <h2>发布</h2>
-                </div>
-                <button type="button" class="admin-button" data-publish-now disabled>发布站点</button>
-            </header>
-            <div class="admin-stack">
-                <p class="admin-muted" data-publish-state>内容改动落库后这里会出现“待发布”标记；发布会把数据库物化为静态站点并推送检索索引。</p>
-                <p class="admin-message" data-publish-message></p>
-            </div>
-        </section>
-
-        <section class="admin-panel admin-panel--wide">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">CONTENT</p>
-                    <h2>条目管理</h2>
-                </div>
-                <div class="admin-actions">
-                    <select class="admin-input" data-entry-phase>
-                        <option value="">全部位面</option>
-                        <option value="logic">Logic</option>
-                        <option value="fantasy">Fantasy</option>
-                    </select>
-                    <input class="admin-input" data-entry-section placeholder="分区，如 review" size="10">
-                    <input class="admin-input" data-entry-query placeholder="搜索标题或摘要" size="14">
-                    <button type="button" class="admin-button" data-entries-load>加载条目</button>
-                </div>
-            </header>
-            <div class="admin-rows" data-entries-list>
-                <p class="admin-muted">尚未加载条目。</p>
-            </div>
-            <div data-entry-detail></div>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">SERIES</p>
-                    <h2>系列管理</h2>
-                </div>
-            </header>
-            <div class="admin-stack">
-                <div class="admin-actions">
-                    <input class="admin-input" data-series-label placeholder="新系列名称" size="16">
-                    <input class="admin-input" data-series-description placeholder="简介（可选）" size="20">
-                    <button type="button" class="admin-button" data-series-create>新建系列</button>
-                </div>
-                <div class="admin-rows" data-series-list>
-                    <p class="admin-muted">尚未加载系列。</p>
-                </div>
-                <p class="admin-message" data-series-message></p>
-            </div>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">TAGS</p>
-                    <h2>标签管理</h2>
-                </div>
-                <button type="button" class="admin-button" data-tags-load>加载标签</button>
-            </header>
-            <p class="admin-muted">改名与合并走同一条路径：填入目标标签名后确认，原标签的使用会全部转移过去。</p>
-            <div class="admin-rows" data-tags-list>
-                <p class="admin-muted">尚未加载标签。</p>
-            </div>
-            <p class="admin-message" data-tags-message></p>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">MOMENTS</p>
-                    <h2>动态置顶与精选</h2>
-                </div>
-                <button type="button" class="admin-button" data-moments-load>加载动态</button>
-            </header>
-            <div class="admin-rows" data-moments-list>
-                <p class="admin-muted">尚未加载动态。</p>
-            </div>
-            <p class="admin-message" data-moments-message></p>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">UPLOAD</p>
-                    <h2>上传文章</h2>
-                </div>
-            </header>
-            <div class="admin-stack">
-                <p class="admin-muted">支持 docx / doc / pdf / txt / md，单文件不超过 100MB；配图随文档内嵌。转换完成后回到“发布”触发上线。</p>
-                <div class="admin-actions">
-                    <input type="file" class="admin-input" data-upload-file accept=".docx,.doc,.pdf,.txt,.md,.markdown">
-                    <input class="admin-input" data-upload-title placeholder="标题（留空用文件名）" size="18">
-                </div>
-                <div class="admin-actions">
-                    <select class="admin-input" data-upload-phase>
-                        <option value="fantasy">Fantasy</option>
-                        <option value="logic">Logic</option>
-                    </select>
-                    <select class="admin-input" data-upload-section></select>
-                    <input class="admin-input" data-upload-tags placeholder="标签，逗号分隔（可选）" size="18">
-                    <input class="admin-input" data-upload-cover placeholder="封面序号（可选）" size="8">
-                    <button type="button" class="admin-button" data-upload-submit>上传并导入</button>
-                </div>
-                <p class="admin-message" data-upload-message></p>
-                <div class="admin-rows" data-import-tasks>
-                    <p class="admin-muted">还没有导入任务。</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">QZONE</p>
-                    <h2>QQ 云端同步</h2>
-                </div>
-                <button type="button" class="admin-button" data-qzone-reconnect>重新连接 QQ</button>
-            </header>
-            <div class="admin-stack">
-                <div class="admin-actions">
-                    <button type="button" class="admin-button" data-sync-dry>验收同步</button>
-                    <button type="button" class="admin-button" data-sync-incremental>增量同步</button>
-                    <button type="button" class="admin-button" data-sync-backfill>回填 31 天</button>
-                </div>
-                <div class="admin-qr" data-qzone-qr hidden>
-                    <img alt="QQ 登录二维码" data-qzone-qr-image>
-                    <p>请使用手机 QQ 扫码。二维码只通过受保护的管理接口临时读取。</p>
-                </div>
-                <p class="admin-message" data-qzone-message></p>
-                <div class="admin-review-list" data-sync-report>
-                    <p class="admin-muted">验收同步完成后，这里会显示候选与隔离内容。</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="admin-panel admin-panel--wide">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">COMMENTS</p>
-                    <h2>评论管理</h2>
-                </div>
-                <div class="admin-actions">
-                    <select class="admin-input" data-comment-status-filter>
-                        <option value="">全部状态</option>
-                        <option value="published">已发布</option>
-                        <option value="pending">待审核</option>
-                        <option value="hidden">已隐藏</option>
-                        <option value="deleted">已删除</option>
-                    </select>
-                    <button type="button" class="admin-button" data-comments-load>读取评论</button>
-                </div>
-            </header>
-            <p class="admin-muted">审核规则：正常评论直接发布；正文含链接时转待审核；触发蜜罐或提交过快的直接拒绝。</p>
-            <div class="admin-comments" data-comments-list>
-                <p class="admin-muted">尚未读取评论。</p>
-            </div>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">RULES</p>
-                    <h2>同步规则</h2>
-                </div>
-                <button type="button" class="admin-button" data-rules-save>保存规则</button>
-            </header>
-            <textarea class="admin-code" data-rules-editor spellcheck="false"></textarea>
-            <p class="admin-message" data-rules-message></p>
-        </section>
-
-        <section class="admin-panel">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">OVERRIDES</p>
-                    <h2>人工覆盖</h2>
-                </div>
-                <button type="button" class="admin-button" data-overrides-save>保存覆盖</button>
-            </header>
-            <textarea class="admin-code" data-overrides-editor spellcheck="false"></textarea>
-            <p class="admin-message" data-overrides-message></p>
-        </section>
-
-        <section class="admin-panel admin-panel--wide">
-            <header class="admin-panel__header">
-                <div>
-                    <p class="admin-eyebrow">PORTABILITY</p>
-                    <h2>导出与迁移</h2>
-                </div>
-                <button type="button" class="admin-button" data-export>立即导出</button>
-            </header>
-            <p class="admin-muted">每日自动生成 NDJSON 与 CSV 快照。公开文章不依赖 Azure，可直接继续部署。</p>
-            <p class="admin-message" data-export-message></p>
-        </section>
-    </main>
     </div>
 
-    <div class="admin-toast" data-admin-toast role="status" aria-live="polite" hidden></div>
+    <div class="toast-stack" data-toasts></div>
+    <div data-modal></div>
 </body>
 </html>

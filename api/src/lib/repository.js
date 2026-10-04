@@ -551,6 +551,18 @@ export async function updateEntryTags(entryId, tags) {
   return replaceEntryDoc({ ...entry, tags: next });
 }
 
+export async function updateEntryMeta(entryId, { title, summary } = {}) {
+  const entry = await readEntryDoc(entryId);
+  if (!entry) {
+    throw new HttpError(404, '条目不存在。', 'ENTRY_NOT_FOUND');
+  }
+  const patch = {};
+  if (title !== undefined) patch.title = title;
+  if (summary !== undefined) patch.summary = summary;
+  if (!Object.keys(patch).length) return entry;
+  return replaceEntryDoc({ ...entry, ...patch });
+}
+
 export async function setEntrySeries(entryId, seriesId, seriesOrder) {
   const entry = await readEntryDoc(entryId);
   if (!entry) {

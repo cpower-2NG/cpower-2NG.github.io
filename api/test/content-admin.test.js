@@ -5,6 +5,7 @@ import {
   countTagUsage,
   diffTags,
   normalizeTags,
+  parseEntryMetaPatch,
   pickCoverCandidates,
   planSeriesMembers,
   planTagReplace,
@@ -82,4 +83,19 @@ test('slugify 保留 CJK 并折叠分隔符', () => {
   assert.equal(slugify('纸上魔法使'), '纸上魔法使');
   assert.equal(slugify('  Hello World!!  '), 'hello-world');
   assert.equal(slugify('a//b'), 'a-b');
+});
+
+test('parseEntryMetaPatch 提取标题与摘要并裁剪', () => {
+  assert.deepEqual(parseEntryMetaPatch({ title: ' 新标题 ', summary: ' 新摘要 ' }), {
+    title: '新标题',
+    summary: '新摘要',
+  });
+  assert.deepEqual(parseEntryMetaPatch({ summary: '' }), { summary: '' });
+  assert.deepEqual(parseEntryMetaPatch({ tags: ['a'] }), {});
+});
+
+test('parseEntryMetaPatch 拒绝空标题与超长字段', () => {
+  assert.throws(() => parseEntryMetaPatch({ title: '  ' }), /标题不能为空/);
+  assert.throws(() => parseEntryMetaPatch({ title: 'a'.repeat(201) }), /200/);
+  assert.throws(() => parseEntryMetaPatch({ summary: 'a'.repeat(401) }), /400/);
 });

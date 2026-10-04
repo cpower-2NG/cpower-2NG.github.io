@@ -131,3 +131,20 @@ export function slugify(value) {
     .replace(/[^\p{L}\p{N}]+/gu, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+/** 条目标题/摘要编辑补丁：title 必填非空、summary 允许空串清空，其余字段不接受。 */
+export function parseEntryMetaPatch(body) {
+  const patch = {};
+  if (body?.title !== undefined) {
+    const title = String(body.title ?? '').trim();
+    if (!title) throw new HttpError(400, '标题不能为空。', 'INVALID_INPUT');
+    if (title.length > 200) throw new HttpError(400, '标题不能超过 200 个字符。', 'INVALID_INPUT');
+    patch.title = title;
+  }
+  if (body?.summary !== undefined) {
+    const summary = String(body.summary ?? '').trim();
+    if (summary.length > 400) throw new HttpError(400, '摘要不能超过 400 个字符。', 'INVALID_INPUT');
+    patch.summary = summary;
+  }
+  return patch;
+}

@@ -1,8 +1,8 @@
-// 端到端：管理台登录门禁与账密登录。
+// 端到端：管理台登录门禁、账密登录与页面路由冒烟。
 // 管理 API 用 Playwright 路由拦截模拟，不需要真实的 Azure Function。
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { createRequire } from 'node:module';
 import { join, resolve } from 'node:path';
@@ -57,7 +57,7 @@ async function main() {
   let browser = null;
   try {
     await waitForServer();
-    const apiBase = JSON.parse(readFileSync(join(root, 'data', 'site.json'), 'utf8'))
+    const apiBase = JSON.parse(await (await fetch(`${baseUrl}/data/site.json`)).text())
       .interactions.apiBaseUrl.replace(/\/+$/, '');
 
     browser = await chromium.launch({ executablePath: chromiumExecutable() });
@@ -65,7 +65,7 @@ async function main() {
     const errors = [];
     page.on('pageerror', (error) => errors.push(error.message));
 
-    // 兜底：其余管理端点一律回空列表（先注册，后注册的登录路由优先匹配）
+    // 兜底：其余管理端点一律回空列表。
     await page.route(`${apiBase}/**`, async (route) => {
       const request = route.request();
       if (request.method() === 'OPTIONS') {
@@ -105,10 +105,10 @@ async function main() {
 
     const step = (name) => console.log(`  · ${name}`);
 
-    step('门禁显示，管理面板隐藏');
+    step('门禁显示，管理台隐藏');
     await page.goto(`${baseUrl}/admin.html`, { waitUntil: 'domcontentloaded' });
-    await page.waitForSelector('[data-login-gate]:not([hidden])');
-    assert.equal(await page.locator('[data-admin-app]').isHidden(), true, '登录前管理面板应隐藏');
+    await page.waitForSelector('[data-gate]:not([hidden])');
+    assert.equal(await page.locator('[data-shell]').isHidden(), true, '登录前管理台应隐藏');
 
     step('MSAL 库从本地 vendor 加载');
     await page.waitForFunction(() => Boolean(window.msal), null, { timeout: 15000 });
@@ -122,31 +122,68 @@ async function main() {
       null,
       { timeout: 15000 },
     );
-    assert.equal(await page.locator('[data-admin-app]').isHidden(), true, '登录失败后管理面板仍应隐藏');
+    assert.equal(await page.locator('[data-shell]').isHidden(), true, '登录失败后管理台仍应隐藏');
 
     step('正确口令进入管理台');
     await page.fill('[data-gate-pass]', 'correct-horse');
     await page.click('[data-gate-submit]');
-    await page.waitForSelector('[data-admin-app]:not([hidden])', { timeout: 15000 });
+    await page.waitForSelector('[data-shell]:not([hidden])', { timeout: 15000 });
+    await page.waitForSelector('.nav__item--active');
     assert.match(
-      (await page.locator('[data-admin-account]').textContent())?.trim() || '',
+      (await page.locator('[data-account]').textContent())?.trim() || '',
       /site-admin/,
-      '头部应显示登录账号',
+      '侧栏应显示登录账号',
     );
     const session = await page.evaluate(() => JSON.parse(sessionStorage.getItem('bifrost:admin:session') || 'null'));
     assert.match(String(session?.token || ''), /^bfs_/, '会话令牌应存入 sessionStorage');
-    // 回归：.admin-button 自带 display，曾把 hidden 属性覆盖成仍然可见
-    assert.equal(await page.locator('[data-admin-login]').isHidden(), true, '登录后 Microsoft 登录按钮应隐藏');
+
+    step('概览页渲染状态卡与发布条');
+    await page.waitForSelector('.status-grid .status-card', { timeout: 15000 });
+    await page.waitForSelector('[data-view-title]');
+
+    step('侧栏导航切换页面（条目 / QQ 空间同步）');
+    await page.click('[data-nav-item="entries"]');
+    await page.waitForFunction(
+      () => document.querySelector('[data-view-title]')?.textContent === '条目',
+      null,
+      { timeout: 15000 },
+    );
+    await page.waitForSelector('.split', { timeout: 15000 });
+    await page.click('[data-nav-item="qzone"]');
+    await page.waitForFunction(
+      () => document.querySelector('[data-view-title]')?.textContent === 'QQ 空间同步',
+      null,
+      { timeout: 15000 },
+    );
+    await page.waitForFunction(
+      () => /连接/.test(document.querySelector('[data-view] .panel__title')?.textContent || ''),
+      null,
+      { timeout: 15000 },
+    );
+
+    step('hash 直达与未知路由回退概览');
+    await page.goto(`${baseUrl}/admin.html#/comments`, { waitUntil: 'domcontentloaded' });
+    await page.waitForFunction(
+      () => document.querySelector('[data-view-title]')?.textContent === '评论',
+      null,
+      { timeout: 15000 },
+    );
+    await page.evaluate(() => { location.hash = '#/not-a-page'; });
+    await page.waitForFunction(
+      () => document.querySelector('[data-view-title]')?.textContent === '概览',
+      null,
+      { timeout: 15000 },
+    );
 
     step('刷新后保持登录');
     await page.reload({ waitUntil: 'domcontentloaded' });
-    await page.waitForSelector('[data-admin-app]:not([hidden])', { timeout: 15000 });
-    assert.equal(await page.locator('[data-login-gate]').isHidden(), true, '已登录时不应再显示门禁');
+    await page.waitForSelector('[data-shell]:not([hidden])', { timeout: 15000 });
+    assert.equal(await page.locator('[data-gate]').isHidden(), true, '已登录时不应再显示门禁');
 
     step('退出后回到门禁');
     await page.click('[data-admin-logout]');
-    await page.waitForSelector('[data-login-gate]:not([hidden])', { timeout: 15000 });
-    assert.equal(await page.locator('[data-admin-app]').isHidden(), true, '退出后管理面板应隐藏');
+    await page.waitForSelector('[data-gate]:not([hidden])', { timeout: 15000 });
+    assert.equal(await page.locator('[data-shell]').isHidden(), true, '退出后管理台应隐藏');
 
     const blocking = errors.filter((message) => !/favicon|net::ERR_/i.test(message));
     assert.equal(blocking.length, 0, `页面有未捕获错误：${blocking.slice(0, 3).join(' | ')}`);

@@ -23,6 +23,7 @@ import {
   countTagUsage,
   normalizeMomentFlags,
   normalizeTags,
+  parseEntryMetaPatch,
   pickCoverCandidates,
   planSeriesMembers,
   planTagReplace,
@@ -42,6 +43,7 @@ import {
   setEntrySeries,
   updateCommentStatus,
   updateEntryCover,
+  updateEntryMeta,
   updateEntryTags,
   updateMomentFlags,
   updateSeries,
@@ -385,6 +387,11 @@ app.http('admin', {
         if (body.cover !== undefined) {
           const assetId = body.cover?.assetId ? text(body.cover.assetId, '封面媒体', { max: 120 }) : '';
           results.cover = await updateEntryCover(entryId, assetId);
+        }
+        if (body.title !== undefined || body.summary !== undefined) {
+          const meta = parseEntryMetaPatch(body);
+          const updated = await updateEntryMeta(entryId, meta);
+          results.meta = { title: updated.title, summary: updated.summary || '' };
         }
         if (body.tags !== undefined) {
           if (!Array.isArray(body.tags)) {
