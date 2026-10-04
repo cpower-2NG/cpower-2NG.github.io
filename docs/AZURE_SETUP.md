@@ -49,6 +49,23 @@ az group create --name rg-bifrost-prod --location japaneast
 
 Functions 会同时校验签名、租户、受众和对象 ID，不能只靠前端隐藏管理入口。
 
+### 2.1 账密登录（备用通道）
+
+Microsoft 登录依赖 `login.microsoftonline.com` 与前端 MSAL 库；如果管理员所在网络访问受限，可以在登录界面改用**站点口令**。该通道是独立的单账号登录：`POST /manage/auth/login` 校验 `scrypt` 口令哈希后签发 HMAC 会话令牌（默认 72 小时），管理接口用同一个 `Authorization: Bearer` 头接受两种令牌。
+
+启用步骤（三项配齐才生效）：
+
+1. 本地运行 `node tools/generate-admin-hash.mjs <管理员账号> <口令>`，输出 `ADMIN_USERNAME`、`ADMIN_PASSWORD_HASH`（自带随机盐，不依赖 `HASH_SALT`）、`ADMIN_SESSION_SECRET`。
+2. 写入云端 Function App：
+
+   ```powershell
+   az functionapp config appsettings set --name <function-app> --resource-group <rg> --settings ...
+   ```
+
+   或把三个值配成 GitHub Secrets（`ADMIN_USERNAME` / `ADMIN_PASSWORD_HASH` / `ADMIN_SESSION_SECRET`）后重跑 **Deploy Azure infrastructure**，由 Bicep 经 Key Vault 下发。
+
+安全边界：口令只以 scrypt 哈希存储（盐随哈希保存）；会话令牌无状态、过期即失效，换 `ADMIN_SESSION_SECRET` 可一次性吊销所有账密会话；登录接口按来源 IP 限流（10 分钟内失败 10 次锁定）。注意 Bicep 部署会把不在模板里的应用设置抹掉，走 `az` 直接配置后，建议同步配好 GitHub Secrets。Entra 通道与账密通道互不影响，任一未配置只会在登录界面提示对应按钮不可用。
+
 ## 3. GitHub App
 
 当前 GitHub App 已创建并安装，权限仅限于 `cpower-2NG/cpower-2NG.github.io` 的 `Contents: Read and write`。以下步骤用于重建环境。
@@ -84,6 +101,9 @@ Functions 会同时校验签名、租户、受众和对象 ID，不能只靠前�
 | `GH_APP_PRIVATE_KEY` | GitHub App 完整 PEM 私钥 |
 | `INTERACTION_HASH_SALT` | 至少 32 字节的随机字符串 |
 | `AZURE_BUDGET_EMAIL` | 预算告警邮箱，可留空 |
+| `ADMIN_USERNAME` | 可选：账密登录的管理员账号 |
+| `ADMIN_PASSWORD_HASH` | 可选：口令 scrypt 哈希，见下文“账密登录” |
+| `ADMIN_SESSION_SECRET` | 可选：账密会话签名密钥，随机 ≥32 字节 |
 
 GitHub 部署身份还需要在 Azure 订阅上拥有创建部署和分配角色的权限。建议使用单独的部署服务主体，并为仓库 `main` 分支配置 GitHub OIDC 联合凭据：
 
@@ -147,7 +167,7 @@ az ad sp create --id <app-client-id>
 ## 8. 首次 QQ 登录与验收
 
 1. 打开 `https://cpower-2ng.github.io/admin.html`。
-2. 使用 Entra ID 登录。
+2. 在登录界面选择 Microsoft（Entra ID）或站点口令登录。
 3. 点击“重新连接 QQ”，扫描受保护页面中的临时二维码。
 4. 点击“验收同步”，只生成候选和隔离报告，不提交公开内容。
 5. 检查图片清晰度、视频封面、筛选规则和历史互动匿名化结果。

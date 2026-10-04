@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+/* .admin-button 等自带 display 的元素也要服从 hidden 属性 */
+[hidden] {
+  display: none !important;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -410,4 +415,81 @@ textarea {
   .admin-comment {
     grid-template-columns: 1fr;
   }
+}
+
+/* 登录界面：进入管理台前的独立门禁，遮住全部管理面板 */
+
+.admin-login {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.admin-login[hidden] {
+  display: none;
+}
+
+.admin-login__card {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+  width: min(400px, 100%);
+  padding: 34px 30px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.admin-login__card h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.admin-login__card .admin-eyebrow {
+  margin: 0;
+}
+
+.admin-button--primary {
+  border-color: var(--accent);
+  background: rgba(121, 201, 192, 0.16);
+  color: var(--accent);
+}
+
+.admin-button--primary:hover {
+  background: rgba(121, 201, 192, 0.26);
+}
+
+.admin-login__divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.admin-login__divider::before,
+.admin-login__divider::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--line);
+}
+
+.admin-login__form {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.admin-login__form .admin-input {
+  width: 100%;
+  text-align: center;
+}
+
+.admin-login__card .admin-message {
+  min-height: 1em;
+  margin: 0;
 }

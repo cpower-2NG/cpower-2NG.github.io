@@ -9,6 +9,12 @@ import { handleError, json, readJson } from '../lib/http.js';
 import { startContainerJob } from '../lib/azure-jobs.js';
 import { entryId as parseEntryId, text } from '../lib/validation.js';
 import {
+  assertNotRateLimited,
+  registerLoginFailure,
+  issueSessionToken,
+  verifyPassword,
+} from '../lib/admin-password.js';
+import {
   assertUploadable,
   parseImportForm,
 } from '../lib/import-validate.js';
@@ -182,15 +188,47 @@ async function status() {
   };
 }
 
+/** 账密登录：单管理员 + 环境变量哈希；失败计数按来源 IP 限流。 */
+async function authLogin(request, context) {
+  const current = config();
+  if (!current.adminUsername || !current.adminPasswordHash || !current.adminSessionSecret) {
+    throw new HttpError(503, '账密登录尚未配置。', 'ADMIN_AUTH_NOT_CONFIGURED');
+  }
+  const ip = (request.headers.get('x-forwarded-for') || '').split(',')[0].trim() || 'unknown';
+  assertNotRateLimited(ip);
+  const body = await readJson(request);
+  const username = String(body.username || '');
+  const password = String(body.password || '');
+  const ok = Boolean(username) && Boolean(password)
+    && verifyPassword(username, password, current.adminPasswordHash);
+  if (!ok) {
+    registerLoginFailure(ip);
+    context.warn(`账密登录失败（来源 ${ip}）`);
+    throw new HttpError(401, '账号或口令不正确。', 'INVALID_CREDENTIALS');
+  }
+  const session = issueSessionToken({ name: current.adminUsername }, current);
+  return json(request, {
+    token: session.token,
+    expiresAt: session.expiresAt,
+    name: current.adminUsername,
+    method: 'password',
+  });
+}
+
 app.http('admin', {
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   authLevel: 'anonymous',
   route: 'manage/{action}/{id?}',
   handler: async (request, context) => {
     try {
-      const admin = await requireAdmin(request);
       const action = String(request.params.action || '');
       const id = request.params.id ? String(request.params.id) : '';
+
+      if (action === 'auth' && request.method === 'POST') {
+        return await authLogin(request, context);
+      }
+
+      const admin = await requireAdmin(request);
 
       if (action === 'status' && request.method === 'GET') {
         return json(request, await status());

@@ -1,4 +1,5 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose';
+import { verifySessionToken } from './admin-password.js';
 import { config } from './config.js';
 import { HttpError } from './errors.js';
 
@@ -16,11 +17,16 @@ export async function requireAdmin(request) {
     return { oid: 'local-dev', name: 'Local Admin' };
   }
 
+  const token = bearerToken(request);
+  const passwordSession = token ? verifySessionToken(token, current) : null;
+  if (passwordSession) {
+    return passwordSession;
+  }
+
   if (!current.entraTenantId || !current.entraClientId || !current.entraApiAudience) {
     throw new HttpError(503, '管理认证尚未配置。', 'ADMIN_AUTH_NOT_CONFIGURED');
   }
 
-  const token = bearerToken(request);
   if (!token) {
     throw new HttpError(401, '需要登录后才能执行管理操作。', 'AUTH_REQUIRED');
   }

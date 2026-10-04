@@ -8,10 +8,29 @@
     <title>BIFROST 管理台</title>
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="stylesheet" href="/core/admin.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/@azure/msal-browser@4/dist/msal-browser.min.js"></script>
+    <!-- MSAL 本地托管：jsdelivr 在部分网络不可达，会导致 Microsoft 登录永远转圈 -->
+    <script defer src="/core/vendor/msal-browser.min.js"></script>
     <script defer src="/core/admin.js"></script>
 </head>
 <body>
+    <section class="admin-login" data-login-gate hidden>
+        <div class="admin-login__card">
+            <p class="admin-eyebrow">BIFROST · CONTROL PLANE</p>
+            <h1>管理员登录</h1>
+            <p class="admin-muted">登录后才能管理内容、评论与同步任务。</p>
+            <button type="button" class="admin-button admin-button--primary" data-gate-ms-login>使用 Microsoft 账号登录</button>
+            <div class="admin-login__divider"><span>或使用站点口令</span></div>
+            <form class="admin-login__form" data-gate-form>
+                <input class="admin-input" data-gate-user placeholder="管理员账号" autocomplete="username">
+                <input class="admin-input" data-gate-pass type="password" placeholder="口令" autocomplete="current-password">
+                <button type="submit" class="admin-button admin-button--primary" data-gate-submit>登录</button>
+            </form>
+            <p class="admin-message" data-gate-message></p>
+            <a class="admin-button" href="/">返回站点</a>
+        </div>
+    </section>
+
+    <div data-admin-app hidden>
     <header class="admin-header">
         <div>
             <p class="admin-eyebrow">BIFROST · CONTROL PLANE</p>
@@ -239,6 +258,7 @@
             <p class="admin-message" data-export-message></p>
         </section>
     </main>
+    </div>
 
     <div class="admin-toast" data-admin-toast role="status" aria-live="polite" hidden></div>
 </body>

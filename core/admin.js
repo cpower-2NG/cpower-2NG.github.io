@@ -1,8 +1,10 @@
 (() => {
+  const SESSION_KEY = 'bifrost:admin:session';
   const state = {
     config: null,
     msal: null,
     account: null,
+    session: null,
     entries: [],
     series: [],
     tags: [],
@@ -72,10 +74,39 @@
     elements.login = document.querySelector('[data-admin-login]');
     elements.logout = document.querySelector('[data-admin-logout]');
     elements.toast = document.querySelector('[data-admin-toast]');
+    elements.gate = document.querySelector('[data-login-gate]');
+    elements.gateMsLogin = document.querySelector('[data-gate-ms-login]');
+    elements.gateForm = document.querySelector('[data-gate-form]');
+    elements.gateUser = document.querySelector('[data-gate-user]');
+    elements.gatePass = document.querySelector('[data-gate-pass]');
+    elements.gateSubmit = document.querySelector('[data-gate-submit]');
+    elements.gateMessage = document.querySelector('[data-gate-message]');
+    elements.app = document.querySelector('[data-admin-app]');
   }
 
   function isLocalDevelopment() {
     return ['localhost', '127.0.0.1'].includes(location.hostname);
+  }
+
+  // ---------- 登录会话（账密通道） ----------
+
+  function readSession() {
+    try {
+      const session = JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null');
+      if (!session?.token || new Date(session.expiresAt).getTime() <= Date.now() + 60000) return null;
+      return session;
+    } catch {
+      return null;
+    }
+  }
+
+  function storeSession(session) {
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify(session));
+  }
+
+  function clearSession() {
+    sessionStorage.removeItem(SESSION_KEY);
+    state.session = null;
   }
 
   function authReady() {
@@ -95,7 +126,7 @@
       return;
     }
     if (!window.msal) {
-      throw new Error('Microsoft 登录库加载失败，请检查网络后刷新。');
+      throw new Error('Microsoft 登录库加载失败，请刷新页面重试。');
     }
     state.msal = new window.msal.PublicClientApplication({
       auth: {
@@ -110,21 +141,43 @@
     });
     await state.msal.initialize();
     const redirect = await state.msal.handleRedirectPromise();
-    const account = redirect?.account || state.msal.getAllAccounts()[0] || null;
-    setAccount(account);
+    state.account = redirect?.account || state.msal.getAllAccounts()[0] || null;
   }
 
-  function setAccount(account) {
-    state.account = account;
-    elements.account.textContent = account?.name || account?.username || '尚未登录';
-    elements.login.hidden = Boolean(account);
-    elements.logout.hidden = !account;
+  async function login() {
+    if (!state.msal) {
+      await initMsal();
+    }
+    if (!state.msal) {
+      if (isLocalDevelopment()) {
+        toast('本地开发模式：管理接口将使用 ADMIN_DEV_BYPASS。');
+        return;
+      }
+      throw new Error('Microsoft 登录不可用，请改用站点口令登录。');
+    }
+    await state.msal.loginRedirect({ scopes: [state.config.admin.apiScope] });
+  }
+
+  async function logout() {
+    clearSession();
+    if (state.msal && state.account) {
+      await state.msal.logoutRedirect({ account: state.account });
+      return;
+    }
+    showGate('已退出登录。');
   }
 
   async function token() {
+    if (state.session) {
+      if (new Date(state.session.expiresAt).getTime() > Date.now() + 30000) {
+        return state.session.token;
+      }
+      showGate('登录已过期，请重新登录。');
+      throw new Error('登录已过期，请重新登录。');
+    }
     if (!state.msal || !state.account) {
       if (isLocalDevelopment()) return '';
-      throw new Error('请先使用 Microsoft 账号登录。');
+      throw new Error('请先登录。');
     }
     const result = await state.msal.acquireTokenSilent({
       account: state.account,
@@ -133,20 +186,77 @@
     return result.accessToken;
   }
 
-  async function login() {
-    if (!state.msal) {
-      await initMsal();
-    }
-    if (!state.msal) {
-      toast('本地开发模式：管理接口将使用 ADMIN_DEV_BYPASS。');
-      return;
-    }
-    await state.msal.loginRedirect({ scopes: [state.config.admin.apiScope] });
+  function setIdentity() {
+    const name = state.session?.name
+      || state.account?.name
+      || state.account?.username
+      || (isLocalDevelopment() && !authReady() ? '本地开发' : '');
+    elements.account.textContent = name || '尚未登录';
+    elements.login.hidden = Boolean(name);
+    elements.logout.hidden = !name;
   }
 
-  async function logout() {
-    if (!state.msal) return;
-    await state.msal.logoutRedirect({ account: state.account });
+  function showGate(message = '') {
+    clearSession();
+    elements.app.hidden = true;
+    elements.gate.hidden = false;
+    if (message) {
+      elements.gateMessage.textContent = message;
+    }
+    setIdentity();
+  }
+
+  function enterApp() {
+    elements.gate.hidden = true;
+    elements.gateMessage.textContent = '';
+    elements.app.hidden = false;
+    setIdentity();
+    if (apiBase()) {
+      loadAll().catch((error) => toast(error.message));
+    } else {
+      elements.statusGrid.replaceChildren(statusCard('配置', '等待接入', '请先填写 Azure API 地址'));
+    }
+  }
+
+  /** 账密登录：拿到的会话令牌存 sessionStorage，后续请求走 Authorization: bfs_… */
+  async function gateLogin(event) {
+    event.preventDefault();
+    const username = elements.gateUser.value.trim();
+    const password = elements.gatePass.value;
+    if (!username || !password) {
+      elements.gateMessage.textContent = '请输入账号与口令。';
+      return;
+    }
+    elements.gateSubmit.disabled = true;
+    elements.gateMessage.textContent = '正在验证…';
+    try {
+      const response = await fetch(`${apiBase()}/manage/auth/login`, {
+        method: 'POST',
+        headers: {
+          accept: 'application/json',
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+      const payload = await response.json().catch(() => null);
+      if (!response.ok) {
+        throw new Error(payload?.message || `登录失败（HTTP ${response.status}）`);
+      }
+      const session = {
+        token: payload.token,
+        expiresAt: payload.expiresAt,
+        name: payload.name || username,
+        method: 'password',
+      };
+      storeSession(session);
+      state.session = session;
+      elements.gatePass.value = '';
+      enterApp();
+    } catch (error) {
+      elements.gateMessage.textContent = error.message;
+    } finally {
+      elements.gateSubmit.disabled = false;
+    }
   }
 
   async function api(route, options = {}) {
@@ -164,6 +274,9 @@
     });
     const payload = await response.json().catch(() => null);
     if (!response.ok) {
+      if (response.status === 401) {
+        showGate('登录状态已失效，请重新登录。');
+      }
       throw new Error(payload?.message || `管理请求失败（HTTP ${response.status}）`);
     }
     return payload;
@@ -1106,6 +1219,8 @@
   function bind() {
     elements.login.addEventListener('click', () => login().catch((error) => toast(error.message)));
     elements.logout.addEventListener('click', () => logout().catch((error) => toast(error.message)));
+    elements.gateMsLogin.addEventListener('click', () => login().catch((error) => toast(error.message)));
+    elements.gateForm.addEventListener('submit', gateLogin);
     elements.refresh.addEventListener('click', () => loadAll().catch((error) => toast(error.message)));
     elements.publishNow.addEventListener('click', publishNow);
     elements.entriesLoad.addEventListener('click', () => loadEntries().catch((error) => toast(error.message)));
@@ -1128,14 +1243,25 @@
     cache();
     bind();
     refreshUploadSections();
-    const response = await fetch('/data/site.json');
-    const site = await response.json();
-    state.config = site.interactions || {};
+    try {
+      const response = await fetch('/data/site.json');
+      const site = await response.json();
+      state.config = site.interactions || {};
+    } catch (error) {
+      showGate(`站点配置加载失败：${error.message}`);
+      return;
+    }
     try {
       await initMsal();
-      await loadAll();
-    } catch (error) {
-      elements.statusGrid.replaceChildren(statusCard('配置错误', error.message));
+    } catch {
+      // Microsoft 通道不可用时仍可走账密登录，错误在点击按钮时由 login() 重新抛出。
+    }
+    state.session = readSession();
+    const devMode = isLocalDevelopment() && !authReady();
+    if (state.session || state.account || devMode) {
+      enterApp();
+    } else {
+      showGate();
     }
   }
 

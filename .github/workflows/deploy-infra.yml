@@ -42,6 +42,9 @@ jobs:
           GITHUB_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
           HASH_SALT: ${{ secrets.INTERACTION_HASH_SALT }}
           BUDGET_EMAIL: ${{ secrets.AZURE_BUDGET_EMAIL }}
+          ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
+          ADMIN_PASSWORD_HASH: ${{ secrets.ADMIN_PASSWORD_HASH }}
+          ADMIN_SESSION_SECRET: ${{ secrets.ADMIN_SESSION_SECRET }}
         run: |
           args=(
             --resource-group "$RESOURCE_GROUP"
@@ -61,5 +64,9 @@ jobs:
           )
           if [[ -n "$BUDGET_EMAIL" ]]; then
             args+=(budgetContactEmails="[\"$BUDGET_EMAIL\"]")
+          fi
+          # 账密登录为可选通道：三个 GitHub secrets 齐全时才注入，避免半配置。
+          if [[ -n "$ADMIN_USERNAME" && -n "$ADMIN_PASSWORD_HASH" && -n "$ADMIN_SESSION_SECRET" ]]; then
+            args+=(adminUsername="$ADMIN_USERNAME" adminPasswordHash="$ADMIN_PASSWORD_HASH" adminSessionSecret="$ADMIN_SESSION_SECRET")
           fi
           az deployment group create "${args[@]}"
