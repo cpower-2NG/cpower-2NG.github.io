@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-phase="logic">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>实验记录 · 从审计到第一次抓取 · BIFROST</title>
+<meta name="description" content="从只读审计到首次真机抓取的时间线：仓库整理、仿真验证、设备搬迁与识别、标定与数据集，2026-10-03 完成首次完整抓取。">
+<link rel="canonical" href="https://cpower-2ng.github.io/content/实验记录-从审计到第一次抓取.html">
+<meta property="og:site_name" content="BIFROST">
+<meta property="og:type" content="article">
+<meta property="og:title" content="实验记录 · 从审计到第一次抓取">
+<meta property="og:description" content="从只读审计到首次真机抓取的时间线：仓库整理、仿真验证、设备搬迁与识别、标定与数据集，2026-10-03 完成首次完整抓取。">
+<meta property="og:url" content="https://cpower-2ng.github.io/content/实验记录-从审计到第一次抓取.html">
+<meta name="twitter:card" content="summary">
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === '1') return;
+  params.delete('embed');
+  var extra = params.toString();
+  var target = '/?phase=logic&entry=01M42QS7SC1D7PJAMG7MAE3CXE' + (extra ? '&' + extra : '') + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+</head>
+<body>
+<!--bifrost:fragment:start-->
+<article class="article-surface"><h1>实验记录 · 从审计到第一次抓取</h1>
+<p>本文按时间记录该项目从代码审计到完成首次真机抓取的工作内容与阶段性结论。</p>
+<ul><li>系统构成、配置与运行流程见《技术文档》。</li><li>问题类型与处置方法见《经验总结》。</li><li>各结论的完整证据见 <code>RESTRUCTURE_PLAN.md</code>（按轮编号）。</li></ul>
+<p>时间取自提交记录与终端日志。项目自 2026-09-26 进入实施阶段，2026-10-03 完成首次完整抓取。</p>
+<hr>
+<h2>时间总览</h2>
+<table><thead><tr><th>日期</th><th>提交数</th><th>主要内容</th></tr></thead><tbody><tr><td>2026-05-19 ~ 07-26</td><td>8</td><td>仓库既有内容：教材配套仿真演示</td></tr><tr><td>2026-09-26</td><td>8</td><td>只读审计，确定迁移方案</td></tr><tr><td>2026-09-27</td><td>40</td><td>仓库整理；仿真端到端抓取跑通</td></tr><tr><td>2026-09-28</td><td>48</td><td>真机缺失项清单；无臂环境验证 MoveIt 链路</td></tr><tr><td>2026-09-29</td><td>39</td><td>跨机 DDS 与可视化；无线链路替代测试</td></tr><tr><td>2026-09-30</td><td>52</td><td>设备搬迁与识别；控制箱确认；相机识别</td></tr><tr><td>2026-10-01</td><td>29</td><td>上位机就位；标定前置条件复核</td></tr><tr><td>2026-10-02</td><td>49</td><td>数据集与模型；手眼外参标定完成；几何参数定案</td></tr><tr><td>2026-10-03</td><td>48</td><td>真机链路打通；首次运动；首次完整抓取</td></tr></tbody></table>
+<hr>
+<h2>一、2026-05-19 ~ 07-26：仓库既有内容</h2>
+<ul><li><code>2026-05-19 17:14</code> 初始提交。仓库为教材配套的 ROS 2 YOLO 演示程序。</li><li><code>06-02</code> 参考项目验证通过；<code>06-14</code> 完成初步仿真视觉检测；<code>07-16</code> 与 <code>07-26</code> 有少量收尾提交。</li><li>该项目的抓取部分运行于仿真环境。放置动作为硬编码的关节角序列（左转 90° 后张开夹爪），场景中没有接料容器，实测落点位于桌面范围之外。其性质为抓取动作演示。</li><li>该仓库此前未接入真机。</li></ul>
+<hr>
+<h2>二、2026-09-26：只读审计</h2>
+<ul><li>查明仓库中并存三套内容：教材演示程序、一个搬运脚本、以及附件中一套较完整的抓取实现。</li><li>核实“历史抓取代码”的实际位置与形态，并更正了此前的一处判断。</li><li>确定分阶段实施方案，共六个阶段。当日完成第一阶段：冻结基线并建立迁移分支，<code>main</code> 分支保持不变。</li><li>当日提交 8 次。</li></ul>
+<hr>
+<h2>三、2026-09-27：仓库整理与仿真验证</h2>
+<ul><li>推进仓库整理与感知链路修复两项工作。</li><li>仿真端到端流程跑通：检测、规划、抓取、搬运、放置完整执行，验证方式为方块的实际物理位姿发生变化，而非读取回传值。</li><li>确认一项易被误判的情况：<code>sim.launch.py</code> 仅负责启动仿真世界、控制器与 MoveIt，不下发运动指令。运行后无动作符合该设计，不属于故障。</li><li>当日提交 40 次。</li></ul>
+<hr>
+<h2>四、2026-09-28：真机缺件清单</h2>
+<ul><li>编制真机缺失项清单，用于采购与协调。其中 USB-RS485 转换器为必需项；上位机 40-pin UART 为 3.3 V TTL 电平，无法直接驱动 RS-485 差分信号，该限制与权限无关。</li><li>在无机械臂环境下完成 MoveIt 链路验证，并将 IK 失败原因区分为三种。</li><li>记录三处测量方式引起的问题：<code>setsid</code> 会继承 <code>SIGINT=SIG_IGN</code> 导致信号未送达；GNU <code>timeout</code> 默认向整个进程组投递信号，子进程会收到两次 SIGINT；<code>os.kill(pid, 0)</code> 无法检测僵尸进程。</li><li>当日提交 48 次。</li></ul>
+<hr>
+<h2>五、2026-09-29：跨机通信与可视化</h2>
+<ul><li>完成跨机 DDS 实测，确定由上位机提供服务的架构可行。</li><li>发现一处此前从未生效的 RViz 配置。</li><li>实测无线链路可替代有线连接，但地址会变化。此后 SSH 统一使用主机别名，不直接使用 IP。</li><li>将规划器的决策过程改为可观测（遥测输出），并在上位机实际运行状态机验证。</li><li>当日提交 39 次。</li></ul>
+<hr>
+<h2>六、2026-09-30：设备搬迁与识别</h2>
+<p>当日事项较多，按时间排列。</p>
+<table><thead><tr><th>时间</th><th>内容</th></tr></thead><tbody><tr><td>上午</td><td>设备搬迁至机械臂附近。开箱后保护措施生效，但 SSH 公钥被拒</td></tr><tr><td></td><td>查明原因：根文件系统已更换，并非文件系统损坏</td></tr><tr><td></td><td>设备识别出现四次错误，即连接到同型号的另一台设备。最终以模组序列号作为识别依据（该标识不可克隆），确认现场存在两台设备</td></tr><tr><td></td><td>定位到目标设备，硬件完好，搬迁过程中丢失两件配件</td></tr><tr><td><code>15:15</code></td><td>网络配置完成，连接恢复</td></tr><tr><td><code>18:2x</code></td><td>SSH 迁移至无线链路，有线网口 <code>eno1</code> 改用于连接控制箱。实测可行，但无线地址会变化</td></tr><tr><td>傍晚</td><td>识别控制箱型号为 CB3，地址 <code>192.168.56.101</code>。CB3 无 Remote Control 模式开关</td></tr><tr><td>—</td><td>手工构造 RTDE 数据包导致 URControl 停止运行。此后确定：真机控制器仅使用 Dashboard 端口的只读查询，不构造 RTDE 数据包</td></tr><tr><td>晚</td><td>硬件就绪度盘点：两台相机与串口转换器均已到位</td></tr><tr><td></td><td>两台 D435i 设备识别完成，确定以相机外壳标签上的 SDK 号作为识别依据（ASIC 号会导致选型静默出错）</td></tr><tr><td></td><td>AG-95 接线拓扑存在疑问，主动停止对该串口的访问</td></tr></tbody></table>
+<p>当日提交 52 次。</p>
+<hr>
+<h2>七、2026-10-01：上位机就位</h2>
+<ul><li>设备搬迁完成并通过检查，恢复桌面环境。</li><li>完成标定前的全状态复核，拍摄环节实跑通过，同时发现三项会导致标定无效的前置问题。</li><li>重做拍摄环节的 PnP 质检，原判据未能识别一处退化情况。</li><li>采用零 TCP 碰台面法测量探针长度，以物理接触反推长度，避开官方尺寸无法确定垫高量的问题。</li><li>当日提交 29 次。</li></ul>
+<hr>
+<h2>八、2026-10-02：感知基础数据</h2>
+<table><thead><tr><th>时段</th><th>内容</th></tr></thead><tbody><tr><td>下午</td><td>与前负责人 2026-03-16 的 ROS1 现场文档对照，确认指向同一台设备，此前的一项尺寸差异因此保留为待定</td></tr><tr><td>下午</td><td>测得相机在一天内自行旋转 0.95°，前一日的标定数据失效，而原有判据未给出提示。该情况促成了后续基于全幅光流的漂移检查方法</td></tr><tr><td>傍晚</td><td>执行夹爪初始化与闭合（经当次授权在机械臂上操作）。同时发现初始化状态的读取地址有误</td></tr><tr><td>夜</td><td>碰台面读数 z = −395.47 mm，与“台面约等于 0”的前提不符。为此编写了一个不产生运动的判定工具</td></tr><tr><td>深夜</td><td>判定结果为：台面位于 base 坐标系 z=0，<code>−395.47</code> 来源于读取时选错了坐标系（示教器坐标显示停留在“视角”选项）</td></tr><tr><td>深夜</td><td>确定 4 mm 的差异计入 <code>tool0_to_fingertip</code>，几何参数定案</td></tr><tr><td>夜</td><td>发现并修复一处无日志输出的检测缺陷；同时确认标定板被夹爪遮挡是拍摄失败的另一个原因</td></tr><tr><td>夜</td><td>确认采集数据集环节不需要机械臂参与，打通从拍摄到标注工具的流程</td></tr><tr><td>夜</td><td>方块位置提案工具由基于颜色改为基于倒角形状求解位置</td></tr><tr><td>夜</td><td>确认同一排布下可变换光照连续拍摄以获得多样化样本；该做法引入的问题被采集流程的自动检查发现</td></tr><tr><td>夜</td><td>真机数据集完成采集（6 轮排布，210 帧），模型训练完成</td></tr><tr><td>夜</td><td>手眼外参标定完成，合成环节走通。“不可达”这一现象成为唯一一次无护栏错误的有效证据</td></tr><tr><td>夜</td><td>上位机上一批未提交的改动完成核对，确认均为本地已有内容；代码同步完成，编译通过，自检全部通过，感知链路端到端验证通过</td></tr></tbody></table>
+<p>当日提交 49 次。</p>
+<hr>
+<h2>九、2026-10-03：从链路验证到完成抓取</h2>
+<h3>9.1 分段验证（上午至下午）</h3>
+<table><thead><tr><th>时间</th><th>内容</th></tr></thead><tbody><tr><td>—</td><td>控制箱通信确认，型号为 CB3</td></tr><tr><td>—</td><td>修正对 <code>safety_limits</code> 的理解：该参数在此链路上没有执行组件</td></tr><tr><td>—</td><td>排查 SSH 连接问题，确认一处真实阻碍；同时撤回此前关于防火墙的一项判断</td></tr><tr><td>—</td><td>真机只读接入成功，关节数据频率 125 Hz，机械臂全程未运动</td></tr><tr><td>—</td><td>标定落地，明确“URDF 与实机不符”的具体含义与偏差量，并确定部分修正不可行</td></tr><tr><td>—</td><td>发现无臂预检中“同一图像对应两套几何”的问题，修复后重跑，并量化标定对护栏判据的影响</td></tr><tr><td>—</td><td>完成真机几何的桌面安全包线扫描，将区域划分依据从试运行改为按图确定</td></tr><tr><td>—</td><td>全扫过程暴露两处无提示的缺陷（一处无输出、一处计数错误）；补齐无臂运行环境时又修正三处判断依据与实际不符的问题</td></tr><tr><td>—</td><td>修正区域划分表的一处缺陷：原表结构从未产出过有效数值，改为基于连续可用段与最大矩形</td></tr><tr><td><code>15:11–15:48</code></td><td>三次相同条件的全扫，两两之间存在 19 至 24 个网格的判读差异，确定“结论稳定、逐格结果不稳定”，并确定边界保留一格（0.05 m）余量的规则</td></tr><tr><td><code>17:36</code></td><td>抓取当日俯视图像，发现话题命名存在两种形式（驱动发布双层名称，launch 重映射为单层），为抓图工具增加了话题参数</td></tr><tr><td><code>17:57</code></td><td>对负 x 侧区域执行扫描（289 格）。该次扫描的对象位于机械臂后方，后续确认无使用价值</td></tr><tr><td><code>18:50–19:08</code></td><td>仿真端到端运行一轮并录像：6 个方块全部放置完成，收工流程正常触发。录像 2562 帧，保存为 <code>/home/hiro/sim_run.mp4</code></td></tr><tr><td><code>19:25</code></td><td>现场配置文件上传至上位机，并以 <code>ros2 param get</code> 逐项确认生效</td></tr><tr><td><code>19:37</code></td><td>修改真机规划组的 KDL 配置（<code>attempts:1</code> 与 <code>consistency_limits</code>），修改前保留备份</td></tr><tr><td>约 <code>19:5x</code></td><td>执行夹爪初始化（经授权）。工具报告“未到达 1000”，复查后确认是读取时机过早。稳定后 <code>0x0200=1</code>、<code>0x0202=1000</code>（全开）。同时获得 <code>0x0200</code> 三态取值</td></tr><tr><td>—</td><td>完成真机就绪度盘点</td></tr></tbody></table>
+<h3>9.2 KDL 配置修改未产生预期效果</h3>
+<p><code>19:37</code> 的配置修改已确认生效（<code>ros2 param get</code> 返回 <code>attempts=1</code>、<code>consistency_limits=[100]*6</code>），但同一位置的复现性验收结果与修改前一致（1/19/18/17 个解）。随后仅修改一个变量（<code>/compute_ik</code> 请求的超时时间）进行验证，<code>timeout=0</code> 时仍得到 11/12 个不同解。</p>
+<p>结论：以“attempts:3 的随机重启导致不可复现”作为原因的解释在真机规划组上不成立。该配置予以保留（无副作用，且与仿真配置一致），但相关说明已更正，新提出的解释标注为待验证。</p>
+<h3>9.3 链路打通、首次运动与首次抓取（晚间）</h3>
+<table><thead><tr><th>时间</th><th>内容</th></tr></thead><tbody><tr><td>约 <code>20:0x</code></td><td>示教器播放程序时报连接被拒绝。原因为操作顺序：External Control 由机器人主动连接上位机的 50002 端口，需驱动先行启动。报错形式为连接被拒绝而非超时，说明网络可达但无监听进程</td></tr><tr><td></td><td>按正确顺序操作（先启动驱动，后播放程序），驱动日志出现 <code>Robot requested program</code>、<code>Sent program to robot</code>、<code>Robot connected to reverse interface</code></td></tr><tr><td></td><td>逐项核对：<code>scaled_joint_trajectory_controller</code> 为 active、<code>/compute_ik</code> 可用、<code>/joint_states</code> 数据正常、标定检查通过、<code>robotmode: RUNNING</code>、<code>programState: PLAYING</code></td></tr><tr><td><code>20:59</code></td><td>首次真机运动：夹爪一次开合，<code>shoulder_pan</code> 转动 ±5° 后回到原位，回读偏差 0.02 mrad</td></tr><tr><td>约 <code>21:1x</code></td><td>首次启用规划器，出现两个问题：机械臂运动到关于基座对称的位置；夹爪无动作</td></tr><tr><td></td><td>夹爪无动作的原因：现场配置文件中 <code>ag95_dry_run</code> 仍为 <code>true</code>（该项默认值为 true），规划器仅输出日志，不写入寄存器</td></tr><tr><td></td><td>机械臂位置对称的原因：MoveIt 的 FK 给出 <code>tool0</code> 位于 <code>(-0.42,-0.50,+0.19)</code>，机器人自报 TCP 为 <code>(+0.42,+0.50,-0.01)</code>；<code>base_link</code> 与 <code>base</code> 之间的变换为绕 z 轴 180°。相机外参的父坐标系为 <code>base</code>，被作为 <code>base_link</code> 使用</td></tr><tr><td></td><td>同时更正此前的判断：“安全包线扫描方向错误”这一结论不成立，其依据所使用的换算同样错误，早期基于 +x 侧的扫描结果正确</td></tr><tr><td><code>21:50</code></td><td>修正并验证：相机 TF 绕 z 轴旋转 180°、<code>pick_zone</code> 改回 +x 侧、重新确定放置槽位、<code>ag95_dry_run</code> 设为 false。修正后同一天方块报告为 <code>(+0.420, +0.501)</code>，即原值的镜像</td></tr><tr><td>约 <code>21:5x</code></td><td>先将机械臂移回 HOME。为此编写的工具在发送轨迹前逐点校验路径（40 个采样点，最低点余量 0.256 m）。执行后机械臂位置与 HOME 偏差不超过 0.05°</td></tr><tr><td>约 <code>22:1x</code></td><td>方块移入修正后的区域，重新启用规划器</td></tr><tr><td><code>22:16</code></td><td>首次完整抓取成功：选中 <code>(0.481,0.221,0.013)</code>，接近段 <code>shoulder_pan</code> 为 +12.7°，下降，闭合（回读 35.3 mm，表示已夹持物体），抬起，返回 HOME，前往放置位 0，下降，张开，已完成 1/4，返回 HOME，空闲 20 秒后收工</td></tr><tr><td><code>22:19</code></td><td>提交归档</td></tr></tbody></table>
+<hr>
+<h2>十、完成状态</h2>
+<h3>10.1 交付内容</h3>
+<table><thead><tr><th>类别</th><th>内容</th></tr></thead><tbody><tr><td>代码</td><td><code>ros2_ws/src/</code> 下 6 个功能包；<code>scripts/</code> 下 40 余个工具与自检脚本</td></tr><tr><td>标定</td><td>手眼外参（碰点残差 RMS 1.1 mm，重投影 0.18 px）、TCP、探针长度</td></tr><tr><td>数据</td><td>真机数据集 6 轮共 210 帧；训练完成的 <code>block_best.pt</code></td></tr><tr><td>配置</td><td>现场配置文件（完整 56 项）、真机安全包线</td></tr><tr><td>文档</td><td>《技术文档》《经验总结》《实验记录》，及 <code>RESTRUCTURE_PLAN.md</code>（62 轮记录，含全部证据）、<code>待执行命令.md</code>（现场操作清单）</td></tr></tbody></table>
+<h3>10.2 已知未完成项</h3>
+<ul><li>相机当前视野（<code>x∈[-0.34,+1.18]</code>、<code>y∈[-0.12,+0.72]</code>）不包含放置槽位。放置过程为按已知坐标下发指令，不影响当前功能，但相机位置后续需要调整。</li><li>四个放置槽位中仅使用一个，槽位用尽时的收工路径尚未在真机上触发。</li><li>KDL 配置相关的解不可复现问题，其原因尚未定位到源码层面。目前有实测支撑的方向是提供更接近解的初始种子。</li><li>AG-95 的 <code>0x0201</code>（到位状态）语义未单独验证。</li></ul></article>
+<!--bifrost:fragment:end-->
+</body>
+</html>

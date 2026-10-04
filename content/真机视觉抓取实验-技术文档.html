@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-phase="logic">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>真机视觉抓取实验 · 技术文档 · BIFROST</title>
+<meta name="description" content="UR5 + RealSense + AG-95 真机抓放系统的构成、配置与运行流程：坐标系约定、参数体系、安全包线、分级验证与常见故障定位。">
+<link rel="canonical" href="https://cpower-2ng.github.io/content/真机视觉抓取实验-技术文档.html">
+<meta property="og:site_name" content="BIFROST">
+<meta property="og:type" content="article">
+<meta property="og:title" content="真机视觉抓取实验 · 技术文档">
+<meta property="og:description" content="UR5 + RealSense + AG-95 真机抓放系统的构成、配置与运行流程：坐标系约定、参数体系、安全包线、分级验证与常见故障定位。">
+<meta property="og:url" content="https://cpower-2ng.github.io/content/真机视觉抓取实验-技术文档.html">
+<meta name="twitter:card" content="summary">
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === '1') return;
+  params.delete('embed');
+  var extra = params.toString();
+  var target = '/?phase=logic&entry=01M42QRW8TZKJ5V9J6EJWPDAV2' + (extra ? '&' + extra : '') + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+</head>
+<body>
+<!--bifrost:fragment:start-->
+<article class="article-surface"><h1>真机视觉抓取实验 · 技术文档</h1>
+<p>本文档说明该实验系统的构成、配置方法、运行流程与各环节的判定依据，供参照执行。</p>
+<ul><li>问题的排查过程与方法论总结见《经验总结》。</li><li>各阶段的工作内容与时间见《实验记录》。</li><li>结论的原始证据与推导过程见 <code>RESTRUCTURE_PLAN.md</code>（按轮编号）。</li></ul>
+<hr>
+<h2>1. 实验目标与范围</h2>
+<p>让一台安装在工作台桌面上的 UR5，通过俯视相机识别桌面上的方块，自主完成定位、规划与抓放。</p>
+<p>数据链路为：检测 → 三维定位 → 逆运动学求解 → 轨迹执行 → 夹爪动作 → 搬运 → 放置 → 收工。</p>
+<p>范围界定：</p>
+<ul><li>覆盖单个或少量方块的点到点抓放。</li><li>不涉及 6D 位姿估计、堆叠场景、动态目标与非立方体目标。</li></ul>
+<p>2026-10-03 完成首次完整实跑：抓取 1 个、放置 1 个，收工流程正常结束。</p>
+<hr>
+<h2>2. 硬件与软件</h2>
+<h3>2.1 硬件</h3>
+<table><thead><tr><th>角色</th><th>型号</th><th>说明</th></tr></thead><tbody><tr><td>上位机</td><td>Jetson Orin NX 8 GB</td><td>主机名为 <code>yahboom</code>。设备身份以模组序列号 <code>1421626025739</code> 为准，主机名、host key、machine-id 均可被克隆</td></tr><tr><td>机械臂</td><td>UR5</td><td>控制箱为 CB3，非 e-Series。CB3 无 Remote Control 模式开关</td></tr><tr><td>夹爪</td><td>大寰 AG-95</td><td>Modbus RTU，经 USB-RS485 直连上位机，与机械臂控制链路相互独立</td></tr><tr><td>相机</td><td>RealSense D435i ×2</td><td>设备身份以外壳标签上的 SDK 号为准；使用 ASIC 号会导致选型静默出错</td></tr><tr><td>转换器</td><td>FT232 USB-RS485</td><td>上位机 40-pin UART 为 3.3 V TTL，无法直接驱动 RS-485 差分信号</td></tr></tbody></table>
+<h3>2.2 软件</h3>
+<table><thead><tr><th>组件</th><th>说明</th></tr></thead><tbody><tr><td>ROS 2 Humble</td><td>Ubuntu 22.04；<code>moveit</code> 需单独安装（共 15 个子包）</td></tr><tr><td><code>ur_robot_driver</code> / <code>ur_moveit_config</code></td><td>驱动与 MoveIt 配置</td></tr><tr><td>Gazebo Harmonic（<code>gz sim</code>）</td><td>仅安装在开发机，上位机未安装</td></tr><tr><td>ultralytics / torch</td><td>上位机使用系统 Python 3.10；开发机使用 venv，加载方式见 §7</td></tr><tr><td>pymodbus</td><td>3.15，API 与 2.x 不兼容</td></tr></tbody></table>
+<hr>
+<h2>3. 系统结构与数据流</h2>
+<pre><code>D435i(俯视) ──/camera/color/image_raw
+             ──/camera/color/camera_info
+             ──/camera/aligned_depth_to_color/image_raw
+                            │
+                            ▼
+                 yolo_detector/detector_node
+                            │ /detections（像素坐标）
+                            ▼
+             perception_3d/projector_node      ← 系统中唯一的投影点
+                像素 + 深度 经 tf2 变换到 base_link
+                            │ /targets_3d
+                            ▼
+                 grasp_planner/planner_node
+                区域筛选(in_zone) → IK(/compute_ik) → 整段护栏
+                            │ FollowJointTrajectory
+                            ▼
+      /scaled_joint_trajectory_controller（受示教器速度滑条缩放）
+                            ▼
+                 ur_robot_driver（RTDE）
+                            ▼
+                           UR5
+
+夹爪：planner_node ──pymodbus（串口）──▶ AG-95    独立链路</code></pre>
+<p>三点说明：</p>
+<ol><li>投影运算只在 <code>projector_node</code> 一处实现。离线标注必须使用同一条链路的严格逆运算，否则训练标签与在线推理采用不同数学基础。</li></ol>
+<ol><li>规划器不参与投影，仅消费 <code>base_link</code> 坐标系下的 <code>/targets_3d</code>。</li></ol>
+<ol><li>规划器不经由 <code>/move_action</code> 下发轨迹，而是直接调用 <code>/compute_ik</code> 求解位姿后将轨迹发送给关节轨迹控制器。因此 MoveIt 规划场景中是否包含桌面不影响轨迹路径，同时 <code>avoid_collisions=True</code> 也无法阻止机械臂与桌面碰撞；该职责由肘高护栏承担（§6.3）。</li></ol>
+<hr>
+<h2>4. 坐标系与约定</h2>
+<p>本节列出该系统中易被误用的四组约定。四者在实际调试中均曾被误处理。</p>
+<h3>4.1 <code>base_link</code> 与 <code>base</code> 相差 180°（绕 z 轴）</h3>
+<p>UR 的 URDF 中，机器人自身的 <code>base</code> 帧与 <code>base_link</code> 不是同一坐标系：</p>
+<pre><code>$ ros2 run tf2_ros tf2_echo base_link base
+  Translation: [0, 0, 0]
+  Rotation in RPY (degree) [0, 0, 180.000]</code></pre>
+<p>两者在不同环节被分别使用：</p>
+<table><thead><tr><th>使用位置</th><th>对应坐标系</th></tr></thead><tbody><tr><td>示教器读数、<code>tcp_pose_broadcaster</code></td><td><code>base</code></td></tr><tr><td>MoveIt 的 <code>/compute_ik</code>、<code>/compute_fk</code></td><td><code>base_link</code></td></tr></tbody></table>
+<p>将示教器读取的坐标直接作为 <code>base_link</code> 使用时，机械臂会运动到关于基座中心对称的位置（x、y 同时取反）。实测验证：同一目标点，MoveIt 给出的 <code>tool0</code> 位置为 <code>(-0.42, -0.50, +0.19)</code>，机器人自报 TCP 为 <code>(+0.42, +0.50, -0.01)</code>。</p>
+<p>手眼标定采用碰点法，碰点位置从示教器读取，因此标定结果位于 <code>base</code> 坐标系。若要作为 <code>base_link ← camera_link</code> 使用，需左乘 <code>Rz(π)</code>：</p>
+<pre><code>R&#39; = Rz(π) · R          t&#39; = Rz(π) · t          Rz(π) = diag(-1, -1, 1)</code></pre>
+<p>判定方法：修正后同一物体的 <code>base_link</code> 坐标应为原值的 x、y 取反。此外，光轴与台面法线夹角不应变化（纯 z 轴旋转），实测两侧均为 35.73°。</p>
+<h3>4.2 <code>camera_link</code> 与相机光学坐标系</h3>
+<ul><li><code>camera_link</code>：x 向前、y 向左、z 向上。</li><li><code>camera_color_optical_frame</code>：z 向前、x 向右、y 向下，针孔投影模型使用该坐标系。</li></ul>
+<p>两者之间的固定旋转为：<code>opt_x = −link_y</code>、<code>opt_y = −link_z</code>、<code>opt_z = link_x</code>。</p>
+<p>光轴对应 <code>camera_link</code> 的 +x 轴（而非 +z 轴）。取错轴会得到形式合理但整体偏转的结果。</p>
+<h3>4.3 <code>tool0</code> 与示教器 TCP</h3>
+<ul><li>URDF 与 MoveIt 中的 <code>tool0</code> 指法兰坐标系。</li><li>示教器上配置的 TCP 为法兰沿工具 z 轴的偏移。本项目配置为 <code>0/0/200.2</code> mm，使碰台面时基座 z 读数归零。</li></ul>
+<p>两者相差一个沿工具 z 轴的标量偏移，不影响 x、y 分量，因此在排查 x、y 方向异常时可排除该项。</p>
+<h3>4.4 高度语义：<code>wz</code> 为方块顶面</h3>
+<p><code>perception_3d</code> 输出的 <code>wz</code> 为方块可见顶面的高度（俯视深度图获取的是顶面），不是几何中心。</p>
+<p>因此 <code>pick_zone</code> 的 z 区间与 <code>place_z</code> 均按“台面高度 + 方块高度”计算：</p>
+<pre><code>top = table_z + block_height
+pick_zone 的 z 区间 ≈ [top − pad, top + pad]      pad 默认 0.02
+place_z            = top</code></pre>
+<p>按几何中心计算会产生半个方块高度的偏差，其表现为下降段 IK 全部被拒，即可以抓取但无法放置。</p>
+<hr>
+<h2>5. 参数体系</h2>
+<p>参数共三层，需明确覆盖关系。</p>
+<table><thead><tr><th>层</th><th>来源</th><th>说明</th></tr></thead><tbody><tr><td>① 包内默认</td><td><code>grasp_planner/config/grasp_planner.yaml</code></td><td>全部参数的定义处，共 56 项</td></tr><tr><td>② 现场配置</td><td><code>planner_params_file:=<文件路径></code></td><td>该文件替换而非叠加包内配置</td></tr><tr><td>③ launch 覆盖</td><td><code>pipeline.launch.py</code> 按 <code>camera_source</code> 派生</td><td>见下</td></tr></tbody></table>
+<p>关于第 ② 层：launch 中的写法为 <code>parameters=[<指定文件>, {覆盖项}]</code>，包内配置文件不再加载。因此现场配置文件必须完整，缺失项会回退到节点内 <code>declare_parameter</code> 的默认值，而这些默认值按仿真几何设定。</p>
+<p>关于第 ③ 层：以下参数由 launch 覆盖，写入第 ② 层无效，因为它们随后端变化：</p>
+<pre><code>ik_group · trajectory_action · tool0_to_fingertip · place_release_lift
+gripper_backend · table_scene_enabled · carry_objects</code></pre>
+<p>这些参数必须保证驱动与 move_group 取到同一个值，否则两侧采用不同的运动学模型且均不报错。</p>
+<p>现场配置文件中需要修改的项：</p>
+<pre><code class="language-yaml">table_plane_z: 0.0                       # 机械臂安装于桌面，台面位于 base 的 z≈0
+pick_zone:  [0.40, 0.60, 0.00, 0.50, 0.000, 0.0485]
+place_slots: [0.45,-0.25, 0.55,-0.25, 0.45,-0.35, 0.55,-0.35]
+place_z: 0.0285                          # 台面高度 + 方块高度（顶面）
+ag95_dry_run: false                      # 默认值为 true，此时夹爪仅输出日志不动作</code></pre>
+<p><code>place_slots</code> 有三项启动期检查：</p>
+<ol><li>槽位必须位于 <code>pick_zone</code> 之外，违反时启动失败。该约束即终止机制的实现基础。</li><li>槽位间距不小于夹爪行程（AG-95 为 95 mm），违反时输出告警。</li><li>格式为扁平的 <code>x,y,x,y,...</code>。ROS 2 参数不支持嵌套数组，写成 <code>[[x,y],…]</code> 会导致节点无法启动。</li></ol>
+<hr>
+<h2>6. 运行流程</h2>
+<h3>阶段 0 · 上位机准备</h3>
+<ul><li>安装 <code>ros-humble-moveit</code>（15 个子包）。</li><li>将运行账户加入 <code>dialout</code> 组（否则无法打开 <code>/dev/ttyUSB0</code>）。</li><li>安装 <code>pymodbus</code> 3.x。</li><li>释放内存：停止 ollama 与桌面环境。8 GB 内存同时运行 MoveIt、驱动与 YOLO 时余量有限。</li></ul>
+<h3>阶段 1 · 示教器配置</h3>
+<table><thead><tr><th>序号</th><th>操作</th><th>原因</th></tr></thead><tbody><tr><td>1</td><td>标定或填写 TCP</td><td>碰点法读取的是工具尖端，示教器显示的是法兰位置；未标定 TCP 会将尖端偏移带入外参</td></tr><tr><td>2</td><td>配置负载与重心</td><td>未配置可能导致运动过程中触发保护性停机。该要求来自 URControl，与 <code>safety_limits</code> 无关</td></tr><tr><td>3</td><td><code>Installation → External Control</code>：Host IP 设为上位机在控制箱网段的地址，端口保持 <code>50002</code></td><td>URCap 依据该地址回连上位机获取脚本</td></tr></tbody></table>
+<p>端口说明：<code>50002</code> 用于机器人向上位机请求脚本，<code>50004</code> 为 reverse interface，两者不可互换。</p>
+<h3>阶段 2 · 启动驱动并播放 URCap 程序</h3>
+<pre><code class="language-bash">ros2 launch yolo_bringup real.launch.py robot_ip:=&lt;控制箱IP&gt; ur_type:=ur5 \
+    start_pipeline:=false publish_camera_tf:=false gripper_backend:=none \
+    carry_objects:=false safety_limits:=true</code></pre>
+<p>必须先启动驱动，再在示教器上播放 External Control 程序。顺序相反时，机器人连接 <code>50002</code> 端口会被拒绝；该现象表现为连接被拒绝而非超时，说明网络可达但无监听进程。</p>
+<p>播放成功后驱动日志应出现：</p>
+<pre><code>[UR_Client_Library:]: Robot requested program
+[UR_Client_Library:]: Sent program to robot
+[UR_Client_Library:]: Robot connected to reverse interface. Ready to receive control commands.
+[URPositionHardwareInterface]: Calibration checked successfully.</code></pre>
+<p>核对项（均为只读操作）：</p>
+<p><code>/joint_states</code> 有实际数据 · <code>scaled_joint_trajectory_controller</code> 为 active · <code>/compute_ik</code> 与 <code>/compute_fk</code> 可用 · <code>robotmode: RUNNING</code> · <code>safetystatus: NORMAL</code> · <code>programState: PLAYING</code></p>
+<h3>阶段 3 · 手眼标定与漂移检查</h3>
+<p>标定采用碰点法：拍摄标定板得到 <code>cam←board</code>，用机械臂触碰标定板若干角点得到 <code>base←board</code>，合成为 <code>base←camera</code>。输出文件包含 <code>rms_touch_m</code> 与 <code>reproj_px</code> 两个残差指标。</p>
+<p>俯视相机的外参会随时间变化且变化过程无告警输出，实测一天内旋转约 0.945°。原有的基于垂距与夹角的判据无法识别该类变化。检查命令：</p>
+<pre><code class="language-bash">python3 scripts/topcam_drift_check.py --old &lt;外参对应的原始帧&gt; --new &lt;当前帧&gt; \
+    --info &lt;当前帧的 info.json&gt;
+# 退出码 0 表示外参有效；1 表示需要重新标定</code></pre>
+<p>该工具基于全幅光流判断：整幅图像同步位移对应相机移动，局部区域位移对应被摄物体移动。使用前提是场景中存在可追踪特征，空白台面无法完成判断。</p>
+<h3>阶段 4 · 安全包线扫描与区域划分</h3>
+<p>必要性说明：<code>avoid_collisions=True</code> 无法防止机械臂与桌面碰撞，因为桌面不在 MoveIt 规划场景中；该风险由肘高护栏承担。安全包线的作用是将“试运行观察”转为“按图划分区域”。</p>
+<pre><code class="language-bash">python3 scripts/table_safety_envelope.py --table-z 0.0 --retry-seed home \
+    --x-min 0.15 --x-max 0.95 --y-min -0.50 --y-max 0.50 --step 0.05 --json /tmp/env.json</code></pre>
+<p>扫描范围为桌面网格与四个 tool0 高度的组合，使用 <code>/compute_ik</code> 与 <code>/compute_fk</code> 判断 <code>forearm_link</code> 与 <code>wrist_1_link</code> 的原点是否低于 <code>table_z + guard_margin</code>。</p>
+<p>输出分类：碰撞格（应避开）· 不可达格（划入区域无效）· 最大全安全矩形（可直接采用）。</p>
+<p>三项注意事项：</p>
+<ol><li>逐格分类结果不可复现：同一位姿连续查询可能返回不同的肘部分支。区域边界应至少保留一格（0.05 m）余量，而其中的矩形区域在多次扫描中保持一致。</li></ol>
+<ol><li>判据仅考虑连杆原点高度，不包含连杆与夹爪本体半径，也不包含相机视野范围。</li></ol>
+<ol><li>最终区域应为“几何安全范围 ∩ 相机可见范围 ∩ 实际操作范围”的交集。</li></ol>
+<h3>阶段 5 · 现场配置文件</h3>
+<p>配置内容见 §5。修改后需验证其确实生效：</p>
+<pre><code class="language-bash">ros2 param get /grasp_planner pick_zone</code></pre>
+<p>返回值应与配置文件一致。</p>
+<h3>阶段 6 · AG-95 初始化</h3>
+<p>AG-95 断电后丢失初始化状态。未初始化时的失效无任何日志输出：位置回读恒为 0，写闭合指令后回读值仍为 0，程序判定与目标一致而报成功，但夹爪实际未动作。</p>
+<pre><code class="language-bash">python3 scripts/ag95_init_close.py              # 预演模式，不写入任何寄存器
+python3 scripts/ag95_init_close.py --go         # 执行初始化</code></pre>
+<h3>阶段 7 · 分级验证</h3>
+<p>验证按四个级别依次进行，每级通过后再进入下一级。</p>
+<table><thead><tr><th>级别</th><th>内容</th><th>判定依据</th></tr></thead><tbody><tr><td>① 只读</td><td>驱动启动、<code>/joint_states</code> 有数据、<code>/compute_ik</code> 可用、<code>/targets_3d</code> 数值合理</td><td>见阶段 2</td></tr><tr><td>② 感知单独运行</td><td>以 <code>skip_planner:=true</code> 启动感知，读取 <code>/targets_3d</code></td><td>方块坐标必须落在 <code>pick_zone</code> 区间内。三个轴均需检查，不满足时检测结果会被静默丢弃</td></tr><tr><td>③ 小幅度运动</td><td>夹爪一次开合，单关节转动 ±5°，完成后回到原位</td><td>轨迹返回 <code>status==SUCCEEDED</code> 且 <code>error_code==0</code></td></tr><tr><td>④ 完整抓取</td><td>启用规划器</td><td>见 §8</td></tr></tbody></table>
+<hr>
+<h2>7. 仿真环境</h2>
+<p>仿真仅运行在开发机（WSL）上，上位机未安装 Gazebo。启动方式：</p>
+<pre><code class="language-bash">source /opt/ros/humble/setup.bash
+source &lt;gz_ros2_control 所在工作空间&gt;/install/setup.bash    # 需以 GZ_VERSION=harmonic 编译
+source ros2_ws/install/setup.bash
+export PYTHONPATH=&lt;venv&gt;/lib/python3.10/site-packages:$PYTHONPATH   # 提供 torch/ultralytics
+ros2 launch arm_grasp_sim full.launch.py headless:=true</code></pre>
+<p><code>rclpy</code> 位于 ROS 环境，<code>torch</code> 位于 venv，两者互不可见，需在运行时叠加。构建时不叠加 venv，否则 <code>colcon build</code> 会因 setuptools 版本差异失败。</p>
+<p>仿真场景采用仿真几何（台面位于 <code>base_link</code> z≈−0.39，方块位于 +x 侧），与真机不同。其用途为验证状态机与运动控制逻辑，位置相关的验证必须在真机上进行。</p>
+<hr>
+<h2>8. 完整抓取流程与日志</h2>
+<p>正常运行时的日志顺序：</p>
+<pre><code>AG-95 真实写入已启用（ag95_dry_run:=false）
+抓取区 x[...] y[...] z[...] | 放置槽位 N 个 @ place_z=...
+初始化：先张开夹爪，再回 HOME ...
+候选 K 个 [&#39;block&#39;, ...] | 已放置 0/N | 已抓 0 个 | 连续未放置 0/10
+→ 选中 [block] score=... base_link=(x, y, z)
+  接近解：[&#39;...&#39;, ...]
+接近完成 —— 下降到抓取高度
+下降完成 —— 闭合夹爪
+AG-95 等手指到位超时（目标 0.0 mm，最后回读 X mm）
+已夹住物体（回读位置=X）—— 抬起
+抬起成功，已记录 base_link=(x,y,z)（累计 1 个）
+返回 HOME ... → 已到 HOME —— 去放置位[i] (x, y)
+放置位接近完成 —— 下降到 place_z=...
+已到放置高度 —— 张开夹爪放下
+已放置 1/N 个 → 返回 HOME ...
+收工：空闲 20s 没有发起过任何一次抓取尝试</code></pre>
+<h3>8.1 夹爪回读值的含义</h3>
+<table><thead><tr><th>回读值</th><th>含义</th></tr></thead><tbody><tr><td>接近全开（如 95 mm）</td><td>夹爪未动作，指令未写入或未初始化</td></tr><tr><td>0 mm</td><td>到达闭合位，钳口之间无异物</td></tr><tr><td>中间值（如 35 mm）</td><td>已夹持物体，无法到达闭合位</td></tr></tbody></table>
+<p>因此上述“等手指到位超时”的告警在出现中间值时表示抓取成功。</p>
+<h3>8.2 收工路径</h3>
+<table><thead><tr><th>触发条件</th><th>日志</th></tr></thead><tbody><tr><td>抓取区无候选</td><td><code>空闲 Ns 没有发起过任何一次抓取尝试</code></td></tr><tr><td>槽位用尽</td><td><code>收工：放置槽位已用尽（N 个）—— 没有地方可放了</code></td></tr><tr><td>连续无进展</td><td><code>连续未放置 M/10</code>（由 <code>max_attempts_without_place</code> 控制）</td></tr></tbody></table>
+<hr>
+<h2>9. AG-95 寄存器</h2>
+<table><thead><tr><th>寄存器</th><th>读写</th><th>含义</th></tr></thead><tbody><tr><td><code>0x0100</code></td><td>只写</td><td>初始化命令（<code>0x01</code> 单向，<code>0xA5</code> 全行程）。读回值恒为 0，不可用于判断状态</td></tr><tr><td><code>0x0101</code></td><td>写</td><td>夹持力（45~160 N）</td></tr><tr><td><code>0x0103</code></td><td>写</td><td>目标位置（0–1000 千分位）。读回值为上一次写入的目标</td></tr><tr><td><code>0x0200</code></td><td>只读</td><td>初始化状态：0 未初始化，2 初始化进行中，1 已完成</td></tr><tr><td><code>0x0201</code></td><td>只读</td><td>到位状态</td></tr><tr><td><code>0x0202</code></td><td>只读</td><td>实时位置（0–1000 千分位）：0 全闭，1000 全开</td></tr></tbody></table>
+<p>写入位置指令前须读取 <code>0x0200</code> 并确认其值为 1，值为 0 或 2 时应拒绝执行。<code>gripper.py</code> 已实现该检查，检查位置在 dry-run 分支之后，以保持 dry-run 模式下串口零流量。</p>
+<p>初始化过程为全行程自检，包含张开与闭合两个方向。执行前需确认两指在整个行程范围内无遮挡物。</p>
+<p>读回值非 0 才能证明该地址为有效寄存器：该从站对不存在的地址同样返回 0。</p>
+<hr>
+<h2>10. 工具清单</h2>
+<table><thead><tr><th>工具</th><th>功能</th><th>是否只读</th></tr></thead><tbody><tr><td><code>no_arm_stack.py</code></td><td>启动满足 <code>/compute_ik</code> 需求的只读栈（含 robot_state_publisher）</td><td>是</td></tr><tr><td><code>table_safety_envelope.py</code></td><td>桌面安全包线扫描</td><td>是</td></tr><tr><td><code>ik_repeat_check.py</code></td><td>同一位姿重复查询，判断解的复现性</td><td>是</td></tr><tr><td><code>topcam_drift_check.py</code></td><td>相机外参漂移检查</td><td>是</td></tr><tr><td><code>draw_zone_on_frame.py</code></td><td>将 <code>base_link</code> 区域投影至实拍图像，用于人工核对</td><td>是</td></tr><tr><td><code>ag95_probe.py</code></td><td>夹爪只读探测</td><td>是</td></tr><tr><td><code>ag95_init_close.py</code></td><td>夹爪初始化</td><td>默认预演</td></tr><tr><td><code>real_kinematics_fix.py</code></td><td>修改真机规划组的 KDL 配置</td><td>默认只读</td></tr><tr><td><code>real_first_motion.py</code></td><td>首次运动测试</td><td>默认预演</td></tr><tr><td><code>real_go_home.py</code></td><td>返回 HOME，发送前逐点校验路径</td><td>默认预演</td></tr><tr><td><code>record_topic_video.py</code></td><td>将图像话题录制成 mp4</td><td>是</td></tr><tr><td><code>grab_frames.py</code></td><td>抓取图像帧</td><td>是</td></tr></tbody></table>
+<p>工具约定：涉及运动的工具默认处于预演模式，实际执行需显式指定 <code>--go</code>。</p>
+<hr>
+<h2>11. 常用命令</h2>
+<pre><code class="language-bash"># 网络检查
+ssh &lt;上位机&gt;;  ping &lt;控制箱 IP&gt;
+
+# 启动驱动（不下发轨迹）
+source /opt/ros/humble/setup.bash; source ros2_ws/install/setup.bash
+ros2 launch yolo_bringup real.launch.py robot_ip:=&lt;IP&gt; ur_type:=ur5 \
+    start_pipeline:=false publish_camera_tf:=false gripper_backend:=none \
+    carry_objects:=false safety_limits:=true
+# 随后在示教器上播放 External Control 程序，核对 reverse interface 与标定检查日志
+
+# 相机静态 TF（外参若来源于示教器碰点，须先左乘 Rz(π)，见 §4.1）
+ros2 run tf2_ros static_transform_publisher \
+    --x .. --y .. --z .. --qx .. --qy .. --qz .. --qw .. \
+    --frame-id base_link --child-frame-id camera_link
+
+# 感知单独运行（不涉及机械臂运动）
+ros2 launch yolo_bringup pipeline.launch.py camera_source:=realsense \
+    skip_planner:=true planner_params_file:=$HOME/site_real.yaml gripper_backend:=ag95
+# 确认方块落在 pick_zone 后，去掉 skip_planner 启用规划器
+
+# 完整抓取
+ros2 launch yolo_bringup pipeline.launch.py camera_source:=realsense \
+    planner_params_file:=$HOME/site_real.yaml gripper_backend:=ag95 \
+    carry_objects:=true tf_required:=true</code></pre>
+<hr>
+<h2>12. 常见问题定位</h2>
+<table><thead><tr><th>现象</th><th>检查项</th></tr></thead><tbody><tr><td>示教器播放程序时报连接被拒绝</td><td>驱动是否已启动（<code>ss -lntp | grep 5000</code>）。启动顺序应为先驱动后播放</td></tr><tr><td>机械臂运动到关于基座对称的位置</td><td>相机外参的父坐标系是否为 <code>base</code> 而被当作 <code>base_link</code> 使用（§4.1）</td></tr><tr><td>夹爪无动作且回读值恒为全开</td><td><code>ag95_dry_run</code> 是否为 true；<code>0x0200</code> 是否为 1</td></tr><tr><td>夹爪报告成功但未动作</td><td>未初始化状态下位置回读恒为 0 导致的误判（§9）</td></tr><tr><td>规划器无任何动作且日志无输出</td><td>方块未落入 <code>pick_zone</code>，该筛选失败时无日志</td></tr><tr><td>可抓取但无法放置，下降段 IK 被拒</td><td><code>place_z</code> 是否按几何中心而非顶面计算（§4.4）</td></tr><tr><td>包线扫描结果为“一个位姿都没解出来”</td><td>缺少 <code>robot_state_publisher</code>。应使用 <code>no_arm_stack.py</code>，而非单独以 <code>start_ur_driver:=false</code> 启动</td></tr><tr><td><code>ros2 topic list</code> 或 <code>action list</code> 返回空或超时</td><td>ROS CLI 守护进程响应问题。可使用 <code>--no-daemon</code> 或延长等待时间，与链路状态无关</td></tr><tr><td>修改配置文件后无效果</td><td>确认启动的 launch 实际加载的是哪一份配置文件（§5）</td></tr></tbody></table></article>
+<!--bifrost:fragment:end-->
+</body>
+</html>

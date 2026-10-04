@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-02T14:06:58.732Z",
+  "generated": "2026-10-04T06:04:37.068Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -130,6 +130,17 @@
   },
   "series": [
     {
+      "id": "series:真机视觉抓取实验",
+      "slug": "真机视觉抓取实验",
+      "path": "/series/真机视觉抓取实验.html",
+      "title": "真机视觉抓取实验",
+      "description": "UR5 视觉抓取实验的两份文档：系统构成与运行流程的技术文档，以及从代码审计到首次抓取的实验记录。",
+      "memberIds": [
+        "01M42QRW8TZKJ5V9J6EJWPDAV2",
+        "01M42QS7SC1D7PJAMG7MAE3CXE"
+      ]
+    },
+    {
       "id": "series:纸上魔法使",
       "slug": "纸上魔法使",
       "path": "/series/纸上魔法使.html",
@@ -173,6 +184,18 @@
     {
       "label": "QQ空间",
       "count": 3
+    },
+    {
+      "label": "视觉抓取",
+      "count": 2
+    },
+    {
+      "label": "ROS 2",
+      "count": 2
+    },
+    {
+      "label": "UR5",
+      "count": 2
     },
     {
       "label": "冬滚滚",
@@ -268,6 +291,62 @@
     }
   ],
   "entries": [
+    {
+      "id": "01M42QS7SC1D7PJAMG7MAE3CXE",
+      "entryId": "01M42QS7SC1D7PJAMG7MAE3CXE",
+      "path": "/content/实验记录-从审计到第一次抓取.html",
+      "slug": "实验记录-从审计到第一次抓取",
+      "title": "实验记录 · 从审计到第一次抓取",
+      "summary": "从只读审计到首次真机抓取的时间线：仓库整理、仿真验证、设备搬迁与识别、标定与数据集，2026-10-03 完成首次完整抓取。",
+      "publishedAt": "2026-10-04T00:00:00+08:00",
+      "date": "2026-10-04",
+      "phase": "logic",
+      "section": "docs",
+      "kind": "standard",
+      "tags": [
+        "ROS 2",
+        "UR5",
+        "视觉抓取"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">ROS 2</span><span class=\"tag-chip\">UR5</span><span class=\"tag-chip\">视觉抓取</span>",
+      "coverUrl": "",
+      "wordCount": 3658,
+      "minutes": 9,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "series:真机视觉抓取实验",
+      "seriesOrder": 2,
+      "hasPublication": false,
+      "searchText": "实验记录 · 从审计到第一次抓取 本文按时间记录该项目从代码审计到完成首次真机抓取的工作内容与阶段性结论。 系统构成、配置与运行流程见《技术文档》。 问题类型与处置方法见《经验总结》。 各结论的完整证据见 RESTRUCTURE_PLAN.md （按轮编号）。 时间取自提交记录与终端日志。项目自 2026-09-26 进入实施阶段，2026-10-03 完成首次完整抓取。 时间总览 日期 提交数 主要内容 2026-05-19 ~ 07-26 8 仓库既有内容：教材配套仿真演示 2026-09-26 8 只读审计，确定迁移方案 2026-09-27 40 仓库整理；仿真端到端抓取跑通 2026-09-28 48 真机缺失项清单；无臂环境验证 MoveIt 链路 2026-09-29 39 跨机 DDS 与可视化；无线链路替代测试 2026-09-30 52 设备搬迁与识别；控制箱确认；相机识别 2026-10-01 29 上位机就位；标定前置条件复核 2026-10-02 49 数据集与模型；手眼外参标定完成；几何参数定案 2026-10-03 48 真机链路打通；首次运动；首次完整抓取 一、2026-05-19 ~ 07-26：仓库既有内容 2026-05-19 17:14 初始提交。仓库为教材配套的 ROS 2 YOLO 演示程序。 06-02 参考项目验证通过； 06-14 完成初步仿真视觉检测； 07-16 与 07-26 有少量收尾提交。 该项目的抓取部分运行于仿真环境。放置动作为硬编码的关节角序列（左转 90° 后张开夹爪），场景中没有接料容器，实测落点位于桌面范围之外。其性质为抓取动作演示。 该仓库此前未接入真机。 二、2026-09-26：只读审计 查明仓库中并存三套内容：教材演示程序、一个搬运脚本、以及附件中一套较完整的抓取实现。 核实“历史抓取代码”的实"
+    },
+    {
+      "id": "01M42QRW8TZKJ5V9J6EJWPDAV2",
+      "entryId": "01M42QRW8TZKJ5V9J6EJWPDAV2",
+      "path": "/content/真机视觉抓取实验-技术文档.html",
+      "slug": "真机视觉抓取实验-技术文档",
+      "title": "真机视觉抓取实验 · 技术文档",
+      "summary": "UR5 + RealSense + AG-95 真机抓放系统的构成、配置与运行流程：坐标系约定、参数体系、安全包线、分级验证与常见故障定位。",
+      "publishedAt": "2026-10-04T00:00:00+08:00",
+      "date": "2026-10-04",
+      "phase": "logic",
+      "section": "docs",
+      "kind": "standard",
+      "tags": [
+        "ROS 2",
+        "UR5",
+        "视觉抓取"
+      ],
+      "tagsHtml": "<span class=\"tag-chip\">ROS 2</span><span class=\"tag-chip\">UR5</span><span class=\"tag-chip\">视觉抓取</span>",
+      "coverUrl": "",
+      "wordCount": 3694,
+      "minutes": 9,
+      "layout": "longform",
+      "type": "article",
+      "seriesId": "series:真机视觉抓取实验",
+      "seriesOrder": 1,
+      "hasPublication": false,
+      "searchText": "真机视觉抓取实验 · 技术文档 本文档说明该实验系统的构成、配置方法、运行流程与各环节的判定依据，供参照执行。 问题的排查过程与方法论总结见《经验总结》。 各阶段的工作内容与时间见《实验记录》。 结论的原始证据与推导过程见 RESTRUCTURE_PLAN.md （按轮编号）。 1. 实验目标与范围 让一台安装在工作台桌面上的 UR5，通过俯视相机识别桌面上的方块，自主完成定位、规划与抓放。 数据链路为：检测 → 三维定位 → 逆运动学求解 → 轨迹执行 → 夹爪动作 → 搬运 → 放置 → 收工。 范围界定： 覆盖单个或少量方块的点到点抓放。 不涉及 6D 位姿估计、堆叠场景、动态目标与非立方体目标。 2026-10-03 完成首次完整实跑：抓取 1 个、放置 1 个，收工流程正常结束。 2. 硬件与软件 2.1 硬件 角色 型号 说明 上位机 Jetson Orin NX 8 GB 主机名为 yahboom 。设备身份以模组序列号 1421626025739 为准，主机名、host key、machine-id 均可被克隆 机械臂 UR5 控制箱为 CB3，非 e-Series。CB3 无 Remote Control 模式开关 夹爪 大寰 AG-95 Modbus RTU，经 USB-RS485 直连上位机，与机械臂控制链路相互独立 相机 RealSense D435i ×2 设备身份以外壳标签上的 SDK 号为准；使用 ASIC 号会导致选型静默出错 转换器 FT232 USB-RS485 上位机 40-pin UART 为 3.3 V TTL，无法直接驱动 RS-485 差分信号 2.2 软件 组件 说明 ROS 2 Humble Ubuntu 22.04； moveit 需单独安装（共 15 个子包） ur_robot_driver / ur_moveit_co"
+    },
     {
       "id": "01M3Y8JS85FVWPC1Z6AB38PDWS",
       "entryId": "01M3Y8JS85FVWPC1Z6AB38PDWS",
