@@ -38,7 +38,8 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [],
-    "missingChecks": 0
+    "missingChecks": 0,
+    "lastCheckedAt": "2026-10-05T08:14:36.621Z"
   },
   "syndication": {
     "author": "",
