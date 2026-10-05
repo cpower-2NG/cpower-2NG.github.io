@@ -163,7 +163,8 @@ async function main() {
     step('日常时间流与内联评论');
     await page.goto(`${baseUrl}/?phase=fantasy&section=daily`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.moment-card');
-    assert.equal(await page.locator('.moment-card').count(), 3, '日常应有 3 条动态');
+    // 动态数量随 QQ 同步持续增长，断言“不少于 3 条”而非硬编码。
+    assert.ok(await page.locator('.moment-card').count() >= 3, '日常动态数量不应少于 3 条');
     assert.equal(await page.locator('.moment-card .moment-card').count(), 0, '日常条目不应再套卡片');
     assert.equal(await page.locator('.moment-feed').evaluate((node) => getComputedStyle(node).maxWidth !== 'none'), true, '日常流应有版心宽度');
     // 计数默认显示，不需要先点开
