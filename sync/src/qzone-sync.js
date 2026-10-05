@@ -13,7 +13,13 @@ import { storeImage } from './media.js';
 import { contentHash, evaluatePost, hashSalt, loadRules, safeRecordId } from './rules.js';
 import { readState, setQzoneStatus, setStatus, writeState } from './state.js';
 import { videoSourceFromText } from './video.js';
-import { buildShareRecords, createShareCapture, extractBilibiliShares } from './qzone-shares.js';
+import {
+  buildShareRecords,
+  createShareCapture,
+  extractBilibiliShares,
+  extractWupShares,
+  fetchWupShareEntries,
+} from './qzone-shares.js';
 import { momentDocsFromRecords, upsertMomentDocs } from './moment-store.js';
 
 function sleep(milliseconds) {
@@ -338,12 +344,20 @@ export async function syncQzone() {
       await sleep(900);
     } while (cursor);
 
-    // 分享/转发动态（如 B 站视频分享）：SDK 会丢弃这些条目，这里从捕获的
-    // 聚合流原始响应里解析出来，并走同一套审查/发布管线。
-    if (rules.include?.videoReposts !== false && shareCapture.payloadCount) {
+    // 分享/转发动态（如 B 站视频分享）：SDK 会丢弃这些条目。两个来源：
+    //   1) feeds_html_module 的视频卡片转发（appid 202，主路径，实测可达）；
+    //   2) 聚合流 JSON 捕获的 B 站链接条目（辅助）。
+    // 全部走同一套审查/发布管线。
+    if (rules.include?.videoReposts !== false) {
       try {
-        const shares = shareCapture.payloads
-          .flatMap((payload) => extractBilibiliShares(payload.text))
+        const capturedEntries = shareCapture.payloads
+          .flatMap((payload) => extractBilibiliShares(payload.text));
+        const wupEntries = await fetchWupShareEntries(session, { uin: session.accountId });
+        const merged = new Map();
+        for (const entry of [...wupEntries, ...capturedEntries]) {
+          if (!merged.has(entry.shareId)) merged.set(entry.shareId, entry);
+        }
+        const shares = [...merged.values()]
           .filter((share) => !share.createdAt || new Date(share.createdAt).getTime() >= cutoff);
         const shareRecords = await buildShareRecords(shares, {
           cookies,

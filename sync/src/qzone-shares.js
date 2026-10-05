@@ -330,3 +330,102 @@ export async function captureSelfFeedPayloads(session, { pages = 3 } = {}) {
   }
   return capture.payloads;
 }
+
+// ---- 视频卡片转发（feeds_html_module，appid 202）----
+//
+// QQ 空间"转发 B 站视频"生成 appid=202 的视频卡片动态（data-feedstype=100），
+// 不在说说列表（appid 311）、不在 SDK 的任何端点里；唯一来源是个人中心动态流的
+// HTML 模块接口 feeds_html_module。条目结构（实测样本）：
+//   <li class="f-single …">
+//     <div class="f-info">转发理由</div>
+//     <i data-fkey="…" data-abstime="秒级时间戳" data-uin="…"></i>
+//     <a href="https://www.bilibili.com/video/BV…">（封面，链接指向视频）
+//     <h4 class="txt-box-title"><a href="…BV…">视频标题</a></h4>
+//     <a class="f-name info …" href="…BV…">原分享配文</a>
+
+export function gtkFromCookies(cookies) {
+  let hash = 5381;
+  const secret = cookies?.p_skey || cookies?.skey || '';
+  for (let index = 0; index < String(secret).length; index += 1) {
+    hash += (hash << 5) + String(secret).charCodeAt(index);
+    hash &= 0x7fffffff;
+  }
+  return hash;
+}
+
+function decodeHtmlEntities(value) {
+  return String(value || '')
+    .replaceAll('&amp;', '&')
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#39;', "'")
+    .replaceAll('&nbsp;', ' ');
+}
+
+/**
+ * 从 feeds_html_module 的 HTML 里提取含 B 站视频卡片的转发条目。
+ * 返回与 extractBilibiliShares 同形状的条目（shareId 用 data-fkey）。
+ */
+export function extractWupShares(html) {
+  const text = String(html || '');
+  if (!text) return [];
+  const found = [];
+  const seen = new Set();
+  // 按条目切块：f-single 的 li 到下一个 li 之前。
+  const blocks = text.split(/<li class="f-single[^"]*"/).slice(1);
+  for (const block of blocks) {
+    const bvid = block.match(/BV[A-Za-z0-9]{8,12}/)?.[0];
+    if (!bvid) continue; // 普通说说/无视频卡片的条目走主同步流程。
+    const fkey = block.match(/data-fkey="([^"]+)"/)?.[1];
+    const abstime = block.match(/data-abstime="(\d+)"/)?.[1];
+    const authorId = block.match(/data-uin="(\d+)"/)?.[1] || '';
+    const reason = decodeHtmlEntities(block.match(/<div class="f-info">\s*([\s\S]*?)<\/div>/)?.[1] || '').trim();
+    const originText = decodeHtmlEntities(
+      block.match(/class="[^"]*f-name info[^"]*"[^>]*>([^<]{2,200})<\/a>/)?.[1] || '',
+    ).trim();
+    const rawUrl = block.match(/href="(https:\/\/www\.bilibili\.com\/video\/[^"]+)"/)?.[1];
+    const shareId = fkey || `wup:${bvid}`;
+    if (seen.has(shareId)) continue;
+    seen.add(shareId);
+    // 清掉跟踪参数，保留干净的观众链接。
+    let url = rawUrl ? decodeHtmlEntities(rawUrl.split('?')[0]) : `https://www.bilibili.com/video/${bvid}`;
+    found.push({
+      shareId,
+      text: [reason, originText].filter(Boolean).join('\n\n'),
+      createdAt: abstime ? new Date(Number(abstime) * 1000).toISOString() : null,
+      url,
+      bvid,
+      authorId,
+      raw: null,
+    });
+  }
+  return found;
+}
+
+/** 拉取个人中心动态流 HTML（含视频卡片转发），返回条目数组。 */
+export async function fetchWupShareEntries(session, { uin, fetchImpl = fetch } = {}) {
+  const cookies = session.cookies || {};
+  const account = String(uin || session.accountId || '').replace(/^o/, '');
+  if (!account) return [];
+  const gtk = gtkFromCookies(cookies);
+  const cookieHeader = Object.entries(cookies).map(([name, value]) => `${name}=${value}`).join('; ');
+  const url = `https://user.qzone.qq.com/proxy/domain/ic2.qzone.qq.com/cgi-bin/feeds/feeds_html_module`
+    + `?g_iframeUser=1&i_uin=${account}&i_login_uin=${account}&mode=4&previewV8=1&style=35&version=8`
+    + `&needDelOpr=true&g_tk=${gtk}`;
+  try {
+    const response = await fetchImpl(url, {
+      headers: {
+        cookie: cookieHeader,
+        referer: `https://user.qzone.qq.com/${account}/main`,
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36',
+      },
+      signal: AbortSignal.timeout(30000),
+    });
+    if (!response.ok) return [];
+    const html = await response.text();
+    return extractWupShares(html);
+  } catch {
+    return [];
+  }
+}
