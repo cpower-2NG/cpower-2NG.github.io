@@ -363,15 +363,19 @@ export async function syncQzone() {
           cookies,
           coverTransfer: rules.autoPublish && !dryRun ? 'store' : 'raw',
         });
-        for (const record of shareRecords) {
+        for (const rawRecord of shareRecords) {
           const decision = evaluatePost({
-            content: record.text,
-            media: record.media,
-            video: record.video,
+            content: rawRecord.text,
+            media: rawRecord.media,
+            video: rawRecord.video,
             visibility: 'unknown',
           }, rules, 'complete');
-          record.publishStatus = decision.publishStatus;
-          record.reviewReasons = decision.reasons;
+          // 与说说同一条规则链：评估 → 人工覆盖（放行/排除）→ 分桶。
+          const record = applyOverride({
+            ...rawRecord,
+            publishStatus: decision.publishStatus,
+            reviewReasons: decision.reasons,
+          }, overrides);
           rawArchive.add({ sharedVideo: record.source.id, url: record.source.url, record });
           if (record.publishStatus === 'published') {
             records.push(record);
