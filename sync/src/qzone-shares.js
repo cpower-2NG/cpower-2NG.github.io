@@ -245,6 +245,10 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
           embedUrl,
           cover,
           note: '转发视频，内嵌 B 站播放器。',
+          // 公开站 engine.js 消费的字段约定（moment__video 卡片）。
+          watchUrl: sourceUrl,
+          coverUrl: cover,
+          title,
         },
         cover: cover || '',
         historicalInteractions: {
