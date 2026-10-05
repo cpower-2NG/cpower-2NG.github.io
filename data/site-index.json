@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-04T06:04:37.068Z",
+  "generated": "2026-10-05T06:17:58.904Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -133,8 +133,8 @@
       "id": "series:真机视觉抓取实验",
       "slug": "真机视觉抓取实验",
       "path": "/series/真机视觉抓取实验.html",
-      "title": "真机视觉抓取实验",
-      "description": "UR5 视觉抓取实验的两份文档：系统构成与运行流程的技术文档，以及从代码审计到首次抓取的实验记录。",
+      "title": "UR5机械臂视觉感知抓取实验",
+      "description": "UR5 视觉感知抓取实验的相关文档：系统构成与运行流程的技术文档，以及从代码审计到首次抓取全流程的实验记录。",
       "memberIds": [
         "01M42QRW8TZKJ5V9J6EJWPDAV2",
         "01M42QS7SC1D7PJAMG7MAE3CXE"
@@ -145,7 +145,7 @@
       "slug": "纸上魔法使",
       "path": "/series/纸上魔法使.html",
       "title": "纸上魔法使",
-      "description": "五篇短歌，围绕五位魔法使与各自的宝石展开。",
+      "description": "五篇初玩纸魔时写的短歌。",
       "memberIds": [
         "01M3PFKVPD7HHADG1PFJJ5C6AY",
         "01M3PFKVV595S0G0TEEGN4BBRX",
