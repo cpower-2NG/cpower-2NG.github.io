@@ -167,7 +167,7 @@ export async function fetchBilibiliVideo(bvid, fetchImpl = fetch) {
   if (!bvid) return null;
   try {
     const response = await fetchImpl(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(bvid)}`, {
-      headers: { 'user-agent': 'Mozilla/5.0 BIFROST-QZone-Sync/1.0' },
+      headers: { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36' },
       signal: AbortSignal.timeout(20000),
     });
     const payload = await response.json();
