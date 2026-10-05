@@ -17,6 +17,32 @@ function loggedIn(cookies) {
   return (names.has('p_skey') || names.has('skey')) && (names.has('uin') || names.has('p_uin'));
 }
 
+/**
+ * 扫码后 ptlogin 先种 skey，完整登录闭环（跳转进空间）才种 p_skey。
+ * 说说接口的 g_tk 只认 p_skey 派生值：只拿 skey 就 persist 会话，
+ * 会在服务端表现为"请先登录空间"（QQ 302 清 cookie）。因此必须等 p_skey。
+ */
+function loginClosedLoop(cookies) {
+  const names = new Set(cookies.map((cookie) => cookie.name));
+  return names.has('p_skey') && names.has('uin');
+}
+
+/** 用候选会话实测一次接口可用性，避免把 QQ 不认的半截会话存进 Key Vault。 */
+async function sessionActuallyWorks(cookieMap) {
+  const client = new QzoneClient({
+    session: { cookies: cookieMap },
+    onSessionChange: async () => {},
+  });
+  try {
+    const page = await client.listFeeds({ scope: 'self', limit: 1 });
+    return Array.isArray(page.items);
+  } catch {
+    return false;
+  } finally {
+    await client.close().catch(() => undefined);
+  }
+}
+
 async function qrLocator(page) {
   const candidates = [
     page.locator('img[src*="ptqrshow"], #qlogin_qr, canvas').first(),
@@ -51,6 +77,7 @@ export async function connectQzone() {
   const authId = randomUUID();
   const qrBlobName = `qzone-auth/${authId}.png`;
   const expiresAt = Date.now() + 10 * 60 * 1000;
+  let warnedHalfLogin = false;
 
   try {
     await page.goto('https://i.qq.com/', {
@@ -79,19 +106,32 @@ export async function connectQzone() {
 
     while (Date.now() < expiresAt) {
       const cookies = await context.cookies();
-      if (loggedIn(cookies)) {
-        const session = await persistSession(cookies);
-        await setQzoneStatus('connected', 'QQ 登录会话已更新。', {
-          accountId: session.accountId,
-        });
+      if (loginClosedLoop(cookies)) {
+        const cookieMap = cookieObject(cookies);
+        // 服务端实测通过才保存；QQ 跳转闭环有延迟，未通过则继续轮询。
+        if (await sessionActuallyWorks(cookieMap)) {
+          const session = await persistSession(cookieMap);
+          await setQzoneStatus('connected', 'QQ 登录会话已更新。', {
+            accountId: session.accountId,
+          });
+          await writeState('qzone-auth-request', {
+            type: 'qzone-auth-request',
+            state: 'connected',
+            message: '扫码登录成功。',
+            connectedAt: new Date().toISOString(),
+          });
+          await privateContainer.getBlockBlobClient(qrBlobName).deleteIfExists();
+          return { connected: true };
+        }
+      } else if (loggedIn(cookies) && !warnedHalfLogin) {
+        warnedHalfLogin = true;
         await writeState('qzone-auth-request', {
           type: 'qzone-auth-request',
-          state: 'connected',
-          message: '扫码登录成功。',
-          connectedAt: new Date().toISOString(),
+          state: 'waiting_for_scan',
+          message: '已扫码，正在完成登录跳转…',
+          qrBlobName,
+          expiresAt,
         });
-        await privateContainer.getBlockBlobClient(qrBlobName).deleteIfExists();
-        return { connected: true };
       }
       await page.waitForTimeout(2000);
     }

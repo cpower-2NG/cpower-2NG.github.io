@@ -7,6 +7,8 @@ const ALLOWED_IMAGE_HOSTS = [
   'photo.store.qq.com',
   'photo.qq.com',
   'qzone.qq.com',
+  // B 站封面图床：转发视频动态的封面转存（公开可访问，无需 Cookie）。
+  'hdslb.com',
 ];
 
 function allowedHost(host) {

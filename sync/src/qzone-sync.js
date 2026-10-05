@@ -13,6 +13,7 @@ import { storeImage } from './media.js';
 import { contentHash, evaluatePost, hashSalt, loadRules, safeRecordId } from './rules.js';
 import { readState, setQzoneStatus, setStatus, writeState } from './state.js';
 import { videoSourceFromText } from './video.js';
+import { buildShareRecords, createShareCapture, extractBilibiliShares } from './qzone-shares.js';
 
 function sleep(milliseconds) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -274,8 +275,10 @@ export async function syncQzone() {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
   const salt = await hashSalt();
   const session = await loadSession();
+  const shareCapture = createShareCapture();
   const client = new QzoneClient({
     session,
+    fetch: shareCapture.fetch,
     onSessionChange: persistSession,
     logger: (event) => {
       if (event.level === 'warn' || event.level === 'error') {
@@ -333,6 +336,44 @@ export async function syncQzone() {
       if (!cursor || reachedCutoff || pages >= 50) break;
       await sleep(900);
     } while (cursor);
+
+    // 分享/转发动态（如 B 站视频分享）：SDK 会丢弃这些条目，这里从捕获的
+    // 聚合流原始响应里解析出来，并走同一套审查/发布管线。
+    if (rules.include?.videoReposts !== false && shareCapture.payloadCount) {
+      try {
+        const shares = shareCapture.payloads
+          .flatMap((payload) => extractBilibiliShares(payload.text))
+          .filter((share) => !share.createdAt || new Date(share.createdAt).getTime() >= cutoff);
+        const shareRecords = await buildShareRecords(shares, {
+          cookies,
+          coverTransfer: rules.autoPublish && !dryRun ? 'store' : 'raw',
+        });
+        for (const record of shareRecords) {
+          const decision = evaluatePost({
+            content: record.text,
+            media: record.media,
+            video: record.video,
+            visibility: 'unknown',
+          }, rules, 'complete');
+          record.publishStatus = decision.publishStatus;
+          record.reviewReasons = decision.reasons;
+          rawArchive.add({ sharedVideo: record.source.id, url: record.source.url, record });
+          if (record.publishStatus === 'published') {
+            records.push(record);
+          } else if (record.reviewReasons.length
+            && record.reviewReasons.every((reason) => reason === 'AUTO_PUBLISH_DISABLED')) {
+            pendingReview.push(record);
+          } else {
+            quarantined.push(record);
+          }
+        }
+        if (shareRecords.length) {
+          await setStatus('running', `正在同步 QQ 内容（含 ${shareRecords.length} 条分享视频）。`);
+        }
+      } catch (error) {
+        console.warn(`Share video capture skipped: ${error.message}`);
+      }
+    }
 
     const deletedUpdates = await recheckDeleted(client, rules).catch((error) => {
       console.warn(`Deletion recheck skipped: ${error.message}`);
