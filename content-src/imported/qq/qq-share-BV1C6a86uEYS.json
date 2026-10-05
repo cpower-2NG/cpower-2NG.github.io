@@ -21,7 +21,10 @@
     "sourceUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
     "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1C6a86uEYS&high_quality=1&danmaku=0",
     "cover": "",
-    "note": "转发视频，内嵌 B 站播放器。"
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
+    "coverUrl": "",
+    "title": "电棍邀请你来参与大回选！ UP主：音之墨"
   },
   "cover": "",
   "historicalInteractions": {
@@ -46,7 +49,7 @@
     "author": "",
     "source": "哔哩哔哩"
   },
-  "contentHash": "0a86f44e071af22058cb37569a841c79a52aae6ed205c435902508c7d40996c9",
+  "contentHash": "a83d6207573c5eebf07a903ed2297088aedced5954a2e72b7560d00ae3e4d261",
   "publishStatus": "published",
   "reviewReasons": [
     "UNKNOWN_VISIBILITY"
