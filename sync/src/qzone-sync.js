@@ -14,6 +14,7 @@ import { contentHash, evaluatePost, hashSalt, loadRules, safeRecordId } from './
 import { readState, setQzoneStatus, setStatus, writeState } from './state.js';
 import { videoSourceFromText } from './video.js';
 import { buildShareRecords, createShareCapture, extractBilibiliShares } from './qzone-shares.js';
+import { momentDocsFromRecords, upsertMomentDocs } from './moment-store.js';
 
 function sleep(milliseconds) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -436,6 +437,19 @@ export async function syncQzone() {
       ? await publishQuarantineRecords(quarantined)
       : '';
     const commit = await commitRecords([...records, ...deletedUpdates]);
+
+    // 已发布记录写入权威库（content-moments）：发布物化只认 Cosmos，
+    // 不写库的话同步内容永远不会出现在站点上。
+    let momentUpserts = 0;
+    if (!dryRun && records.length) {
+      try {
+        const docs = momentDocsFromRecords(records);
+        momentUpserts = await upsertMomentDocs(docs);
+      } catch (error) {
+        console.warn(`Moment upsert skipped: ${error.message}`);
+      }
+    }
+
     await writeState('last-sync-report', {
       type: 'last-sync-report',
       ...report,
@@ -450,7 +464,9 @@ export async function syncQzone() {
     });
     await setStatus(
       'idle',
-      commit.changed ? `已提交 ${commit.files} 个内容文件。` : '内容没有变化。',
+      commit.changed
+        ? `已提交 ${commit.files} 个内容文件${momentUpserts ? `，${momentUpserts} 条动态入库` : ''}。`
+        : '内容没有变化。',
     );
     return { ...report, commit };
   } catch (error) {
