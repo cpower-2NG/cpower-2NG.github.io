@@ -208,7 +208,8 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
       const title = video?.title || share.text || '分享的视频';
       const reason = share.text ? `${share.text}\n\n` : '';
       const meta = video ? `视频：${title}${video.owner ? `（UP 主：${video.owner}）` : ''}` : `视频：${sourceUrl}`;
-      const coverUrl = video?.cover || '';
+      // B 站 API 的封面常以 http:// 返回，图床白名单要求 https。
+      const coverUrl = (video?.cover || '').replace(/^http:/, 'https:');
 
       let cover = coverUrl;
       const media = [];
