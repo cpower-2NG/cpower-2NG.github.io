@@ -404,6 +404,20 @@ function renderQueue() {
     }),
   );
 
+  const allUnknownVisibility = records.length > 0
+    && records.every((record) => (record.reviewReasons || []).every(
+      (reason) => reason === 'AUTO_PUBLISH_DISABLED' || reason === 'UNKNOWN_VISIBILITY',
+    ));
+  const visibilityHint = allUnknownVisibility
+    ? h('div', { class: 'collapse' },
+        h('summary', {}, '为什么每条都是「可见性未知」？'),
+        h('div', { class: 'collapse__body' },
+          muted('QQ 空间接口不返回每条说说的可见性字段，所以开启「可见性未知时隔离」后，全部内容都会进审查队列。两种用法：'),
+          muted('① 保持现状逐条放行（最稳）；② 到「同步规则」页关闭「可见性未知时隔离」，干净内容将随真实同步直接发布——注意「仅自己可见」的说说也会一并公开发布，敏感词内容仍会被隔离。'),
+        ),
+      )
+    : null;
+
   const draftItems = [...local.draft.entries()];
   const draftBar = draftItems.length
     ? h('div', { class: 'inline' },
@@ -418,12 +432,13 @@ function renderQueue() {
           onclick: () => { local.draft.clear(); renderQueue(); },
         }),
       )
-    : muted('点击记录上的「放行 / 排除」累积为覆盖草稿，再一键保存。保存后运行一次真实同步（增量或回填）即可生效。');
+    : muted('点击记录上的「放行 / 排除」累积为覆盖草稿，再一键保存。放行在下次真实同步时生效——增量同步只抓最近 7 天，更早的内容请用「回填同步」并保证天数覆盖其日期。');
 
   const cards = actionable.slice(0, 200).map(reviewCard);
   body.replaceChildren(
     filterButtons,
-    muted(`报告生成于 ${fmtDateTime(local.report.generatedAt)}${local.report.dryRun ? '（验收预览）' : ''}。`),
+    visibilityHint,
+    muted(`报告生成于 ${fmtDateTime(local.report.generatedAt)}${local.report.dryRun ? '（验收预览）' : ''}。报告反映的是本次同步时的状态；保存放行后需要再跑一次真实同步，记录才会真正发布。`),
     draftBar,
     cards.length ? h('div', { class: 'stack' }, cards) : muted('没有待处理的记录。'),
   );
@@ -443,7 +458,6 @@ function reviewCard(record) {
   const statusKind = draft?.publishStatus === 'published' || savedKind === 'published' ? 'ok'
     : draft?.publishStatus === 'excluded' ? 'muted'
     : savedKind === 'excluded' ? 'muted' : 'warn';
-
   const cardClass = draft?.publishStatus === 'published' ? 'review-card--draft-approved'
     : draft?.publishStatus === 'excluded' ? 'review-card--draft-excluded' : '';
 
@@ -498,7 +512,7 @@ async function saveDraftOverrides() {
   const approved = [...local.draft.values()].filter((ov) => ov.publishStatus === 'published').length;
   local.draft.clear();
   await loadOverrides();
-  toast(`覆盖已保存（放行 ${approved} 条）。运行一次「增量同步」或「回填同步」生效。`, 'ok');
+  toast(`覆盖已保存（放行 ${approved} 条）。运行一次「回填同步」生效：天数需覆盖这些内容的日期（增量只抓最近 7 天）。`, 'ok');
 }
 
 // ---------- 高级：人工覆盖 JSON ----------
