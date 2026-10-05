@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-05T08:16:05.079Z",
+  "generated": "2026-10-05T09:04:13.587Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -158,6 +158,14 @@
   "showcase": null,
   "tags": [
     {
+      "label": "QQ空间",
+      "count": 14
+    },
+    {
+      "label": "自动同步",
+      "count": 11
+    },
+    {
       "label": "漫评",
       "count": 6
     },
@@ -179,10 +187,6 @@
     },
     {
       "label": "FMT",
-      "count": 3
-    },
-    {
-      "label": "QQ空间",
       "count": 3
     },
     {
@@ -968,6 +972,29 @@
   ],
   "moments": [
     {
+      "id": "01M3VJKCF0KJZ5W8T17ZAST48E",
+      "path": "/moment/01M3VJKCF0KJZ5W8T17ZAST48E.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-01T11:11:40.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "老板你早点回家好不好，家人孩子都在家呢，别加班了😭",
+      "html": "<p>老板你早点回家好不好，家人孩子都在家呢，别加班了😭</p>",
+      "summary": "老板你早点回家好不好，家人孩子都在家呢，别加班了😭",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M3F1S6Z0YATR1KS3VH0RQP0Y",
       "path": "/moment/01M3F1S6Z0YATR1KS3VH0RQP0Y.html",
       "month": "2026-09",
@@ -1014,6 +1041,52 @@
       "featured": false
     },
     {
+      "id": "01M38K9BSGP2DJJBH2WDPZ8V3Q",
+      "path": "/moment/01M38K9BSGP2DJJBH2WDPZ8V3Q.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-24T02:18:06.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "打直板打的我现在不握板食指都会痛了",
+      "html": "<p>打直板打的我现在不握板食指都会痛了</p>",
+      "summary": "打直板打的我现在不握板食指都会痛了",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M3273CW83MDVYZA6AAQVNA22",
+      "path": "/moment/01M3273CW83MDVYZA6AAQVNA22.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-21T14:49:41.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "难道真的是我太幸运，想的太简单太善意了",
+      "html": "<p>难道真的是我太幸运，想的太简单太善意了</p>",
+      "summary": "难道真的是我太幸运，想的太简单太善意了",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M31PYVJRN4A8DWNEF2G0VVKD",
       "path": "/moment/01M31PYVJRN4A8DWNEF2G0VVKD.html",
       "month": "2026-09",
@@ -1032,6 +1105,190 @@
         "likes": 0,
         "views": 0,
         "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2Z2SXR8YGYQ27WC50S7CWKF",
+      "path": "/moment/01M2Z2SXR8YGYQ27WC50S7CWKF.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-20T09:36:53.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "",
+      "html": "",
+      "summary": "",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2Y7VC68KDJN4KRGXE887XK1",
+      "path": "/moment/01M2Y7VC68KDJN4KRGXE887XK1.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-20T01:45:49.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "稳了",
+      "html": "<p>稳了</p>",
+      "summary": "稳了",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2THSVARJT9SZDD2RMHPN6TC",
+      "path": "/moment/01M2THSVARJT9SZDD2RMHPN6TC.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-18T15:22:47.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "保我一张重庆机票",
+      "html": "<p>保我一张重庆机票</p>",
+      "summary": "保我一张重庆机票",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2QDM96R27185BJM2QEN2PTK",
+      "path": "/moment/01M2QDM96R27185BJM2QEN2PTK.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-17T10:12:07.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "与人斗，其乐无穷。\n竞技还是刺激啊",
+      "html": "<p>与人斗，其乐无穷。<br>竞技还是刺激啊</p>",
+      "summary": "与人斗，其乐无穷。 竞技还是刺激啊",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2M5SWSRPYFSGRKMPK1FVE03",
+      "path": "/moment/01M2M5SWSRPYFSGRKMPK1FVE03.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-16T03:57:39.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "说起来，好像也收到第一份工资了",
+      "html": "<p>说起来，好像也收到第一份工资了</p>",
+      "summary": "说起来，好像也收到第一份工资了",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2KZF8DR9C97M25180GN3V39",
+      "path": "/moment/01M2KZF8DR9C97M25180GN3V39.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-16T02:06:59.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "关于我用纯cv算法在vlm赛道刷到榜一这档子事",
+      "html": "<p>关于我用纯cv算法在vlm赛道刷到榜一这档子事</p>",
+      "summary": "关于我用纯cv算法在vlm赛道刷到榜一这档子事",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M2FX5CW8DHS30NYJEA50MS84",
+      "path": "/moment/01M2FX5CW8DHS30NYJEA50MS84.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-14T12:09:41.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "思维阁终于也是点亮“幼稚的虚构作品”思维了，但是很不愿意内化。\n空洞是真的，被感染的情绪也是真的。",
+      "html": "<p>思维阁终于也是点亮“幼稚的虚构作品”思维了，但是很不愿意内化。<br>空洞是真的，被感染的情绪也是真的。</p>",
+      "summary": "思维阁终于也是点亮“幼稚的虚构作品”思维了，但是很不愿意内化。 空洞是真的，被感染的情绪也是真的。",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M22BJVH0AAJWPT0TKQ62S0F5",
+      "path": "/moment/01M22BJVH0AAJWPT0TKQ62S0F5.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-09T05:52:20.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "关于在招聘软件钓鱼假装求职了解情况被直接打电话吓到了这档子事",
+      "html": "<p>关于在招聘软件钓鱼假装求职了解情况被直接打电话吓到了这档子事</p>",
+      "summary": "关于在招聘软件钓鱼假装求职了解情况被直接打电话吓到了这档子事",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
       },
       "pinned": false,
       "featured": false
