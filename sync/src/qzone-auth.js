@@ -56,8 +56,8 @@ async function qrLocator(page) {
   return null;
 }
 
-async function persistSession(cookies) {
-  const cookieMap = cookieObject(cookies);
+/** 入参已是「cookie 名 → 值」对象（调用方负责从 Playwright cookie 数组转换）。 */
+async function persistSession(cookieMap) {
   const client = new QzoneClient({ session: { cookies: cookieMap } });
   const snapshot = client.exportSession();
   await clients().secrets.setSecret('qzone-session', JSON.stringify(snapshot));
