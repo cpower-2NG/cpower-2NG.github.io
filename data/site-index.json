@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-05T09:04:13.587Z",
+  "generated": "2026-10-05T10:52:37.574Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -159,11 +159,11 @@
   "tags": [
     {
       "label": "QQ空间",
-      "count": 14
+      "count": 16
     },
     {
       "label": "自动同步",
-      "count": 11
+      "count": 13
     },
     {
       "label": "漫评",
@@ -188,6 +188,10 @@
     {
       "label": "FMT",
       "count": 3
+    },
+    {
+      "label": "分享",
+      "count": 2
     },
     {
       "label": "视觉抓取",
@@ -972,6 +976,36 @@
   ],
   "moments": [
     {
+      "id": "01M43N2CB04S6E07YF7B1YDXX4",
+      "path": "/moment/01M43N2CB04S6E07YF7B1YDXX4.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-04T14:28:44.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "怀念\n\n不愧是妇儿剧场，全是小孩\n\n视频：https://www.bilibili.com/video/BV1VLHE6hEpE",
+      "html": "<p>怀念</p>\n<p>不愧是妇儿剧场，全是小孩</p>\n<p>视频：https://www.bilibili.com/video/BV1VLHE6hEpE</p>",
+      "summary": "怀念 不愧是妇儿剧场，全是小孩",
+      "tags": [
+        "QQ空间",
+        "自动同步",
+        "分享"
+      ],
+      "video": {
+        "platform": "哔哩哔哩",
+        "sourceUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VLHE6hEpE&high_quality=1&danmaku=0",
+        "cover": "",
+        "note": "转发视频，内嵌 B 站播放器。"
+      },
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M3VJKCF0KJZ5W8T17ZAST48E",
       "path": "/moment/01M3VJKCF0KJZ5W8T17ZAST48E.html",
       "month": "2026-10",
@@ -990,6 +1024,36 @@
         "likes": 0,
         "views": 0,
         "comments": 2
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M3S743D0AVW8R8TQNHB72KCY",
+      "path": "/moment/01M3S743D0AVW8R8TQNHB72KCY.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-30T13:12:36.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "电棍邀请你来参与大回选！ UP主：音之墨\n\n视频：https://www.bilibili.com/video/BV1C6a86uEYS",
+      "html": "<p>电棍邀请你来参与大回选！ UP主：音之墨</p>\n<p>视频：https://www.bilibili.com/video/BV1C6a86uEYS</p>",
+      "summary": "电棍邀请你来参与大回选！ UP主：音之墨",
+      "tags": [
+        "QQ空间",
+        "自动同步",
+        "分享"
+      ],
+      "video": {
+        "platform": "哔哩哔哩",
+        "sourceUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1C6a86uEYS&high_quality=1&danmaku=0",
+        "cover": "",
+        "note": "转发视频，内嵌 B 站播放器。"
+      },
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
       },
       "pinned": false,
       "featured": false
