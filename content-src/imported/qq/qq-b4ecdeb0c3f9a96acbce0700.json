@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0c3f9a96acbce0700",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-16",
+  "date": "2026-09-16",
+  "createdAt": "2026-09-16T02:06:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "关于我用纯cv算法在vlm赛道刷到榜一这档子事",
+  "text": "关于我用纯cv算法在vlm赛道刷到榜一这档子事",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "是算法的胜利",
+        "createdAt": "2026-09-16T06:24:16.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c3f9a96acbce0700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c3f9a96acbce0700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "5b077a559ae62acafdf816214e4994fddf7bf44e60150d62d744fe839c9b30ad",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

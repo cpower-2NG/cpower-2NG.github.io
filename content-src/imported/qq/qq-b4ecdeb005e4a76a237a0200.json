@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb005e4a76a237a0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-14",
+  "date": "2026-09-14",
+  "createdAt": "2026-09-14T12:09:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "思维阁终于也是点亮“幼稚的虚构作品”思维了，但是很不愿意内化。 空洞是真的，被感染的情绪也是真的。",
+  "text": "思维阁终于也是点亮“幼稚的虚构作品”思维了，但是很不愿意内化。\n空洞是真的，被感染的情绪也是真的。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "不想成为曾经认为的“行尸走肉的大人”",
+        "createdAt": "2026-09-14T12:11:20.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb005e4a76a237a0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb005e4a76a237a0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "25a06243c3e10c7ff3ab726237d07fef723582c8c8e35d8a6c95164d9edae32d",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

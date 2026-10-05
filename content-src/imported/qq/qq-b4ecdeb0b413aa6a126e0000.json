@@ -1,0 +1,73 @@
+{
+  "id": "qq-b4ecdeb0b413aa6a126e0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-16",
+  "date": "2026-09-16",
+  "createdAt": "2026-09-16T03:57:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "说起来，好像也收到第一份工资了",
+  "text": "说起来，好像也收到第一份工资了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 95864E",
+        "text": "太强了！",
+        "createdAt": "2026-09-16T04:11:03.000Z"
+      },
+      {
+        "id": "2",
+        "authorLabel": "匿名访客 E88702",
+        "text": "分我",
+        "createdAt": "2026-09-16T06:35:03.000Z"
+      },
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "陪我",
+        "createdAt": "2026-09-16T07:06:37.000Z"
+      },
+      {
+        "id": "2",
+        "authorLabel": "匿名访客 E88702",
+        "text": "内推我就来陪",
+        "createdAt": "2026-09-16T10:31:08.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b413aa6a126e0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b413aa6a126e0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "e6a2634f4469be52d6f772c50fe1005aa49c29be60580bfd8dd066ec6f3d2fc5",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "qq-b4ecdeb035a9af6aa54d0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-20",
+  "date": "2026-09-20",
+  "createdAt": "2026-09-20T09:36:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "",
+  "text": "",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V14eJgqf2j9c7q/bqQfVz5yrrGYSXMvKr.cqQz9T4uMfhePKx8qBdrBm3AhN87QkOEH8DP.gv31EmpuvHJuDpBmkxsQ0umyZenjwdOvJ8eD4GjjE7xnWrGEw0s!/b&bo=QAZVCEAGVQgBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V14eJgqf2j9c7q/bqQfVz5yrrGYSXMvKr.cqQz9T4uMfhePKx8qBdrBm3AhN87QkOEH8DP.gv31EmpuvHJuDpBmkxsQ0umyZenjwdOvJ8eD4GjjE7xnWrGEw0s!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V14eJgqf2j9c7q/bqQfVz5yrrGYSXMvKr.cqQz9T4uMfhePKx8qBdrBm3AhN87QkOEH8DP.gv31EmpuvHJuDpBmkxsQ0umyZenjwdOvJ8eD4GjjE7xnWrGEw0s!/b&bo=QAZVCEAGVQgBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 95864E",
+        "text": "哼哼到时候给小广穿上记得拍点照给我😋",
+        "createdAt": "2026-09-20T09:39:08.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb035a9af6aa54d0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb035a9af6aa54d0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "a9afb126b412ab5084c6555b7783f7da3f954363aa268c651fc1122dcfd59a56",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

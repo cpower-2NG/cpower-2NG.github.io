@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0cd3aaf6a2f000800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-20",
+  "date": "2026-09-20",
+  "createdAt": "2026-09-20T01:45:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "稳了",
+  "text": "稳了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "怎么还要加班",
+        "createdAt": "2026-09-20T04:55:04.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0cd3aaf6a2f000800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0cd3aaf6a2f000800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "ed0ae23bc5a1530bd8d5e5af18533734e962b81a5005b618f47cbc05e8298c22",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

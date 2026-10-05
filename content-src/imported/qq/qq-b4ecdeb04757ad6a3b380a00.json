@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb04757ad6a3b380a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-18",
+  "date": "2026-09-18",
+  "createdAt": "2026-09-18T15:22:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "保我一张重庆机票",
+  "text": "保我一张重庆机票",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "稳了",
+        "createdAt": "2026-09-20T01:45:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04757ad6a3b380a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04757ad6a3b380a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "029b6a39c1c2b3f3d1ea43d03c76d5116622a9870ca48e550b9afcf5b8cb2c78",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

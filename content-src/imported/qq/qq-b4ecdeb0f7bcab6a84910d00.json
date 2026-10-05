@@ -1,0 +1,48 @@
+{
+  "id": "qq-b4ecdeb0f7bcab6a84910d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-17",
+  "date": "2026-09-17",
+  "createdAt": "2026-09-17T10:12:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "与人斗，其乐无穷。 竞技还是刺激啊",
+  "text": "与人斗，其乐无穷。\n竞技还是刺激啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f7bcab6a84910d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f7bcab6a84910d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "cb1ca1a6803f355b466728fd9d68cb7d66f3556e12462cc126745b51974d22ac",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

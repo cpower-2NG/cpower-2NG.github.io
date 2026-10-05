@@ -1,0 +1,61 @@
+{
+  "id": "qq-b4ecdeb0ec3fbe6a9dd20b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-01",
+  "date": "2026-10-01",
+  "createdAt": "2026-10-01T11:11:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "老板你早点回家好不好，家人孩子都在家呢，别加班了😭",
+  "text": "老板你早点回家好不好，家人孩子都在家呢，别加班了😭",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 95864E",
+        "text": "怎么还加班啊",
+        "createdAt": "2026-10-01T13:21:11.000Z"
+      },
+      {
+        "id": "2",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "草，怎么没休息",
+        "createdAt": "2026-10-01T15:00:19.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ec3fbe6a9dd20b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ec3fbe6a9dd20b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "b3ced0e8f7db562f3e7a20d2cb60028d46876c01701f776d57ea41446fe399d8",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

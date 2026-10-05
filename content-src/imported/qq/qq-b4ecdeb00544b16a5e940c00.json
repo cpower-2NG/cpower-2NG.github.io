@@ -1,0 +1,48 @@
+{
+  "id": "qq-b4ecdeb00544b16a5e940c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-21",
+  "date": "2026-09-21",
+  "createdAt": "2026-09-21T14:49:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "难道真的是我太幸运，想的太简单太善意了",
+  "text": "难道真的是我太幸运，想的太简单太善意了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00544b16a5e940c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00544b16a5e940c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "bb601649548fda8a73613433127b2b26f97cf87ea93ab30a651fb2a72d7a9b52",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

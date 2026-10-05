@@ -1,0 +1,48 @@
+{
+  "id": "qq-b4ecdeb05e88b46a0e740d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-09-24",
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T02:18:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "打直板打的我现在不握板食指都会痛了",
+  "text": "打直板打的我现在不握板食指都会痛了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05e88b46a0e740d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05e88b46a0e740d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "6b65273a6092eeca3a05e61278fdc2ed278372ddd28ca5b051c239f6858eda08",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}
