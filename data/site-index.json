@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-05T10:52:37.574Z",
+  "generated": "2026-10-05T11:09:27.232Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -995,7 +995,10 @@
         "sourceUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VLHE6hEpE&high_quality=1&danmaku=0",
         "cover": "",
-        "note": "转发视频，内嵌 B 站播放器。"
+        "note": "转发视频，内嵌 B 站播放器。",
+        "watchUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+        "coverUrl": "",
+        "title": "怀念\n\n不愧是妇儿剧场，全是小孩"
       },
       "counts": {
         "likes": 0,
@@ -1048,7 +1051,10 @@
         "sourceUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1C6a86uEYS&high_quality=1&danmaku=0",
         "cover": "",
-        "note": "转发视频，内嵌 B 站播放器。"
+        "note": "转发视频，内嵌 B 站播放器。",
+        "watchUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
+        "coverUrl": "",
+        "title": "电棍邀请你来参与大回选！ UP主：音之墨"
       },
       "counts": {
         "likes": 0,
