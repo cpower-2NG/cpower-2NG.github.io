@@ -1,0 +1,57 @@
+{
+  "id": "qq-share-BV1VLHE6hEpE",
+  "schemaVersion": 1,
+  "title": "分享 · 怀念\n\n不愧是妇儿剧场，全是小孩",
+  "date": "2026-10-04",
+  "createdAt": "2026-10-04T14:28:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "怀念 不愧是妇儿剧场，全是小孩",
+  "text": "怀念\n\n不愧是妇儿剧场，全是小孩\n\n视频：https://www.bilibili.com/video/BV1VLHE6hEpE",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VLHE6hEpE&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecbecbbjhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5fd90c0465b0aedd2923cf5dcc00a93ea60ad2d95d2e7e3012e190a5684ec53d",
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

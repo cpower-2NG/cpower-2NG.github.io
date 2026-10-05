@@ -1,0 +1,57 @@
+{
+  "id": "qq-share-BV1C6a86uEYS",
+  "schemaVersion": 1,
+  "title": "分享 · 电棍邀请你来参与大回选！ UP主：音之墨",
+  "date": "2026-09-30",
+  "createdAt": "2026-09-30T13:12:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "电棍邀请你来参与大回选！ UP主：音之墨",
+  "text": "电棍邀请你来参与大回选！ UP主：音之墨\n\n视频：https://www.bilibili.com/video/BV1C6a86uEYS",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1C6a86uEYS&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfjdhhajhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1C6a86uEYS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0a86f44e071af22058cb37569a841c79a52aae6ed205c435902508c7d40996c9",
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "overrides": {
+    "publishStatus": "published"
+  }
+}
