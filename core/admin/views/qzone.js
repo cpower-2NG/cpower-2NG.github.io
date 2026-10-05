@@ -274,6 +274,7 @@ async function refreshTaskInfo() {
 function renderTask() {
   const running = local.syncState === 'running';
   const last = local.lastSync;
+  const watermark = get('status')?.watermark || null;
   const daysInput = h('input', { class: 'input input--sm input--select', type: 'number', min: '1', max: '365', value: String(local.backfillDays) });
   daysInput.addEventListener('change', () => {
     const value = Number(daysInput.value);
@@ -294,27 +295,62 @@ function renderTask() {
     startSyncPolling();
   }, '启动失败');
 
+  const startFull = (event) => withBusy(event.currentTarget, async () => {
+    const ok = await confirmDialog({
+      title: '全量搬迁 QQ 空间',
+      confirmLabel: '开始全量',
+      body: [
+        h('p', {}, '将抓取空间内全部历史动态（说说 + 转发视频），预计需要 1 小时以上。'),
+        h('p', { class: 'muted' }, '自动发布开启时，未触发隔离条件的内容（含敏感信息的会被隔离）会随本次同步直接发布到站点。任务超时中断可再次执行，已发布内容不会重复。'),
+      ],
+    });
+    if (!ok) return;
+    await request('/manage/sync', {
+      method: 'POST',
+      body: { mode: 'full', dryRun: false, backfillDays: local.backfillDays },
+    });
+    toast('全量搬迁已启动，预计 1 小时以上，页面可关闭，任务在云端进行。', 'ok');
+    awaitingSyncStart = true;
+    syncPollTicks = 0;
+    local.syncState = 'running';
+    renderTask();
+    startSyncPolling();
+  }, '启动失败');
+
   hosts.taskBody.replaceChildren(
     h('div', { class: 'inline' },
-      h('span', { class: 'field__label' }, '回填天数'),
-      daysInput,
+      button('同步新动态（从上次开始）', {
+        kind: 'primary', disabled: running,
+        onclick: start('since', false),
+      }),
+      button('验收预览', { disabled: running, onclick: start('since', true) }),
       h('span', { class: 'grow' }),
-      button('验收预览（不发布）', { disabled: running, onclick: start('backfill', true) }),
-      button('增量同步（7 天）', { disabled: running, onclick: start('incremental', false) }),
-      button('回填同步', { disabled: running, onclick: start('backfill', false) }),
+      watermark
+        ? h('span', { class: 'muted' }, `上次同步水位：${fmtDateTime(watermark.lastRunStartedAt)}`)
+        : h('span', { class: 'muted' }, '尚无水位：首次同步将回看 7 天。'),
     ),
     muted([
-      '验收预览：抓取最近回填天数的内容生成报告，不发布任何东西；',
-      '增量同步：抓最近 7 天并按规则发布；回填同步：抓指定天数并按规则发布。',
-      running ? '同步任务运行中，请稍候。' : '',
+      '「同步新动态」从上次成功同步的时间点开始抓取（自动含 2 小时缓冲），日常点这一个即可；',
+      '每天凌晨 2 点云端也会自动同步一次，02:30 自动发布上线。',
+      running ? ' 同步任务运行中，请稍候。' : '',
     ].join(' ')),
+    collapse('高级：历史回填与全量搬迁',
+      h('div', { class: 'inline' },
+        h('span', { class: 'field__label' }, '回填天数'),
+        daysInput,
+        button('回填同步（指定天数）', { disabled: running, onclick: start('backfill', false) }),
+        h('span', { class: 'grow' }),
+        button('全量搬迁（全部历史）', { kind: 'danger', disabled: running, onclick: startFull }),
+      ),
+      muted('回填：抓最近 N 天。全量：抓取空间内全部历史动态，预计 1 小时以上，中断可重复执行（已发布内容按内容哈希去重，不会重复出现）。「验收预览」同样从上次水位开始、只出报告不发布。'),
+    ),
     last ? h('div', { class: 'inline' },
       badge(last.dryRun ? '上次为验收预览' : '上次为真实同步', last.dryRun ? 'accent' : 'ok'),
       badge(`候选 ${last.counts?.publishedCandidate || 0}`),
       badge(`待审查 ${last.counts?.pendingReview || 0}`, 'warn'),
       badge(`隔离 ${last.counts?.quarantined || 0}`, 'danger'),
       h('span', { class: 'muted' }, fmtDateTime(last.generatedAt)),
-    ) : muted('还没有同步记录。建议先跑一次 31 天验收预览。'),
+    ) : muted('还没有同步记录。'),
   );
 }
 

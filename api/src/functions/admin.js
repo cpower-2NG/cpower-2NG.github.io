@@ -149,7 +149,7 @@ async function listImportTasks() {
 }
 
 async function status() {
-  const [qzone, sync, lastExport, lastSync, commentCounts, publishState, lastPublish] = await Promise.all([
+  const [qzone, sync, lastExport, lastSync, commentCounts, publishState, lastPublish, watermark] = await Promise.all([
     readState('qzone-status', 'sync'),
     readState('sync-status', 'sync'),
     readState('last-export', 'sync'),
@@ -157,6 +157,7 @@ async function status() {
     commentStatusCounts().catch(() => ({})),
     readState('publish-state', 'sync'),
     readState('last-publish', 'sync'),
+    readState('sync-watermark', 'sync'),
   ]);
   return {
     service: 'ok',
@@ -164,6 +165,9 @@ async function status() {
     sync: sync || { state: 'idle' },
     lastExport,
     commentCounts,
+    watermark: watermark
+      ? { lastRunStartedAt: watermark.lastRunStartedAt, lastCompletedAt: watermark.lastCompletedAt, mode: watermark.mode }
+      : null,
     publish: {
       dirty: Boolean(publishState?.dirty),
       markedAt: publishState?.markedAt || '',
@@ -295,10 +299,12 @@ app.http('admin', {
 
       if (action === 'sync' && request.method === 'POST') {
         const body = await readJson(request);
+        const allowedModes = ['incremental', 'since', 'backfill', 'full'];
+        const mode = allowedModes.includes(body.mode) ? body.mode : 'incremental';
         await writeState('sync-request', 'sync', {
           requestedAt: new Date().toISOString(),
           requestedBy: admin.oid,
-          mode: body.mode === 'backfill' ? 'backfill' : 'incremental',
+          mode,
           backfillDays: Number(body.backfillDays) || 31,
           dryRun: body.dryRun !== false,
           type: 'sync-request',

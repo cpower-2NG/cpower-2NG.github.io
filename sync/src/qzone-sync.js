@@ -276,10 +276,33 @@ export async function syncQzone() {
   const storedRequest = await readState('sync-request');
   const request = storedRequest && storedRequest.state !== 'completed' ? storedRequest : null;
   const dryRun = Boolean(request?.dryRun);
-  const days = request?.mode === 'backfill'
-    ? Number(request.backfillDays) || rules.initialBackfillDays || 31
-    : 7;
-  const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+  // 模式分派：
+  //   incremental  最近 7 天（无水位时的兜底）
+  //   since        从上次成功同步的水位开始（-2h 缓冲防边界丢失），日常推荐
+  //   backfill     指定天数回填
+  //   full         全量搬迁：cutoff 归零，页数上限放宽
+  const mode = ['incremental', 'since', 'backfill', 'full'].includes(request?.mode)
+    ? request.mode
+    // 定时任务等未携带模式的触发：走水位增量（无水位则回看 7 天）。
+    : 'since';
+  const watermark = await readState('sync-watermark');
+  const runStartedAt = new Date().toISOString();
+  let cutoff;
+  let maxPages = 50;
+  if (mode === 'full') {
+    cutoff = 0;
+    maxPages = 100;
+  } else if (mode === 'since') {
+    const lastRun = watermark?.lastRunStartedAt
+      ? new Date(watermark.lastRunStartedAt).getTime()
+      : Date.now() - 7 * 24 * 60 * 60 * 1000;
+    cutoff = lastRun - 2 * 60 * 60 * 1000;
+  } else if (mode === 'backfill') {
+    const days = Number(request?.backfillDays) || rules.initialBackfillDays || 31;
+    cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+  } else {
+    cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  }
   const salt = await hashSalt();
   const session = await loadSession();
   const shareCapture = createShareCapture();
@@ -340,7 +363,7 @@ export async function syncQzone() {
         await sleep(1600 + Math.floor(Math.random() * 700));
       }
       cursor = page.nextCursor;
-      if (!cursor || reachedCutoff || pages >= 50) break;
+      if (!cursor || reachedCutoff || pages >= maxPages) break;
       await sleep(900);
     } while (cursor);
 
@@ -466,6 +489,15 @@ export async function syncQzone() {
       } catch (error) {
         console.warn(`Moment upsert skipped: ${error.message}`);
       }
+    }
+    // 推进水位（仅真实同步）：since 模式的下一次起点。
+    if (!dryRun) {
+      await writeState('sync-watermark', {
+        type: 'sync-watermark',
+        lastRunStartedAt: runStartedAt,
+        lastCompletedAt: new Date().toISOString(),
+        mode,
+      });
     }
 
     await writeState('last-sync-report', {

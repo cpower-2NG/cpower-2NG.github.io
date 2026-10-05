@@ -840,10 +840,13 @@ resource publishJob 'Microsoft.App/jobs@2024-03-01' = {
   properties: {
     environmentId: containerEnvironment.id
     configuration: {
-      triggerType: 'Manual'
+      // 每天北京 02:30（UTC 18:30）自动物化：紧跟 02:00 的定时 QQ 同步，
+      // 同步什么就上线什么；手动「发布站点」仍走同一条路。
+      triggerType: 'Schedule'
       replicaTimeout: 3600
       replicaRetryLimit: 1
-      manualTriggerConfig: {
+      scheduleTriggerConfig: {
+        cronExpression: '30 18 * * *'
         parallelism: 1
         replicaCompletionCount: 1
       }
