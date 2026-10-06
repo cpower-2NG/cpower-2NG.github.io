@@ -123,32 +123,46 @@ export async function commitFiles(files, { removePaths = [], message } = {}) {
     return { changed: false, files: 0 };
   }
 
-  const tree = await githubApi(token, `/repos/${repo}/git/trees`, {
-    method: 'POST',
-    body: {
-      base_tree: baseCommit.tree.sha,
-      tree: newEntries,
-    },
-  });
-  const commit = await githubApi(token, `/repos/${repo}/git/commits`, {
-    method: 'POST',
-    body: {
-      message: message || `sync: publish ${newEntries.length} file update(s)`,
-      tree: tree.sha,
-      parents: [baseCommitSha],
-    },
-  });
-  await githubApi(token, `/repos/${repo}/git/refs/${refName}`, {
-    method: 'PATCH',
-    body: {
-      sha: commit.sha,
-      force: false,
-    },
-  });
+  // 大批量（如全量搬迁后的物化，1500+ 文件）塞进单个 tree 请求会触发 GitHub 500
+  // （"Server Error"）。分批创建 tree 并逐批 fast-forward 推进分支头。
+  const TREE_BATCH = 250;
+  let currentCommitSha = baseCommitSha;
+  let currentTreeSha = baseCommit.tree.sha;
+  let committed = 0;
+  for (let index = 0; index < newEntries.length; index += TREE_BATCH) {
+    const chunk = newEntries.slice(index, index + TREE_BATCH);
+    const tree = await githubApi(token, `/repos/${repo}/git/trees`, {
+      method: 'POST',
+      body: {
+        base_tree: currentTreeSha,
+        tree: chunk,
+      },
+    });
+    const commit = await githubApi(token, `/repos/${repo}/git/commits`, {
+      method: 'POST',
+      body: {
+        message: index + chunk.length < newEntries.length
+          ? `${message || `sync: publish ${newEntries.length} file update(s)`} (${index + chunk.length}/${newEntries.length})`
+          : (message || `sync: publish ${newEntries.length} file update(s)`),
+        tree: tree.sha,
+        parents: [currentCommitSha],
+      },
+    });
+    await githubApi(token, `/repos/${repo}/git/refs/${refName}`, {
+      method: 'PATCH',
+      body: {
+        sha: commit.sha,
+        force: false,
+      },
+    });
+    currentCommitSha = commit.sha;
+    currentTreeSha = tree.sha;
+    committed += chunk.length;
+  }
   return {
     changed: true,
-    commit: commit.sha,
-    files: newEntries.length,
+    commit: currentCommitSha,
+    files: committed,
   };
 }
 
