@@ -53,7 +53,8 @@ function uniqueMedia(media) {
   });
 }
 
-function applyOverride(record, overrides) {
+// 人工覆盖：云端同步与本地全量搬迁共用（键 id:<sourceId> / path:<recordId>）。
+export function applyOverride(record, overrides) {
   const override = overrides[`id:${record.source?.id || ''}`]
     || overrides[`path:${record.id}`]
     || null;
@@ -149,7 +150,8 @@ function normalizeVideo(post, media) {
   };
 }
 
-async function normalizePost(post, rules, salt, cookies, { allowPublicMedia }) {
+// 本地全量搬迁（migrate-local）与云端同步共用这条归一化链路。
+export async function normalizePost(post, rules, salt, cookies, { allowPublicMedia }) {
   const sourceMedia = (post.media || []).map(sourceMediaDescriptor).filter(Boolean);
   const sourceVideo = normalizeVideo(post, sourceMedia);
   const comments = (post.comments || []).map((comment) => anonymizeComment(comment, salt));
