@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03e76c46ad6170800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-06",
+  "date": "2026-10-06",
+  "createdAt": "2026-10-06T04:17:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "走，9号去看回天",
+  "text": "走，9号去看回天",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03e76c46ad6170800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03e76c46ad6170800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e8f5230ce114a70d1e054d49517fdf8c412abbf5982fde0c027e29c7056fce96"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "qq-share-BV19s411C7c5",
+  "schemaVersion": 1,
+  "title": "分享 · 【老爷爷无药可救】Blue Symphony",
+  "date": "2026-09-23",
+  "createdAt": "2026-09-23T14:58:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草草草",
+  "text": "草草草\n\n视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+      "width": 766,
+      "height": 480,
+      "sourceUrl": "https://i2.hdslb.com/bfs/archive/ab05ecd9729eeea275e0f22c4e792ba5260fd729.jpg",
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19s411C7c5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19s411C7c5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19s411C7c5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+    "title": "【老爷爷无药可救】Blue Symphony"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijefhbajhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19s411C7c5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "nulla",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "794339802e5f09d0aeb0b8335cb5e98e592ad9d2f2bc96884087d2071512e773",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

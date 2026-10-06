@@ -1,0 +1,81 @@
+{
+  "id": "qq-share-BV1doaa6KEqr",
+  "schemaVersion": 1,
+  "title": "分享 · 种崎敦美功夫曲合作",
+  "date": "2026-09-27",
+  "createdAt": "2026-09-27T13:27:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "种崎敦美功夫曲合作",
+  "text": "视频：种崎敦美功夫曲合作（UP 主：盐边张家川北林）",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+      "width": 2560,
+      "height": 1440,
+      "sourceUrl": "https://i0.hdslb.com/bfs/archive/25eab423967f0f348d3f2853a49b8b0688f7ca71.jpg",
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9-960.webp",
+          "width": 960,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9-1600.webp",
+          "width": 1600,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1doaa6KEqr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+    "title": "种崎敦美功夫曲合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcgfbfajhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1doaa6KEqr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aab086d10229e683219075eadc964b810b7e3f047320609b548b04072f1ab3b8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
