@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb053888e60ef360d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-05-02",
+  "date": "2021-05-02",
+  "createdAt": "2021-05-02T11:09:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "数学课上—同学耳机（近乎外放！）—超电磁炮（还是小号！） 我：我知道今天是炮姐生日，但也请分分场合！",
+  "text": "数学课上—同学耳机（近乎外放！）—超电磁炮（还是小号！）\n我：我知道今天是炮姐生日，但也请分分场合！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3525208253_1619960684",
+        "authorLabel": "匿名访客 B5EC2B",
+        "text": "我不知道，好吧，这只是巧合.....",
+        "createdAt": "2021-05-02T13:04:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb053888e60ef360d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb053888e60ef360d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3570c9068b9fab7ccac81aa9f3b409a2981e432ed2bd1bec9f09014db3118984"
+}

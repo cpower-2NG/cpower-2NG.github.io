@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb0bb8b586196820900",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-10-02",
+  "date": "2021-10-02",
+  "createdAt": "2021-10-02T16:41:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "魏晋风度及物哀与唯美主义及东方之关系 若非此假，又何时可思，何时可感",
+  "text": "魏晋风度及物哀与唯美主义及东方之关系\n若非此假，又何时可思，何时可感",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1633194524",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "与必然中面对不可逃避的死亡，不再追求生的痴妄。那是通晓事物本质后的癫狂的思想，思想交于行动后，行动又滞于事物永恒本质的无力与释然。那便肯定吧，肯定这樱花的刹那芳华，这既是对死的肯定，也是对至美的追求。于是歌圣在阅遍苦痛之后，来的那樱花树下，于最美之际神归天地。人不晓其名，只知西行寺。",
+        "createdAt": "2021-10-02T17:08:44.000Z"
+      },
+      {
+        "id": "2967399604_1633194718",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 这物哀之凄美，也只有那贤者品味千年...",
+        "createdAt": "2021-10-02T17:11:58.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bb8b586196820900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bb8b586196820900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c15f77ae193b06bbe97e7a77caaae1d7fbbf5c1a5d799809c33ef3b7c532fb9a"
+}

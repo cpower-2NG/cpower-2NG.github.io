@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01731336134190d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-09-04",
+  "date": "2021-09-04",
+  "createdAt": "2021-09-04T08:40:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "在海月的虚空中，纵身飞过秋凉的时鸟",
+  "text": "在海月的虚空中，纵身飞过秋凉的时鸟",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01731336134190d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01731336134190d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0c52637e2affa21e67a193891b569047a3fa3e6ef9fd2e9d57232cfdaf2640cc"
+}

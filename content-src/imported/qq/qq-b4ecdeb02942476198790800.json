@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb02942476198790800",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-09-19",
+  "date": "2021-09-19",
+  "createdAt": "2021-09-19T13:59:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": " 《德军留下来的东西》",
+  "text": "《德军留下来的东西》",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b62f1d525cac1b56e19b9bd6c183606409110e63d1a3be2957e63db3fb31dd5d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzCHhipOqL8Tcvw6oSvw8owEzsDr8rStV79uq51Wjvb5tdFToTUxmVQvdLga5vksB6Q!!/b&bo=wAPQAsAD0AIRADc!&w=392&h=5000",
+      "width": 392,
+      "height": 294,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b62f1d525cac1b56e19b9bd6c183606409110e63d1a3be2957e63db3fb31dd5d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1632060510",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "战争终于结束了。我在日记本里写下了这七个字。我是如此思念我的妻子，在我们新婚之后的一个月，我被政府要求去征兵，我就这样我离开了我的妻子。经历了无数个日夜，每个夜里都慢慢熬着熬着，终于战争结束了，无数的战友离我而去，我就孤身一人回到了故乡，重新踏回了这片熟悉的故土，那感觉是不言而喻的。我想找回我的妻子，但眼前的景象令我窒息，破壁残垣，所有的东西都是凌乱的，还有面目全非的尸体....侵略者给这片土地留下了不可磨灭的伤疤。那我的妻子呢？我匆匆忙忙的走着，想要寻找她，路过从前她最爱的蛋糕店门口，想着她以前是最怕分别了，她甚至害怕打雷，我还能再见到她吗？我还能再拥抱她吗？她还在人世吗？......突然一个醉醺醺的女人打断了我的思绪，她捉住了我的手。一头金黄的头发凌乱的散落在她的肩头，目光浑浊，脸颊是因酒醉泛起的红晕，口红是艳丽的玫瑰红。她轻轻的说:“到哪去，是不是上我那里。”我摇摇头，又是一个可怜的女子而已，我拒绝了她，说道:不，不上你那里，我只是来找寻我的妻子。女人抬起了头，见到我的模样后，突然嚷了起来:啊！我这才仔细打量起来，迎着昏黄的灯光，我才认出了她，这是我的妻子！约安！我抱住了她，那是我日思夜想的人啊！我终于又见到了她！我以为我一辈子，这一辈子啊，都见不到她了！还好德军没有将她从我的生命里夺走。(抄）",
+        "createdAt": "2021-09-19T14:08:30.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02942476198790800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02942476198790800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2f2b0ddc9fb1dd394368d78c46b2e244a0ee954906114d216f7b89374bc680ba"
+}

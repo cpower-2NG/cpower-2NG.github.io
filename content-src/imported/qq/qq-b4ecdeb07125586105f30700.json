@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb07125586105f30700",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-10-02",
+  "date": "2021-10-02",
+  "createdAt": "2021-10-02T09:25:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "书到了，但还是想吐槽一下 囧！你的封装好垃圾！",
+  "text": "书到了，但还是想吐槽一下\n囧！你的封装好垃圾！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07125586105f30700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07125586105f30700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "376120bd3ee93e3fab4428bbbc8537c96025290560bb06c9327b546c4b57fe18"
+}

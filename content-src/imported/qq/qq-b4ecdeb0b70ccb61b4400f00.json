@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b70ccb61b4400f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-12-28",
+  "date": "2021-12-28",
+  "createdAt": "2021-12-28T13:10:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "伪物语的文戏激增啊，果然是因为贝木吗",
+  "text": "伪物语的文戏激增啊，果然是因为贝木吗",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b70ccb61b4400f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b70ccb61b4400f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "17eadb2e24dca75206d89cee428d7d5ba5464dfe02b90a6bf70ead1fa96afab8"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f1f9bd6075b70400",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-06-07",
+  "date": "2021-06-07",
+  "createdAt": "2021-06-07T10:50:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "噫，好，我有了，嘿嘿，华彩乱战有了！",
+  "text": "噫，好，我有了，嘿嘿，华彩乱战有了！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f1f9bd6075b70400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f1f9bd6075b70400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7d354d3e2559dec6c24aeaf6d16da21fdc78b119eb88e9eb11fed3147bbb6be8"
+}

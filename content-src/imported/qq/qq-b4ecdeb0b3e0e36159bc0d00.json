@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0b3e0e36159bc0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-16",
+  "date": "2022-01-16",
+  "createdAt": "2022-01-16T09:09:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "考前推gal是否搞错了什么",
+  "text": "考前推gal是否搞错了什么",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1642324551",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "推完梦末整个人都是热寂的状态了",
+        "createdAt": "2022-01-16T09:15:51.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b3e0e36159bc0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b3e0e36159bc0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c7a6dfcaabdc15ae83d84e081968cf7223c7184c0fa1ed94c1d5c2d4828bc214"
+}

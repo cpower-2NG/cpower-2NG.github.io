@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0e7583b60ed030c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-02-28",
+  "date": "2021-02-28",
+  "createdAt": "2021-02-28T08:48:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "打开Cubase，提示CPU温度过高。？？ 垃圾电脑！",
+  "text": "打开Cubase，提示CPU温度过高。？？\n垃圾电脑！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e7583b60ed030c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e7583b60ed030c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d22408049f74f6c15e4483a31d5c13a5034989c14a34b16c11098b3b8eb62f34"
+}

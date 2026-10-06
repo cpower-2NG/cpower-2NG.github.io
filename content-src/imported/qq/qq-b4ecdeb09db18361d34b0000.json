@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb09db18361d34b0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-04",
+  "date": "2021-11-04",
+  "createdAt": "2021-11-04T10:10:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "Adobe全家桶2022陆续出来了，新功能挺多的，AI深度学习也挺方便的。像我这样的平民什么时候能用上呢？",
+  "text": "Adobe全家桶2022陆续出来了，新功能挺多的，AI深度学习也挺方便的。像我这样的平民什么时候能用上呢？",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09db18361d34b0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09db18361d34b0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "446636b6a4785e4235ba7860cd3f72c5292dc80a1f702b6b940c8e7f6d9854d0"
+}

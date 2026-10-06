@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0504ed96180100600",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-08",
+  "date": "2022-01-08",
+  "createdAt": "2022-01-08T08:41:52.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "在原始社会之前，人类自然的诞生了偶像崇拜，也就是各种神及信仰，以此通过彼此间出现的认同，使每个个体放弃部分个人利益，融入群体以收获认同，进而形成社会，达成共同体",
+  "text": "在原始社会之前，人类自然的诞生了偶像崇拜，也就是各种神及信仰，以此通过彼此间出现的认同，使每个个体放弃部分个人利益，融入群体以收获认同，进而形成社会，达成共同体来对抗外界。但当偶像被异化，凝聚起来靠的不是认同，而是先于自身存在的无法抗拒只能接受的社会中的“偶像”本身。到此，人类成为了文明的野兽。幼稚且弱小的质疑，与成熟且强大的信仰，彼此不断碰撞，才应该算是文明的成长。到如今，知晓（形成）这衍化道理的行为，是否也是一种异化呢？",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1641631656",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "这么说来，鬼形兽还真是一部古老有现代，原始有文明的大作啊",
+        "createdAt": "2022-01-08T08:47:36.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0504ed96180100600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0504ed96180100600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "87600dc381178b0b734e2c84aa7099d46ca55042c7ab8ecc32cb44aa3e0ae022"
+}

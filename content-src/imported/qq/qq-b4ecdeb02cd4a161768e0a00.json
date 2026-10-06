@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02cd4a161768e0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-27",
+  "date": "2021-11-27",
+  "createdAt": "2021-11-27T06:46:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今日消费心得：现代营销推销最强手段就是贩卖焦虑和贩卖恐惧。",
+  "text": "今日消费心得：现代营销推销最强手段就是贩卖焦虑和贩卖恐惧。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02cd4a161768e0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02cd4a161768e0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1aa9ec73fb640777b5b51be4cc6e6c98484b20a55d52a842a30552b63e4e382b"
+}

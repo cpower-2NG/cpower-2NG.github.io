@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb008d4cf6166120800",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-01",
+  "date": "2022-01-01",
+  "createdAt": "2022-01-01T04:09:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一个渴望成为好人的人，本身就比普通的好人更真实。",
+  "text": "一个渴望成为好人的人，本身就比普通的好人更真实。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1641010295",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "正义的伙伴要比正义之人更加正义",
+        "createdAt": "2022-01-01T04:11:35.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb008d4cf6166120800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb008d4cf6166120800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7b17588a3b8b72033131a229dd237413826a53d9ab8e706927c4e6fbdca14307"
+}

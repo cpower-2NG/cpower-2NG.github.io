@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0831ca261a8490c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-27",
+  "date": "2021-11-27",
+  "createdAt": "2021-11-27T11:54:41.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "很喜欢steam上的一句话：小白兔电商是第一款中式gal。 企划制作方向的突然改变，使得剧情 人物和机制产生了些许割裂感，但又弄拙成巧的让happy endin",
+  "text": "很喜欢steam上的一句话：小白兔电商是第一款中式gal。\n企划制作方向的突然改变，使得剧情 人物和机制产生了些许割裂感，但又弄拙成巧的让happy ending变得合理。极端理想主义、利他主义者与极端利己主义者的碰撞，再由一个忏悔者来救赎，还是挺有”中国特色“的嘛。\n\"人类有辉煌的文明，有了不起的思想家，但人类抛弃了他们，变得狭隘、傲慢。但我相信妖怪可以继承他们的思想，创作一个人与妖，甚至是鬼都可以和谐共处的社会”\n“未来的世界，必定是一个傻瓜也可以自由平等地生存发展的世界”",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4653db182c2c831e0d5f9c9450c5edc3116a4684919a96511dd23053f6eade8c.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzNLkWIGU20bwnpapeWlX8Mqcqw*OfVOYNChV3yBABrXvXw8Rtyznfma.CGKXR3wdEg!!/b&bo=0AESAdABEgERADc!&w=392&h=5000",
+      "width": 392,
+      "height": 231,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4653db182c2c831e0d5f9c9450c5edc3116a4684919a96511dd23053f6eade8c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0831ca261a8490c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0831ca261a8490c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "64e06966d709b6bd2a5bc121fe4ef00c8230d3c58bda678a7f9f4cfc1c09f973"
+}

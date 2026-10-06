@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb09f5bd0612d020e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-01",
+  "date": "2022-01-01",
+  "createdAt": "2022-01-01T13:48:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "经典周六麻将，新年第一局，手气真好",
+  "text": "经典周六麻将，新年第一局，手气真好",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/46b5c45c89ac57a352b92184bbdcfc11ff66210fee30a0d063cbab08d25a3699.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzG3E9LBmHgqolMit5P7z8krls1DMfE*eC8z4ZRkoRnA9Wyh**9RFav9ZI.8Qr9ZrLg!!/b&bo=QAaEA0AGhAMRADc!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/46b5c45c89ac57a352b92184bbdcfc11ff66210fee30a0d063cbab08d25a3699.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09f5bd0612d020e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09f5bd0612d020e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4bd99cfc9ddec2e9905477ddf5dde1703ca4d9209fdec66e70dc280cb9a0ee56"
+}

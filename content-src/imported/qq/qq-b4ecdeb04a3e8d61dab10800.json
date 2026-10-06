@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb04a3e8d61dab10800",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-11",
+  "date": "2021-11-11",
+  "createdAt": "2021-11-11T16:01:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "《关于我立直后就摸不到好牌了这件事》",
+  "text": "《关于我立直后就摸不到好牌了这件事》",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04a3e8d61dab10800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04a3e8d61dab10800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "00ba45d31da8d20d749e8648a0c485d063e1cb3d3902741f3847b4e816bd193e"
+}

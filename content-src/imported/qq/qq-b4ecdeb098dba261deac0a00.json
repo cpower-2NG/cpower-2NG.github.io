@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb098dba261deac0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-28",
+  "date": "2021-11-28",
+  "createdAt": "2021-11-28T01:31:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "星团简称确定为的「LSP」！ “我们以后一起唱，一起做学院偶像！”",
+  "text": "星团简称确定为的「LSP」！\n“我们以后一起唱，一起做学院偶像！”",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb098dba261deac0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb098dba261deac0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bb6986c8de4d490710a747090f75b6bc30c5b94ff189c1380e2fac645c2c3123"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0179aa7614d580d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-12-01",
+  "date": "2021-12-01",
+  "createdAt": "2021-12-01T15:51:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "暴风雨前的宁静，总是焦躁的，狂欢的，不安的，歇斯底里的。呈现出的总是熟悉事物的繁荣热闹的，却又透露着大厦将倾之感。而战后的平静，又总是死寂的，惊悸的，渺远的，空",
+  "text": "暴风雨前的宁静，总是焦躁的，狂欢的，不安的，歇斯底里的。呈现出的总是熟悉事物的繁荣热闹的，却又透露着大厦将倾之感。而战后的平静，又总是死寂的，惊悸的，渺远的，空灵纯粹的。是重归身边真实事物的，是砂石瓦砾朝阳小树的，是寄希望于未来的。是牺牲，是憧憬，是毁灭，是新生，是侘末，是寂始。是真正的，社会的“静”\n ——听《日本沉没2020ost》有感",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0179aa7614d580d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0179aa7614d580d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d585a1759c83d8374a029e034573259c7b66d1efae5f26afb7ae09b2fec82332"
+}

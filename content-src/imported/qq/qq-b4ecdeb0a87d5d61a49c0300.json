@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a87d5d61a49c0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-10-06",
+  "date": "2021-10-06",
+  "createdAt": "2021-10-06T10:42:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "观赏作画mad真是人间至福！",
+  "text": "观赏作画mad真是人间至福！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a87d5d61a49c0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a87d5d61a49c0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5f30d0bcb2ca3f7e9f90526566f158ecb47b6108b04f7d5917f51b95fd66d6f5"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0ab3a9a61c8c90a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2021-11-21",
+  "date": "2021-11-21",
+  "createdAt": "2021-11-21T12:25:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "lw妖妖梦妖梦cv李依李配的真好，有我心中妖梦的样子",
+  "text": "lw妖妖梦妖梦cv李依李配的真好，有我心中妖梦的样子",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1637501646",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "什么叫厨力啊（",
+        "createdAt": "2021-11-21T13:34:06.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ab3a9a61c8c90a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ab3a9a61c8c90a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0ed30db59acc152619b10e20a0582bc9a770332e8245a5b53c0e355d8586b249"
+}
