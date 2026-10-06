@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-05T18:30:43.317Z",
+  "generated": "2026-10-06T08:25:54.343Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -159,11 +159,11 @@
   "tags": [
     {
       "label": "QQ空间",
-      "count": 16
+      "count": 20
     },
     {
       "label": "自动同步",
-      "count": 13
+      "count": 17
     },
     {
       "label": "漫评",
@@ -178,6 +178,10 @@
       "count": 5
     },
     {
+      "label": "分享",
+      "count": 4
+    },
+    {
       "label": "题解",
       "count": 3
     },
@@ -188,10 +192,6 @@
     {
       "label": "FMT",
       "count": 3
-    },
-    {
-      "label": "分享",
-      "count": 2
     },
     {
       "label": "视觉抓取",
@@ -976,6 +976,52 @@
   ],
   "moments": [
     {
+      "id": "01M47PVRHGAADSK7A7S2P4SJT0",
+      "path": "/moment/01M47PVRHGAADSK7A7S2P4SJT0.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-06T04:17:02.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "走，9号去看回天",
+      "html": "<p>走，9号去看回天</p>",
+      "summary": "走，9号去看回天",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M46BXMVRF5270KXT1D3TD9CK",
+      "path": "/moment/01M46BXMVRF5270KXT1D3TD9CK.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-05T15:46:35.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "",
+      "html": "",
+      "summary": "",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M43N2CB04S6E07YF7B1YDXX4",
       "path": "/moment/01M43N2CB04S6E07YF7B1YDXX4.html",
       "month": "2026-10",
@@ -1065,6 +1111,39 @@
       "featured": false
     },
     {
+      "id": "01M3HGRJY8AZT8PC2TNR4G5FMV",
+      "path": "/moment/01M3HGRJY8AZT8PC2TNR4G5FMV.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-27T13:27:09.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "视频：种崎敦美功夫曲合作（UP 主：盐边张家川北林）",
+      "html": "<p>视频：种崎敦美功夫曲合作（UP 主：盐边张家川北林）</p>",
+      "summary": "种崎敦美功夫曲合作",
+      "tags": [
+        "QQ空间",
+        "自动同步",
+        "分享"
+      ],
+      "video": {
+        "platform": "哔哩哔哩",
+        "sourceUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1doaa6KEqr&high_quality=1&danmaku=0",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+        "note": "转发视频，内嵌 B 站播放器。",
+        "watchUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
+        "title": "种崎敦美功夫曲合作"
+      },
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M3F1S6Z0YATR1KS3VH0RQP0Y",
       "path": "/moment/01M3F1S6Z0YATR1KS3VH0RQP0Y.html",
       "month": "2026-09",
@@ -1125,6 +1204,39 @@
         "自动同步"
       ],
       "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M37CCKRGV0ZTBCA91PYB9GH7",
+      "path": "/moment/01M37CCKRGV0ZTBCA91PYB9GH7.html",
+      "month": "2026-09",
+      "publishedAt": "2026-09-23T14:58:18.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "草草草\n\n视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）",
+      "html": "<p>草草草</p>\n<p>视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）</p>",
+      "summary": "草草草",
+      "tags": [
+        "QQ空间",
+        "自动同步",
+        "分享"
+      ],
+      "video": {
+        "platform": "哔哩哔哩",
+        "sourceUrl": "https://www.bilibili.com/video/BV19s411C7c5",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19s411C7c5&high_quality=1&danmaku=0",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+        "note": "转发视频，内嵌 B 站播放器。",
+        "watchUrl": "https://www.bilibili.com/video/BV19s411C7c5",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
+        "title": "【老爷爷无药可救】Blue Symphony"
+      },
       "counts": {
         "likes": 0,
         "views": 0,
