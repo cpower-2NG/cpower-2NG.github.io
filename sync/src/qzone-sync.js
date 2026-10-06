@@ -327,9 +327,18 @@ export async function syncQzone() {
   let reachedCutoff = false;
 
   await setStatus('running', dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。');
+  let paginationError = '';
   try {
     do {
-      const page = await client.listFeeds({ scope: 'self', limit: 20, cursor });
+      let page;
+      try {
+        page = await client.listFeeds({ scope: 'self', limit: 20, cursor });
+      } catch (error) {
+        // 深翻历史时 QQ 接口偶发失败：保住已抓取的部分并正常提交，而不是整轮报废。
+        paginationError = error.message;
+        console.warn(`Feed pagination stopped: ${error.message}`);
+        break;
+      }
       pages += 1;
       for (const feed of page.items) {
         const created = feed.createdAt ? new Date(feed.createdAt).getTime() : 0;
@@ -428,6 +437,8 @@ export async function syncQzone() {
       generatedAt: new Date().toISOString(),
       cutoff: new Date(cutoff).toISOString(),
       dryRun,
+      mode,
+      ...(paginationError ? { partial: true, paginationError } : {}),
       candidates: allRecords.map((record) => ({
         id: record.id,
         date: record.date,
