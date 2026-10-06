@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb084eed96590b10000",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-24",
+  "date": "2024-02-24",
+  "createdAt": "2024-02-24T13:26:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "act4真的是一场超富裕的仗。超多衣装，又补完了那么多组合曲，期待Day！2",
+  "text": "act4真的是一场超富裕的仗。超多衣装，又补完了那么多组合曲，期待Day！2",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb084eed96590b10000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb084eed96590b10000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e5d0be9eb7c33fb6b758827e7d17056461d0e2dbbe7909d98a4211be2414401e"
+}

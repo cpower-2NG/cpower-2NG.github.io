@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0fb20f865c34a0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-18",
+  "date": "2024-03-18",
+  "createdAt": "2024-03-18T11:09:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "身处现实社会这样一个复杂巨系统的真实的人，其所背负的东西往往带有一种彻骨的恐惧，那是人在面对庞然巨物的本能反应",
+  "text": "身处现实社会这样一个复杂巨系统的真实的人，其所背负的东西往往带有一种彻骨的恐惧，那是人在面对庞然巨物的本能反应",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fb20f865c34a0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fb20f865c34a0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b23a8c218a78ff16aa4ee3bf3dd49405ae11c2580d080212f2ebd01c91019d56"
+}

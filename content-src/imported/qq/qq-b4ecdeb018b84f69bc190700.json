@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb018b84f69bc190700",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-27",
+  "date": "2025-12-27",
+  "createdAt": "2025-12-27T10:42:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "音乐剧真好",
+  "text": "音乐剧真好",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b281312eee879703c91fcc07747eb419683594d2373f2b2303cc93d42a6fced.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZzY51kvWEjHsUtguvKd00vbKhp.OKLZ3HoQS2RnNaptpTK9MHREDNNmjB9ae8s7xw!!/b&bo=cASAAnAEgAIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b281312eee879703c91fcc07747eb419683594d2373f2b2303cc93d42a6fced.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1766832168",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "编排真不赖",
+        "createdAt": "2025-12-27T10:42:48.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb018b84f69bc190700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb018b84f69bc190700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "56e87fe1c4bd690eb7fd850d51ff8ca027f7085e0f9f167e7f9fd57a3fbaad97"
+}

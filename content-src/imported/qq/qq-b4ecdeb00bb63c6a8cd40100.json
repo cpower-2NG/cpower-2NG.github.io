@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb00bb63c6a8cd40100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-25",
+  "date": "2026-06-25",
+  "createdAt": "2026-06-25T05:00:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今年成果😊",
+  "text": "今年成果😊",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b1d020c91964611b3018fd12d916ff00394cab443573c0854161e0b96ddeb5e0.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqXK.TLxq17ccWnxPuoqaHr*U87uEh.kmxovXeOGS4SbwqploQ6dkdag6J8AXmxjWZS2Ssv6E0LzOAC02NUyvJMw!/b&bo=wAPQAsAD0AIBACc!",
+      "width": 960,
+      "height": 720,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b1d020c91964611b3018fd12d916ff00394cab443573c0854161e0b96ddeb5e0-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b1d020c91964611b3018fd12d916ff00394cab443573c0854161e0b96ddeb5e0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "836859719_1782364383",
+        "authorLabel": "匿名访客 E88702",
+        "text": "饱饱我爱你[em]e400846[/em]",
+        "createdAt": "2026-06-25T05:13:03.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00bb63c6a8cd40100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00bb63c6a8cd40100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e9e9809b723dc82a06725ff3d3b52de2737467faa78194383712d637905f4e28"
+}

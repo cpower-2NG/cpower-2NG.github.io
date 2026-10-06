@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb08cb5b769509e0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-16",
+  "date": "2026-03-16",
+  "createdAt": "2026-03-16T07:47:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还好我不会日语",
+  "text": "还好我不会日语",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3793032637_1773988186",
+        "authorLabel": "匿名访客 6AC2AF",
+        "text": "日语高手",
+        "createdAt": "2026-03-20T06:29:46.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08cb5b769509e0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08cb5b769509e0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4d562582d3b51a159b8c524204717cd6c498d63dfaf1a52c1b20c1133903a6ba"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "qq-b4ecdeb02e3884663b7d0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-07-02",
+  "date": "2024-07-02",
+  "createdAt": "2024-07-02T17:26:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这种游戏代入后，情感压力不得了啊",
+  "text": "这种游戏代入后，情感压力不得了啊",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/50b714b50c282a9051a11c21b54aa84652128a5a1b52e2c92915c99647ef5d5c.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzF..xqdl3cu5i*uZlhsZuVCZJaiS5H2xir2dt9.EEwHSUvqrSREXzAEzSeJEouDgRQ!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/50b714b50c282a9051a11c21b54aa84652128a5a1b52e2c92915c99647ef5d5c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2033020087_1719941309",
+        "authorLabel": "匿名访客 28811E",
+        "text": "老父亲",
+        "createdAt": "2024-07-02T17:28:29.000Z"
+      },
+      {
+        "id": "2967399604_1719941416",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2024-07-02T17:30:16.000Z"
+      },
+      {
+        "id": "1328025956_1719966319",
+        "authorLabel": "匿名访客 B77149",
+        "text": "火山的女儿？",
+        "createdAt": "2024-07-03T00:25:19.000Z"
+      },
+      {
+        "id": "2967399604_1719975237",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2024-07-03T02:53:57.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02e3884663b7d0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02e3884663b7d0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "74787ccef25dcfd7ab25438b04cef9dad4a7f9795b4834900bc1909901e0ef66"
+}

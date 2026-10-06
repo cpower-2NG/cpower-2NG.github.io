@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb089f53e69d46f0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-14",
+  "date": "2025-12-14",
+  "createdAt": "2025-12-14T17:36:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这两天想明白了一些事，或者说终于肯做出决定了。 アイ MUST GO",
+  "text": "这两天想明白了一些事，或者说终于肯做出决定了。\nアイ MUST GO",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb089f53e69d46f0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb089f53e69d46f0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0acfa88d3d06072a23883ec594cda04ab4ff21fbc7351828e1fa78eccd081d3f"
+}

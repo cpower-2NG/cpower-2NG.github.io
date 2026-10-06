@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb018eeea69d9f50900",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-24",
+  "date": "2026-04-24",
+  "createdAt": "2026-04-24T04:14:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "怎么一觉起来远程全死了",
+  "text": "怎么一觉起来远程全死了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2426803590_1777006157",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "这啥，直播源还是，神秘小魔法？",
+        "createdAt": "2026-04-24T04:49:17.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb018eeea69d9f50900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb018eeea69d9f50900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "badd6857a34b9a9aca6fe8eb9b4904dc0e9f0dab4c69d74b197671408fdb5276"
+}

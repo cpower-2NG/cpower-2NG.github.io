@@ -1,0 +1,73 @@
+{
+  "id": "qq-b4ecdeb0f4b2d66724650400",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-16",
+  "date": "2025-03-16",
+  "createdAt": "2025-03-16T11:16:04.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "感动啊",
+  "text": "感动啊",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/23aff84f5b028b18cc3585f9f9ca10ebc0486f888c4477be1281188bf5cd4876.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXITSuBufhjI.fLs5NSmQI1sC9rfFAPFV71WXVH7nUUQ35aYvhFwQIa3ECyJt*s9brqQ!!/b&bo=OQG5ADkBuQAWADA!",
+      "width": 313,
+      "height": 185,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c160dda26a7b479612020abf5736f043cee5f2dee0de68f55f2cc05cbe1d3ef.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbGXqcsPeL3mX9BNNc1Dqs2kK1VTFnH37MGH30S7FYEb5MVFApTreMG9Ev*cLmW.JQ!!/b&bo=EQFNABEBTQAWADA!",
+      "width": 273,
+      "height": 77,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d4cb9c33e919c400d64dba96f4a6b3b0cf1fefa554f85177a7f255cabad2afc.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbGXqcsPeL3mX9BNNc1Dqs0jGtft7XiiUA1t55WqpIWRxe4V.3Vi0Ve5IV2k12W99A!!/b&bo=qQHPAKkBzwAWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 191,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/23aff84f5b028b18cc3585f9f9ca10ebc0486f888c4477be1281188bf5cd4876.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f4b2d66724650400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f4b2d66724650400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "916d5ad570e6365a349893653fc99cd0e3842bbb762f9b2a3207665db8a9766c"
+}

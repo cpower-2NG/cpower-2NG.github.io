@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0de99da66768e0c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-06",
+  "date": "2024-09-06",
+  "createdAt": "2024-09-06T05:57:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "明天台风能不能接着吹，我想看学live",
+  "text": "明天台风能不能接着吹，我想看学live",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0de99da66768e0c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0de99da66768e0c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4a1f27bcaf6d5d72175396ae924fe357a885a1dec0bf3f9fc2458062d788362d"
+}

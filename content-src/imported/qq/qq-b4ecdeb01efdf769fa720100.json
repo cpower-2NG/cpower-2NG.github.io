@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb01efdf769fa720100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-04",
+  "date": "2026-05-04",
+  "createdAt": "2026-05-04T01:57:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "何意味，贪便宜淘个3T紫盘中头彩了吗",
+  "text": "何意味，贪便宜淘个3T紫盘中头彩了吗",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3a02a6ede189b2a3fd76828780b9e3d8ec1cf03bd4c3b62338c148b7eac01d7f.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbGXqcsPeL3mX9BNNc1Dqs2Uyd4*HYv083PRfhqJ74g1vdm3xm96c.Rn8jUBy7H9Rw!!/b&bo=QwJ2AkMCdgIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 427,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9f74f78bfbde4e835f84c9b08038cb6e5ffcd3ff1dd4ffe9bb7511b8033fcded.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbGXqcsPeL3mX9BNNc1Dqs1oWriF7PcH3wve.tfEPmA7gxFkaYB3JvyJ4.roxJScgA!!/b&bo=QAaCAkAGggIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 157,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3a02a6ede189b2a3fd76828780b9e3d8ec1cf03bd4c3b62338c148b7eac01d7f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01efdf769fa720100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01efdf769fa720100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f43a20dce04ea6274701b8659261dd0f4793790b3181e05c9207faae7f0e82b1"
+}

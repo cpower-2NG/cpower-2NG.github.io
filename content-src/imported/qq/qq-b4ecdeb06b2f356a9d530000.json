@@ -1,0 +1,119 @@
+{
+  "id": "qq-b4ecdeb06b2f356a9d530000",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-19",
+  "date": "2026-06-19",
+  "createdAt": "2026-06-19T12:00:42.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这个小盒就是你们暂时的家",
+  "text": "这个小盒就是你们暂时的家",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2e8b37e98b434ad350a0dfe9777155a0a2224715dd7175cbf8c8652302fc46.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSePVvb1ubrV0p4Ixohk16d28A28cTb*FbmHbhSZeZrSIvDKx0rNPq1Cy0NlaQAJwSDgkub*NpS5oZ78MMd2*LM!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2e8b37e98b434ad350a0dfe9777155a0a2224715dd7175cbf8c8652302fc46-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2e8b37e98b434ad350a0dfe9777155a0a2224715dd7175cbf8c8652302fc46-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13caaf938e254dd6a35067378fbed58c14f6c3653fde7cee10736d4ac4c3f516.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSePVvb1ubrV0p4Ixohk16fe.7gVBNbTTv5J4k0Av.Bk7k6.fCEG6m6SXAiS728AXS6jOy0O46uwMITNlxeGrAg!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13caaf938e254dd6a35067378fbed58c14f6c3653fde7cee10736d4ac4c3f516-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13caaf938e254dd6a35067378fbed58c14f6c3653fde7cee10736d4ac4c3f516-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0263c980229c73ddb29df2386cb4395df718e056adce2c2b149eb81f5d5e99a.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqa8E7oFgZZrkTkYyVG7qep5NnOhrmX*BpF3JdE96I6ib2FMbJdbomquNPh4.vhOo5HbrZgXkXnzZbeP*oMlW4S4!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0263c980229c73ddb29df2386cb4395df718e056adce2c2b149eb81f5d5e99a-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0263c980229c73ddb29df2386cb4395df718e056adce2c2b149eb81f5d5e99a-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2e8b37e98b434ad350a0dfe9777155a0a2224715dd7175cbf8c8652302fc46.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "3544925287_1781871020",
+        "authorLabel": "匿名访客 95864E",
+        "text": "好萌啊！（尖叫）",
+        "createdAt": "2026-06-19T12:10:20.000Z"
+      },
+      {
+        "id": "1253041798_1781872016",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "好可爱",
+        "createdAt": "2026-06-19T12:26:56.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06b2f356a9d530000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06b2f356a9d530000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "58d2b8e017bc757ba792b42e48249cf8414fbc601672de0a79067b6850bade65"
+}

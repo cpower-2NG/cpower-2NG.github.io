@@ -1,0 +1,74 @@
+{
+  "id": "qq-b4ecdeb09e44fd6633100000",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-02",
+  "date": "2024-10-02",
+  "createdAt": "2024-10-02T13:03:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "风好大，有点过呼吸了（",
+  "text": "风好大，有点过呼吸了（",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2ec4cc47c0f876b72eda147a6d7b1fc72210b3b223c82d20f26e840007540329.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEDR6SrLCOEcjHnSliaznf3Ms2Y59ZyTtfJNDgiTSKIMfrsw95cWRCUDavCFiLZ*1WFXGwWmDP5bdEt2tBwY69wE!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2ec4cc47c0f876b72eda147a6d7b1fc72210b3b223c82d20f26e840007540329-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2ec4cc47c0f876b72eda147a6d7b1fc72210b3b223c82d20f26e840007540329.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1328025956_1727875183",
+        "authorLabel": "匿名访客 B77149",
+        "text": "强风吹拂",
+        "createdAt": "2024-10-02T13:19:43.000Z"
+      },
+      {
+        "id": "778381969_1727882093",
+        "authorLabel": "匿名访客 82A96C",
+        "text": "加油！ 一起努力",
+        "createdAt": "2024-10-02T15:14:53.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09e44fd6633100000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09e44fd6633100000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2417ac1409c6c59e45adaad9ccf5b6b1be4a3b3b8bc12a2dec8efcb98ad7c0c1"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb03cf0226a2e1e0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-05",
+  "date": "2026-06-05",
+  "createdAt": "2026-06-05T15:50:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "感觉小广STEP情绪变多了呢。擅自的理解，有种疏远感",
+  "text": "感觉小广STEP情绪变多了呢。擅自的理解，有种疏远感",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1780674799",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "我草，疏远感随手三个字敲出来，心脏想漏跳一拍一样，一阵失落感",
+        "createdAt": "2026-06-05T15:53:19.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03cf0226a2e1e0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03cf0226a2e1e0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "884a88c8bbf9d77b23187cbcae8e95f6f1eb49a031b497c9c2eb34bd0be0a0b5"
+}

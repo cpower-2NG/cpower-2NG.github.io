@@ -1,0 +1,86 @@
+{
+  "id": "qq-b4ecdeb069240967421c0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-11",
+  "date": "2024-10-11",
+  "createdAt": "2024-10-11T13:13:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "休息才是提高成绩的最好方法（",
+  "text": "休息才是提高成绩的最好方法（",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7561205f45477a95364711e1c75d91c8caf9503d6be4f839557acffc8a568e85.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEJAlv713r8MuYP5zitKQ8RDpjTK1inp6C5o1PrMj03NSgJaODobBC2fXF6Y3oEfoKCseSswDiLvNSrxqtnI*qZE!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7561205f45477a95364711e1c75d91c8caf9503d6be4f839557acffc8a568e85-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7561205f45477a95364711e1c75d91c8caf9503d6be4f839557acffc8a568e85.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 4,
+    "comments": [
+      {
+        "id": "2967399604_1728652606",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "我是藤田琴音？（",
+        "createdAt": "2024-10-11T13:16:46.000Z"
+      },
+      {
+        "id": "1328025956_1728652985",
+        "authorLabel": "匿名访客 B77149",
+        "text": "这速耐太强了[em]e10273[/em][em]e10273[/em][em]e10273[/em]",
+        "createdAt": "2024-10-11T13:23:05.000Z"
+      },
+      {
+        "id": "3544925287_1728653525",
+        "authorLabel": "匿名访客 95864E",
+        "text": "你是真牛逼",
+        "createdAt": "2024-10-11T13:32:05.000Z"
+      },
+      {
+        "id": "3525208253_1728656332",
+        "authorLabel": "匿名访客 B5EC2B",
+        "text": "能不能不要太自律[em]e118[/em]",
+        "createdAt": "2024-10-11T14:18:52.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb069240967421c0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb069240967421c0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "83c3725bdd76bc24e049395d3dae9ba3014c13aaf5ca27e47adf28eb7847005c"
+}

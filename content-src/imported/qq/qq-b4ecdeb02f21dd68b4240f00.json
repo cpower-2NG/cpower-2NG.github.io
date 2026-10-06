@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02f21dd68b4240f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-01",
+  "date": "2025-10-01",
+  "createdAt": "2025-10-01T12:40:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "完了，没有昼场的记忆了",
+  "text": "完了，没有昼场的记忆了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02f21dd68b4240f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02f21dd68b4240f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "67e1de326e13cec9a29077ec7dc12f66bf25d2f7f62be3404e2d8e1a5700bf4e"
+}

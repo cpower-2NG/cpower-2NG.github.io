@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb06a4ec969e1a40600",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-29",
+  "date": "2026-03-29",
+  "createdAt": "2026-03-29T16:08:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "i must go",
+  "text": "i must go",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06a4ec969e1a40600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06a4ec969e1a40600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4b1479c1e6bb2809b85e5c3a83190910d15f5b55c68562fd9b6adeb8de7d3931"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb08b69eb692d820d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-24",
+  "date": "2026-04-24",
+  "createdAt": "2026-04-24T13:00:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一直挺期待明天闪8的，但现在一点看live的心情都没有*_*",
+  "text": "一直挺期待明天闪8的，但现在一点看live的心情都没有*_*",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08b69eb692d820d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08b69eb692d820d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "8faefd4a4ef880ec3c601db6a94c258d8ff494bba54c6ba656ee9919b4db4d1e"
+}

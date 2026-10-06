@@ -1,0 +1,80 @@
+{
+  "id": "qq-b4ecdeb062fd126902ca0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-11-11",
+  "date": "2025-11-11",
+  "createdAt": "2025-11-11T09:09:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "终于恢复过来了",
+  "text": "终于恢复过来了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6196c43d2828df24c9e2ade53b8a2cd6ed68d7c4617d28d69fb44ce5f2f00efc.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEFMAsHVMF0NOkOz2cFWDidmFYPi*nNUGWysyPxGwK25bILqSqpzZaohfihG39g1wKowWxkWyNZuXhp5RhHSfgbk!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6196c43d2828df24c9e2ade53b8a2cd6ed68d7c4617d28d69fb44ce5f2f00efc-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6196c43d2828df24c9e2ade53b8a2cd6ed68d7c4617d28d69fb44ce5f2f00efc.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "836859719_1762853367",
+        "authorLabel": "匿名访客 E88702",
+        "text": "你好强大",
+        "createdAt": "2025-11-11T09:29:27.000Z"
+      },
+      {
+        "id": "2312194090_1762855783",
+        "authorLabel": "匿名访客 64B381",
+        "text": "这么强",
+        "createdAt": "2025-11-11T10:09:43.000Z"
+      },
+      {
+        "id": "3544925287_1762855908",
+        "authorLabel": "匿名访客 95864E",
+        "text": "好厉害",
+        "createdAt": "2025-11-11T10:11:48.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb062fd126902ca0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb062fd126902ca0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4cc06c8349ae920d103b928f6c28b09ab7402d15d7c6bd73ee3a1a1f1883da30"
+}

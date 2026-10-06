@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0b918df65aab90600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-28",
+  "date": "2024-02-28",
+  "createdAt": "2024-02-28T11:27:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "第二季！第二季！第二季！……",
+  "text": "第二季！第二季！第二季！……",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/002024cbb2027f23c759cbe57bc161d193d2b3dc06b4432a6f5c95858b891c62.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzHLtRN7.yG3UyA66G4DxAROF7tjvNwYRlH6Jiw0nDa9qGICnSXH..1ewQRK85h0wTg!!/b&bo=AAVPAgAFTwIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 181,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/002024cbb2027f23c759cbe57bc161d193d2b3dc06b4432a6f5c95858b891c62.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1709119897",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "我就说o榜统计不全吧，哼",
+        "createdAt": "2024-02-28T11:31:37.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b918df65aab90600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b918df65aab90600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ef75d67e616d2ce72047ec09468ecc23b1169550c6604ae879768d81aa08d073"
+}

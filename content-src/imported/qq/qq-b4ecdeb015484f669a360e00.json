@@ -1,0 +1,77 @@
+{
+  "id": "qq-b4ecdeb015484f669a360e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-23",
+  "date": "2024-05-23",
+  "createdAt": "2024-05-23T13:43:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "本来最开始想着p広，但因为难度搁置了。为了过任务就选择了琴音，结果渐渐被她的可爱所复活。如此可爱的天才谁不喜欢呢。",
+  "text": "本来最开始想着p広，但因为难度搁置了。为了过任务就选择了琴音，结果渐渐被她的可爱所复活。如此可爱的天才谁不喜欢呢。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/612c4c4dd75a9c2224164988f8bfacfbdb937f284e67b97019c4138feb9e5cf1.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzJom*oE4.pUV3XQbdMsvhaHskObK3eQ4pfg10EY6sFJmcmCBFkTZr3fj*YSCg.saZw!!/b&bo=aQI4BGkCOAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 686,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fdfd8950616b017e261c6515094f4121c33ed37bf13829bf290965667630da25.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzMp7mdbEvUc9hyO5beEyQ0UY7rTNUJxOg8Zti9sXZzvKrekBKtInlLPb6LP4gzHvFw!!/b&bo=RwIOBEcCDgQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 698,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/612c4c4dd75a9c2224164988f8bfacfbdb937f284e67b97019c4138feb9e5cf1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1716472738",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "昏了头了，自选ssr券点错点成抽选，结果抽重了。。。。。。。",
+        "createdAt": "2024-05-23T13:58:58.000Z"
+      },
+      {
+        "id": "2967399604_1716472865",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 原来只能抽",
+        "createdAt": "2024-05-23T14:01:05.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb015484f669a360e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb015484f669a360e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7c609e3a823bfa253e6edcd37be4952800a49185c42d09878648bd4bf4382e82"
+}

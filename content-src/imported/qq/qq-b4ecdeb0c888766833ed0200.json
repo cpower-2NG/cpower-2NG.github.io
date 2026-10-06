@@ -1,0 +1,66 @@
+{
+  "id": "qq-b4ecdeb0c888766833ed0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-07-15",
+  "date": "2025-07-15",
+  "createdAt": "2025-07-15T16:58:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "多多支持啊",
+  "text": "多多支持啊",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/100a705d466c7a243443c7ffeea23d6f0954bce05ea7d64bba85e3a441cea8a2.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V12zvjX14bZgKJ/TmEUgtj9EK6.7V8ajmQrEBYD53KhaspuuLLpT7q6Wb14DpHih.MNxemS5p5LYwXyAXkmSgTihcoQXIgbIZGO8cDmErQj5FqKHztXK6701cI!/b&bo=9AMxDvQDMQ4DEDU!",
+      "width": 1012,
+      "height": 3633,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/100a705d466c7a243443c7ffeea23d6f0954bce05ea7d64bba85e3a441cea8a2-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/100a705d466c7a243443c7ffeea23d6f0954bce05ea7d64bba85e3a441cea8a2-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/100a705d466c7a243443c7ffeea23d6f0954bce05ea7d64bba85e3a441cea8a2.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c888766833ed0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c888766833ed0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "884ef6dc614041474e402b29154a85c04f0dadde05c631c891f4ac8a0da7b90e"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb099c0fb681c1b0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-24",
+  "date": "2025-10-24",
+  "createdAt": "2025-10-24T18:08:25.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我终于想起来了 最近一直感觉有点迷失，一直被困于真实的、不纯粹有杂质的，甚至主要看到的是恶面的人事中。我数次思考我真的愿意和他们交流吗，他们真的值得交心吗。 不",
+  "text": "我终于想起来了\n最近一直感觉有点迷失，一直被困于真实的、不纯粹有杂质的，甚至主要看到的是恶面的人事中。我数次思考我真的愿意和他们交流吗，他们真的值得交心吗。\n不只限于人际交往，我几乎对其他一切事物的不纯粹，对其杂质感到厌烦，甚至是我曾痴迷的声优。\n按理说我早已知道真实必然伴随杂质，也早习惯这些了。为什么这段时间厌烦感会抑制不住呢，我想不是忙碌导致的心累之类的借口。\n更本质的讲，我迷失在杂质的海洋中，我找不到我的锚。\n非常有趣的是，最近刚好学到PCA主成分分析，晚上比赛状态不错一阵畅快，突然想到真实的人，真实的物在我们的主观印象中是否也需要特征提取呢。不是功过三七分、论事不论人的客观评价，而是在情感评判中判断出对方的本性。有了这些基，那些刺眼的杂质，刺耳的噪声就不那么重要了。\n当然，这不是简单的事情，尤其对我来说，至少要深入了解一个人之后，才可能有一个固定的印象。现实是，我几乎不可能有机会深入了解。当然，一直如此。所以，为什么这段时间厌烦感如此强烈呢，我想，是我太久没有和这样的人推杯换盏了。或者更简单地说，是想“家”了。\n爱具体的人吧！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb099c0fb681c1b0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb099c0fb681c1b0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9131c8bc3b3c3355778b6d287ee68c5272f4a2f68fa0c1b395489cb7c064381b"
+}

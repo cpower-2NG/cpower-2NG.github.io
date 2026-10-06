@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0ddd94d66a2e70300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-22",
+  "date": "2024-05-22",
+  "createdAt": "2024-05-22T11:41:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "离谱，一发无料十连出了s卡，家里马上跳闸。",
+  "text": "离谱，一发无料十连出了s卡，家里马上跳闸。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6f9334b74bd6e9d8a2ffda75d1ba7c6158ede7a51aec38a089b67bf8b262977e.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzAtC9rQJM93bLvR4Q0su4n2La8g8tdWmDAllKu5pa1X6AahiiB3WFnia2yOBSHcKmw!!/b&bo=SgIPBEoCDwQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 695,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6f9334b74bd6e9d8a2ffda75d1ba7c6158ede7a51aec38a089b67bf8b262977e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1716384824",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "该的",
+        "createdAt": "2024-05-22T13:33:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ddd94d66a2e70300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ddd94d66a2e70300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0c65962cba15ce9c2d1a9e67ba9f6cac6716c7b52e5949ee59d6b1a2291fba5d"
+}

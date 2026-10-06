@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0d8c5676938d00900",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-01-14",
+  "date": "2026-01-14",
+  "createdAt": "2026-01-14T16:35:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ひろちゃん、これ、モノマネしよう",
+  "text": "ひろちゃん、これ、モノマネしよう",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a95b8fb3e16d43a813178eba860789aa40d3fac79c2b8bf2a70493909dff0be.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIVjaYrvnjjTKXiJL73KQtmyJNTpAqar7ohkzIOURfWhx*Vi1N7xmjkeA.dt3DUYc6A!!/b&bo=EgY4BBIGOAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 272,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a95b8fb3e16d43a813178eba860789aa40d3fac79c2b8bf2a70493909dff0be.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1253041798_1768417903",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "可爱",
+        "createdAt": "2026-01-14T19:11:43.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d8c5676938d00900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d8c5676938d00900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1e1ef0fcbaed55e53fedd57c44b10113b999aeee96ea7bf2a76e97caddd76a37"
+}

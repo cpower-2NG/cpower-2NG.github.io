@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb04224e765d8a20900",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-05",
+  "date": "2024-03-05",
+  "createdAt": "2024-03-05T13:55:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "有的时候真的佩服sca自这种追求艺术保护作品完整性的人",
+  "text": "有的时候真的佩服sca自这种追求艺术保护作品完整性的人",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04224e765d8a20900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04224e765d8a20900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a2606109d45c11485787d058d6c86a9d20549048063380cc2e336e7521d39d28"
+}

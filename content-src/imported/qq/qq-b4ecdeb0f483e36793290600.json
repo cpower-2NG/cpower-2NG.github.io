@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f483e36793290600",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-26",
+  "date": "2025-03-26",
+  "createdAt": "2025-03-26T04:35:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "明明solo公演是很高兴的事情，怎么回事，我的心情...",
+  "text": "明明solo公演是很高兴的事情，怎么回事，我的心情...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f483e36793290600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f483e36793290600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ccc821e8edde98abc0c3a6039ced1f085666e7463817931b865e1901a7e79947"
+}

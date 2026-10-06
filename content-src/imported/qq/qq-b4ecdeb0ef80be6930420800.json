@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0ef80be6930420800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-21",
+  "date": "2026-03-21",
+  "createdAt": "2026-03-21T11:28:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还好没写信",
+  "text": "还好没写信",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ef80be6930420800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ef80be6930420800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a5aeefe8e55820949522b270353bad85bfe5879217fd0a48c3b5f3e95caff2bb"
+}

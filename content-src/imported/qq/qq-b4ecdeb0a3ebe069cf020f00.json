@@ -1,0 +1,89 @@
+{
+  "id": "qq-b4ecdeb0a3ebe069cf020f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-16",
+  "date": "2026-04-16",
+  "createdAt": "2026-04-16T14:01:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一晚上净用来修手机了。二十块缝缝补补再战一年！",
+  "text": "一晚上净用来修手机了。二十块缝缝补补再战一年！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/740977560c6e2aa15a3af8c99f287e0a56a2251aa1040198c2823f683e6d036c.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIUp8jDC1q3RFFc.ubz4syCStZxxjuIAsj0vcCDfWSr8YmtwgedZ3.5A7u447E87o4A!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/66d05f6f505436e48459794867f2c1cf24a54b16759cc4d02a9b03f5f72ed73c.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIUp8jDC1q3RFFc.ubz4syCSHdShWKmN2cCfZMThpNbyZ5T8pV.aiM7P2wmfU5vJOXQ!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/740977560c6e2aa15a3af8c99f287e0a56a2251aa1040198c2823f683e6d036c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "3218606649_1776350182",
+        "authorLabel": "匿名访客 118440",
+        "text": "强",
+        "createdAt": "2026-04-16T14:36:22.000Z"
+      },
+      {
+        "id": "2426803590_1776351963",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "换电池了啊",
+        "createdAt": "2026-04-16T15:06:03.000Z"
+      },
+      {
+        "id": "2967399604_1776383575",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2026-04-16T23:52:55.000Z"
+      },
+      {
+        "id": "2426803590_1776390229",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "@匿名好友",
+        "createdAt": "2026-04-17T01:43:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a3ebe069cf020f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a3ebe069cf020f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5925a1843d5ed7194c6dda0f32815c89393a32bada2b495436ad6d901ed5d9cd"
+}

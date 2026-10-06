@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0494ecd6742580300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-09",
+  "date": "2025-03-09",
+  "createdAt": "2025-03-09T08:16:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "完蛋了，已经变成没有ai debug不了的人了。",
+  "text": "完蛋了，已经变成没有ai debug不了的人了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0494ecd6742580300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0494ecd6742580300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c8f70931791f465bd806a7e09beb7de7bb288cccf7a0ed4c9ea5b21bb1c8ef54"
+}

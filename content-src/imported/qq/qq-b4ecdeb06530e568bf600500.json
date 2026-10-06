@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb06530e568bf600500",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-07",
+  "date": "2025-10-07",
+  "createdAt": "2025-10-07T15:23:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "两年前的这个时候，我再看百万动画ep1，而今天，我在预习moiw2025。真是前途一片光明啊",
+  "text": "两年前的这个时候，我再看百万动画ep1，而今天，我在预习moiw2025。真是前途一片光明啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06530e568bf600500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06530e568bf600500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "273d6190b924753242313be8fe6048284918ac32ca446204f57b60ea233c715c"
+}

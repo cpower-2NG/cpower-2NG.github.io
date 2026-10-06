@@ -1,0 +1,71 @@
+{
+  "id": "qq-b4ecdeb02564cd689bfc0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-09-19",
+  "date": "2025-09-19",
+  "createdAt": "2025-09-19T14:09:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我终于有了我的第一张名片。没有亲朋好友的帮助，我是做不出这张名片的，大感谢。",
+  "text": "我终于有了我的第一张名片。没有亲朋好友的帮助，我是做不出这张名片的，大感谢。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f052ecacbda2e102f58b4db038f13693bb761ec510bc37297696dde1d695c96b.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIabJ..BXCwlNHwhkcWT4JUWe83qyyKWDdkByD2jhA0YaUcbiVPblHz9XO45KfHH3pw!!/b&bo=JwR.AicEfgIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 235,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be614d9ccae4f706de64b181d2559cb0c388e0c276592638cb17a38c1846746c.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIT5ne4vVLnmpaytr7sQyDJctIhhgiyLoMPK6OuUPEzO6QGiPc.R6mNirXAIOVhfkkQ!!/b&bo=JwR.AicEfgIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 235,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f052ecacbda2e102f58b4db038f13693bb761ec510bc37297696dde1d695c96b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1758291164",
+        "authorLabel": "匿名访客 95864E",
+        "text": "亲朋好友来了，特别好[em]e401187[/em][em]e400409[/em]",
+        "createdAt": "2025-09-19T14:12:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02564cd689bfc0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02564cd689bfc0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1a994e9a01b170b7f37b2bd207b545e182a6be692b968ff38449a4ecf15d976d"
+}

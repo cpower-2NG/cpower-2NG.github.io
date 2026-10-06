@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb0e0a53f695fd20e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-15",
+  "date": "2025-12-15",
+  "createdAt": "2025-12-15T06:08:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "期待",
+  "text": "期待",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1880dec0279f5335bd596e9a35f0583057688adcbba76fbd5154b8f2fd1c7649.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIWmAf*BCEOD68Q5c2x8HK*kUQNAOS2bF.PGnbY0P5aGpm2a*XELJ*SlOumhc5xnGKA!!/b&bo=QAYzBEAGMwQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 263,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1880dec0279f5335bd596e9a35f0583057688adcbba76fbd5154b8f2fd1c7649.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1765779238",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "",
+        "createdAt": "2025-12-15T06:13:58.000Z"
+      },
+      {
+        "id": "3544925287_1765779361",
+        "authorLabel": "匿名访客 95864E",
+        "text": "什么还有男的",
+        "createdAt": "2025-12-15T06:16:01.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e0a53f695fd20e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e0a53f695fd20e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "016d30e862cb4e2dd4a57cc97d63fe9d205e9ad240fd1185efc928fe2f857eae"
+}

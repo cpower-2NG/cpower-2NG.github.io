@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0ead01766afe00400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-04-11",
+  "date": "2024-04-11",
+  "createdAt": "2024-04-11T12:00:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还是届到了（笑）",
+  "text": "还是届到了（笑）",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f3a2e1b749fa8bea2aa5faf92a906b53f489e20b8c7398c81b4b06467690271d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDXUcwzHTjtGSWmb*dvWFtjLReonKgahigTJ5gP1UeuY8VfN.WV4*TLnQzlEiTn1Bw!!/b&bo=ywJtAcsCbQEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 200,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f3a2e1b749fa8bea2aa5faf92a906b53f489e20b8c7398c81b4b06467690271d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ead01766afe00400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ead01766afe00400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a6ceb28e0c11a95bded58fcc854502515a29dcda4882409fb26c7014e076133b"
+}

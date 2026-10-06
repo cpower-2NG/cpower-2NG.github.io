@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0983b536675320d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-26",
+  "date": "2024-05-26",
+  "createdAt": "2024-05-26T13:39:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "怎么rkr也在玩学，学mas是真的火了",
+  "text": "怎么rkr也在玩学，学mas是真的火了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0983b536675320d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0983b536675320d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9ac3f9101ef1932b4f21332faca5e842713cb74e0440d085ae86abc525512f16"
+}

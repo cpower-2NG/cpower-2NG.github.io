@@ -1,0 +1,66 @@
+{
+  "id": "qq-b4ecdeb060295c6ac6520700",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-19",
+  "date": "2026-07-19",
+  "createdAt": "2026-07-19T01:33:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "第一次开球网就是露天场，学校场地还是太好了",
+  "text": "第一次开球网就是露天场，学校场地还是太好了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26eaf5a102d328d4c9006fe47709028f794ecdaa8af4a8ca28ffdbc3f5f43745.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqV8DPjjt.LBbth.rGcURJg.NBTntFAYDE6KwUYVtxitbcRkOBUn*th3zr8NoX27pC7ahr6yYRrNznRyH7IMjb60!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26eaf5a102d328d4c9006fe47709028f794ecdaa8af4a8ca28ffdbc3f5f43745-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26eaf5a102d328d4c9006fe47709028f794ecdaa8af4a8ca28ffdbc3f5f43745-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26eaf5a102d328d4c9006fe47709028f794ecdaa8af4a8ca28ffdbc3f5f43745.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb060295c6ac6520700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb060295c6ac6520700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9433ce61729def25383b92ca8fd1b2c077ef5d0465e77c81d8e6902605fe01b6"
+}

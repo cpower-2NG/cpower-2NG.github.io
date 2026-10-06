@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0d54bf769e09f0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-03",
+  "date": "2026-05-03",
+  "createdAt": "2026-05-03T13:21:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "竟然真的有这个联动企划，果然说出来就有机会实现",
+  "text": "竟然真的有这个联动企划，果然说出来就有机会实现",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/621097b4a9cd82d5f66c2170e695218a5dab099b81661e7184123f3deec1b2a7.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIYmPLSjqBGiNqnVDln9IJ4YdRqeadKDElolO*9RZYnr9AurWzMIwTZNcC.0UiaYoMA!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/621097b4a9cd82d5f66c2170e695218a5dab099b81661e7184123f3deec1b2a7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d54bf769e09f0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d54bf769e09f0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0e7625206bb3c52b75834f9bfd1ca4c2c332144637129c02b241a4fd5283ce22"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a93dfa68e5910500",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-23",
+  "date": "2025-10-23",
+  "createdAt": "2025-10-23T14:37:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "动了动了，又动了",
+  "text": "动了动了，又动了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a93dfa68e5910500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a93dfa68e5910500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bce50814c722faae6bdb662b1bc9eb874270337b61272a1ade3c56cbaf3274b9"
+}

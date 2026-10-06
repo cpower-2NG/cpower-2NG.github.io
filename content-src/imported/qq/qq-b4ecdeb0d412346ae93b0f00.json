@@ -1,0 +1,73 @@
+{
+  "id": "qq-b4ecdeb0d412346ae93b0f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-18",
+  "date": "2026-06-18",
+  "createdAt": "2026-06-18T15:46:28.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "「プロデューサー、見て。大きな私だ、よ。…『篠澤くん』、いい響きね。」 「ダメ。私が先なのに。プロデューサー、悪い人。」 ！！！ムキムキひろちゃん、降臨！！！",
+  "text": "「プロデューサー、見て。大きな私だ、よ。…『篠澤くん』、いい響きね。」\n「ダメ。私が先なのに。プロデューサー、悪い人。」\n！！！ムキムキひろちゃん、降臨！！！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bb007d50b06d6073fa0988c9e4926d089058eb86b6c3a8eefdbc37f134ea9e85.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIWjI5rkNgFvNEigltpGPXZTxAxlDln3..32QOylWWCa7mSW0B6OcslCqkUAOzK7FDA!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8afca23af6527c93e44755634f3b28cd7c468eec80e20921020dac0ffad253b1.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbSHCIF54HGjJxSokmjUv4FNSLuhhUh25vLZtXt2iWz9DCYyKEd9*e5YNIw.mcX3oA!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74196f23a04b2dab08402476aacbfb07ea7232b1cb7b579bb88ca25123f00e5a.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZAgfD.0Gb0SQd5qtjP.4AQHb0cTanqFqXkrC4vquPzqtHi9XiIX3N1sBJd9Wh32WQ!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bb007d50b06d6073fa0988c9e4926d089058eb86b6c3a8eefdbc37f134ea9e85.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d412346ae93b0f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d412346ae93b0f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ab4579190189dc6d383e5c2e5769003febae28f4c7882e57d32cf165005779f1"
+}

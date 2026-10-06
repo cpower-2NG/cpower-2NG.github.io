@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0bfbd656619c00100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-09",
+  "date": "2024-06-09",
+  "createdAt": "2024-06-09T14:35:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "再一次地认识到「现实」的复杂与扭错，其残酷不只在于抉择时的两难与无助，在于面对无穷的可能性不是一个简单的概率问题，背后藏纳着无穷多的相关信息无法认识完全，更别提",
+  "text": "再一次地认识到「现实」的复杂与扭错，其残酷不只在于抉择时的两难与无助，在于面对无穷的可能性不是一个简单的概率问题，背后藏纳着无穷多的相关信息无法认识完全，更别提获取的困难与新的问题。这对习惯了「学习」的学生无疑是一次世界观的冲击。或许宗教等方法论工具得以广泛传播的原因就在于其用某种或神秘或蛮横的规则来实现简略化。宗教，是人民的鸦片。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1717944470",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "教育服务于社会再生产，而非认识真理。该破界的。",
+        "createdAt": "2024-06-09T14:47:50.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bfbd656619c00100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bfbd656619c00100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "271a42ea97c7ac1b32d3302b514c6db4f62b51cef3e6cd48f371ac9052d6e035"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb089d5f669f82a0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-03",
+  "date": "2026-05-03",
+  "createdAt": "2026-05-03T04:56:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "什么叫我干活要像兄弟会一样潜行",
+  "text": "什么叫我干活要像兄弟会一样潜行",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1777784405",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "算我没早起摸黑，总算成功了",
+        "createdAt": "2026-05-03T05:00:05.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb089d5f669f82a0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb089d5f669f82a0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ded864988fe021052602cdaf6316ee4c23213c6eef7bbea16e0db8f75993500d"
+}

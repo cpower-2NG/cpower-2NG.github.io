@@ -1,0 +1,82 @@
+{
+  "id": "qq-b4ecdeb0351bd667083a0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-16",
+  "date": "2025-03-16",
+  "createdAt": "2025-03-16T00:28:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "怎么会做自己性转的春梦",
+  "text": "怎么会做自己性转的春梦",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 6,
+    "comments": [
+      {
+        "id": "1328025956_1742088044",
+        "authorLabel": "匿名访客 B77149",
+        "text": "位更寄[em]e10277[/em]",
+        "createdAt": "2025-03-16T01:20:44.000Z"
+      },
+      {
+        "id": "3544925287_1742089209",
+        "authorLabel": "匿名访客 95864E",
+        "text": "那很好了",
+        "createdAt": "2025-03-16T01:40:09.000Z"
+      },
+      {
+        "id": "2033020087_1742092256",
+        "authorLabel": "匿名访客 28811E",
+        "text": "哇哦",
+        "createdAt": "2025-03-16T02:30:56.000Z"
+      },
+      {
+        "id": "3014862083_1742096394",
+        "authorLabel": "匿名访客 C1D0C9",
+        "text": "？",
+        "createdAt": "2025-03-16T03:39:54.000Z"
+      },
+      {
+        "id": "2474317320_1742098637",
+        "authorLabel": "匿名访客 445DB1",
+        "text": "那很爽了[em]e179[/em]",
+        "createdAt": "2025-03-16T04:17:17.000Z"
+      },
+      {
+        "id": "386578751_1742195604",
+        "authorLabel": "匿名访客 F60DD6",
+        "text": "[em]e400353[/em]",
+        "createdAt": "2025-03-17T07:13:24.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0351bd667083a0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0351bd667083a0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a034fe30ff9a4c7aa605c5e5884881fe6541e5773b77339da1d20affe4be7a8d"
+}

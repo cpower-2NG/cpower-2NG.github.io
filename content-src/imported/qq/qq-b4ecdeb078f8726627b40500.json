@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb078f8726627b40500",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-19",
+  "date": "2024-06-19",
+  "createdAt": "2024-06-19T15:25:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "広，让我们明天一起躺在床上下不来吧。",
+  "text": "広，让我们明天一起躺在床上下不来吧。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28ffaf2114e2f0981b5da0ceca770d3780e8a0b14df311ec0d334ee9c14f70d0.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzKrulC4zbOMWo87XWtuzmfLi.OEHf10uj2tSI11x3lWL.Z6Inho3V1a8SLACP9KeZg!!/b&bo=QAIeAUACHgEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 195,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28ffaf2114e2f0981b5da0ceca770d3780e8a0b14df311ec0d334ee9c14f70d0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1718850025",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "好像没什么事的样子",
+        "createdAt": "2024-06-20T02:20:25.000Z"
+      },
+      {
+        "id": "2967399604_1718850254",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 看来不用和広一起躺床上了",
+        "createdAt": "2024-06-20T02:24:14.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb078f8726627b40500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb078f8726627b40500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3655fa69a6df36fffbbef97142a681b5a9baa116d936dd0a6e3945f2b5ed07eb"
+}

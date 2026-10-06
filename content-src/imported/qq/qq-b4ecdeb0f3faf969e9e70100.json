@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0f3faf969e9e70100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-05",
+  "date": "2026-05-05",
+  "createdAt": "2026-05-05T14:13:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "其实我一直都只是喜欢看着热闹的场面，看着人们欢笑打闹，而不是真的参与进去吧。",
+  "text": "其实我一直都只是喜欢看着热闹的场面，看着人们欢笑打闹，而不是真的参与进去吧。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1777990962",
+        "authorLabel": "匿名访客 95864E",
+        "text": "我支持",
+        "createdAt": "2026-05-05T14:22:42.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f3faf969e9e70100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f3faf969e9e70100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bd8e6ebfc9a0edf7303535160ffd4f646344ebe5d0bd312bbd462c331ea1c704"
+}

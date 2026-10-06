@@ -1,0 +1,61 @@
+{
+  "id": "qq-b4ecdeb0c2485667164d0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-09",
+  "date": "2024-12-09",
+  "createdAt": "2024-12-09T01:32:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "天天跟磕药一样自嗨，是不是有点生人免进了",
+  "text": "天天跟磕药一样自嗨，是不是有点生人免进了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c7290cf7c07c83a20109ea65394064525777a013a14607bfaed05e543fe46973.gif",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEMIu4ndu1NylHboyFBPVxyt4mllGqBsQiYY2fWnjnEbDTVv8dWhx4G0zbBIwbZWxuB2COPr6S2aXu6zWPrfUFs4!/b&bo=9AH0AfQB9AECEDQ!",
+      "width": 500,
+      "height": 16500,
+      "sourceQuality": "low",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c7290cf7c07c83a20109ea65394064525777a013a14607bfaed05e543fe46973-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c7290cf7c07c83a20109ea65394064525777a013a14607bfaed05e543fe46973.gif",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c2485667164d0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c2485667164d0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f472021a7ae62e610cc1585656b2d70c7b29c0cc79c30201c6f3ca33025cf71e"
+}

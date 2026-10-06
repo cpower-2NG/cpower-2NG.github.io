@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb0e086d06993c70e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-04",
+  "date": "2026-04-04",
+  "createdAt": "2026-04-04T03:34:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "拿平板搞了个临时副屏，不赖",
+  "text": "拿平板搞了个临时副屏，不赖",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bd35dd26077bd6aebe3dd4ae3ee66e7b4d91b1705b0a8fc40d74532dcb8fe98e.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIW*RX5jsQr.v*PWdMiOcrZvuAkVksYpSf80qNhly2m2mM9B3qTGTH91QR4mlaZmhbw!!/b&bo=QAbQAkAG0AIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 176,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bd35dd26077bd6aebe3dd4ae3ee66e7b4d91b1705b0a8fc40d74532dcb8fe98e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2312194090_1775273752",
+        "authorLabel": "匿名访客 64B381",
+        "text": "爽飞了",
+        "createdAt": "2026-04-04T03:35:52.000Z"
+      },
+      {
+        "id": "3544925287_1775277106",
+        "authorLabel": "匿名访客 95864E",
+        "text": "给我玩",
+        "createdAt": "2026-04-04T04:31:46.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e086d06993c70e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e086d06993c70e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4a7014fad7a8cd529a4b21a0babf8baa790348bff19a33f874055d1080fa4e20"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0fe74466a01890200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-02",
+  "date": "2026-07-02",
+  "createdAt": "2026-07-02T14:26:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "写报告写一晚上了，不对，好像好几个晚上了",
+  "text": "写报告写一晚上了，不对，好像好几个晚上了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fe74466a01890200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fe74466a01890200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ca1e489be28dc8b8a35b3044af868bc1621e2929331b147cbe9145ab97cea111"
+}

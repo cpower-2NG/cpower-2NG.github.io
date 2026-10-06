@@ -1,0 +1,74 @@
+{
+  "id": "qq-b4ecdeb023e9db68c8ad0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-09-30",
+  "date": "2025-09-30",
+  "createdAt": "2025-09-30T14:28:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ひろちゃん、夜ご飯だよ。みんなと一緒に食べたんだね",
+  "text": "ひろちゃん、夜ご飯だよ。みんなと一緒に食べたんだね",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53bebc278905f78e3ce1771458c61cb4f920513a7b755d779fc3cd7a3a4644fd.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbunkq6NV3sLBXJ1C95bMRQdPqqgXDs*XNa68SroJ1czkuOqrU.dc5zv680TrhHAUg!!/b&bo=jwMAAo8DAAIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 220,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53bebc278905f78e3ce1771458c61cb4f920513a7b755d779fc3cd7a3a4644fd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "2312194090_1759242897",
+        "authorLabel": "匿名访客 64B381",
+        "text": "这么爽的吗",
+        "createdAt": "2025-09-30T14:34:57.000Z"
+      },
+      {
+        "id": "3544925287_1759242933",
+        "authorLabel": "匿名访客 95864E",
+        "text": "路过吃一口",
+        "createdAt": "2025-09-30T14:35:33.000Z"
+      },
+      {
+        "id": "836859719_1759245400",
+        "authorLabel": "匿名访客 E88702",
+        "text": "你好我吃一口",
+        "createdAt": "2025-09-30T15:16:40.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb023e9db68c8ad0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb023e9db68c8ad0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "19085557bdfd54b03d63785175db4242d27a34dbeb24a2e1f56e34cd24fd39db"
+}

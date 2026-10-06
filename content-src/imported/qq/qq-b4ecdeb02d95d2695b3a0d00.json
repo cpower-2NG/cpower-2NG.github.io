@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02d95d2695b3a0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-05",
+  "date": "2026-04-05",
+  "createdAt": "2026-04-05T17:00:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我还是喜欢「爱与正义」啊",
+  "text": "我还是喜欢「爱与正义」啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02d95d2695b3a0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02d95d2695b3a0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "31c2099ef8e143c7547c9cfb7d24955ee4891f621cb39908a05a85f333b7e38a"
+}

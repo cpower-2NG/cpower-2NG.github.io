@@ -1,0 +1,76 @@
+{
+  "id": "qq-b4ecdeb012407f6754cf0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-09",
+  "date": "2025-01-09",
+  "createdAt": "2025-01-09T03:18:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我空间怎么被flj团建了",
+  "text": "我空间怎么被flj团建了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 4,
+    "comments": [
+      {
+        "id": "3544925287_1736392776",
+        "authorLabel": "匿名访客 95864E",
+        "text": "？啊？",
+        "createdAt": "2025-01-09T03:19:36.000Z"
+      },
+      {
+        "id": "1253041798_1736394825",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "纳尼",
+        "createdAt": "2025-01-09T03:53:45.000Z"
+      },
+      {
+        "id": "2967399604_1736398432",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "还来",
+        "createdAt": "2025-01-09T04:53:52.000Z"
+      },
+      {
+        "id": "3525208253_1736398889",
+        "authorLabel": "匿名访客 B5EC2B",
+        "text": "是我想的那个flj吗",
+        "createdAt": "2025-01-09T05:01:29.000Z"
+      },
+      {
+        "id": "2967399604_1736399182",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 大概吧",
+        "createdAt": "2025-01-09T05:06:22.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb012407f6754cf0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb012407f6754cf0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "23dfd1ebf948d8c586abd0f21bddf403523a1a7d14cda7ed16dff28436c8709c"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0159d626665800100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-07",
+  "date": "2024-06-07",
+  "createdAt": "2024-06-07T05:39:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "p了一把広，终于截到了完美的一张！",
+  "text": "p了一把広，终于截到了完美的一张！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/819299b7c8b3d5731879cc0336b89994f72bda96577a69a0b84609af6f32d117.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzLr39O8X6UB6uVJpCV3a.P3tz5pSaJU2pRkv..Q7fAXTc1j*3cWTruNSojRfHHVEGg!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/819299b7c8b3d5731879cc0336b89994f72bda96577a69a0b84609af6f32d117.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0159d626665800100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0159d626665800100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3ec24692c2b427f1d0e87513d10d37f7bc4a906fd660efdf264c51441198f598"
+}

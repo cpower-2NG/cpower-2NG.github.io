@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb025479565ab290300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-03",
+  "date": "2024-01-03",
+  "createdAt": "2024-01-03T11:38:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "觉得听力女声好听是否搞错了什么",
+  "text": "觉得听力女声好听是否搞错了什么",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1704282029",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "↑这就是声豚",
+        "createdAt": "2024-01-03T11:40:29.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb025479565ab290300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb025479565ab290300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "80891cc66ec24e952eb6f538152dd142546f6aa47958ca3e1f7569bfff7e6c7d"
+}

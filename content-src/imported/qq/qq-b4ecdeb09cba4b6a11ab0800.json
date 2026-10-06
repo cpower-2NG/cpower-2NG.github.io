@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb09cba4b6a11ab0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-06",
+  "date": "2026-07-06",
+  "createdAt": "2026-07-06T14:24:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "甚至标了玲音",
+  "text": "甚至标了玲音",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c17b7df52424600d2184959ef276523c16f57f9e81883b9de31f326c9f31cabd.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZ6tY3LO**VHmf*mev4g4ro2plO*0CE*8JYiRu*WRDBZYwqtn7FBv.Bm9d1F40uvZw!!/b&bo=QAaFA0AGhQMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c17b7df52424600d2184959ef276523c16f57f9e81883b9de31f326c9f31cabd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09cba4b6a11ab0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09cba4b6a11ab0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "8adcb2b4871070742a6eb6e7204fa235bc1fa5f7f65ea43bba700d2820a1b4c1"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b390eb68c97d0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-12",
+  "date": "2025-10-12",
+  "createdAt": "2025-10-12T11:27:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这情绪一点点累计，不敢想アイ NEED YOU的合唱我会是什么状态",
+  "text": "这情绪一点点累计，不敢想アイ NEED YOU的合唱我会是什么状态",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b390eb68c97d0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b390eb68c97d0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "76feb69f23053e9fead505f2aec93744621e2415bd770329c26702dcc59744db"
+}

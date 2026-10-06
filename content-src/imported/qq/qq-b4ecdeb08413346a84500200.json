@@ -1,0 +1,73 @@
+{
+  "id": "qq-b4ecdeb08413346a84500200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-18",
+  "date": "2026-06-18",
+  "createdAt": "2026-06-18T15:49:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "感谢@{uin:953260048,nick:RB,who:1} 哥，偶像大师浓度全靠汉化组朋友接济。 附上顶着ひろちゃん的篠澤くん，本人已被萌化",
+  "text": "感谢@{uin:953260048,nick:RB,who:1} 哥，偶像大师浓度全靠汉化组朋友接济。\n附上顶着ひろちゃん的篠澤くん，本人已被萌化",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2412a693b764ca9d6f50fe3fb60fe6326d21eeee66232aa8a21d50e22022ee.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqfK3bRxDYZKHno4IKSaopyMqaBZN4afZ3jGg1tevptRLrDi*qAILh0pKJv*didatLb8bw.NPHaAEutm.O1YxZgQ!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2412a693b764ca9d6f50fe3fb60fe6326d21eeee66232aa8a21d50e22022ee-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2412a693b764ca9d6f50fe3fb60fe6326d21eeee66232aa8a21d50e22022ee-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2412a693b764ca9d6f50fe3fb60fe6326d21eeee66232aa8a21d50e22022ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2426803590_1781847780",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "圆梦大师zheizhei",
+        "createdAt": "2026-06-19T05:43:00.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08413346a84500200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08413346a84500200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "05a463417285e9b0eeddc8a773e97259a118043a2c8d72cbeca83b77248782a8"
+}

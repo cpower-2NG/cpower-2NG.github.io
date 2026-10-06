@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb096bcbc668ed40800",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-08-14",
+  "date": "2024-08-14",
+  "createdAt": "2024-08-14T14:17:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "有趣游戏寻找中，闲下来就发现好久没正经玩什么游戏了",
+  "text": "有趣游戏寻找中，闲下来就发现好久没正经玩什么游戏了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1328025956_1723648153",
+        "authorLabel": "匿名访客 B77149",
+        "text": "p5好玩，今天刚刚玩",
+        "createdAt": "2024-08-14T15:09:13.000Z"
+      },
+      {
+        "id": "2052840684_1723648828",
+        "authorLabel": "匿名访客 460869",
+        "text": "十三机兵防卫圈",
+        "createdAt": "2024-08-14T15:20:28.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb096bcbc668ed40800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb096bcbc668ed40800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2324c8018c6e50fbfb56c42679bd1e88bc16a2d25a7e6de1b80d2910d89db606"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb086d3b369f8340500",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-13",
+  "date": "2026-03-13",
+  "createdAt": "2026-03-13T09:06:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "おっけおっけ也变成我的口头禅了，令人感叹。",
+  "text": "おっけおっけ也变成我的口头禅了，令人感叹。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb086d3b369f8340500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb086d3b369f8340500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5b0bae8c97ee3bae69a8d95191385d1beaba801382e00e32233322cc47c47318"
+}

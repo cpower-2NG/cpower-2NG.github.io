@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb03652dd682e950c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-01",
+  "date": "2025-10-01",
+  "createdAt": "2025-10-01T16:09:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "是不是有点得意忘形了...",
+  "text": "是不是有点得意忘形了...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "836859719_1759368297",
+        "authorLabel": "匿名访客 E88702",
+        "text": "这是牢深的福报",
+        "createdAt": "2025-10-02T01:24:57.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03652dd682e950c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03652dd682e950c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "8ed070144db0124af702c5271fa7f28bf28d33f56c57adfab7cffaf34390328c"
+}

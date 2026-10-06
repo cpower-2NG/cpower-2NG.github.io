@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0ce4edd68cd0f0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-01",
+  "date": "2025-10-01",
+  "createdAt": "2025-10-01T15:54:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好困，但是好激动",
+  "text": "好困，但是好激动",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ce4edd68cd0f0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ce4edd68cd0f0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4499c5984bc06b3c7349f8d5b9c4553b3ac7714fb03fedf1dba71081604d274e"
+}

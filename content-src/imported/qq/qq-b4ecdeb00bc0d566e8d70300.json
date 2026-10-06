@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb00bc0d566e8d70300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-02",
+  "date": "2024-09-02",
+  "createdAt": "2024-09-02T13:39:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "竟然突然认识到网易云降了最大音量的好处",
+  "text": "竟然突然认识到网易云降了最大音量的好处",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1725284896",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "而且竟然感觉解析度上升了",
+        "createdAt": "2024-09-02T13:48:16.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00bc0d566e8d70300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00bc0d566e8d70300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "11ea42feedbdba35d0f5f3b18d4c1cfda40f1c8ed9f4ca58ab11a29fe6861572"
+}

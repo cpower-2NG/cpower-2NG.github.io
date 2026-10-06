@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb08287626636000400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-07",
+  "date": "2024-06-07",
+  "createdAt": "2024-06-07T04:07:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这就是学园偶像大师苍系信号灯给我的自信",
+  "text": "这就是学园偶像大师苍系信号灯给我的自信",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/42aac5008696b29d99b78e4221005f997231ba6ebaf5a4d18425b230b4301680.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzKrulC4zbOMWo87XWtuzmfJYpQiV33K52RdVbIb8dVGvljScmj0hXrRa5yW2mrfP0Q!!/b&bo=.QMTBfkDEwUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 501,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/42aac5008696b29d99b78e4221005f997231ba6ebaf5a4d18425b230b4301680.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08287626636000400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08287626636000400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0193d4e54b1d4eb4e98a1c26814cdff99c8c76f569c72f05cfbe64ddf57703d6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb09463cd68eb0e0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-09-19",
+  "date": "2025-09-19",
+  "createdAt": "2025-09-19T14:07:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "「これがプロデューサーの名刺だ、ね」",
+  "text": "「これがプロデューサーの名刺だ、ね」",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2ff455cdd1822f214912187bf138c348497ee578d9d0ccc7886995b81069bf3f.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZ6*7GyvZxnl.GbRlSLTx*TEEoWaS56SZX.xXmS8mvc6k16Gv0FXCTLr1i*biXEsmw!!/b&bo=OASABzgEgAcWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 697,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2ff455cdd1822f214912187bf138c348497ee578d9d0ccc7886995b81069bf3f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09463cd68eb0e0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09463cd68eb0e0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a88ecebdc5a253918abab1bdf2c2ddfb6bd1fb8fc01b9c54453ba4c79f048dd0"
+}

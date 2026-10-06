@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb05c2a896782010000",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-16",
+  "date": "2025-01-16",
+  "createdAt": "2025-01-16T15:48:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "应该是第一次学到犯恶心",
+  "text": "应该是第一次学到犯恶心",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "3544925287_1737042783",
+        "authorLabel": "匿名访客 95864E",
+        "text": "加油",
+        "createdAt": "2025-01-16T15:53:03.000Z"
+      },
+      {
+        "id": "1328025956_1737082361",
+        "authorLabel": "匿名访客 B77149",
+        "text": "余幼时既厌学，遂不学[em]e10277[/em]",
+        "createdAt": "2025-01-17T02:52:41.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05c2a896782010000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05c2a896782010000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "cc810bd075be31c977886985317d63bd1ca5b0172f6aabdce0e10aa9be739d59"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0975d64669dd00000",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-08",
+  "date": "2024-06-08",
+  "createdAt": "2024-06-08T13:33:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "或许，我并不适合美咲...",
+  "text": "或许，我并不适合美咲...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0975d64669dd00000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0975d64669dd00000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2683d03db77bf9431c5443f0f90c35b674ab3299dbd995715dc8fa00a8639d34"
+}

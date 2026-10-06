@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0625f3f6938520800",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-15",
+  "date": "2025-12-15",
+  "createdAt": "2025-12-15T01:07:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "「星の標求めながら この旅路は続いている」",
+  "text": "「星の標求めながら\nこの旅路は続いている」",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0625f3f6938520800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0625f3f6938520800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3f3529d145437ff7dc55cf9250f9f67821ab0fc975125af9e6f2e1adb9e1ea08"
+}

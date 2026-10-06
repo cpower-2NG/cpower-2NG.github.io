@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0a7881a66be370400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-04-13",
+  "date": "2024-04-13",
+  "createdAt": "2024-04-13T13:29:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "表达感动的言语在现实面前是如此的苍白无力，我隐约理解了脱宅的大友了。",
+  "text": "表达感动的言语在现实面前是如此的苍白无力，我隐约理解了脱宅的大友了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1713019735",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "与苦难抗争的现实",
+        "createdAt": "2024-04-13T14:48:55.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a7881a66be370400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a7881a66be370400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "81777005254645970722da16ecee835204964b15131092d70c0a30f48ba03edc"
+}

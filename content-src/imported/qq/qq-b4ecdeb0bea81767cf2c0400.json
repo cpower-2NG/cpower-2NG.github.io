@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb0bea81767cf2c0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-22",
+  "date": "2024-10-22",
+  "createdAt": "2024-10-22T13:29:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "强风吹拂！",
+  "text": "强风吹拂！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53f7f64fffaf672d436f5be09de12bf8e8c363e96e08de19e8fc6f8d12ea477b.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEAK.6ANZKf31qgCdRDj.0J9gPAs6rJY1PGtEAikxhccTiXUBOL5JkmS9TgKGtl4m10*1i8tCaM874gvpGydoakU!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53f7f64fffaf672d436f5be09de12bf8e8c363e96e08de19e8fc6f8d12ea477b-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53f7f64fffaf672d436f5be09de12bf8e8c363e96e08de19e8fc6f8d12ea477b.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1729603888",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "今晚的风格外的大",
+        "createdAt": "2024-10-22T13:31:28.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bea81767cf2c0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bea81767cf2c0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7cd684a89445cbd4f3645c3c2ee5024d3608502f750d08a4f171cf81164c0d7b"
+}

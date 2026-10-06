@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb0578214674da80d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-20",
+  "date": "2024-10-20",
+  "createdAt": "2024-10-20T04:08:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "学校动漫社竟然在谈论本家动画，我有点是在做梦",
+  "text": "学校动漫社竟然在谈论本家动画，我有点是在做梦",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2312194090_1729398927",
+        "authorLabel": "匿名访客 64B381",
+        "text": "甚好",
+        "createdAt": "2024-10-20T04:35:27.000Z"
+      },
+      {
+        "id": "2033020087_1729401345",
+        "authorLabel": "匿名访客 28811E",
+        "text": "真好啊",
+        "createdAt": "2024-10-20T05:15:45.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0578214674da80d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0578214674da80d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "567535eb32be168b6a236c982abbb12abacf0dd5c3bf313e9048688ffbe934e8"
+}

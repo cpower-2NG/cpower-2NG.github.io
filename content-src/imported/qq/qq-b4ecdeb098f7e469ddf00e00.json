@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb098f7e469ddf00e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-19",
+  "date": "2026-04-19",
+  "createdAt": "2026-04-19T15:41:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "相当于我现在有一张4070Ti显卡？！",
+  "text": "相当于我现在有一张4070Ti显卡？！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1776613616",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "不知道能玩到什么时候，物尽其用吧",
+        "createdAt": "2026-04-19T15:46:56.000Z"
+      },
+      {
+        "id": "2426803590_1776695073",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "有实力",
+        "createdAt": "2026-04-20T14:24:33.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb098f7e469ddf00e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb098f7e469ddf00e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "306a4649ab74b40645a99a6e5def23fe021ca901f571f25bfad82770eb0f56d5"
+}

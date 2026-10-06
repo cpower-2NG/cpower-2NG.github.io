@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0d180d9652fde0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-24",
+  "date": "2024-02-24",
+  "createdAt": "2024-02-24T05:38:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "唉，怎么这么多人现地，柏油真全员出动了，羡慕",
+  "text": "唉，怎么这么多人现地，柏油真全员出动了，羡慕",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d180d9652fde0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d180d9652fde0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2d0db0d62a44064465abb6464398b4ec3f80f199b67624e9429a03289b581cec"
+}

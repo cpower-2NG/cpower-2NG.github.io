@@ -1,0 +1,61 @@
+{
+  "id": "qq-b4ecdeb08d0b2a679d6d0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-11-05",
+  "date": "2024-11-05",
+  "createdAt": "2024-11-05T12:11:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一定是熬夜的原因",
+  "text": "一定是熬夜的原因",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8944982e79cefbe6fb79079cf231b8915e191f89917789e8d89ac665f66dcb4.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEOmVJBaSn1lZotyGic4vr1YbGPynYOAtys4TCrwhSAVjja0HoIehT.vYEktH6mO0DV1lVcKEzBDajGCVz5PRmRU!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8944982e79cefbe6fb79079cf231b8915e191f89917789e8d89ac665f66dcb4-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8944982e79cefbe6fb79079cf231b8915e191f89917789e8d89ac665f66dcb4.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08d0b2a679d6d0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08d0b2a679d6d0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1b4acf9bafd1ea9237e529e6c716130683a479726ce4f44b085d7ab37a31ab93"
+}

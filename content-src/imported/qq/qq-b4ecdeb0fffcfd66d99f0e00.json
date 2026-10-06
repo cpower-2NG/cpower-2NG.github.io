@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0fffcfd66d99f0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-03",
+  "date": "2024-10-03",
+  "createdAt": "2024-10-03T02:10:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "大家对琴音漫画的评价意外的低啊",
+  "text": "大家对琴音漫画的评价意外的低啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1727924482",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "明明我看得一把鼻涕一把泪",
+        "createdAt": "2024-10-03T03:01:22.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fffcfd66d99f0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fffcfd66d99f0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ab46a0eb75594fa19aba29b6a17fd5bc5a3a9a8cffc96e9a2b4745c49521900b"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0825f156a79720200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-26",
+  "date": "2026-05-26",
+  "createdAt": "2026-05-26T08:53:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "设备开发问题太多了。什么叫苹果的热点能用，其他手机的热点用不了TCP",
+  "text": "设备开发问题太多了。什么叫苹果的热点能用，其他手机的热点用不了TCP",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1779787024",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "鸿蒙应用开发被苹果独占了",
+        "createdAt": "2026-05-26T09:17:04.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0825f156a79720200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0825f156a79720200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bced0870f5acdec9890fd0196e9eaba1b709bc254b35df7c471d5974dc5dac49"
+}

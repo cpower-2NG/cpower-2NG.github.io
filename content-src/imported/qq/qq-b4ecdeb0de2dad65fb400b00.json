@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0de2dad65fb400b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-21",
+  "date": "2024-01-21",
+  "createdAt": "2024-01-21T14:44:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真白真是完美的小女友啊",
+  "text": "真白真是完美的小女友啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0de2dad65fb400b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0de2dad65fb400b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4cca9440d487a8e764c7feb4bb1cdd52151a993bc4e8e4895e24ee3fc82e2ff6"
+}

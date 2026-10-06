@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0b383456624f20100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-16",
+  "date": "2024-05-16",
+  "createdAt": "2024-05-16T03:55:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "去大专喽",
+  "text": "去大专喽",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f8736ae3c129876eff86049ef24279de03e6f163d75fd76a7f2cbfc39aa8383d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzL9f0Y8yeYahuMdWzSAhiUApEoTmm2Q*SDgFu13Sz5HlQVXSAUICrdqTmJv6SLnc5g!!/b&bo=aQI4BGkCOAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 686,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f8736ae3c129876eff86049ef24279de03e6f163d75fd76a7f2cbfc39aa8383d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b383456624f20100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b383456624f20100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ca5f0914c8473d6e801dcf994b312a593972190924ad513cc05ccecab4de040c"
+}

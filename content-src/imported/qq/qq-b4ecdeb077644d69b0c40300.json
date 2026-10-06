@@ -1,0 +1,96 @@
+{
+  "id": "qq-b4ecdeb077644d69b0c40300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-25",
+  "date": "2025-12-25",
+  "createdAt": "2025-12-25T16:21:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真是不可思议的一年啊",
+  "text": "真是不可思议的一年啊",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/93bfea90aeff71def93e212819e5b5b12c311822325fa9b00c2166a548216a40.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrENlQ6fXyxcp3H3yWiIb8PB8KLLWlKg64vmH3xu2VuVEAqOrsHrPmWamgPhVUmYaahI0F*HRHCSgg.TjVYVVvlzg!/b&bo=HAtABhwLQAYRECc!",
+      "width": 2844,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/93bfea90aeff71def93e212819e5b5b12c311822325fa9b00c2166a548216a40-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/93bfea90aeff71def93e212819e5b5b12c311822325fa9b00c2166a548216a40-960.webp",
+          "width": 960,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/93bfea90aeff71def93e212819e5b5b12c311822325fa9b00c2166a548216a40-1600.webp",
+          "width": 1600,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2c2d7bd697e7d0bdb9654f0ecadb031273ff7cf90d59cced526baf825dea00a.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrENlQ6fXyxcp3H3yWiIb8PB93BueRNaF*2O0JHfKfcH2ZORmCEvCJg2IX2lJaAQT63.MG*H5xTOd8MWxY6sqJbMY!/b&bo=HAtABhwLQAYRECc!",
+      "width": 2844,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2c2d7bd697e7d0bdb9654f0ecadb031273ff7cf90d59cced526baf825dea00a-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2c2d7bd697e7d0bdb9654f0ecadb031273ff7cf90d59cced526baf825dea00a-960.webp",
+          "width": 960,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2c2d7bd697e7d0bdb9654f0ecadb031273ff7cf90d59cced526baf825dea00a-1600.webp",
+          "width": 1600,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/93bfea90aeff71def93e212819e5b5b12c311822325fa9b00c2166a548216a40.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb077644d69b0c40300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb077644d69b0c40300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5c8848aacf3c1941f29368a710fe457ed95b89f72807f340c820fa710e9c85af"
+}

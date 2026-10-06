@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0e65ac769087d0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-28",
+  "date": "2026-03-28",
+  "createdAt": "2026-03-28T04:36:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "潮死了",
+  "text": "潮死了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/586949715d4fe0d5aaee91e988dcf3e772f416a6938d0ae260e04ef6218f089a.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXITSuBufhjI.fLs5NSmQI1sDyVHKm4I*u3a6owIyWPhJp1BlykZbxlpf7g0Oli6Sj3g!!/b&bo=cgFAAXIBQAECACQ!",
+      "width": 370,
+      "height": 320,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/586949715d4fe0d5aaee91e988dcf3e772f416a6938d0ae260e04ef6218f089a.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e65ac769087d0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e65ac769087d0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c160f1b5824f461ba6afd3bb7dd4c4aa5c100a4aaa18bb47bac5856baa9f57d0"
+}

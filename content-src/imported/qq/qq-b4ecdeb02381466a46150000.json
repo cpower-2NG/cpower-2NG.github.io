@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb02381466a46150000",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-02",
+  "date": "2026-07-02",
+  "createdAt": "2026-07-02T15:17:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "虽然可能确实很烂，但我真挺喜欢超天酱动画的，把我认为该做的都做的",
+  "text": "虽然可能确实很烂，但我真挺喜欢超天酱动画的，把我认为该做的都做的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "836859719_1783006259",
+        "authorLabel": "匿名访客 E88702",
+        "text": "又好又孬这一块",
+        "createdAt": "2026-07-02T15:30:59.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02381466a46150000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02381466a46150000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1bfd33149624d87ad1703e2c348857c2b59892bf7ec01f1c5bb5cf405f28b57b"
+}

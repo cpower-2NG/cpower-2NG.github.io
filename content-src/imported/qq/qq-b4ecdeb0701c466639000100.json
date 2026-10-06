@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0701c466639000100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-16",
+  "date": "2024-05-16",
+  "createdAt": "2024-05-16T14:47:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "即刻退学！",
+  "text": "即刻退学！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1715871810",
+        "authorLabel": "匿名访客 95864E",
+        "text": "？？？",
+        "createdAt": "2024-05-16T15:03:30.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0701c466639000100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0701c466639000100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "21e1e1e0d7f05a03ad6d7907ce7f87d5b5f13e729b053db99ef00ce73a52b7fc"
+}

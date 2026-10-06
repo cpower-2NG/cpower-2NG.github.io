@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb096cb766a6a720e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-08-08",
+  "date": "2026-08-08",
+  "createdAt": "2026-08-08T06:24:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "每次谈到仓科明日香，都越发的为其超人般超越一切的个性所感动。大概之后也遇不到这样的人物了",
+  "text": "每次谈到仓科明日香，都越发的为其超人般超越一切的个性所感动。大概之后也遇不到这样的人物了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb096cb766a6a720e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb096cb766a6a720e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2091f50817d5bb1e22f41f5daebe63f0bd5ca4f6a716063690500f4d438afb49"
+}

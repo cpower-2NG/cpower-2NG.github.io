@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01e4fc46716db0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-02",
+  "date": "2025-03-02",
+  "createdAt": "2025-03-02T12:29:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "闪好像真的很擅长催眠",
+  "text": "闪好像真的很擅长催眠",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01e4fc46716db0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01e4fc46716db0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9bee7e7a9a13531b646fd6a4eb23a1dd5bf331e0d010bd561555af744bc574f6"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "qq-b4ecdeb02f7b7e685dfe0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-07-21",
+  "date": "2025-07-21",
+  "createdAt": "2025-07-21T17:38:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "玩到自己汉化的游戏的感动，话说回来，第一位果然还得是春香吧（笑）",
+  "text": "玩到自己汉化的游戏的感动，话说回来，第一位果然还得是春香吧（笑）",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53895754a5bfe830f2dac6311658722e5a49622be48d77041de0927013222bf4.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXITM7WmgZCY2sUTSLVLgss2PjNrmoiCqczj30NXrYmyKejMunSXFKFiyV1c.5D26SGg!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53895754a5bfe830f2dac6311658722e5a49622be48d77041de0927013222bf4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 4,
+    "comments": [
+      {
+        "id": "3544925287_1753119558",
+        "authorLabel": "匿名访客 95864E",
+        "text": "太强了",
+        "createdAt": "2025-07-21T17:39:18.000Z"
+      },
+      {
+        "id": "2967399604_1753119765",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2025-07-21T17:42:45.000Z"
+      },
+      {
+        "id": "3544925287_1753119885",
+        "authorLabel": "匿名访客 95864E",
+        "text": "@匿名好友",
+        "createdAt": "2025-07-21T17:44:45.000Z"
+      },
+      {
+        "id": "924012220_1753145280",
+        "authorLabel": "匿名访客 01208D",
+        "text": "太强了",
+        "createdAt": "2025-07-22T00:48:00.000Z"
+      },
+      {
+        "id": "1328025956_1753157074",
+        "authorLabel": "匿名访客 B77149",
+        "text": "太强了",
+        "createdAt": "2025-07-22T04:04:34.000Z"
+      },
+      {
+        "id": "2474317320_1753197709",
+        "authorLabel": "匿名访客 445DB1",
+        "text": "太强了",
+        "createdAt": "2025-07-22T15:21:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02f7b7e685dfe0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02f7b7e685dfe0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f386136a3b2f757e817535b332bee9c418f2b152420716927cb52f28ac409389"
+}

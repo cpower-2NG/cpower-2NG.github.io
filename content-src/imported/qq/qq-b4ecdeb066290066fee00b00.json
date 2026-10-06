@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb066290066fee00b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-24",
+  "date": "2024-03-24",
+  "createdAt": "2024-03-24T13:23:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "对于虚构的、幻想的、未实存，甚至是憧憬的事物，我通常以空气视角进行观测，可当现实的「事」加身时，我又会空前积极地「参与」。我曾将这种主体意识的错位解释为孤独的观",
+  "text": "对于虚构的、幻想的、未实存，甚至是憧憬的事物，我通常以空气视角进行观测，可当现实的「事」加身时，我又会空前积极地「参与」。我曾将这种主体意识的错位解释为孤独的观测者或是什么多级意识之类的东西，但显然，这不过是自娱自乐的中二幻想罢了。现在该正视她并找到能够驾驭平衡的方法了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb066290066fee00b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb066290066fee00b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "55d5fb663e3db6e89c5816d8f869d06be3d819cbce416d606b6727d469db4cc6"
+}

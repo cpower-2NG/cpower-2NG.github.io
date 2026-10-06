@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0e307df6501320200",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-28",
+  "date": "2024-02-28",
+  "createdAt": "2024-02-28T10:16:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "最近好像因为某广播切片，松冈ruru的二创意外的多，嗯，",
+  "text": "最近好像因为某广播切片，松冈ruru的二创意外的多，嗯，",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1312635317_1709116426",
+        "authorLabel": "匿名访客 FBC85C",
+        "text": "确实",
+        "createdAt": "2024-02-28T10:33:46.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e307df6501320200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e307df6501320200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "711a0d031c98e5003425372025f4354521d9e92c8ad329465f07035bff5a213f"
+}

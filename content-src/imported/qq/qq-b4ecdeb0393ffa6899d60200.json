@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0393ffa6899d60200",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-23",
+  "date": "2025-10-23",
+  "createdAt": "2025-10-23T14:44:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "最近越发感觉真实与幻想的差距之大，还是把声优看做创作者吧",
+  "text": "最近越发感觉真实与幻想的差距之大，还是把声优看做创作者吧",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1253041798_1761302070",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "赞同~我觉得，崇拜是距离了解最远的距离…",
+        "createdAt": "2025-10-24T10:34:30.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0393ffa6899d60200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0393ffa6899d60200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ebf5d5868f6fbcd777f05d83bff7293de5618bbf4c5c2c2d894c364e71151a66"
+}

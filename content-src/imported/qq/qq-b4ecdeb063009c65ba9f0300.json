@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb063009c65ba9f0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-08",
+  "date": "2024-01-08",
+  "createdAt": "2024-01-08T14:02:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "相信一词，蕴含着多大的能量",
+  "text": "相信一词，蕴含着多大的能量",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1704722661",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "約束...",
+        "createdAt": "2024-01-08T14:04:21.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb063009c65ba9f0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb063009c65ba9f0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e07243bda9adb4187c04df91da7528833b91b6b2672ac3ff97b283f08d2cd40c"
+}

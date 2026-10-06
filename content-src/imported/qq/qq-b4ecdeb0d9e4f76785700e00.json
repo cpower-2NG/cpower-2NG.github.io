@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0d9e4f76785700e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-04-10",
+  "date": "2025-04-10",
+  "createdAt": "2025-04-10T15:33:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "新生的梦",
+  "text": "新生的梦",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02055461f129a6de2b549dab4bb1755b10e1cbff7f8c4b613e3da23ccab70a71.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIT7Jca.WJzSJ1KPE0AZgxTVCMi.n*JXAqrqJu1a3Qiei4u.fY6oUTi*0hZ*FtjRM9A!!/b&bo=jgKbA44CmwMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 553,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02055461f129a6de2b549dab4bb1755b10e1cbff7f8c4b613e3da23ccab70a71.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d9e4f76785700e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d9e4f76785700e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7bf3cf7d27e4b04b0945b050bad2cad44f07210fde8ce3bdc4eba6607f9eb189"
+}

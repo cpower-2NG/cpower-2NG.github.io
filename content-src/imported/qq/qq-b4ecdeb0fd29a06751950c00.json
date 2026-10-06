@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0fd29a06751950c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-02-03",
+  "date": "2025-02-03",
+  "createdAt": "2025-02-03T02:29:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "天塌了",
+  "text": "天塌了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8fb09a75be545e8236f104a662485d66037d0b53c19001567adf2f0934ac32ca.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIR8O*v6qzYBzA5I0*IhoD9qkt6QIsi*cFrb7O.zF2Dp9GbtQVQklNcrrqrI0pBsNVw!!/b&bo=OASRAzgEkQMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 331,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8fb09a75be545e8236f104a662485d66037d0b53c19001567adf2f0934ac32ca.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2033020087_1738551326",
+        "authorLabel": "匿名访客 28811E",
+        "text": "上岸了（）",
+        "createdAt": "2025-02-03T02:55:26.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fd29a06751950c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fd29a06751950c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b040f95689cad953405b1bd107f084ce388772f51ceff9993253c592c3d5b592"
+}

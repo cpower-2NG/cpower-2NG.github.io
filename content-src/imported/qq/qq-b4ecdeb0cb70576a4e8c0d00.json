@@ -1,0 +1,102 @@
+{
+  "id": "qq-b4ecdeb0cb70576a4e8c0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-15",
+  "date": "2026-07-15",
+  "createdAt": "2026-07-15T11:36:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "给家里电视也搞了个远程分屏，可以大屏爽玩了",
+  "text": "给家里电视也搞了个远程分屏，可以大屏爽玩了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d79ffd8c2da2d2c25576af0ac3dd3996a089a144f50e7c4d084015844e3d3abc.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqcMrUdWGKoBDIcoC0aTu76O1.A7iWsqo5pqW9wKvK2Zg0Uh1c*x6iItgl8c0LTiaeaSokRk5epAZdxa4003UvIc!/b&bo=VQhABlUIQAYBACc!",
+      "width": 2133,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d79ffd8c2da2d2c25576af0ac3dd3996a089a144f50e7c4d084015844e3d3abc-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d79ffd8c2da2d2c25576af0ac3dd3996a089a144f50e7c4d084015844e3d3abc-960.webp",
+          "width": 960,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d79ffd8c2da2d2c25576af0ac3dd3996a089a144f50e7c4d084015844e3d3abc-1600.webp",
+          "width": 1600,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d79ffd8c2da2d2c25576af0ac3dd3996a089a144f50e7c4d084015844e3d3abc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "836859719_1784116375",
+        "authorLabel": "匿名访客 E88702",
+        "text": "该给我玩了",
+        "createdAt": "2026-07-15T11:52:55.000Z"
+      },
+      {
+        "id": "2967399604_1784118447",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 来福州",
+        "createdAt": "2026-07-15T12:27:27.000Z"
+      },
+      {
+        "id": "836859719_1784118481",
+        "authorLabel": "匿名访客 E88702",
+        "text": "@匿名好友？！",
+        "createdAt": "2026-07-15T12:28:01.000Z"
+      },
+      {
+        "id": "3544925287_1784119046",
+        "authorLabel": "匿名访客 95864E",
+        "text": "哇塞感觉好爽啊",
+        "createdAt": "2026-07-15T12:37:26.000Z"
+      },
+      {
+        "id": "924012220_1784119824",
+        "authorLabel": "匿名访客 01208D",
+        "text": "nb啊",
+        "createdAt": "2026-07-15T12:50:24.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0cb70576a4e8c0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0cb70576a4e8c0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ea4e5b6b835fbc04e90e451a145ce45f85c907eb68c61d973dab982ec6d223fd"
+}

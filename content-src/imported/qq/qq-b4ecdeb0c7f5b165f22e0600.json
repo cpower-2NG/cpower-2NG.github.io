@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0c7f5b165f22e0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-25",
+  "date": "2024-01-25",
+  "createdAt": "2024-01-25T05:46:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "",
+  "text": "",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bca32494d11811da2eaf5b8df830d2b6d5aa531304097e34bea0e27a2ddf64b8.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzNc2Xic8tXzcgTB95hV2neKeCCdpiRhyZA2WtUqnO8ySL7QE2EXHR2UCFEnXKJ53xg!!/b&bo=UQIrAlECKwIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 367,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bca32494d11811da2eaf5b8df830d2b6d5aa531304097e34bea0e27a2ddf64b8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c7f5b165f22e0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c7f5b165f22e0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "77fef8d2c633462f48cee51b99bb6fc2359141604e2ae63f56aec67faed076b1"
+}

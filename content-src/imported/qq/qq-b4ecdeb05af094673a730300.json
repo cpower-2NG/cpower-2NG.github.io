@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb05af094673a730300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-25",
+  "date": "2025-01-25",
+  "createdAt": "2025-01-25T14:08:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "くやしいいいいいいいいいい！",
+  "text": "くやしいいいいいいいいいい！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05af094673a730300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05af094673a730300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "dc33a33a2fec86d3f8c119624c7bf5e17274819458ecafadb5aa35f2efa951ca"
+}

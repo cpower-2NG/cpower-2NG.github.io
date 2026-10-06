@@ -1,0 +1,97 @@
+{
+  "id": "qq-b4ecdeb0c4bc436a49bc0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-30",
+  "date": "2026-06-30",
+  "createdAt": "2026-06-30T12:55:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "搜索引擎随便搜搜，突然发现我随手做的github项目被爬虫网站蒸馏成skill，难绷",
+  "text": "搜索引擎随便搜搜，突然发现我随手做的github项目被爬虫网站蒸馏成skill，难绷",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ec921e1380103aae8ae98dba4b29a33a25ef020b00feb8e02a3ee166efd6d81.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqauAZ67TdSYBz4S2XlCBGBgxdGckxcg94C2EkiCf1FN1YhQLxx21z.MZMuF0lhNE93AKZiCngvd6MvxF336HRJI!/b&bo=OASABzgEgAcBACc!",
+      "width": 1080,
+      "height": 1920,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ec921e1380103aae8ae98dba4b29a33a25ef020b00feb8e02a3ee166efd6d81-480.webp",
+          "width": 480,
+          "format": "webp"
+        },
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ec921e1380103aae8ae98dba4b29a33a25ef020b00feb8e02a3ee166efd6d81-960.webp",
+          "width": 960,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ec921e1380103aae8ae98dba4b29a33a25ef020b00feb8e02a3ee166efd6d81.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 5,
+    "comments": [
+      {
+        "id": "2241439211_1782824284",
+        "authorLabel": "匿名访客 19724E",
+        "text": "还有自搜（",
+        "createdAt": "2026-06-30T12:58:04.000Z"
+      },
+      {
+        "id": "2967399604_1782824868",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "爬就爬了，留一个star啊（",
+        "createdAt": "2026-06-30T13:07:48.000Z"
+      },
+      {
+        "id": "2426803590_1782831427",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "牛大了",
+        "createdAt": "2026-06-30T14:57:07.000Z"
+      },
+      {
+        "id": "1253041798_1782834213",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "虽不明，但觉厉",
+        "createdAt": "2026-06-30T15:43:33.000Z"
+      },
+      {
+        "id": "2052840684_1782928288",
+        "authorLabel": "匿名访客 460869",
+        "text": "onp",
+        "createdAt": "2026-07-01T17:51:28.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c4bc436a49bc0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c4bc436a49bc0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "082ccd4ca6c1d40237156171e71dea2bf60111c1a45b2614a4e6ac5cfb11528d"
+}

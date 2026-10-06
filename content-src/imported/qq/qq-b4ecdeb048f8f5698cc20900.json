@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb048f8f5698cc20900",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-02",
+  "date": "2026-05-02",
+  "createdAt": "2026-05-02T13:12:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "被折磨两天（应该不止）后，回来一口酒，一口烤鸭，看着上伊那牡丹，感动得差点哭出来",
+  "text": "被折磨两天（应该不止）后，回来一口酒，一口烤鸭，看着上伊那牡丹，感动得差点哭出来",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb048f8f5698cc20900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb048f8f5698cc20900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1acda2b602972a65624badd14cf9de386555b30df683577a4ad5a94af859472c"
+}

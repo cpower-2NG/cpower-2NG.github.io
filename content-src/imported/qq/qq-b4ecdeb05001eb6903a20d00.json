@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb05001eb6903a20d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-24",
+  "date": "2026-04-24",
+  "createdAt": "2026-04-24T05:36:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "万般皆下品，唯有todesk高",
+  "text": "万般皆下品，唯有todesk高",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05001eb6903a20d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05001eb6903a20d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "80146188b43e625e7bde5b36887802e86c3cb73c86afb3c2ded4da8923c2d3e4"
+}

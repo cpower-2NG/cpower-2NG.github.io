@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0e3f6e66657de0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-15",
+  "date": "2024-09-15",
+  "createdAt": "2024-09-15T15:01:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "狼辛教会篇质量好高啊，各方面都是。反而是老动画删减的部分做好了吗",
+  "text": "狼辛教会篇质量好高啊，各方面都是。反而是老动画删减的部分做好了吗",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e3f6e66657de0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e3f6e66657de0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "72eaf5bf9fc34a3c0b106b384af376700401aa2ffb2349fd01c66411c827b6f5"
+}

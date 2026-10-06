@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f403036a63fa0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-12",
+  "date": "2026-05-12",
+  "createdAt": "2026-05-12T10:41:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "以前对zun所说的“为了进入某种状态而阅读”虽然能理解，但一直没有切身感悟。现在也越来越着迷这种精神飞升般的感觉了",
+  "text": "以前对zun所说的“为了进入某种状态而阅读”虽然能理解，但一直没有切身感悟。现在也越来越着迷这种精神飞升般的感觉了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f403036a63fa0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f403036a63fa0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "be48f5efa08b0df19bb55dbcf02184fe11da6670ea0027757e937ae200621730"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0e7edd76684030400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-04",
+  "date": "2024-09-04",
+  "createdAt": "2024-09-04T05:19:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "im@s翻唱是个好传统，希望sc和学能延续下去",
+  "text": "im@s翻唱是个好传统，希望sc和学能延续下去",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e7edd76684030400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e7edd76684030400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ef808709a01fc984dbe110fcd50dfda299d9d58960fd8557dde984a271e4f75e"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01bec7f67b6ce0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-09",
+  "date": "2025-01-09",
+  "createdAt": "2025-01-09T15:32:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "舞冰的祈愿真不错，说进我心里了",
+  "text": "舞冰的祈愿真不错，说进我心里了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01bec7f67b6ce0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01bec7f67b6ce0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "957dbf3add572bed2be1ae195055330d609cfe33d8ba4a4ad7f290cc5bf068e1"
+}

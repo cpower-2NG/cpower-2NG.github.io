@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb027a6126a50510100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-24",
+  "date": "2026-05-24",
+  "createdAt": "2026-05-24T07:17:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ヤリモン这种庸俗的王道作品真不赖",
+  "text": "ヤリモン这种庸俗的王道作品真不赖",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb027a6126a50510100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb027a6126a50510100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5a630925f1510fcf843ea7d7d52214a29950b7035d25857c9f18bd4d6f3175a2"
+}

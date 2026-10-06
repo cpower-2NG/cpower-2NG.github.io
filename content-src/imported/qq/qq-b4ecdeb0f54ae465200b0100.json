@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f54ae465200b0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-03",
+  "date": "2024-03-03",
+  "createdAt": "2024-03-03T10:03:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "唉，感觉今天智商好低，干了好多蠢事",
+  "text": "唉，感觉今天智商好低，干了好多蠢事",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f54ae465200b0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f54ae465200b0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4349fb6b4ff88e2b02198cc01511f2cb7bb52a18a0bc057b0741af2875e85472"
+}

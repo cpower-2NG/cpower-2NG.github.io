@@ -1,0 +1,82 @@
+{
+  "id": "qq-b4ecdeb0383446694d540900",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-20",
+  "date": "2025-12-20",
+  "createdAt": "2025-12-20T05:29:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "逐渐发现自己自虐的嗜好...",
+  "text": "逐渐发现自己自虐的嗜好...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 6,
+    "comments": [
+      {
+        "id": "2033020087_1766209341",
+        "authorLabel": "匿名访客 28811E",
+        "text": "P随偶像吗",
+        "createdAt": "2025-12-20T05:42:21.000Z"
+      },
+      {
+        "id": "3525208253_1766210290",
+        "authorLabel": "匿名访客 B5EC2B",
+        "text": "补药改花刀啊",
+        "createdAt": "2025-12-20T05:58:10.000Z"
+      },
+      {
+        "id": "2312194090_1766210936",
+        "authorLabel": "匿名访客 64B381",
+        "text": "hyw",
+        "createdAt": "2025-12-20T06:08:56.000Z"
+      },
+      {
+        "id": "2426803590_1766211730",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "？",
+        "createdAt": "2025-12-20T06:22:10.000Z"
+      },
+      {
+        "id": "836859719_1766215202",
+        "authorLabel": "匿名访客 E88702",
+        "text": "何意味你要干嘛",
+        "createdAt": "2025-12-20T07:20:02.000Z"
+      },
+      {
+        "id": "3544925287_1766286721",
+        "authorLabel": "匿名访客 95864E",
+        "text": "？",
+        "createdAt": "2025-12-21T03:12:01.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0383446694d540900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0383446694d540900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b36923d37d32413af2f0899ef018c28e11395f02584866b8a8410ea1b3cdf825"
+}

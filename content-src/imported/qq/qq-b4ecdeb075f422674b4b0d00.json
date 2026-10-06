@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb075f422674b4b0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-31",
+  "date": "2024-10-31",
+  "createdAt": "2024-10-31T03:07:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "调教ai有一种奇怪的成就感（",
+  "text": "调教ai有一种奇怪的成就感（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb075f422674b4b0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb075f422674b4b0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6cd142b192e9fc52e2219dca910b5ad74854de9a52ed0981469cf5f8e501607d"
+}

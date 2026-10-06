@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0c33c1c6a49620800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-31",
+  "date": "2026-05-31",
+  "createdAt": "2026-05-31T13:50:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在有点怕把一些东西一些想法语言化文字化，感觉会被自己的文字框住，丧失不确定性",
+  "text": "现在有点怕把一些东西一些想法语言化文字化，感觉会被自己的文字框住，丧失不确定性",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2052840684_1780247684",
+        "authorLabel": "匿名访客 460869",
+        "text": "还真是，文字很难描述的我一般称其为感觉[em]e10314[/em]",
+        "createdAt": "2026-05-31T17:14:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c33c1c6a49620800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c33c1c6a49620800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "711ddd459d16d5621d1c0123202e1016e3191b6fe205884262374be168840a93"
+}

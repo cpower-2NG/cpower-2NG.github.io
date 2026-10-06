@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02806d868953c0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-09-27",
+  "date": "2025-09-27",
+  "createdAt": "2025-09-27T15:43:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "听了个十王星南的人力感觉声音的质感很奇怪。突然意识到，或许让我认为せな她的视点与重心都落在他人而非自己，导致绝无法让自身成为真正偶像，不只是因为初期的剧本，还有",
+  "text": "听了个十王星南的人力感觉声音的质感很奇怪。突然意识到，或许让我认为せな她的视点与重心都落在他人而非自己，导致绝无法让自身成为真正偶像，不只是因为初期的剧本，还有羊羔配音与演唱的影响，或许该称之为中气不足吗（笑），但这是否是有意为之还不得而知。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02806d868953c0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02806d868953c0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5e7fce7dcba32e0ef68c4b8a1192966cbc7e8e2c3910d2100a5e105d4aea3eee"
+}

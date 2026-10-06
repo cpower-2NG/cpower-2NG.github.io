@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0cd3c9a66072e0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-07-19",
+  "date": "2024-07-19",
+  "createdAt": "2024-07-19T10:15:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "想看live了",
+  "text": "想看live了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0cd3c9a66072e0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0cd3c9a66072e0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "23c4d793a4b49c5cc26f435ba58eff6396efb57e0ca0f20b9ff195884be8135c"
+}

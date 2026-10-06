@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb05d49d36580750300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-19",
+  "date": "2024-02-19",
+  "createdAt": "2024-02-19T12:28:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "脑袋真被驴踢了。第六颗星是白色是因为是校服是吧。",
+  "text": "脑袋真被驴踢了。第六颗星是白色是因为是校服是吧。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9894179f5c835de83e8d08e0032e15045344a657e3849540b091c0ced9f3887c.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzAZyyNCYmQh8HXRVz1oNCO3VWtCrts2hSg3TZd9uBxhePcrcxcg*pTUj7xpmV7cF0w!!/b&bo=QAaNA0AGjQMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 223,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9894179f5c835de83e8d08e0032e15045344a657e3849540b091c0ced9f3887c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1709011948",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "好嘛，是橙色",
+        "createdAt": "2024-02-27T05:32:28.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05d49d36580750300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05d49d36580750300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b83fd3fe2dc094f50dd296a50a822f3874cb8f28b6ff5120cd13b0eca7c3604e"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0100e3a6a79d50600",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-23",
+  "date": "2026-06-23",
+  "createdAt": "2026-06-23T04:39:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在是没消息更害怕（",
+  "text": "现在是没消息更害怕（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0100e3a6a79d50600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0100e3a6a79d50600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a9a957a91a46467cc5c684234d579fb65fef3b121b1b6b5b834fcc048216cc44"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0b2d82d67faa60e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-11-08",
+  "date": "2024-11-08",
+  "createdAt": "2024-11-08T09:24:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在是几几年，我竟然会在食堂听极乐净土",
+  "text": "现在是几几年，我竟然会在食堂听极乐净土",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1731059816",
+        "authorLabel": "匿名访客 95864E",
+        "text": "啊？",
+        "createdAt": "2024-11-08T09:56:56.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b2d82d67faa60e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b2d82d67faa60e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "fd6b8c84b3f601e3233785979983069fa2c590b2293074aa23b31e58ae43f31a"
+}

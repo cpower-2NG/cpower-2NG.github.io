@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0e1583f6667fe0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-11",
+  "date": "2024-05-11",
+  "createdAt": "2024-05-11T11:39:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "学mas拉了一帮大火作曲家真有用啊，异常热烈的翻唱热潮",
+  "text": "学mas拉了一帮大火作曲家真有用啊，异常热烈的翻唱热潮",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e1583f6667fe0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e1583f6667fe0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "fd7903ec0f2a8f44955fdd578d20861975dd51c9b24e7be278e8677a650a947d"
+}

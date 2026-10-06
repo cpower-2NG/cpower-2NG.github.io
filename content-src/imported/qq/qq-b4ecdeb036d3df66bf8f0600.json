@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb036d3df66bf8f0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-10",
+  "date": "2024-09-10",
+  "createdAt": "2024-09-10T05:03:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "有无人连接布里吉之链，离开福建终于能连上了",
+  "text": "有无人连接布里吉之链，离开福建终于能连上了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb036d3df66bf8f0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb036d3df66bf8f0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ee4e1366e56040872932082ebd76bd5016e0adc2c1067c34b8f7458892851e76"
+}

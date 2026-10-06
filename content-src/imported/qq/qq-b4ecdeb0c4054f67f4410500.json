@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0c4054f67f4410500",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-03",
+  "date": "2024-12-03",
+  "createdAt": "2024-12-03T13:21:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "诶，又一年了",
+  "text": "诶，又一年了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac26b00bb316420c9d73d7ee78136b4bc439ef2598b7630b7a60ed6684fe63bb.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIYHDtOMyr935rtmSzwP3Xr4FCPcLJ5OBck9AaxacM*zDxVk2Liz1Gh8X2bk4yX8UDQ!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac26b00bb316420c9d73d7ee78136b4bc439ef2598b7630b7a60ed6684fe63bb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1733232093",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "上次看年末特番好像还在几天前",
+        "createdAt": "2024-12-03T13:21:33.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c4054f67f4410500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c4054f67f4410500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "86ad698e5ed73513b099b88c650f26be69e8120a0242aa56db8d11d6aef66712"
+}

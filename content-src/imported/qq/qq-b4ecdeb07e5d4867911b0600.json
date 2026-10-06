@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb07e5d4867911b0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-11-28",
+  "date": "2024-11-28",
+  "createdAt": "2024-11-28T12:09:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "小小的一步",
+  "text": "小小的一步",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4f3ee698147d9c3406a18cdb8a4bab9b3bba24b0102a104b4f966dc4b469b4c.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEJ7cQgH8C1TzvysvBs2uIfXfS2gODB2ZPtkkRhWSyfO5Ls0VZv*O37bINa0iVEvR7XOk1hyKGjEDxtVWwwJ03K4!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4f3ee698147d9c3406a18cdb8a4bab9b3bba24b0102a104b4f966dc4b469b4c-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4f3ee698147d9c3406a18cdb8a4bab9b3bba24b0102a104b4f966dc4b469b4c.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1732796127",
+        "authorLabel": "匿名访客 95864E",
+        "text": "哇塞",
+        "createdAt": "2024-11-28T12:15:27.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07e5d4867911b0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07e5d4867911b0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "746e13dfb46820a454e063eb664a1b80ed19e6095cb55d73aee8507542c18696"
+}

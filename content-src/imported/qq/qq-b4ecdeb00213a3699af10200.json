@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb00213a3699af10200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-02-28",
+  "date": "2026-02-28",
+  "createdAt": "2026-02-28T16:08:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "期待今天有voy@ger",
+  "text": "期待今天有voy@ger",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00213a3699af10200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00213a3699af10200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "af3120d0abfdae568dd3d4bdabedcab8bbcaf1b504f81e92241af89b269d3c2d"
+}

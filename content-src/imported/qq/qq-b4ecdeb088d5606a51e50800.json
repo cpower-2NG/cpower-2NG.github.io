@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb088d5606a51e50800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-22",
+  "date": "2026-07-22",
+  "createdAt": "2026-07-22T14:36:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "IWSF好像没法准时观看了[em]e7023[/em]",
+  "text": "IWSF好像没法准时观看了[em]e7023[/em]",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb088d5606a51e50800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb088d5606a51e50800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6bd5d26864c16111f78ca368a67a56fcd5c9a994e33fa64655a8ae28544c6363"
+}

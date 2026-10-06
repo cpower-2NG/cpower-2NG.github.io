@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb05c889c68ae750700",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-08-13",
+  "date": "2025-08-13",
+  "createdAt": "2025-08-13T12:43:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ひろちゃん、お引っ越しするよ~",
+  "text": "ひろちゃん、お引っ越しするよ~",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5972882b854e2889bdf10b5e4e4c6844604a13fe9d28e2b65853a7d5f51c64ed.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIYe0R8bClhyowOKfYTiqjEsbIXF3YYW8m5tMJtbNdJNkKIDS9y*i1ktd4lYQNnJrmQ!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5972882b854e2889bdf10b5e4e4c6844604a13fe9d28e2b65853a7d5f51c64ed.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05c889c68ae750700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05c889c68ae750700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "130b362479434835b5c5b52041cc46a82e5a99fd006313833a456468b34061e2"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "qq-b4ecdeb07da73169cd870300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-04",
+  "date": "2025-12-04",
+  "createdAt": "2025-12-04T15:23:41.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这两天运动会把闪动画补完，从我的体验来说，其实没有大家说的那么不堪。最大的优点就是精致的美术，不少地方静画比得上插图了，这还是3D动画吗（笑）。还有就是S2的几",
+  "text": "这两天运动会把闪动画补完，从我的体验来说，其实没有大家说的那么不堪。最大的优点就是精致的美术，不少地方静画比得上插图了，这还是3D动画吗（笑）。还有就是S2的几个小组单元回，节奏距离感都把握的不错。像是円香，恋钟等，我对她们都有了新的理解。果然呈现在荧幕上、动起来就是不一样啊。当然缺点依旧明显，或者说十分突出，很多地方都怀疑是否是专业人士做出来的，特别是S1，像是美术大神带飞我剪出来的小组作业，而S2就是加了位剧本的差别（笑）。总的来说，是一部能放空大脑，体会小偶像的一部动画。应该不是因为我是凯子吧（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "836859719_1764866080",
+        "authorLabel": "匿名访客 E88702",
+        "text": "速写雄文",
+        "createdAt": "2025-12-04T16:34:40.000Z"
+      },
+      {
+        "id": "2967399604_1764910074",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 写了你看嘛",
+        "createdAt": "2025-12-05T04:47:54.000Z"
+      },
+      {
+        "id": "836859719_1764911762",
+        "authorLabel": "匿名访客 E88702",
+        "text": "@匿名好友",
+        "createdAt": "2025-12-05T05:16:02.000Z"
+      },
+      {
+        "id": "2967399604_1764911790",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 我说动画（",
+        "createdAt": "2025-12-05T05:16:30.000Z"
+      },
+      {
+        "id": "836859719_1764911827",
+        "authorLabel": "匿名访客 E88702",
+        "text": "@匿名好友",
+        "createdAt": "2025-12-05T05:17:07.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07da73169cd870300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07da73169cd870300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5e1eba0f79ff52782b79a0912d187ac1cc978679ea84b2af3c22859217924749"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "qq-b4ecdeb005fe18679cae0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-23",
+  "date": "2024-10-23",
+  "createdAt": "2024-10-23T13:45:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "确实有点萎了（",
+  "text": "确实有点萎了（",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf9652f0f8bd8c29d04d3114120d4b263c173e2d94a3d12932fe24998f03a3b0.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEMQqM4zHf4hUsMSrDSv0v5jhBBA*xHiEZqjfiuVpASFuv*nn58COXjQzUY*glFBW9OdO6y6E4nyEhICQjKh6QoQ!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf9652f0f8bd8c29d04d3114120d4b263c173e2d94a3d12932fe24998f03a3b0-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf9652f0f8bd8c29d04d3114120d4b263c173e2d94a3d12932fe24998f03a3b0.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb005fe18679cae0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb005fe18679cae0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3908c42336ab1ca660b7c79ab1090f2a7fea4750ffa992ab1bb3c791e576f12a"
+}

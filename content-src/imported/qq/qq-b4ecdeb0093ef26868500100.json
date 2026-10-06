@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0093ef26868500100",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-10-17",
+  "date": "2025-10-17",
+  "createdAt": "2025-10-17T13:00:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "动了动了动了",
+  "text": "动了动了动了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1760717274",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "死了死了死了",
+        "createdAt": "2025-10-17T16:07:54.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0093ef26868500100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0093ef26868500100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "229bede5e79a2c34a25333b98389281c87c84f2c3a6c1c49dabbadbfafdf6458"
+}

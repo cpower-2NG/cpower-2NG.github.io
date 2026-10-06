@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0a6f0656acfc50800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-07-26",
+  "date": "2026-07-26",
+  "createdAt": "2026-07-26T11:33:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天太爽了",
+  "text": "今天太爽了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/102ba5b5ba22536c5508f7c80d7a12de50aa55e8c7c4c1e5cca63e168e911aa9.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIabJ..BXCwlNHwhkcWT4JUX*LaMkq4chmP99CJirmOdBO8vCwQTidr6yqLy4FWhVTA!!/b&bo=RAFPAEQBTwAWADA!",
+      "width": 324,
+      "height": 79,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/102ba5b5ba22536c5508f7c80d7a12de50aa55e8c7c4c1e5cca63e168e911aa9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a6f0656acfc50800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a6f0656acfc50800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e353efbe3027a19fc7c6a702a99e790eaadd9ef3d9ad0b220a26535f29b16f95"
+}

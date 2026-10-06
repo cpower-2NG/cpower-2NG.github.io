@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f8053e662ed30600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-10",
+  "date": "2024-05-10",
+  "createdAt": "2024-05-10T11:33:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现代化社会中接受庞大信息量的人都具有异常的复杂性，而由人催化出的一股股风气有着异常复杂的气质，这也就使得现实往往难以作为直接审美对象，除非能给我们的感官带上特制",
+  "text": "现代化社会中接受庞大信息量的人都具有异常的复杂性，而由人催化出的一股股风气有着异常复杂的气质，这也就使得现实往往难以作为直接审美对象，除非能给我们的感官带上特制的偏振镜。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f8053e662ed30600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f8053e662ed30600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e6b9234ad225ddd12880c23466eb03b18d53bcb13c290daacf99ec9f18453b22"
+}

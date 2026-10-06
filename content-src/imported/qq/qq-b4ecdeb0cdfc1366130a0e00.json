@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0cdfc1366130a0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-04-08",
+  "date": "2024-04-08",
+  "createdAt": "2024-04-08T14:18:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "新版狼辛ep1真是奔着赚老粉眼泪去的啊。就是这演出差点意思",
+  "text": "新版狼辛ep1真是奔着赚老粉眼泪去的啊。就是这演出差点意思",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0cdfc1366130a0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0cdfc1366130a0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d54eb0bd7205b9614cc072aa5e15d7a5b5397cd32010c884f1230aaa8d28b6de"
+}

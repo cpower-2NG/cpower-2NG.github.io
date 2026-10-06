@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0630f316af3110100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-16",
+  "date": "2026-06-16",
+  "createdAt": "2026-06-16T08:54:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "很难分析，或者说是不想承认吧。和人交往时往往产生亢奋情绪，姿态似乎总带点轻微不正常，或是贬低，或是谄媚，鲜少有一人时的平视心态。",
+  "text": "很难分析，或者说是不想承认吧。和人交往时往往产生亢奋情绪，姿态似乎总带点轻微不正常，或是贬低，或是谄媚，鲜少有一人时的平视心态。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "836859719_1781611905",
+        "authorLabel": "匿名访客 E88702",
+        "text": "那我呢",
+        "createdAt": "2026-06-16T12:11:45.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0630f316af3110100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0630f316af3110100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ffb5227b343668a1f8b8cc8f7c304a97b92baeae7e955aaa3e7cbfcffd5a39a6"
+}

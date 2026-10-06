@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb05f0250679f920300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-04",
+  "date": "2024-12-04",
+  "createdAt": "2024-12-04T07:18:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这么严重的？！",
+  "text": "这么严重的？！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cd2766730c181d60a0a1a34964962ca2b666bfcc82508a8fe3d7118e5e63ddd.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIQ11oDuLeoENuHaApXEEeJ8zEb5RcVzJhigN*pHXPMPPnF.uowbq8FplxH52oAfUpw!!/b&bo=OAR5DTgEeQ0WADA!&w=392&h=5000",
+      "width": 392,
+      "height": 1252,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4741dc399dd11366d6d6e0a7160f30ebf63b75fe9c02a577d046328aaec9cee.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIYe0R8bClhyowOKfYTiqjEshiMKWYYfmP6dXqYkZjXdmD6aWdFvKs5qPqRPkJJROAw!!/b&bo=IwIABCMCAAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 734,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cd2766730c181d60a0a1a34964962ca2b666bfcc82508a8fe3d7118e5e63ddd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05f0250679f920300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05f0250679f920300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f85d58abea961724822f6bef442b4dc7d8eeb49cf86c2ef166c953cfaeda92ed"
+}

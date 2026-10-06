@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb03a009768d9860a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-08-09",
+  "date": "2025-08-09",
+  "createdAt": "2025-08-09T08:00:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ひろちゃん、一緒にライブ見に行こう",
+  "text": "ひろちゃん、一緒にライブ見に行こう",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/575c519ecefcfec0f105a9110ae0e4660f721f3758dc108eb3115424a3449aa1.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIQ11oDuLeoENuHaApXEEeJ81Q*86r4iFsVmP2hDXISi23dgxqy7SFuRd*or3nFC97Q!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/575c519ecefcfec0f105a9110ae0e4660f721f3758dc108eb3115424a3449aa1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03a009768d9860a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03a009768d9860a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6c445a4119ef87baf4c73a53b4b26cce40947b393a7c6c5765c5fbb7cccbfe7c"
+}

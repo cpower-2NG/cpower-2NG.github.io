@@ -1,0 +1,71 @@
+{
+  "id": "qq-b4ecdeb0ae9ecc6638d70d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-08-26",
+  "date": "2024-08-26",
+  "createdAt": "2024-08-26T15:26:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这就是我看ksl的意义！",
+  "text": "这就是我看ksl的意义！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9266266f24ccb5f435e742a7ac1122fc8558f7c528e256fa990e9517bd615a7d.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIT5ne4vVLnmpaytr7sQyDJda4scLq4ewp8nCId3uTlwvTB8CSMIIoXSQ0BknQZqoew!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15864dc9b8275b5a5b62e7bf4d1ddb17ccf4a3ac22e56624141aba0555214429.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXISpxG97iOQ02m7Z983cDPhiceeHo0L93ft10M7hziwf1g2BC1Wb9qPttrbv1tzOJ6g!!/b&bo=OASgBTgEoAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9266266f24ccb5f435e742a7ac1122fc8558f7c528e256fa990e9517bd615a7d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1724686285",
+        "authorLabel": "匿名访客 95864E",
+        "text": "特别好",
+        "createdAt": "2024-08-26T15:31:25.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ae9ecc6638d70d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ae9ecc6638d70d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f53ac573eb60b48ac0d6db6ef6937d847817c936126691857d573e1ed8e1e7d6"
+}

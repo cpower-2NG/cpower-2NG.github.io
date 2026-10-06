@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b6ce8767ee140a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-15",
+  "date": "2025-01-15",
+  "createdAt": "2025-01-15T15:05:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "后悔没好好学数学了",
+  "text": "后悔没好好学数学了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b6ce8767ee140a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b6ce8767ee140a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6b8668d95e3c7a4e57eaf1424d2ec2a9be29182c07bddfa88bce9c1963bf2340"
+}

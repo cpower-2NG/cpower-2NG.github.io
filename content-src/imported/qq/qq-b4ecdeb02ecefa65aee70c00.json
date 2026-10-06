@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb02ecefa65aee70c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-20",
+  "date": "2024-03-20",
+  "createdAt": "2024-03-20T11:53:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我一向是拒绝传播这种东西的，但是实在是太鬼畜了。",
+  "text": "我一向是拒绝传播这种东西的，但是实在是太鬼畜了。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa38266ca06960f860c62c2ae9b744d972604460612d8f5d050af6b34602b1a8.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzGUMfUOTkZKE2dGMn5o8F3DPPaw.wwvVgXPy0e*kDSb0MT2.qnynIF2W072iScfloA!!/b&bo=YAOAB2ADgAcWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 871,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa38266ca06960f860c62c2ae9b744d972604460612d8f5d050af6b34602b1a8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02ecefa65aee70c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02ecefa65aee70c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "050462032665cf8916b132d91b1cb311d387f8a1a12fb34f266b9112748d8005"
+}

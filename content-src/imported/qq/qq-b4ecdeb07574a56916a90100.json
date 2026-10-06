@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb07574a56916a90100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-03-02",
+  "date": "2026-03-02",
+  "createdAt": "2026-03-02T11:28:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现代舞的MV真无敌了",
+  "text": "现代舞的MV真无敌了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07574a56916a90100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07574a56916a90100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2fd80f95b8f569689f01037fd99491bc264007725636335256f1b16c2343b6f2"
+}

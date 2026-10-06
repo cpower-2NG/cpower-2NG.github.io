@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb06a0ae365c1600a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-02",
+  "date": "2024-03-02",
+  "createdAt": "2024-03-02T11:15:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真给猜对了，还真有月",
+  "text": "真给猜对了，还真有月",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db174f1a9021657f6737ad22221c563d9d74618f13500547636dfd0f81876aac.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzKaV*vTvi5P2qwmvkUe6qb5gw38NEVI4ZNtyGytVhxKo6KYVkuDIVbp5KrcsJscfyQ!!/b&bo=AAXQAgAF0AIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db174f1a9021657f6737ad22221c563d9d74618f13500547636dfd0f81876aac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1253041798_1709381098",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "甚至是七个假名",
+        "createdAt": "2024-03-02T12:04:58.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06a0ae365c1600a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06a0ae365c1600a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ea1502d4ad2d5283e7adb2d665af3e58f1652a823688d18c4c0e75c79040aab2"
+}

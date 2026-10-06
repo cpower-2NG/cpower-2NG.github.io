@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0dc6e33692fad0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-05",
+  "date": "2025-12-05",
+  "createdAt": "2025-12-05T23:46:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "当务之急是学会アイ NEED YOU",
+  "text": "当务之急是学会アイ NEED YOU",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3793032637_1764997296",
+        "authorLabel": "匿名访客 6AC2AF",
+        "text": "已经严肃学习",
+        "createdAt": "2025-12-06T05:01:36.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0dc6e33692fad0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0dc6e33692fad0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b953436439acb7f43a50adaf59984589ab34d86db5fe33fdfa1a9e5c4318c993"
+}

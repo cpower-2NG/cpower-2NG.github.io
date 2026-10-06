@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a5fee067d82c0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-24",
+  "date": "2025-03-24",
+  "createdAt": "2025-03-24T06:41:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我要小广教我图论[em]e400867[/em][em]e400867[/em]",
+  "text": "我要小广教我图论[em]e400867[/em][em]e400867[/em]",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a5fee067d82c0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a5fee067d82c0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "255f187c8e576c84b36665f182e4a34a51aa172ccbf88350cf3d4323e66a861d"
+}

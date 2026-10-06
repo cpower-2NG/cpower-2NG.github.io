@@ -1,0 +1,61 @@
+{
+  "id": "qq-b4ecdeb01e1cbf67654e0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-02-26",
+  "date": "2025-02-26",
+  "createdAt": "2025-02-26T13:50:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一个寒假就退化成这样了吗",
+  "text": "一个寒假就退化成这样了吗",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cb1b627432d2be1a905d68e97448014cae98384815d20351e21d07ed430e090e.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrED.PB6mZdr9nv5Yfrxuvkwm.PFNhxz0mRvNEe.yW.nHqYSxC.aoGv2prOlMcQ2HOkL*PluxWSMHXfhEcK.RrYS0!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cb1b627432d2be1a905d68e97448014cae98384815d20351e21d07ed430e090e-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cb1b627432d2be1a905d68e97448014cae98384815d20351e21d07ed430e090e.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01e1cbf67654e0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01e1cbf67654e0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5d762f2a4cac65d1947f61ce63c2c790f69be7bb249c4f6171e4c7156898da01"
+}

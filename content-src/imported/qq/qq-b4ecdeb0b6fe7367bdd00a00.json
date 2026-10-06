@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b6fe7367bdd00a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-31",
+  "date": "2024-12-31",
+  "createdAt": "2024-12-31T14:24:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我要看筱泽广物理书，我要小广教我物理",
+  "text": "我要看筱泽广物理书，我要小广教我物理",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b6fe7367bdd00a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b6fe7367bdd00a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "45534eff7afb2418c4bd0b6b4e272484494ee58be74a3d498b61535a5b4a1e21"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0ca0ef269ea350100",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-04-29",
+  "date": "2026-04-29",
+  "createdAt": "2026-04-29T13:59:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我不想当传话筒啊，宁愿让我陪环境折磨死。",
+  "text": "我不想当传话筒啊，宁愿让我陪环境折磨死。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2052840684_1777513766",
+        "authorLabel": "匿名访客 460869",
+        "text": "发生甚么事了[em]e10318[/em]",
+        "createdAt": "2026-04-30T01:49:26.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ca0ef269ea350100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ca0ef269ea350100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a4bd6927a65b9f03e244fb7684097e0bd5dfdb09d1443f0071f3dfb6942b7431"
+}

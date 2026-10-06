@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb09d0f81678cff0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-01-10",
+  "date": "2025-01-10",
+  "createdAt": "2025-01-10T12:16:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "闲的有点掉san了，不行，不能偷懒了",
+  "text": "闲的有点掉san了，不行，不能偷懒了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09d0f81678cff0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09d0f81678cff0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "63ddf8ab419366576d00e6d8a8703aa9b2244c2170dbcc7168de8ffb05ef973a"
+}

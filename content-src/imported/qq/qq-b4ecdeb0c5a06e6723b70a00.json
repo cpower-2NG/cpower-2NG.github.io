@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb0c5a06e6723b70a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-27",
+  "date": "2024-12-27",
+  "createdAt": "2024-12-27T12:42:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "早上刚说熬个夜累好几天，晚上就破纪录了？",
+  "text": "早上刚说熬个夜累好几天，晚上就破纪录了？",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f384a879a2f2f99ec133f15e60d96f25cf354c4a75170678a262160168dd2084.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEMIu4ndu1NylHboyFBPVxytzKzEhsdekYJPjMKSnVFAqwMYkEavngsRRT8WqLZtXPEsbjSp1lAWOU7PX67danoo!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f384a879a2f2f99ec133f15e60d96f25cf354c4a75170678a262160168dd2084-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f384a879a2f2f99ec133f15e60d96f25cf354c4a75170678a262160168dd2084.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1735306379",
+        "authorLabel": "匿名访客 95864E",
+        "text": "nb",
+        "createdAt": "2024-12-27T13:32:59.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c5a06e6723b70a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c5a06e6723b70a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "847105e3271cb4cce0eb451a6dd9a50d30409f9648b3bd7705fc93bf3c6bdfe8"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0abdd0f6a72850900",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-22",
+  "date": "2026-05-22",
+  "createdAt": "2026-05-22T04:38:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "路上看到位女生背的初音大嘴包扎着如月千早都拿名片准备上去了凑近一看是园田海未",
+  "text": "路上看到位女生背的初音大嘴包扎着如月千早都拿名片准备上去了凑近一看是园田海未",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2312194090_1779427842",
+        "authorLabel": "匿名访客 64B381",
+        "text": "那很可惜了",
+        "createdAt": "2026-05-22T05:30:42.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0abdd0f6a72850900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0abdd0f6a72850900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b487aea27ffa7f1ea0723cd2b9a5db0aabc5bc89046022785e2389d59ab3c0cb"
+}

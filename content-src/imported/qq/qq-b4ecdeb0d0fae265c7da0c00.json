@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0d0fae265c7da0c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-02",
+  "date": "2024-03-02",
+  "createdAt": "2024-03-02T10:09:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "听说今天sc6thlive终于跨组出演了，超越前五年所有live。高山终于开窍了吗。而我却不能及时观看，真是可惜",
+  "text": "听说今天sc6thlive终于跨组出演了，超越前五年所有live。高山终于开窍了吗。而我却不能及时观看，真是可惜",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1709374312",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "如此自由的演出，着实不像高山的手笔，难道...",
+        "createdAt": "2024-03-02T10:11:52.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d0fae265c7da0c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d0fae265c7da0c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bfa26bef6fdfe30362f3295378d66f867e863c95286988dbd72e487285a515aa"
+}

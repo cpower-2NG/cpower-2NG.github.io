@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb041c89d66557b0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-07-22",
+  "date": "2024-07-22",
+  "createdAt": "2024-07-22T02:47:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "最近看到的最好笑的笑话",
+  "text": "最近看到的最好笑的笑话",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/555600f4cae2fb52dd09dccd61f00655fc6be3f14ed0cb9939ac596342b3d36f.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXITEztmRrixuqqGvtRDW8mtd*Qki3IVgBRsQZ3tXfddOUGDI37qVW5JUOwgDDAk7xDA!!/b&bo=ywKDAMsCgwAWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 72,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/555600f4cae2fb52dd09dccd61f00655fc6be3f14ed0cb9939ac596342b3d36f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb041c89d66557b0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb041c89d66557b0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9943fc663f67708abc241ff0f098e6fd0ab45f5f3076ee0f3e71714e45ef67ec"
+}

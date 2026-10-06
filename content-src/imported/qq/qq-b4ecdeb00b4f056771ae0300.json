@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb00b4f056771ae0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-08",
+  "date": "2024-10-08",
+  "createdAt": "2024-10-08T15:26:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一年前的这时候，我应该再看百万动画第一集。早い...",
+  "text": "一年前的这时候，我应该再看百万动画第一集。早い...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00b4f056771ae0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00b4f056771ae0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e19da9053fd9516b2279a64286adc92f18497c6d17f42f1203f5f23737882cc1"
+}

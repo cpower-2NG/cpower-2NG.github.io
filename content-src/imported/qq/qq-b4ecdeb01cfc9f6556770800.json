@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01cfc9f6556770800",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-11",
+  "date": "2024-01-11",
+  "createdAt": "2024-01-11T14:33:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "不是，shhis和黑星真得搞点大的吧。高山是真会吊胃口，这么有趣的人物关系，进展却这么少",
+  "text": "不是，shhis和黑星真得搞点大的吧。高山是真会吊胃口，这么有趣的人物关系，进展却这么少",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01cfc9f6556770800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01cfc9f6556770800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c67030fd1301072e07e2d6ddf97d414a26f295e4254ab874f9ba58c3b2e1b611"
+}

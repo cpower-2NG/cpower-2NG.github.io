@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0fbbe6566b7170d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-06-09",
+  "date": "2024-06-09",
+  "createdAt": "2024-06-09T14:40:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我大抵会永远喜欢像百万这样造梦的作品。",
+  "text": "我大抵会永远喜欢像百万这样造梦的作品。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fbbe6566b7170d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fbbe6566b7170d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "dbc778bafd3da2043876673139759a6d140400562cc77f5c69854d2ef246b0d6"
+}

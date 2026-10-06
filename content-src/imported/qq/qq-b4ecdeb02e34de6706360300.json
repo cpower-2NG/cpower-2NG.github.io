@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb02e34de6706360300",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-03-22",
+  "date": "2025-03-22",
+  "createdAt": "2025-03-22T03:53:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "一觉醒来就看到这个好消息，奖励听The Rolling Riceball ！",
+  "text": "一觉醒来就看到这个好消息，奖励听The Rolling Riceball ！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e74d6dc4a574e8ee98af7718d053b7bc8f32a3dbfedfb86c54a5797bd2d79ac.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIXcY5*.RKVZE6CMoEprB79FMrWga3YoRq6sOWcXF2srqasLhhQCt*ywiDbkqE8fQ*Q!!/b&bo=UgIvA1ICLwMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 538,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e74d6dc4a574e8ee98af7718d053b7bc8f32a3dbfedfb86c54a5797bd2d79ac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1742622049",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "会上吗，1st",
+        "createdAt": "2025-03-22T05:40:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02e34de6706360300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02e34de6706360300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bb16e0d2f7c5ef6f492c05d621006026f34bd1a5dc98ca8930ceb01db1f979a7"
+}

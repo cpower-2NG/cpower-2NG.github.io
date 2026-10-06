@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb001ed716ade990900",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-08-04",
+  "date": "2026-08-04",
+  "createdAt": "2026-08-04T13:45:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "怎么就毕业了[em]e7023[/em]",
+  "text": "怎么就毕业了[em]e7023[/em]",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0d1dede0b30524dee6d0b18d35d59a296126e47c2c220988d826bb8137a5d79.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIWUshMNOho4.KrEDUZEZBOCWpXzMw3nwgdu70ilYeDmmUANqbDI1BWQSxhzwC.Hh7g!!/b&bo=JALEASQCxAEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 323,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0d1dede0b30524dee6d0b18d35d59a296126e47c2c220988d826bb8137a5d79.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb001ed716ade990900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb001ed716ade990900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7c957142e17cdad66b7fd31a133efc736040343398a164c0dfa59c592e961206"
+}

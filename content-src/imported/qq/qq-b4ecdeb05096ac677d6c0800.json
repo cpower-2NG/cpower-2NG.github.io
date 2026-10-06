@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb05096ac677d6c0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-02-12",
+  "date": "2025-02-12",
+  "createdAt": "2025-02-12T12:38:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "moiw2023二周年，心里空落落的",
+  "text": "moiw2023二周年，心里空落落的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05096ac677d6c0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05096ac677d6c0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b627bbfe33e93906bbb2ddb60c37fb3900c5c9620db3e7189ed29866a9637410"
+}

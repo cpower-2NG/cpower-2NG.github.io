@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb074274069a65b0900",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-15",
+  "date": "2025-12-15",
+  "createdAt": "2025-12-15T15:21:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "本来正笑着呢，看到这个眼泪突然涌了出来",
+  "text": "本来正笑着呢，看到这个眼泪突然涌了出来",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d22a07d1b449a74aebe2b922b7222356fca13013285672d2ec59080b54e251b0.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIQ11oDuLeoENuHaApXEEeJ*szMF9LqMX5h.GAv58Yl0di6nlSVWQ96JdV3HhfmUR4w!!/b&bo=OASQBTgEkAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 517,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d22a07d1b449a74aebe2b922b7222356fca13013285672d2ec59080b54e251b0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb074274069a65b0900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb074274069a65b0900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b87e10e20cdd36c3f9c986b8a6a0981fca3af4689bc9524c1fc5be83ed51e585"
+}

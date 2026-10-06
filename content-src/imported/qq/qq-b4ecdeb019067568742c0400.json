@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb019067568742c0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-07-14",
+  "date": "2025-07-14",
+  "createdAt": "2025-07-14T13:28:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "退化成一年前了吗",
+  "text": "退化成一年前了吗",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1752506315",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "还真挺有效的，什么感冒发烧、头痛喉堵，跑个5km全好了",
+        "createdAt": "2025-07-14T15:18:35.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb019067568742c0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb019067568742c0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4d0b18c95361353d86e90d703ecd8f6d3ae726bfd24fe24311acacbbb6d0149f"
+}

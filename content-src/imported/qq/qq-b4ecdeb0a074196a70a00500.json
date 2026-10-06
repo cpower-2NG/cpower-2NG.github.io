@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a074196a70a00500",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-29",
+  "date": "2026-05-29",
+  "createdAt": "2026-05-29T11:12:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "以前我常被说共情能力差，我自省过。不过感觉很多时候理解都够了，共情隐含着一个后果，你和共情对象站在同一阵营。",
+  "text": "以前我常被说共情能力差，我自省过。不过感觉很多时候理解都够了，共情隐含着一个后果，你和共情对象站在同一阵营。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a074196a70a00500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a074196a70a00500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3910855f0c476da63ddf672a3940cdd73de15cca0b6395764307a48d89eb0f8b"
+}

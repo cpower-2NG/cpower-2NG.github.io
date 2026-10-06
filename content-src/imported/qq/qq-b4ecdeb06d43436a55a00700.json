@@ -1,0 +1,74 @@
+{
+  "id": "qq-b4ecdeb06d43436a55a00700",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-30",
+  "date": "2026-06-30",
+  "createdAt": "2026-06-30T04:17:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "迸发的课程作业灵感。漏洞百出，绷不住笑了",
+  "text": "迸发的课程作业灵感。漏洞百出，绷不住笑了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d6263a3396dc6a253518b875df3856ca468266832eaf8592d455c989d5662e76.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIYe0R8bClhyowOKfYTiqjEu0Xh1np920.ZyE41RD2r.Vz.B3MeJOKwLkQ45mXV135w!!/b&bo=OARaBDgEWgQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 404,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d6263a3396dc6a253518b875df3856ca468266832eaf8592d455c989d5662e76.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "3544925287_1782793154",
+        "authorLabel": "匿名访客 95864E",
+        "text": "看不懂但是感觉好厉害喵",
+        "createdAt": "2026-06-30T04:19:14.000Z"
+      },
+      {
+        "id": "2426803590_1782831578",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "自己做的行程软件？",
+        "createdAt": "2026-06-30T14:59:38.000Z"
+      },
+      {
+        "id": "3268162524_1782841742",
+        "authorLabel": "匿名访客 80CAD5",
+        "text": "请我去",
+        "createdAt": "2026-06-30T17:49:02.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06d43436a55a00700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06d43436a55a00700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "57936314774da4cc541390c81198a48a31da8f5a5018111fcc0d83431d53b0a1"
+}

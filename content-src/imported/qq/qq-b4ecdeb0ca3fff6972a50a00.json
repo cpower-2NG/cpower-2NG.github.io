@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb0ca3fff6972a50a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-09",
+  "date": "2026-05-09",
+  "createdAt": "2026-05-09T14:08:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "什么叫我要帮老师写教材（？）",
+  "text": "什么叫我要帮老师写教材（？）",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2426803590_1778337491",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "还有写教材[em]e400862[/em]",
+        "createdAt": "2026-05-09T14:38:11.000Z"
+      },
+      {
+        "id": "3544925287_1778339598",
+        "authorLabel": "匿名访客 95864E",
+        "text": "这么厉害！",
+        "createdAt": "2026-05-09T15:13:18.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ca3fff6972a50a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ca3fff6972a50a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2798a2b0898eca111e3123fc455a7caa93f61cfe9a9fda34a27e1bab0146545c"
+}

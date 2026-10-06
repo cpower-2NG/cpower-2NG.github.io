@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb074bf506636ea0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-24",
+  "date": "2024-05-24",
+  "createdAt": "2024-05-24T16:25:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "要爱上失败时坚强的手球了",
+  "text": "要爱上失败时坚强的手球了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1716569182",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "虽然这代苍系娱乐化严重，但果然我还是喜欢苍的克制与坚韧",
+        "createdAt": "2024-05-24T16:46:22.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb074bf506636ea0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb074bf506636ea0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "52d0fa96308d0b6495eb43a54b4053d688481389170e21b942283ce27bb38b77"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb083174c677e310900",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-01",
+  "date": "2024-12-01",
+  "createdAt": "2024-12-01T08:00:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "差点忘了今天的Live，还好没错过",
+  "text": "差点忘了今天的Live，还好没错过",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb083174c677e310900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb083174c677e310900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "93e56e0b32971d8c895024f23a4524861bf7dfa33175b94bbab1fe86e52aa386"
+}

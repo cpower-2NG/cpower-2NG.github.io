@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b8cb3467fc100b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-11-13",
+  "date": "2024-11-13",
+  "createdAt": "2024-11-13T15:54:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "咸鱼人这么多的嘛",
+  "text": "咸鱼人这么多的嘛",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b8cb3467fc100b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b8cb3467fc100b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5edef2a968898cbaa68fc5cce33a0bba93474f18aa7b11d183c9d97a2a761c9e"
+}

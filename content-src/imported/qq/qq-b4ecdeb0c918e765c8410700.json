@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0c918e765c8410700",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-03-05",
+  "date": "2024-03-05",
+  "createdAt": "2024-03-05T13:06:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这个初星学院真不知道该说什么。槽点太多，最不像imas的学mas。可能万南觉得凑一堆流行的就能火吧。imas也成潮品了。现在还是先观望吧，附上烂铁一辈子也搞不来",
+  "text": "这个初星学院真不知道该说什么。槽点太多，最不像imas的学mas。可能万南觉得凑一堆流行的就能火吧。imas也成潮品了。现在还是先观望吧，附上烂铁一辈子也搞不来的当潮作曲家",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/baa6910dac1227f29426c723e403e5379fb0297edf17047c46fe0678b1fb25b1.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzHROQ83aHcFl9ayQspYPxlSDdo4jmaJu*u.3t.rzRsE77u20pBAKMpJNSJouApQWBQ!!/b&bo=QAaJA0AGiQMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 222,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/baa6910dac1227f29426c723e403e5379fb0297edf17047c46fe0678b1fb25b1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c918e765c8410700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c918e765c8410700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "59513836de0d137811afb86e24b5fe39a75743f0536389051b46a24b0298077d"
+}

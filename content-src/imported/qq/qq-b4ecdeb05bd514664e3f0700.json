@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb05bd514664e3f0700",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-04-09",
+  "date": "2024-04-09",
+  "createdAt": "2024-04-09T05:42:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "秘封要出新专了？！",
+  "text": "秘封要出新专了？！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a36df016f11247e172124a7cea7560f587062952bae1abc984ddc5ce1b70829c.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzKaV*vTvi5P2qwmvkUe6qb7F6yULtYjjZcnh8MTkACHMTF8LYQhaG4n.KGjJU6Zd0A!!/b&bo=OASaBTgEmgUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 520,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a36df016f11247e172124a7cea7560f587062952bae1abc984ddc5ce1b70829c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05bd514664e3f0700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05bd514664e3f0700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ad52aa17e1eec66aa3e7c2b94d0a6158f272af76d5a2adc36a9de5304a0cb467"
+}

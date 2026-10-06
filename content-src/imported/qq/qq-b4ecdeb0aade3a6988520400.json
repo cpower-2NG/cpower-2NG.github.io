@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0aade3a6988520400",
+  "schemaVersion": 1,
+  "title": "日常 · 2025-12-11",
+  "date": "2025-12-11",
+  "createdAt": "2025-12-11T15:09:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "アイが溢れでいるよ",
+  "text": "アイが溢れでいるよ",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54c38b0a2cf5e38be383c1f14d24dfc6a2108e7f899755d275633792394d80c2.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZ6*7GyvZxnl.GbRlSLTx*SDBuuxcC9lQvfxPJuJwr64Y9N7pxIEo3j2Gzhu1zw3ew!!/b&bo=qAJ*AagCfwEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54c38b0a2cf5e38be383c1f14d24dfc6a2108e7f899755d275633792394d80c2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0aade3a6988520400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0aade3a6988520400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4e9f8ff3a3d32de2bbf06e5fc1911891ca1d108c528586d46152203126888a66"
+}

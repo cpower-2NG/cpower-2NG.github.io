@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb021e35a67bae50200",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-12",
+  "date": "2024-12-12",
+  "createdAt": "2024-12-12T13:20:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "唉我明年东西也太多了",
+  "text": "唉我明年东西也太多了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1253041798_1734023378",
+        "authorLabel": "匿名访客 62BF15",
+        "text": "有计划啦？好好加油",
+        "createdAt": "2024-12-12T17:09:38.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb021e35a67bae50200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb021e35a67bae50200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7ca4ccbdaac26533beb133b718742a1d89b06e54b281e5521294b54278a23ea9"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c379ae65f4720a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-22",
+  "date": "2024-01-22",
+  "createdAt": "2024-01-22T14:20:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "有的时候，太绝对的xp倾向也有很多不方便。比如推gal到hs的时候，难得气氛营造的那么好，久违的进状态了。结果过膝袜一脱，脱战了...",
+  "text": "有的时候，太绝对的xp倾向也有很多不方便。比如推gal到hs的时候，难得气氛营造的那么好，久违的进状态了。结果过膝袜一脱，脱战了...",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c379ae65f4720a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c379ae65f4720a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6bc5e971746136fa0cfc058a7dbfc161cfca769def7c72b924668c0e24eaa7c2"
+}

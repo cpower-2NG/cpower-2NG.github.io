@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb01bd9f6668eb60700",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-09-27",
+  "date": "2024-09-27",
+  "createdAt": "2024-09-27T16:11:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "与此同时，千恋万花总销量突破70万",
+  "text": "与此同时，千恋万花总销量突破70万",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/60f85d506f64d87b5b22925342768de9669697daa70fe593154a8a7da9d4ee61.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbunkq6NV3sLBXJ1C95bMRSuzCuDKi2pG8VhEVK8susSOiKYMARQ2xwJ6u*TgdojsA!!/b&bo=dwOAB3cDgAcWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 849,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/60f85d506f64d87b5b22925342768de9669697daa70fe593154a8a7da9d4ee61.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1328025956_1727477257",
+        "authorLabel": "匿名访客 B77149",
+        "text": "伟大无需多言",
+        "createdAt": "2024-09-27T22:47:37.000Z"
+      },
+      {
+        "id": "1260995764_1727479609",
+        "authorLabel": "匿名访客 BE5E0B",
+        "text": "柚子ssw",
+        "createdAt": "2024-09-27T23:26:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01bd9f6668eb60700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01bd9f6668eb60700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3117cdd2c0f45ae0b9187036d34e247fdae7364eea4eb8b2fd0d0f60800c66d9"
+}

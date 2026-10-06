@@ -1,0 +1,100 @@
+{
+  "id": "qq-b4ecdeb0dc30226a51f30800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-06-05",
+  "date": "2026-06-05",
+  "createdAt": "2026-06-05T02:13:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好像我还没被背叛过，似乎总是愿意先相信而不是怀疑，甚至有点想经历一次刻骨铭心的背叛（",
+  "text": "好像我还没被背叛过，似乎总是愿意先相信而不是怀疑，甚至有点想经历一次刻骨铭心的背叛（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 4,
+    "comments": [
+      {
+        "id": "3544925287_1780625749",
+        "authorLabel": "匿名访客 95864E",
+        "text": "别赤石（）",
+        "createdAt": "2026-06-05T02:15:49.000Z"
+      },
+      {
+        "id": "924012220_1780638578",
+        "authorLabel": "匿名访客 01208D",
+        "text": "吃什么史，别吃",
+        "createdAt": "2026-06-05T05:49:38.000Z"
+      },
+      {
+        "id": "2052840684_1780651772",
+        "authorLabel": "匿名访客 460869",
+        "text": "要不我来？",
+        "createdAt": "2026-06-05T09:29:32.000Z"
+      },
+      {
+        "id": "2967399604_1780651921",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2026-06-05T09:32:01.000Z"
+      },
+      {
+        "id": "2052840684_1780652240",
+        "authorLabel": "匿名访客 460869",
+        "text": "@匿名好友m]e105[/em]",
+        "createdAt": "2026-06-05T09:37:20.000Z"
+      },
+      {
+        "id": "2052840684_1780652272",
+        "authorLabel": "匿名访客 460869",
+        "text": "@匿名好友，我相信你你不相信我[em]e105[/em][em]e105[/em][em]e105[/em]",
+        "createdAt": "2026-06-05T09:37:52.000Z"
+      },
+      {
+        "id": "2967399604_1780652515",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2026-06-05T09:41:55.000Z"
+      },
+      {
+        "id": "2967399604_1780652569",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友",
+        "createdAt": "2026-06-05T09:42:49.000Z"
+      },
+      {
+        "id": "836859719_1780675027",
+        "authorLabel": "匿名访客 E88702",
+        "text": "背叛是什么感觉...",
+        "createdAt": "2026-06-05T15:57:07.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0dc30226a51f30800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0dc30226a51f30800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "393e4a37d3d82348e0ef19f1adaf9a2edbf86748d400d9a20429f9ac05643169"
+}

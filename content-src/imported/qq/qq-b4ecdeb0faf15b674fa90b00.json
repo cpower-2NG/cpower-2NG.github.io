@@ -1,0 +1,83 @@
+{
+  "id": "qq-b4ecdeb0faf15b674fa90b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-13",
+  "date": "2024-12-13",
+  "createdAt": "2024-12-13T08:36:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "论音乐的力量",
+  "text": "论音乐的力量",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a82c6e1dbc1f9a859f4818d29e4fcebbb2a7ea805b7d30f86408c5e76ab06ee4.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEDzoEBVJtW0*gVH8idANIIChvYsup.WF*uU*2AHcePACy4.uIet9VDLn9NSSjD2RxcuLfujYrKlk6XfklrlnzCk!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a82c6e1dbc1f9a859f4818d29e4fcebbb2a7ea805b7d30f86408c5e76ab06ee4-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15e81860f262963a5d7943997fe77890efdee107b7fb555dfb8c08eeb32f422f.png",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/TmEUgtj9EK6.7V8ajmQrEPH3.QjA53X1Ei*NypMkjzlYPIcPhksCUR8GdXK1dfS1rbA0ouY*cEHiNIMYj3tJhUwR91PrB7BUXkY9LR9dT5w!/b&bo=DAMQBAwDEAQDEDU!",
+      "width": 780,
+      "height": 1040,
+      "sourceQuality": "high",
+      "variants": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15e81860f262963a5d7943997fe77890efdee107b7fb555dfb8c08eeb32f422f-480.webp",
+          "width": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a82c6e1dbc1f9a859f4818d29e4fcebbb2a7ea805b7d30f86408c5e76ab06ee4.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1734080826",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "？？",
+        "createdAt": "2024-12-13T09:07:06.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0faf15b674fa90b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0faf15b674fa90b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4b703b8fdc1024b29df83771c1b0ea7e22959e60e9b3a50cdc2c365322e6c764"
+}

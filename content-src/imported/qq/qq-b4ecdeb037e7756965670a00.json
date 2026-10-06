@@ -1,0 +1,83 @@
+{
+  "id": "qq-b4ecdeb037e7756965670a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-01-25",
+  "date": "2026-01-25",
+  "createdAt": "2026-01-25T09:49:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "如果说 day1 是展现的故事里不同时间不同阶段的千早，那 day2 就是展现着20年来的作为偶像的千早。",
+  "text": "如果说 day1 是展现的故事里不同时间不同阶段的千早，那 day2 就是展现着20年来的作为偶像的千早。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/883d5af481b2a875161e312f43f52c6812d7b0ac020c867d3f305b408cbfef27.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbrwt*PTahZQ1m7mHGV4HyqOT1gR4OqbteAYRWJMqzdN3hWnvx8awQBXlryAjx6gBw!!/b&bo=owKEA6MChAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a56a4c78e2d5cd98d7df2e84d3f3970f6e13e1fd491bc2a23f0b49c82844205.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIbrwt*PTahZQ1m7mHGV4Hyq0bU0mYtr17Pme2IoLbcCGJ1NOonmc2W4e9*a.j.4Pwg!!/b&bo=owKEA6MChAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 523,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/883d5af481b2a875161e312f43f52c6812d7b0ac020c867d3f305b408cbfef27.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1769334656",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "我本以为我不会哭的，但最后降了伴奏的约束大合唱，快唱不出来了",
+        "createdAt": "2026-01-25T09:50:56.000Z"
+      },
+      {
+        "id": "3888206964_1770107183",
+        "authorLabel": "匿名访客 A9C550",
+        "text": "@匿名好友 漂洋过海地来看你[em]e121002[/em]",
+        "createdAt": "2026-02-03T08:26:23.000Z"
+      },
+      {
+        "id": "2967399604_1769334821",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "day2就是IMAS 3.0的魅力吧",
+        "createdAt": "2026-01-25T09:53:41.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb037e7756965670a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb037e7756965670a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ad99d9a2c95ec003793626d59105c4db2b4be842c1000bb373fe76d2bb6c2640"
+}

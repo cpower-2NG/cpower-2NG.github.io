@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb02d60406711d40500",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-11-22",
+  "date": "2024-11-22",
+  "createdAt": "2024-11-22T10:42:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "怎么换声优了",
+  "text": "怎么换声优了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0ade84225b55e2ba451da9e475325531790ba6175c608fca50aa773c2528f8d7.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIXcY5*.RKVZE6CMoEprB79HFGMNJKiHusYP9UBpqJo2NTVqQYi3dchlA5KQK1bRb1w!!/b&bo=sASjArAEowIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0ade84225b55e2ba451da9e475325531790ba6175c608fca50aa773c2528f8d7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02d60406711d40500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02d60406711d40500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "295bd0f62d43817681204388d922ca9c646eca95c0d0f454f62b265f82d3f75d"
+}

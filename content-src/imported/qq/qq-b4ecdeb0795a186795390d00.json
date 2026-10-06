@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0795a186795390d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-23",
+  "date": "2024-10-23",
+  "createdAt": "2024-10-23T02:07:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "梦了一个晚上的学动画，这下真dreaming了（",
+  "text": "梦了一个晚上的学动画，这下真dreaming了（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0795a186795390d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0795a186795390d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "dcbf63a3c7ffc15ccc9a9f5048eaac7f655c4289559537b67742c9c53cca7000"
+}

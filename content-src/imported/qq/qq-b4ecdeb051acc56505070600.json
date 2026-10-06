@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb051acc56505070600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-02-09",
+  "date": "2024-02-09",
+  "createdAt": "2024-02-09T04:38:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "为什么总有人会反对泣系gal中的Hscene呢，亲情主题的作品还能理解，但那些聚焦在男女主身上的爱情故事呢",
+  "text": "为什么总有人会反对泣系gal中的Hscene呢，亲情主题的作品还能理解，但那些聚焦在男女主身上的爱情故事呢",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb051acc56505070600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb051acc56505070600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3579181e1d50f7e88c5ff308304a036587c1ccf200c543b510630a9a0e2caf06"
+}

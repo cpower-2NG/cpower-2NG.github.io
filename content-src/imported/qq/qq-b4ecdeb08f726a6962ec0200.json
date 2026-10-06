@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb08f726a6962ec0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-01-16",
+  "date": "2026-01-16",
+  "createdAt": "2026-01-16T17:17:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "似乎现在确实没有萌萌人的空间了",
+  "text": "似乎现在确实没有萌萌人的空间了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2426803590_1768617525",
+        "authorLabel": "匿名访客 FC6190",
+        "text": "太压抑导致的",
+        "createdAt": "2026-01-17T02:38:45.000Z"
+      },
+      {
+        "id": "1742389847_1768629857",
+        "authorLabel": "匿名访客 E74B38",
+        "text": "还记得你说的话[em]e164[/em]",
+        "createdAt": "2026-01-17T06:04:17.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08f726a6962ec0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08f726a6962ec0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7bfcb6d22d6fb67ddb858a124ca983da94dfc188a97978642101c869a9d57dfa"
+}

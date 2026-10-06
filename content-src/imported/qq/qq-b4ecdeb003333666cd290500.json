@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb003333666cd290500",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-05-04",
+  "date": "2024-05-04",
+  "createdAt": "2024-05-04T13:07:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "「历史」宛若无心酿造的醇香毒酒，贪婪的酒客们都患上了不可治的疾病，关于「时间」的疾病",
+  "text": "「历史」宛若无心酿造的醇香毒酒，贪婪的酒客们都患上了不可治的疾病，关于「时间」的疾病",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb003333666cd290500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb003333666cd290500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "42bba7358bc5859270b8c5f4cb324315d39e5fb1e2f9dbc9148d87e56d414dd2"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb091589a657f0b0500",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-07",
+  "date": "2024-01-07",
+  "createdAt": "2024-01-07T07:53:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "和妹子聊本子掣肘好多",
+  "text": "和妹子聊本子掣肘好多",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb091589a657f0b0500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb091589a657f0b0500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1499595c4866bcc8603fea85373b294de182ebd4ab207327445ae1b424e23073"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c05efd66cb4e0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-10-02",
+  "date": "2024-10-02",
+  "createdAt": "2024-10-02T14:54:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "可能是网络评论家当久了，有点厌恶眼高手低的自己。对最近略微忙碌的现实生活说声谢谢吧。",
+  "text": "可能是网络评论家当久了，有点厌恶眼高手低的自己。对最近略微忙碌的现实生活说声谢谢吧。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c05efd66cb4e0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c05efd66cb4e0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3dc812eaa324cff071af9c080cf450d1642208b3b2e09fc633582ef263dc364a"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b4e5ab654d970100",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-01-20",
+  "date": "2024-01-20",
+  "createdAt": "2024-01-20T15:24:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "亏我还老说音频听着怪怪的，原来是我potplay预设问题",
+  "text": "亏我还老说音频听着怪怪的，原来是我potplay预设问题",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b4e5ab654d970100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b4e5ab654d970100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d4b2d516f67c43b87590a440a159d90ae3f17cd693fa5767ad82e26cea07a73e"
+}

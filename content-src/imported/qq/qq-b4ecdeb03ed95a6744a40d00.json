@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb03ed95a6744a40d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2024-12-12",
+  "date": "2024-12-12",
+  "createdAt": "2024-12-12T12:38:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "得回坑了吗",
+  "text": "得回坑了吗",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/175a39b8b58988838a02cc6868e98480ea5982d28dfc7ba0844e62284d5ca390.jpg",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/IoAt0TAZs8Yc38Jr9jGXIZzY51kvWEjHsUtguvKd00utow8FYKQpLHa1bIiWJ.Gz64428CrcS13Q417e6IEsWQ!!/b&bo=PgXyAj4F8gIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 220,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/175a39b8b58988838a02cc6868e98480ea5982d28dfc7ba0844e62284d5ca390.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1734008368",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "学马这太爆了",
+        "createdAt": "2024-12-12T12:59:28.000Z"
+      },
+      {
+        "id": "2967399604_1734008386",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 ume...",
+        "createdAt": "2024-12-12T12:59:46.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03ed95a6744a40d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03ed95a6744a40d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c570e94c588e54f46ed37f84e078457b0f1e7321197be4904f2fe7d55da78c87"
+}

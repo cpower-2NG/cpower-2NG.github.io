@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb047d80b6ae9040500",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-05-19",
+  "date": "2026-05-19",
+  "createdAt": "2026-05-19T03:25:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在真的觉得「ぬ」真的很好听，确实迷人",
+  "text": "现在真的觉得「ぬ」真的很好听，确实迷人",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb047d80b6ae9040500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb047d80b6ae9040500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e09590202226a6932adb88c4004af7ec17f7f3b198fc9597f7ba0e82e4dcb670"
+}
