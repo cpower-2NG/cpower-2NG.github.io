@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb036caf261139d0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-27",
+  "date": "2022-01-27",
+  "createdAt": "2022-01-27T16:37:10.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "形式主义 本文仅强调通俗意义上的形式主义。从社会的供需关系来看，形式主义主要是用各种手段来伪造供给满足需求的证明的行为。首先需求未得到满足，反而将供给侧的压力通",
+  "text": "形式主义\n 本文仅强调通俗意义上的形式主义。从社会的供需关系来看，形式主义主要是用各种手段来伪造供给满足需求的证明的行为。首先需求未得到满足，反而将供给侧的压力通过利益的绑定转移到需求侧，激化了双方矛盾。但受限于成本收益的考量，大多数人只得作罢。而从行事上，问题并未解决，事情仍未完成。通过矛盾压力的转移，行为方在增加工作量的情况下，效果却令人惋惜，实属事倍功半。此现象究其原因，只是仍然是“理性思考”后的对成本收益的考量。通过转移矛盾转移供给的方法付出以极少的成本换得达标的收益。空手套白狼的利润差驱使行为方行动，而压迫方又在极大的反差与极小的胜算下默不作声。甚至将其视作社会运行的底层逻辑的人大有人在，虽然从现象的角度观察，确实是正确的方法论。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb036caf261139d0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb036caf261139d0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4d33c2238d06760795371bd4347e1cecf67d27b6d51295cad17768e751868600"
+}

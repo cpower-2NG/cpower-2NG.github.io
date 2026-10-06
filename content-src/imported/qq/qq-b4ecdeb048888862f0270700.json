@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb048888862f0270700",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-05-21",
+  "date": "2022-05-21",
+  "createdAt": "2022-05-21T06:37:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "周六雀魂绝不调",
+  "text": "周六雀魂绝不调",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1653115062",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "每次都是一手好牌被抢胡",
+        "createdAt": "2022-05-21T06:37:42.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb048888862f0270700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb048888862f0270700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "200c0922439f65a806e594064c5e73a14dc0d4123fd02fa6ce12f2c63de591b0"
+}

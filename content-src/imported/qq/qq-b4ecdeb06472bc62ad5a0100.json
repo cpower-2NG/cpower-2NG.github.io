@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb06472bc62ad5a0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-29",
+  "date": "2022-06-29",
+  "createdAt": "2022-06-29T15:40:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "异世界舅舅确实有趣啊，槽点包袱抖的相当好。真是太可悲了，傲娇这一曾经最辉煌的萌属性，从普及到过时竟然17年都不到，太悲哀啦!",
+  "text": "异世界舅舅确实有趣啊，槽点包袱抖的相当好。真是太可悲了，傲娇这一曾经最辉煌的萌属性，从普及到过时竟然17年都不到，太悲哀啦!",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06472bc62ad5a0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06472bc62ad5a0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4a51932c7071c5e66470da0d99d87ba0488d97b13254bffe845248ac78c666ff"
+}

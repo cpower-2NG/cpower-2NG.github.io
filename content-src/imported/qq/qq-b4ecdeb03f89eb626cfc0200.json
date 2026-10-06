@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb03f89eb626cfc0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-04",
+  "date": "2022-08-04",
+  "createdAt": "2022-08-04T08:54:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "局长知道你七夕很孤单，特意发了动态安慰你，快说：谢谢局长！",
+  "text": "局长知道你七夕很孤单，特意发了动态安慰你，快说：谢谢局长！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4780c2e192bf191e90b622c10c292bcf2245584b1998cc746a4256313456f419.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzFC7fUWLDiBjuHPJdJAdqWvttNUDZr.E9F*Wz3r*AlxGGzqLLnkWT0VFuOG3b2Oxyw!!/b&bo=YwLpAWMC6QEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 314,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4780c2e192bf191e90b622c10c292bcf2245584b1998cc746a4256313456f419.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03f89eb626cfc0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03f89eb626cfc0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3a87c5495a26ef0b9606912331c7a52a53a475329ffc69a3eaac3a2249265a8c"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "qq-b4ecdeb023abda6200170f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-07-22",
+  "date": "2022-07-22",
+  "createdAt": "2022-07-22T13:50:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "",
+  "text": "",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/333882452acfe5355a9f42a192bdfd418ee43ca32929ac418601555de64ad5ca.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzCoa4kS8GEaM*0Bx2bIZZNET6d7H*W8IxanKXMWrGQEYHdGTk9CRfUL.4TF4QLbwrA!!/b&bo=WgIXA1oCFwMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 515,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/333882452acfe5355a9f42a192bdfd418ee43ca32929ac418601555de64ad5ca.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "2967399604_1658498705",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "也是如此，我也认为未来AI和人类的对等伦理关系的合法化是可能的。",
+        "createdAt": "2022-07-22T14:05:05.000Z"
+      },
+      {
+        "id": "2967399604_1658498733",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 ↑庸俗宅男的丑陋幻想罢了（",
+        "createdAt": "2022-07-22T14:05:33.000Z"
+      },
+      {
+        "id": "2967399604_1658501244",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 稀客",
+        "createdAt": "2022-07-22T14:47:24.000Z"
+      },
+      {
+        "id": "2967399604_1658502876",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "这样想，马斯洛需求层次还挺准的，我也只是部分阉割的不完全体而已。",
+        "createdAt": "2022-07-22T15:14:36.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb023abda6200170f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb023abda6200170f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b0c2e58bc4be7904f0da41895748ec27e814d5cf4bec9e5831a0c40195670385"
+}

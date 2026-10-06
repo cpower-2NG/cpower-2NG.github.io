@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03266036316180c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-22",
+  "date": "2022-08-22",
+  "createdAt": "2022-08-22T11:19:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "少年遇到了翡翠色的少女， 紫水晶的诡异光芒不知何时笼罩。 高楼窗边仰望烧云的少女， 祈求幸福的自尽少女。 少年拿起与现实战斗的剑， 欲把诡谲的紫光斩断。 翡翠的",
+  "text": "少年遇到了翡翠色的少女，\n紫水晶的诡异光芒不知何时笼罩。\n高楼窗边仰望烧云的少女，\n祈求幸福的自尽少女。\n少年拿起与现实战斗的剑，\n欲把诡谲的紫光斩断。\n翡翠的底色未消，\n紫水晶的光芒笼罩。\n祈求幸福的悲恋故事，\n去除遗憾的悲恋少女。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03266036316180c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03266036316180c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ec0c8d6e8f64a2e28b11013ade4eeca5888ceb9697aafc11d05d4c6e125fb670"
+}

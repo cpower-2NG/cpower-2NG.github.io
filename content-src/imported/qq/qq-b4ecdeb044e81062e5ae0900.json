@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb044e81062e5ae0900",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-02-19",
+  "date": "2022-02-19",
+  "createdAt": "2022-02-19T12:53:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "周六麻将手气不错",
+  "text": "周六麻将手气不错",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb044e81062e5ae0900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb044e81062e5ae0900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c65fbc407eed8b124fc345256aac990cb20a6649d28fd66d2a2cfa7b90dbe462"
+}

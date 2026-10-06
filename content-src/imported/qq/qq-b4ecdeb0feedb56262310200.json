@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0feedb56262310200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-24",
+  "date": "2022-06-24",
+  "createdAt": "2022-06-24T17:01:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "辉夜要真能出新作TV的话，那A1还真挺爱这部作品的",
+  "text": "辉夜要真能出新作TV的话，那A1还真挺爱这部作品的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0feedb56262310200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0feedb56262310200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "10e3253e85fc2e1d0078f0b2b67cc69f43840843eda8664d9d20612f15a75962"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01eca3a63cc850e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-10-03",
+  "date": "2022-10-03",
+  "createdAt": "2022-10-03T11:40:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "原来不只我一个玩gal会睡着",
+  "text": "原来不只我一个玩gal会睡着",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01eca3a63cc850e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01eca3a63cc850e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f5250dfcbe8e22c674ca293d52bc79aa96d38e0dc8cffc0750492100f446258c"
+}

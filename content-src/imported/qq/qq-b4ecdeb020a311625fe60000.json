@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb020a311625fe60000",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-02-20",
+  "date": "2022-02-20",
+  "createdAt": "2022-02-20T02:11:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "什么绝望监狱",
+  "text": "什么绝望监狱",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb020a311625fe60000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb020a311625fe60000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f149b29bc0c4520a2d679acd96d1c46bbd1ca5b37c19ed078c5d718b516c47e1"
+}

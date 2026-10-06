@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb057b40f62db460500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-02-18",
+  "date": "2022-02-18",
+  "createdAt": "2022-02-18T14:59:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "作为最简单又最强大的情感，偶像崇拜一次次的让人类进步又一步步迈向深渊。因为不存在真正的正确完美，为此不断追逐的人本能的选择了偶像以崇拜，作为一条捷径。垄断着偶像",
+  "text": "作为最简单又最强大的情感，偶像崇拜一次次的让人类进步又一步步迈向深渊。因为不存在真正的正确完美，为此不断追逐的人本能的选择了偶像以崇拜，作为一条捷径。垄断着偶像的某种特性的统治者，也就完成了统治，甚至走向盛世。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb057b40f62db460500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb057b40f62db460500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "52e0298f1343eef3af5c66b10c5a7f8a0a0042737b6b2352675659b7a8f2d75f"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01b8a5e63c5040400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-10-30",
+  "date": "2022-10-30",
+  "createdAt": "2022-10-30T14:28:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "高雄统子是神！",
+  "text": "高雄统子是神！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01b8a5e63c5040400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01b8a5e63c5040400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "26239efa860ccf339c8d5e828dd51d6ab43d064b77b5eeeb9ddd1f76f857485b"
+}

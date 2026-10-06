@@ -1,0 +1,92 @@
+{
+  "id": "qq-b4ecdeb0406ca163e3600c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-12-20",
+  "date": "2022-12-20",
+  "createdAt": "2022-12-20T08:03:12.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "笼中鸟,纸上的魔法师,幻想图书馆,紫翠玉,最后是青鸟.《纸魔》的叙事果然很传统啊,叙述上重复的技巧略显枯燥,但这所有线路都只为故事服务的做法,真不愧是青春活字啊",
+  "text": "笼中鸟,纸上的魔法师,幻想图书馆,紫翠玉,最后是青鸟.《纸魔》的叙事果然很传统啊,叙述上重复的技巧略显枯燥,但这所有线路都只为故事服务的做法,真不愧是青春活字啊.",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dbf64bd043af3dc97fa9f04c6df126d7b1bb0cdd5e2ada871e723e111c627e88.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzAAy086cbAnBMnS6fTpNX0gkrJoOjckG5FyLDE8ZYPd2rKDcn4EilUicqX02nPiVeg!!/b&bo=AAXQAgAF0AIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c2daa5ded9acc8c391b32259a74faa2551d99717e1d3bbb8a7424eafd12f05df.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzAAy086cbAnBMnS6fTpNX0iixpJ8S1BdTv.l2HWiqCQ6WbHs*rG6RsN9*H7qGtlY3A!!/b&bo=AAXQAgAF0AIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/842ae305673970288668b6b411e85d9b666e5715790312c97c4871d68e7f005d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzF5KjrX97fhLg2y6O0kJtcTv*w*ps8AyXNyOvFSkU.DvFT6vnHlj2RoymmmSqlyEVg!!/b&bo=AAXQAgAF0AIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dbf64bd043af3dc97fa9f04c6df126d7b1bb0cdd5e2ada871e723e111c627e88.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "2967399604_1671523512",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "不错的gal,重复的伏线设计真的是她为数不多的缺点了,虽然也正因此才拖到了现在才推完.",
+        "createdAt": "2022-12-20T08:05:12.000Z"
+      },
+      {
+        "id": "2967399604_1671523735",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "本来是打算每一章写一段的,但推到后面,鉴于水平,实在难以隐藏其中的伏线,就此作罢.",
+        "createdAt": "2022-12-20T08:08:55.000Z"
+      },
+      {
+        "id": "2967399604_1671524003",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "在幻想图书馆中发生的,在魔法之书影响下的,展现诅咒与恨意,爱恋与渴望的青春活字.",
+        "createdAt": "2022-12-20T08:13:23.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0406ca163e3600c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0406ca163e3600c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "aeaa85a287a70cc429dc20478769e1610daa4f22ae30d25ebc7848decaff99b9"
+}

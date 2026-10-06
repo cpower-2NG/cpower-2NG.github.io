@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb093fb8263498f0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-27",
+  "date": "2022-11-27",
+  "createdAt": "2022-11-27T05:54:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "要不是有认识的牌佬",
+  "text": "要不是有认识的牌佬",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c364e92200e0661b33d96dbd6ce522d8ed7ce44e9a212ea0aa48484aa497ab45.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzEF5rP7dMKnMKT1N6RzkrVRY8j2RRwADoJrf00NCFO2ue2Mr3Cp9r*7sTkHUBceAtA!!/b&bo=UQHzAVEB8wEWADA!",
+      "width": 337,
+      "height": 499,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c364e92200e0661b33d96dbd6ce522d8ed7ce44e9a212ea0aa48484aa497ab45.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2605897075_1669530165",
+        "authorLabel": "匿名访客 EB383F",
+        "text": "咋了，这卡",
+        "createdAt": "2022-11-27T06:22:45.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb093fb8263498f0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb093fb8263498f0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a0d841be0589098aec312d8d31a5b07de1a802b2f3132a0e50116bbf20954c0d"
+}

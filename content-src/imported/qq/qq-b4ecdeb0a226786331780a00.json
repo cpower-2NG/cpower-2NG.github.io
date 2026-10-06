@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0a226786331780a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-19",
+  "date": "2022-11-19",
+  "createdAt": "2022-11-19T00:43:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这就是大萌神的生日礼物嘛",
+  "text": "这就是大萌神的生日礼物嘛",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b523897cff460a47f2c3a384177a5862477f3f300041e104400d32bc2974cd97.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzI9MtKRRWhoCNSYxORv4mbuyEPIImTvAlRnn71hqhDSvnRz4wXQs3ev69U3uWuniEg!!/b&bo=sAK*ArACvwIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 401,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b523897cff460a47f2c3a384177a5862477f3f300041e104400d32bc2974cd97.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a226786331780a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a226786331780a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5e2befe86c93d52e2f170748df8b3270599d677367c7f516e774c3f8362b2cd4"
+}

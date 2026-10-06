@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb01877da629af10e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-07-22",
+  "date": "2022-07-22",
+  "createdAt": "2022-07-22T10:08:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "父权制家庭环境+儒教等级制学校+资本主义职场。有没有一点新的统治思想，这帮人在这点上还不如那十年呢！",
+  "text": "父权制家庭环境+儒教等级制学校+资本主义职场。有没有一点新的统治思想，这帮人在这点上还不如那十年呢！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b637939aed241ab71a88456cb070e75256a3ca89038c2d0f21797d365356ca94.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzCHhipOqL8Tcvw6oSvw8owHt.LsOLprcNw7jJhUOLQVp2ieNsyCVYLQAv9UaQctucg!!/b&bo=sgIGArICBgIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 294,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b637939aed241ab71a88456cb070e75256a3ca89038c2d0f21797d365356ca94.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1658484515",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "抱脸虫对于寄生体的赞扬。",
+        "createdAt": "2022-07-22T10:08:35.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01877da629af10e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01877da629af10e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6d294b68b7c61afff5c8036af77e508d913ae667076a9efbfa127b654d32d735"
+}

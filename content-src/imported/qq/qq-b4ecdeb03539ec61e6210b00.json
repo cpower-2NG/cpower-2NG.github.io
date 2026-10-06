@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03539ec61e6210b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-22",
+  "date": "2022-01-22",
+  "createdAt": "2022-01-22T17:04:53.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在反乌托邦题材是否还具有现实意义？ 现代意义的反乌托邦作品应该是在上个世纪正式出现。纳粹统治的“日耳曼尼亚”作为其主要发生地，同时，伴随着诸如未来科技对人类的",
+  "text": "现在反乌托邦题材是否还具有现实意义？\n现代意义的反乌托邦作品应该是在上个世纪正式出现。纳粹统治的“日耳曼尼亚”作为其主要发生地，同时，伴随着诸如未来科技对人类的反统治。在当时，作为恐惧的是事物本身，是那个尚未到来的事物，或是已被扼杀的可能的事物，进而引人反思。这是一个社会性的文艺，通过具象化的被表达的恐惧，引发的是社会的思考，从而一定程度上的纠正历史的车轮。\n而如今，越来越多的反乌托邦题材，其失去了对社会的在创作，只是模糊的制造对立、制造强权、制造恐惧，甚至只是一个方便叙事的无恶不作的社会空壳。引发恐惧的也不再是切实的物，而是抽象的概念。诚然，完整的世界观塑造实非易事，但阻碍其发展的绝不仅此。随着时代发展，对过去的假想缺乏实感，颇有无病呻吟之意；而未来似乎又触手可及。人人都在时代的快车上，享受着科技的便利，茶余饭后的思考与忧虑也变从外物的异化变成自身的人权，逐渐丧失了社会性。反乌托邦的故事，也就从人人自危的现实主义变成如梦似幻的虚无主义。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03539ec61e6210b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03539ec61e6210b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7d5efbcca98e3edeec6723709c66607fe26a47d699b7947acfdb071808223fb9"
+}

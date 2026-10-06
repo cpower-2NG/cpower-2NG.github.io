@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02fb8fa611c580a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-02-02",
+  "date": "2022-02-02",
+  "createdAt": "2022-02-02T16:58:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "单方面宣布东方热血汉是今年华灯宴第一单品",
+  "text": "单方面宣布东方热血汉是今年华灯宴第一单品",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02fb8fa611c580a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02fb8fa611c580a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b82b6146ee369379c3680413a0e7c7e392e8e7892257012ab87e89e6bdfa8f31"
+}

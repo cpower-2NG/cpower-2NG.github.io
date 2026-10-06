@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb027dab76213260500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-26",
+  "date": "2022-06-26",
+  "createdAt": "2022-06-26T04:01:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "Lycoris Recoil的柄太好看了吧，还是山本由美子懂这种魅而不涩的妹子",
+  "text": "Lycoris Recoil的柄太好看了吧，还是山本由美子懂这种魅而不涩的妹子",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb027dab76213260500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb027dab76213260500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "fbf712ccc345be13c49f08cac17f95ea352685abc838d07e15749b77f7e16e8b"
+}

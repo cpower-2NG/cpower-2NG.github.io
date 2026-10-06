@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0a2b64e62714a0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-04-07",
+  "date": "2022-04-07",
+  "createdAt": "2022-04-07T10:01:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "艹，局长来了",
+  "text": "艹，局长来了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/acffc2e7ccd7897b265c59f7e0bb33da4a5a706d5ba2636b88ca6f9a90fc043d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzFuaa7nP9Jg*2P9I1bz*d7C04ggyrYhpJxNsMIMYIQKd5noreLZjyWZ6WKQNIwjpig!!/b&bo=bgLGAW4CxgERADc!&w=392&h=5000",
+      "width": 392,
+      "height": 286,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/acffc2e7ccd7897b265c59f7e0bb33da4a5a706d5ba2636b88ca6f9a90fc043d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a2b64e62714a0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a2b64e62714a0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b22b93a26887663cbdcf33aa73526acde14fe325f6e9766445b8f7703b415944"
+}

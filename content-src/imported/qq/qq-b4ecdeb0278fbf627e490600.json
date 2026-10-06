@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0278fbf627e490600",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-07-02",
+  "date": "2022-07-02",
+  "createdAt": "2022-07-02T00:19:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "反对理性至上，在人际事物中，感性判断绝对高效且占据主导地位，此时理性思考只会让矛盾僵化，人类与生俱来的共情能力反而是解决问题的良药。至于除情感人际关系外的矛盾，",
+  "text": "反对理性至上，在人际事物中，感性判断绝对高效且占据主导地位，此时理性思考只会让矛盾僵化，人类与生俱来的共情能力反而是解决问题的良药。至于除情感人际关系外的矛盾，感性判断自然显得幼稚，一旦错综复杂，那更是混沌系统了，无力回天。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0278fbf627e490600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0278fbf627e490600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "047d6bd94dd95cd978bbc64b019051000f6c6aeb03719e5a468c19748506102b"
+}

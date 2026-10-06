@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c76e506203050500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-04-08",
+  "date": "2022-04-08",
+  "createdAt": "2022-04-08T17:20:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天熬夜是熬对了",
+  "text": "今天熬夜是熬对了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c76e506203050500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c76e506203050500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a65bba902584bd2894696984f2af58b53a1b5566a42bfad15f002dc26419b762"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb02ed54b6337a50400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-10-16",
+  "date": "2022-10-16",
+  "createdAt": "2022-10-16T09:55:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "PCUP的答案是《BE THE ONE》",
+  "text": "PCUP的答案是《BE THE ONE》",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ce829ebc10edfd8f1424739f7b2f9b7c6ce8d4b644671f1358902223348d6a5.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzHLtRN7.yG3UyA66G4DxARPnrbdhif5V*5YVroSpSjje0CIx64Gt0szqMc*S9gT.Mw!!/b&bo=TgP0AU4D9AEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 232,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ce829ebc10edfd8f1424739f7b2f9b7c6ce8d4b644671f1358902223348d6a5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1665914417",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "怎么可能有时间去刷这个啊，那真是要最低生存保障了",
+        "createdAt": "2022-10-16T10:00:17.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02ed54b6337a50400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02ed54b6337a50400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "735e78865b3a6b97cb5518bf8ef254586864051a9a28c273444fac1c6dcb599a"
+}

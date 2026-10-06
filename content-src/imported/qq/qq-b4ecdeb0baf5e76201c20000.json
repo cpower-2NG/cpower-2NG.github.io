@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0baf5e76201c20000",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-01",
+  "date": "2022-08-01",
+  "createdAt": "2022-08-01T15:48:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "《红宝石的天作之合》， 一个平淡的恋爱喜剧。 安静的白发少女走出来书房， 解除到了新奇的世界。 做出了美妙的告白， 诞生了幸福的情侣。 这就是故事的结尾， 《红",
+  "text": "《红宝石的天作之合》，\n一个平淡的恋爱喜剧。\n安静的白发少女走出来书房，\n解除到了新奇的世界。\n做出了美妙的告白，\n诞生了幸福的情侣。\n这就是故事的结尾，\n《红宝石的天作之合》的和平结局。\n配角只是物语的仆从，\n并不能影响故事。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0baf5e76201c20000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0baf5e76201c20000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5f74d3dadb495d419204a470baca18c4e48abc45ee9571add413874fc639a239"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a394bf62e58d0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-07-02",
+  "date": "2022-07-02",
+  "createdAt": "2022-07-02T00:42:40.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "与换位思考相对的，便是共情能力。从心理学上讲，幼儿是无法认识到他人世界，也就是说认为自己的所见所闻所思所想别人也悉数知晓。这也是幼儿做出一些神奇行为的原因。而这",
+  "text": "与换位思考相对的，便是共情能力。从心理学上讲，幼儿是无法认识到他人世界，也就是说认为自己的所见所闻所思所想别人也悉数知晓。这也是幼儿做出一些神奇行为的原因。而这种他人世界的认知指的是换位思考能力，也就是理性思维。而共情能力就不一样了，幼儿也会因为他人的哭泣而哭泣，因为他人欢笑而欢笑，这理应是与生俱来的。但就事实而言，似乎是会因经历而消减的，压抑情绪确实是会让人感性衰弱。就我自身而言，能依靠理性思考知道他者情绪情感的起因结果，但往往很难感受到实质内容。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a394bf62e58d0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a394bf62e58d0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2917a7c2188c4128baebc3e69649347aa83cdb6d1057db64318765e7cfee41ae"
+}

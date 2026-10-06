@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb06c0224625b2b0c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-03-06",
+  "date": "2022-03-06",
+  "createdAt": "2022-03-06T00:37:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "运气终于回来了",
+  "text": "运气终于回来了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1712444828_1646541068",
+        "authorLabel": "匿名访客 BB0DF3",
+        "text": "希望别用在乒乓球上[doge]",
+        "createdAt": "2022-03-06T04:31:08.000Z"
+      },
+      {
+        "id": "2967399604_1646553847",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 麻将而已",
+        "createdAt": "2022-03-06T08:04:07.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06c0224625b2b0c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06c0224625b2b0c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5acc9b42f7e8807c202df7d2708d7749f98de6f443b8f2a1b0baaf273ad7ed63"
+}

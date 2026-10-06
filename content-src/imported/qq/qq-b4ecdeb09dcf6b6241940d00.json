@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb09dcf6b6241940d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-04-29",
+  "date": "2022-04-29",
+  "createdAt": "2022-04-29T11:43:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "就《孤勇者》为曲作mad， 乒乓，re0，京吹，小南极，游戏人生，魔圆， 如果是你选哪个作素材，为什么",
+  "text": "就《孤勇者》为曲作mad，\n乒乓，re0，京吹，小南极，游戏人生，魔圆，\n如果是你选哪个作素材，为什么",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "3197188840_1651233064",
+        "authorLabel": "匿名访客 E50E58",
+        "text": "游戏人生zero，里克休比夫妻。原因大概不用多说了吧[em]e104[/em]",
+        "createdAt": "2022-04-29T11:51:04.000Z"
+      },
+      {
+        "id": "3014862083_1651233850",
+        "authorLabel": "匿名访客 C1D0C9",
+        "text": "游戏人生，不用说了",
+        "createdAt": "2022-04-29T12:04:10.000Z"
+      },
+      {
+        "id": "3014862083_1651233871",
+        "authorLabel": "匿名访客 C1D0C9",
+        "text": "乒乓也行",
+        "createdAt": "2022-04-29T12:04:31.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09dcf6b6241940d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09dcf6b6241940d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e6017ec4495158ecee38b7e39cab42766d5ab996941f87a220ca779dee97aafb"
+}

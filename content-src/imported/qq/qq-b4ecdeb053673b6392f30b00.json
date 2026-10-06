@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb053673b6392f30b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-10-03",
+  "date": "2022-10-03",
+  "createdAt": "2022-10-03T22:50:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "花朵艳丽，终将散落",
+  "text": "花朵艳丽，终将散落",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb053673b6392f30b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb053673b6392f30b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d7adc0562745d661bf864a5fdb9ccc61c718d78e82784e4bed261d009486b376"
+}

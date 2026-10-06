@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb08dd6786383830800",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-19",
+  "date": "2022-11-19",
+  "createdAt": "2022-11-19T13:13:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "最怪的一集？！",
+  "text": "最怪的一集？！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44e2ed4a8fa29e1caae9b5c1d1183238b6e468e9c9aa7b0408060efff285e877.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDi.YXVZ8Tnv3QiH9D7voTqQORiuPUy2VjK04tBEIobPlrtC6SzjVZ0W7PxZZfPa9g!!/b&bo=QwLdAUMC3QEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 323,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44e2ed4a8fa29e1caae9b5c1d1183238b6e468e9c9aa7b0408060efff285e877.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08dd6786383830800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08dd6786383830800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "42256eaa1b548dba771a9c7a120c8a6692ce0413b4b3ea245fbb6828f491fbcd"
+}

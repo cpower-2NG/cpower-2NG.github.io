@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03c97646380820900",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-04",
+  "date": "2022-11-04",
+  "createdAt": "2022-11-04T04:38:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "纸魔算是我看到的第一个很好地通过叙述视角的切换来塑造人物的gal。不是叙诡，而是合理化人物动机。",
+  "text": "纸魔算是我看到的第一个很好地通过叙述视角的切换来塑造人物的gal。不是叙诡，而是合理化人物动机。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03c97646380820900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03c97646380820900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6174a2460a0924137de90701a67c5138a5dec993f38c02f5733c6c41b6cf6d67"
+}

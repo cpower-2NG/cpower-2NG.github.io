@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb040de5363ea6b0500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-10-22",
+  "date": "2022-10-22",
+  "createdAt": "2022-10-22T12:12:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "希水好强",
+  "text": "希水好强",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb040de5363ea6b0500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb040de5363ea6b0500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "79af881863388be9e5c11b54b227fcfaa30531bbb039c8a7e52b864021dc024f"
+}

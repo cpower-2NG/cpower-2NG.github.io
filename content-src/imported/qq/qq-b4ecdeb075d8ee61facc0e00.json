@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb075d8ee61facc0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-24",
+  "date": "2022-01-24",
+  "createdAt": "2022-01-24T16:48:53.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "认同感与优越感 人是同时需要认同感与优越感的，或者说是同时追求的。而强调同时，是因为这是两种相悖的情感。认同感是来源于平等，那是我与他人与群体存在着共同的的平等",
+  "text": "认同感与优越感\n人是同时需要认同感与优越感的，或者说是同时追求的。而强调同时，是因为这是两种相悖的情感。认同感是来源于平等，那是我与他人与群体存在着共同的的平等，所以常常伴随着归属感。那是一种狭义的平等，并不是身份地位，而是有着共同的目标或者说取向。而优越感则来源于不等，来源于上位者持强凌弱的傲慢。这不是贬义的表达，而是中性的。以为自己为例，帮助他人或者指挥指导时，精神上驱动我的往往不是成功的成就感而是上位者的优越。这是一场没有压迫没有受害者的剥削。它的链条是单向的上位者获得优越而无关下位者的得失。而这两者的共同点也就在于又具有社交性，二者都必须从外界获取。或许会因为个体的差异，每个人注重的有所不同。但就社交性而言，二者对我都是稀缺资源啊！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb075d8ee61facc0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb075d8ee61facc0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4f5d5cc6e3dd79b104cd41433c8fe232e95a5d883601b3562e5123144d37ffb1"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb05b2ff16282c60300",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-08",
+  "date": "2022-08-08",
+  "createdAt": "2022-08-08T15:44:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "世人不再认识少女的世界的故事， 那是蓝宝石描绘的故事。 某个地方有一对情侣， 他们恰当的相爱相知。 勾魂摄魄的深青色， 啊，多么漂亮啊。 那是降临于少女身边的幸",
+  "text": "世人不再认识少女的世界的故事，\n那是蓝宝石描绘的故事。\n某个地方有一对情侣，\n他们恰当的相爱相知。\n勾魂摄魄的深青色，\n啊，多么漂亮啊。\n那是降临于少女身边的幸运，\n也是从家中仓库找出的不幸。\n世界把少女置身于孤立中，\n蓝宝石的孤身一人的诅咒。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05b2ff16282c60300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05b2ff16282c60300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "375880b24d9720d9408ac75790a5106fbb1ca1d4af007264c70468f30e46d130"
+}

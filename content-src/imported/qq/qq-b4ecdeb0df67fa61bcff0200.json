@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb0df67fa61bcff0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-02-02",
+  "date": "2022-02-02",
+  "createdAt": "2022-02-02T11:15:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "麻将等灯",
+  "text": "麻将等灯",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6de769bae8c8923aaf013dd3dbf31a60a8638a0f3e570512157301564334fb02.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDlWIhvrt2NcxtlWkd4ADvC3pa.MTy5dzzBHKeXHnYThvKQ5sABFC9GXBk0*YOhlBA!!/b&bo=QAaEA0AGhAMRADc!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6de769bae8c8923aaf013dd3dbf31a60a8638a0f3e570512157301564334fb02.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1643800958",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "运气不错",
+        "createdAt": "2022-02-02T11:22:38.000Z"
+      },
+      {
+        "id": "2967399604_1643801470",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "8点开！",
+        "createdAt": "2022-02-02T11:31:10.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0df67fa61bcff0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0df67fa61bcff0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "35b968d19e164dfc28a4bed6758cda88c5f80fd967b90601c75bc431abbaf837"
+}

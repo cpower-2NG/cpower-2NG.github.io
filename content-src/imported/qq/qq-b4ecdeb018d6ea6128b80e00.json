@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb018d6ea6128b80e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-21",
+  "date": "2022-01-21",
+  "createdAt": "2022-01-21T15:49:44.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": " 浅谈三无 三无：无口、无心、无表情，作为三无的基本概念是不准确的，这皆是对其面的描述，而不是对里的归纳。三无的核心应该是情感、欲望的缺失（参考长门），或者压抑",
+  "text": "浅谈三无\n 三无：无口、无心、无表情，作为三无的基本概念是不准确的，这皆是对其面的描述，而不是对里的归纳。三无的核心应该是情感、欲望的缺失（参考长门），或者压抑（参考凌波丽），而表现出的对外物的反应弱化，甚至是无反应。也就是通常定义的 无口（寡言）、无心（没有情感）、无表情（没有情绪）。\n 抛开社会因素，无口的流行极大程度上正是从“无”到“有”的故事性所赋予的“萌”，简单点说就是反差。必然的，当一个角色处在“三无”的状态下，会产生至少三种已知：一、角色有着特殊的过去或正处其中。二、随着故事的发展，必然产生的“有”，也就是情感。三、观众对其原因而产生的怜悯和保护欲，哪怕不知道其具体原因。\n 就社会意义，三无的正式出现是凌波丽，那自然得从彼时的日本谈起。纸醉金迷的泡沫刚刚炸裂，在经济低迷导致的低欲望和对21世纪的焦虑下，越来越多的青年开始逃避现实。然后平成废宅诞生了。而在文艺创作领域，越来越多的人开始注意倒此时的社会颇有百年前的风采。同是社会的剧烈变化，只不过百年前是兴盛，而现在是没落。于是，怀旧风潮兴起。然后凌波丽出现了，从这个角度",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb018d6ea6128b80e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb018d6ea6128b80e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "763866ca9c3858a47cfb6a921f6b8e4ce5dd421f850db6d7c01f49fe8780035e"
+}

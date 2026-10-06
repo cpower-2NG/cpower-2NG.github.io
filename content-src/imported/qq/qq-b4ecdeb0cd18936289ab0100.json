@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0cd18936289ab0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-05-29",
+  "date": "2022-05-29",
+  "createdAt": "2022-05-29T06:55:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "可能是因为受困于信息茧房，感觉现代西方作品蕴含的哲思更多是潮流而空洞的，诸如智械危机、英雄主义、（反）乌托邦。",
+  "text": "可能是因为受困于信息茧房，感觉现代西方作品蕴含的哲思更多是潮流而空洞的，诸如智械危机、英雄主义、（反）乌托邦。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0cd18936289ab0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0cd18936289ab0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "403b0d9ff2384ff8d2b45fba0f37fbceea92fbb081ba38c58bf1faff9387374b"
+}

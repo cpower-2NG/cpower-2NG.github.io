@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0372bc062c6540d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-07-02",
+  "date": "2022-07-02",
+  "createdAt": "2022-07-02T11:25:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真的有人将自身经历作为艺术作品来审美 吗？",
+  "text": "真的有人将自身经历作为艺术作品来审美 吗？",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3014862083_1656764370",
+        "authorLabel": "匿名访客 C1D0C9",
+        "text": "我",
+        "createdAt": "2022-07-02T12:19:30.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0372bc062c6540d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0372bc062c6540d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6a3ba861e3c7e6a41ef62b6e6ed868ba14efd504bea4bf40d81f1f7d5098d5f3"
+}

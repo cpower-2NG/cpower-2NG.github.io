@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f8253063f1fe0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-09-25",
+  "date": "2022-09-25",
+  "createdAt": "2022-09-25T09:57:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "找资源的时候不得不感叹，a还活着真是太好了",
+  "text": "找资源的时候不得不感叹，a还活着真是太好了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f8253063f1fe0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f8253063f1fe0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1b9f30100c01f3c71992eed7f7669eac2bae1e56437823d1408821e105a09039"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0d4b57062746a0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-05-03",
+  "date": "2022-05-03",
+  "createdAt": "2022-05-03T04:55:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在倒是有点理解阿虚了，不如说是羡慕。",
+  "text": "现在倒是有点理解阿虚了，不如说是羡慕。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d4b57062746a0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d4b57062746a0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "02127d3998b877251f7aeb736f8e4a586dc6e67e91d7a845b9560fa899e88dd1"
+}

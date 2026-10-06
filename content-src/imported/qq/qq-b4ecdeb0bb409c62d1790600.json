@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0bb409c62d1790600",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-05",
+  "date": "2022-06-05",
+  "createdAt": "2022-06-05T05:35:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这下是真的困境了[em]e7023[/em][em]e7023[/em]",
+  "text": "这下是真的困境了[em]e7023[/em][em]e7023[/em]",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a79752f093782f6a78b9a21c70aab5c2df8fe024369b128be286cb79a22d68e.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzLBEDxdugr1Ud9SyHGYjg520VcDYgpOqUDDFoQu1d8tCKwsHL0bcK189lIboW9VLAg!!/b&bo=cQIUAnECFAIRADc!&w=392&h=5000",
+      "width": 392,
+      "height": 334,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a79752f093782f6a78b9a21c70aab5c2df8fe024369b128be286cb79a22d68e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bb409c62d1790600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bb409c62d1790600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ba316ffa14aedccd4f612e5a2056e53b1f50ae071605013a099b635141d8f7bd"
+}

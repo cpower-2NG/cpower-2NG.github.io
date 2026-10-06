@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb007dc0c6360b30400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-29",
+  "date": "2022-08-29",
+  "createdAt": "2022-08-29T15:32:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "cimic被水镜等多位日本画师叫停，都说不让上传自己的画作，这下事情开始有趣了",
+  "text": "cimic被水镜等多位日本画师叫停，都说不让上传自己的画作，这下事情开始有趣了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1661791011",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "打错啦，是mimic",
+        "createdAt": "2022-08-29T16:36:51.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb007dc0c6360b30400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb007dc0c6360b30400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f7dbc29c358e5b3b532b018b2f69f4d9909024955aff3932dc519d0a9dd00e62"
+}

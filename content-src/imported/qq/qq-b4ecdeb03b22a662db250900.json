@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03b22a662db250900",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-12",
+  "date": "2022-06-12",
+  "createdAt": "2022-06-12T17:28:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "以前看物语想睡觉，现在看物语变精神了，为什么呢",
+  "text": "以前看物语想睡觉，现在看物语变精神了，为什么呢",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03b22a662db250900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03b22a662db250900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "877857f666a45c954eb889fd7389193e410df86627d0f2ef78740e5bae4b4390"
+}

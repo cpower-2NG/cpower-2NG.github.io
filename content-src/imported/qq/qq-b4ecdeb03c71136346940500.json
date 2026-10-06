@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb03c71136346940500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-09-03",
+  "date": "2022-09-03",
+  "createdAt": "2022-09-03T15:22:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "*少部分人知道他们是依靠大多数人推进现实，而大多数人只是把崇拜给予了因他们的崇拜而成为偶像的偶像*",
+  "text": "*少部分人知道他们是依靠大多数人推进现实，而大多数人只是把崇拜给予了因他们的崇拜而成为偶像的偶像*",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1662218890",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "源于某个有关真理掌握的梗图",
+        "createdAt": "2022-09-03T15:28:10.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03c71136346940500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03c71136346940500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7ac310ede4b32a671248ecc2ec844cd4dc6c65b9c37e23d13639b53925f3467b"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb042032263ee5d0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-09-14",
+  "date": "2022-09-14",
+  "createdAt": "2022-09-14T16:37:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "为什么汉化组不做hs呢，明明割裂感这么强。要说玷污啊、影响理解，那不是看玩家的吗。不汉化也就算了还直接砍掉（",
+  "text": "为什么汉化组不做hs呢，明明割裂感这么强。要说玷污啊、影响理解，那不是看玩家的吗。不汉化也就算了还直接砍掉（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb042032263ee5d0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb042032263ee5d0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "25905e70c08ad9fca0eb45df956cf252041cae32ca2c8e761ccc73d7b9edc395"
+}

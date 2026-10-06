@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0ed30bc62b7720e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-29",
+  "date": "2022-06-29",
+  "createdAt": "2022-06-29T11:01:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "网游联机交流好可怕——ZUN",
+  "text": "网游联机交流好可怕——ZUN",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0ed30bc62b7720e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0ed30bc62b7720e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4aef7da2d2862ce52d29648240997691d1edd06d8afdefb1de232eab4501a17d"
+}

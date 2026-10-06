@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb079fdf061e3570200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-26",
+  "date": "2022-01-26",
+  "createdAt": "2022-01-26T07:51:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "伊藤公规（东京24区次要角色设计&总作画监督）：[苦口婆心]如果要在CW上班的话，就要去福岛班或梅原班。可以作为模范的强者大佬太多了",
+  "text": "伊藤公规（东京24区次要角色设计&总作画监督）：[苦口婆心]如果要在CW上班的话，就要去福岛班或梅原班。可以作为模范的强者大佬太多了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1d77f15103e07afbc4425772d8c10ee1e1f0c3685f06af0bf5fe9f0efe12871e.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDbhCIF*XryzLgnQ5*oQ1adoGjmcYPc5N7n5K4MeniOYSwZ4hx2vHT9E5T1ZzFqtjw!!/b&bo=BgKMAAYCjAARADc!&w=392&h=5000",
+      "width": 392,
+      "height": 106,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1d77f15103e07afbc4425772d8c10ee1e1f0c3685f06af0bf5fe9f0efe12871e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1643183523",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "cw三开起内讧了（笑）",
+        "createdAt": "2022-01-26T07:52:03.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb079fdf061e3570200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb079fdf061e3570200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b1686bc1c643457c456314af8152dcb778fcb78314f184c848ed88a74e51d9c2"
+}

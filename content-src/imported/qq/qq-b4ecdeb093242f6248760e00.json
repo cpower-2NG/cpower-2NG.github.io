@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb093242f6248760e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-03-14",
+  "date": "2022-03-14",
+  "createdAt": "2022-03-14T11:18:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天放学，路过校门时看到个印着「夢想天生」衣服的高二学生，可惜只来得及惊鸿一瞥。",
+  "text": "今天放学，路过校门时看到个印着「夢想天生」衣服的高二学生，可惜只来得及惊鸿一瞥。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb093242f6248760e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb093242f6248760e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "48d5444049cc88b497cbb89edb9fe59b99729c15919f0e79b2baf889a81297eb"
+}

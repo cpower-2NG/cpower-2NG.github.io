@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb019f8ed611dd80200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-01-24",
+  "date": "2022-01-24",
+  "createdAt": "2022-01-24T00:51:37.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "天性 天性作为与生俱来的特性，具有的是天然性，是不为外物抹除的，最多只是渐渐消退。因此天性是不同于理性的，是感性的范畴，并且是先于理性思考的。举个例子，一个普通",
+  "text": "天性\n天性作为与生俱来的特性，具有的是天然性，是不为外物抹除的，最多只是渐渐消退。因此天性是不同于理性的，是感性的范畴，并且是先于理性思考的。举个例子，一个普通中学生遇到老人摔倒，第一反应是扶不扶，而不是管不管，即使是理性的警告也会产生怜悯.这时的第一反应是帮助，再然后是理性的利弊权衡。所以说天性具有更高的优先级，只是受限于理性经验的判断。这也是为什么说人的社会化是一个理性增长而感性消退的过程，这正是因为原初的情感判断是存在善恶对错的，而理性只是逐利的，至少会考虑他人、自己的利益。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb019f8ed611dd80200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb019f8ed611dd80200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "03c29805406ccf8d835da25529f728db3b985cf2155b221cc64c639cd8f3da60"
+}

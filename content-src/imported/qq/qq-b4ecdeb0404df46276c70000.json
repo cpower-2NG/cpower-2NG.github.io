@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0404df46276c70000",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-11",
+  "date": "2022-08-11",
+  "createdAt": "2022-08-11T00:28:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天是东方红魔乡20周年，转发这条消息就会幻想入并且成为红魔馆女仆，我试过了，是假的,但是今天真的是红魔乡20周年。",
+  "text": "今天是东方红魔乡20周年，转发这条消息就会幻想入并且成为红魔馆女仆，我试过了，是假的,但是今天真的是红魔乡20周年。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1660177744",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "也是蓬莱人形二十周年",
+        "createdAt": "2022-08-11T00:29:04.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0404df46276c70000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0404df46276c70000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3d02335b5584fc7c84097160ab463554458e2e60c1accb3a03ed949be2d44053"
+}

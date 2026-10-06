@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03e47406231850a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-03-27",
+  "date": "2022-03-27",
+  "createdAt": "2022-03-27T11:14:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "mad工程文件分享是什么大慈善家!",
+  "text": "mad工程文件分享是什么大慈善家!",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03e47406231850a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03e47406231850a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "49f40abea16fdef30ec0ad50510c7cc89424c2b8282533ac8f48146651745514"
+}

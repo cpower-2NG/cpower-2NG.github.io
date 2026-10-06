@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0feb42c62b1d30500",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-03-12",
+  "date": "2022-03-12",
+  "createdAt": "2022-03-12T14:59:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今日雀魂绝不调",
+  "text": "今日雀魂绝不调",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1647099011",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "是真的背",
+        "createdAt": "2022-03-12T15:30:11.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0feb42c62b1d30500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0feb42c62b1d30500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3a89307f42b724eb68b0db78ed7471c86e467aa41c97767d6a79005fc91f3603"
+}

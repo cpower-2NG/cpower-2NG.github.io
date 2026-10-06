@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb04e859b627a7c0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-06-04",
+  "date": "2022-06-04",
+  "createdAt": "2022-06-04T16:16:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "spy看到现在基本可以确定cw和wit都不怎么重视，观感好坏基本只和核心主创有关，也就企划方来赚钱的程度，虽然也应该是这样。但结合最近的JOEN的成立，感觉他们",
+  "text": "spy看到现在基本可以确定cw和wit都不怎么重视，观感好坏基本只和核心主创有关，也就企划方来赚钱的程度，虽然也应该是这样。但结合最近的JOEN的成立，感觉他们还是想做一些自己想做的？（比如偶像大师（大雾））只能说越来越期待JOEN的第一作了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1654359404",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "深夜动画聊骚",
+        "createdAt": "2022-06-04T16:16:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04e859b627a7c0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04e859b627a7c0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "23dbfd7d841ef5f6e05afd95aaf4b17660c41a08c5703e2bf2ce834480f02cc4"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb016940b63884b0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-08-28",
+  "date": "2022-08-28",
+  "createdAt": "2022-08-28T16:13:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "《磷灰石的怠惰现象》， 无意中发现的少女的日记幻想。 图书馆内的平静安详， 藤壶高中的欢乐高扬。 那是一位少女梦想过的， 自在怠惰的普通日常。 而少女的离去， ",
+  "text": "《磷灰石的怠惰现象》，\n无意中发现的少女的日记幻想。\n图书馆内的平静安详，\n藤壶高中的欢乐高扬。\n那是一位少女梦想过的，\n自在怠惰的普通日常。\n而少女的离去，\n似乎让着一切沦为空谈。\n爱书的少女加剧闭门不出，\n忠心的女仆一心在旁看护，",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb016940b63884b0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb016940b63884b0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d08ca748778c4dff1a0c996eaba4b1f828413b3d612fdada4d8572f81dadb2be"
+}

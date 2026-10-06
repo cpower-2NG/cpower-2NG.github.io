@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb060547b6334de0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-21",
+  "date": "2022-11-21",
+  "createdAt": "2022-11-21T10:35:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "看mad送游戏，没想到我竟然是这样补票的",
+  "text": "看mad送游戏，没想到我竟然是这样补票的",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b953eab0a05dd465167591a9d937f6465bc5ac87a9277508527f766e62b53e49.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDi.YXVZ8Tnv3QiH9D7voTrnL4p1grW0Bey6Gy8cgl9wUYrfngTUhzYOv5*3VI6IFw!!/b&bo=awIRAWsCEQEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 173,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b953eab0a05dd465167591a9d937f6465bc5ac87a9277508527f766e62b53e49.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb060547b6334de0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb060547b6334de0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "753a357f313fea96ceaeefd4899d09c9ac92666ed4fcaf977bef409327da4cfa"
+}
