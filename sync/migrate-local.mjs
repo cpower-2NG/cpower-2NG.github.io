@@ -121,27 +121,26 @@ async function main() {
 
   // 1. 直连 msglist_v6 分页（SDK 的 token 前置页被风控挡住，该接口本身可用；
   //    每页 1 次请求拿到正文/图片/评论，不再逐条详情）。
-  //    风控期 QQ 会把可见窗口裁剪到最近几条且忽略 fstart——预检发现翻页不
-  //    生效立即中止，避免空跑。
+  //    翻页参数是 pos（网页版实测），不是老的 fstart——后者会被服务端静默忽略。
   const posts = [];
   let pages = 0;
   let stopped = '';
-  let fstart = 0;
-  const fcount = 20;
+  let pos = 0;
+  const pageSize = 20;
   const accountUin = String(session.accountId || '').replace(/^o/, '');
   const gtk = gtkFromCookies(cookies);
   const cookieHeader = Object.entries(cookies).map(([name, value]) => `${name}=${value}`).join('; ');
   const seenTids = new Set();
-  let paginationAdvances = true;
   for (;;) {
     const url = `https://user.qzone.qq.com/proxy/domain/taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6`
-      + `?uin=${accountUin}&fstart=${fstart}&fcount=${fcount}&sort=0&g_tk=${gtk}`;
+      + `?uin=${accountUin}&inCharset=utf-8&outCharset=utf-8&hostUin=${accountUin}&notice=0&sort=0`
+      + `&pos=${pos}&num=${pageSize}&code_version=1&format=json&need_private_comment=1&g_tk=${gtk}`;
     let payload;
     try {
       const response = await fetch(url, {
         headers: {
           cookie: cookieHeader,
-          referer: `https://user.qzone.qq.com/${accountUin}/main`,
+          referer: `https://user.qzone.qq.com/${accountUin}/311`,
           'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36',
         },
         signal: AbortSignal.timeout(30000),
@@ -149,22 +148,21 @@ async function main() {
       const text = await response.text();
       payload = JSON.parse(text.replace(/^_Callback\(/, '').replace(/\);\s*$/, ''));
     } catch (error) {
-      stopped = `第 ${fstart} 条起分页失败：${error.message.slice(0, 80)}`;
+      stopped = `pos=${pos} 分页失败：${error.message.slice(0, 80)}`;
       console.log(stopped);
       break;
     }
     if (payload.code !== 0) {
-      stopped = `第 ${fstart} 条起接口错误 code=${payload.code} ${payload.message || ''}`;
+      stopped = `pos=${pos} 接口错误 code=${payload.code} ${payload.message || ''}`;
       console.log(stopped);
       break;
     }
     pages += 1;
     const list = payload.msglist || [];
-    // 翻页生效性检查：第 3 页起若全是已见过的条目，说明 fstart 被忽略（风控裁剪窗口）。
+    // 翻页生效性检查：连续两页无新条目说明翻页失效，立即中止避免空跑。
     const novel = list.filter((msg) => !seenTids.has(String(msg.tid))).length;
-    if (pages >= 3 && novel === 0 && paginationAdvances) {
-      paginationAdvances = false;
-      stopped = '翻页不生效：QQ 已把该会话的可见窗口裁剪到最近几条（风控）。通常 1-7 天后自动解除，届时重跑本命令即可。';
+    if (pages > 1 && novel === 0) {
+      stopped = `pos=${pos} 返回的全部是已见条目，翻页失效。`;
       console.log(stopped);
       break;
     }
@@ -173,8 +171,8 @@ async function main() {
       posts.push(rawMsgToPost(msg, accountUin));
     }
     if (pages % 10 === 0) console.log(`  已拉取 ${pages} 页 / ${posts.length} 条（total ${payload.total}）`);
-    fstart += list.length;
-    if (!list.length || fstart >= (Number(payload.total) || Infinity)) break;
+    pos += list.length;
+    if (!list.length || (Number(payload.total) && pos >= Number(payload.total))) break;
     if (pages >= LIMIT_PAGES) { stopped = `达到页数上限 ${LIMIT_PAGES}`; break; }
     await sleep(PAGE_SLEEP_MS);
   }
