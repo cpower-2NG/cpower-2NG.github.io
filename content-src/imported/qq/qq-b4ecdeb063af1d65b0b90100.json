@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb063af1d65b0b90100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-04",
+  "date": "2023-10-04",
+  "createdAt": "2023-10-04T18:30:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "话说，还真让钢哥画了一段，看看之后有没有钢哥发力的地方",
+  "text": "话说，还真让钢哥画了一段，看看之后有没有钢哥发力的地方",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb063af1d65b0b90100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb063af1d65b0b90100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2790dbf754bbceb8e683b1f32e209328380135432bc3d62b2c6c8a62fd4a0d49"
+}

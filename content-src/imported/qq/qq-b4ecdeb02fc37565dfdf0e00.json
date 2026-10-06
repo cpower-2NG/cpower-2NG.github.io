@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb02fc37565dfdf0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-10",
+  "date": "2023-12-10",
+  "createdAt": "2023-12-10T13:54:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ttk！虽然应该是在说舞台剧的事情，但这时机也太巧了，很难不引发争论",
+  "text": "ttk！虽然应该是在说舞台剧的事情，但这时机也太巧了，很难不引发争论",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74206be6d9378961dac3678c82f0da4706cc2356437e3415d48cc644ce71c42f.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzPrx8oKKDIm9zfutc1WyyJUdDbdkYvc*uOIp03DDZSrRsKjSnQXLst*Swtve5oTM7g!!/b&bo=UgJQAVICUAEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 222,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74206be6d9378961dac3678c82f0da4706cc2356437e3415d48cc644ce71c42f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02fc37565dfdf0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02fc37565dfdf0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c510c752270e14593efd4f421a00d59e771e260eaa60d61073c7aeda241ec1a0"
+}

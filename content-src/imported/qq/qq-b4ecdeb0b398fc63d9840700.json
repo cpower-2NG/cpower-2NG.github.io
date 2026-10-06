@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b398fc63d9840700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-02-27",
+  "date": "2023-02-27",
+  "createdAt": "2023-02-27T11:49:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "白组好烂,这下窒息了",
+  "text": "白组好烂,这下窒息了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b398fc63d9840700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b398fc63d9840700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2502d72ad0b8142058f40f2a258dd44db752219843d11d62a33322e8f501e3be"
+}

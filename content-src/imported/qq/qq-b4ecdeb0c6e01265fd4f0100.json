@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c6e01265fd4f0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-09-26",
+  "date": "2023-09-26",
+  "createdAt": "2023-09-26T13:46:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "从迷茫，到紧张，再到敞开大笑，冬滚滚的叙事节奏做得是相当干净利落，毫不拖沓",
+  "text": "从迷茫，到紧张，再到敞开大笑，冬滚滚的叙事节奏做得是相当干净利落，毫不拖沓",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c6e01265fd4f0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c6e01265fd4f0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "29e5050af67c1a188d8e06b56827435b5633d2af5b877a7192700277ff82f2db"
+}

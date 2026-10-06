@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb033963265ccc70d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-20",
+  "date": "2023-10-20",
+  "createdAt": "2023-10-20T15:01:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "被渡边的脚本俘获了。好干净利落，看得特别舒服",
+  "text": "被渡边的脚本俘获了。好干净利落，看得特别舒服",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb033963265ccc70d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb033963265ccc70d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d380e2031c6fb5f5993dec3e1ebd0c80b1a2198af675c5d6ab1ac7c8d52a155a"
+}

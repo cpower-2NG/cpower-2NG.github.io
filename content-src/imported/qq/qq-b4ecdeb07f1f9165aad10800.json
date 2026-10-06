@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb07f1f9165aad10800",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-31",
+  "date": "2023-12-31",
+  "createdAt": "2023-12-31T07:59:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "正值CM和asl，我却在忙活三次元的事",
+  "text": "正值CM和asl，我却在忙活三次元的事",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07f1f9165aad10800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07f1f9165aad10800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9d119aed56c6a6ef97418449bdd1880760596aaa5c00233a0ec851ef746f89fa"
+}

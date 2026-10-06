@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb040f8dc6336b20700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-02-03",
+  "date": "2023-02-03",
+  "createdAt": "2023-02-03T12:04:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "甜瓜打魂剑看完了,无新技术,仅预热,感觉像放两个AI互打,不符合甜瓜游戏宅的身份.总之这种破境活动多来点,只有做好MR,真正的3.0才能到来.",
+  "text": "甜瓜打魂剑看完了,无新技术,仅预热,感觉像放两个AI互打,不符合甜瓜游戏宅的身份.总之这种破境活动多来点,只有做好MR,真正的3.0才能到来.",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb040f8dc6336b20700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb040f8dc6336b20700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0415c21d28b97bdef0ad2d33ecee527d1c3cb98e1a83fc71a741457d5484ebd7"
+}

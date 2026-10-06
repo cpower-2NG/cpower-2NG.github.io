@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0a04b47659b0f0e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-05",
+  "date": "2023-11-05",
+  "createdAt": "2023-11-05T08:00:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "网易云听阿酱的时候，突然发现好多千恋万花的广播剧，而且都有翻译。这就是热门作品的好处吗",
+  "text": "网易云听阿酱的时候，突然发现好多千恋万花的广播剧，而且都有翻译。这就是热门作品的好处吗",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0a04b47659b0f0e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0a04b47659b0f0e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e015f57b24ef2772267a4fc510ab3f8499656132c4e6b15137a025934a4d9963"
+}

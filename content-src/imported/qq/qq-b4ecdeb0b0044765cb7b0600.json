@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb0b0044765cb7b0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-05",
+  "date": "2023-11-05",
+  "createdAt": "2023-11-05T02:57:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "看样子，电工胶也挡不住离心力，彻底断了。先不用风扇吧",
+  "text": "看样子，电工胶也挡不住离心力，彻底断了。先不用风扇吧",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1699153085",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "",
+        "createdAt": "2023-11-05T02:58:05.000Z"
+      },
+      {
+        "id": "1474215616_1699153429",
+        "authorLabel": "匿名访客 A013BD",
+        "text": "用萝卜吧",
+        "createdAt": "2023-11-05T03:03:49.000Z"
+      },
+      {
+        "id": "2967399604_1699153936",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 只是风扇断了，散热塔没坏",
+        "createdAt": "2023-11-05T03:12:16.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b0044765cb7b0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b0044765cb7b0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9136b757e51e4d3e823ee743c6ed56da3e38a0809560e54bb84b6bb74a0b5d9d"
+}

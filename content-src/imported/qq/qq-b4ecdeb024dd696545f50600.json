@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb024dd696545f50600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-01",
+  "date": "2023-12-01",
+  "createdAt": "2023-12-01T13:18:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "希亚生日快乐！太仓促了，没来得及准备，下次做点东西吧",
+  "text": "希亚生日快乐！太仓促了，没来得及准备，下次做点东西吧",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b6eb01d7382de853bc7ca57e2bb99eef8f9f048e31167694a1fae4e8cf127b5f.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzG3E9LBmHgqolMit5P7z8kpTpV1lUnDt4yfnW6Nah4OI0X*m5BnN1VH**pvFtSq.og!!/b&bo=OASABzgEgAcWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 697,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b6eb01d7382de853bc7ca57e2bb99eef8f9f048e31167694a1fae4e8cf127b5f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb024dd696545f50600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb024dd696545f50600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7cdb750fe4ae59a4ac7774148d8154d2e5093bfd4bd073da475962d60f60fe96"
+}

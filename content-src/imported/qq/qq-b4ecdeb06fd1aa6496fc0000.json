@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb06fd1aa6496fc0000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-09",
+  "date": "2023-07-09",
+  "createdAt": "2023-07-09T15:25:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "战姬绝唱还真是越看越舒服啊，也确实是越做越好。",
+  "text": "战姬绝唱还真是越看越舒服啊，也确实是越做越好。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06fd1aa6496fc0000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06fd1aa6496fc0000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b6873d157dd2a589e032b0390de8cdc3806becf75100b44f6cbc0ec76376320b"
+}

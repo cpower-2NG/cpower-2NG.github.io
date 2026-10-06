@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0d34c4a64f48d0700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-04-27",
+  "date": "2023-04-27",
+  "createdAt": "2023-04-27T10:22:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "去爱完整具体的人和物，而非分化抽象的",
+  "text": "去爱完整具体的人和物，而非分化抽象的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d34c4a64f48d0700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d34c4a64f48d0700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9f7d5bff0a1d8c1e44c0a2122c904b12083fc288590fd17032b447ae2337873b"
+}

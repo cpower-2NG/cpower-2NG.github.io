@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0fcdbe863960c0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-02-12",
+  "date": "2023-02-12",
+  "createdAt": "2023-02-12T12:30:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这两天下来,jungo在忘年会上的自傲真是有这充足的底气啊",
+  "text": "这两天下来,jungo在忘年会上的自傲真是有这充足的底气啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fcdbe863960c0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fcdbe863960c0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5fd64e70a3395d6215117edc58976d1f12f53824ea4d0e0eaff4ece40ba23d57"
+}

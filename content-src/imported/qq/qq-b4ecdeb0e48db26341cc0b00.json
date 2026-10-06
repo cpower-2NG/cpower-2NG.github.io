@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0e48db26341cc0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-01-02",
+  "date": "2023-01-02",
+  "createdAt": "2023-01-02T07:55:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "冬滚滚真是一部神奇的作品",
+  "text": "冬滚滚真是一部神奇的作品",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e48db26341cc0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e48db26341cc0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7f311284457bddc68339aa24f12c52f5c2e2fa6d4c35708a7156de3bb45ef70f"
+}

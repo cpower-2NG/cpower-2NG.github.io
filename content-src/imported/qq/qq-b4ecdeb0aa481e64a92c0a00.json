@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0aa481e64a92c0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-03-25",
+  "date": "2023-03-25",
+  "createdAt": "2023-03-25T01:04:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "其他：水濑伊织",
+  "text": "其他：水濑伊织",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6c736c081aac5dc3c60ca886970398f375450178ef10165fa7368a8e070fac1.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzJom*oE4.pUV3XQbdMsvhaG7JoyPe3ShTb8jprAXPeRLzRERSvFeS1ymzhr6CsHJ5Q!!/b&bo=GQEyARkBMgEWADA!",
+      "width": 281,
+      "height": 306,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6c736c081aac5dc3c60ca886970398f375450178ef10165fa7368a8e070fac1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0aa481e64a92c0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0aa481e64a92c0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1972f837476a58e8963408c36a94cf5b7f3c84db550e4f6270f78304bbfc7c26"
+}

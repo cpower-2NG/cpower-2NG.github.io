@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0011e466530ce0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-04",
+  "date": "2023-11-04",
+  "createdAt": "2023-11-04T10:33:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还有翻唱本家经典曲目，我怎么就没时间看呢",
+  "text": "还有翻唱本家经典曲目，我怎么就没时间看呢",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0011e466530ce0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0011e466530ce0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ccf9b8b9ecd8ca39b648798699a7be064279328f5fa637d0e8c296bef1b67fe3"
+}

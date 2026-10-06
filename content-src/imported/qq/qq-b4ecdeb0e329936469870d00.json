@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb0e329936469870d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-21",
+  "date": "2023-06-21",
+  "createdAt": "2023-06-21T16:48:35.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "“真实的我，谁也不知道” “大人与孩子有什么区别” 爱丽丝和米内p这两句让整集升华了，从爱丽丝的自己都不悉知的自我欲求，到与米内p的共鸣，最后是与自己与父母坦白",
+  "text": "“真实的我，谁也不知道”\n“大人与孩子有什么区别”\n爱丽丝和米内p这两句让整集升华了，从爱丽丝的自己都不悉知的自我欲求，到与米内p的共鸣，最后是与自己与父母坦白，这条角色成长曲线算是完满了。而米内从上司的敷衍了事开始的烦恼，在爱丽丝面前化为了一句疑问。最后，在ed的 to you for me中，随着那一句“我可以拥抱更真实的自己”，米内p的难题才逐渐明朗。期待下一集live解惑",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 3,
+    "comments": [
+      {
+        "id": "2967399604_1687366279",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "另外，本集声优的发挥极好。天台对谈段相当惊艳。爱丽丝和米内p的哭腔，语气节奏的变化，摄人心魄。不知道亚美菜在配这段时心中有何想法。",
+        "createdAt": "2023-06-21T16:51:19.000Z"
+      },
+      {
+        "id": "2967399604_1687367021",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "本集爱丽丝的演出卡基本都是剧场版规格的制作了，听说水流特效和童话场景让某国人画师相当费力。还有佐藤利幸的彩铅卡，很好的表现了爱丽丝与妈妈的爱，是将童话回归现实的最后一笔。估计本月作画mad要屠榜了",
+        "createdAt": "2023-06-21T17:03:41.000Z"
+      },
+      {
+        "id": "2967399604_1687367258",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "这次演出的情感真的很细腻，小林敦也是够刁钻的。很多小场景的顿挫确实能让人随之心跳",
+        "createdAt": "2023-06-21T17:07:38.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e329936469870d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e329936469870d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d5217c3ec40b5f760edbcafa13c43ce1de63dc5fde0a29dac821726a113a228d"
+}

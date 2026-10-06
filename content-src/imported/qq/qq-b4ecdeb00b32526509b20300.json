@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb00b32526509b20300",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-13",
+  "date": "2023-11-13",
+  "createdAt": "2023-11-13T14:26:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "与其说我是看得越多，反而更喜欢情感纯粹的作品；不如说正是这些虚构作品激发了我的感性，塑造了现在的我。",
+  "text": "与其说我是看得越多，反而更喜欢情感纯粹的作品；不如说正是这些虚构作品激发了我的感性，塑造了现在的我。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00b32526509b20300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00b32526509b20300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d36f69360cea1cdbdf35dfbed882b444891af39c5d710fbbcab3b506c2c25148"
+}

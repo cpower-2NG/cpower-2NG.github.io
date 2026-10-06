@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb05eb09d634a150400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-12-17",
+  "date": "2022-12-17",
+  "createdAt": "2022-12-17T12:04:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "松尾做人设是真的好看.",
+  "text": "松尾做人设是真的好看.",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05eb09d634a150400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05eb09d634a150400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "9e53ce29e8408c892e1492e710236230de4408bc5d82cbc741611ed981abae39"
+}

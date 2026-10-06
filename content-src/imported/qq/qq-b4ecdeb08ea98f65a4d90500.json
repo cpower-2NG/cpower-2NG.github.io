@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb08ea98f65a4d90500",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-30",
+  "date": "2023-12-30",
+  "createdAt": "2023-12-30T05:24:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "很好，本来还行上Steam买星耀的，这下算了",
+  "text": "很好，本来还行上Steam买星耀的，这下算了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "1397655787_1703932809",
+        "authorLabel": "匿名访客 70AB71",
+        "text": "因为cgss吗？",
+        "createdAt": "2023-12-30T10:40:09.000Z"
+      },
+      {
+        "id": "2967399604_1703934354",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 差不多吧",
+        "createdAt": "2023-12-30T11:05:54.000Z"
+      },
+      {
+        "id": "2967399604_1703934485",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "想上",
+        "createdAt": "2023-12-30T11:08:05.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08ea98f65a4d90500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08ea98f65a4d90500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7449d19397e1486661426f12850ff7dda5092b2e9fe1487aed00e2b46fab36c0"
+}

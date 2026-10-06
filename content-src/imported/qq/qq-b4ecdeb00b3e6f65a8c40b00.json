@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb00b3e6f65a8c40b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-05",
+  "date": "2023-12-05",
+  "createdAt": "2023-12-05T15:13:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "明日香，对不起",
+  "text": "明日香，对不起",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f3e0d861e5d3d5b88db2e99c68d90261a9df0645883c7b524034fda8df61fa0d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzOxGlzaDkTVPMGqbsvv4z.Rmcc7g66sh4xlJo.3MUvA.AFc6giaHVuP2TT4xoKFQCw!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f3e0d861e5d3d5b88db2e99c68d90261a9df0645883c7b524034fda8df61fa0d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00b3e6f65a8c40b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00b3e6f65a8c40b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "1169d77354150e2c6dcba04834fd1a77dc9194ce99c41c3c06098b47d8cf9529"
+}

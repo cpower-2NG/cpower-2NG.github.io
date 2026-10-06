@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0f891636462150300",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-05-16",
+  "date": "2023-05-16",
+  "createdAt": "2023-05-16T14:23:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ミンゴスおめでど！あど、おたのしみに。",
+  "text": "ミンゴスおめでど！あど、おたのしみに。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f891636462150300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f891636462150300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "158801d515d4bac4eb3d228ee80c6cd9ef6c7090919e2808481f1cda26c1f376"
+}

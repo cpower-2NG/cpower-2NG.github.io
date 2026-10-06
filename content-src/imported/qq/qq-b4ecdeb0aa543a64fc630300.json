@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0aa543a64fc630300",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-04-15",
+  "date": "2023-04-15",
+  "createdAt": "2023-04-15T07:39:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "回去以前剪了好几年头发的小店，结果bgm切到了美妙天堂，合着又都是大友呗",
+  "text": "回去以前剪了好几年头发的小店，结果bgm切到了美妙天堂，合着又都是大友呗",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0aa543a64fc630300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0aa543a64fc630300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2e203d5dd420a1c94877f05657dcf397ed73c825672d0116af8c5cc5efd17a88"
+}

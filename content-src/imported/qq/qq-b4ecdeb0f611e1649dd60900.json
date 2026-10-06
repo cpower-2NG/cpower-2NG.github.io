@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0f611e1649dd60900",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-08-19",
+  "date": "2023-08-19",
+  "createdAt": "2023-08-19T19:03:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "初识本系列的时候，确实是天更吸引我，但希亚的坚韧与柔软无疑是塑造的最好的。更不用说那直击心灵的心结，虽然处理上少了些意思，不过瑕不掩瑜。感谢调色板，能让我见到如",
+  "text": "初识本系列的时候，确实是天更吸引我，但希亚的坚韧与柔软无疑是塑造的最好的。更不用说那直击心灵的心结，虽然处理上少了些意思，不过瑕不掩瑜。感谢调色板，能让我见到如此正义、坚毅、可爱的少女。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1692474120",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "另外说一句，推雪雪雪之前，我一直认为阿酱的配音时最好的，那有趣的抑扬顿挫、急缓轻重，是她最擅长的领域。但推了希亚后，我才意识到夏和小是完美的，不论哪种场景，真的能做到直击心房。不过战斗好像都不太行，感觉是gal演出的问题。话说回来，夏和小的hs表现，可以说是我从未见过的，让人不自觉地想多听几遍。另外，阿部敦也没让我失望啊，那种复杂的情感实在难得。",
+        "createdAt": "2023-08-19T19:42:00.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f611e1649dd60900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f611e1649dd60900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4dbfc3d456a0a81f95311e2637fa4ac39cffd1c85c97302857a09eb14a6ee863"
+}

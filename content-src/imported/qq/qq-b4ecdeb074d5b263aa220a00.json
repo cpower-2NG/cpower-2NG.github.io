@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb074d5b263aa220a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-01-02",
+  "date": "2023-01-02",
+  "createdAt": "2023-01-02T13:00:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "养养眼",
+  "text": "养养眼",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3f151186de4d66761d142ba2770e9d94a14e6c6cb0f3a4876dae28f3160034f.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzJLiloSqt77TiOm2yxjJxLafPb3Y01tOOOw1s3WZhA.fl1dd8lpvfL8RvwW3pkOiLQ!!/b&bo=OAQ*BjgEPwYWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 580,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3f151186de4d66761d142ba2770e9d94a14e6c6cb0f3a4876dae28f3160034f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb074d5b263aa220a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb074d5b263aa220a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4b28ef4e7847c9022451fc49b88a4930c893d2fcca8e342d155f78ebfe2590b8"
+}

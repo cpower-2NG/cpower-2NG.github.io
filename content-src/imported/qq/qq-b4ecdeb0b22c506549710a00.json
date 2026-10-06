@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0b22c506549710a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-12",
+  "date": "2023-11-12",
+  "createdAt": "2023-11-12T01:38:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "想想还挺忙，晚上还想看看京都祭",
+  "text": "想想还挺忙，晚上还想看看京都祭",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b22c506549710a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b22c506549710a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "94e85d84738e6a7e45eee14f65da9d57a35091a84fa3345794f79d66ae6f344c"
+}

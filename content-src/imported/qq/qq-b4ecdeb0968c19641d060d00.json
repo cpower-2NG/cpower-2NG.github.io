@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0968c19641d060d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-03-21",
+  "date": "2023-03-21",
+  "createdAt": "2023-03-21T10:53:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "不是萝莉的魔法少女有什么存在的必要吗[em]e7028[/em]",
+  "text": "不是萝莉的魔法少女有什么存在的必要吗[em]e7028[/em]",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/358280389612d7f067ad4769dc3dc12c667b008d12834c2e303a3c2551b1888e.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzBZYcxi27LP2tC*VQggWngDbKbwKrFCD7s5fQoJ.UO7NZmJGUW9gImEemI5TFQ*5OQ!!/b&bo=UQOwBFEDsAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 554,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/358280389612d7f067ad4769dc3dc12c667b008d12834c2e303a3c2551b1888e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0968c19641d060d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0968c19641d060d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d7f48d0e646b12a1398931969a7cc880043d6c0a83aa8613422860a1369579bc"
+}

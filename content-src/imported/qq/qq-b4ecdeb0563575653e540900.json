@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0563575653e540900",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-10",
+  "date": "2023-12-10",
+  "createdAt": "2023-12-10T03:49:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "泪，流了下来。",
+  "text": "泪，流了下来。",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b221a5d30b28370d74f784be627c18f1c8c73aa9ffbf087338b24f87c8deefc.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDWze6jajP3*oO8t*Cnb1qTeTVFJ45GumhFLDi5ChHupC6gBB945A4MF.gHRYVVJag!!/b&bo=UQIVAVECFQEWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 183,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b221a5d30b28370d74f784be627c18f1c8c73aa9ffbf087338b24f87c8deefc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0563575653e540900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0563575653e540900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "00e8830cee24e8d30e161a9a0ca5047f7ec1b5f19a535d70c2a6d34abf4257e4"
+}

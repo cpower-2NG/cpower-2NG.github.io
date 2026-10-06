@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0caac6b65e75a0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-02",
+  "date": "2023-12-02",
+  "createdAt": "2023-12-02T22:16:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "关于im@s正在记忆在梦中涌现，以剪辑成片的形式，从议论到抒情，最后因1st的巨蛋宣言切到ssg中mingosu和下田的一段对话，视频开始闪回，感动到哭泣。随即",
+  "text": "关于im@s正在记忆在梦中涌现，以剪辑成片的形式，从议论到抒情，最后因1st的巨蛋宣言切到ssg中mingosu和下田的一段对话，视频开始闪回，感动到哭泣。随即忽然惊醒，却除了心跳，其他一切正常。回忆梦中，前因忘得七七八八，唯独从ssg开始记忆明晰。不知视频素材有多少真实，又要多少是臆想。梦醒说梦，不知所云。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0caac6b65e75a0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0caac6b65e75a0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bc5621c8c875b165db06a79ee4bc2f560fabb69b0cdb2408685400b9a3e206e7"
+}

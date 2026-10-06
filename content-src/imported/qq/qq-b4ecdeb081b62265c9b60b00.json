@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb081b62265c9b60b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-08",
+  "date": "2023-10-08",
+  "createdAt": "2023-10-08T14:02:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "果然还是王道适合我",
+  "text": "果然还是王道适合我",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb081b62265c9b60b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb081b62265c9b60b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2a11ee2dc503ef2b38ef35ae7e5e69717b939f8729f6d5f2e24bb65582416e1f"
+}

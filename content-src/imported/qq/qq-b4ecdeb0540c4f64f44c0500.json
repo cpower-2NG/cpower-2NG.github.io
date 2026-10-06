@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0540c4f64f44c0500",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-05-01",
+  "date": "2023-05-01",
+  "createdAt": "2023-05-01T00:48:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我音mad黄金祭呢，mad这几天都看爽了，怎么音骂没有了",
+  "text": "我音mad黄金祭呢，mad这几天都看爽了，怎么音骂没有了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0540c4f64f44c0500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0540c4f64f44c0500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "938ae34bdfb0a499761abd15aa5ce4bbde1560e3b16ea8f20973e55b2acccf03"
+}

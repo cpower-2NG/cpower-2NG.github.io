@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb029dd126554c60100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-09-26",
+  "date": "2023-09-26",
+  "createdAt": "2023-09-26T13:31:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "冬滚滚快推完了，终于要摆脱这针的牢笼了，这故事架构还是不错的嘛",
+  "text": "冬滚滚快推完了，终于要摆脱这针的牢笼了，这故事架构还是不错的嘛",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb029dd126554c60100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb029dd126554c60100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "fe8ca8817e2ea8abcd14f13539ac9de67ee4b0a10691263263ec5f63363a6597"
+}

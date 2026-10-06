@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0bbe5e06390350000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-02-06",
+  "date": "2023-02-06",
+  "createdAt": "2023-02-06T11:34:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "4万东蛋哑巴奇迹痊愈,积蓄了两年的力量将在两天内燃烧",
+  "text": "4万东蛋哑巴奇迹痊愈,积蓄了两年的力量将在两天内燃烧",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/66946ac693c6236199fe47f0bb694a076b9472f3c125e32ee6294756479bade6.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzG3E9LBmHgqolMit5P7z8koyirJ9Y*fH3YcB5oEykzCdWl9LAkAYlUCeilr.YIaM.w!!/b&bo=DAQ8BQwEPAUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 507,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/66946ac693c6236199fe47f0bb694a076b9472f3c125e32ee6294756479bade6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bbe5e06390350000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bbe5e06390350000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "562b72ae49178edea8aa61c83038c3dbd5dc3a3d3be2a1bda4891b9b974d1959"
+}

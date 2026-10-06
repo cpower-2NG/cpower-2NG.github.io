@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0fcfdc863755d0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-01-19",
+  "date": "2023-01-19",
+  "createdAt": "2023-01-19T08:23:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "三峰我对不起你啊",
+  "text": "三峰我对不起你啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fcfdc863755d0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0fcfdc863755d0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6b18fa10e5b45296a1b48b9a5b0720aaca0d4f001bf40400bf6dc05dfc148235"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb00ca6586594b50200",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-18",
+  "date": "2023-11-18",
+  "createdAt": "2023-11-18T11:54:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在才发现我这个版本的potplayer无法正常播放10bit的音频",
+  "text": "现在才发现我这个版本的potplayer无法正常播放10bit的音频",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00ca6586594b50200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00ca6586594b50200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b8857bf1aadaed48a243434f23ab13a30870844b655c8f2e80c59b14c839f551"
+}

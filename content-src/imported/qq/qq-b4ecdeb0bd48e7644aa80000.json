@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0bd48e7644aa80000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-08-24",
+  "date": "2023-08-24",
+  "createdAt": "2023-08-24T12:10:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "阿b网站的播放器什么时候更新的，好用了不少",
+  "text": "阿b网站的播放器什么时候更新的，好用了不少",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bd48e7644aa80000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bd48e7644aa80000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4728d5c36e1ce01fb58dcf2be35c6de8ec820de3a13216adb7fb645dca1ad5d0"
+}

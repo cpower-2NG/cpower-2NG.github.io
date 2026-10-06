@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb079d98665e0220000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-23",
+  "date": "2023-12-23",
+  "createdAt": "2023-12-23T12:58:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "病娇的mingosu好可爱，薇拉suki",
+  "text": "病娇的mingosu好可爱，薇拉suki",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1703336534",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "大好了还有钉宫在一旁夸你，我要上瘾了",
+        "createdAt": "2023-12-23T13:02:14.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb079d98665e0220000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb079d98665e0220000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "190e6c3af28197981bc3ef09b99db846e934e2a957db9270be62ab6f46241afe"
+}

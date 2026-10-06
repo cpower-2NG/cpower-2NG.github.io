@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0bd063c6459460d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-04-16",
+  "date": "2023-04-16",
+  "createdAt": "2023-04-16T14:31:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "アイドルで、ステージで ほんど不思議だね",
+  "text": "アイドルで、ステージで ほんど不思議だね",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bd063c6459460d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bd063c6459460d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2d5431ce4e8227e6642eb2fae7360dfcbd163384e901b70b8cc2881036293f60"
+}

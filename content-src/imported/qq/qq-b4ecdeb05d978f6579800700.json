@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb05d978f6579800700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-30",
+  "date": "2023-12-30",
+  "createdAt": "2023-12-30T04:06:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "万代是真傻比，这是要复刻隔壁fl吗。",
+  "text": "万代是真傻比，这是要复刻隔壁fl吗。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1703912144",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "",
+        "createdAt": "2023-12-30T04:55:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05d978f6579800700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05d978f6579800700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7c4b9e329bff795d5b6f1f7fbbc441c73f9bd53ed11aed497bb9136c0bf17305"
+}

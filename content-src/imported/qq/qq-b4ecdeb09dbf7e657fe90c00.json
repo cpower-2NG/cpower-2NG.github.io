@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb09dbf7e657fe90c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-17",
+  "date": "2023-12-17",
+  "createdAt": "2023-12-17T09:30:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "乖乖...",
+  "text": "乖乖...",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f6fb80c084fd17db03d5e009685aacf6d64a2ded54a4b5e83b2e461e1d5af992.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzHLtRN7.yG3UyA66G4DxARNzgXd5he*i0IjpbJ.1RiV4G2PsFN0FFEEfYjA89s171A!!/b&bo=OAT7BTgE.wUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 556,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f6fb80c084fd17db03d5e009685aacf6d64a2ded54a4b5e83b2e461e1d5af992.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09dbf7e657fe90c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09dbf7e657fe90c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e8c8579b6cd994459e4e91f9893f5bbcf7e15329d67e5e735f7497e1d7c5687c"
+}

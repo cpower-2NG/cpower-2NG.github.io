@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0636deb64ba360600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-08-27",
+  "date": "2023-08-27",
+  "createdAt": "2023-08-27T15:36:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还以为耳机彻底坏了，重装了下驱动，看来还能用一阵子",
+  "text": "还以为耳机彻底坏了，重装了下驱动，看来还能用一阵子",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0636deb64ba360600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0636deb64ba360600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "994eece229505ae2441f84e9a4aa082cb54cb836dc3cb6edd83086ef96e4bbd8"
+}

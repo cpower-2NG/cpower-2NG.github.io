@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb00a5d9c649bde0900",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-28",
+  "date": "2023-06-28",
+  "createdAt": "2023-06-28T16:17:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "河森的live分镜还是很不错的，讨巧的避开了大量的舞蹈，而有能画面的信息量，也切合和灰姑娘的意见，让人想起那传奇的十周年。就是可惜手绘live没看爽。 这最后一",
+  "text": "河森的live分镜还是很不错的，讨巧的避开了大量的舞蹈，而有能画面的信息量，也切合和灰姑娘的意见，让人想起那传奇的十周年。就是可惜手绘live没看爽。\n这最后一集的客串着实是看爽了，又是会动的ng。而且还有另外四位 小 偶像登场，加上ova里加入两位。这不明摆着要做二期吗（",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1687969200",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "最后说说缺点，本该是高潮的live却不如ep6的铺垫。整集的节奏有点怪怪的，演出安排不如伊礼。像是有许多要表达的，却只能择其一。结束也做的相当突兀。当然，要是有二期，那么这都不算缺点。",
+        "createdAt": "2023-06-28T16:20:00.000Z"
+      },
+      {
+        "id": "2967399604_1687969244",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 所以一定要有二期啊！万南别扣了，cy爹多给点（",
+        "createdAt": "2023-06-28T16:20:44.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00a5d9c649bde0900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00a5d9c649bde0900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "3a3707edd5805b52e8a84372d8a2df3bd770244e3a87ee12d12bb04f9c48b5ac"
+}

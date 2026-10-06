@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb07d0183638b180400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-27",
+  "date": "2022-11-27",
+  "createdAt": "2022-11-27T06:19:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "合格的反派会给与观众黏糊的NTR感受",
+  "text": "合格的反派会给与观众黏糊的NTR感受",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb07d0183638b180400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb07d0183638b180400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "945639b5caba848415130efd2f1ecebe15364e807b502b5e33249312bf2c6b00"
+}

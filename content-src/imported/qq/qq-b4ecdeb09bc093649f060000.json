@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb09bc093649f060000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-22",
+  "date": "2023-06-22",
+  "createdAt": "2023-06-22T03:31:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "电子舞曲有种奇妙的感觉，嗯，怀念的感觉",
+  "text": "电子舞曲有种奇妙的感觉，嗯，怀念的感觉",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09bc093649f060000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb09bc093649f060000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e636869f8ba9dffe07892f93434afcd956ec73a8ea77cc12795f346b675bc90e"
+}

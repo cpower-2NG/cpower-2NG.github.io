@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb0c54163650df00100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-26",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T13:01:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "不知道是不是只有莉佳这样，米泽圆在表现情绪的时候，音调会保持在较高的程度，然后维持音调连续快速地说出好几个字。这种音调的连着感，真实又有点出戏。或许能称作音调的",
+  "text": "不知道是不是只有莉佳这样，米泽圆在表现情绪的时候，音调会保持在较高的程度，然后维持音调连续快速地说出好几个字。这种音调的连着感，真实又有点出戏。或许能称作音调的棒读？",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "827743149_1701180634",
+        "authorLabel": "匿名访客 7C3703",
+        "text": "上一个被说棒读的是卯衣配的露娜（",
+        "createdAt": "2023-11-28T14:10:34.000Z"
+      },
+      {
+        "id": "2967399604_1701350702",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 单指音调上",
+        "createdAt": "2023-11-30T13:25:02.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c54163650df00100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c54163650df00100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0afd7bd5ccc85053ed0e841734ee9126a418394abe00213938223920633ee020"
+}

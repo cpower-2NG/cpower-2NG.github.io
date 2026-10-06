@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0aeb53d65231b0700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-29",
+  "date": "2023-10-29",
+  "createdAt": "2023-10-29T01:30:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这集新米p地狱啊。不过剧场总算要开幕了。不过这集剧作是真的强，几句台词，人物的特点全出来了。",
+  "text": "这集新米p地狱啊。不过剧场总算要开幕了。不过这集剧作是真的强，几句台词，人物的特点全出来了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0aeb53d65231b0700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0aeb53d65231b0700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2df2c0bf7c6da25c792ef775e143409420ac37c760778b0e35af8e2992b6e2e9"
+}

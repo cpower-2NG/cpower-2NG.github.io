@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb060b52265e4d00800",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-08",
+  "date": "2023-10-08",
+  "createdAt": "2023-10-08T13:57:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "还有，白组的3D是真的精良，不论是模型的动规（是谁在被拷打），还是贴图的精度，着实是剧场版级别，只出一季不合适吧）。未来父母好像都是2D画的，开来后几集是很少会",
+  "text": "还有，白组的3D是真的精良，不论是模型的动规（是谁在被拷打），还是贴图的精度，着实是剧场版级别，只出一季不合适吧）。未来父母好像都是2D画的，开来后几集是很少会见到了",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1696774069",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "不过好像是压制的问题，音频有点失真了，再等会看看有没有更新",
+        "createdAt": "2023-10-08T14:07:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb060b52265e4d00800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb060b52265e4d00800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f9e33a5b8384f89096b704f0cd12702975b15924f58f182ea3a6acb7d17b1a61"
+}

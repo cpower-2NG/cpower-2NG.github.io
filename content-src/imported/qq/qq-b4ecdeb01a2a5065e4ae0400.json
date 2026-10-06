@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb01a2a5065e4ae0400",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-12",
+  "date": "2023-11-12",
+  "createdAt": "2023-11-12T01:27:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这集live看爽了，白组真nb。就是布景差了点，不过刚出道，在剧场舞台办，还是能理解的。",
+  "text": "这集live看爽了，白组真nb。就是布景差了点，不过刚出道，在剧场舞台办，还是能理解的。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2967399604_1699752532",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "这次3线并行还是挺考验脚本的，等我有熟肉了再好好品品",
+        "createdAt": "2023-11-12T01:28:52.000Z"
+      },
+      {
+        "id": "2967399604_1699753741",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "看到老熟人npc还是很感动的",
+        "createdAt": "2023-11-12T01:49:01.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01a2a5065e4ae0400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01a2a5065e4ae0400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5a059f0039d0dba16eb0de390c13decd4918373c59a3542e5a40fff83d2514cf"
+}

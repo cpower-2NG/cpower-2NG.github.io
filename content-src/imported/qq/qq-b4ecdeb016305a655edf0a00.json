@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb016305a655edf0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-19",
+  "date": "2023-11-19",
+  "createdAt": "2023-11-19T15:56:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "苍彼的竞技给我一种乒乓的感觉，是快乐的竞技。或许是都是女孩子的缘故，多了一份超脱现实的轻盈与温暖。",
+  "text": "苍彼的竞技给我一种乒乓的感觉，是快乐的竞技。或许是都是女孩子的缘故，多了一份超脱现实的轻盈与温暖。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1700412290",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "仅限明日香线",
+        "createdAt": "2023-11-19T16:44:50.000Z"
+      },
+      {
+        "id": "2967399604_1700487230",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 目前为止",
+        "createdAt": "2023-11-20T13:33:50.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb016305a655edf0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb016305a655edf0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2ffbb3495bee06f874c11e0b99fe31fd3b7f6bae594e8d97e6c3cccf1979038e"
+}

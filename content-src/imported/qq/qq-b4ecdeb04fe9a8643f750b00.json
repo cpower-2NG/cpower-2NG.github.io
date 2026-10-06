@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb04fe9a8643f750b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-08",
+  "date": "2023-07-08",
+  "createdAt": "2023-07-08T04:42:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "从知道齐藤要出这游戏的时候就想过这种事了，没想到真发生了",
+  "text": "从知道齐藤要出这游戏的时候就想过这种事了，没想到真发生了",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9b90e6145ee493a5acb15cf87e23c3314b7191f46ee4bba0f2e194fdc0950688.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzFQjgXx7ObbXuco2eGdimRcDAy48U6zAyYtTKcwdAOEQEgu.4bEc7eZYwMwv2Ly4nQ!!/b&bo=NgXuAjYF7gIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 220,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9b90e6145ee493a5acb15cf87e23c3314b7191f46ee4bba0f2e194fdc0950688.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04fe9a8643f750b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04fe9a8643f750b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "55c4c622ad4ed578e827d7c6fe34c3cba6e16641a95aae9cb95ee2e54532e28d"
+}

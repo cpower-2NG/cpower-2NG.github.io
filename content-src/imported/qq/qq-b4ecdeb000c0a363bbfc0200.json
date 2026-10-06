@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb000c0a363bbfc0200",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-12-22",
+  "date": "2022-12-22",
+  "createdAt": "2022-12-22T02:25:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ねむい",
+  "text": "ねむい",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb000c0a363bbfc0200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb000c0a363bbfc0200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "270b16e20bcc25d8f0f38a5648d32fcb1a0285d7fd6b35022dcce817be9b923a"
+}

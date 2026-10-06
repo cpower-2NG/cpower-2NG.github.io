@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb053a08665bf170e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-23",
+  "date": "2023-12-23",
+  "createdAt": "2023-12-23T08:54:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "因为mingosu和钉宫想入坑gbf是否搞错了什么",
+  "text": "因为mingosu和钉宫想入坑gbf是否搞错了什么",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1703321728",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "总之先试试新出的ftg吧",
+        "createdAt": "2023-12-23T08:55:28.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb053a08665bf170e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb053a08665bf170e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "eaf661648d1897631594c698fdeab29c28f806e662130c9637f9282d8ca4a840"
+}

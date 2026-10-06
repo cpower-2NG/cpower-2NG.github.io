@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb0630a076539b00000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-09-17",
+  "date": "2023-09-17",
+  "createdAt": "2023-09-17T14:17:06.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "推冬滚滚的时候突然意识到，为什么我对侦探类小说没什么兴趣了。其往往会让人物设计服务于故事进行，轨迹的精妙与解密的爽快成为了角色行为的外驱力。不准确是概括就是舞台",
+  "text": "推冬滚滚的时候突然意识到，为什么我对侦探类小说没什么兴趣了。其往往会让人物设计服务于故事进行，轨迹的精妙与解密的爽快成为了角色行为的外驱力。不准确是概括就是舞台剧般的人设，鲜明突出，但是缺少魅力。另外，同样是于舞台上演戏，rukuru很好的平衡了这一点，或许是其类舞台剧的世界观却又叛逆而行的风格导致的，总能展现人物的内驱力。不过这样让其结尾总是棋差一着，吊着口气，或许那几部我没玩的新作有改善吧。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1694960570",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "我对角色的痴迷已经让我对边城里的翠翠感兴趣了，说不定换个名儿就单推了（不是）",
+        "createdAt": "2023-09-17T14:22:50.000Z"
+      },
+      {
+        "id": "2441690473_1694960839",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "@匿名好友",
+        "createdAt": "2023-09-17T14:27:19.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0630a076539b00000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0630a076539b00000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5851c94bbabe16bdcee014399ba6b446c74c850fa0c55529f6b447e2c063140c"
+}

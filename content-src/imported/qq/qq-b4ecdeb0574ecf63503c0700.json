@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0574ecf63503c0700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-01-24",
+  "date": "2023-01-24",
+  "createdAt": "2023-01-24T03:19:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "我玩RPG的动力事感受其角色性而非发挥玩家性,而meta game正是最直白地展示角色的角色性的方式.因为在meta game中,角色不是人,而是角色.",
+  "text": "我玩RPG的动力事感受其角色性而非发挥玩家性,而meta game正是最直白地展示角色的角色性的方式.因为在meta game中,角色不是人,而是角色.",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1674530655",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "或者说,meta game中不存在拟真性,一切作为物而存在,是机械的存在.所以玩家往往会在其中感受深深的距离感和无力感",
+        "createdAt": "2023-01-24T03:24:15.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0574ecf63503c0700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0574ecf63503c0700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "10ae2d4ee24f52b8f25b09b08004f7ae411c9baad57290594ca210e0453bee88"
+}

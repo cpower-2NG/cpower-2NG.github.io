@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0575374659d320d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-09",
+  "date": "2023-12-09",
+  "createdAt": "2023-12-09T11:45:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真的致敬了2015asl！期待一下明天的歌单。赠一张我觉得今天最帅的kraz，明天百万动画还是苍系传承！",
+  "text": "真的致敬了2015asl！期待一下明天的歌单。赠一张我觉得今天最帅的kraz，明天百万动画还是苍系传承！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c6d4d58b6c14481be99916852912a2c6a54e543622bcda3d7e60d210fbfb6f8f.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzF5KjrX97fhLg2y6O0kJtcQ7sWdrnWioIrdCaopmPfRJ8OlpTj11*i7l74TVQYM4oQ!!/b&bo=BgRDAgYEQwIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 220,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c6d4d58b6c14481be99916852912a2c6a54e543622bcda3d7e60d210fbfb6f8f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0575374659d320d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0575374659d320d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f6bb140e2835606a8cfa0f694c0f056b67ca151577773247f03715a21e56cd64"
+}

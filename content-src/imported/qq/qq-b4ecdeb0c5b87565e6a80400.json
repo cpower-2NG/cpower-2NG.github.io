@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0c5b87565e6a80400",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-10",
+  "date": "2023-12-10",
+  "createdAt": "2023-12-10T13:10:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "懂事的音宝在尝试端水",
+  "text": "懂事的音宝在尝试端水",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a09203de5a1ab89728b566c3fc08a09454055df1d3693b56833f4d0347e17df.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzNLkWIGU20bwnpapeWlX8Moi9K4LsegPuKx5yULsaaU6u08ULG4wApp2QZ3aBlMDEA!!/b&bo=UwJzA1MCcwMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 582,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a09203de5a1ab89728b566c3fc08a09454055df1d3693b56833f4d0347e17df.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "3544925287_1702213932",
+        "authorLabel": "匿名访客 95864E",
+        "text": "是天音妹妹！",
+        "createdAt": "2023-12-10T13:12:12.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c5b87565e6a80400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c5b87565e6a80400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "78b6753ecf94e4f1bf143f070241e6d2c5c90ba0215f5e9ca351b002ecbf82eb"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb053e3896430570d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-14",
+  "date": "2023-06-14",
+  "createdAt": "2023-06-14T15:57:07.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这集是算p回吧，还是全员回呢（笑），346大量客串，更是有枫姐冷笑话和调戏米内p。回到故事上，很好的接续了上集的新曲，克服大人困难（靠更大的人？），还引入了橘小",
+  "text": "这集是算p回吧，还是全员回呢（笑），346大量客串，更是有枫姐冷笑话和调戏米内p。回到故事上，很好的接续了上集的新曲，克服大人困难（靠更大的人？），还引入了橘小姐的心结，目前来看有点春香的味道啊（不行，这不够苍），让人很是期待下一集橘小姐回又会如何。至于这集的live，那也是远不如ep6的lipps，基本是强行描3d画出来的（甚至成片里都没有3d的卡了，感觉不如把这部分人力抽去修卡，或者说想在BD里大修吗）。也可以理解，剧情上属于宣传视频，工期也是非常紧迫，组里又没大佬画。不过听说画原画的群友说，最后一集有真神降临，能贡献精彩的live卡，心怀期待把！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1686758453",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "这集的分镜演出到作监，有不少大佬啊，但总感觉没打出效果，毕竟这还在铺垫",
+        "createdAt": "2023-06-14T16:00:53.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb053e3896430570d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb053e3896430570d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c0ed2cc49a2d5e6101d5451cf9b93b85b2faafce2a72c3d9a8e5554aa06ce743"
+}

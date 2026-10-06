@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0137e876392280000",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-30",
+  "date": "2022-11-30",
+  "createdAt": "2022-11-30T16:00:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "烟",
+  "text": "烟",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2d4aac4c9df8bd07cdab1f4d0175d61efd8749d68091111eaef9bc7b46fc7e1.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzMDY2TYU8EY5XwmENAxWYhjUWrN5HUq.Z.K8s3No2Loa95A756XjHcZR*BrHzctP8w!!/b&bo=8ACqAfAAqgEWADA!",
+      "width": 240,
+      "height": 426,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2d4aac4c9df8bd07cdab1f4d0175d61efd8749d68091111eaef9bc7b46fc7e1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0137e876392280000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0137e876392280000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0cfd87aa07d8f24d2acca1ea85b81be91d1565eaebd464bfd4924d7e0f8bf2e7"
+}

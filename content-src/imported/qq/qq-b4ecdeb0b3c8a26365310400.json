@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0b3c8a26365310400",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-12-21",
+  "date": "2022-12-21",
+  "createdAt": "2022-12-21T08:49:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "近月不愧是大制作啊,先生的气息掌控(这才是我玩的终极目的),脚本的节奏把控,就是藏在字里行间的味太大了.整体来说玩的还是很舒坦的",
+  "text": "近月不愧是大制作啊,先生的气息掌控(这才是我玩的终极目的),脚本的节奏把控,就是藏在字里行间的味太大了.整体来说玩的还是很舒坦的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1671613308",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "该说是源于设定的邪气嘛,多少还是都点膈应.希望能让这道邪气发挥的作用,不要成为随手丢下的垃圾",
+        "createdAt": "2022-12-21T09:01:48.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b3c8a26365310400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b3c8a26365310400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "e7b2ac594e41f27a33d227aad1593322a0dc9dacd76fe784fe5ccc7b41e2bf6e"
+}

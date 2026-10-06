@@ -1,0 +1,68 @@
+{
+  "id": "qq-b4ecdeb036a447656ada0800",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-05",
+  "date": "2023-11-05",
+  "createdAt": "2023-11-05T14:18:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好帅，这才是合格的基友位",
+  "text": "好帅，这才是合格的基友位",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/773a694dc1501f94b35d2a23ad5f41957ce56c6a42ea32c4b1f6a0fdfbbb5f4c.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzF5KjrX97fhLg2y6O0kJtcTCfdDr7JMZ*SfjzlCdi7p2lzbScLCevK3IEndiC3eCpA!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/773a694dc1501f94b35d2a23ad5f41957ce56c6a42ea32c4b1f6a0fdfbbb5f4c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "386578751_1699247667",
+        "authorLabel": "匿名访客 F60DD6",
+        "text": "这位帅小伙素隋",
+        "createdAt": "2023-11-06T05:14:27.000Z"
+      },
+      {
+        "id": "2967399604_1699265967",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 苍彼的青柳紫苑",
+        "createdAt": "2023-11-06T10:19:27.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb036a447656ada0800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb036a447656ada0800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "29dea062751796156f830ea38306649193d5fa82730d736c8415cea3d359ddfa"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb088117765148b0300",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-11",
+  "date": "2023-12-11",
+  "createdAt": "2023-12-11T13:41:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "p面对羽那的时候给我一种斧神滋比谷的感觉，而面对郁田的时候，有种说不上的感觉，有点贝木泥舟的意思。加上目前几乎没提到luca的事，我感觉黑星的剧情可能远比想象得",
+  "text": "p面对羽那的时候给我一种斧神滋比谷的感觉，而面对郁田的时候，有种说不上的感觉，有点贝木泥舟的意思。加上目前几乎没提到luca的事，我感觉黑星的剧情可能远比想象得要可怕",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb088117765148b0300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb088117765148b0300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d3539732e9e55a85d2c5b1d120857ddc9a8c689d3d6484198c58c81a22a66080"
+}

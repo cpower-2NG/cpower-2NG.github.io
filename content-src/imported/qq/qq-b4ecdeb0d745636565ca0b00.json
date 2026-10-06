@@ -1,0 +1,76 @@
+{
+  "id": "qq-b4ecdeb0d745636565ca0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-26",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T13:19:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "可能是收到希亜的印象，现在对莉佳这种正义属性非常有好感",
+  "text": "可能是收到希亜的印象，现在对莉佳这种正义属性非常有好感",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 2,
+    "comments": [
+      {
+        "id": "2441690473_1701005111",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "感觉莉佳还是少了一点主观能动性",
+        "createdAt": "2023-11-26T13:25:11.000Z"
+      },
+      {
+        "id": "2441690473_1701005266",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "@匿名好友 或许应该说多了一份自卑",
+        "createdAt": "2023-11-26T13:27:46.000Z"
+      },
+      {
+        "id": "2967399604_1701005531",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 毕竟希亚的正义感源自自责，而莉佳目前还尚未可知",
+        "createdAt": "2023-11-26T13:32:11.000Z"
+      },
+      {
+        "id": "2967399604_1701008484",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "受到希亚的影响",
+        "createdAt": "2023-11-26T14:21:24.000Z"
+      },
+      {
+        "id": "2967399604_1701008590",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "@匿名好友 我自裁！",
+        "createdAt": "2023-11-26T14:23:10.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d745636565ca0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d745636565ca0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "992ed2c4c8046c838ee7e416e50cf75c8258478add5681bf7994aba1a0304dc9"
+}

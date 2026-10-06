@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb06da46d6519e20700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-04",
+  "date": "2023-12-04",
+  "createdAt": "2023-12-04T10:05:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "夏天没有雪女，冬天也没有，不知道春天有没有",
+  "text": "夏天没有雪女，冬天也没有，不知道春天有没有",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3a25ebf0eec2f7b0189242da1917e405b8477ee7f6add784ff35ed2d30e1dc82.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzEudDPStT2Jg5j.AiGYv.hyYbJXazPIKSTFYJTZp4KuDIRNT3mmdSfkDwmELG5YFmg!!/b&bo=lgN4BJYDeAQWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 489,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3a25ebf0eec2f7b0189242da1917e405b8477ee7f6add784ff35ed2d30e1dc82.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06da46d6519e20700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06da46d6519e20700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "5384b09fff180213ddca55a422e293758a2a573aa1ee51266d28e71d35ee7911"
+}

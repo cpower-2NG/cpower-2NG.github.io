@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb05c7c6c651c1c0a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-03",
+  "date": "2023-12-03",
+  "createdAt": "2023-12-03T13:02:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "让中二老弟cos艾吉奥还挺合适的",
+  "text": "让中二老弟cos艾吉奥还挺合适的",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/45b02252a216df25044bfbba502b78db3fa9dcbd8a9215aebda995a132226633.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzAEQCCMq2BqGriMvQzMrlHThWet3STgIVVYIrKN9iCChULr9c3uV4sz48FIhyUhF6g!!/b&bo=QAaEA0AGhAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 221,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/45b02252a216df25044bfbba502b78db3fa9dcbd8a9215aebda995a132226633.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1701609607",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "别的不说，育碧在历史人文方面真得造诣极深。可惜奥德赛了",
+        "createdAt": "2023-12-03T13:20:07.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb05c7c6c651c1c0a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb05c7c6c651c1c0a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "0cd5c503bb2b504f6857200ae72b567cce52fa8441723a4e280cbb8ef29160b6"
+}

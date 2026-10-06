@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0bf3b736593a10600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-08",
+  "date": "2023-12-08",
+  "createdAt": "2023-12-08T15:52:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "真白线对我这个关系性厨很友好啊",
+  "text": "真白线对我这个关系性厨很友好啊",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0bf3b736593a10600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0bf3b736593a10600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "2f83b246f0e070304da67b32994b59a309dd28f10c81103d5f801009b013f3d9"
+}

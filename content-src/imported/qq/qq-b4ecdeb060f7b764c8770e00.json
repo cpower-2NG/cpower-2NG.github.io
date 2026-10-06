@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb060f7b764c8770e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-19",
+  "date": "2023-07-19",
+  "createdAt": "2023-07-19T14:46:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "因为某些因素，自己是极易疲倦的。又因为过分的苛求，鉴赏也好，冥思也罢，几乎只能在状态饱满的时候进行。都导致我的时间极度缺乏。于是乎，走上了邪道。寄身于现实，延续",
+  "text": "因为某些因素，自己是极易疲倦的。又因为过分的苛求，鉴赏也好，冥思也罢，几乎只能在状态饱满的时候进行。都导致我的时间极度缺乏。于是乎，走上了邪道。寄身于现实，延续了自感的寂灭。曾经的我就是这样的状态。但现在，现实不再允许我溺亡于此，接踵而至的事件与变化，打破了现实的白日梦。而那幻想世界似乎在向我招手。等待时机合适，就遁入其中，找寻那翱翔的青鸟吧。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb060f7b764c8770e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb060f7b764c8770e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "994f64540692324fdb16463383dfb704ee804c83f3ea1466d44986a021667612"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb070157565816d0900",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-10",
+  "date": "2023-12-10",
+  "createdAt": "2023-12-10T01:33:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这一gift sign，串起了这一集苍之四人，不禁让人思考，她们的gift又都是什么呢",
+  "text": "这一gift sign，串起了这一集苍之四人，不禁让人思考，她们的gift又都是什么呢",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1702173293",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "还有之前的曲子。我早就是巴赫的粉丝了",
+        "createdAt": "2023-12-10T01:54:53.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb070157565816d0900",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb070157565816d0900",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c03dce8f7c82ea614a20c8836ff0ab3ce7cfb0bd7d5cad0e536d20e475932b97"
+}

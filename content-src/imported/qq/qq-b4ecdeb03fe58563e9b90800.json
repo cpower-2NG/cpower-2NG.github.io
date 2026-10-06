@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03fe58563e9b90800",
+  "schemaVersion": 1,
+  "title": "日常 · 2022-11-29",
+  "date": "2022-11-29",
+  "createdAt": "2022-11-29T10:55:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "或许鬼型兽确实是对社群的反叛，或者说是对信徒的反叛。享受乃至尊崇作者性就必然要承受作者性",
+  "text": "或许鬼型兽确实是对社群的反叛，或者说是对信徒的反叛。享受乃至尊崇作者性就必然要承受作者性",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03fe58563e9b90800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03fe58563e9b90800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d2264a14d9a3bbc61d35b5b0b12428bf78412c04383bd4d892c7bfd4808b73e6"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb04cb42265def30400",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-08",
+  "date": "2023-10-08",
+  "createdAt": "2023-10-08T13:53:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "第一集看得很开心。以未来作为单一视点切入虽然有点老套，但对未来的补充（或者说重申）也是蛮有意思的。本家开场曲是Top！还真没想到，因为是比较新的全体曲吗。一句句",
+  "text": "第一集看得很开心。以未来作为单一视点切入虽然有点老套，但对未来的补充（或者说重申）也是蛮有意思的。本家开场曲是Top！还真没想到，因为是比较新的全体曲吗。一句句台词，有点泪目了。另外源P的声线真得好成熟啊，看来生放里说和赤羽根P协调了好久是真的。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04cb42265def30400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04cb42265def30400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "deb04ea1e0c087ab3612b9f26d3bb4024fb0d5bcf31e2120e5ee1a36adff205c"
+}

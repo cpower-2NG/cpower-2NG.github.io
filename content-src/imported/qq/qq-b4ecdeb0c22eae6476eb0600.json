@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c22eae6476eb0600",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-12",
+  "date": "2023-07-12",
+  "createdAt": "2023-07-12T04:40:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天是京阿尼周年庆，结合最近的事情，应该会公布一点新东西",
+  "text": "今天是京阿尼周年庆，结合最近的事情，应该会公布一点新东西",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c22eae6476eb0600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c22eae6476eb0600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4a30f616ec91126525f12326a4d1b1b571f2283d72070838f0c95975d9819d0f"
+}

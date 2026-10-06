@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0e06c1d6514a30400",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-04",
+  "date": "2023-10-04",
+  "createdAt": "2023-10-04T13:47:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "突然感觉这种翻译还挺有趣的，那个时候好像叫蹭得累更多？",
+  "text": "突然感觉这种翻译还挺有趣的，那个时候好像叫蹭得累更多？",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b4043d20b25253a947b9f375802142d2ba7c4dd1876c7a8f4eb081c963af692d.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzBbHgEBYCa5EIOmZn8f1ROvrtpGpER5NmIg1.FlP0bDD*K5DVwFPSdFqHGwfYqsEMQ!!/b&bo=IgJlACICZQAWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 73,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b4043d20b25253a947b9f375802142d2ba7c4dd1876c7a8f4eb081c963af692d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0e06c1d6514a30400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0e06c1d6514a30400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "6e1aebedd59c7feac0f84f334ca62f2259e7cf0cdafa3f31a37dc057e3a4ad0c"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0b222d16418c20a00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-08-07",
+  "date": "2023-08-07",
+  "createdAt": "2023-08-07T16:58:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "psp不愧是gal神机，当然也有可能是作 的原因，不过既然β世界线已通 ，就先放一放吧。剩下的4+1可是场苦战啊，先处 其他的事吧",
+  "text": "psp不愧是gal神机，当然也有可能是作 的原因，不过既然β世界线已通 ，就先放一放吧。剩下的4+1可是场苦战啊，先处 其他的事吧",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2441690473_1691428554",
+        "authorLabel": "匿名访客 B57C9B",
+        "text": "El Psy Kongroo",
+        "createdAt": "2023-08-07T17:15:54.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0b222d16418c20a00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0b222d16418c20a00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ac83e53523cb755a87a85e40cfb1adf5e5765a53db6481f9846b4cdaa17007ef"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0d8e9656519df0b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-28",
+  "date": "2023-11-28",
+  "createdAt": "2023-11-28T13:23:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "今天是过膝袜日，放一张捆妈的新图",
+  "text": "今天是过膝袜日，放一张捆妈的新图",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/625250ea8a298902fa36904d4b9da39b1f69cd558744800b8764306d34f20c70.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDXUcwzHTjtGSWmb*dvWFtgfs63*ni31*J1zUiGgXN5KB47O11nrjvzz5n*kXHIznw!!/b&bo=OAR9BTgEfQUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 510,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/625250ea8a298902fa36904d4b9da39b1f69cd558744800b8764306d34f20c70.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d8e9656519df0b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d8e9656519df0b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "62c7e0e52f3393b3ddcfe6bf149af521b2be59e5c4dc4a5e4e95452691bc4e0e"
+}

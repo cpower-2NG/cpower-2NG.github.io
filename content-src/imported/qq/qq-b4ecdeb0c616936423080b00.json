@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0c616936423080b00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-21",
+  "date": "2023-06-21",
+  "createdAt": "2023-06-21T15:27:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这集必进年度最佳单集",
+  "text": "这集必进年度最佳单集",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c616936423080b00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c616936423080b00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "c7d2d6f51b77ef9a3286d046b843e3ac15406e28c941b98305816338ee3d5df7"
+}

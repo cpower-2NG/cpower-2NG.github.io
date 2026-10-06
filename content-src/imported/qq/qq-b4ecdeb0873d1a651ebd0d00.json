@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0873d1a651ebd0d00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-02",
+  "date": "2023-10-02",
+  "createdAt": "2023-10-02T03:48:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好突然，刚推完gal呢",
+  "text": "好突然，刚推完gal呢",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cd1bc271795e70fc044fdb8a40235b7a7b1e4a87040e2b835537791719535e20.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzDbhCIF*XryzLgnQ5*oQ1ad*L6pJYwNjxCQUiCgWF9v2jrpeciMDpqsGaYBrt8qQYQ!!/b&bo=TwJEAk8CRAIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 385,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cd1bc271795e70fc044fdb8a40235b7a7b1e4a87040e2b835537791719535e20.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0873d1a651ebd0d00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0873d1a651ebd0d00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "60fce316676bcbd3ee30186efb74c3bd04febbdfd5c6b3e4f39fc60e6712b272"
+}

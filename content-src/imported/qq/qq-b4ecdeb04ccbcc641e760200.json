@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb04ccbcc641e760200",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-08-04",
+  "date": "2023-08-04",
+  "createdAt": "2023-08-04T09:56:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好好好！一起三年级",
+  "text": "好好好！一起三年级",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1b0da8a4a53075ac39a1dca31d8cf731e57c5fd1a02518ba5160f784195daa0b.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzF5KjrX97fhLg2y6O0kJtcQTTeLhT*PrqlSZoWYql.zCl4J3BncQChc5Y2hkvv2bQg!!/b&bo=GATDBRgEwwUWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 552,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1b0da8a4a53075ac39a1dca31d8cf731e57c5fd1a02518ba5160f784195daa0b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb04ccbcc641e760200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb04ccbcc641e760200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "4d6ac049f16c97fcab727bf39496ca85cd0f2832308e87764b52e3385122d7da"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "qq-b4ecdeb0c038bf64b17e0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-25",
+  "date": "2023-07-25",
+  "createdAt": "2023-07-25T02:51:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "猴哥也去当vtb了？！",
+  "text": "猴哥也去当vtb了？！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1690253555",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "好池",
+        "createdAt": "2023-07-25T02:52:35.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0c038bf64b17e0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0c038bf64b17e0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "ff131735a48dd519f7b681ca0a43f3e5218e34e0f4864c7e93650f8fff365a87"
+}

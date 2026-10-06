@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb02fdc506598ef0c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-12",
+  "date": "2023-11-12",
+  "createdAt": "2023-11-12T14:07:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "空を見ろ。空を見続ける。答えはそこにある！",
+  "text": "空を見ろ。空を見続ける。答えはそこにある！",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02fdc506598ef0c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02fdc506598ef0c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "a0fbfb51d084ea9367d07b2be4ed4af672d0f40ee506da766766d60606e19c85"
+}

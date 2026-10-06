@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb0aa6db364324a0500",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-16",
+  "date": "2023-07-16",
+  "createdAt": "2023-07-16T04:10:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "当我们进行社科研究时，往往不会调用情感的力量，这会让我们忽略了某些切实发生的情感映射，会忽略人主观的力量，成为数据与形式的奴隶。在与人相关的事情中，心具有与脑同",
+  "text": "当我们进行社科研究时，往往不会调用情感的力量，这会让我们忽略了某些切实发生的情感映射，会忽略人主观的力量，成为数据与形式的奴隶。在与人相关的事情中，心具有与脑同等重要的地位。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0aa6db364324a0500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0aa6db364324a0500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "f6a9a079eb8037e975eda02f7c3a7c97ee59ded0cfd06a5b92dad66edca80b20"
+}

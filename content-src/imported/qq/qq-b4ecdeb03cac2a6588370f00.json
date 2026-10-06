@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb03cac2a6588370f00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-14",
+  "date": "2023-10-14",
+  "createdAt": "2023-10-14T14:57:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "谁能想到一个拔作也让我这么感动，万华镜还是有水平的",
+  "text": "谁能想到一个拔作也让我这么感动，万华镜还是有水平的",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03cac2a6588370f00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb03cac2a6588370f00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "58957c401bc7e08424f6e2ce3ba6cb2304938680a8bf9719d00b18b70cdae982"
+}

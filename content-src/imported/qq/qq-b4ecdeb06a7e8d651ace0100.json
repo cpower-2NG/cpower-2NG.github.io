@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb06a7e8d651ace0100",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-28",
+  "date": "2023-12-28",
+  "createdAt": "2023-12-28T13:55:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "好像伤物语总集篇剧场版会重构，值得关注",
+  "text": "好像伤物语总集篇剧场版会重构，值得关注",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb06a7e8d651ace0100",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb06a7e8d651ace0100",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "46b491512dfe6eb7546fcddafcd369bd02a553c3011c31c27fac87d02a8ceff6"
+}

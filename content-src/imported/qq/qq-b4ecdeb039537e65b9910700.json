@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb039537e65b9910700",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-12-17",
+  "date": "2023-12-17",
+  "createdAt": "2023-12-17T01:47:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "这最新一集信息密度好大，总之这集到下集是要live连发了，期待",
+  "text": "这最新一集信息密度好大，总之这集到下集是要live连发了，期待",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb039537e65b9910700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb039537e65b9910700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "7ee8f162b9e938499a86660c52f8cc574caddfb8ab029c7ca1d3cbca47e9bd27"
+}

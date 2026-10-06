@@ -1,0 +1,64 @@
+{
+  "id": "qq-b4ecdeb0f22e4a6549b10e00",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-11-07",
+  "date": "2023-11-07",
+  "createdAt": "2023-11-07T12:34:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "shaft...这是...",
+  "text": "shaft...这是...",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b984a4aa26c7f0f28bf8c936b438dc6d5f00173d28334e9a74822e3d82c437b4.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzJom*oE4.pUV3XQbdMsvhaHUX5h2bFv2QQtBWqGcFtp6mmpdGRPWjUUBnSi*T91Hfg!!/b&bo=rwQkA68EJAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 263,
+      "sourceQuality": "low",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0d0c20b34abf653f7eeeb6743dfd19ea9cdeb6efc0ce417651d2b1b43e2ada4e.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzMp7mdbEvUc9hyO5beEyQ0VJhperU3lu1PJM7PTnG4J3rE94cDW*t*wWoxWQZr5geA!!/b&bo=rwQkA68EJAMWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 263,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b984a4aa26c7f0f28bf8c936b438dc6d5f00173d28334e9a74822e3d82c437b4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0f22e4a6549b10e00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0f22e4a6549b10e00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "fb43368101fb4b7137a236c155490fa37bd24affaff2cc1a790e0d85e0795165"
+}

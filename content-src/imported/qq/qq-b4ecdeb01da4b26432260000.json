@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb01da4b26432260000",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-07-15",
+  "date": "2023-07-15",
+  "createdAt": "2023-07-15T13:50:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "现在机翻真是强大啊，加上一个人工润色，基本就够了。不知道是不是我太执着于了角色用词了，总是会在一段话上纠结半天。",
+  "text": "现在机翻真是强大啊，加上一个人工润色，基本就够了。不知道是不是我太执着于了角色用词了，总是会在一段话上纠结半天。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb01da4b26432260000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb01da4b26432260000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "d32b911b030a201ca09f174cb935c01a311cb0663e5e7f5a94862c69b5cdb8e2"
+}

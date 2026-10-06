@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb007b5786475a40200",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-06-01",
+  "date": "2023-06-01",
+  "createdAt": "2023-06-01T15:11:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "该说是情绪自然呢，还是关系纤细呢。天天天的剧情从展开开始就一直让人悬着心啊。脚本着实好",
+  "text": "该说是情绪自然呢，还是关系纤细呢。天天天的剧情从展开开始就一直让人悬着心啊。脚本着实好",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb007b5786475a40200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb007b5786475a40200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "bf06ed47f4facd000f65bb122fa60860675957d235983cf8c5d5d94eca6548aa"
+}

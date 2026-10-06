@@ -1,0 +1,55 @@
+{
+  "id": "qq-b4ecdeb0474d2965ae080200",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-13",
+  "date": "2023-10-13",
+  "createdAt": "2023-10-13T13:59:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "若木民喜的台词真的很感动啊，这一份纯粹的爱。另外BD特典可以期待一下",
+  "text": "若木民喜的台词真的很感动啊，这一份纯粹的爱。另外BD特典可以期待一下",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3979224086ad61a424dcb0f15e565b26d0212a21f3d29d099ebb98ecdcdbfde.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzKrulC4zbOMWo87XWtuzmfJH0yyy9gmRWjgI1CAS0VY4ZzR.pFdOrTkJm.Hmxtnmow!!/b&bo=IANXAiADVwIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 294,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3979224086ad61a424dcb0f15e565b26d0212a21f3d29d099ebb98ecdcdbfde.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0474d2965ae080200",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0474d2965ae080200",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "b3deac1ca0ebf07c3ea6fa7229ec8078c8b4b207c9b7b5e6a1d7ce36083cbbcb"
+}

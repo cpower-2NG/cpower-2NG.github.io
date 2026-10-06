@@ -1,0 +1,62 @@
+{
+  "id": "qq-b4ecdeb0d1112c65a2e50300",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-10-15",
+  "date": "2023-10-15",
+  "createdAt": "2023-10-15T16:22:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "泣いて！",
+  "text": "泣いて！",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a9e9c04bee06e6647178a5a60e4a83de9888d0e9e7acb0ff99e993b856925d7.jpg",
+      "sourceUrl": "https://photogz.photo.store.qq.com/psc?/V11AegfB09aSpV/05RlWl8gsTOH*Z17MtCBzHROQ83aHcFl9ayQspYPxlRoEv7cAFotFVQF3jNgtVzIcJ*cntWsrvhc.FclXIsjlQ!!/b&bo=QAb2AkAG9gIWADA!&w=392&h=5000",
+      "width": 392,
+      "height": 186,
+      "sourceQuality": "low",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a9e9c04bee06e6647178a5a60e4a83de9888d0e9e7acb0ff99e993b856925d7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "2967399604_1697386976",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "一周一次的感动",
+        "createdAt": "2023-10-15T16:22:56.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d1112c65a2e50300",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d1112c65a2e50300",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "76d18dca26d12d89e89520b4d0ae02d5e1e186f00ea951d114d118004a9586f4"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "qq-b4ecdeb00d6ade6311480400",
+  "schemaVersion": 1,
+  "title": "日常 · 2023-02-04",
+  "date": "2023-02-04",
+  "createdAt": "2023-02-04T14:22:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "魔法少女还是王道的好看",
+  "text": "魔法少女还是王道的好看",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb00d6ade6311480400",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb00d6ade6311480400",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [],
+  "contentHash": "57844833825d383c391dfc2b47fdd6e9e16e0213136b19a59fa4c880bad532b5"
+}
