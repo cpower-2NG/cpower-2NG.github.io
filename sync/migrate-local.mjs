@@ -103,14 +103,26 @@ async function main() {
   const overrides = overridesDoc?.overrides && typeof overridesDoc.overrides === 'object' ? overridesDoc.overrides : {};
   const cookies = session.cookies || {};
 
-  // 0. 已入库条目集合（跳过重复）
+  // 0. 已入库条目集合（跳过重复）。GitHub API 偶发抖动：重试后仍失败则降级为空清单
+  //（提交按路径幂等，moment 按 id 幂等，最多多做几次重复转存）。
   console.log('读取已入库记录清单…');
-  const existing = await listContentRecords();
-  const doneIds = new Set(existing.map(({ record }) => record.id));
+  let doneIds = new Set();
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const existing = await listContentRecords();
+      doneIds = new Set(existing.map(({ record }) => record.id));
+      break;
+    } catch (error) {
+      console.log(`  清单读取失败（第 ${attempt} 次）：${error.message.slice(0, 80)}`);
+      if (attempt < 3) await sleep(20000);
+    }
+  }
   console.log(`已入库 ${doneIds.size} 条。`);
 
   // 1. 直连 msglist_v6 分页（SDK 的 token 前置页被风控挡住，该接口本身可用；
   //    每页 1 次请求拿到正文/图片/评论，不再逐条详情）。
+  //    风控期 QQ 会把可见窗口裁剪到最近几条且忽略 fstart——预检发现翻页不
+  //    生效立即中止，避免空跑。
   const posts = [];
   let pages = 0;
   let stopped = '';
@@ -119,6 +131,8 @@ async function main() {
   const accountUin = String(session.accountId || '').replace(/^o/, '');
   const gtk = gtkFromCookies(cookies);
   const cookieHeader = Object.entries(cookies).map(([name, value]) => `${name}=${value}`).join('; ');
+  const seenTids = new Set();
+  let paginationAdvances = true;
   for (;;) {
     const url = `https://user.qzone.qq.com/proxy/domain/taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6`
       + `?uin=${accountUin}&fstart=${fstart}&fcount=${fcount}&sort=0&g_tk=${gtk}`;
@@ -146,7 +160,18 @@ async function main() {
     }
     pages += 1;
     const list = payload.msglist || [];
-    for (const msg of list) posts.push(rawMsgToPost(msg, accountUin));
+    // 翻页生效性检查：第 3 页起若全是已见过的条目，说明 fstart 被忽略（风控裁剪窗口）。
+    const novel = list.filter((msg) => !seenTids.has(String(msg.tid))).length;
+    if (pages >= 3 && novel === 0 && paginationAdvances) {
+      paginationAdvances = false;
+      stopped = '翻页不生效：QQ 已把该会话的可见窗口裁剪到最近几条（风控）。通常 1-7 天后自动解除，届时重跑本命令即可。';
+      console.log(stopped);
+      break;
+    }
+    for (const msg of list) {
+      seenTids.add(String(msg.tid));
+      posts.push(rawMsgToPost(msg, accountUin));
+    }
     if (pages % 10 === 0) console.log(`  已拉取 ${pages} 页 / ${posts.length} 条（total ${payload.total}）`);
     fstart += list.length;
     if (!list.length || fstart >= (Number(payload.total) || Infinity)) break;
@@ -274,14 +299,29 @@ async function main() {
     return;
   }
 
-  // 5. 提交 Git（分批，每批 400 条）
+  // 5. 提交 Git（分批，每批 400 条；重试 3 次，失败批次落盘本地可后续补交）
+  const failedBatches = [];
   for (let i = 0; i < published.length; i += 400) {
     const batch = published.slice(i, i + 400);
     process.stdout.write(`提交 Git ${i + 1}-${i + batch.length}/${published.length}…`);
-    const commit = await commitRecords(batch);
-    console.log(` ${commit.changed ? 'ok' : '无变化'} files=${commit.files}`);
+    let commit = null;
+    for (let attempt = 1; attempt <= 3 && !commit; attempt += 1) {
+      try {
+        commit = await commitRecords(batch);
+      } catch (error) {
+        console.log(`\n  提交失败（第 ${attempt} 次）：${error.message.slice(0, 80)}`);
+        if (attempt < 3) await sleep(20000);
+      }
+    }
+    if (commit) console.log(` ${commit.changed ? 'ok' : '无变化'} files=${commit.files}`);
+    else {
+      console.log('  三次均失败，批次已存本地 failed-batch.json');
+      failedBatches.push(batch);
+      writeFileSync(new URL(`./.migrate-failed-batch-${i}.json`, import.meta.url), JSON.stringify(batch, null, 1));
+    }
     await sleep(2000);
   }
+  if (failedBatches.length) console.log(`注意：${failedBatches.length} 个批次未提交（本地文件可后续补交），不影响已提交批次。`);
 
   // 6. 写权威库
   const docs = momentDocsFromRecords(published);
