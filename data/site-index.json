@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-07T04:04:09.410Z",
+  "generated": "2026-10-07T04:31:59.778Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -1036,8 +1036,8 @@
       "publishedAt": "2026-10-04T14:28:44.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "怀念\n\n不愧是妇儿剧场，全是小孩\n\n视频：https://www.bilibili.com/video/BV1VLHE6hEpE",
-      "html": "<p>怀念</p>\n<p>不愧是妇儿剧场，全是小孩</p>\n<p>视频：https://www.bilibili.com/video/BV1VLHE6hEpE</p>",
+      "text": "怀念\n\n不愧是妇儿剧场，全是小孩",
+      "html": "<p>怀念</p>\n<p>不愧是妇儿剧场，全是小孩</p>",
       "summary": "怀念 不愧是妇儿剧场，全是小孩",
       "tags": [
         "QQ空间",
@@ -1053,7 +1053,8 @@
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
         "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6451035f4398d92db8d8a3e162b0635691bc520bf6926f39de8a2e7ea9ffac45.jpg",
-        "title": "怀念\n\n不愧是妇儿剧场，全是小孩"
+        "title": "回去妇儿剧场看凉本秋穗FMT一周年",
+        "owner": "omopox虾泥"
       },
       "counts": {
         "likes": 0,
@@ -1094,8 +1095,8 @@
       "publishedAt": "2026-09-30T13:12:36.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "电棍邀请你来参与大回选！ UP主：音之墨\n\n视频：https://www.bilibili.com/video/BV1C6a86uEYS",
-      "html": "<p>电棍邀请你来参与大回选！ UP主：音之墨</p>\n<p>视频：https://www.bilibili.com/video/BV1C6a86uEYS</p>",
+      "text": "电棍邀请你来参与大回选！ UP主：音之墨",
+      "html": "<p>电棍邀请你来参与大回选！ UP主：音之墨</p>",
       "summary": "电棍邀请你来参与大回选！ UP主：音之墨",
       "tags": [
         "QQ空间",
@@ -1111,7 +1112,8 @@
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
         "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f2a82c23ee59527e55aee6bf2ae5f2e43984396785930be5a167857e54a0356.jpg",
-        "title": "电棍邀请你来参与大回选！ UP主：音之墨"
+        "title": "电棍邀请你来参与大回选！",
+        "owner": "音之墨"
       },
       "counts": {
         "likes": 0,
@@ -1128,9 +1130,9 @@
       "publishedAt": "2026-09-27T13:27:09.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "视频：种崎敦美功夫曲合作（UP 主：盐边张家川北林）",
-      "html": "<p>视频：种崎敦美功夫曲合作（UP 主：盐边张家川北林）</p>",
-      "summary": "种崎敦美功夫曲合作",
+      "text": "",
+      "html": "",
+      "summary": "分享 · 种崎敦美功夫曲合作",
       "tags": [
         "QQ空间",
         "自动同步",
@@ -1151,7 +1153,8 @@
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
         "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
-        "title": "种崎敦美功夫曲合作"
+        "title": "种崎敦美功夫曲合作",
+        "owner": "盐边张家川北林"
       },
       "counts": {
         "likes": 0,
@@ -1240,8 +1243,8 @@
       "publishedAt": "2026-09-23T14:58:18.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "草草草\n\n视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）",
-      "html": "<p>草草草</p>\n<p>视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）</p>",
+      "text": "草草草",
+      "html": "<p>草草草</p>",
       "summary": "草草草",
       "tags": [
         "QQ空间",
@@ -1263,7 +1266,8 @@
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV19s411C7c5",
         "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
-        "title": "【老爷爷无药可救】Blue Symphony"
+        "title": "【老爷爷无药可救】Blue Symphony",
+        "owner": "nulla"
       },
       "counts": {
         "likes": 0,
@@ -36370,7 +36374,9 @@
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14Q4y167gr&high_quality=1&danmaku=0",
         "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a76bc57675a95a88714892b3926fa9a1b1077421cf7d910617e48eeba1959d39.jpg",
         "note": "转载视频，仅保存本站封面并链接原始来源。",
-        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a76bc57675a95a88714892b3926fa9a1b1077421cf7d910617e48eeba1959d39.jpg"
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a76bc57675a95a88714892b3926fa9a1b1077421cf7d910617e48eeba1959d39.jpg",
+        "title": "正 大 浪 漫",
+        "owner": "萎缩的帝国"
       },
       "counts": {
         "likes": 0,
