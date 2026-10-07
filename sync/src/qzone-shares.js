@@ -211,17 +211,14 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
       const coverUrl = (video?.cover || '').replace(/^http:/, 'https:');
 
       let cover = coverUrl;
-      const media = [];
+      // 封面只进 video.cover/coverUrl（前端视频卡片渲染），不重复放进 media。
       if (coverUrl && coverTransfer === 'store') {
         try {
           const stored = await storeImage(coverUrl, cookies);
           cover = stored.url;
-          media.push(stored);
         } catch {
           // 封面转存失败不阻塞记录，保留 B 站原始地址。
         }
-      } else if (coverUrl) {
-        media.push({ kind: 'image', url: coverUrl, sourceUrl: coverUrl, sourceQuality: 'high', variants: [] });
       }
 
       const record = {
@@ -237,7 +234,7 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
         category: '分享',
         summary: (share.text || title).replace(/\s+/g, ' ').slice(0, 80),
         text,
-        media,
+        media: [],
         video: {
           platform: '哔哩哔哩',
           sourceUrl,

@@ -195,7 +195,8 @@ async function main() {
       if (bvid) {
         const video = await fetchBilibiliVideo(bvid);
         if (video) {
-          if (video.cover && doc.video.coverUrl !== video.cover.replace(/^http:/, 'https:')) {
+          // 封面只在缺失时转存（blob URL 与 B 站原始 URL 不同，不能用相等判断）。
+          if (video.cover && !doc.video.coverUrl) {
             try {
               const stored = await storeImage(video.cover.replace(/^http:/, 'https:'), {});
               doc.video.cover = stored.url;
@@ -228,6 +229,13 @@ async function main() {
         }
         await sleep(1200);
       }
+    }
+
+    // 2e. 转发视频记录的 media 去重：封面已在 video.coverUrl（前端视频卡片渲染），
+    //     media 里再放一份会导致图出现两次。
+    if (doc.video?.sourceUrl && (doc.media || []).some((item) => item.url === doc.video.coverUrl)) {
+      doc.media = doc.media.filter((item) => item.url !== doc.video.coverUrl);
+      dirty = true;
     }
 
     if (dirty) {

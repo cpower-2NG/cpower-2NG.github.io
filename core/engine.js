@@ -797,7 +797,6 @@
     `;
     renderDailyPage();
     bindDailyPager();
-    void mountInlineInteractions();
   }
 
   function renderDailyPager(totalItems) {
@@ -875,10 +874,12 @@
           </span>
         </a>`
       : '';
-    const media = (moment.media || []).length
-      ? `<div class="moment__media-grid">${(moment.media || []).map((item) => `
-          <a class="moment__media" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-            <img src="${escapeHtml(item.url)}" alt="" loading="lazy">
+    const media = (moment.media || []).filter((item) => item.url !== moment.video?.coverUrl).length
+      ? `<div class="moment__media-grid">${(moment.media || [])
+          .filter((item) => item.url !== moment.video?.coverUrl)
+          .map((item) => `
+          <a class="moment__media" href="${escapeHtml(item.url)}" data-lightbox>
+            <img src="${escapeHtml(item.url)}" alt="" loading="lazy" onerror="this.closest('.moment__media').style.display='none'">
           </a>`).join('')}</div>`
       : '';
     const flags = [
@@ -902,23 +903,32 @@
   }
 
   /** 时间流里的每条动态各挂一个独立的互动块；计数用一次批量请求取回。 */
+  /** 竞态防护：挂载进行中时跳过重入（renderDailyPage 与翻页可能连续触发）。 */
+  let interactionsMountInFlight = false;
   async function mountInlineInteractions() {
     const interactions = window.BifrostInteractions;
     const config = state.siteConfig ? state.siteConfig.interactions : null;
     if (!interactions || typeof interactions.mountInline !== 'function') return;
+    if (interactionsMountInFlight) return;
     // 只挂未挂载过的卡片（分批加载后会重复进入这里）
     const cards = [...el.view.querySelectorAll('[data-moment]')]
       .filter((card) => card.dataset.interactionsMounted !== '1');
     if (!cards.length) return;
-    const summaries = typeof interactions.fetchSummaries === 'function'
-      ? await interactions.fetchSummaries(cards.map((card) => card.dataset.moment), config)
-      : new Map();
-    for (const card of cards) {
-      // 批量请求期间可能已经切走，跳过已卸载的卡片
-      if (!card.isConnected) continue;
-      const id = card.dataset.moment;
-      card.dataset.interactionsMounted = '1';
-      card.append(interactions.mountInline({ entryId: id }, config, state.phase, summaries.get(id) || null));
+    // 挂载标记在异步取数前打上，防止并发重入造成互动块重复
+    for (const card of cards) card.dataset.interactionsMounted = '1';
+    interactionsMountInFlight = true;
+    try {
+      const summaries = typeof interactions.fetchSummaries === 'function'
+        ? await interactions.fetchSummaries(cards.map((card) => card.dataset.moment), config)
+        : new Map();
+      for (const card of cards) {
+        // 批量请求期间可能已经切走，跳过已卸载的卡片
+        if (!card.isConnected) continue;
+        const id = card.dataset.moment;
+        card.append(interactions.mountInline({ entryId: id }, config, state.phase, summaries.get(id) || null));
+      }
+    } finally {
+      interactionsMountInFlight = false;
     }
   }
 
@@ -1202,6 +1212,13 @@
   }
 
   function onDocumentClick(event) {
+    // 动态图片：站内灯箱预览（不再跳新标签页）
+    const mediaLink = event.target.closest('[data-lightbox]');
+    if (mediaLink) {
+      event.preventDefault();
+      openLightbox(mediaLink.getAttribute('href'));
+      return;
+    }
     const link = event.target.closest('[data-action]');
     if (!link) return;
     event.preventDefault();
@@ -1225,6 +1242,31 @@
     } else if (action === 'series-member') {
       openEntry(link.dataset.entry, { seriesId: link.dataset.series }).then(() => syncUrl());
     }
+  }
+
+  /** 动态图片灯箱：点击在页内放大预览，点击任意处或 Esc 关闭。 */
+  function openLightbox(src) {
+    closeLightbox();
+    const overlay = document.createElement('div');
+    overlay.className = 'lightbox';
+    overlay.innerHTML = `
+      <img class="lightbox__img" src="${escapeHtml(src)}" alt="">
+      <button class="lightbox__close" type="button" aria-label="关闭">×</button>
+    `;
+    overlay.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', onLightboxKeyDown);
+    document.body.append(overlay);
+    document.body.style.overflow = 'hidden';
+  }
+
+  function onLightboxKeyDown(event) {
+    if (event.key === 'Escape') closeLightbox();
+  }
+
+  function closeLightbox() {
+    document.querySelector('.lightbox')?.remove();
+    document.removeEventListener('keydown', onLightboxKeyDown);
+    document.body.style.overflow = '';
   }
 
   // ---------- 搜索 ----------

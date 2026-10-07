@@ -3710,6 +3710,38 @@ html[data-phase="fantasy"] .moment-month__label::before {
   font-variant-numeric: tabular-nums;
 }
 
+/* 动态图片灯箱 */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(10, 14, 18, 0.88);
+  display: grid;
+  place-items: center;
+  cursor: zoom-out;
+}
+
+.lightbox__img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .moment__actions {
   display: flex;
   gap: 12px;
