@@ -744,11 +744,19 @@
 
   // ---------- 日常时间流 ----------
 
-  const DAILY_BATCH = 3;
+  const DAILY_BATCH = 50;
 
-  /** 纯文本动态：裸链自动成链接、#话题# 染色（QQ 空间常见格式）。 */
+  /** 纯文本动态：QQ 表情码转图、@{uin,nick} 转 @昵称、裸链成链接、#话题# 染色。 */
   function formatMomentText(text) {
     return escapeHtml(text)
+      .replace(/@\{[^}]*\}/g, (marker) => {
+        const nick = marker.match(/nick:([^,}]+)/);
+        return nick ? `@${escapeHtml(nick[1].trim())}` : '@好友';
+      })
+      .replace(/\[em\]e(\d+)\[\/em\]/g, (marker, code) => {
+        if (!/^\d{1,4}$/.test(code)) return marker;
+        return `<img class="moment__emoticon" src="https://qzonestyle.gtimg.cn/qzone/em/e${code}.gif" alt="[表情]" loading="lazy">`;
+      })
       .replace(/#([^#\s]{1,24})#/g, '<span class="moment__topic">#$1#</span>')
       .replace(/(https?:\/\/[^\s<"]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
   }
@@ -765,66 +773,66 @@
   }
 
   function renderDailyFeed(config, section) {
-    // 置顶排最前，其余按月份倒序；月份分页（设计决策 4：历史全量迁移后改为页码导航）
+    // 置顶排最前，其余按时间倒序；固定条数分页（历史全量迁移后按月分页大小不均）
     const all = phaseMoments().filter((moment) => moment.section === section.id);
     const pinned = all.filter((moment) => moment.pinned);
     const rest = all.filter((moment) => !moment.pinned);
-    const byMonth = new Map();
-    for (const moment of rest) {
-      const list = byMonth.get(moment.month) || [];
-      list.push(moment);
-      byMonth.set(moment.month, list);
-    }
-    const months = [...byMonth.entries()];
-    state.dailyMonths = months;
+    state.dailyItems = rest;
     state.dailyPage = 0;
     state.dailyPinned = pinned;
+    state.dailySection = section;
 
     el.view.innerHTML = `
       <header class="daily-head">
         <p class="daily-head__eyebrow">${escapeHtml(config.label)} · ${escapeHtml(SECTION_EN[section.id] || section.id.toUpperCase())}</p>
         <div class="daily-head__row">
           <h1 class="daily-head__title">${escapeHtml(section.label)}</h1>
-          <span class="daily-head__count">共 ${all.length} 条 · 按月份倒序${pinned.length ? ` · 置顶 ${pinned.length}` : ''}</span>
+          <span class="daily-head__count">共 ${all.length} 条 · 按时间倒序${pinned.length ? ` · 置顶 ${pinned.length}` : ''}</span>
         </div>
       </header>
       <div class="moment-feed">
         <div data-daily-body></div>
-        ${renderDailyPager(months.length)}
+        ${renderDailyPager(rest.length)}
       </div>
     `;
     renderDailyPage();
-    bindDailyPager(config, section);
+    bindDailyPager();
     void mountInlineInteractions();
   }
 
-  function renderDailyPager(totalMonths) {
-    const totalPages = Math.max(1, Math.ceil(totalMonths / DAILY_BATCH));
+  function renderDailyPager(totalItems) {
+    const totalPages = Math.max(1, Math.ceil(totalItems / DAILY_BATCH));
     return `
       <nav class="moment-pager" data-daily-pager>
-        <button class="moment-pager__btn" type="button" data-daily-prev ${totalPages <= 1 ? 'disabled' : ''}>← 更近的月份</button>
+        <button class="moment-pager__btn" type="button" data-daily-prev ${totalPages <= 1 ? 'disabled' : ''}>← 更近</button>
         <span class="moment-pager__label" data-daily-page-label>第 1 / ${totalPages} 页</span>
-        <button class="moment-pager__btn" type="button" data-daily-next ${totalPages <= 1 ? 'disabled' : ''}>更早的月份 →</button>
+        <button class="moment-pager__btn" type="button" data-daily-next ${totalPages <= 1 ? 'disabled' : ''}>更早 →</button>
       </nav>
     `;
   }
 
+  /** 渲染当页：条数切片后页内再按月份分组，保留月份标题的阅读节奏。 */
   function renderDailyPage() {
-    const months = state.dailyMonths || [];
-    const totalPages = Math.max(1, Math.ceil(months.length / DAILY_BATCH));
+    const items = state.dailyItems || [];
+    const totalPages = Math.max(1, Math.ceil(items.length / DAILY_BATCH));
     const page = Math.min(state.dailyPage || 0, totalPages - 1);
-    const from = page * DAILY_BATCH;
-    const to = Math.min(months.length, from + DAILY_BATCH);
+    const slice = items.slice(page * DAILY_BATCH, (page + 1) * DAILY_BATCH);
+    const byMonth = new Map();
+    for (const moment of slice) {
+      const list = byMonth.get(moment.month) || [];
+      list.push(moment);
+      byMonth.set(moment.month, list);
+    }
     const body = el.view.querySelector('[data-daily-body]');
     const label = el.view.querySelector('[data-daily-page-label]');
     const prev = el.view.querySelector('[data-daily-prev]');
     const next = el.view.querySelector('[data-daily-next]');
     if (body) {
-      body.innerHTML = (state.dailyPinned && page === 0 ? `
+      body.innerHTML = (state.dailyPinned && page === 0 && state.dailyPinned.length ? `
         <section class="moment-month moment-month--pinned">
           <h2 class="moment-month__label">置顶</h2>
           ${state.dailyPinned.map((moment) => renderMoment(moment, true)).join('')}
-        </section>` : '') + months.slice(from, to).map(([month, list]) => `
+        </section>` : '') + [...byMonth.entries()].map(([month, list]) => `
         <section class="moment-month">
           <h2 class="moment-month__label">
             <span>${escapeHtml(month)}</span>
@@ -840,16 +848,15 @@
     void mountInlineInteractions();
   }
 
-  function bindDailyPager(config, section) {
+  function bindDailyPager() {
     const prev = el.view.querySelector('[data-daily-prev]');
     const next = el.view.querySelector('[data-daily-next]');
     const go = (delta) => {
-      const totalPages = Math.max(1, Math.ceil((state.dailyMonths || []).length / DAILY_BATCH));
+      const totalPages = Math.max(1, Math.ceil((state.dailyItems || []).length / DAILY_BATCH));
       const nextPage = Math.min(totalPages - 1, Math.max(0, (state.dailyPage || 0) + delta));
       if (nextPage === (state.dailyPage || 0)) return;
       state.dailyPage = nextPage;
       renderDailyPage();
-      // 翻页后回到日常流顶部
       el.view.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
     prev?.addEventListener('click', () => go(-1));

@@ -3601,6 +3601,15 @@ html[data-phase="fantasy"] .moment-month__label::before {
   white-space: nowrap;
 }
 
+/* QQ 系统表情（[em]eXXX[/em]） */
+.moment__emoticon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: -7px;
+  margin: 0 1px;
+}
+
 /* 动态图片网格（说说的配图） */
 .moment__media-grid {
   display: grid;

@@ -134,7 +134,8 @@ async function main() {
   for (;;) {
     const url = `https://user.qzone.qq.com/proxy/domain/taotao.qq.com/cgi-bin/emotion_cgi_msglist_v6`
       + `?uin=${accountUin}&inCharset=utf-8&outCharset=utf-8&hostUin=${accountUin}&notice=0&sort=0`
-      + `&pos=${pos}&num=${pageSize}&code_version=1&format=json&need_private_comment=1&g_tk=${gtk}`;
+      + `&pos=${pos}&num=${pageSize}&replynum=100&code_version=1&format=json`
+      + `&need_comment=1&need_private_comment=1&g_tk=${gtk}`;
     let payload;
     try {
       const response = await fetch(url, {
