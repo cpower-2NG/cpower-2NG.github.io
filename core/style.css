@@ -3631,20 +3631,17 @@ html[data-phase="fantasy"] .moment-month__label::before {
   margin: 0 1px;
 }
 
-/* 动态图片网格（说说的配图） */
+/* 动态图片网格（说说的配图）：完整显示原图比例，不裁切 */
 .moment__media-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 6px;
   margin: 10px 0 2px;
+  align-items: start;
 }
 
 .moment__media-grid:has(> :only-child) {
-  grid-template-columns: minmax(0, 320px);
-}
-
-.moment__media-grid:has(> :nth-child(2)):not(:has(> :nth-child(3))) {
-  grid-template-columns: repeat(2, minmax(0, 240px));
+  grid-template-columns: minmax(0, 420px);
 }
 
 .moment__media {
@@ -3657,8 +3654,7 @@ html[data-phase="fantasy"] .moment-month__label::before {
 .moment__media img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: auto;
   margin: 0;
 }
 

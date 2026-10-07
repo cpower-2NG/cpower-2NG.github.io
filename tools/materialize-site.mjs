@@ -213,7 +213,7 @@ async function main() {
 
   for (const moment of moments) {
     const mediaHtml = (moment.media || [])
-      .filter((item) => item.kind === 'image' && item.url)
+      .filter((item) => item.kind === 'image' && item.url && /stbifrostz43zcc/.test(item.url))
       .map((item) => `<figure class="moment__figure"><img src="${escapeHtml(item.url)}" alt="" loading="lazy"></figure>`)
       .join('');
     const document = renderDocument({
@@ -345,7 +345,8 @@ async function main() {
       summary: moment.summary,
       tags: moment.tags || [],
       media: (moment.media || [])
-        .filter((item) => item.kind === 'image' && item.url)
+        // 只输出已转存到自有图床的图：QQ 签名直链热链会触发防盗链占位图。
+        .filter((item) => item.kind === 'image' && item.url && /stbifrostz43zcc/.test(item.url))
         .map((item) => ({ url: item.url, width: item.width || 0, height: item.height || 0 })),
       video: moment.video || null,
       counts: moment.counts || { likes: 0, views: 0, comments: 0 },
