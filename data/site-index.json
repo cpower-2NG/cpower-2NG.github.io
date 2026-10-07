@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-07T04:31:59.778Z",
+  "generated": "2026-10-07T05:23:07.673Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -1138,13 +1138,7 @@
         "自动同步",
         "分享"
       ],
-      "media": [
-        {
-          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a3e0ee9e149b6e9a6b527a6035a7a1255ace862b8f582ca94cad6e1718fc01d9.jpg",
-          "width": 2560,
-          "height": 1440
-        }
-      ],
+      "media": [],
       "video": {
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1doaa6KEqr",
@@ -1251,13 +1245,7 @@
         "自动同步",
         "分享"
       ],
-      "media": [
-        {
-          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
-          "width": 766,
-          "height": 480
-        }
-      ],
+      "media": [],
       "video": {
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV19s411C7c5",
