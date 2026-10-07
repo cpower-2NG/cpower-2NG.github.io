@@ -206,9 +206,8 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
       const sourceUrl = video?.link || `https://www.bilibili.com/video/${bvid}`;
       const embedUrl = bvid ? `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(bvid)}&high_quality=1&danmaku=0` : '';
       const title = video?.title || share.text || '分享的视频';
-      const reason = share.text ? `${share.text}\n\n` : '';
-      const meta = video ? `视频：${title}${video.owner ? `（UP 主：${video.owner}）` : ''}` : `视频：${sourceUrl}`;
-      // B 站 API 的封面常以 http:// 返回，图床白名单要求 https。
+      // 视频信息由前端视频卡片承载，text 只保留转发理由与原分享配文。
+      const text = String(share.text || '').trim();
       const coverUrl = (video?.cover || '').replace(/^http:/, 'https:');
 
       let cover = coverUrl;
@@ -237,7 +236,7 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
         tags: ['QQ空间', '自动同步', '分享'],
         category: '分享',
         summary: (share.text || title).replace(/\s+/g, ' ').slice(0, 80),
-        text: `${reason}${meta}`,
+        text,
         media,
         video: {
           platform: '哔哩哔哩',

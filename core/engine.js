@@ -866,9 +866,13 @@
   function renderMoment(moment, isPinned = false) {
     const video = moment.video && moment.video.watchUrl
       ? `<a class="moment__video" href="${escapeHtml(moment.video.watchUrl)}" target="_blank" rel="noopener noreferrer">
-          ${moment.video.coverUrl ? `<img src="${escapeHtml(moment.video.coverUrl)}" alt="" loading="lazy">` : ''}
-          <span class="moment__video-title">${escapeHtml(moment.video.title || moment.video.watchUrl)}</span>
-          <span class="moment__video-cta">在 B 站观看 ↗</span>
+          ${moment.video.coverUrl
+            ? `<img class="moment__video-cover" src="${escapeHtml(moment.video.coverUrl)}" alt="" loading="lazy">`
+            : '<span class="moment__video-cover moment__video-cover--ph"></span>'}
+          <span class="moment__video-body">
+            <span class="moment__video-title">${escapeHtml((moment.video.title || moment.video.watchUrl).replace(/\s+/g, ' ').trim())}</span>
+            <span class="moment__video-cta">在 B 站观看 ↗</span>
+          </span>
         </a>`
       : '';
     const media = (moment.media || []).length

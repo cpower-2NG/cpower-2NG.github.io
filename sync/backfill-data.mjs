@@ -188,22 +188,45 @@ async function main() {
       }
     }
 
-    // 2d. 转发视频封面回填（B 站 API，本地网络成功率高）
-    if (doc.video?.sourceUrl && !doc.video.coverUrl) {
+    // 2d. 转发视频：B 站 API 刷新标题/UP 主/封面；text/html 清掉旧版拼进去的
+    //     "视频：…（UP 主：…）"信息行（前端视频卡片已承载这些信息）。
+    if (doc.video?.sourceUrl) {
       const bvid = doc.video.sourceUrl.match(/BV[A-Za-z0-9]{8,12}/)?.[0];
       if (bvid) {
         const video = await fetchBilibiliVideo(bvid);
-        if (video?.cover) {
-          try {
-            const stored = await storeImage(video.cover.replace(/^http:/, 'https:'), {});
-            doc.video.cover = stored.url;
-            doc.video.coverUrl = stored.url;
-            doc.cover = stored.url;
+        if (video) {
+          if (video.cover && doc.video.coverUrl !== video.cover.replace(/^http:/, 'https:')) {
+            try {
+              const stored = await storeImage(video.cover.replace(/^http:/, 'https:'), {});
+              doc.video.cover = stored.url;
+              doc.video.coverUrl = stored.url;
+              doc.cover = stored.url;
+              dirty = true;
+              coversBackfilled += 1;
+            } catch { /* 封面失败不阻塞 */ }
+          }
+          if (video.title && doc.video.title !== video.title) {
+            doc.video.title = video.title;
+            doc.title = `分享 · ${video.title.slice(0, 60)}`;
             dirty = true;
-            coversBackfilled += 1;
-          } catch { /* 封面失败不阻塞 */ }
-          await sleep(1200);
+          }
+          if (video.owner && doc.video !== undefined) {
+            doc.video.owner = video.owner;
+          }
         }
+        // 清理 text/html 里旧版拼接的"视频：…"信息行
+        const cleanedText = String(doc.text || '')
+          .split('\n')
+          .filter((line) => !/^视频：/.test(line.trim()))
+          .join('\n')
+          .trim();
+        if (cleanedText !== String(doc.text || '')) {
+          doc.text = cleanedText;
+          doc.html = renderHtml(cleanedText);
+          doc.summary = (cleanedText || doc.title).replace(/\s+/g, ' ').slice(0, 120);
+          dirty = true;
+        }
+        await sleep(1200);
       }
     }
 
