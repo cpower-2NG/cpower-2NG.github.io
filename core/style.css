@@ -3594,6 +3594,92 @@ html[data-phase="fantasy"] .moment-month__label::before {
   line-height: 1.5;
 }
 
+.moment__video-cta {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+/* 动态图片网格（说说的配图） */
+.moment__media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin: 10px 0 2px;
+}
+
+.moment__media-grid:has(> :only-child) {
+  grid-template-columns: minmax(0, 320px);
+}
+
+.moment__media-grid:has(> :nth-child(2)):not(:has(> :nth-child(3))) {
+  grid-template-columns: repeat(2, minmax(0, 240px));
+}
+
+.moment__media {
+  display: block;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+}
+
+.moment__media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: 0;
+}
+
+/* 独立动态页的配图 */
+.moment__figure {
+  margin: 14px 0 0;
+}
+
+.moment__figure img {
+  display: block;
+  max-width: min(100%, 560px);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--card-border);
+}
+
+/* 日常流月份分页 */
+.moment-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 18px 0 6px;
+}
+
+.moment-pager__btn {
+  padding: 7px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.moment-pager__btn:hover:not(:disabled) {
+  border-color: var(--accent-strong);
+  color: var(--accent-strong);
+}
+
+.moment-pager__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.moment-pager__label {
+  font-size: 13px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
 .moment__actions {
   display: flex;
   gap: 12px;

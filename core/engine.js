@@ -765,7 +765,7 @@
   }
 
   function renderDailyFeed(config, section) {
-    // 置顶排最前，其余按月份倒序；月份分批渲染（设计决策 4：滚动加载）
+    // 置顶排最前，其余按月份倒序；月份分页（设计决策 4：历史全量迁移后改为页码导航）
     const all = phaseMoments().filter((moment) => moment.section === section.id);
     const pinned = all.filter((moment) => moment.pinned);
     const rest = all.filter((moment) => !moment.pinned);
@@ -777,7 +777,8 @@
     }
     const months = [...byMonth.entries()];
     state.dailyMonths = months;
-    state.dailyRendered = 0;
+    state.dailyPage = 0;
+    state.dailyPinned = pinned;
 
     el.view.innerHTML = `
       <header class="daily-head">
@@ -788,71 +789,71 @@
         </div>
       </header>
       <div class="moment-feed">
-        ${pinned.length ? `
-          <section class="moment-month moment-month--pinned">
-            <h2 class="moment-month__label">置顶</h2>
-            ${pinned.map((moment) => renderMoment(moment, true)).join('')}
-          </section>` : ''}
-        ${renderDailyMonths()}
+        <div data-daily-body></div>
+        ${renderDailyPager(months.length)}
       </div>
-      ${months.length > DAILY_BATCH ? `
-        <div class="moment-feed__foot">
-          <button class="moment-feed__more" type="button" data-daily-more>
-            显示更早的动态 <i>还有 ${months.length - DAILY_BATCH} 个月</i>
-          </button>
-        </div>` : ''}
     `;
-    state.dailyRendered = Math.min(DAILY_BATCH, months.length);
-    bindDailyMore();
+    renderDailyPage();
+    bindDailyPager(config, section);
     void mountInlineInteractions();
   }
 
-  /** 渲染下一批月份的 HTML（含首次批量）。 */
-  function renderDailyMonths() {
-    const months = state.dailyMonths || [];
-    const from = state.dailyRendered || 0;
-    const to = Math.min(months.length, from + DAILY_BATCH);
-    return months.slice(from, to).map(([month, list]) => `
-      <section class="moment-month">
-        <h2 class="moment-month__label">
-          <span>${escapeHtml(month)}</span>
-          <i>${list.length} 条</i>
-        </h2>
-        ${list.map((moment) => renderMoment(moment)).join('')}
-      </section>
-    `).join('');
+  function renderDailyPager(totalMonths) {
+    const totalPages = Math.max(1, Math.ceil(totalMonths / DAILY_BATCH));
+    return `
+      <nav class="moment-pager" data-daily-pager>
+        <button class="moment-pager__btn" type="button" data-daily-prev ${totalPages <= 1 ? 'disabled' : ''}>← 更近的月份</button>
+        <span class="moment-pager__label" data-daily-page-label>第 1 / ${totalPages} 页</span>
+        <button class="moment-pager__btn" type="button" data-daily-next ${totalPages <= 1 ? 'disabled' : ''}>更早的月份 →</button>
+      </nav>
+    `;
   }
 
-  function bindDailyMore() {
-    const button = el.view.querySelector('[data-daily-more]');
-    if (!button) return;
-    const append = () => {
-      const html = renderDailyMonths();
-      state.dailyRendered = Math.min((state.dailyMonths || []).length, (state.dailyRendered || 0) + DAILY_BATCH);
-      button.closest('.moment-feed__foot').insertAdjacentHTML('beforebegin', html);
-      const remaining = (state.dailyMonths || []).length - state.dailyRendered;
-      if (remaining <= 0) {
-        button.closest('.moment-feed__foot').remove();
-        if (state.dailyObserver) {
-          state.dailyObserver.disconnect();
-          state.dailyObserver = null;
-        }
-      } else {
-        button.querySelector('i').textContent = `还有 ${remaining} 个月`;
-      }
-      void mountInlineInteractions();
+  function renderDailyPage() {
+    const months = state.dailyMonths || [];
+    const totalPages = Math.max(1, Math.ceil(months.length / DAILY_BATCH));
+    const page = Math.min(state.dailyPage || 0, totalPages - 1);
+    const from = page * DAILY_BATCH;
+    const to = Math.min(months.length, from + DAILY_BATCH);
+    const body = el.view.querySelector('[data-daily-body]');
+    const label = el.view.querySelector('[data-daily-page-label]');
+    const prev = el.view.querySelector('[data-daily-prev]');
+    const next = el.view.querySelector('[data-daily-next]');
+    if (body) {
+      body.innerHTML = (state.dailyPinned && page === 0 ? `
+        <section class="moment-month moment-month--pinned">
+          <h2 class="moment-month__label">置顶</h2>
+          ${state.dailyPinned.map((moment) => renderMoment(moment, true)).join('')}
+        </section>` : '') + months.slice(from, to).map(([month, list]) => `
+        <section class="moment-month">
+          <h2 class="moment-month__label">
+            <span>${escapeHtml(month)}</span>
+            <i>${list.length} 条</i>
+          </h2>
+          ${list.map((moment) => renderMoment(moment)).join('')}
+        </section>
+      `).join('');
+    }
+    if (label) label.textContent = `第 ${page + 1} / ${totalPages} 页`;
+    if (prev) prev.disabled = page === 0;
+    if (next) next.disabled = page >= totalPages - 1;
+    void mountInlineInteractions();
+  }
+
+  function bindDailyPager(config, section) {
+    const prev = el.view.querySelector('[data-daily-prev]');
+    const next = el.view.querySelector('[data-daily-next]');
+    const go = (delta) => {
+      const totalPages = Math.max(1, Math.ceil((state.dailyMonths || []).length / DAILY_BATCH));
+      const nextPage = Math.min(totalPages - 1, Math.max(0, (state.dailyPage || 0) + delta));
+      if (nextPage === (state.dailyPage || 0)) return;
+      state.dailyPage = nextPage;
+      renderDailyPage();
+      // 翻页后回到日常流顶部
+      el.view.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
-    button.addEventListener('click', append);
-    // 滚动到底自动加载
-    state.dailyObserver = new IntersectionObserver((entries) => {
-      if (entries.some((entry) => entry.isIntersecting)) {
-        state.dailyObserver.disconnect();
-        state.dailyObserver = null;
-        append();
-        bindDailyMore();
-      }
-    }, { root: el.main, rootMargin: '160px' });
-    state.dailyObserver.observe(button);
+    prev?.addEventListener('click', () => go(-1));
+    next?.addEventListener('click', () => go(1));
   }
 
   function renderMoment(moment, isPinned = false) {
@@ -860,7 +861,14 @@
       ? `<a class="moment__video" href="${escapeHtml(moment.video.watchUrl)}" target="_blank" rel="noopener noreferrer">
           ${moment.video.coverUrl ? `<img src="${escapeHtml(moment.video.coverUrl)}" alt="" loading="lazy">` : ''}
           <span class="moment__video-title">${escapeHtml(moment.video.title || moment.video.watchUrl)}</span>
+          <span class="moment__video-cta">在 B 站观看 ↗</span>
         </a>`
+      : '';
+    const media = (moment.media || []).length
+      ? `<div class="moment__media-grid">${(moment.media || []).map((item) => `
+          <a class="moment__media" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+            <img src="${escapeHtml(item.url)}" alt="" loading="lazy">
+          </a>`).join('')}</div>`
       : '';
     const flags = [
       isPinned || moment.pinned ? '<span class="moment__flag">置顶</span>' : '',
@@ -876,6 +884,7 @@
           ${(moment.tags || []).map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
         </header>
         <div class="moment__body">${moment.html || `<p>${formatMomentText(moment.text || '')}</p>`}</div>
+        ${media}
         ${video}
       </article>
     `;
