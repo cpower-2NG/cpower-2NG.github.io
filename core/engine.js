@@ -797,14 +797,56 @@
           <span class="daily-search__count" data-daily-search-count hidden></span>
         </div>
       </header>
-      <div class="moment-feed">
-        <div data-daily-body></div>
-        ${renderDailyPager(rest.length)}
+      <div class="daily-wrap">
+        <div class="moment-feed">
+          <div data-daily-body></div>
+          ${renderDailyPager(rest.length)}
+        </div>
+        <aside class="daily-gutter" aria-label="动态流导航">
+          <div class="daily-gutter__page">
+            <span class="daily-gutter__label">跳到页</span>
+            <div class="daily-gutter__jump">
+              <input class="daily-gutter__input" type="number" min="1" step="1" data-gutter-page placeholder="1">
+              <button class="daily-gutter__go" type="button" data-gutter-go>跳转</button>
+            </div>
+            <span class="daily-gutter__total" data-gutter-total>共 ${Math.max(1, Math.ceil(rest.length / DAILY_BATCH))} 页</span>
+          </div>
+          <button class="daily-gutter__btn" type="button" data-gutter-top>↑<span>回到顶部</span></button>
+          <button class="daily-gutter__btn" type="button" data-gutter-bottom>↓<span>跳到底部</span></button>
+        </aside>
       </div>
     `;
     renderDailyPage();
     bindDailyPager();
     bindDailySearch();
+    bindDailyGutter();
+  }
+
+  /** 右侧信息栏：页数跳转 + 顶部/底部。宽屏单线悬挂，窄屏隐藏（底部分页按钮仍在）。 */
+  function bindDailyGutter() {
+    const input = el.view.querySelector('[data-gutter-page]');
+    const go = el.view.querySelector('[data-gutter-go]');
+    const top = el.view.querySelector('[data-gutter-top]');
+    const bottom = el.view.querySelector('[data-gutter-bottom]');
+    const jump = () => {
+      if (!input) return;
+      const totalPages = Math.max(1, Math.ceil((state.dailyItems || []).length / DAILY_BATCH));
+      const requested = Math.min(totalPages, Math.max(1, Number(input.value) || 1));
+      if (requested - 1 === (state.dailyPage || 0)) return;
+      state.dailyPage = requested - 1;
+      renderDailyPage();
+      el.view.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    go?.addEventListener('click', jump);
+    input?.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') jump();
+    });
+    top?.addEventListener('click', () => {
+      el.main.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    bottom?.addEventListener('click', () => {
+      el.main.scrollTo({ top: el.main.scrollHeight, behavior: 'smooth' });
+    });
   }
 
   function bindDailySearch() {
@@ -891,6 +933,9 @@
     if (label) label.textContent = query ? `匹配 ${items.length} 条` : `第 ${page + 1} / ${totalPages} 页`;
     if (prev) prev.disabled = query || page === 0;
     if (next) next.disabled = query || page >= totalPages - 1;
+    // 信息栏的页码输入保持同步
+    const gutterInput = el.view.querySelector('[data-gutter-page]');
+    if (gutterInput && document.activeElement !== gutterInput) gutterInput.value = String(page + 1);
     void mountInlineInteractions();
   }
 
