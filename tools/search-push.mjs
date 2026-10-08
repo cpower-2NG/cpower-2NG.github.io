@@ -53,6 +53,23 @@ const result = await cosmos().database(DATABASE).container('search-docs').items
   .fetchAll();
 
 const docs = result.resources.map(toIndexDoc);
+
+// 动态不再进检索索引（主搜索面板只覆盖文章条目）：清掉历史遗留的 moment 文档。
+const staleMoments = await search.search('*', {
+  filter: "entryType eq 'moment'",
+  select: ['entryId'],
+  top: 5000,
+});
+const staleKeys = [];
+for await (const item of staleMoments.results) {
+  staleKeys.push({ entryId: item.document.entryId });
+}
+if (staleKeys.length) {
+  const deleteResponse = await search.deleteDocuments(staleKeys);
+  const deleted = deleteResponse.results.filter((item) => item.succeeded).length;
+  console.log(`已从检索索引移除动态文档：${deleted} / ${staleKeys.length}`);
+}
+
 let uploaded = 0;
 for (let index = 0; index < docs.length; index += BATCH_SIZE) {
   const batch = docs.slice(index, index + BATCH_SIZE);

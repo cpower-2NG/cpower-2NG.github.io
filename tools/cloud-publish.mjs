@@ -62,10 +62,11 @@ async function recordPublish(status, extra = {}) {
  */
 async function rebuildSearchDocs() {
   const db = cosmos().database(DATABASE);
-  const [entries, bodies, moments, assets, metrics] = await Promise.all([
+  // 搜索投影只覆盖文章条目：日常动态不进主搜索面板（有专用浏览/搜索入口），
+  // 且其"QQ空间/自动同步"标签会污染 facet。
+  const [entries, bodies, assets, metrics] = await Promise.all([
     db.container('content-articles').items.query("SELECT * FROM c WHERE c.type = 'entry' AND c.status = 'published'").fetchAll(),
     db.container('content-articles').items.query("SELECT * FROM c WHERE c.type = 'entry-body'").fetchAll(),
-    db.container('content-moments').items.query('SELECT * FROM c').fetchAll(),
     db.container('assets').items.query('SELECT * FROM c').fetchAll(),
     db.container('signals').items.query("SELECT c.entryId, c.likes, c.views, c.comments FROM c WHERE c.type = 'metric'").fetchAll(),
   ]);
@@ -113,38 +114,20 @@ async function rebuildSearchDocs() {
     });
   }
 
-  for (const moment of moments.resources) {
-    if (moment.status !== 'published') continue;
-    docs.push({
-      id: moment.id,
-      type: 'search-doc',
-      schemaVersion: 1,
-      entryId: moment.id,
-      entryType: 'moment',
-      title: moment.title || '',
-      summary: moment.summary || '',
-      bodyText: moment.text || '',
-      phase: moment.phase || '',
-      section: moment.section || '',
-      tags: Array.isArray(moment.tags) ? moment.tags : [],
-      seriesId: '',
-      kind: 'moment',
-      publishedAt: moment.publishedAt,
-      updatedAt: moment.updatedAt || moment.publishedAt,
-      counts: countsByEntry.get(moment.id) || zeroCounts,
-      path: `/moment/${moment.id}.html`,
-      slug: moment.slug || '',
-      wordCount: String(moment.text || '').replace(/\s/g, '').length,
-      hasMedia: false,
-      hasVideo: Boolean(moment.video),
-      pinned: Boolean(moment.pinned),
-      featured: Boolean(moment.featured),
-      coverUrl: '',
-      status: 'published',
-    });
+  // 清掉历史投影里的 moment 文档（旧版本曾把动态写进投影）。
+  const container = db.container('search-docs');
+  const staleMoments = await container.items
+    .query("SELECT c.id FROM c WHERE c.entryType = 'moment'")
+    .fetchAll();
+  for (let index = 0; index < staleMoments.resources.length; index += 50) {
+    await Promise.all(staleMoments.resources
+      .slice(index, index + 50)
+      .map((doc) => container.item(doc.id).delete().catch(() => undefined)));
+  }
+  if (staleMoments.resources.length) {
+    console.log(`[publish] 已从搜索投影移除 ${staleMoments.resources.length} 条动态文档`);
   }
 
-  const container = db.container('search-docs');
   for (let index = 0; index < docs.length; index += 50) {
     await Promise.all(docs.slice(index, index + 50).map((doc) => container.items.upsert(doc)));
   }

@@ -781,6 +781,7 @@
     state.dailyPage = 0;
     state.dailyPinned = pinned;
     state.dailySection = section;
+    state.dailyQuery = '';
 
     el.view.innerHTML = `
       <header class="daily-head">
@@ -788,6 +789,12 @@
         <div class="daily-head__row">
           <h1 class="daily-head__title">${escapeHtml(section.label)}</h1>
           <span class="daily-head__count">共 ${all.length} 条 · 按时间倒序${pinned.length ? ` · 置顶 ${pinned.length}` : ''}</span>
+        </div>
+        <div class="daily-search">
+          <input class="daily-search__input" type="search" data-daily-search
+            placeholder="在这条时间流里搜索动态（正文 / 标题 / 标签）…" autocomplete="off">
+          <button class="daily-search__clear" type="button" data-daily-search-clear hidden>清除</button>
+          <span class="daily-search__count" data-daily-search-count hidden></span>
         </div>
       </header>
       <div class="moment-feed">
@@ -797,6 +804,34 @@
     `;
     renderDailyPage();
     bindDailyPager();
+    bindDailySearch();
+  }
+
+  function bindDailySearch() {
+    const input = el.view.querySelector('[data-daily-search]');
+    const clear = el.view.querySelector('[data-daily-search-clear]');
+    if (!input) return;
+    input.addEventListener('input', () => {
+      state.dailyQuery = input.value.trim();
+      state.dailyPage = 0;
+      if (clear) clear.hidden = !state.dailyQuery;
+      renderDailyPage();
+    });
+    clear?.addEventListener('click', () => {
+      input.value = '';
+      state.dailyQuery = '';
+      if (clear) clear.hidden = true;
+      state.dailyPage = 0;
+      renderDailyPage();
+      input.focus();
+    });
+  }
+
+  /** 日常流搜索过滤：正文 / 标题 / 标签的大小写不敏感子串匹配。 */
+  function dailyQueryMatches(moment, query) {
+    if (!query) return true;
+    const haystack = `${moment.text || ''}\n${moment.title || ''}\n${moment.summary || ''}\n${(moment.tags || []).join(' ')}`;
+    return haystack.toLowerCase().includes(query.toLowerCase());
   }
 
   function renderDailyPager(totalItems) {
@@ -810,9 +845,11 @@
     `;
   }
 
-  /** 渲染当页：条数切片后页内再按月份分组，保留月份标题的阅读节奏。 */
+  /** 渲染当页：条数切片后页内再按月份分组；搜索态对全量过滤结果分页。 */
   function renderDailyPage() {
-    const items = state.dailyItems || [];
+    const query = (state.dailyQuery || '').trim();
+    const all = state.dailyItems || [];
+    const items = query ? all.filter((moment) => dailyQueryMatches(moment, query)) : all;
     const totalPages = Math.max(1, Math.ceil(items.length / DAILY_BATCH));
     const page = Math.min(state.dailyPage || 0, totalPages - 1);
     const slice = items.slice(page * DAILY_BATCH, (page + 1) * DAILY_BATCH);
@@ -826,12 +863,21 @@
     const label = el.view.querySelector('[data-daily-page-label]');
     const prev = el.view.querySelector('[data-daily-prev]');
     const next = el.view.querySelector('[data-daily-next]');
+    const searchCount = el.view.querySelector('[data-daily-search-count]');
+    if (searchCount) {
+      searchCount.textContent = query ? `${items.length} 条匹配` : '';
+      searchCount.hidden = !query;
+    }
     if (body) {
-      body.innerHTML = (state.dailyPinned && page === 0 && state.dailyPinned.length ? `
+      const pinnedHtml = (state.dailyPinned && page === 0 && !query && state.dailyPinned.length) ? `
         <section class="moment-month moment-month--pinned">
           <h2 class="moment-month__label">置顶</h2>
           ${state.dailyPinned.map((moment) => renderMoment(moment, true)).join('')}
-        </section>` : '') + [...byMonth.entries()].map(([month, list]) => `
+        </section>` : '';
+      if (query && !items.length) {
+        body.innerHTML = `<p class="muted" style="padding: 24px 0;">没有匹配「${escapeHtml(query)}」的动态。</p>`;
+      } else {
+        body.innerHTML = pinnedHtml + [...byMonth.entries()].map(([month, list]) => `
         <section class="moment-month">
           <h2 class="moment-month__label">
             <span>${escapeHtml(month)}</span>
@@ -840,10 +886,11 @@
           ${list.map((moment) => renderMoment(moment)).join('')}
         </section>
       `).join('');
+      }
     }
-    if (label) label.textContent = `第 ${page + 1} / ${totalPages} 页`;
-    if (prev) prev.disabled = page === 0;
-    if (next) next.disabled = page >= totalPages - 1;
+    if (label) label.textContent = query ? `匹配 ${items.length} 条` : `第 ${page + 1} / ${totalPages} 页`;
+    if (prev) prev.disabled = query || page === 0;
+    if (next) next.disabled = query || page >= totalPages - 1;
     void mountInlineInteractions();
   }
 
@@ -1281,6 +1328,8 @@
   }
 
   function searchDocs() {
+    // 主搜索面板只覆盖文章/系列条目。日常动态不进这个面板——它体量大、
+    // 标签（QQ空间/自动同步）会污染 facet，且已有日常流顶部的专用搜索。
     // 索引未就绪时（启动瞬间按 Ctrl/K）返回空表，面板降级为空态而不是抛错
     const entries = (state.index?.entries || []).map((entry) => ({
       kind: 'entry',
@@ -1295,19 +1344,7 @@
       // searchText 由物化管线写入（正文前 800 字）；缺省时退回标题+摘要+标签
       text: `${entry.title}\n${entry.summary || ''}\n${(entry.tags || []).join(' ')}\n${entry.searchText || ''}`,
     }));
-    const moments = (state.index?.moments || []).map((moment) => ({
-      kind: 'moment',
-      id: moment.id,
-      path: moment.path,
-      title: moment.summary || moment.text?.slice(0, 24) || '动态',
-      summary: moment.summary,
-      phase: moment.phase,
-      section: moment.section,
-      tags: moment.tags || [],
-      date: String(moment.publishedAt).slice(0, 10),
-      text: `${moment.text || ''}\n${(moment.tags || []).join(' ')}`,
-    }));
-    return [...entries, ...moments];
+    return entries;
   }
 
   const RECENT_SEARCH_KEY = 'bifrost:recent-searches';
