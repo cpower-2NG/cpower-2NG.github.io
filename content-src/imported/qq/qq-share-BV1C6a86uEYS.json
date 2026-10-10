@@ -1,7 +1,7 @@
 {
   "id": "qq-share-BV1C6a86uEYS",
   "schemaVersion": 1,
-  "title": "分享 · 电棍邀请你来参与大回选！ UP主：音之墨",
+  "title": "分享 · 电棍邀请你来参与大回选！",
   "date": "2026-09-30",
   "createdAt": "2026-09-30T13:12:36.000Z",
   "phase": "fantasy",
@@ -14,19 +14,19 @@
   ],
   "category": "分享",
   "summary": "电棍邀请你来参与大回选！ UP主：音之墨",
-  "text": "电棍邀请你来参与大回选！ UP主：音之墨\n\n视频：https://www.bilibili.com/video/BV1C6a86uEYS",
+  "text": "电棍邀请你来参与大回选！ UP主：音之墨",
   "media": [],
   "video": {
     "platform": "哔哩哔哩",
     "sourceUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
     "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1C6a86uEYS&high_quality=1&danmaku=0",
-    "cover": "",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f2a82c23ee59527e55aee6bf2ae5f2e43984396785930be5a167857e54a0356.jpg",
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1C6a86uEYS",
-    "coverUrl": "",
-    "title": "电棍邀请你来参与大回选！ UP主：音之墨"
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f2a82c23ee59527e55aee6bf2ae5f2e43984396785930be5a167857e54a0356.jpg",
+    "title": "电棍邀请你来参与大回选！"
   },
-  "cover": "",
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f2a82c23ee59527e55aee6bf2ae5f2e43984396785930be5a167857e54a0356.jpg",
   "historicalInteractions": {
     "likeCount": 0,
     "commentCount": 0,
@@ -40,16 +40,14 @@
     "state": "active",
     "visibility": "unknown",
     "adapterVersion": 1,
-    "warnings": [
-      "BILIBILI_META_MISSING"
-    ],
+    "warnings": [],
     "missingChecks": 0
   },
   "syndication": {
-    "author": "",
+    "author": "音之墨",
     "source": "哔哩哔哩"
   },
-  "contentHash": "a83d6207573c5eebf07a903ed2297088aedced5954a2e72b7560d00ae3e4d261",
+  "contentHash": "f111829d0f1ee73807a5c2363adda2c6bfb3a9dbe2d555591006aa4a3286aba2",
   "publishStatus": "published",
   "reviewReasons": [
     "UNKNOWN_VISIBILITY"

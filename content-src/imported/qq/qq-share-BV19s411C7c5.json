@@ -14,24 +14,8 @@
   ],
   "category": "分享",
   "summary": "草草草",
-  "text": "草草草\n\n视频：【老爷爷无药可救】Blue Symphony（UP 主：nulla）",
-  "media": [
-    {
-      "kind": "image",
-      "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a.jpg",
-      "width": 766,
-      "height": 480,
-      "sourceUrl": "https://i2.hdslb.com/bfs/archive/ab05ecd9729eeea275e0f22c4e792ba5260fd729.jpg",
-      "sourceQuality": "high",
-      "variants": [
-        {
-          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e41a674d05563165e64beabc4ca085e0fc07eb2430c531bef7141cd54780b79a-480.webp",
-          "width": 480,
-          "format": "webp"
-        }
-      ]
-    }
-  ],
+  "text": "草草草",
+  "media": [],
   "video": {
     "platform": "哔哩哔哩",
     "sourceUrl": "https://www.bilibili.com/video/BV19s411C7c5",
@@ -56,16 +40,19 @@
     "state": "active",
     "visibility": "unknown",
     "adapterVersion": 1,
-    "warnings": [
-      "MIGRATION_VISIBILITY_BYPASS"
-    ],
+    "warnings": [],
     "missingChecks": 0
   },
   "syndication": {
     "author": "nulla",
     "source": "哔哩哔哩"
   },
-  "contentHash": "794339802e5f09d0aeb0b8335cb5e98e592ad9d2f2bc96884087d2071512e773",
+  "contentHash": "432a26f983f0b18b7c79985a3aa653839e3aee4ab1deb6e82ac00f4e92fa9fbe",
   "publishStatus": "published",
-  "reviewReasons": []
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "overrides": {
+    "publishStatus": "published"
+  }
 }
