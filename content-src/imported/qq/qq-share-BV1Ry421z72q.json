@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ry421z72q",
+  "schemaVersion": 1,
+  "title": "分享 · 学園アイドルマスター PV",
+  "date": "2024-02-26",
+  "createdAt": "2024-02-26T11:54:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "嗯，QA的3d不错，嗯，嗯",
+  "text": "嗯，QA的3d不错，嗯，嗯",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ry421z72q",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ry421z72q&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0d6bf64643518795baa79baff0e8fd45d159cc9d7929cb545f4c98ca00879e37.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ry421z72q",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0d6bf64643518795baa79baff0e8fd45d159cc9d7929cb545f4c98ca00879e37.jpg",
+    "title": "学園アイドルマスター PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0d6bf64643518795baa79baff0e8fd45d159cc9d7929cb545f4c98ca00879e37.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cheiejiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ry421z72q",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3a061b4cf4d82235a29fb43f6dba0ff985d6dadcbd58bf9682dce6cab975c733",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

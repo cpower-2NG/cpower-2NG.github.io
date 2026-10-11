@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Fa4y127HB",
+  "schemaVersion": 1,
+  "title": "分享 · 【自制熟肉 | 疑似m@s】和制作人们一起看赛车名场景",
+  "date": "2024-01-16",
+  "createdAt": "2024-01-16T11:48:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "疑似m@s这种东西是真的有趣",
+  "text": "疑似m@s这种东西是真的有趣",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fa4y127HB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Fa4y127HB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/257e1f7d4fa278c8dc6cbec972d12975b95f3a2fcbb101983badfddecc2f5979.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Fa4y127HB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/257e1f7d4fa278c8dc6cbec972d12975b95f3a2fcbb101983badfddecc2f5979.jpg",
+    "title": "【自制熟肉 | 疑似m@s】和制作人们一起看赛车名场景"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/257e1f7d4fa278c8dc6cbec972d12975b95f3a2fcbb101983badfddecc2f5979.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbhfaefahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Fa4y127HB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Vivid_Rabbits",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9872cd7452ed7b509631fbdb0796d270619eed685280e9ac250f8b5951b3cda4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

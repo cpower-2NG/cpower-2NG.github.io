@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ij421o7uR",
+  "schemaVersion": 1,
+  "title": "分享 · 【音mad手书】不管说什么都在听着的铝合金键盘",
+  "date": "2024-03-17",
+  "createdAt": "2024-03-17T05:09:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "你们音骂玩挺花 本家：sm32492001",
+  "text": "你们音骂玩挺花\n\n本家：sm32492001",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ij421o7uR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ij421o7uR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7c21c291b1b1ec6483798c909890c8a59e2f354836c80c8be540d2d0364d3ac9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ij421o7uR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7c21c291b1b1ec6483798c909890c8a59e2f354836c80c8be540d2d0364d3ac9.jpg",
+    "title": "【音mad手书】不管说什么都在听着的铝合金键盘"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7c21c291b1b1ec6483798c909890c8a59e2f354836c80c8be540d2d0364d3ac9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cibcfgabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ij421o7uR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Napriquid",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e4c3462146260a5651072e22c145171f0ea42eafabea38500eec41244f4db466",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

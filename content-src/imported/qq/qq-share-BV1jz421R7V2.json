@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jz421R7V2",
+  "schemaVersion": 1,
+  "title": "分享 · 该视频已失效",
+  "date": "2024-02-28",
+  "createdAt": "2024-02-28T09:56:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "该视频已失效 UP主：澪澐鈡葉",
+  "text": "该视频已失效 UP主：澪澐鈡葉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jz421R7V2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jz421R7V2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14cbce2cd3e3f83a2a77b72e6983d3323c8cbb2f15f563b65d971fc38e25514c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jz421R7V2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14cbce2cd3e3f83a2a77b72e6983d3323c8cbb2f15f563b65d971fc38e25514c.jpg",
+    "title": "该视频已失效"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14cbce2cd3e3f83a2a77b72e6983d3323c8cbb2f15f563b65d971fc38e25514c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgbebbjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jz421R7V2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "鈡葉",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2887aca611389e79963f20e3e542830813f54dc8432b833227d52eb45c51b3f3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

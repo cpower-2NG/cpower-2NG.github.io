@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1k64y1G7Xp",
+  "schemaVersion": 1,
+  "title": "分享 · “老家伙们统统退下！现在是属于新生代的时代！”【Gal声优篇/小波すず】",
+  "date": "2023-12-14",
+  "createdAt": "2023-12-14T12:29:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这位我是真喜欢 老家伙们！业界药丸简直就是天方夜谭！",
+  "text": "这位我是真喜欢\n\n老家伙们！业界药丸简直就是天方夜谭！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1k64y1G7Xp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1k64y1G7Xp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cfa954577adce90ef6380dbfa9aedb5effe1c68d19d0b0aa9e72857ecc472453.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1k64y1G7Xp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cfa954577adce90ef6380dbfa9aedb5effe1c68d19d0b0aa9e72857ecc472453.jpg",
+    "title": "“老家伙们统统退下！现在是属于新生代的时代！”【Gal声优篇/小波すず】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cfa954577adce90ef6380dbfa9aedb5effe1c68d19d0b0aa9e72857ecc472453.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "efjgffcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1k64y1G7Xp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "爱摸鱼的人潮",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f936b3dce48016864be044cd8f587fd1bcfa13d1ea46c60ebc37a308b85e8b75",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

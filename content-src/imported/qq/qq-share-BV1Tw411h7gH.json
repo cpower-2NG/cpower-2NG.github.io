@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tw411h7gH",
+  "schemaVersion": 1,
+  "title": "分享 · 去上学的路",
+  "date": "2023-12-06",
+  "createdAt": "2023-12-06T10:56:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "少见的英文素材",
+  "text": "少见的英文素材",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tw411h7gH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tw411h7gH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80efe7be19234cc530b2fc97c1aa0b19bd5ba017a5695cee09848dcf94c7af1f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tw411h7gH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80efe7be19234cc530b2fc97c1aa0b19bd5ba017a5695cee09848dcf94c7af1f.jpg",
+    "title": "去上学的路"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80efe7be19234cc530b2fc97c1aa0b19bd5ba017a5695cee09848dcf94c7af1f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iibagibahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tw411h7gH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "腦控通信中",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b8746c335aeec7c50f84f273dc6e0d7d5aace9f20a905fa7d1cbb262c914b326",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18f4y1e7BG",
+  "schemaVersion": 1,
+  "title": "分享 · 【clannad】若cl的世界没有光玉",
+  "date": "2023-12-24",
+  "createdAt": "2023-12-24T11:28:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "明年重置，让20周年热闹起来吧。渚，生日快乐！",
+  "text": "明年重置，让20周年热闹起来吧。渚，生日快乐！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18f4y1e7BG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18f4y1e7BG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/df93ed2b98756074f2b62f2fd7defd86a509c09f8d496cdc4940dbf49054b121.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18f4y1e7BG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/df93ed2b98756074f2b62f2fd7defd86a509c09f8d496cdc4940dbf49054b121.jpg",
+    "title": "【clannad】若cl的世界没有光玉"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/df93ed2b98756074f2b62f2fd7defd86a509c09f8d496cdc4940dbf49054b121.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejchbedahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18f4y1e7BG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "2NG仙人星p",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f69edc220ba3740f9871d7e8bb62d68d9c927850331bce085c37c93a23bf59f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

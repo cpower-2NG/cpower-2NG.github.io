@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bP41147U9",
+  "schemaVersion": 1,
+  "title": "分享 · Otto-Fantasia",
+  "date": "2024-02-06",
+  "createdAt": "2024-02-06T13:09:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最符合原作的一集",
+  "text": "最符合原作的一集",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bP41147U9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bP41147U9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a59410023bd43d068fb7b7b7893e1df1d3cf0ce40c9c8e69789a655731421cc9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bP41147U9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a59410023bd43d068fb7b7b7893e1df1d3cf0ce40c9c8e69789a655731421cc9.jpg",
+    "title": "Otto-Fantasia"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a59410023bd43d068fb7b7b7893e1df1d3cf0ce40c9c8e69789a655731421cc9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dfjecchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bP41147U9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "鞍山侯国玉电乐团",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "914c66365dd16ba82f1c1f0d2839ca0021f6a2a58da7928a2b3c208e5124f1e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

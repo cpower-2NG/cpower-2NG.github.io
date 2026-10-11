@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bw411K7mG",
+  "schemaVersion": 1,
+  "title": "分享 · 【アイマスRemix】catch my feeling(luke Bootleg)",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T01:32:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不过这两集没live挺可惜的（",
+  "text": "不过这两集没live挺可惜的（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bw411K7mG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bw411K7mG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9ee6b3505c04d8b030fa57fa9b4e384d14f72be5d2a951090b5fe81f0db20c2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bw411K7mG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9ee6b3505c04d8b030fa57fa9b4e384d14f72be5d2a951090b5fe81f0db20c2.jpg",
+    "title": "【アイマスRemix】catch my feeling(luke Bootleg)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9ee6b3505c04d8b030fa57fa9b4e384d14f72be5d2a951090b5fe81f0db20c2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehdcgjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bw411K7mG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "追忆之风luke",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f9d28430a666e279e3a7771383a71d3c397fff49595d3169a7fbe103b2b53a0b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

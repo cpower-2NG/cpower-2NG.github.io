@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17G411D7Sv",
+  "schemaVersion": 1,
+  "title": "分享 · 【sprite】雪碧社最新作《everlasting flowers 》OP动画",
+  "date": "2023-11-18",
+  "createdAt": "2023-11-18T13:07:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我是信雪碧社的演出的。我窗果，未萌，沙希if呢！什么，千和有配音？期待...",
+  "text": "我是信雪碧社的演出的。我窗果，未萌，沙希if呢！什么，千和有配音？期待...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17G411D7Sv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17G411D7Sv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32934364b693894d8d41373811fb67a64b3ed2174f90de13d8d3a495863b90c6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17G411D7Sv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32934364b693894d8d41373811fb67a64b3ed2174f90de13d8d3a495863b90c6.jpg",
+    "title": "【sprite】雪碧社最新作《everlasting flowers 》OP动画"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32934364b693894d8d41373811fb67a64b3ed2174f90de13d8d3a495863b90c6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jficbdaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17G411D7Sv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "金发美少女saika",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f44e63c48ad9abf9d2d77cb0a8abf363e67018a4d65149aeaaa6a8fd647dedba",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

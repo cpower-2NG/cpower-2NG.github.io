@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZK4y1v7p9",
+  "schemaVersion": 1,
+  "title": "分享 · 魔圆！但是卡祖笛！",
+  "date": "2024-02-07",
+  "createdAt": "2024-02-07T03:06:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我真的干过ww 在音符首播的时候整的烂活，小破站也发一下（",
+  "text": "我真的干过ww\n\n在音符首播的时候整的烂活，小破站也发一下（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZK4y1v7p9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZK4y1v7p9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f68654f4caab906617e016c24885445577f4e7151d104b1796a98dc20218d2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZK4y1v7p9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f68654f4caab906617e016c24885445577f4e7151d104b1796a98dc20218d2.jpg",
+    "title": "魔圆！但是卡祖笛！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f68654f4caab906617e016c24885445577f4e7151d104b1796a98dc20218d2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijbfhchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZK4y1v7p9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "yee林_FT",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1016e3b64d40bfd4d96b844f2d486c86aa3e8102da7c1a3124b18a7241f76b16",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

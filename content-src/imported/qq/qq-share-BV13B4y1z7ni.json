@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13B4y1z7ni",
+  "schemaVersion": 1,
+  "title": "分享 · 和美希去约会了",
+  "date": "2023-11-23",
+  "createdAt": "2023-11-23T12:50:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "因为是生日，所以",
+  "text": "因为是生日，所以",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13B4y1z7ni",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13B4y1z7ni&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0491197174bce1c1a3b12bf4ba7b912760fc436aa85d5a0f9bff79387f0d7fb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13B4y1z7ni",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0491197174bce1c1a3b12bf4ba7b912760fc436aa85d5a0f9bff79387f0d7fb.jpg",
+    "title": "和美希去约会了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0491197174bce1c1a3b12bf4ba7b912760fc436aa85d5a0f9bff79387f0d7fb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "caidehaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13B4y1z7ni",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "02c526d9e45939cc9bad061dfaf28974fc6e8a28b78f5aaf68c8aaf91c51b732",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

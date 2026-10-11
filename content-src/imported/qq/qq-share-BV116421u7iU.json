@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV116421u7iU",
+  "schemaVersion": 1,
+  "title": "分享 · Illution",
+  "date": "2024-02-10",
+  "createdAt": "2024-02-10T14:57:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "仏作...",
+  "text": "仏作...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV116421u7iU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV116421u7iU&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/8c244ed81006b9195f4bd11ba02bb2fdd04b4274.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV116421u7iU",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/8c244ed81006b9195f4bd11ba02bb2fdd04b4274.jpg",
+    "title": "Illution"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/8c244ed81006b9195f4bd11ba02bb2fdd04b4274.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fcahhfhahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV116421u7iU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一根烤肠肠",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ec6c19715a2aea85d086a209250e52d19d6b03227a3e4ea78aab506aeef3d6ee",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

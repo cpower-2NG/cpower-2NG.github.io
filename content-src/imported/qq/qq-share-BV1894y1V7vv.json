@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1894y1V7vv",
+  "schemaVersion": 1,
+  "title": "分享 · ✦New Live Event✦ 菊地 真 ・ 萩原 雪歩 twin live　“ はんげつであえたら ” 2024.3",
+  "date": "2023-11-09",
+  "createdAt": "2023-11-09T11:35:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好东西，新东西， twitter.com/imas_official/status/1722448932318712259?t=BS4EiYYrmXp7uqMq",
+  "text": "好东西，新东西，\n\ntwitter.com/imas_official/status/1722448932318712259?t=BS4EiYYrmXp7uqMqC0q-dAs=19",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1894y1V7vv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1894y1V7vv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d113b7ad7ae046143e8a31fe135465d57e84fad0e11a224e65a6836a2f8b479.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1894y1V7vv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d113b7ad7ae046143e8a31fe135465d57e84fad0e11a224e65a6836a2f8b479.jpg",
+    "title": "✦New Live Event✦ 菊地 真 ・ 萩原 雪歩 twin live　“ はんげつであえたら ” 2024.3.16-17"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d113b7ad7ae046143e8a31fe135465d57e84fad0e11a224e65a6836a2f8b479.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afhjcfjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1894y1V7vv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1870dae0c274dcee099b0a56c0920ae224ed03b6388a7aba98ab010227eee57d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

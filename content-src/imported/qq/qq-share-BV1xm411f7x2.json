@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xm411f7x2",
+  "schemaVersion": 1,
+  "title": "分享 · 「SOS」黛冬優子 MMD LIVE MV【偶像大师闪耀色彩】",
+  "date": "2024-02-24",
+  "createdAt": "2024-02-24T05:25:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "比高山品",
+  "text": "比高山品",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xm411f7x2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xm411f7x2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/304d0ea5869f6b2679fbd3d6aa1f0779d6db0832cd17507f21e29de069943b40.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xm411f7x2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/304d0ea5869f6b2679fbd3d6aa1f0779d6db0832cd17507f21e29de069943b40.jpg",
+    "title": "「SOS」黛冬優子 MMD LIVE MV【偶像大师闪耀色彩】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/304d0ea5869f6b2679fbd3d6aa1f0779d6db0832cd17507f21e29de069943b40.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eedcfhiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xm411f7x2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "mobiusP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0d1c31ba05c944196cd79a49f27ba7df0956e7b350bc2188503cb1cc444ea8c9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1im411S7NB",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】偶像大师闪耀色彩 猫耳生配信 切片",
+  "date": "2024-02-22",
+  "createdAt": "2024-02-22T14:51:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "解释一下，今天是猫之日",
+  "text": "解释一下，今天是猫之日",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1im411S7NB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1im411S7NB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/57435892755ba7cbeca8d883438e3620cc7ee768e52e7dd43a89d677e57b52ee.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1im411S7NB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/57435892755ba7cbeca8d883438e3620cc7ee768e52e7dd43a89d677e57b52ee.jpg",
+    "title": "【中字】偶像大师闪耀色彩 猫耳生配信 切片"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/57435892755ba7cbeca8d883438e3620cc7ee768e52e7dd43a89d677e57b52ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbfdbgiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1im411S7NB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4d45fd3eb9e4f4755445117ef0474e0d6d530a74e839b37ccd50b0da1c038dc2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KC4y1M7Gq",
+  "schemaVersion": 1,
+  "title": "分享 · 希望与梦想的土地",
+  "date": "2023-12-20",
+  "createdAt": "2023-12-20T13:39:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "复活！而且是光明正大的大号 “我在蒙胧中，又隐约听到远处的爆竹声联绵不断，似乎合成一天音响的浓云，夹着团团飞舞的雪花，拥抱了全市镇。我在这繁响的拥抱...",
+  "text": "复活！而且是光明正大的大号\n\n“我在蒙胧中，又隐约听到远处的爆竹声联绵不断，似乎合成一天音响的浓云，夹着团团飞舞的雪花，拥抱了全市镇。我在这繁响的拥抱...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KC4y1M7Gq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KC4y1M7Gq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ec8f54455b894c51f992fffbb1de05dabca8a646bdecc32f835e15d4db1278.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KC4y1M7Gq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ec8f54455b894c51f992fffbb1de05dabca8a646bdecc32f835e15d4db1278.jpg",
+    "title": "希望与梦想的土地"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ec8f54455b894c51f992fffbb1de05dabca8a646bdecc32f835e15d4db1278.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "defjhadahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KC4y1M7Gq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LHDW_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "79c97460640ea55091b757771658d10c7729d859063f1ee40e1a0875567cbff8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

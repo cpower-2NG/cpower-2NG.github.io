@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PZ421S7pe",
+  "schemaVersion": 1,
+  "title": "分享 · 【IM@S新年翻唱】连续8首！超~激情的新年特别LIVE！丨飞龙在天丨下半场【信仰五周年】【梦汐幻歌花宴】",
+  "date": "2024-02-13",
+  "createdAt": "2024-02-13T05:22:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唱得好啊",
+  "text": "唱得好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PZ421S7pe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PZ421S7pe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2923ef24d4e4a6b31d211f05325dcdc5787125130ad2643ad9b4e09b0ae5c1f5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PZ421S7pe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2923ef24d4e4a6b31d211f05325dcdc5787125130ad2643ad9b4e09b0ae5c1f5.jpg",
+    "title": "【IM@S新年翻唱】连续8首！超~激情的新年特别LIVE！丨飞龙在天丨下半场【信仰五周年】【梦汐幻歌花宴】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2923ef24d4e4a6b31d211f05325dcdc5787125130ad2643ad9b4e09b0ae5c1f5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "achbaihahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PZ421S7pe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "幻想鄉的信仰",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e7e098f2e2ba94bc3c308b70aa645be221b3aac3a7a52cd1aeebae76c9392732",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

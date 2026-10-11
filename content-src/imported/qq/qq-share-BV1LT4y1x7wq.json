@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LT4y1x7wq",
+  "schemaVersion": 1,
+  "title": "分享 · 【声优声线欣赏】青葉りんご（青叶苹果）：真假难辨的话语，天真烂漫的内心",
+  "date": "2023-12-29",
+  "createdAt": "2023-12-29T05:10:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "一听就○",
+  "text": "一听就○",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LT4y1x7wq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LT4y1x7wq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/131da7ff1765c3ca05e021aa2e622b08b27c2cc0e7aa308e7af1de0d471027d8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LT4y1x7wq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/131da7ff1765c3ca05e021aa2e622b08b27c2cc0e7aa308e7af1de0d471027d8.jpg",
+    "title": "【声优声线欣赏】青葉りんご（青叶苹果）：真假难辨的话语，天真烂漫的内心"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/131da7ff1765c3ca05e021aa2e622b08b27c2cc0e7aa308e7af1de0d471027d8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "idggcidahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LT4y1x7wq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "孟纸Mencius",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8558d1926f4bc0e83d375c20192149383e6c4cf73e285a80c1c2363a017114af",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

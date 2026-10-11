@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mS421A7iJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【rurudo正式入驻b站】rurudo的首次直播（迫真）【全熟】",
+  "date": "2024-03-02",
+  "createdAt": "2024-03-02T12:47:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "单推人出现了（",
+  "text": "单推人出现了（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mS421A7iJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mS421A7iJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59e1d706d1ade11bb6037c6856a26249af37c5e8887296532ec41864fa03ce9e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mS421A7iJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59e1d706d1ade11bb6037c6856a26249af37c5e8887296532ec41864fa03ce9e.jpg",
+    "title": "【rurudo正式入驻b站】rurudo的首次直播（迫真）【全熟】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59e1d706d1ade11bb6037c6856a26249af37c5e8887296532ec41864fa03ce9e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iegdidjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mS421A7iJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "rurudo_るるどらいおん",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e30a8a0fd6ee16bfa5a06954d25a9fc890a123e871ffbc03f591bfe65d74b19c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

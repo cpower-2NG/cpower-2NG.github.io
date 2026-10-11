@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Xa4y1q7J6",
+  "schemaVersion": 1,
+  "title": "分享 · 【1月/上坂堇&神谷浩史】福星小子 第二季 PV5【MCE汉化组】",
+  "date": "2024-01-05",
+  "createdAt": "2024-01-05T11:31:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "做pv的人绝对是nico民，硬是剪成音骂",
+  "text": "做pv的人绝对是nico民，硬是剪成音骂",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xa4y1q7J6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Xa4y1q7J6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/01544d1f023835ec5ecf91d663b1b1a8ff65214befcf9e274827368be1eb0892.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Xa4y1q7J6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/01544d1f023835ec5ecf91d663b1b1a8ff65214befcf9e274827368be1eb0892.png",
+    "title": "【1月/上坂堇&神谷浩史】福星小子 第二季 PV5【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/01544d1f023835ec5ecf91d663b1b1a8ff65214befcf9e274827368be1eb0892.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dadefeeahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Xa4y1q7J6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "96aeaae33e3375e3edbb90326e7bfe86a5cf7491710150dddbcf8eb9e70dcc6a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

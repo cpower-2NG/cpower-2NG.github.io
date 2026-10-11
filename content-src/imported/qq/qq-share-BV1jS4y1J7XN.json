@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jS4y1J7XN",
+  "schemaVersion": 1,
+  "title": "分享 · NANA REVIVER FESTA 2022 特別編 恋想花火",
+  "date": "2023-12-12",
+  "createdAt": "2023-12-12T13:54:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "天籁！",
+  "text": "天籁！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jS4y1J7XN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jS4y1J7XN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/222c88f56828d7fc1e4e7a0e4fe2957703b5663db167b56cecf0b3c724e64b7a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jS4y1J7XN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/222c88f56828d7fc1e4e7a0e4fe2957703b5663db167b56cecf0b3c724e64b7a.jpg",
+    "title": "NANA REVIVER FESTA 2022 特別編 恋想花火"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/222c88f56828d7fc1e4e7a0e4fe2957703b5663db167b56cecf0b3c724e64b7a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahcjidcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jS4y1J7XN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "怪鳥君",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "68e10019106212c2b43121fe7abd3168305817be53388e0df6a0432bac751e26",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

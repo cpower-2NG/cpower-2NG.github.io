@@ -2,8 +2,8 @@
   "id": "qq-share-BV1zx411c7Gg",
   "schemaVersion": 1,
   "title": "分享 · 【松冈修造】原来卡农也可以如此让人热血沸腾！",
-  "date": "2024-09-28",
-  "createdAt": "2024-09-28T15:34:06.000Z",
+  "date": "2024-03-07",
+  "createdAt": "2024-03-07T13:50:27.000Z",
   "phase": "fantasy",
   "type": "diary",
   "section": "daily",
@@ -13,8 +13,8 @@
     "分享"
   ],
   "category": "分享",
-  "summary": "sm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
-  "text": "sm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
+  "summary": "是时候翻出来了。许愿吧！ sm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
+  "text": "是时候翻出来了。许愿吧！\n\nsm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
   "media": [],
   "video": {
     "platform": "哔哩哔哩",
@@ -34,7 +34,7 @@
   },
   "source": {
     "provider": "qq",
-    "id": "geghdfhchb",
+    "id": "hcejbijahb",
     "authorId": "",
     "url": "https://www.bilibili.com/video/BV1zx411c7Gg",
     "state": "active",
@@ -49,7 +49,7 @@
     "author": "H娘",
     "source": "哔哩哔哩"
   },
-  "contentHash": "99405eb87b6016da3792664aa51ad3e3ff096f5213904653d5c0d5364ec22ba5",
+  "contentHash": "6f160193003aaf0d2eaca6cbc55fb4f304382634f92bcc10f3dbd97946400d27",
   "publishStatus": "published",
   "reviewReasons": []
 }

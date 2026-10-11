@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV19v42167eH",
+  "schemaVersion": 1,
+  "title": "分享 · headache",
+  "date": "2024-02-23",
+  "createdAt": "2024-02-23T11:14:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "headache",
+  "text": "headache",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19v42167eH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19v42167eH&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19v42167eH",
+    "coverUrl": "",
+    "title": "headache"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgigigiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19v42167eH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ab74125d0a7251a14e96dc2fcf91708ab1ab70bf688b0c44a49cbe20b66be382",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jN4y1W7Jp",
+  "schemaVersion": 1,
+  "title": "分享 · 除夜m@s'23 尽情除夜吧",
+  "date": "2023-12-31",
+  "createdAt": "2023-12-31T14:25:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "安定的新年大草原。本家和百万是意料之内的曲目，更有意思了",
+  "text": "安定的新年大草原。本家和百万是意料之内的曲目，更有意思了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jN4y1W7Jp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jN4y1W7Jp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3599d3a5b0c879c361bff77352f0cdb3f8d6dcacbc0f9db30dae943cc39b5f78.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jN4y1W7Jp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3599d3a5b0c879c361bff77352f0cdb3f8d6dcacbc0f9db30dae943cc39b5f78.jpg",
+    "title": "除夜m@s'23 尽情除夜吧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3599d3a5b0c879c361bff77352f0cdb3f8d6dcacbc0f9db30dae943cc39b5f78.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hehcdaeahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jN4y1W7Jp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a8c98b915d936f43031359cdb0300538bf835b07668a99721ad5f863a440484d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15c411x7Sd",
+  "schemaVersion": 1,
+  "title": "分享 · 【1月/加长版】扳机社 × Ado新曲 × 吉成曜 巧克力「Chocolat Cadabra」动画CM(60s版)【4K",
+  "date": "2024-01-22",
+  "createdAt": "2024-01-22T13:01:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？？？",
+  "text": "？？？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15c411x7Sd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15c411x7Sd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/782437b6c1c5c6e822e1ce7909cba846f71ff465b92fe595c2d4adb4e26f9233.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15c411x7Sd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/782437b6c1c5c6e822e1ce7909cba846f71ff465b92fe595c2d4adb4e26f9233.jpg",
+    "title": "【1月/加长版】扳机社 × Ado新曲 × 吉成曜 巧克力「Chocolat Cadabra」动画CM(60s版)【4K画质】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/782437b6c1c5c6e822e1ce7909cba846f71ff465b92fe595c2d4adb4e26f9233.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cieicjfahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15c411x7Sd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fb219a11d09f2d187d49abcc2e1f9125e6f76a7cec256321239d0ee43d264110",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

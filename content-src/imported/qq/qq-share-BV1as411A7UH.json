@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1as411A7UH",
+  "schemaVersion": 1,
+  "title": "分享 · μ's&IM@S！教徒的盛宴",
+  "date": "2023-12-08",
+  "createdAt": "2023-12-08T14:23:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想来想去，还是和谐一点比较好",
+  "text": "想来想去，还是和谐一点比较好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1as411A7UH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1as411A7UH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a771ee21c7ab93b4d6b94d1a471e108b41bf7e8530c35425e6f0093bc05aeebe.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1as411A7UH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a771ee21c7ab93b4d6b94d1a471e108b41bf7e8530c35425e6f0093bc05aeebe.jpg",
+    "title": "μ's&IM@S！教徒的盛宴"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a771ee21c7ab93b4d6b94d1a471e108b41bf7e8530c35425e6f0093bc05aeebe.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aidfeacahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1as411A7UH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "丿KKE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f1b86152213a64ca75f71c4978131ab006da06baa59075aa30b8545e33727b22",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16H4y157KD",
+  "schemaVersion": 1,
+  "title": "分享 · 「Halftone」 MV 歌：菊地 真、萩原 雪歩【偶像大师】",
+  "date": "2024-03-11",
+  "createdAt": "2024-03-11T11:35:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "目测和之前阁下一样是声优本人上动捕。诶，之前不都挺好的嘛，怎么这次面捕这么差，准确的说是锚点太少？",
+  "text": "目测和之前阁下一样是声优本人上动捕。诶，之前不都挺好的嘛，怎么这次面捕这么差，准确的说是锚点太少？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16H4y157KD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16H4y157KD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1c6fed84e3e307edf8cd6edb531efbd59ad2aaf9bdb4f5b638e33e66e1daa9b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16H4y157KD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1c6fed84e3e307edf8cd6edb531efbd59ad2aaf9bdb4f5b638e33e66e1daa9b.jpg",
+    "title": "「Halftone」 MV 歌：菊地 真、萩原 雪歩【偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1c6fed84e3e307edf8cd6edb531efbd59ad2aaf9bdb4f5b638e33e66e1daa9b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcjgfbabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16H4y157KD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4716d1b515c0d9685083a8d9d1e8ba3efa883ff6d932e063a18230e45e36badc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

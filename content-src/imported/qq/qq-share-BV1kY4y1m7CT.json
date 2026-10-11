@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kY4y1m7CT",
+  "schemaVersion": 1,
+  "title": "分享 · “只要失败 就会气馁”",
+  "date": "2024-03-17",
+  "createdAt": "2024-03-17T14:02:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "什么时候再搞一次职业培训，想看",
+  "text": "什么时候再搞一次职业培训，想看",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kY4y1m7CT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kY4y1m7CT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99d2a5ac408affb48d4aa97885d84fc73bab2fb39f1879db58be98ec9369c06d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kY4y1m7CT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99d2a5ac408affb48d4aa97885d84fc73bab2fb39f1879db58be98ec9369c06d.jpg",
+    "title": "“只要失败 就会气馁”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99d2a5ac408affb48d4aa97885d84fc73bab2fb39f1879db58be98ec9369c06d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jebeigabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kY4y1m7CT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "GabrielStupid",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "289800ab846105433f2092efaca90c70399400e9e2d8cca54fd17dadd1463378",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

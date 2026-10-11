@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nj411p788",
+  "schemaVersion": 1,
+  "title": "分享 · 【虹6 day1】莪嬡沵①泩①迣-法元明菜",
+  "date": "2024-01-24",
+  "createdAt": "2024-01-24T10:02:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "才知道虹6有这首，原谅我笑得太大声 6",
+  "text": "才知道虹6有这首，原谅我笑得太大声\n\n6",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nj411p788",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nj411p788&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ef0c1187a6f133536991a0471087fe3e8801de4961428e56179ffcb0ef58140.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nj411p788",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ef0c1187a6f133536991a0471087fe3e8801de4961428e56179ffcb0ef58140.jpg",
+    "title": "【虹6 day1】莪嬡沵①泩①迣-法元明菜"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ef0c1187a6f133536991a0471087fe3e8801de4961428e56179ffcb0ef58140.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "acfajagahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nj411p788",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-Burger-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e175422c7d68140830187d5a3bf924e69fcccd95f2915b3c5ffde8c0ef018147",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

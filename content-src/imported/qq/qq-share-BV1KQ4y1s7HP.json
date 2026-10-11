@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KQ4y1s7HP",
+  "schemaVersion": 1,
+  "title": "分享 · 💓💓恋爱循环💓💓    【水谷绘理】",
+  "date": "2024-03-17",
+  "createdAt": "2024-03-17T11:49:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "嗯，很好",
+  "text": "嗯，很好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KQ4y1s7HP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KQ4y1s7HP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3045535ef5b5bb75afd5c1e39798aa6cf31feb651e26ddfe3180c75d4fe90b6c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KQ4y1s7HP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3045535ef5b5bb75afd5c1e39798aa6cf31feb651e26ddfe3180c75d4fe90b6c.jpg",
+    "title": "💓💓恋爱循环💓💓    【水谷绘理】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3045535ef5b5bb75afd5c1e39798aa6cf31feb651e26ddfe3180c75d4fe90b6c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hebghgabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KQ4y1s7HP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "桔橙_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3627e2a65916a838e99505b2ffcc2ef8144f8f44d33db5b831029a48d62b1733",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

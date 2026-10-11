@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VN4y1679t",
+  "schemaVersion": 1,
+  "title": "分享 · 《原来你也看偶像番啊》",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T01:40:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "支持！ 昨天晚上发完发现忘加字幕了（晕）",
+  "text": "支持！\n\n昨天晚上发完发现忘加字幕了（晕）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VN4y1679t",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VN4y1679t&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ea2050442bfa5f5eebc1c78ad7a462888162b04c1076a5ebbacf7dc0431777fb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VN4y1679t",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ea2050442bfa5f5eebc1c78ad7a462888162b04c1076a5ebbacf7dc0431777fb.jpg",
+    "title": "《原来你也看偶像番啊》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ea2050442bfa5f5eebc1c78ad7a462888162b04c1076a5ebbacf7dc0431777fb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edicgjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VN4y1679t",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "有些怪哉",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7cca1eecf3b73f8c5a398a74eda6212001d1c862c809b7c483501a38ac895155",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

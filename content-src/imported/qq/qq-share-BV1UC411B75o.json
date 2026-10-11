@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UC411B75o",
+  "schemaVersion": 1,
+  "title": "分享 · 【Alcot】Alcot20周年，最终作《Clover Memory's》 PV动画",
+  "date": "2024-02-02",
+  "createdAt": "2024-02-02T11:46:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "galgame大约的确是死了",
+  "text": "galgame大约的确是死了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UC411B75o",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UC411B75o&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5aa87505135aae69e187c0e3686fd3e9d90a18055acfc7bb5c8dbdd014d752f5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UC411B75o",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5aa87505135aae69e187c0e3686fd3e9d90a18055acfc7bb5c8dbdd014d752f5.jpg",
+    "title": "【Alcot】Alcot20周年，最终作《Clover Memory's》 PV动画"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5aa87505135aae69e187c0e3686fd3e9d90a18055acfc7bb5c8dbdd014d752f5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bhdehigahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UC411B75o",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "金发美少女saika",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "100e1947bf46778f217fde7bc024648c24da46b0647366196d5286c526188c55",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

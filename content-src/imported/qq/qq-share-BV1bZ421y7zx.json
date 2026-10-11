@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bZ421y7zx",
+  "schemaVersion": 1,
+  "title": "分享 · 该视频已失效（修复版）油库里单曲《ルマビリ》",
+  "date": "2024-02-28",
+  "createdAt": "2024-02-28T11:57:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哈哈哈 唉",
+  "text": "哈哈哈     唉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bZ421y7zx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bZ421y7zx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ce79feb3b443f3fe264fc476f11d1c4e2385fbb110ac9556d8ed915651d859d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bZ421y7zx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ce79feb3b443f3fe264fc476f11d1c4e2385fbb110ac9556d8ed915651d859d.jpg",
+    "title": "该视频已失效（修复版）油库里单曲《ルマビリ》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ce79feb3b443f3fe264fc476f11d1c4e2385fbb110ac9556d8ed915651d859d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecebcbjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bZ421y7zx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "霜幻不容筱",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9123736812b6397ed46d36b1d1aebae9bbca7e41c47b13c5bf7c8249f5545c88",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

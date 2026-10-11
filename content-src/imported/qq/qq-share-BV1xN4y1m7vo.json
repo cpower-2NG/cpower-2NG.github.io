@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xN4y1m7vo",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】疾走大合奏「梅露兰」",
+  "date": "2023-11-25",
+  "createdAt": "2023-11-25T12:30:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "素材乱射好爽",
+  "text": "素材乱射好爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xN4y1m7vo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xN4y1m7vo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e0218e6aeab6b8df2f1218ff5706c9d9aa1aa48a7e1b7fb83d216d31348e379f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xN4y1m7vo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e0218e6aeab6b8df2f1218ff5706c9d9aa1aa48a7e1b7fb83d216d31348e379f.jpg",
+    "title": "【合作】疾走大合奏「梅露兰」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e0218e6aeab6b8df2f1218ff5706c9d9aa1aa48a7e1b7fb83d216d31348e379f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "deefbjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xN4y1m7vo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "铝合金键盘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9490a4dd2afdf2bdd2b05988678ddf57e783e9fc3f8d622bb6ff86bf09e939dc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

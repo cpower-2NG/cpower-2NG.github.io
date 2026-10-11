@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19i4y1i7SZ",
+  "schemaVersion": 1,
+  "title": "分享 · 曲木难直，心偶为愚",
+  "date": "2024-01-16",
+  "createdAt": "2024-01-16T13:30:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "雕木为偶，刻石为像。偶像本身就是人理想的投射。后来人们发现，人是画不出直线的。于是，越来越多的「人性」被附加在偶像之上，... 有哲学家说：“人性这根曲木，绝然",
+  "text": "雕木为偶，刻石为像。偶像本身就是人理想的投射。后来人们发现，人是画不出直线的。于是，越来越多的「人性」被附加在偶像之上，...\n\n有哲学家说：“人性这根曲木，绝然造不出任何笔直之物。”年少时，有过很多的偶像。随着年纪的渐长，这些偶像都纷纷倒塌。认识自...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19i4y1i7SZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19i4y1i7SZ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81406a6dd55dbbb8d18c50756443fbcf152df68d24314a51875d5b19010aa270.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19i4y1i7SZ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81406a6dd55dbbb8d18c50756443fbcf152df68d24314a51875d5b19010aa270.jpg",
+    "title": "曲木难直，心偶为愚"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81406a6dd55dbbb8d18c50756443fbcf152df68d24314a51875d5b19010aa270.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdibbefahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19i4y1i7SZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "罗翔说刑法",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cc31d76968faac5b605855e21a147fa2adce17db6c6f95cdf7f49014eb2eb9d9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

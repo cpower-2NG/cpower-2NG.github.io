@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iu4y1h7ya",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字/MLTD卡片剧情】もうし～らない【星井美希】",
+  "date": "2023-11-27",
+  "createdAt": "2023-11-27T14:44:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "美希的shs发型是真好看",
+  "text": "美希的shs发型是真好看",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iu4y1h7ya",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iu4y1h7ya&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ccbace74e1dbe3155c762f3c7630008313cf635854380d65753da62fff253df.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iu4y1h7ya",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ccbace74e1dbe3155c762f3c7630008313cf635854380d65753da62fff253df.jpg",
+    "title": "【中字/MLTD卡片剧情】もうし～らない【星井美希】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ccbace74e1dbe3155c762f3c7630008313cf635854380d65753da62fff253df.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifcgjabahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iu4y1h7ya",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "携带鞋带",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d9c6abd4d8fb8f2007980b52a1bc0f4fddef09624f1e83fc53101f6a95f07330",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

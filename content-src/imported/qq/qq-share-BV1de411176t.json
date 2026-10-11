@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1de411176t",
+  "schemaVersion": 1,
+  "title": "分享 · 【熟肉】复现美希名场景的百万三人组【田所梓/麻仓桃/山崎遥/中村绘里子/长谷川明子/下田麻美】",
+  "date": "2024-02-03",
+  "createdAt": "2024-02-03T12:10:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "笑死我了",
+  "text": "笑死我了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1de411176t",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1de411176t&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f0562f9e9890867ffa37bfc03790409924871099775538af5af6bff574509368.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1de411176t",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f0562f9e9890867ffa37bfc03790409924871099775538af5af6bff574509368.jpg",
+    "title": "【熟肉】复现美希名场景的百万三人组【田所梓/麻仓桃/山崎遥/中村绘里子/长谷川明子/下田麻美】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f0562f9e9890867ffa37bfc03790409924871099775538af5af6bff574509368.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdccgjgahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1de411176t",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "银河猫喵喵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1ff3c2867a453c3a618aba7572b93603bebd947ddaa2a71756df8393600ccb8b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

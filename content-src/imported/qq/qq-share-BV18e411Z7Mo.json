@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18e411Z7Mo",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字|黑塔利亚】你好★中国 - 甲斐田幸（2023『幸福的入口』 ）",
+  "date": "2023-11-30",
+  "createdAt": "2023-11-30T11:21:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？！",
+  "text": "？！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18e411Z7Mo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18e411Z7Mo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d50d689a4e2005f263c58d82f17cc8bc10b8e2b548fbcffe6b93840992d7bd6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18e411Z7Mo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d50d689a4e2005f263c58d82f17cc8bc10b8e2b548fbcffe6b93840992d7bd6.jpg",
+    "title": "【中字|黑塔利亚】你好★中国 - 甲斐田幸（2023『幸福的入口』 ）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d50d689a4e2005f263c58d82f17cc8bc10b8e2b548fbcffe6b93840992d7bd6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhcdedbahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18e411Z7Mo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "黑咖啡survival",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "22fc11ce571227cb6015f3675311b616092a7f0ba004d87939d2e4e1ef9d8abb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

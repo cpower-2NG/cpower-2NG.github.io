@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uG411q7iB",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】异次元FES ABEMA特番推特预告小视频",
+  "date": "2023-12-01",
+  "createdAt": "2023-12-01T13:45:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "空气中弥漫着硝烟的味道...",
+  "text": "空气中弥漫着硝烟的味道...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uG411q7iB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uG411q7iB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3e49f215027d3d6d09a8f78734a164a5869e1f7a0679b4a01c8c238f837cd5a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uG411q7iB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3e49f215027d3d6d09a8f78734a164a5869e1f7a0679b4a01c8c238f837cd5a.jpg",
+    "title": "【中字】异次元FES ABEMA特番推特预告小视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3e49f215027d3d6d09a8f78734a164a5869e1f7a0679b4a01c8c238f837cd5a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gddidebahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uG411q7iB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "No_10字幕组",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d0cb3a3fcc69fe0b964cfe6820a471049c8b87a841647e9d67b1c18c94749eef",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1YN4y1b7Eg",
+  "schemaVersion": 1,
+  "title": "分享 · （德语中字）纪录片：《失控与坠落，愤怒德国boy专访》",
+  "date": "2024-01-09",
+  "createdAt": "2024-01-09T12:51:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "如果能重来，",
+  "text": "如果能重来，",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YN4y1b7Eg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YN4y1b7Eg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18e9c9eec8308aecfa8f789b7a928d1d7bb3186a1a2c4d7dca8d423f0f1b493c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YN4y1b7Eg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18e9c9eec8308aecfa8f789b7a928d1d7bb3186a1a2c4d7dca8d423f0f1b493c.jpg",
+    "title": "（德语中字）纪录片：《失控与坠落，愤怒德国boy专访》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18e9c9eec8308aecfa8f789b7a928d1d7bb3186a1a2c4d7dca8d423f0f1b493c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "higeaieahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YN4y1b7Eg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "SleeperSimulant",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4c1c61420b574dbadc9f3707ae6ef1cee3771913a95c9daec1a118fc78e134a9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zJ4m1b7vY",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】二²日合作",
+  "date": "2024-02-06",
+  "createdAt": "2024-02-06T12:11:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "兽娘段的人力好suang口",
+  "text": "兽娘段的人力好suang口",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zJ4m1b7vY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zJ4m1b7vY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f36acc23e27ff511839a519fe2381d690b9bb51b95154a0a37d421aa660f6cb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zJ4m1b7vY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f36acc23e27ff511839a519fe2381d690b9bb51b95154a0a37d421aa660f6cb.jpg",
+    "title": "【合作】二²日合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f36acc23e27ff511839a519fe2381d690b9bb51b95154a0a37d421aa660f6cb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iafbcchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zJ4m1b7vY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "账号已注销",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1d98ca36299aecb1ef3664104e46ac16c94bc23c0653d411364828e0e959e898",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

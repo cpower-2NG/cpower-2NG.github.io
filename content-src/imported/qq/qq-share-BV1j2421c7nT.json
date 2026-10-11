@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1j2421c7nT",
+  "schemaVersion": 1,
+  "title": "分享 · 现代西哲，我有四不读",
+  "date": "2024-02-17",
+  "createdAt": "2024-02-17T11:49:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哲学我有四不学，因为我懒 纯属娱乐，老葵说的道理",
+  "text": "哲学我有四不学，因为我懒\n\n纯属娱乐，老葵说的道理",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1j2421c7nT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1j2421c7nT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce3eba67560ec67a92cb41d0e6c7a7824cfda55622f970d2bcc38121e043598c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1j2421c7nT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce3eba67560ec67a92cb41d0e6c7a7824cfda55622f970d2bcc38121e043598c.jpg",
+    "title": "现代西哲，我有四不读"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce3eba67560ec67a92cb41d0e6c7a7824cfda55622f970d2bcc38121e043598c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "affahbiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1j2421c7nT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "KZK姐貴",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dc9b537b1436691990af2d1b7bc589baa03cc4dc623824f014bc2212929d1e07",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eK411e7V3",
+  "schemaVersion": 1,
+  "title": "分享 · 【物语系列】 OFF&MONSTER Season 动画制作决定PV【吉泽翠/SHAFT/西尾维新】",
+  "date": "2024-01-18",
+  "createdAt": "2024-01-18T13:25:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "果然！几年过去，渡边的柄都变化这么大了。不过尘封依旧的物语动画终于还是要活跃起来了。一定会流行起来的！",
+  "text": "果然！几年过去，渡边的柄都变化这么大了。不过尘封依旧的物语动画终于还是要活跃起来了。一定会流行起来的！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eK411e7V3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eK411e7V3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/206edd854c9e02b8f6e551c294a0573404509e5f6057f532cd310e8327116938.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eK411e7V3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/206edd854c9e02b8f6e551c294a0573404509e5f6057f532cd310e8327116938.jpg",
+    "title": "【物语系列】 OFF&MONSTER Season 动画制作决定PV【吉泽翠/SHAFT/西尾维新】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/206edd854c9e02b8f6e551c294a0573404509e5f6057f532cd310e8327116938.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcdeiffahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eK411e7V3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "物语系列圈圈子",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "21a69b0a18fcf4629044fce4725eaad199d7287a3f6214e158228dceda1f1966",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

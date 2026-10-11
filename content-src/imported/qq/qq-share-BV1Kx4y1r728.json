@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Kx4y1r728",
+  "schemaVersion": 1,
+  "title": "分享 · 这个能不能称为真正的zun号?",
+  "date": "2024-02-27",
+  "createdAt": "2024-02-27T12:08:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想搞 先声明我也不太会吹小号，尤其还没办法看到谱就直接转换成指法所以只能硬背指法(虽说吹真乐器的时候也差不多啦(?",
+  "text": "想搞\n\n先声明我也不太会吹小号，尤其还没办法看到谱就直接转换成指法所以只能硬背指法(虽说吹真乐器的时候也差不多啦(?",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Kx4y1r728",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Kx4y1r728&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eba08bb66503bc9747cb2b32bc88ed5992a48a847a9b2470a74c35b8c8f8a3be.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Kx4y1r728",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eba08bb66503bc9747cb2b32bc88ed5992a48a847a9b2470a74c35b8c8f8a3be.jpg",
+    "title": "这个能不能称为真正的zun号?"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eba08bb66503bc9747cb2b32bc88ed5992a48a847a9b2470a74c35b8c8f8a3be.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fchfdajahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Kx4y1r728",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "led91156",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "63b49665576561aa88714e02dc42bb087ee5414ee521e509fb7045b4c045a32c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1XU421o7mv",
+  "schemaVersion": 1,
+  "title": "分享 · 【4月/完全新作/中字首发】狼与香辛料 PV2【MCE汉化组】",
+  "date": "2024-01-31",
+  "createdAt": "2024-01-31T11:58:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这两夫妻的气质基本变了啊。感觉演出思路和剧本构成都会有不小改动，希望到时候成片不错",
+  "text": "这两夫妻的气质基本变了啊。感觉演出思路和剧本构成都会有不小改动，希望到时候成片不错",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XU421o7mv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XU421o7mv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5f3d1aeb4fbd1763d0f64442cba285380800bbb6be8ca32058b0bd9f81868b8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1XU421o7mv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5f3d1aeb4fbd1763d0f64442cba285380800bbb6be8ca32058b0bd9f81868b8.jpg",
+    "title": "【4月/完全新作/中字首发】狼与香辛料 PV2【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5f3d1aeb4fbd1763d0f64442cba285380800bbb6be8ca32058b0bd9f81868b8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icdcahgahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1XU421o7mv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "545429c56debbaa662ead493e27859c7abf654b291806d621c0687fe98d52cf9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

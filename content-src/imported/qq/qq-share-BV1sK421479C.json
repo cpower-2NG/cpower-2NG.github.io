@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sK421479C",
+  "schemaVersion": 1,
+  "title": "分享 · 21:9 ? 花海咲季 4K MV【学園 偶像大师】",
+  "date": "2024-03-07",
+  "createdAt": "2024-03-07T12:10:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "结合情报大胆假设一下，或许3.0真得会在MR上玩点不一样的",
+  "text": "结合情报大胆假设一下，或许3.0真得会在MR上玩点不一样的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sK421479C",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sK421479C&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/475df1b074ff3ea471d60c4df5444c6656805599ad25c16cd3df12763199bc0c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sK421479C",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/475df1b074ff3ea471d60c4df5444c6656805599ad25c16cd3df12763199bc0c.jpg",
+    "title": "21:9 ? 花海咲季 4K MV【学園 偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/475df1b074ff3ea471d60c4df5444c6656805599ad25c16cd3df12763199bc0c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ddedbijahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sK421479C",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a127335764083fd68982ed6fc2835392e707edf1d83761a9d8a35d998f21ad53",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

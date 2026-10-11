@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hC4y1U7rn",
+  "schemaVersion": 1,
+  "title": "分享 · 『異次元★♥BIGBANG』异次元fes 主题歌",
+  "date": "2023-11-08",
+  "createdAt": "2023-11-08T12:03:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "仿佛看到了制作人员同等的怨念",
+  "text": "仿佛看到了制作人员同等的怨念",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hC4y1U7rn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hC4y1U7rn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a6982c678bd3072a938795387a0da2548cd8e4e48704e8dce5048229861c527.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hC4y1U7rn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a6982c678bd3072a938795387a0da2548cd8e4e48704e8dce5048229861c527.jpg",
+    "title": "『異次元★♥BIGBANG』异次元fes 主题歌"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a6982c678bd3072a938795387a0da2548cd8e4e48704e8dce5048229861c527.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbafeejjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hC4y1U7rn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3bf50a066bbd9e94915658797efff9c216ba816190df05c74d7d954714dcc617",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

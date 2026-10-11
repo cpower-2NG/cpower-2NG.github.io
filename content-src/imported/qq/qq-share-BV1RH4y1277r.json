@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RH4y1277r",
+  "schemaVersion": 1,
+  "title": "分享 · 【京吹/熟肉】吹响吧！上低音号第三期新情报发表会(全场熟肉)",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T10:28:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "相信，期待",
+  "text": "相信，期待",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RH4y1277r",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RH4y1277r&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b27faa55916a77935e9220f2c9d32608e7060ab90192b8e350040326587c6cfd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RH4y1277r",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b27faa55916a77935e9220f2c9d32608e7060ab90192b8e350040326587c6cfd.jpg",
+    "title": "【京吹/熟肉】吹响吧！上低音号第三期新情报发表会(全场熟肉)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b27faa55916a77935e9220f2c9d32608e7060ab90192b8e350040326587c6cfd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcfejjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RH4y1277r",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "電気予報",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8b70a1efda184072625a2a88df7b95739b90cefb7f5430532ff4521529e570fe",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

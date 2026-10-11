@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pW4y1c7tE",
+  "schemaVersion": 1,
+  "title": "分享 · 过载·施瓦辛格",
+  "date": "2024-02-06",
+  "createdAt": "2024-02-06T13:00:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原音系战法！",
+  "text": "原音系战法！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pW4y1c7tE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pW4y1c7tE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cda4d16ae1d40cd69140b77c280f4164993c294b43ea63109ef9d53d32e81df5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pW4y1c7tE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cda4d16ae1d40cd69140b77c280f4164993c294b43ea63109ef9d53d32e81df5.jpg",
+    "title": "过载·施瓦辛格"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cda4d16ae1d40cd69140b77c280f4164993c294b43ea63109ef9d53d32e81df5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iceecchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pW4y1c7tE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ShiningEmerald",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e72f8ebb9476540e48cd7adf1a442f7c3d38c520171239a2a019451f970f3c03",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

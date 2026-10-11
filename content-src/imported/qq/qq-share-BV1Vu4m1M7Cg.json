@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Vu4m1M7Cg",
+  "schemaVersion": 1,
+  "title": "分享 · 「自転車」(歌：菊地 真、萩原 雪歩)",
+  "date": "2024-03-15",
+  "createdAt": "2024-03-15T11:18:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "听到如此知性的雪步有感",
+  "text": "听到如此知性的雪步有感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Vu4m1M7Cg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Vu4m1M7Cg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/84501c42e542b9c661293add8dcde5e3cc1b33a0841b591927554f69650e8b26.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Vu4m1M7Cg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/84501c42e542b9c661293add8dcde5e3cc1b33a0841b591927554f69650e8b26.png",
+    "title": "「自転車」(歌：菊地 真、萩原 雪歩)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/84501c42e542b9c661293add8dcde5e3cc1b33a0841b591927554f69650e8b26.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecfbafabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Vu4m1M7Cg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9eeee46514e9380597fbcf1d6416fca674546426039a02a6ae11fc647d3125b7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

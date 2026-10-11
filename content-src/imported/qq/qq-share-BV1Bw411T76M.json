@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bw411T76M",
+  "schemaVersion": 1,
+  "title": "分享 · 京都动画 第6回 KYOANI MUSIC FESTIVAL Day1",
+  "date": "2023-11-11",
+  "createdAt": "2023-11-11T12:50:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "平野绫这次god bless感觉格外用力啊，不只是歌唱 WEB",
+  "text": "平野绫这次god bless感觉格外用力啊，不只是歌唱\n\nWEB",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bw411T76M",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bw411T76M&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dd392d171c04a478f6fd64699228df5e83e710af8858005fc98e18d5976887d0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bw411T76M",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dd392d171c04a478f6fd64699228df5e83e710af8858005fc98e18d5976887d0.jpg",
+    "title": "京都动画 第6回 KYOANI MUSIC FESTIVAL Day1"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dd392d171c04a478f6fd64699228df5e83e710af8858005fc98e18d5976887d0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eeahahjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bw411T76M",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "蓝原延珠_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d762c5e3a7541a41b2aa5096be945ad0b111270631d23c117bddc28aa4d39698",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

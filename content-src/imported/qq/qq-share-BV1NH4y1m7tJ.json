@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NH4y1m7tJ",
+  "schemaVersion": 1,
+  "title": "分享 · KAWAIIted Dream",
+  "date": "2023-12-07",
+  "createdAt": "2023-12-07T12:01:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "每次都能在这种突然出圈的视频里看到“怀古厨”唱衰国内音骂，真是贱呐",
+  "text": "每次都能在这种突然出圈的视频里看到“怀古厨”唱衰国内音骂，真是贱呐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NH4y1m7tJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NH4y1m7tJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a70c5736a78a0b2f5ab920bfac9b93b5de76a6db5c48d42e76456f9cc96f30da.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NH4y1m7tJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a70c5736a78a0b2f5ab920bfac9b93b5de76a6db5c48d42e76456f9cc96f30da.jpg",
+    "title": "KAWAIIted Dream"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a70c5736a78a0b2f5ab920bfac9b93b5de76a6db5c48d42e76456f9cc96f30da.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbfafjbahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NH4y1m7tJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4ec73752bf697fb4e56af00ffbc44403cb8746f801767ffdd519e6f854fdf6a9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

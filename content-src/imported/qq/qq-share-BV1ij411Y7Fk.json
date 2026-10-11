@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ij411Y7Fk",
+  "schemaVersion": 1,
+  "title": "分享 · 【阿燐调教】如何用一声猫叫调出其他音节？",
+  "date": "2023-11-07",
+  "createdAt": "2023-11-07T12:19:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原理都知道，但这技术力是不是太高了点",
+  "text": "原理都知道，但这技术力是不是太高了点",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ij411Y7Fk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ij411Y7Fk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7049bbde6f1d454f40d1bd7a2633a0fdc0611869df0fae9aba8a0f8e16c504d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ij411Y7Fk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7049bbde6f1d454f40d1bd7a2633a0fdc0611869df0fae9aba8a0f8e16c504d.jpg",
+    "title": "【阿燐调教】如何用一声猫叫调出其他音节？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7049bbde6f1d454f40d1bd7a2633a0fdc0611869df0fae9aba8a0f8e16c504d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iifjfdjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ij411Y7Fk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "砂星",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9ded8c5ebdfd5a3b171cf51b2943697bd4c5322b2b46bdbe61865f6791a46459",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ay421q7SF",
+  "schemaVersion": 1,
+  "title": "分享 · 【官方投稿】Snail's House - Hot Milk",
+  "date": "2024-03-13",
+  "createdAt": "2024-03-13T11:55:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "kawaii",
+  "text": "kawaii",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ay421q7SF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ay421q7SF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16e60f690375a36fc1ec40508ff1ccf09ea7004cc7bbec882b698e3a925d9df4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ay421q7SF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16e60f690375a36fc1ec40508ff1ccf09ea7004cc7bbec882b698e3a925d9df4.jpg",
+    "title": "【官方投稿】Snail's House - Hot Milk"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16e60f690375a36fc1ec40508ff1ccf09ea7004cc7bbec882b698e3a925d9df4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbjaddabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ay421q7SF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ujicosnail",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "888241ecc8e24664ef06b89b5d9a7b265c898f7244b6d178ae1ad9e39eb0c03c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

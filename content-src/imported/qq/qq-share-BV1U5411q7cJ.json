@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1U5411q7cJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【MG】「世界大明星:梦想星群」单曲「伊吕波之歌」",
+  "date": "2024-03-04",
+  "createdAt": "2024-03-04T11:59:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "作为声豚，水组里我最喜欢的就是hnn。哦不对，这里是隔壁 from:いろはうたBLOOMING / 千寿いろは(CV:岡咲美保) [231231]",
+  "text": "作为声豚，水组里我最喜欢的就是hnn。哦不对，这里是隔壁\n\nfrom:いろはうたBLOOMING / 千寿いろは(CV:岡咲美保) [231231]",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1U5411q7cJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1U5411q7cJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3114977a0ce2f3990c33d224946f8161e557b696079cff6b581e4b1897e94dcd.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1U5411q7cJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3114977a0ce2f3990c33d224946f8161e557b696079cff6b581e4b1897e94dcd.png",
+    "title": "【MG】「世界大明星:梦想星群」单曲「伊吕波之歌」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3114977a0ce2f3990c33d224946f8161e557b696079cff6b581e4b1897e94dcd.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihfdffjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1U5411q7cJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "丿BCZ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c9ed3693cbf977073c67ff08ee47a9e58744644b679ad30293075774d1c02f4b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

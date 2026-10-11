@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SG411Q7Pr",
+  "schemaVersion": 1,
+  "title": "分享 · 京都动画 第6回 KYOANI MUSIC FESTIVAL Day2",
+  "date": "2023-11-13",
+  "createdAt": "2023-11-13T14:15:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "已经无心吐槽了。后半场催泪三连发，哭的不成样了。铭刻时间的歌。 WEB",
+  "text": "已经无心吐槽了。后半场催泪三连发，哭的不成样了。铭刻时间的歌。\n\nWEB",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SG411Q7Pr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SG411Q7Pr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9336e3a1cc596f3d4d1e5f593de211f8b9b353fa7288270a1ce28ec86f4a55da.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SG411Q7Pr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9336e3a1cc596f3d4d1e5f593de211f8b9b353fa7288270a1ce28ec86f4a55da.jpg",
+    "title": "京都动画 第6回 KYOANI MUSIC FESTIVAL Day2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9336e3a1cc596f3d4d1e5f593de211f8b9b353fa7288270a1ce28ec86f4a55da.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icjeiijjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SG411Q7Pr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "蓝原延珠_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e346d762c72d92313a0ae8a441431e75e61523de9422d18f0628ed425324385c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

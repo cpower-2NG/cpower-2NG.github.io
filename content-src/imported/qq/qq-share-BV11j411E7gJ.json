@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11j411E7gJ",
+  "schemaVersion": 1,
+  "title": "分享 · SR 希尔薇之戒——奴隶少女希尔薇角色印象戒指（客订欣赏，只做一件）",
+  "date": "2023-11-19",
+  "createdAt": "2023-11-19T02:58:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？",
+  "text": "？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11j411E7gJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11j411E7gJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0cca36e60e970ef452c9395e4ac6f83afc388452d435f5410858e27d6374d2dc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11j411E7gJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0cca36e60e970ef452c9395e4ac6f83afc388452d435f5410858e27d6374d2dc.jpg",
+    "title": "SR 希尔薇之戒——奴隶少女希尔薇角色印象戒指（客订欣赏，只做一件）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0cca36e60e970ef452c9395e4ac6f83afc388452d435f5410858e27d6374d2dc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdhcgdaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11j411E7gJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "SR-HighJewelry",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a9b30a6e63e0c1f99e308cda1be05df75f17c09077530b25564116020647d62d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

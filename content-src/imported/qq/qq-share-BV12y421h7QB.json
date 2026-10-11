@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12y421h7QB",
+  "schemaVersion": 1,
+  "title": "分享 · 【字幕】花江：那种家伙到底是怎么拿下种崎桑的啊！？",
+  "date": "2024-02-15",
+  "createdAt": "2024-02-15T23:28:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我要破防了",
+  "text": "我要破防了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12y421h7QB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12y421h7QB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a17abea6b88fc36ea90d1db2e11088c0d58f1f67b50189e05d29d261ff1ea08b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12y421h7QB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a17abea6b88fc36ea90d1db2e11088c0d58f1f67b50189e05d29d261ff1ea08b.jpg",
+    "title": "【字幕】花江：那种家伙到底是怎么拿下种崎桑的啊！？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a17abea6b88fc36ea90d1db2e11088c0d58f1f67b50189e05d29d261ff1ea08b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdhjdaiahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12y421h7QB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "胡同口的糖葫芦",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "80308e79d2c2a3df0153b1a910ccd869acc880457a0e257f4610b620f1c008d6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

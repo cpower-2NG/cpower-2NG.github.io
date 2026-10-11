@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13e411Z7zx",
+  "schemaVersion": 1,
+  "title": "分享 · 平田和仁后给48岁的若林直美庆生",
+  "date": "2023-12-01",
+  "createdAt": "2023-12-01T11:21:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "兴奋的神neta频发。自从感受过窗果的魅力后，我对若林的声线也着迷了",
+  "text": "兴奋的神neta频发。自从感受过窗果的魅力后，我对若林的声线也着迷了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13e411Z7zx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13e411Z7zx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0703211cf8938352642d9e2fd81ed235c47ec6a0fe255441fadb32fe090cc418.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13e411Z7zx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0703211cf8938352642d9e2fd81ed235c47ec6a0fe255441fadb32fe090cc418.jpg",
+    "title": "平田和仁后给48岁的若林直美庆生"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0703211cf8938352642d9e2fd81ed235c47ec6a0fe255441fadb32fe090cc418.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gigjcebahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13e411Z7zx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6ab7b2ad16fdb9f3979a70ea3247bb675bbd0382c092d2b7b5c9fb597f76ce91",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

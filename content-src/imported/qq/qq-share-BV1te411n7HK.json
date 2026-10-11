@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1te411n7HK",
+  "schemaVersion": 1,
+  "title": "分享 · Lost in 桃华",
+  "date": "2024-01-21",
+  "createdAt": "2024-01-21T12:53:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这作音mad完美地展现桃华的魅力。从作为大小姐的敬语连发到中间慌乱后的「本当の私」再到最后的开怀一笑。真不愧「Lost in 桃华」...",
+  "text": "这作音mad完美地展现桃华的魅力。从作为大小姐的敬语连发到中间慌乱后的「本当の私」再到最后的开怀一笑。真不愧「Lost in 桃华」...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1te411n7HK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1te411n7HK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/68eb3822f5da6a120e29caa7a9d214c85ecb22feb1a2704231842a16609322a8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1te411n7HK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/68eb3822f5da6a120e29caa7a9d214c85ecb22feb1a2704231842a16609322a8.jpg",
+    "title": "Lost in 桃华"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/68eb3822f5da6a120e29caa7a9d214c85ecb22feb1a2704231842a16609322a8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcgbeifahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1te411n7HK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0368f9df37249148832241450b91dd726b1fc37816d35f36f906b3f95c17dc36",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

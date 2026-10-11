@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ax4y1M7iB",
+  "schemaVersion": 1,
+  "title": "分享 · 【2023东方新春宴单品】秘匿于尘世的余音 ~ Hidden Star in All Seasons",
+  "date": "2023-11-25",
+  "createdAt": "2023-11-25T13:03:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是期待一下今年的单品。讲真，我现在东方几乎只看音mad了",
+  "text": "还是期待一下今年的单品。讲真，我现在东方几乎只看音mad了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ax4y1M7iB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ax4y1M7iB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ecd2b99156fa39ab5412510f529ea675c3feded04e544d6e426352fab2ded36.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ax4y1M7iB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ecd2b99156fa39ab5412510f529ea675c3feded04e544d6e426352fab2ded36.jpg",
+    "title": "【2023东方新春宴单品】秘匿于尘世的余音 ~ Hidden Star in All Seasons"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ecd2b99156fa39ab5412510f529ea675c3feded04e544d6e426352fab2ded36.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jaehbjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ax4y1M7iB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "四季映姬78",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9a5b82c96bfae2df6c1a98c7eeed2e51819338b8ab79e2396231de3b3bb58a9e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

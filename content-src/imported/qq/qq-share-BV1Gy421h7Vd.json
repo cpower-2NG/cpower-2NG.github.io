@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Gy421h7Vd",
+  "schemaVersion": 1,
+  "title": "分享 · 【柚子社动画】天使☆騒々动画化！新作动画化！",
+  "date": "2024-02-07",
+  "createdAt": "2024-02-07T04:45:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "羡慕柚子厨",
+  "text": "羡慕柚子厨",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Gy421h7Vd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Gy421h7Vd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b07a3243f7d4c5831318298ba986377da7db4514c402164e463c0d6652f47a44.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Gy421h7Vd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b07a3243f7d4c5831318298ba986377da7db4514c402164e463c0d6652f47a44.jpg",
+    "title": "【柚子社动画】天使☆騒々动画化！新作动画化！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b07a3243f7d4c5831318298ba986377da7db4514c402164e463c0d6652f47a44.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "habbichahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Gy421h7Vd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "鹰巢山的阿瑟王",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "602f9bd1119a7387d8965ed6a3c237d5944bd9d0f7a769f9b00798c831ef30ed",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

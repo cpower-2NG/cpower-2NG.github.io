@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tK421k7nL",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】蔚蓝档案学园祭　～嘹亮 基沃托斯三銃奏～【蔚蓝档案三周年】",
+  "date": "2024-03-06",
+  "createdAt": "2024-03-06T13:23:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这可能是今年最好的长合作了",
+  "text": "这可能是今年最好的长合作了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tK421k7nL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tK421k7nL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b677c8a1039341a5512b7aaec45094f930e970b3a2de71b0208b6ee870a4e188.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tK421k7nL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b677c8a1039341a5512b7aaec45094f930e970b3a2de71b0208b6ee870a4e188.jpg",
+    "title": "【合作】蔚蓝档案学园祭　～嘹亮 基沃托斯三銃奏～【蔚蓝档案三周年】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b677c8a1039341a5512b7aaec45094f930e970b3a2de71b0208b6ee870a4e188.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcebdhjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tK421k7nL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "こち横",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "30b0270df0b739c5304500301ac498e72263f0ee73440377ac7c052d040e4966",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

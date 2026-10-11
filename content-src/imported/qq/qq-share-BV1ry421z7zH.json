@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ry421z7zH",
+  "schemaVersion": 1,
+  "title": "分享 · Häruhilov",
+  "date": "2024-03-06",
+  "createdAt": "2024-03-06T12:50:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "天哪，这根本就是音乐",
+  "text": "天哪，这根本就是音乐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ry421z7zH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ry421z7zH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ff3f22f79c6d1621b206ddda51ec6c3d2e15f056cd0412d55bebfcf0bb58aa0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ry421z7zH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ff3f22f79c6d1621b206ddda51ec6c3d2e15f056cd0412d55bebfcf0bb58aa0.jpg",
+    "title": "Häruhilov"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ff3f22f79c6d1621b206ddda51ec6c3d2e15f056cd0412d55bebfcf0bb58aa0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdejchjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ry421z7zH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "HF_8276",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1bdb83f0b8c875b05ef3b886614a332c981a7c00496c569439274c22e955e620",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

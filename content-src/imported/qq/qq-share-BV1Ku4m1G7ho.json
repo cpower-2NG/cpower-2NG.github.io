@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ku4m1G7ho",
+  "schemaVersion": 1,
+  "title": "分享 · 姫崎莉波 PV【学園 偶像大师】",
+  "date": "2024-03-13",
+  "createdAt": "2024-03-13T11:29:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "妹啊，这",
+  "text": "妹啊，这",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ku4m1G7ho",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ku4m1G7ho&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6414a4e9862590058ae5ca1c3323c00d6b5affa07f5858b0e836c7f6ea8d42fe.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ku4m1G7ho",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6414a4e9862590058ae5ca1c3323c00d6b5affa07f5858b0e836c7f6ea8d42fe.jpg",
+    "title": "姫崎莉波 PV【学園 偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6414a4e9862590058ae5ca1c3323c00d6b5affa07f5858b0e836c7f6ea8d42fe.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhdjcdabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ku4m1G7ho",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5d94f2345c4fa32cc4255e740e6ea4041e0b5b85f2bdb8e11d42c79bfa4a809c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

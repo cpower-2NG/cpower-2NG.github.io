@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oC4y1r7hp",
+  "schemaVersion": 1,
+  "title": "分享 · Amuse女性声优们来b站啦！",
+  "date": "2024-01-26",
+  "createdAt": "2024-01-26T04:36:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "官方也错字，礒部花凜的名字就没见几个打对的 由和泉风花、矶部花凛、小泉萌香、佐藤日向、田野麻美、富田美忧、船户百合绘、前田佳织里、牧野由依等9位AMUSE所属女",
+  "text": "官方也错字，礒部花凜的名字就没见几个打对的\n\n由和泉风花、矶部花凛、小泉萌香、佐藤日向、田野麻美、富田美忧、船户百合绘、前田佳织里、牧野由依等9位AMUSE所属女性声优组成...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oC4y1r7hp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oC4y1r7hp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1bff870c9f26c72e9dbb1c7b506ea740a8e540b5d7e95a6ad82e3edb101c2b0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oC4y1r7hp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1bff870c9f26c72e9dbb1c7b506ea740a8e540b5d7e95a6ad82e3edb101c2b0.jpg",
+    "title": "Amuse女性声优们来b站啦！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1bff870c9f26c72e9dbb1c7b506ea740a8e540b5d7e95a6ad82e3edb101c2b0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjhdecgahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oC4y1r7hp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AMUSE声优CHANNEL",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36a1b4be9b409c5126c915531c008da9a8fb4bdf913b9fd16dfea5ec9dc88ef6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

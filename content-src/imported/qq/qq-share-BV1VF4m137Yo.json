@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VF4m137Yo",
+  "schemaVersion": 1,
+  "title": "分享 · 【CM】Super Hidamatsuri【向阳素描20周年合作】",
+  "date": "2024-02-06",
+  "createdAt": "2024-02-06T12:16:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "大的要来了 Hello! With much anticipation, I am happy to announce that a collaboration",
+  "text": "大的要来了\n\nHello! With much anticipation, I am happy to announce that a collaboration that will commemorate Hidamari Sketch's 20th",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VF4m137Yo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VF4m137Yo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a644a232794cc4c92d7432efc72ba2d50255c269040dc4fd5e05e3fe0b7a4bda.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VF4m137Yo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a644a232794cc4c92d7432efc72ba2d50255c269040dc4fd5e05e3fe0b7a4bda.jpg",
+    "title": "【CM】Super Hidamatsuri【向阳素描20周年合作】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a644a232794cc4c92d7432efc72ba2d50255c269040dc4fd5e05e3fe0b7a4bda.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ighbcchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VF4m137Yo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "MajorMilk",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "be12978e5cc0494dc78a235766adf348173dd85cd29d00e85122b55a10329c0a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

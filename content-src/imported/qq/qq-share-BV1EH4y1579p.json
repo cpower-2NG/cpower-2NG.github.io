@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1EH4y1579p",
+  "schemaVersion": 1,
+  "title": "分享 · 我  就  是  花  海  咲  季",
+  "date": "2024-03-14",
+  "createdAt": "2024-03-14T12:37:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哥们，你来真的啊",
+  "text": "哥们，你来真的啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EH4y1579p",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1EH4y1579p&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/22a211c76a2e18ee0eb86d656c432490f6b1e46e4ce309d38b538c865294eda3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1EH4y1579p",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/22a211c76a2e18ee0eb86d656c432490f6b1e46e4ce309d38b538c865294eda3.jpg",
+    "title": "我  就  是  花  海  咲  季"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/22a211c76a2e18ee0eb86d656c432490f6b1e46e4ce309d38b538c865294eda3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edijbeabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1EH4y1579p",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "钥片",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6eff658e0b188f3187a408397a523b347a5525a72cb0db6bb2f12398d234cccc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

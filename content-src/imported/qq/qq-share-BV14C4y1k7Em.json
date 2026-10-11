@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14C4y1k7Em",
+  "schemaVersion": 1,
+  "title": "分享 · 唱 爽 了",
+  "date": "2024-01-28",
+  "createdAt": "2024-01-28T06:26:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唱 爽 了",
+  "text": "唱 爽 了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14C4y1k7Em",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14C4y1k7Em&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/181d214c010ce6e0160322ceca167d9c5c00931c4e49ed69928f59c93174af97.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14C4y1k7Em",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/181d214c010ce6e0160322ceca167d9c5c00931c4e49ed69928f59c93174af97.jpg",
+    "title": "唱 爽 了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/181d214c010ce6e0160322ceca167d9c5c00931c4e49ed69928f59c93174af97.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgbdcegahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14C4y1k7Em",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "轩缘无痕",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "527647d4688fbd2d59c33a9d2bde2d7a957c99d2119dd18e2116c8f33afbe075",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

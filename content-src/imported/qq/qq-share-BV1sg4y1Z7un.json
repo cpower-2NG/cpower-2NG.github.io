@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sg4y1Z7un",
+  "schemaVersion": 1,
+  "title": "分享 · 这才是我们sc的center啊！",
+  "date": "2023-12-15",
+  "createdAt": "2023-12-15T11:07:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最像center的一次，突然有种老父亲的感觉",
+  "text": "最像center的一次，突然有种老父亲的感觉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sg4y1Z7un",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sg4y1Z7un&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e66779f1916d2bf554fa1e18e2ef967f0620d8f171e09fa064aff35bec8e5fd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sg4y1Z7un",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e66779f1916d2bf554fa1e18e2ef967f0620d8f171e09fa064aff35bec8e5fd.jpg",
+    "title": "这才是我们sc的center啊！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e66779f1916d2bf554fa1e18e2ef967f0620d8f171e09fa064aff35bec8e5fd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egeidgcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sg4y1Z7un",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一个好番茄",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5f15fbe0e1d1d53916c516a9c239b9c14f200cd9560f0250430a7751a6bea198",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

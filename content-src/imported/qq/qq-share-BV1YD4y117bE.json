@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1YD4y117bE",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「風花」(四条貴音 SHS SSR special appeal) 【偶像大师百万现场MLTD MV】",
+  "date": "2024-01-21",
+  "createdAt": "2024-01-21T13:21:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想来想去还是「風花」吧，月之公主生日快乐",
+  "text": "想来想去还是「風花」吧，月之公主生日快乐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YD4y117bE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YD4y117bE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9030d10f85ce70116d3eda24e3fef66b37e9f733cbf802ced4bfdfb095ce916.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YD4y117bE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9030d10f85ce70116d3eda24e3fef66b37e9f733cbf802ced4bfdfb095ce916.jpg",
+    "title": "4K HDR「風花」(四条貴音 SHS SSR special appeal) 【偶像大师百万现场MLTD MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c9030d10f85ce70116d3eda24e3fef66b37e9f733cbf802ced4bfdfb095ce916.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjcdeifahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YD4y117bE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2d08030a338f66eab89e2d69d8ea8525bd8b0b668daad3625ce7693a3b465714",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

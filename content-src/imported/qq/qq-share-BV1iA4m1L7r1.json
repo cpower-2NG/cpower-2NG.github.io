@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iA4m1L7r1",
+  "schemaVersion": 1,
+  "title": "分享 · 【合体】华彩的摔跤祭2022 - Gachimuchi Treasure",
+  "date": "2024-02-06",
+  "createdAt": "2024-02-06T12:55:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "青春不再",
+  "text": "青春不再",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iA4m1L7r1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iA4m1L7r1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4194f82cd9914623e458e33ef2e15f4943fa4bc4ec4d142032eb649ace8b2c2c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iA4m1L7r1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4194f82cd9914623e458e33ef2e15f4943fa4bc4ec4d142032eb649ace8b2c2c.jpg",
+    "title": "【合体】华彩的摔跤祭2022 - Gachimuchi Treasure"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4194f82cd9914623e458e33ef2e15f4943fa4bc4ec4d142032eb649ace8b2c2c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cabecchahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iA4m1L7r1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "MoonTDN",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "13123bd4c4dd9070d2e27ccbe048f0f1e5818e32510ad16f471809aeff015cdf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

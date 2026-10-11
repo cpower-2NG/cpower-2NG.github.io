@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ts411c72z",
+  "schemaVersion": 1,
+  "title": "分享 · CƟNCᒧUSIƟN CƟNNE✕IƟN 〖音MDM〗",
+  "date": "2024-03-14",
+  "createdAt": "2024-03-14T12:47:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "标记一下",
+  "text": "标记一下",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ts411c72z",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ts411c72z&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/111ac4762007090ed35e931428dc67a9e7ddc202e9fafc1a695f1a87c7413a26.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ts411c72z",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/111ac4762007090ed35e931428dc67a9e7ddc202e9fafc1a695f1a87c7413a26.jpg",
+    "title": "CƟNCᒧUSIƟN CƟNNE✕IƟN 〖音MDM〗"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/111ac4762007090ed35e931428dc67a9e7ddc202e9fafc1a695f1a87c7413a26.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eheaceabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ts411c72z",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "守墓吏",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "906f510b4aad51b9c0b0f393d0c85bfa976c2d06ac5157fbf9293b5aa92abeea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KC411p7Vi",
+  "schemaVersion": 1,
+  "title": "分享 · 「Happier」【偶像大师闪耀色彩 Song for Prism MV】",
+  "date": "2024-02-28",
+  "createdAt": "2024-02-28T14:39:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "总算不是韩流了，话说日花跳得怎么比美琴还好啊，曲子更合适自己嘛",
+  "text": "总算不是韩流了，话说日花跳得怎么比美琴还好啊，曲子更合适自己嘛",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KC411p7Vi",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KC411p7Vi&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e46cd585b83b9e53de8ac2b25b8248a5de3fd5f1064a1b92f00f6ce6da5015ec.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KC411p7Vi",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e46cd585b83b9e53de8ac2b25b8248a5de3fd5f1064a1b92f00f6ce6da5015ec.jpg",
+    "title": "「Happier」【偶像大师闪耀色彩 Song for Prism MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e46cd585b83b9e53de8ac2b25b8248a5de3fd5f1064a1b92f00f6ce6da5015ec.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jebbdbjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KC411p7Vi",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1ac27a8027d6dab4a3b79b266afb89d71a6af600d7ac04bb675ea2d999930f24",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sa4y1R7yw",
+  "schemaVersion": 1,
+  "title": "分享 · 大家口中的“神作”是怎么回事？",
+  "date": "2023-12-15",
+  "createdAt": "2023-12-15T11:45:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "大家口中的“神作”是怎么回事？我不知道，语词的表意是薄弱的",
+  "text": "大家口中的“神作”是怎么回事？我不知道，语词的表意是薄弱的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sa4y1R7yw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sa4y1R7yw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0ad6e198f35b05084cb27a64a18a2bdf2440778bba842db3ce52f7fef667c6f8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sa4y1R7yw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0ad6e198f35b05084cb27a64a18a2bdf2440778bba842db3ce52f7fef667c6f8.jpg",
+    "title": "大家口中的“神作”是怎么回事？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0ad6e198f35b05084cb27a64a18a2bdf2440778bba842db3ce52f7fef667c6f8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdhaegcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sa4y1R7yw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "铝合金键盘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "78889e687aa450b1211b44cf4f9ae3d4a8b172b3ee484ed32fcaf47f21a66535",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

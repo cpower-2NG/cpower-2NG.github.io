@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vD4y1f7kh",
+  "schemaVersion": 1,
+  "title": "分享 · [𝑯𝒊-𝑹𝒆𝒔无损]《铁拳8》游戏原声带",
+  "date": "2024-01-28",
+  "createdAt": "2024-01-28T10:58:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "豪哥的风格太明显了哈哈，明明是写电子，却华丽的不像样",
+  "text": "豪哥的风格太明显了哈哈，明明是写电子，却华丽的不像样",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vD4y1f7kh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vD4y1f7kh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2d7be7203e6c877e84a54a8e753773678ef5ddca46080187fc6649b57c13765.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vD4y1f7kh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2d7be7203e6c877e84a54a8e753773678ef5ddca46080187fc6649b57c13765.jpg",
+    "title": "[𝑯𝒊-𝑹𝒆𝒔无损]《铁拳8》游戏原声带"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f2d7be7203e6c877e84a54a8e753773678ef5ddca46080187fc6649b57c13765.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bbfjdegahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vD4y1f7kh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Wayne_Chi",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ad37139ab78221306364e37b4917854e19ffc98ec0dd5278b7e574a41f953c5c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

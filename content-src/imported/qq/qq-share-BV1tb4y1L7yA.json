@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tb4y1L7yA",
+  "schemaVersion": 1,
+  "title": "分享 · 【IGN】《GTA6》首个预告",
+  "date": "2023-12-05",
+  "createdAt": "2023-12-05T12:13:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "Rockstar提前放出《GTA6》首个预告，游戏将在2025年正式发售，登录平台未定。",
+  "text": "Rockstar提前放出《GTA6》首个预告，游戏将在2025年正式发售，登录平台未定。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tb4y1L7yA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tb4y1L7yA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/225522ba3221ee34c3a3c2ad0f02ecfb60336325ad51df63fd62ccedc9e0561b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tb4y1L7yA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/225522ba3221ee34c3a3c2ad0f02ecfb60336325ad51df63fd62ccedc9e0561b.jpg",
+    "title": "【IGN】《GTA6》首个预告"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/225522ba3221ee34c3a3c2ad0f02ecfb60336325ad51df63fd62ccedc9e0561b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jidihhbahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tb4y1L7yA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "IGN中国",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5162bdc6461f947c2c076df2e4dd3907a09f3c0bf54336269a912dd7fadaf1a0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

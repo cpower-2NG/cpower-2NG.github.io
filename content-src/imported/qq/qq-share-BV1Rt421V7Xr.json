@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Rt421V7Xr",
+  "schemaVersion": 1,
+  "title": "分享 · 兔子洞感觉",
+  "date": "2024-03-18",
+  "createdAt": "2024-03-18T09:59:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "万金油rap采样草",
+  "text": "万金油rap采样草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Rt421V7Xr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Rt421V7Xr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c1cd2bccc257169a05fca1dd7fce6192c6b8fa71270b42479c683de85eb97495.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Rt421V7Xr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c1cd2bccc257169a05fca1dd7fce6192c6b8fa71270b42479c683de85eb97495.jpg",
+    "title": "兔子洞感觉"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c1cd2bccc257169a05fca1dd7fce6192c6b8fa71270b42479c683de85eb97495.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jejffhabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Rt421V7Xr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "楓下稲穂子",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "958aba2a9bca4fe37697419f1e832467a61f3a882d535f609eeeb5e0b4397a3e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SW411A7uu",
+  "schemaVersion": 1,
+  "title": "分享 · 【Yukanana合众国出品】魔法少女奈叶lyrical party V",
+  "date": "2023-11-09",
+  "createdAt": "2023-11-09T11:56:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "感恩之心！",
+  "text": "感恩之心！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SW411A7uu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SW411A7uu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80cb321b1848d59f1304f60db494bbb2a0c1f0296f2c5e29e74a804bb57d5f06.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SW411A7uu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80cb321b1848d59f1304f60db494bbb2a0c1f0296f2c5e29e74a804bb57d5f06.jpg",
+    "title": "【Yukanana合众国出品】魔法少女奈叶lyrical party V"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80cb321b1848d59f1304f60db494bbb2a0c1f0296f2c5e29e74a804bb57d5f06.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "faabdfjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SW411A7uu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AKATSUKI同",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "37c91ea2a57a6b81d78242d9c20bcf9b101f2ce0bf097c0adad6053bf2c55993",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

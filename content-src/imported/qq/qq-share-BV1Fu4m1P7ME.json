@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Fu4m1P7ME",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】赛马娘冠奏曲 ～极彩的最佳记录～",
+  "date": "2024-03-06",
+  "createdAt": "2024-03-06T13:04:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "第二段edm有些枯燥外，都好劲，又有作mad的",
+  "text": "第二段edm有些枯燥外，都好劲，又有作mad的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fu4m1P7ME",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Fu4m1P7ME&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4af85b1bb9e4db381fb4ece5067210da045099ee452710aa7666fa5785bc9109.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Fu4m1P7ME",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4af85b1bb9e4db381fb4ece5067210da045099ee452710aa7666fa5785bc9109.jpg",
+    "title": "【合作】赛马娘冠奏曲 ～极彩的最佳记录～"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4af85b1bb9e4db381fb4ece5067210da045099ee452710aa7666fa5785bc9109.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhcadhjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Fu4m1P7ME",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f8fb5dda557483561ec4ea5f909127f7c382e3e54817b8aee5da21c8c33dacf0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

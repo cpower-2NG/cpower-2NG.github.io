@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16J4m1e7vh",
+  "schemaVersion": 1,
+  "title": "分享 · 【预告片视频】Putrika 1st.cut:The Reason She Mush Perish",
+  "date": "2024-03-01",
+  "createdAt": "2024-03-01T11:30:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这是rkr同人马甲（个人名义？）吧。我是恋桐癖，快让すしめかぶ过来，只用桐加索才能配得上rkr的剧本",
+  "text": "这是rkr同人马甲（个人名义？）吧。我是恋桐癖，快让すしめかぶ过来，只用桐加索才能配得上rkr的剧本",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16J4m1e7vh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16J4m1e7vh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf2b5dac74c77c4e646d388920ee59192aa654724941401c71b174070b139b4a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16J4m1e7vh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf2b5dac74c77c4e646d388920ee59192aa654724941401c71b174070b139b4a.jpg",
+    "title": "【预告片视频】Putrika 1st.cut:The Reason She Mush Perish"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf2b5dac74c77c4e646d388920ee59192aa654724941401c71b174070b139b4a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "idgcjcjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16J4m1e7vh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Lucle_Totometori",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e24d0bd0e595b2ab24de59c5b1fcc516c98f229df29f1ac0baab07db8114b1e5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

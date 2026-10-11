@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PN4y1z7pe",
+  "schemaVersion": 1,
+  "title": "分享 · 爷青回！动画公司GONZO来B站啦！",
+  "date": "2023-12-26",
+  "createdAt": "2023-12-26T11:10:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？？？",
+  "text": "？？？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PN4y1z7pe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PN4y1z7pe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc251878eeb5a17a3d7d5e320941d44575ee3497a42f7dd9c850959f6022bbaf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PN4y1z7pe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc251878eeb5a17a3d7d5e320941d44575ee3497a42f7dd9c850959f6022bbaf.jpg",
+    "title": "爷青回！动画公司GONZO来B站啦！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc251878eeb5a17a3d7d5e320941d44575ee3497a42f7dd9c850959f6022bbaf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afajifdahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PN4y1z7pe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "日本GONZO动画公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bd8ec0c9dbf391da56c5e205a67dbcc3c7ea5a6b61241da4a2cce40f14104d25",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

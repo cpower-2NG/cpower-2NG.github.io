@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1du4y1n7yS",
+  "schemaVersion": 1,
+  "title": "分享 · 【今井麻美】niconico SSG 年末特番（嘉宾：釘宮理恵＆中村繪里子＆沼倉愛美）",
+  "date": "2023-12-11",
+  "createdAt": "2023-12-11T12:50:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "等一等，不知道有没有人会做熟肉",
+  "text": "等一等，不知道有没有人会做熟肉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1du4y1n7yS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1du4y1n7yS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a4581aeba55b6e7513298f1d59ab2744e0b773993f199f5e642af871f974a7f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1du4y1n7yS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a4581aeba55b6e7513298f1d59ab2744e0b773993f199f5e642af871f974a7f.jpg",
+    "title": "【今井麻美】niconico SSG 年末特番（嘉宾：釘宮理恵＆中村繪里子＆沼倉愛美）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a4581aeba55b6e7513298f1d59ab2744e0b773993f199f5e642af871f974a7f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdajjccahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1du4y1n7yS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "zeroxiris",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "06438806685b84f46a3955a770cc623221e6897ec8140d5d5623375c3722026a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

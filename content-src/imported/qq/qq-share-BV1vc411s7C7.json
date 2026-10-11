@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vc411s7C7",
+  "schemaVersion": 1,
+  "title": "分享 · 【主播女孩重度依賴】2周年曲「月虹蝶」MV",
+  "date": "2024-01-19",
+  "createdAt": "2024-01-19T16:02:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "辉夜和超天酱吗，或许真有点相像之处。不同是雨不会遇到她的永琳 www.youtube.com/watch?v=Rpg6GozAE6E",
+  "text": "辉夜和超天酱吗，或许真有点相像之处。不同是雨不会遇到她的永琳\n\nwww.youtube.com/watch?v=Rpg6GozAE6E",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vc411s7C7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vc411s7C7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/12f7c038795225d682469cd38e72e4e753e37302c924f2fe58cd1c069492749d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vc411s7C7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/12f7c038795225d682469cd38e72e4e753e37302c924f2fe58cd1c069492749d.jpg",
+    "title": "【主播女孩重度依賴】2周年曲「月虹蝶」MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/12f7c038795225d682469cd38e72e4e753e37302c924f2fe58cd1c069492749d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihbaigfahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vc411s7C7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e8a2bfd5028f8a508cd5b3d682eb7ffd9245ecd5a0447d2f96ee31084c1ec449",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

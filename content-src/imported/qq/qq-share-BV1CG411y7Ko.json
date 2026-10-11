@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1CG411y7Ko",
+  "schemaVersion": 1,
+  "title": "分享 · 喜欢这种重情绪的唱法\n\n视频@森野千里",
+  "date": "2023-11-13",
+  "createdAt": "2023-11-13T11:54:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "喜欢这种重情绪的唱法 视频@森野千里",
+  "text": "喜欢这种重情绪的唱法\n\n视频@森野千里",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CG411y7Ko",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CG411y7Ko&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CG411y7Ko",
+    "coverUrl": "",
+    "title": "喜欢这种重情绪的唱法\n\n视频@森野千里"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijeghijjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CG411y7Ko",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6600f042e08b261f5a51deba92f714be01b7a4dfa1e0b5dec0cc89f8cb0d6270",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

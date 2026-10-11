@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1HG411S7MJ",
+  "schemaVersion": 1,
+  "title": "分享 · 我看谁还说马娘不是偶像企划",
+  "date": "2023-12-03",
+  "createdAt": "2023-12-03T06:19:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我看谁还说马娘不是偶像企划",
+  "text": "我看谁还说马娘不是偶像企划",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HG411S7MJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HG411S7MJ&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HG411S7MJ",
+    "coverUrl": "",
+    "title": "我看谁还说马娘不是偶像企划"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhdeifbahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HG411S7MJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dd36140f3ab2d8170bc46616865dcc0fdb0ba705ad2013a5b6b4756a5e9acd65",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

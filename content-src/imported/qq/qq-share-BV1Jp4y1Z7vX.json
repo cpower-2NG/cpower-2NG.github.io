@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Jp4y1Z7vX",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师星耀季节】メリー",
+  "date": "2023-12-21",
+  "createdAt": "2023-12-21T12:53:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "很喜欢这首歌的副歌部分，神似石头门的believe me，让我有种怀旧的感动。而且百万的振付真好看",
+  "text": "很喜欢这首歌的副歌部分，神似石头门的believe me，让我有种怀旧的感动。而且百万的振付真好看",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Jp4y1Z7vX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Jp4y1Z7vX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f67476fca751e7f648f8da347af6b258d1a5ca71f3b62a3452b731f0c97e58b4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Jp4y1Z7vX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f67476fca751e7f648f8da347af6b258d1a5ca71f3b62a3452b731f0c97e58b4.jpg",
+    "title": "【偶像大师星耀季节】メリー"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f67476fca751e7f648f8da347af6b258d1a5ca71f3b62a3452b731f0c97e58b4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dacdgbdahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Jp4y1Z7vX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Hina阳菜",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a279f0f4618baf814648ddf7129163c9f3a22f0e997ec53877c8484f43380c3e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

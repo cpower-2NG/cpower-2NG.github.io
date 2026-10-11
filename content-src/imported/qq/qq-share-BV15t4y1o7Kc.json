@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15t4y1o7Kc",
+  "schemaVersion": 1,
+  "title": "分享 · ハナムケのハナタバ",
+  "date": "2024-01-11",
+  "createdAt": "2024-01-11T11:02:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "又新又好，果然彗星的曲子都不错",
+  "text": "又新又好，果然彗星的曲子都不错",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15t4y1o7Kc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15t4y1o7Kc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3d40d868421a528afd0adf722994ed613962f445aad1ea2c9666162100c586b.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15t4y1o7Kc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3d40d868421a528afd0adf722994ed613962f445aad1ea2c9666162100c586b.png",
+    "title": "ハナムケのハナタバ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3d40d868421a528afd0adf722994ed613962f445aad1ea2c9666162100c586b.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jejahjeahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15t4y1o7Kc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ゆいP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "af614fccc35116847a49991f9d45fce1745c083b62b69d75f796ea0c448958ae",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

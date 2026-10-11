@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vp4y1o7dm",
+  "schemaVersion": 1,
+  "title": "分享 · 283制作人与花组共同练习录像流出",
+  "date": "2023-12-20",
+  "createdAt": "2023-12-20T11:23:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "本来可以去315的，因为水的痛衣被迫成为花组p（",
+  "text": "本来可以去315的，因为水的痛衣被迫成为花组p（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vp4y1o7dm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vp4y1o7dm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53e7ff694a83f44434427af5f6a6b9e528dd29290316420ab1f739cd16015ee2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vp4y1o7dm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53e7ff694a83f44434427af5f6a6b9e528dd29290316420ab1f739cd16015ee2.jpg",
+    "title": "283制作人与花组共同练习录像流出"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/53e7ff694a83f44434427af5f6a6b9e528dd29290316420ab1f739cd16015ee2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdbhadahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vp4y1o7dm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "钥片",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5f0748e80703c2e2f668af6cebffbf578d2d648d04d864d496cc1e6f70d39dbb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

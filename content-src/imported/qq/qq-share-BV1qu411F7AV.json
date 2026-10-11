@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qu411F7AV",
+  "schemaVersion": 1,
+  "title": "分享 · “梦终将会醒，起来面对现实吧”",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T02:33:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "“美梦终将会醒，起来面对现实吧” 妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧",
+  "text": "“美梦终将会醒，起来面对现实吧”\n\n妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o妹妹你带我走吧o(╥﹏╥)o...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qu411F7AV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qu411F7AV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9af3e720e685fa1173dbba37326fcb05cc8d0f92ed3ac8142b59f53f9d5e9df1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qu411F7AV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9af3e720e685fa1173dbba37326fcb05cc8d0f92ed3ac8142b59f53f9d5e9df1.jpg",
+    "title": "“梦终将会醒，起来面对现实吧”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9af3e720e685fa1173dbba37326fcb05cc8d0f92ed3ac8142b59f53f9d5e9df1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fjjfgjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qu411F7AV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "妹来彩人",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3bc0e14057ff4b39247c36beb1646e77f575e7df9351afe8758c86bc9344bf0c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

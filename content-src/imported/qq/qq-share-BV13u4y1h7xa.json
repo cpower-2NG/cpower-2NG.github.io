@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13u4y1h7xa",
+  "schemaVersion": 1,
+  "title": "分享 · 『Star Impression』官方對比#ミリアニ実況##ミリアニ# 第6話",
+  "date": "2023-11-12",
+  "createdAt": "2023-11-12T02:20:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "白组的镜头引导式真好，而且腰胯的运动很突出，动捕上质量了",
+  "text": "白组的镜头引导式真好，而且腰胯的运动很突出，动捕上质量了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13u4y1h7xa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13u4y1h7xa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8948a12869ab8aa30cb6772f398588ea0290ef94ca3b6095ad87a850621afefa.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13u4y1h7xa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8948a12869ab8aa30cb6772f398588ea0290ef94ca3b6095ad87a850621afefa.png",
+    "title": "『Star Impression』官方對比#ミリアニ実況##ミリアニ# 第6話"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8948a12869ab8aa30cb6772f398588ea0290ef94ca3b6095ad87a850621afefa.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcgffhjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13u4y1h7xa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3dd1648c85959997334af10b423a7a2f722848805961dede1fac81a8e8939f5e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

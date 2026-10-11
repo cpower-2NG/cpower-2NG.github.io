@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NQ4y1J77E",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像当年我啊，也是台下的粉丝",
+  "date": "2023-12-31",
+  "createdAt": "2023-12-31T14:34:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "2nd这镜头和座位安排挺迷的，一般关系者席是不能拍到的，更何况这都堪比特写。不过也缔造了很多神话啊 偶像的狭义解释:是指游戏偶像大师中的偶像",
+  "text": "2nd这镜头和座位安排挺迷的，一般关系者席是不能拍到的，更何况这都堪比特写。不过也缔造了很多神话啊\n\n偶像的狭义解释:是指游戏偶像大师中的偶像",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NQ4y1J77E",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NQ4y1J77E&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ae25f67a6fe6a40dd9a8e4274ac07800db64c67641736e52b76556292cc4b4f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NQ4y1J77E",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ae25f67a6fe6a40dd9a8e4274ac07800db64c67641736e52b76556292cc4b4f.jpg",
+    "title": "偶像当年我啊，也是台下的粉丝"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8ae25f67a6fe6a40dd9a8e4274ac07800db64c67641736e52b76556292cc4b4f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehcddaeahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NQ4y1J77E",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "我推的李依",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ea0ec9a4ed98b7ed1bce78e4c711f70b9deddfec9d97f2d5e72f02e13797d8b7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19G411v72N",
+  "schemaVersion": 1,
+  "title": "分享 · 【大王饶命第二季】动画OP/片头曲《对对对》",
+  "date": "2023-12-09",
+  "createdAt": "2023-12-09T13:03:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还来？不过没了周等人，还是不如op1啊",
+  "text": "还来？不过没了周等人，还是不如op1啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19G411v72N",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19G411v72N&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/96bed59fddcefc4d03c357cd8ba22d861c35b6b229bcc7beaeaec34022305b03.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19G411v72N",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/96bed59fddcefc4d03c357cd8ba22d861c35b6b229bcc7beaeaec34022305b03.jpg",
+    "title": "【大王饶命第二季】动画OP/片头曲《对对对》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/96bed59fddcefc4d03c357cd8ba22d861c35b6b229bcc7beaeaec34022305b03.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "abahcbcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19G411v72N",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大火鸟文化",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "35e3121619ddff4111eabb5002bf44ac1d8c0f5162525e8887f490e0447bacb7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

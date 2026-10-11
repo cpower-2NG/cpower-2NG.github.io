@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pK411874W",
+  "schemaVersion": 1,
+  "title": "分享 · MOIW 2023 民那元气!!!!! DAY2 MAKING",
+  "date": "2023-12-24",
+  "createdAt": "2023-12-24T13:29:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "那是感动的夜晚，那是幸福的夜晚。",
+  "text": "那是感动的夜晚，那是幸福的夜晚。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pK411874W",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pK411874W&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c4c1ae045484bf9f6b364e2e51a437b8f4d4370260a71d44d486771492020c3b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pK411874W",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c4c1ae045484bf9f6b364e2e51a437b8f4d4370260a71d44d486771492020c3b.jpg",
+    "title": "MOIW 2023 民那元气!!!!! DAY2 MAKING"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c4c1ae045484bf9f6b364e2e51a437b8f4d4370260a71d44d486771492020c3b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgfecedahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pK411874W",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "楠明日葉",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e49548462d981110be383765f7f6f365bd0baa77599d1e9094b2794c5aaa3734",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

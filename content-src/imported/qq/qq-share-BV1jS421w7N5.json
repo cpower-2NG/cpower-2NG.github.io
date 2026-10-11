@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jS421w7N5",
+  "schemaVersion": 1,
+  "title": "分享 · 「Extreme Hearts 极限之心」单曲「Believe in smile!!」(Solo ver.)",
+  "date": "2024-03-06",
+  "createdAt": "2024-03-06T12:06:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还在啊，话说它手游呢 from:Believe in smile!! ソロバージョン / May-Bee【桜井羽月(CV:阿部里果)、御社智(CV:大西沙織)、",
+  "text": "还在啊，话说它手游呢\n\nfrom:Believe in smile!! ソロバージョン / May-Bee【桜井羽月(CV:阿部里果)、御社智(CV:大西沙織)、末宗祐里子(CV:大地葉)、ティ...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jS421w7N5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jS421w7N5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ff473f2ffaea2919b649ea6878862cedbdf5e5bb8939dc79481f1d2ee7c0ed5.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jS421w7N5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ff473f2ffaea2919b649ea6878862cedbdf5e5bb8939dc79481f1d2ee7c0ed5.png",
+    "title": "「Extreme Hearts 极限之心」单曲「Believe in smile!!」(Solo ver.)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3ff473f2ffaea2919b649ea6878862cedbdf5e5bb8939dc79481f1d2ee7c0ed5.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebigchjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jS421w7N5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "丿BCZ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "22f8314872843f74b3da559f39b0fe20446245e980c6d59cdc1ceb9abe0160b3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

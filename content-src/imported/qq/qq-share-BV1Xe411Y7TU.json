@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Xe411Y7TU",
+  "schemaVersion": 1,
+  "title": "分享 · 小刺猬集合！ZUTOMAYO B站官方账号正式启动！",
+  "date": "2024-01-28",
+  "createdAt": "2024-01-28T04:22:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "终于活了 大家好，我是ZUTOMAYO ACAね (ずっと真夜中でいいのに。非常感谢大家一直以来对ZTMY音乐的支持！我们很高兴能宣布，ZUTOMAYOB站官.",
+  "text": "终于活了\n\n大家好，我是ZUTOMAYO ACAね (ずっと真夜中でいいのに。非常感谢大家一直以来对ZTMY音乐的支持！我们很高兴能宣布，ZUTOMAYOB站官...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xe411Y7TU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Xe411Y7TU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d20c0943c195b3d67e91e97181694277f929a4a011c9a290f9f8258c890d103e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Xe411Y7TU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d20c0943c195b3d67e91e97181694277f929a4a011c9a290f9f8258c890d103e.jpg",
+    "title": "小刺猬集合！ZUTOMAYO B站官方账号正式启动！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d20c0943c195b3d67e91e97181694277f929a4a011c9a290f9f8258c890d103e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gehfbegahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Xe411Y7TU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ZUTOMAYO_Channel",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6ed8df04489f75bed5aacbad57849bff04104d0083957a9429307d9e3b22dc1b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

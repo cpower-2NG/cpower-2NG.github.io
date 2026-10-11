@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iu411W7nn",
+  "schemaVersion": 1,
+  "title": "分享 · 函数",
+  "date": "2024-01-07",
+  "createdAt": "2024-01-07T10:50:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "nico选第十！ f(x) = x.",
+  "text": "nico选第十！\n\nf(x) = x.",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iu411W7nn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iu411W7nn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab422136e97424f183803bb256474adaa985d0827fc7efd754b0b6b80f62f48a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iu411W7nn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab422136e97424f183803bb256474adaa985d0827fc7efd754b0b6b80f62f48a.jpg",
+    "title": "函数"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab422136e97424f183803bb256474adaa985d0827fc7efd754b0b6b80f62f48a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "degecgeahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iu411W7nn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "坏枪",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b6e40a3cfa6a17fcdc03de05dde7de5f7fb5622968ca9ef7409f48baa6c70ec3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

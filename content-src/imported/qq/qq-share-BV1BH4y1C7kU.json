@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1BH4y1C7kU",
+  "schemaVersion": 1,
+  "title": "分享 · 【漫谈】偶像大师百万现场 第一期【还是那个攀爬架】",
+  "date": "2023-12-03",
+  "createdAt": "2023-12-03T16:15:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "历史的积淀！",
+  "text": "历史的积淀！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BH4y1C7kU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BH4y1C7kU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd279b1ea9ed375fa702a9dfa922bbaf73a9723f8e228a69ec7863a6624fc81.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BH4y1C7kU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd279b1ea9ed375fa702a9dfa922bbaf73a9723f8e228a69ec7863a6624fc81.jpg",
+    "title": "【漫谈】偶像大师百万现场 第一期【还是那个攀爬架】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd279b1ea9ed375fa702a9dfa922bbaf73a9723f8e228a69ec7863a6624fc81.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccbacgbahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BH4y1C7kU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c3ceb0b53f8ba07e0de4945f4198e54ccb66222f0f33517b84a95ae279e23a00",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

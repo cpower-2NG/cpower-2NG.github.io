@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19u4m1P799",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024东方新春宴单品】令人怀念的东方之血 ~ Imperishable Legacy",
+  "date": "2024-02-13",
+  "createdAt": "2024-02-13T12:39:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "非常混乱，非常离散的合作。单品大部分都挺不错，但合成得缺失又混乱。我一直认为长视频对音mad是一场耐力赛。无论作者还是观众，...",
+  "text": "非常混乱，非常离散的合作。单品大部分都挺不错，但合成得缺失又混乱。我一直认为长视频对音mad是一场耐力赛。无论作者还是观众，...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19u4m1P799",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19u4m1P799&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/576153d43f69ed2a4756bd2e4b8597c2b5f54ca7a7a68d8f6fe10a3d511e85fa.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19u4m1P799",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/576153d43f69ed2a4756bd2e4b8597c2b5f54ca7a7a68d8f6fe10a3d511e85fa.jpg",
+    "title": "【2024东方新春宴单品】令人怀念的东方之血 ~ Imperishable Legacy"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/576153d43f69ed2a4756bd2e4b8597c2b5f54ca7a7a68d8f6fe10a3d511e85fa.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bijhcihahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19u4m1P799",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "四季映姬78",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ab0d58e74670998c568c0529e414ece27847b281b99389dce288667cd7ce590a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

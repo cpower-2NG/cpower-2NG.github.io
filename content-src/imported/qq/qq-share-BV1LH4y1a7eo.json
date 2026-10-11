@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LH4y1a7eo",
+  "schemaVersion": 1,
+  "title": "分享 · 【公主连结6周年熟肉】种崎敦美（华哥）贺词",
+  "date": "2024-02-13",
+  "createdAt": "2024-02-13T11:36:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "稳定发挥的华哥",
+  "text": "稳定发挥的华哥",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LH4y1a7eo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LH4y1a7eo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c01bdd0b5f7c957b32b34ee5410cc43d99e1c6344df369e488f8024402354c11.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LH4y1a7eo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c01bdd0b5f7c957b32b34ee5410cc43d99e1c6344df369e488f8024402354c11.jpg",
+    "title": "【公主连结6周年熟肉】种崎敦美（华哥）贺词"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c01bdd0b5f7c957b32b34ee5410cc43d99e1c6344df369e488f8024402354c11.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgbecihahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LH4y1a7eo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "究极摆烂的阿命",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "69973bea947b426c32561985796e7c5a89ff70a6c1b5572407b1d3f4136df9bb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

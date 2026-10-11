@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17j421S7FU",
+  "schemaVersion": 1,
+  "title": "分享 · 【向阳素描20周年纪念合作】Super Hidamatsuri",
+  "date": "2024-02-29",
+  "createdAt": "2024-02-29T09:16:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "充满爱的作品",
+  "text": "充满爱的作品",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17j421S7FU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17j421S7FU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b443be7ae8c7c561e19bb3b043811439a5cf6637fa2d05404a8d373d24e7b53.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17j421S7FU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b443be7ae8c7c561e19bb3b043811439a5cf6637fa2d05404a8d373d24e7b53.jpg",
+    "title": "【向阳素描20周年纪念合作】Super Hidamatsuri"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b443be7ae8c7c561e19bb3b043811439a5cf6637fa2d05404a8d373d24e7b53.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igbijbjahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17j421S7FU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "MajorMilk",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5e1fae841644b3363879d1a715b797ef61e531b66b649c227c17316b31b838a9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

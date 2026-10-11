@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1EC4y1n7bZ",
+  "schemaVersion": 1,
+  "title": "分享 · 东工大展示作品",
+  "date": "2023-11-21",
+  "createdAt": "2023-11-21T15:42:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹 x.com/xo___o___o___ox/status/1713183323277918503?s=20",
+  "text": "艹\n\nx.com/xo___o___o___ox/status/1713183323277918503?s=20",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EC4y1n7bZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1EC4y1n7bZ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2d60a4d3e603243f33876d37d23e7a56142cdb8e225e362fa8bfb5f689b70b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1EC4y1n7bZ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2d60a4d3e603243f33876d37d23e7a56142cdb8e225e362fa8bfb5f689b70b.jpg",
+    "title": "东工大展示作品"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e2d60a4d3e603243f33876d37d23e7a56142cdb8e225e362fa8bfb5f689b70b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aedbifaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1EC4y1n7bZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "淚浣褎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "60b79a843d89d1e141ba07998fe12fe34595a7bf8c4fc4fe307931b2c64b83b8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

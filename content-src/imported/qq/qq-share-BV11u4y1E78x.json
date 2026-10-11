@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11u4y1E78x",
+  "schemaVersion": 1,
+  "title": "分享 · 魔法少女奈叶求婚片段",
+  "date": "2023-11-09",
+  "createdAt": "2023-11-09T11:56:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太艹了。p1毫无违和感，p2中之人逆输入也太有意思了。 -",
+  "text": "太艹了。p1毫无违和感，p2中之人逆输入也太有意思了。\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11u4y1E78x",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11u4y1E78x&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2d88b15a9afca126d31e42e419046f0aa136c540b114ec88b8798358b52063.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11u4y1E78x",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2d88b15a9afca126d31e42e419046f0aa136c540b114ec88b8798358b52063.jpg",
+    "title": "魔法少女奈叶求婚片段"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e2d88b15a9afca126d31e42e419046f0aa136c540b114ec88b8798358b52063.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igjadfjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11u4y1E78x",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "中二病丶丶晚期",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a950a25f424ba2dfa994328d7ce501893d0d51bbd6d7ea0349bda065e4182a18",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

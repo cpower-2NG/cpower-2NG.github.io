@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rW421c7cE",
+  "schemaVersion": 1,
+  "title": "分享 · Snow White 最上静香 (CV.田所あずさ)",
+  "date": "2024-03-13",
+  "createdAt": "2024-03-13T12:20:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "静香唱得好温柔啊，能感觉出她歌唱的对象 因为有Gift Sign还能省下买team1-8的钱，所以买CD的时候也没仔细看完整歌单，完整版的snow white翻",
+  "text": "静香唱得好温柔啊，能感觉出她歌唱的对象\n\n因为有Gift Sign还能省下买team1-8的钱，所以买CD的时候也没仔细看完整歌单，完整版的snow white翻唱真的很惊喜",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rW421c7cE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rW421c7cE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c2dd8ebc0b7b258e7980ef428b4b39a77b00f52faa1d872ade06a31d683ebb0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rW421c7cE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c2dd8ebc0b7b258e7980ef428b4b39a77b00f52faa1d872ade06a31d683ebb0.jpg",
+    "title": "Snow White 最上静香 (CV.田所あずさ)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c2dd8ebc0b7b258e7980ef428b4b39a77b00f52faa1d872ade06a31d683ebb0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hcecddabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rW421c7cE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "用户不注销36290",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f43f131cdce5a915d01efc8d56fd8a05f6c9db189e4d0b25b552ddef1dec7958",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tC4y1U7tx",
+  "schemaVersion": 1,
+  "title": "分享 · 【浅谈】偶像大师U149第十话&第十一话浅析【大人与孩子】",
+  "date": "2023-11-26",
+  "createdAt": "2023-11-26T11:33:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "壮绝的一集！",
+  "text": "壮绝的一集！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tC4y1U7tx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tC4y1U7tx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dfed983ba9d81b8b83ae736857ca78e31658ace625b81e6d306c9df6169df545.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tC4y1U7tx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dfed983ba9d81b8b83ae736857ca78e31658ace625b81e6d306c9df6169df545.jpg",
+    "title": "【浅谈】偶像大师U149第十话&第十一话浅析【大人与孩子】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dfed983ba9d81b8b83ae736857ca78e31658ace625b81e6d306c9df6169df545.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ddeijjaahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tC4y1U7tx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a06bd6af5f2b52bd0b4c4446268eb5a982a4a69d56fe22d44afd590d7c25a1a3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

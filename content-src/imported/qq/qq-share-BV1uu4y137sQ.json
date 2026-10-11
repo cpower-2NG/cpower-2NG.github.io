@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uu4y137sQ",
+  "schemaVersion": 1,
+  "title": "分享 · 那些跟偶像大师没有关系的男性声优们",
+  "date": "2023-12-10",
+  "createdAt": "2023-12-10T05:38:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "松冈太喜感了",
+  "text": "松冈太喜感了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uu4y137sQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uu4y137sQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/231a51268fe0bfd4464981213abef22805e413a86fbd364d1a5d1dae10a80b89.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uu4y137sQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/231a51268fe0bfd4464981213abef22805e413a86fbd364d1a5d1dae10a80b89.jpg",
+    "title": "那些跟偶像大师没有关系的男性声优们"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/231a51268fe0bfd4464981213abef22805e413a86fbd364d1a5d1dae10a80b89.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebhgibcahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uu4y137sQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "源次郎PII世",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6af002e421a4e3a31c3aee4cf56b35b0f1adc52459e7d5e2b68d4ca9539744e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

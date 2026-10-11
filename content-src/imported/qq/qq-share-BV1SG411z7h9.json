@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SG411z7h9",
+  "schemaVersion": 1,
+  "title": "分享 · 银河结束",
+  "date": "2024-01-08",
+  "createdAt": "2024-01-08T13:06:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "抒情的音骂可不多见啊",
+  "text": "抒情的音骂可不多见啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SG411z7h9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SG411z7h9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29de2c2bb878a49a479076d07b6b86fd6db44099c6c1193c699ce812152a1caa.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SG411z7h9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29de2c2bb878a49a479076d07b6b86fd6db44099c6c1193c699ce812152a1caa.jpg",
+    "title": "银河结束"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29de2c2bb878a49a479076d07b6b86fd6db44099c6c1193c699ce812152a1caa.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bacjbheahb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SG411z7h9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "96b9d5026ecbb5d30c9f053c668eba3942df4ff1679bb912ca01815d52ef037d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
