@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SpwReYEBj",
+  "schemaVersion": 1,
+  "title": "分享 · 喜报：她们亲了",
+  "date": "2025-02-17",
+  "createdAt": "2025-02-17T14:54:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "喜报：她们亲了",
+  "text": "喜报：她们亲了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SpwReYEBj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SpwReYEBj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f4fd86742ccb6ffedb9f613d436db4825b236d01016c92f77013bee0c3db5fc9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SpwReYEBj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f4fd86742ccb6ffedb9f613d436db4825b236d01016c92f77013bee0c3db5fc9.jpg",
+    "title": "喜报：她们亲了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f4fd86742ccb6ffedb9f613d436db4825b236d01016c92f77013bee0c3db5fc9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "deaeaijdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SpwReYEBj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "コミャ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f8a56e252cd320da16dd670adc9bfd9d2474bf17892a96825fecde9f3c33317f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

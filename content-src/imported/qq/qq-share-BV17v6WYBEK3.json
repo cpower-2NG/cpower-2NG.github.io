@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17v6WYBEK3",
+  "schemaVersion": 1,
+  "title": "分享 · 松冈：一次也好，我应该向那个人告白的",
+  "date": "2024-12-28",
+  "createdAt": "2024-12-28T16:20:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草了 AGRS",
+  "text": "草了\n\nAGRS",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17v6WYBEK3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17v6WYBEK3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/caabd61d470c517fae24b4e751af689ff76dd1e965a7fb289cba99ca6b5361cb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17v6WYBEK3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/caabd61d470c517fae24b4e751af689ff76dd1e965a7fb289cba99ca6b5361cb.jpg",
+    "title": "松冈：一次也好，我应该向那个人告白的"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/caabd61d470c517fae24b4e751af689ff76dd1e965a7fb289cba99ca6b5361cb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebicaefdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17v6WYBEK3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "jimranora",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1888b09d4a27eec5a798b5c3e376393d6783e18d0da33a6e7d619b2db6ae02c5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

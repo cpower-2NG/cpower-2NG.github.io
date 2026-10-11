@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fdq6Y7E6P",
+  "schemaVersion": 1,
+  "title": "分享 · 【米塔声优陪你玩#1】花岩香奈试玩《米塔MiSide》与米塔恋爱吧~",
+  "date": "2024-12-14",
+  "createdAt": "2024-12-14T06:57:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还有官方烤肉啊",
+  "text": "还有官方烤肉啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fdq6Y7E6P",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fdq6Y7E6P&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4bf3d06bb3afc0771d4b4db1c250ef61905f133572aec2b986ba69339eef1b22.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fdq6Y7E6P",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4bf3d06bb3afc0771d4b4db1c250ef61905f133572aec2b986ba69339eef1b22.jpg",
+    "title": "【米塔声优陪你玩#1】花岩香奈试玩《米塔MiSide》与米塔恋爱吧~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4bf3d06bb3afc0771d4b4db1c250ef61905f133572aec2b986ba69339eef1b22.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhejfbedhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fdq6Y7E6P",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "IndieArk",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "39e32bb0fae0d67910b5b5db7676e2243972add0732e223faded91ba400ca569",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

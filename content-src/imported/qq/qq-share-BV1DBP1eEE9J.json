@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1DBP1eEE9J",
+  "schemaVersion": 1,
+  "title": "分享 · 冠菊 (リスアニ！LIVE 2025 Long Intro ver.)-小鹿奈央 初星学园放送部 切片|学园偶像大师",
+  "date": "2025-02-06",
+  "createdAt": "2025-02-06T02:04:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好爽的intro asobi",
+  "text": "好爽的intro\n\nasobi",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DBP1eEE9J",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1DBP1eEE9J&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811fe3509132cb71097fc0069b9acc23d623ea954851f993f3b66468c6c69c1f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1DBP1eEE9J",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811fe3509132cb71097fc0069b9acc23d623ea954851f993f3b66468c6c69c1f.jpg",
+    "title": "冠菊 (リスアニ！LIVE 2025 Long Intro ver.)-小鹿奈央 初星学园放送部 切片|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811fe3509132cb71097fc0069b9acc23d623ea954851f993f3b66468c6c69c1f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgehaiidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1DBP1eEE9J",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e343c0bb2b5ee8b3b503d9d584938527da5adc16a893548c50fd5e97d983f009",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

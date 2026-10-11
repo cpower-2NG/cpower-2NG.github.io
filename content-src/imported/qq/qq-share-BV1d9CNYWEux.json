@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1d9CNYWEux",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像宣言",
+  "date": "2024-12-25",
+  "createdAt": "2024-12-25T05:29:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好，好正统",
+  "text": "好，好正统",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d9CNYWEux",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1d9CNYWEux&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1c9c5d8ad172e49f7210c0001d5672b6aaf96be25fadde7ee255afba45e6344.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1d9CNYWEux",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1c9c5d8ad172e49f7210c0001d5672b6aaf96be25fadde7ee255afba45e6344.jpg",
+    "title": "偶像宣言"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1c9c5d8ad172e49f7210c0001d5672b6aaf96be25fadde7ee255afba45e6344.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijfeabfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1d9CNYWEux",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "88eb6d68b8e6294cf5852f87589f826d5bad547e7c194e4653fb4a68b74a84cf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

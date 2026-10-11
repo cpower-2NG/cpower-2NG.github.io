@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1u6CiYeEiE",
+  "schemaVersion": 1,
+  "title": "分享 · 【静止画MAD】蜘蛛之丝【魔法少女小圆】【MADMAX2024】",
+  "date": "2025-01-02",
+  "createdAt": "2025-01-02T04:33:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神啊",
+  "text": "神啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1u6CiYeEiE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1u6CiYeEiE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee3c9862fd9349e2691a1840c6d4772e27b119661231a9c2f0d64edee4fb283f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1u6CiYeEiE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee3c9862fd9349e2691a1840c6d4772e27b119661231a9c2f0d64edee4fb283f.jpg",
+    "title": "【静止画MAD】蜘蛛之丝【魔法少女小圆】【MADMAX2024】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee3c9862fd9349e2691a1840c6d4772e27b119661231a9c2f0d64edee4fb283f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibecjhfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1u6CiYeEiE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LiENRean",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4e525b4c40ff6bacface2ff6066812ddc905507764e9844d9502e5baa8deb5c4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

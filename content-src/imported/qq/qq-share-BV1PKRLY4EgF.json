@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PKRLY4EgF",
+  "schemaVersion": 1,
+  "title": "分享 · ✧『Re;IRIS - 雪解けに』✧",
+  "date": "2025-03-11",
+  "createdAt": "2025-03-11T14:07:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有点nb啊！",
+  "text": "有点nb啊！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PKRLY4EgF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PKRLY4EgF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1f3b03d8ae189b367be9504498d1a867c576ce5d92f4ef1b29b083e1ab2e5c5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PKRLY4EgF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1f3b03d8ae189b367be9504498d1a867c576ce5d92f4ef1b29b083e1ab2e5c5.jpg",
+    "title": "✧『Re;IRIS - 雪解けに』✧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a1f3b03d8ae189b367be9504498d1a867c576ce5d92f4ef1b29b083e1ab2e5c5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahacahbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PKRLY4EgF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "sikchanzc623",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "14113f685eaa774512103bf1e9c3857e2ac48e243a2aa84c69717a58360ed70a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

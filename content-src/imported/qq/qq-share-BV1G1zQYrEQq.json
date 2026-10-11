@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1G1zQYrEQq",
+  "schemaVersion": 1,
+  "title": "分享 · Sweetie☆",
+  "date": "2024-12-04",
+  "createdAt": "2024-12-04T02:29:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "Sweetie☆",
+  "text": "Sweetie☆",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1G1zQYrEQq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1G1zQYrEQq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/773ba419680de3e2d9ebce10a44d05d5fe708769146a085a0ab278445d05a32b.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1G1zQYrEQq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/773ba419680de3e2d9ebce10a44d05d5fe708769146a085a0ab278445d05a32b.png",
+    "title": "Sweetie☆"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/773ba419680de3e2d9ebce10a44d05d5fe708769146a085a0ab278445d05a32b.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfdjhcddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1G1zQYrEQq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cc81d759a6cbeb92f58459362bebacc64aae9485b7b2e24636bd20a54ae5ebfa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

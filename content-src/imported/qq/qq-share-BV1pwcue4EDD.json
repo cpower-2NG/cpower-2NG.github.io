@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pwcue4EDD",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】冬日组曲 ~ 全明星音MAD合作",
+  "date": "2025-01-13",
+  "createdAt": "2025-01-13T15:29:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "乙女解刨段节奏好神",
+  "text": "乙女解刨段节奏好神",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pwcue4EDD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pwcue4EDD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dc0ef2ecc658b08a06a76856a93e5b1fcf6a358dd07a04ef600c954ba739a4eb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pwcue4EDD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dc0ef2ecc658b08a06a76856a93e5b1fcf6a358dd07a04ef600c954ba739a4eb.jpg",
+    "title": "【合作】冬日组曲 ~ 全明星音MAD合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/dc0ef2ecc658b08a06a76856a93e5b1fcf6a358dd07a04ef600c954ba739a4eb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajbcihgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pwcue4EDD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "留尼汪月亮",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c5d70970b205329f355a655732cad98a6ee5b535aecee243cc7b2dce140012bb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

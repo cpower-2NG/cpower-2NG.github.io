@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1F7PpevEqn",
+  "schemaVersion": 1,
+  "title": "分享 · 《ToHeart》重制版VS原版 OP比较视频",
+  "date": "2025-02-27",
+  "createdAt": "2025-02-27T13:36:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这3d太果冻了，宛如恋活的质感",
+  "text": "这3d太果冻了，宛如恋活的质感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1F7PpevEqn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1F7PpevEqn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/714558d9d5aa0d5f04611449abd190abf24f137cc944efd43fc5e431b29a23c0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1F7PpevEqn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/714558d9d5aa0d5f04611449abd190abf24f137cc944efd43fc5e431b29a23c0.jpg",
+    "title": "《ToHeart》重制版VS原版 OP比较视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/714558d9d5aa0d5f04611449abd190abf24f137cc944efd43fc5e431b29a23c0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igddggaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1F7PpevEqn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "A9VG",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b3025509b704b69716adf9763ba432ceb99f849f545670683cedad1fd142139f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

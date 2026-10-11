@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LZqVYwERs",
+  "schemaVersion": 1,
+  "title": "分享 · 田村ゆかり 輝きの季節 1997年5月",
+  "date": "2024-12-13",
+  "createdAt": "2024-12-13T14:38:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就说薄井友里像hime了吧，这年龄一对上，完全就是姐妹啊，神韵都像。",
+  "text": "就说薄井友里像hime了吧，这年龄一对上，完全就是姐妹啊，神韵都像。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LZqVYwERs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LZqVYwERs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00f8ce3f249bb6f4e22adab23cce5f7a3a4bb5a11c7c7f9232c809ec78d0f425.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LZqVYwERs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00f8ce3f249bb6f4e22adab23cce5f7a3a4bb5a11c7c7f9232c809ec78d0f425.jpg",
+    "title": "田村ゆかり 輝きの季節 1997年5月"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00f8ce3f249bb6f4e22adab23cce5f7a3a4bb5a11c7c7f9232c809ec78d0f425.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jigaabedhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LZqVYwERs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "tokimusic",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f680e3a8e504273b4b3bece1c46b9c522714f6cd252b410f8f89211fb06d9811",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

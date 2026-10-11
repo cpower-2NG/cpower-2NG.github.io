@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jBcHenE9E",
+  "schemaVersion": 1,
+  "title": "分享 · 篠泽最大化",
+  "date": "2025-01-10",
+  "createdAt": "2025-01-10T12:07:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "广，你带我走吧",
+  "text": "广，你带我走吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jBcHenE9E",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jBcHenE9E&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac58d6d587ff1e094cc3fd05acb46becccf725f7f71f1a501a63de9486bfcc6a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jBcHenE9E",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac58d6d587ff1e094cc3fd05acb46becccf725f7f71f1a501a63de9486bfcc6a.jpg",
+    "title": "篠泽最大化"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac58d6d587ff1e094cc3fd05acb46becccf725f7f71f1a501a63de9486bfcc6a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgiabfgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jBcHenE9E",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d94e7cc988b752158ca1caf4cf8ce3e4673a9e59f1393a7ebe9e6162e7f83f8f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

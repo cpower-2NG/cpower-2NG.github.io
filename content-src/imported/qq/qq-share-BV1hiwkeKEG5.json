@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hiwkeKEG5",
+  "schemaVersion": 1,
+  "title": "分享 · 【今井麻美】niconico SSG 學園偶像大師特別編",
+  "date": "2025-01-20",
+  "createdAt": "2025-01-20T15:41:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太耐久了",
+  "text": "太耐久了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hiwkeKEG5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hiwkeKEG5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d1db07d869ebad09a83fd00f088aa79f1d20ed487bfacfd0eaad12ccc529600.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hiwkeKEG5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d1db07d869ebad09a83fd00f088aa79f1d20ed487bfacfd0eaad12ccc529600.jpg",
+    "title": "【今井麻美】niconico SSG 學園偶像大師特別編"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d1db07d869ebad09a83fd00f088aa79f1d20ed487bfacfd0eaad12ccc529600.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgghidhdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hiwkeKEG5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "zeroxiris",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5e8e631baf286782669093d66a0ddc59a16da5c726582b6143e34463e7cf8f63",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

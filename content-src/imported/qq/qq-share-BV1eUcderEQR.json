@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eUcderEQR",
+  "schemaVersion": 1,
+  "title": "分享 · arI'mura so happy",
+  "date": "2025-01-24",
+  "createdAt": "2025-01-24T12:01:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "suang！",
+  "text": "suang！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eUcderEQR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eUcderEQR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98a62c4b13bba567fbcc496ea9167c644383259f03d1dfae419c62cee19f33a2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eUcderEQR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98a62c4b13bba567fbcc496ea9167c644383259f03d1dfae419c62cee19f33a2.jpg",
+    "title": "arI'mura so happy"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98a62c4b13bba567fbcc496ea9167c644383259f03d1dfae419c62cee19f33a2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hiaachhdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eUcderEQR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4c4e3bca78c852615a474452df0bc8202b48e2154754b600138adc5a2222509e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

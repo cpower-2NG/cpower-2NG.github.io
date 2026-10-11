@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fSr7YoEEm",
+  "schemaVersion": 1,
+  "title": "分享 · 散泽朝日",
+  "date": "2025-01-06",
+  "createdAt": "2025-01-06T11:16:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "suang",
+  "text": "suang",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fSr7YoEEm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fSr7YoEEm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf15dc359fa04223dd91341749c435ceb75e594dd44c46fa6ef2a03ce16952e1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fSr7YoEEm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf15dc359fa04223dd91341749c435ceb75e594dd44c46fa6ef2a03ce16952e1.jpg",
+    "title": "散泽朝日"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf15dc359fa04223dd91341749c435ceb75e594dd44c46fa6ef2a03ce16952e1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cibcgbgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fSr7YoEEm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ちや",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "512af6ebcf98b70384de589c46e21e0aaefb2f1dea02d9938461c261b0e607fd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

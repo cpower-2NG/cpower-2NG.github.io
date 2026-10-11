@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eirDY1Ek2",
+  "schemaVersion": 1,
+  "title": "分享 · 【声优考古】莉莉娅米塔声优花岩香奈的前世今生",
+  "date": "2025-01-07",
+  "createdAt": "2025-01-07T15:57:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "因为声线没什么辨识度，甚至可以说是好的意义上的毫无特色，真的很贴合二次元，但像混出头可太难了。 本来只想转几个视频，不知道为什么突然想写前言。",
+  "text": "因为声线没什么辨识度，甚至可以说是好的意义上的毫无特色，真的很贴合二次元，但像混出头可太难了。\n\n本来只想转几个视频，不知道为什么突然想写前言。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eirDY1Ek2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eirDY1Ek2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b7bd6394a74aa6430afc0e417f2b187cd5f61a86aa0e7aa5ab3205692e0b7cf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eirDY1Ek2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b7bd6394a74aa6430afc0e417f2b187cd5f61a86aa0e7aa5ab3205692e0b7cf.jpg",
+    "title": "【声优考古】莉莉娅米塔声优花岩香奈的前世今生"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b7bd6394a74aa6430afc0e417f2b187cd5f61a86aa0e7aa5ab3205692e0b7cf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egefgcgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eirDY1Ek2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "monackey",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ee3d6d8e376657963d566ea39cb822933c1b858b3e04aafd0cc386d6915e4137",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

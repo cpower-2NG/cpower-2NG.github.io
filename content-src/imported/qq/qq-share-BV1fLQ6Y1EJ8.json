@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fLQ6Y1EJ8",
+  "schemaVersion": 1,
+  "title": "分享 · 手毬方块",
+  "date": "2025-03-15",
+  "createdAt": "2025-03-15T11:59:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太神了，太适合毛球了。前面笑点密集停不下来，最后人力却如此感动",
+  "text": "太神了，太适合毛球了。前面笑点密集停不下来，最后人力却如此感动",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fLQ6Y1EJ8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fLQ6Y1EJ8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8165cb058ac707137dafb600f5241bf6be150d0756a9b4870c062bf1948e3c22.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fLQ6Y1EJ8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8165cb058ac707137dafb600f5241bf6be150d0756a9b4870c062bf1948e3c22.jpg",
+    "title": "手毬方块"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8165cb058ac707137dafb600f5241bf6be150d0756a9b4870c062bf1948e3c22.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhjjdacehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fLQ6Y1EJ8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7937bba642710088772f5bc3ce7ad2b46f04a5987172b239e62cbf73fa145d56",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

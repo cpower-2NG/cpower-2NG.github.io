@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16pFae7Ewx",
+  "schemaVersion": 1,
+  "title": "分享 · 【2025东方新春宴单品】幻想求闻史记 ~ Memento of Forgathering Dreams",
+  "date": "2025-01-30",
+  "createdAt": "2025-01-30T08:05:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "确实是史记草",
+  "text": "确实是史记草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16pFae7Ewx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16pFae7Ewx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e251c2919dcb07dcd472d359fb9e7cd59fef8caca02ca1fb7f71f7f168e563b2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16pFae7Ewx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e251c2919dcb07dcd472d359fb9e7cd59fef8caca02ca1fb7f71f7f168e563b2.jpg",
+    "title": "【2025东方新春宴单品】幻想求闻史记 ~ Memento of Forgathering Dreams"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e251c2919dcb07dcd472d359fb9e7cd59fef8caca02ca1fb7f71f7f168e563b2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifdeccidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16pFae7Ewx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "四季映姬78",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a491c049983afd543cc2ef904ff5d677b5f0a090093d92440aaa8c0a5bc87a81",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

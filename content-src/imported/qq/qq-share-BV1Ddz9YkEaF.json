@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ddz9YkEaF",
+  "schemaVersion": 1,
+  "title": "分享 · 《ナツノカナタ》湊みやのStreaming Club（第4回配信）",
+  "date": "2024-12-07",
+  "createdAt": "2024-12-07T12:39:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这样追生肉节目还是第一次",
+  "text": "这样追生肉节目还是第一次",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ddz9YkEaF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ddz9YkEaF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27f6aace06cecf90a1e98f6c26a831935ea611edc843856b99a6c79eefde5d86.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ddz9YkEaF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27f6aace06cecf90a1e98f6c26a831935ea611edc843856b99a6c79eefde5d86.jpg",
+    "title": "《ナツノカナタ》湊みやのStreaming Club（第4回配信）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27f6aace06cecf90a1e98f6c26a831935ea611edc843856b99a6c79eefde5d86.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ggbfhfddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ddz9YkEaF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "幻P_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5638012d2abdc18fb1874c8e5a90fafd9413ce29ac3612a4e1034af42183cab1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

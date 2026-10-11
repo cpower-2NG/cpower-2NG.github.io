@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sirSYoEy6",
+  "schemaVersion": 1,
+  "title": "分享 · 【偽音mad】一億高考［补档］",
+  "date": "2025-01-23",
+  "createdAt": "2025-01-23T04:40:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草",
+  "text": "草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sirSYoEy6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sirSYoEy6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10b711f597e72ad1399306d6771f0e8ce9a5407f8716fe2f90a7c04c10427d93.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sirSYoEy6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10b711f597e72ad1399306d6771f0e8ce9a5407f8716fe2f90a7c04c10427d93.jpg",
+    "title": "【偽音mad】一億高考［补档］"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10b711f597e72ad1399306d6771f0e8ce9a5407f8716fe2f90a7c04c10427d93.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fachaghdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sirSYoEy6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "洛兰达_Loranda",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "54817a141ebe2d73d41752d5d5690bda8e98d6dae21e908d6566d516fdc65236",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

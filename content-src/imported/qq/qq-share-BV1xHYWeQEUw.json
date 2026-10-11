@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xHYWeQEUw",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字切片】初星学园音乐部 EP.3 声优部分",
+  "date": "2025-01-07",
+  "createdAt": "2025-01-07T15:20:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "妙就妙在，这高度的相似性和微妙的距离感，让人欲罢不能",
+  "text": "妙就妙在，这高度的相似性和微妙的距离感，让人欲罢不能",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xHYWeQEUw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xHYWeQEUw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/898d7154656c0e1c67adaf3e99135cdae77a337249b323de299b3bcc2d0a6980.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xHYWeQEUw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/898d7154656c0e1c67adaf3e99135cdae77a337249b323de299b3bcc2d0a6980.jpg",
+    "title": "【中字切片】初星学园音乐部 EP.3 声优部分"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/898d7154656c0e1c67adaf3e99135cdae77a337249b323de299b3bcc2d0a6980.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "becdgcgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xHYWeQEUw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Rrjgo15",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a64fe6c0fbc909d8987af52f6804b30df74a61e47bbecf679673a200b96e3e58",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

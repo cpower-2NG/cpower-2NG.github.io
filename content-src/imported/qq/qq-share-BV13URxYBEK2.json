@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13URxYBEK2",
+  "schemaVersion": 1,
+  "title": "分享 · 【魂魄妖夢】试着跳了「ハッピーミルフィーユ」【东方手绘】",
+  "date": "2025-03-09",
+  "createdAt": "2025-03-09T02:12:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "转的可爱",
+  "text": "转的可爱",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13URxYBEK2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13URxYBEK2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a8edfae1d59d9646835bc526414f25dd19164e0e93b05292134ab9197688731.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13URxYBEK2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a8edfae1d59d9646835bc526414f25dd19164e0e93b05292134ab9197688731.jpg",
+    "title": "【魂魄妖夢】试着跳了「ハッピーミルフィーユ」【东方手绘】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a8edfae1d59d9646835bc526414f25dd19164e0e93b05292134ab9197688731.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fedgiebehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13URxYBEK2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "伊吹小秋",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36bdfe005cce1fd1afaf7467c90390b54e736f22610d62cd001454e1b14bd29c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

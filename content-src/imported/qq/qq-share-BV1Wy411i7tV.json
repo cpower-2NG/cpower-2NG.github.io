@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Wy411i7tV",
+  "schemaVersion": 1,
+  "title": "分享 · 蜕变【筱泽广/偶像大师/静止系/mep片段偷跑】",
+  "date": "2025-01-10",
+  "createdAt": "2025-01-10T09:06:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "广救我",
+  "text": "广救我",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Wy411i7tV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Wy411i7tV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c9506b1ed98ad891cbb9069d865164e81de1873ad44bac6c285f4205326a696.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Wy411i7tV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c9506b1ed98ad891cbb9069d865164e81de1873ad44bac6c285f4205326a696.jpg",
+    "title": "蜕变【筱泽广/偶像大师/静止系/mep片段偷跑】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c9506b1ed98ad891cbb9069d865164e81de1873ad44bac6c285f4205326a696.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iijjjegdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Wy411i7tV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "_表表表面_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "68b9499b25adf2d7404a84381cf977fdccd61cce6e16959fe7f48a7d93c8420a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sL9SYsEuU",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】长月葵的Streaming Club | Elden Ring #02 | 斩梵雷",
+  "date": "2025-03-09",
+  "createdAt": "2025-03-09T03:27:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "玩的比我好，有点可爱了",
+  "text": "玩的比我好，有点可爱了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sL9SYsEuU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sL9SYsEuU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dd686e36a13eefdb7c01288b3561bfbfa584f436a887e81d19c84da271e6b32.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sL9SYsEuU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dd686e36a13eefdb7c01288b3561bfbfa584f436a887e81d19c84da271e6b32.jpg",
+    "title": "【中字】长月葵的Streaming Club | Elden Ring #02 | 斩梵雷"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dd686e36a13eefdb7c01288b3561bfbfa584f436a887e81d19c84da271e6b32.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chiajebehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sL9SYsEuU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "はるかさ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0ea90d407b7736e6bc28a487950b67db5f9b5378c34b6738b9d79da61258461c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

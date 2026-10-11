@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wbwze5EwH",
+  "schemaVersion": 1,
+  "title": "分享 · 【官方投稿】人マニア - 重音テト",
+  "date": "2025-01-19",
+  "createdAt": "2025-01-19T14:34:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原神来了（）",
+  "text": "原神来了（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wbwze5EwH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wbwze5EwH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5af34e1bfa72208149f293a9f5463a36d1d9fdf50ddda21dda960bd7445f8a6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wbwze5EwH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5af34e1bfa72208149f293a9f5463a36d1d9fdf50ddda21dda960bd7445f8a6.jpg",
+    "title": "【官方投稿】人マニア - 重音テト"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5af34e1bfa72208149f293a9f5463a36d1d9fdf50ddda21dda960bd7445f8a6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aichjchdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wbwze5EwH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "原口沙輔",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b90f792d09ecf82e99cbdaadbf7b478b6a6c173327ded134aee25be13d08815d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

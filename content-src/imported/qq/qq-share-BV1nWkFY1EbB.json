@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nWkFY1EbB",
+  "schemaVersion": 1,
+  "title": "分享 · 「メクルメ」-筱泽広|学园偶像大师",
+  "date": "2024-12-18",
+  "createdAt": "2024-12-18T12:02:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "术力广 x",
+  "text": "术力广\n\nx",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nWkFY1EbB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nWkFY1EbB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d16ce5599ebc6848f2a4b9007a1912bf5e284394f176e4b7c395f1a093d77248.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nWkFY1EbB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d16ce5599ebc6848f2a4b9007a1912bf5e284394f176e4b7c395f1a093d77248.jpg",
+    "title": "「メクルメ」-筱泽広|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d16ce5599ebc6848f2a4b9007a1912bf5e284394f176e4b7c395f1a093d77248.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifddcfedhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nWkFY1EbB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "54daa50e1cc869daddd7417ff65482ecec00c943aeaaf9b8b7e646547676a755",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qGqsYaED3",
+  "schemaVersion": 1,
+  "title": "分享 · 到目前为止使用的所有的歌曲Core",
+  "date": "2024-12-31",
+  "createdAt": "2024-12-31T04:43:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "曲素材音骂...",
+  "text": "曲素材音骂...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qGqsYaED3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qGqsYaED3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/234e41c9f04eb82d3f7d388639bd9be979f99fb3d18e5a74008a90d884ece9c7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qGqsYaED3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/234e41c9f04eb82d3f7d388639bd9be979f99fb3d18e5a74008a90d884ece9c7.jpg",
+    "title": "到目前为止使用的所有的歌曲Core"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/234e41c9f04eb82d3f7d388639bd9be979f99fb3d18e5a74008a90d884ece9c7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jccacgfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qGqsYaED3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f653775498cf6fa37cc1d14a3f25bccf18833d48f14e65f4483795c569da8377",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

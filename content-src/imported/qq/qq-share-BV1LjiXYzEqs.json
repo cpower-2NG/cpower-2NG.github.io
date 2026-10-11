@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LjiXYzEqs",
+  "schemaVersion": 1,
+  "title": "分享 · [日/中]幸村恵理 Best 前篇",
+  "date": "2024-12-05",
+  "createdAt": "2024-12-05T15:25:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "日，日本传道士？！",
+  "text": "日，日本传道士？！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LjiXYzEqs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LjiXYzEqs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdeee465f56a1ae7c703dd43549791b5e9a2e60570a2b0ccaa7836ed93bdfef6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LjiXYzEqs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdeee465f56a1ae7c703dd43549791b5e9a2e60570a2b0ccaa7836ed93bdfef6.jpg",
+    "title": "[日/中]幸村恵理 Best 前篇"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdeee465f56a1ae7c703dd43549791b5e9a2e60570a2b0ccaa7836ed93bdfef6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eedcbeddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LjiXYzEqs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Nm68dW36",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "58449cd8eeaaa109222f72657c19748eef8a756d72be3cd9ec463e6d17702523",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

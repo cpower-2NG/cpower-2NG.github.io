@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11uPeezECt",
+  "schemaVersion": 1,
+  "title": "分享 · MAD 偶像大师 千早 Again(Short Edit)",
+  "date": "2025-02-25",
+  "createdAt": "2025-02-25T14:22:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "泪目了。千早、誕生日おめでとう！",
+  "text": "泪目了。千早、誕生日おめでとう！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11uPeezECt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11uPeezECt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40868cc27f3b13a820b66c9c73acbe7c077e391976da8d6424322c269e2a858d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11uPeezECt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40868cc27f3b13a820b66c9c73acbe7c077e391976da8d6424322c269e2a858d.jpg",
+    "title": "MAD 偶像大师 千早 Again(Short Edit)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40868cc27f3b13a820b66c9c73acbe7c077e391976da8d6424322c269e2a858d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aeddjeaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11uPeezECt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8c29b6e72e48a8705e4a2fd2827face0577ace64cb4089b15f11f0ef5917fe71",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

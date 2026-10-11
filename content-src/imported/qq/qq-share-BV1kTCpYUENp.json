@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kTCpYUENp",
+  "schemaVersion": 1,
+  "title": "分享 · 「Ready！」官方MV|偶像大师",
+  "date": "2024-12-29",
+  "createdAt": "2024-12-29T14:28:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "第一次让我意识到「Ready！」蕴含的能量是如此厚重。ボロボロに泣き崩れたよ。",
+  "text": "第一次让我意识到「Ready！」蕴含的能量是如此厚重。ボロボロに泣き崩れたよ。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kTCpYUENp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kTCpYUENp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e16878a1c31c51f893dd61a577587cb3e82d5d1abc7274f3057cc215365362f6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kTCpYUENp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e16878a1c31c51f893dd61a577587cb3e82d5d1abc7274f3057cc215365362f6.jpg",
+    "title": "「Ready！」官方MV|偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e16878a1c31c51f893dd61a577587cb3e82d5d1abc7274f3057cc215365362f6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djeciefdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kTCpYUENp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6bd7ba1f1f089f8d34e5071880c4abcaa473831edea69ccd631b5c88b0dcb8ed",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

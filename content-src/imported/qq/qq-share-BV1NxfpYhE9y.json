@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NxfpYhE9y",
+  "schemaVersion": 1,
+  "title": "分享 · 《Lemon》里面这句有点像星之卡比的歌",
+  "date": "2025-01-25",
+  "createdAt": "2025-01-25T07:51:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "lemon战法（）",
+  "text": "lemon战法（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NxfpYhE9y",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NxfpYhE9y&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c81b6408a87e0d86de5b712dd9a8c30d9d76a16e666ce5d42ec4f72178971e47.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NxfpYhE9y",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c81b6408a87e0d86de5b712dd9a8c30d9d76a16e666ce5d42ec4f72178971e47.jpg",
+    "title": "《Lemon》里面这句有点像星之卡比的歌"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c81b6408a87e0d86de5b712dd9a8c30d9d76a16e666ce5d42ec4f72178971e47.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjebjhhdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NxfpYhE9y",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "thwy",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7dbe0b31101f61568da9c09e6c9ac53817a4d3e1d3d1741fc21892667920c905",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

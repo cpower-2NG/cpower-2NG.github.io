@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eaQGYcEpu",
+  "schemaVersion": 1,
+  "title": "分享 · “寄出去的信，拆开以后回忆更上瘾”『未闻花名』",
+  "date": "2025-03-14",
+  "createdAt": "2025-03-14T15:51:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "“寄出去的信，拆开以后回忆更上瘾”",
+  "text": "“寄出去的信，拆开以后回忆更上瘾”",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eaQGYcEpu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eaQGYcEpu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0b601cb214f6d4fae8cd9a30b9cabe925d777abf329923d71c66896b7f6e73.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eaQGYcEpu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0b601cb214f6d4fae8cd9a30b9cabe925d777abf329923d71c66896b7f6e73.jpg",
+    "title": "“寄出去的信，拆开以后回忆更上瘾”『未闻花名』"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0b601cb214f6d4fae8cd9a30b9cabe925d777abf329923d71c66896b7f6e73.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eafhgjbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eaQGYcEpu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AT-15A",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f65da088d2c67760b8d76a46545b3d1005d52faef5e103acb66493d7b1d714d5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

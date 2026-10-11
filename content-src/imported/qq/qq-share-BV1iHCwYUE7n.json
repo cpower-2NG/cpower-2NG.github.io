@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iHCwYUE7n",
+  "schemaVersion": 1,
+  "title": "分享 · MLTD『唸れ！ミリオンアーマー！』CM",
+  "date": "2024-12-25",
+  "createdAt": "2024-12-25T12:17:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "居然是ミリアニ！ -",
+  "text": "居然是ミリアニ！\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iHCwYUE7n",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iHCwYUE7n&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b14331358d010717649f78916f9c81ece528bd75b71850b6e5cfb1061ebdd03.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iHCwYUE7n",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b14331358d010717649f78916f9c81ece528bd75b71850b6e5cfb1061ebdd03.jpg",
+    "title": "MLTD『唸れ！ミリオンアーマー！』CM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0b14331358d010717649f78916f9c81ece528bd75b71850b6e5cfb1061ebdd03.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihajcbfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iHCwYUE7n",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6515977f5de30d7c880a668b42f95a94f492a2b5a6131df831e9eda3e315f14b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1YYfZYkE1Z",
+  "schemaVersion": 1,
+  "title": "分享 · 神经病啊\n\n同性恋社会旧闻二则 其二",
+  "date": "2025-01-26",
+  "createdAt": "2025-01-26T02:55:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神经病啊 同性恋社会旧闻二则 其二",
+  "text": "神经病啊\n\n同性恋社会旧闻二则 其二",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YYfZYkE1Z",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YYfZYkE1Z&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YYfZYkE1Z",
+    "coverUrl": "",
+    "title": "神经病啊\n\n同性恋社会旧闻二则 其二"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfbagihdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YYfZYkE1Z",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "43b9074e04458cb4c602e2c160a8dda7ceb38f8fe94ad6a030ceaee9382f07f5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

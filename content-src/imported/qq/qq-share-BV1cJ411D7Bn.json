@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cJ411D7Bn",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】河野日和《芹泽朝日与我》",
+  "date": "2024-12-08",
+  "createdAt": "2024-12-08T11:46:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "总算翻出这个经典了（",
+  "text": "总算翻出这个经典了（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cJ411D7Bn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cJ411D7Bn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6abbc5681b5df293ae07fda2fb987b0410058b561037d2c50e387772b3138e3a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cJ411D7Bn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6abbc5681b5df293ae07fda2fb987b0410058b561037d2c50e387772b3138e3a.jpg",
+    "title": "【中字】河野日和《芹泽朝日与我》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6abbc5681b5df293ae07fda2fb987b0410058b561037d2c50e387772b3138e3a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjdifgddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cJ411D7Bn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "账号已注销",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b9521ea13c284630247264de2d48cec0c9b06588add7aed63bbb394088adf047",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

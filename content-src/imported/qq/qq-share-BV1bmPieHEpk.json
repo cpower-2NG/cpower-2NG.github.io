@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bmPieHEpk",
+  "schemaVersion": 1,
+  "title": "分享 · VOY@GER 【偶像大师闪耀色彩 Song for Prism MV】",
+  "date": "2025-02-25",
+  "createdAt": "2025-02-25T14:07:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唉，シャニソン自己设计的地方还是不怎么样啊 -",
+  "text": "唉，シャニソン自己设计的地方还是不怎么样啊\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bmPieHEpk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bmPieHEpk&high_quality=1&danmaku=0",
+    "cover": "https://i0.hdslb.com/bfs/archive/c80965946aea4661f0227e65c8542df118786b6b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bmPieHEpk",
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/c80965946aea4661f0227e65c8542df118786b6b.jpg",
+    "title": "VOY@GER 【偶像大师闪耀色彩 Song for Prism MV】"
+  },
+  "cover": "https://i0.hdslb.com/bfs/archive/c80965946aea4661f0227e65c8542df118786b6b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhecjeaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bmPieHEpk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b50e1aed8adc7ef0031aa64850b0cc87264b5d227fc4db8de685ff34b31f916b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

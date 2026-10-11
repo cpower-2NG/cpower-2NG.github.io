@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1B4iSYNEXE",
+  "schemaVersion": 1,
+  "title": "分享 · [东方×魔圆]当小圆成为东方六面的最终BOSS![LuaSTG]",
+  "date": "2024-12-11",
+  "createdAt": "2024-12-11T05:22:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好美",
+  "text": "好美",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B4iSYNEXE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1B4iSYNEXE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f0682f670981c7e744c5fcdbe3929df2f83c6ad13b1f1ff9d6ad444ed642af5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1B4iSYNEXE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f0682f670981c7e744c5fcdbe3929df2f83c6ad13b1f1ff9d6ad444ed642af5.jpg",
+    "title": "[东方×魔圆]当小圆成为东方六面的最终BOSS![LuaSTG]"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f0682f670981c7e744c5fcdbe3929df2f83c6ad13b1f1ff9d6ad444ed642af5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgfejiddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1B4iSYNEXE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "世界第一绀厨",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f2d57903d5838d5c6da3bc9b9d9c14f616c87e348e738720e79364789347dace",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1A2KMeKEv2",
+  "schemaVersion": 1,
+  "title": "分享 · 「中字」中川浩二与APかっしー谈『アイ NEED YOU』",
+  "date": "2025-02-17",
+  "createdAt": "2025-02-17T15:30:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "伟大",
+  "text": "伟大",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1A2KMeKEv2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1A2KMeKEv2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b7e04cddcf5276ff5d71fd6ecc3db3e2eb2cab645ea598014dbee2b9fdff5e9b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1A2KMeKEv2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b7e04cddcf5276ff5d71fd6ecc3db3e2eb2cab645ea598014dbee2b9fdff5e9b.jpg",
+    "title": "「中字」中川浩二与APかっしー谈『アイ NEED YOU』"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b7e04cddcf5276ff5d71fd6ecc3db3e2eb2cab645ea598014dbee2b9fdff5e9b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gecgaijdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1A2KMeKEv2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "中村豐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b09571807f15d2d0a6428923eceda211b3838c7d6dfa332ddbda42feaeb21031",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

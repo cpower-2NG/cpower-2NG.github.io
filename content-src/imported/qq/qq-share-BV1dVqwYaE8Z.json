@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dVqwYaE8Z",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「アイ NEED YOU（FOR WONDERFUL STORY）」(SSR special appeal)",
+  "date": "2024-12-09",
+  "createdAt": "2024-12-09T11:28:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "相当新奇的振付呢",
+  "text": "相当新奇的振付呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dVqwYaE8Z",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dVqwYaE8Z&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6867b4a1a8067fb5b85bf94b17b765883a97f48018dee01b2c7099fb4faeb20e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dVqwYaE8Z",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6867b4a1a8067fb5b85bf94b17b765883a97f48018dee01b2c7099fb4faeb20e.jpg",
+    "title": "4K HDR「アイ NEED YOU（FOR WONDERFUL STORY）」(SSR special appeal)【偶像大师百万现场MLTD MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6867b4a1a8067fb5b85bf94b17b765883a97f48018dee01b2c7099fb4faeb20e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hchdehddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dVqwYaE8Z",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6aba5488acb3ae20368324e965a69961450ca43372c0577d06e8fbf4988c0284",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

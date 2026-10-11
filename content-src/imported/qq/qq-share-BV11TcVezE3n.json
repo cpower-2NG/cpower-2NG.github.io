@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11TcVezE3n",
+  "schemaVersion": 1,
+  "title": "分享 · 音爱慕诶滴现场",
+  "date": "2025-01-14",
+  "createdAt": "2025-01-14T14:53:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "音爱慕诶滴分区",
+  "text": "音爱慕诶滴分区",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11TcVezE3n",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11TcVezE3n&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80ddec68ad67225d067af4f212d2aa198a7c4fc9f1f498b62bff6c71d76cd498.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11TcVezE3n",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80ddec68ad67225d067af4f212d2aa198a7c4fc9f1f498b62bff6c71d76cd498.jpg",
+    "title": "音爱慕诶滴现场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/80ddec68ad67225d067af4f212d2aa198a7c4fc9f1f498b62bff6c71d76cd498.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aidggigdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11TcVezE3n",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "蓝色火焰AoiHonoo",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a9b3610f2c34b59929d0fc7b5b51f0c43ad44cce94342478b3ad526afa98535b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

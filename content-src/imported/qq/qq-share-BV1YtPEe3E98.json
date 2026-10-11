@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1YtPEe3E98",
+  "schemaVersion": 1,
+  "title": "分享 · 《The Rolling Riceball》翻奏",
+  "date": "2025-03-01",
+  "createdAt": "2025-03-01T01:33:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好喜欢 请继续奔跑下去",
+  "text": "好喜欢\n\n请继续奔跑下去",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YtPEe3E98",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YtPEe3E98&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c1af9bd7d28f73b3f1b6d68b39575325042ba6bc7ed09331d6a9664ef77faa3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YtPEe3E98",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c1af9bd7d28f73b3f1b6d68b39575325042ba6bc7ed09331d6a9664ef77faa3.jpg",
+    "title": "《The Rolling Riceball》翻奏"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c1af9bd7d28f73b3f1b6d68b39575325042ba6bc7ed09331d6a9664ef77faa3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbicjhaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YtPEe3E98",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Blitz_blz",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bb8d21ad47eb0578f2be0f798c1f47337658c75ea5f1307954557c6e1804573d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

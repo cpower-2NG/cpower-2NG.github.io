@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1m9wAenEwa",
+  "schemaVersion": 1,
+  "title": "分享 · 藤田琴音坏结局ED Campus 劳动！！",
+  "date": "2025-01-19",
+  "createdAt": "2025-01-19T14:47:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "害怕",
+  "text": "害怕",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1m9wAenEwa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1m9wAenEwa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee50a5dfeb09d2c1332003952fa53a89368cec343ed5577828c38aa14095b61c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1m9wAenEwa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee50a5dfeb09d2c1332003952fa53a89368cec343ed5577828c38aa14095b61c.jpg",
+    "title": "藤田琴音坏结局ED Campus 劳动！！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee50a5dfeb09d2c1332003952fa53a89368cec343ed5577828c38aa14095b61c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edaijchdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1m9wAenEwa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Whnpm=w=",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f0ac36c6064e3205bc8a0cf9723de8bf14078d5a79fe6049a7ea26e78466247f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

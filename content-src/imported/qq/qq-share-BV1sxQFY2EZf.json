@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sxQFY2EZf",
+  "schemaVersion": 1,
+  "title": "分享 · [填坑][中字渣翻全熟]河野ひよりのサシバナ 第三部 中村繪里子[下篇]",
+  "date": "2025-03-13",
+  "createdAt": "2025-03-13T15:18:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "偶像的神性！真的沉迷了，偶像本体论",
+  "text": "偶像的神性！真的沉迷了，偶像本体论",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sxQFY2EZf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sxQFY2EZf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/367a7bda95e83a4a0f6865870f7aae039aeb0e3cd59af1fca8b7b0bf906d9aeb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sxQFY2EZf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/367a7bda95e83a4a0f6865870f7aae039aeb0e3cd59af1fca8b7b0bf906d9aeb.jpg",
+    "title": "[填坑][中字渣翻全熟]河野ひよりのサシバナ 第三部 中村繪里子[下篇]"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/367a7bda95e83a4a0f6865870f7aae039aeb0e3cd59af1fca8b7b0bf906d9aeb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fiajhibehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sxQFY2EZf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "chihaya0225",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6d336ce1beb1e38d9b655c03ebc79338a0539a93d84022894e0e7f33890bedf3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

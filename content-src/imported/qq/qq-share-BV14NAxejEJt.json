@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14NAxejEJt",
+  "schemaVersion": 1,
+  "title": "分享 · 萩原雪歩報導！與成田ゆめ牧場合作！【偶像大師】",
+  "date": "2025-02-21",
+  "createdAt": "2025-02-21T15:11:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，这个是真想参加（",
+  "text": "草，这个是真想参加（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14NAxejEJt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14NAxejEJt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36026303d30795b858067b2708129bc7689e28454e361e86ee911673955c1851.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14NAxejEJt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36026303d30795b858067b2708129bc7689e28454e361e86ee911673955c1851.jpg",
+    "title": "萩原雪歩報導！與成田ゆめ牧場合作！【偶像大師】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36026303d30795b858067b2708129bc7689e28454e361e86ee911673955c1851.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bhgafbaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14NAxejEJt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2db6f3888fa645ab035a555f4a06886744d26148bebff31053f278d8a081835e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

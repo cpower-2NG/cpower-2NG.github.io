@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tMQWYjEV6",
+  "schemaVersion": 1,
+  "title": "分享 · 【节选】种田梨沙IMAS EXPO repo（种田沙龙78回）",
+  "date": "2025-03-13",
+  "createdAt": "2025-03-13T14:17:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "伟大",
+  "text": "伟大",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tMQWYjEV6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tMQWYjEV6&high_quality=1&danmaku=0",
+    "cover": "https://i1.hdslb.com/bfs/archive/e9c643445bee46457a0c8817bec8634c86838d31.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tMQWYjEV6",
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/e9c643445bee46457a0c8817bec8634c86838d31.jpg",
+    "title": "【节选】种田梨沙IMAS EXPO repo（种田沙龙78回）"
+  },
+  "cover": "https://i1.hdslb.com/bfs/archive/e9c643445bee46457a0c8817bec8634c86838d31.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifefhibehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tMQWYjEV6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kazanari_某瓶",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d2ea73fc5e211fc639b3de5918936c22952df3549edbfcbf326a9990f8bc1257",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pL9BYRE1v",
+  "schemaVersion": 1,
+  "title": "分享 · 不好意思，差不多该准备唱メニメニマニマニ了",
+  "date": "2025-03-03",
+  "createdAt": "2025-03-03T15:37:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "suang啊",
+  "text": "suang啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pL9BYRE1v",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pL9BYRE1v&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7bafb5fb2534a81c2f8e63551490b8fc53564d0b48f39d2e70671c8d6b2a86b6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pL9BYRE1v",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7bafb5fb2534a81c2f8e63551490b8fc53564d0b48f39d2e70671c8d6b2a86b6.jpg",
+    "title": "不好意思，差不多该准备唱メニメニマニマニ了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7bafb5fb2534a81c2f8e63551490b8fc53564d0b48f39d2e70671c8d6b2a86b6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdcgbabehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pL9BYRE1v",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "efcfc2d88c27015fe67e3c92ebcd1b1bfb2cfd92ad17f8dac38a77004146a558",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

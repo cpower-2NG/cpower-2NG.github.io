@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1y9CbYrESk",
+  "schemaVersion": 1,
+  "title": "分享 · 饭田光·稻垣好·菅野真衣·三川华月 『我最可爱的地方 (FRUITS ZIPPER)』 【LIVE】",
+  "date": "2024-12-28",
+  "createdAt": "2024-12-28T13:14:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？ From 狼と4人の赤ずきん 昼公演 241228",
+  "text": "？\n\nFrom 狼と4人の赤ずきん 昼公演 241228",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1y9CbYrESk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1y9CbYrESk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e68fb0a3e7ddd5efdbaa975d11c2684ab7ac4ef1f596e7eddc172c76198ae8e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1y9CbYrESk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e68fb0a3e7ddd5efdbaa975d11c2684ab7ac4ef1f596e7eddc172c76198ae8e.jpg",
+    "title": "饭田光·稻垣好·菅野真衣·三川华月 『我最可爱的地方 (FRUITS ZIPPER)』 【LIVE】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e68fb0a3e7ddd5efdbaa975d11c2684ab7ac4ef1f596e7eddc172c76198ae8e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjgbjdfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1y9CbYrESk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "烈之斩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a7788a23cea9e2fd181a7443ce35391948634267fee6546f0b76e253eb1346d7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

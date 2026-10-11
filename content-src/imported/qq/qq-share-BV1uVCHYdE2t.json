@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uVCHYdE2t",
+  "schemaVersion": 1,
+  "title": "分享 · 筱泽Disco",
+  "date": "2024-12-31",
+  "createdAt": "2024-12-31T04:18:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神作来袭",
+  "text": "神作来袭",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uVCHYdE2t",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uVCHYdE2t&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/669dda2dabb6d7dd77a331fddc6c0ce0e91227bfafcde2305a1f52091849617b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uVCHYdE2t",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/669dda2dabb6d7dd77a331fddc6c0ce0e91227bfafcde2305a1f52091849617b.jpg",
+    "title": "筱泽Disco"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/669dda2dabb6d7dd77a331fddc6c0ce0e91227bfafcde2305a1f52091849617b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dahibgfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uVCHYdE2t",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ShiningEmerald",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "86f3e7e8740d8cb20a25607b842b19412b47aae7fa806ef66bdef42a298481d9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

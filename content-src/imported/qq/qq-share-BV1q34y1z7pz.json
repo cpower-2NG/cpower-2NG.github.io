@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1q34y1z7pz",
+  "schemaVersion": 1,
+  "title": "分享 · NicoNico十五周年漂流記（N站弹幕版）",
+  "date": "2024-12-07",
+  "createdAt": "2024-12-07T14:27:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "鹅妈妈那里真顶不住",
+  "text": "鹅妈妈那里真顶不住",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1q34y1z7pz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1q34y1z7pz&high_quality=1&danmaku=0",
+    "cover": "https://i1.hdslb.com/bfs/archive/64228bfe2a0eead06ef655b08b46eedb8f50d064.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1q34y1z7pz",
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/64228bfe2a0eead06ef655b08b46eedb8f50d064.jpg",
+    "title": "NicoNico十五周年漂流記（N站弹幕版）"
+  },
+  "cover": "https://i1.hdslb.com/bfs/archive/64228bfe2a0eead06ef655b08b46eedb8f50d064.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gegbifddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1q34y1z7pz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "浅間烈",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9543c943c289b82ea97ae9cc6829b7ca2b1a6f7ae9c7fc46c641cb11edcb68d5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1x2k8YGEPz",
+  "schemaVersion": 1,
+  "title": "分享 · RUSH 広",
+  "date": "2024-12-25",
+  "createdAt": "2024-12-25T05:38:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "广p必看！",
+  "text": "广p必看！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1x2k8YGEPz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1x2k8YGEPz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bee062fde770d3b6a5aec5414be5abfea6951c4617bd44d64ac970528949f3d2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1x2k8YGEPz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bee062fde770d3b6a5aec5414be5abfea6951c4617bd44d64ac970528949f3d2.jpg",
+    "title": "RUSH 広"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bee062fde770d3b6a5aec5414be5abfea6951c4617bd44d64ac970528949f3d2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdbfabfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1x2k8YGEPz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ちや",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "88ea76a57e9c4706992545038022cf93ad0f9e1b6e2d616f274dfdb6c9512b21",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

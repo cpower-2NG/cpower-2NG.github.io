@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1opAAevE1E",
+  "schemaVersion": 1,
+  "title": "分享 · 【全熟】锦织哥哥给你讲解本家动画音乐（MOR157锦织敦史嘉宾）",
+  "date": "2025-02-15",
+  "createdAt": "2025-02-15T12:15:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "o(╥﹏╥)o",
+  "text": "o(╥﹏╥)o",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1opAAevE1E",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1opAAevE1E&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9c3d5a9f816e64a17e12f4555e6f36f20ac666ef64fb5e37ed3a712ac3bd7a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1opAAevE1E",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9c3d5a9f816e64a17e12f4555e6f36f20ac666ef64fb5e37ed3a712ac3bd7a.jpg",
+    "title": "【全熟】锦织哥哥给你讲解本家动画音乐（MOR157锦织敦史嘉宾）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9c3d5a9f816e64a17e12f4555e6f36f20ac666ef64fb5e37ed3a712ac3bd7a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eehbcgjdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1opAAevE1E",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kazanari_某瓶",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0c0eaa6fbbf9b9029ca5ba3093a299b373177ba891462b5f938f54b427af6fc5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

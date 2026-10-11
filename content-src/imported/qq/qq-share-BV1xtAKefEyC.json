@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xtAKefEyC",
+  "schemaVersion": 1,
+  "title": "分享 · 「隐藏的我/紫云清夏•初星学园」-上水流宇宙 直播切片|偶像大师vα-liv",
+  "date": "2025-02-16",
+  "createdAt": "2025-02-16T16:45:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好像 ytb",
+  "text": "好像\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xtAKefEyC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xtAKefEyC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5dca176adcabe81170aed1e9fc9ddf7f9c20033e76bf2ecc9492a93335145059.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xtAKefEyC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5dca176adcabe81170aed1e9fc9ddf7f9c20033e76bf2ecc9492a93335145059.jpg",
+    "title": "「隐藏的我/紫云清夏•初星学园」-上水流宇宙 直播切片|偶像大师vα-liv"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5dca176adcabe81170aed1e9fc9ddf7f9c20033e76bf2ecc9492a93335145059.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcdechjdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xtAKefEyC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d1479a827954a5b2aa1b164535d4acde4e25fdcdfd967a60a37b3d800fca027b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

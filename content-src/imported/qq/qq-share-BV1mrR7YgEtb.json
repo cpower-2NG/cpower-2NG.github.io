@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1mrR7YgEtb",
+  "schemaVersion": 1,
+  "title": "分享 · 呜呜呜，ume！o(╥﹏╥)o",
+  "date": "2025-03-17",
+  "createdAt": "2025-03-17T01:49:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "呜呜呜，ume！o(╥﹏╥)o",
+  "text": "呜呜呜，ume！o(╥﹏╥)o",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mrR7YgEtb",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mrR7YgEtb&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mrR7YgEtb",
+    "coverUrl": "",
+    "title": "呜呜呜，ume！o(╥﹏╥)o"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjbghbcehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mrR7YgEtb",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "26eacb1fc39cfe9405537fb42fc04efe3f011bc59ef7d93a20b87477bbf9ca70",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cZFTe7EJM",
+  "schemaVersion": 1,
+  "title": "分享 · USJ mode!!",
+  "date": "2025-01-30",
+  "createdAt": "2025-01-30T00:56:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好像确实去了（",
+  "text": "好像确实去了（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cZFTe7EJM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cZFTe7EJM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/726fbe63608e6e26368e42743e1e4763919612f71a6f92b5fdf5252412a46f81.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cZFTe7EJM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/726fbe63608e6e26368e42743e1e4763919612f71a6f92b5fdf5252412a46f81.jpg",
+    "title": "USJ mode!!"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/726fbe63608e6e26368e42743e1e4763919612f71a6f92b5fdf5252412a46f81.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fjfijbidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cZFTe7EJM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "inmqtx",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4dc377cc0fb0f4e0f85360a5b690048fc86bd83176f83aeb33ebd894c0b39d14",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

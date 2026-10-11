@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVd0Ve7di1yzyd",
+  "schemaVersion": 1,
+  "title": "分享 · 祝 福",
+  "date": "2025-03-14",
+  "createdAt": "2025-03-14T15:33:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "祝 福",
+  "text": "祝 福",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVd0Ve7di1yzyd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVd0Ve7di1yzyd&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVd0Ve7di1yzyd",
+    "coverUrl": "",
+    "title": "祝 福"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdeggjbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVd0Ve7di1yzyd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "16ec02f80baf8c19ca92b49273e032b09f17117097bfcd2e12c9b011183f1d5f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

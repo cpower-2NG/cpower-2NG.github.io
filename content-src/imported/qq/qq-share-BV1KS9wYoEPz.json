@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KS9wYoEPz",
+  "schemaVersion": 1,
+  "title": "分享 · 柏油落泪，DJ亲自下场重操旧业，起飞甩手同步率感人",
+  "date": "2025-03-02",
+  "createdAt": "2025-03-02T02:01:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唉我去 -",
+  "text": "唉我去\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KS9wYoEPz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KS9wYoEPz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3f5ac8df19491af1ac8fa91ede2598d0771da3eda0e9c0b80609c07c4ff16f9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KS9wYoEPz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3f5ac8df19491af1ac8fa91ede2598d0771da3eda0e9c0b80609c07c4ff16f9.jpg",
+    "title": "柏油落泪，DJ亲自下场重操旧业，起飞甩手同步率感人"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3f5ac8df19491af1ac8fa91ede2598d0771da3eda0e9c0b80609c07c4ff16f9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehiaiiaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KS9wYoEPz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "德井妮可の墨墨",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c1792bfe0aadafe4c3a620c521ee8de61c30a3b089e1d88dd16fe9d33b9ad106",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

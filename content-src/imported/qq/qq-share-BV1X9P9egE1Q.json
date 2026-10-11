@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1X9P9egE1Q",
+  "schemaVersion": 1,
+  "title": "分享 · 总算有了（）",
+  "date": "2025-02-03",
+  "createdAt": "2025-02-03T15:02:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "总算有了（）",
+  "text": "总算有了（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1X9P9egE1Q",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X9P9egE1Q&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1X9P9egE1Q",
+    "coverUrl": "",
+    "title": "总算有了（）"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihjejfidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1X9P9egE1Q",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1f5b571fdfffd906c0564634b25d0ea7df6f88c57ef4e9ed8a2f22a4fb0307da",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

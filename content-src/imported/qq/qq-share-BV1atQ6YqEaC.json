@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1atQ6YqEaC",
+  "schemaVersion": 1,
+  "title": "分享 · 定档0516！白色闪电日配版预告公开！",
+  "date": "2025-03-14",
+  "createdAt": "2025-03-14T15:30:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真不错",
+  "text": "真不错",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1atQ6YqEaC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1atQ6YqEaC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8db5ddbf6bd9d95c3c2a28051a19d873a246844968ee3689bbfee122061b6838.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1atQ6YqEaC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8db5ddbf6bd9d95c3c2a28051a19d873a246844968ee3689bbfee122061b6838.jpg",
+    "title": "定档0516！白色闪电日配版预告公开！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8db5ddbf6bd9d95c3c2a28051a19d873a246844968ee3689bbfee122061b6838.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfcggjbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1atQ6YqEaC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "白色闪电动画",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9521b1f422d370af2a7590eea1341a2fe22e177f0924d456a6528f02d6bd8d18",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

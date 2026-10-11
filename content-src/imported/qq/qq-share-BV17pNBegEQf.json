@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17pNBegEQf",
+  "schemaVersion": 1,
+  "title": "分享 · 50053 ZOOO",
+  "date": "2025-02-12",
+  "createdAt": "2025-02-12T12:31:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "转调suki！",
+  "text": "转调suki！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17pNBegEQf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17pNBegEQf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cd3a345b43f1ce018a6f62423971d04a7478612ecb54375b8b1d84334df7cb6c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17pNBegEQf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cd3a345b43f1ce018a6f62423971d04a7478612ecb54375b8b1d84334df7cb6c.jpg",
+    "title": "50053 ZOOO"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cd3a345b43f1ce018a6f62423971d04a7478612ecb54375b8b1d84334df7cb6c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjedgdjdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17pNBegEQf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ShiningEmerald",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a39fd8e3652457704d8cba0613ff0ccb39b82d34e92b6304dfaf3cef68fbae1d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

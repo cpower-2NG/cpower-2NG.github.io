@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vQP2ebE6M",
+  "schemaVersion": 1,
+  "title": "分享 · 【Hi-Res】【中文翻译】秦谷美铃SOLO1「ツキノカメ」",
+  "date": "2025-02-05",
+  "createdAt": "2025-02-05T12:35:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "接受不了后半段作为老不死的保守派我还是需要钢琴弦乐抒情曲",
+  "text": "接受不了后半段作为老不死的保守派我还是需要钢琴弦乐抒情曲",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vQP2ebE6M",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vQP2ebE6M&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06d8d359caae54ed02c05bb0aa948e7491ca72602c0f778a1e4f5008f44492ab.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vQP2ebE6M",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06d8d359caae54ed02c05bb0aa948e7491ca72602c0f778a1e4f5008f44492ab.jpg",
+    "title": "【Hi-Res】【中文翻译】秦谷美铃SOLO1「ツキノカメ」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06d8d359caae54ed02c05bb0aa948e7491ca72602c0f778a1e4f5008f44492ab.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gajifhidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vQP2ebE6M",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "09fbdc228ec68b889d62f65a180b058c58ca0ea237e11bfa62d4e7beba309e98",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

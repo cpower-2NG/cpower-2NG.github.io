@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19rrTYpEft",
+  "schemaVersion": 1,
+  "title": "分享 · 映",
+  "date": "2025-01-06",
+  "createdAt": "2025-01-06T11:14:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "映",
+  "text": "映",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19rrTYpEft",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19rrTYpEft&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e640b2e6219974d11b16c597025d40bde8136fe249e87daa12f0999d03944fb9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19rrTYpEft",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e640b2e6219974d11b16c597025d40bde8136fe249e87daa12f0999d03944fb9.jpg",
+    "title": "映"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e640b2e6219974d11b16c597025d40bde8136fe249e87daa12f0999d03944fb9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhacgbgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19rrTYpEft",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "七海大灯泡",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b2bb53b01dd4aacf7cea282a8243788805d0eb1535d8fa773309ea64e9fc800c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

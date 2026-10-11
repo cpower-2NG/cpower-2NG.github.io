@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vaXXYjEjY",
+  "schemaVersion": 1,
+  "title": "分享 · 「20周年」第五弹PV：闪耀色彩 樱木真乃|偶像大师综合",
+  "date": "2025-03-01",
+  "createdAt": "2025-03-01T12:04:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这样一层层叠加，多么厚重的情感啊 ytb",
+  "text": "这样一层层叠加，多么厚重的情感啊\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vaXXYjEjY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vaXXYjEjY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9af27a148494345de9fc40ee12057d9e50855efc93dd6f2882256bed51dab86.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vaXXYjEjY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9af27a148494345de9fc40ee12057d9e50855efc93dd6f2882256bed51dab86.jpg",
+    "title": "「20周年」第五弹PV：闪耀色彩 樱木真乃|偶像大师综合"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9af27a148494345de9fc40ee12057d9e50855efc93dd6f2882256bed51dab86.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjgadiaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vaXXYjEjY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1ed4c33757df9b95d9b6a5de3d4843b3c00dbc4e0d938ab8379c607ba5437829",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

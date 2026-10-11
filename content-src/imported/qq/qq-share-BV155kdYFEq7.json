@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV155kdYFEq7",
+  "schemaVersion": 1,
+  "title": "分享 · 【节选中字】不解风情的你与后悔小时候的她",
+  "date": "2024-12-25",
+  "createdAt": "2024-12-25T05:11:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "自己创造故事是非常重要的——今井麻美",
+  "text": "自己创造故事是非常重要的——今井麻美",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV155kdYFEq7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV155kdYFEq7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/574a2459cdb36d05d40264c5b6fcdb8b674747930296e0b652dc22340dc95000.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV155kdYFEq7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/574a2459cdb36d05d40264c5b6fcdb8b674747930296e0b652dc22340dc95000.jpg",
+    "title": "【节选中字】不解风情的你与后悔小时候的她"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/574a2459cdb36d05d40264c5b6fcdb8b674747930296e0b652dc22340dc95000.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djedabfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV155kdYFEq7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Daydreamerncl",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2623d2956080cc1c228f89b8c615d00a1abd662f489b985fc7e88ab9b02f7a70",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

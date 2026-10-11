@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1b1KAehEFy",
+  "schemaVersion": 1,
+  "title": "分享 · 花海佑芽『 ハッピーミルフィーユ 』情人节曲",
+  "date": "2025-03-11",
+  "createdAt": "2025-03-11T14:34:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/> valentines",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/>\n\nvalentines2025.hatsuboshigakuen.jp",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1b1KAehEFy",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1b1KAehEFy&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/de6df6c5c6d3799b037876cfe8d3adf33658b1c0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1b1KAehEFy",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/de6df6c5c6d3799b037876cfe8d3adf33658b1c0.jpg",
+    "title": "花海佑芽『 ハッピーミルフィーユ 』情人节曲"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/de6df6c5c6d3799b037876cfe8d3adf33658b1c0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djgdahbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1b1KAehEFy",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "星野郁代",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "655940cb85433ed131150998965feb31aa0ceaa11161df7d8f62a01132c06286",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

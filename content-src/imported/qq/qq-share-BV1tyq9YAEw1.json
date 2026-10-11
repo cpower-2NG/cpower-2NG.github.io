@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tyq9YAEw1",
+  "schemaVersion": 1,
+  "title": "分享 · 【MAD】果穗，快盗的力量是这么用的才对！",
+  "date": "2024-12-31",
+  "createdAt": "2024-12-31T04:30:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草",
+  "text": "草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tyq9YAEw1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tyq9YAEw1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9864b1f9df72e4ba7bb08d35aa378975c8fa8c6ade3042102d8074cf08e1dac2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tyq9YAEw1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9864b1f9df72e4ba7bb08d35aa378975c8fa8c6ade3042102d8074cf08e1dac2.jpg",
+    "title": "【MAD】果穗，快盗的力量是这么用的才对！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9864b1f9df72e4ba7bb08d35aa378975c8fa8c6ade3042102d8074cf08e1dac2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbejbgfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tyq9YAEw1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凉快团",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a93afa0b42e5c5440993c4c956b11440b96b9c709dc3b89ed8f02defe2e57e35",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

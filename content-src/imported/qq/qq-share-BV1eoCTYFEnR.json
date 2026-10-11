@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eoCTYFEnR",
+  "schemaVersion": 1,
+  "title": "分享 · 篠澤広 - 痛って。",
+  "date": "2024-12-25",
+  "createdAt": "2024-12-25T05:18:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "妙啊",
+  "text": "妙啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eoCTYFEnR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eoCTYFEnR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc1257b29e539c56fa634d360cba5718c88d2758f8ba536befce3c454950a62c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eoCTYFEnR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc1257b29e539c56fa634d360cba5718c88d2758f8ba536befce3c454950a62c.jpg",
+    "title": "篠澤広 - 痛って。"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc1257b29e539c56fa634d360cba5718c88d2758f8ba536befce3c454950a62c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fajdabfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eoCTYFEnR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ちや",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8a68c4b825a829ffca18768885729a87840e565c393dd8dd8bd6bcf35c121196",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVZlFJIQoAcGhv",
+  "schemaVersion": 1,
+  "title": "分享 · 得回坑了吗",
+  "date": "2024-12-12",
+  "createdAt": "2024-12-12T12:38:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "得回坑了吗",
+  "text": "得回坑了吗",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVZlFJIQoAcGhv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVZlFJIQoAcGhv&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVZlFJIQoAcGhv",
+    "coverUrl": "",
+    "title": "得回坑了吗"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb03ed95a6744a40d00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVZlFJIQoAcGhv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "60070f5aada523d4f30c56146367d1780d968c74b6f302b8c0e9b4163314a18d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

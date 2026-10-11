@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1FtikYHERy",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】长月葵教你扇耳光【长月葵的Streaming Club#4 ダイジェスト】",
+  "date": "2024-12-07",
+  "createdAt": "2024-12-07T05:40:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "也是一种传承(",
+  "text": "也是一种传承(",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FtikYHERy",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1FtikYHERy&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28bb6e770ac771e804b5c179595b1cf7ff7341df8fac5af73ec733a30e86a8ac.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1FtikYHERy",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28bb6e770ac771e804b5c179595b1cf7ff7341df8fac5af73ec733a30e86a8ac.jpg",
+    "title": "【中字】长月葵教你扇耳光【长月葵的Streaming Club#4 ダイジェスト】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28bb6e770ac771e804b5c179595b1cf7ff7341df8fac5af73ec733a30e86a8ac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdaaffddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1FtikYHERy",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "pokt",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3b6a780a4b5458e6833941b8dd2937fffe05517b91bd8d9727cd0d9bd6e1db52",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

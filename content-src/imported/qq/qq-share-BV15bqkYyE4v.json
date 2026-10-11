@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15bqkYyE4v",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作单品】魔法少女与巧克力",
+  "date": "2024-12-11",
+  "createdAt": "2024-12-11T13:04:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神！",
+  "text": "神！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15bqkYyE4v",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15bqkYyE4v&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a5adea03fb1a1812998d7984d1dfb9d211f3d27f2b27bd88aa08b11e93eb061.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15bqkYyE4v",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a5adea03fb1a1812998d7984d1dfb9d211f3d27f2b27bd88aa08b11e93eb061.jpg",
+    "title": "【合作单品】魔法少女与巧克力"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2a5adea03fb1a1812998d7984d1dfb9d211f3d27f2b27bd88aa08b11e93eb061.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agcccjddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15bqkYyE4v",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b62e286dabde35d181d660a76f5437fdc3ad73df43e182d40f79eb00866a53eb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

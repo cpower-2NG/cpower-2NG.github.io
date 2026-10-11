@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KS6JYkEst",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】谱写我们的故事！冬日音MAD合作",
+  "date": "2025-01-01",
+  "createdAt": "2025-01-01T15:07:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "新年第一天就有这样的神合作",
+  "text": "新年第一天就有这样的神合作",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KS6JYkEst",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KS6JYkEst&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9040cb1c04436efa4980768cc0dbb8742cf3e4ead611eb4c0e96559699776ff3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KS6JYkEst",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9040cb1c04436efa4980768cc0dbb8742cf3e4ead611eb4c0e96559699776ff3.jpg",
+    "title": "【合作】谱写我们的故事！冬日音MAD合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9040cb1c04436efa4980768cc0dbb8742cf3e4ead611eb4c0e96559699776ff3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "deaeehfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KS6JYkEst",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "RENZ557",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cd8a60e76c927ed2f5417bf926bfcac9d14e4b02d496ef4b72e21e0750288357",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

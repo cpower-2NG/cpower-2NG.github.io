@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cK6pYzEEB",
+  "schemaVersion": 1,
+  "title": "分享 · 【雾透黑】 Bloomy! 偶像大师闪耀色彩 SC 翻唱",
+  "date": "2025-01-01",
+  "createdAt": "2025-01-01T14:46:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好像",
+  "text": "好像",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cK6pYzEEB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cK6pYzEEB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d7e93c9071d04991d77a8a0ead8a3c7e341789eb9e6e1ba49115883c4f47d47.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cK6pYzEEB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d7e93c9071d04991d77a8a0ead8a3c7e341789eb9e6e1ba49115883c4f47d47.jpg",
+    "title": "【雾透黑】 Bloomy! 偶像大师闪耀色彩 SC 翻唱"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6d7e93c9071d04991d77a8a0ead8a3c7e341789eb9e6e1ba49115883c4f47d47.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aaicehfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cK6pYzEEB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "黑历劣翻",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3914540c7cfa7864fbd13da2104021d90ba6ca827e47776e061cd75c7d0af11a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Zf93Y6EhR",
+  "schemaVersion": 1,
+  "title": "分享 · 「雪融之时」-有村麻央、月村手毬、仓本千奈|学园偶像大师",
+  "date": "2025-02-28",
+  "createdAt": "2025-02-28T11:13:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好吵？ 自购",
+  "text": "好吵？\n\n自购",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Zf93Y6EhR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zf93Y6EhR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce547bd1454a8989da8402a987c0226587f1dfb3160af8080f53c8c93dfaecc3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Zf93Y6EhR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce547bd1454a8989da8402a987c0226587f1dfb3160af8080f53c8c93dfaecc3.jpg",
+    "title": "「雪融之时」-有村麻央、月村手毬、仓本千奈|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce547bd1454a8989da8402a987c0226587f1dfb3160af8080f53c8c93dfaecc3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jibbehaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Zf93Y6EhR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7de52c612066d0ada77a4154eb3659e51c6cc07019a4bf8c132b702896ae4324",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

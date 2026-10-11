@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18962Y9EPV",
+  "schemaVersion": 1,
+  "title": "分享 · 【芹泽朝日】サイエンス【描改】",
+  "date": "2025-01-06",
+  "createdAt": "2025-01-06T11:18:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神！ 甜甜圈洞。",
+  "text": "神！\n\n甜甜圈洞。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18962Y9EPV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18962Y9EPV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2935a0f796c5c188947d7b6d0d79eb17d11b64bba0139a11221fa90d5d6b3a68.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18962Y9EPV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2935a0f796c5c188947d7b6d0d79eb17d11b64bba0139a11221fa90d5d6b3a68.jpg",
+    "title": "【芹泽朝日】サイエンス【描改】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2935a0f796c5c188947d7b6d0d79eb17d11b64bba0139a11221fa90d5d6b3a68.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajccgbgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18962Y9EPV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "负极来电",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "09bcae3995b85e801ca2a361a0039af925e4d1250eaf646f008ed3f9995bb2e1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

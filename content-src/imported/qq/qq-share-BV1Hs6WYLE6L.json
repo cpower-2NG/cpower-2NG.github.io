@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hs6WYLE6L",
+  "schemaVersion": 1,
+  "title": "分享 · 世界第一可爱的我 / 市川雏菜【人力VOCALOID】仅副歌",
+  "date": "2025-01-01",
+  "createdAt": "2025-01-01T14:49:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不是人力而是神力了（）",
+  "text": "不是人力而是神力了（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hs6WYLE6L",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hs6WYLE6L&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec744ba0be54230a721157c736793b10f3f92cd0c480724acdadbeaa8f4917a2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hs6WYLE6L",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec744ba0be54230a721157c736793b10f3f92cd0c480724acdadbeaa8f4917a2.jpg",
+    "title": "世界第一可爱的我 / 市川雏菜【人力VOCALOID】仅副歌"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec744ba0be54230a721157c736793b10f3f92cd0c480724acdadbeaa8f4917a2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fejcehfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hs6WYLE6L",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "账号已注销",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "100a346d06ba1be9d061819e623137c3fd2f13df0b37e5eb0118f3686977c4c2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

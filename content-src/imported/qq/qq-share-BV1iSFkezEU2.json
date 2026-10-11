@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iSFkezEU2",
+  "schemaVersion": 1,
+  "title": "分享 · MY FIRST YTPMV",
+  "date": "2025-02-13",
+  "createdAt": "2025-02-13T01:50:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "丰盛的不像ytpmv",
+  "text": "丰盛的不像ytpmv",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iSFkezEU2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iSFkezEU2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1fa19f79ce57f5cbc2e49db4d28eecd59a99e21f6f073f04e8ed38cb3aaea086.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iSFkezEU2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1fa19f79ce57f5cbc2e49db4d28eecd59a99e21f6f073f04e8ed38cb3aaea086.jpg",
+    "title": "MY FIRST YTPMV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1fa19f79ce57f5cbc2e49db4d28eecd59a99e21f6f073f04e8ed38cb3aaea086.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbebbejdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iSFkezEU2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "__四七二十八__",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9fdbb1c8cfca656e7e86134e97cda533553c9e5d24b52d6187c00defede472e6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

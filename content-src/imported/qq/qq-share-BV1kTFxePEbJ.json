@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kTFxePEbJ",
+  "schemaVersion": 1,
+  "title": "分享 · 《孤勇者》陈奕迅玩音mad，携手奥运健儿合唱【总台春晚】",
+  "date": "2025-01-28",
+  "createdAt": "2025-01-28T14:57:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "春晚音mad单品",
+  "text": "春晚音mad单品",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kTFxePEbJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kTFxePEbJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ceeb95748cb269b1c0304a510f4841163a0647749dc699b5ee866946aa45894.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kTFxePEbJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ceeb95748cb269b1c0304a510f4841163a0647749dc699b5ee866946aa45894.png",
+    "title": "《孤勇者》陈奕迅玩音mad，携手奥运健儿合唱【总台春晚】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ceeb95748cb269b1c0304a510f4841163a0647749dc699b5ee866946aa45894.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdcghaidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kTFxePEbJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "春晚",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "97fc0a4f6fe7b5af2155e368aa24ab63dcc3836c50509c1e4beac6f27e284ac1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1d4FDe4Efe",
+  "schemaVersion": 1,
+  "title": "分享 · ScienceCraft",
+  "date": "2025-02-01",
+  "createdAt": "2025-02-01T06:24:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神作来袭",
+  "text": "神作来袭",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d4FDe4Efe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1d4FDe4Efe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e960cc0852b551c77751660dfd495c6b9af51d3d6a30bb1f12d89167dd8217f0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1d4FDe4Efe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e960cc0852b551c77751660dfd495c6b9af51d3d6a30bb1f12d89167dd8217f0.jpg",
+    "title": "ScienceCraft"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e960cc0852b551c77751660dfd495c6b9af51d3d6a30bb1f12d89167dd8217f0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijabjdidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1d4FDe4Efe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Voidazure",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ffb36fe34942be6e09db2b82e0efc58f556923da70e0b79a01037051d434a605",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

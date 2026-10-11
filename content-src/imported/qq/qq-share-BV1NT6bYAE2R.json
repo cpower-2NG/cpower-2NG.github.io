@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NT6bYAE2R",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】偶像大师 2024年会",
+  "date": "2024-12-29",
+  "createdAt": "2024-12-29T11:30:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "累了吧，来看看年会吗，这份感动的安定感",
+  "text": "累了吧，来看看年会吗，这份感动的安定感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NT6bYAE2R",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NT6bYAE2R&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff067358b71861fd145df5e55532e72c215b9532c3cc83a431c5889509a201e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NT6bYAE2R",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff067358b71861fd145df5e55532e72c215b9532c3cc83a431c5889509a201e.jpg",
+    "title": "【中字】偶像大师 2024年会"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff067358b71861fd145df5e55532e72c215b9532c3cc83a431c5889509a201e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ieibhefdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NT6bYAE2R",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3e4033a802e2af312803b52eb3313b6c6a65e9363b4cae97c156882ac85438de",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

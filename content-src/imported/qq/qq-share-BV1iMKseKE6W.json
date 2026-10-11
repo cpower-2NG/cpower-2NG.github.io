@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iMKseKE6W",
+  "schemaVersion": 1,
+  "title": "分享 · 【全熟】钉宫：MASTERPIECE是首需要体力的歌（MOR68钉宫理惠嘉宾）",
+  "date": "2025-02-13",
+  "createdAt": "2025-02-13T12:12:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "刚开始就泪目了",
+  "text": "刚开始就泪目了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iMKseKE6W",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iMKseKE6W&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/20f8ef7a1b5d6e802c61dc7cf8e716a91607d7829eae7c45f23f6839abf6a126.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iMKseKE6W",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/20f8ef7a1b5d6e802c61dc7cf8e716a91607d7829eae7c45f23f6839abf6a126.jpg",
+    "title": "【全熟】钉宫：MASTERPIECE是首需要体力的歌（MOR68钉宫理惠嘉宾）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/20f8ef7a1b5d6e802c61dc7cf8e716a91607d7829eae7c45f23f6839abf6a126.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdhieejdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iMKseKE6W",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kazanari_某瓶",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "50b109db5e01bcc73045bdb1713658cada9fdfbfdd9f6c004ef0165734718f42",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

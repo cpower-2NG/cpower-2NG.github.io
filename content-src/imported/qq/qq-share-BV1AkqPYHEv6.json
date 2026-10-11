@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AkqPYHEv6",
+  "schemaVersion": 1,
+  "title": "分享 · 和李在明一起玩偶像梦幻祭吧～",
+  "date": "2024-12-11",
+  "createdAt": "2024-12-11T12:53:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这下知道为什么佐藤心要干涉○○○○了（ -",
+  "text": "这下知道为什么佐藤心要干涉○○○○了（\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AkqPYHEv6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AkqPYHEv6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c95d34834fcd48b14906a208807da1f99b2df6152145d53d45fe703070938df7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AkqPYHEv6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c95d34834fcd48b14906a208807da1f99b2df6152145d53d45fe703070938df7.jpg",
+    "title": "和李在明一起玩偶像梦幻祭吧～"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c95d34834fcd48b14906a208807da1f99b2df6152145d53d45fe703070938df7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aifbcjddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AkqPYHEv6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "飞鸟asuka飛鳥",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fec698f8f667b15c0f309960b9c62edecd02a617af95676b0baa4164f3f82e44",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

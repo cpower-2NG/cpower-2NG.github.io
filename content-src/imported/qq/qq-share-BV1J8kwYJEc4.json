@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1J8kwYJEc4",
+  "schemaVersion": 1,
+  "title": "分享 · 【MAD】Runaway Baby",
+  "date": "2024-12-21",
+  "createdAt": "2024-12-21T15:59:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "舞曲好啊，伊织变换那卡太懂了",
+  "text": "舞曲好啊，伊织变换那卡太懂了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1J8kwYJEc4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1J8kwYJEc4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e4d8e93563fc94b8689d4791b2110d10930ef5441f1f71cc07eecd7592fac83.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1J8kwYJEc4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e4d8e93563fc94b8689d4791b2110d10930ef5441f1f71cc07eecd7592fac83.jpg",
+    "title": "【MAD】Runaway Baby"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e4d8e93563fc94b8689d4791b2110d10930ef5441f1f71cc07eecd7592fac83.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dihgjhedhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1J8kwYJEc4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "85cc2efe564bb228068e95768fce204837a9fc7d1aba34d6c3c25d8bf0fea4f7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1JqNUe6ELo",
+  "schemaVersion": 1,
+  "title": "分享 · ……你，和LOVE 2000是什么关系？",
+  "date": "2025-02-10",
+  "createdAt": "2025-02-10T02:25:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，怎么出系列作了",
+  "text": "草，怎么出系列作了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JqNUe6ELo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JqNUe6ELo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a015b9e08e077de739219f5c9b9a816d2c3925efe4174ba5ad30ce70f2d616e5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JqNUe6ELo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a015b9e08e077de739219f5c9b9a816d2c3925efe4174ba5ad30ce70f2d616e5.jpg",
+    "title": "……你，和LOVE 2000是什么关系？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a015b9e08e077de739219f5c9b9a816d2c3925efe4174ba5ad30ce70f2d616e5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bbdefbjdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JqNUe6ELo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "296533a6bcd9ef03ee62126b9b7951706dc474e43543438d6c64071caf45bde2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

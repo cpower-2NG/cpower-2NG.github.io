@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1XXwTeqEKJ",
+  "schemaVersion": 1,
+  "title": "分享 · Lost In 祥子",
+  "date": "2025-01-19",
+  "createdAt": "2025-01-19T14:46:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "怎么就你不一样（",
+  "text": "怎么就你不一样（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XXwTeqEKJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XXwTeqEKJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8903833fb361850bceab383f8756d3ac43545dc28964d56c6b08c4a4ebc1a12c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1XXwTeqEKJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8903833fb361850bceab383f8756d3ac43545dc28964d56c6b08c4a4ebc1a12c.jpg",
+    "title": "Lost In 祥子"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8903833fb361850bceab383f8756d3ac43545dc28964d56c6b08c4a4ebc1a12c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ggjhjchdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1XXwTeqEKJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "糸见结希",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0c461a0cdf48e012e8f1c8bf086b746927ef318daa4e7a70d6aa992a63706f3f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

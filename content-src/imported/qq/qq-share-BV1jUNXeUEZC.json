@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jUNXeUEZC",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】学园偶像大师 初星篇 剧情第四章第7话",
+  "date": "2025-02-10",
+  "createdAt": "2025-02-10T04:55:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "何其美味",
+  "text": "何其美味",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jUNXeUEZC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jUNXeUEZC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d290baf5bf09f3e16c6cdd1b1814d5cf31cb879a45a605719ccd8d648bddaf48.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jUNXeUEZC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d290baf5bf09f3e16c6cdd1b1814d5cf31cb879a45a605719ccd8d648bddaf48.jpg",
+    "title": "【中字】学园偶像大师 初星篇 剧情第四章第7话"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d290baf5bf09f3e16c6cdd1b1814d5cf31cb879a45a605719ccd8d648bddaf48.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebddgbjdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jUNXeUEZC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "69f96478a5d6b5d64a634994c279701d7d8f5aba47318a69cf4b4d03ab6ae2a0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NkBcYmEpK",
+  "schemaVersion": 1,
+  "title": "分享 · 繪ほんの中には 春香SoloLive&EXPOday1感想回 【中村绘里子】",
+  "date": "2024-12-20",
+  "createdAt": "2024-12-20T15:56:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真实存在的！ 繪ほんの中には",
+  "text": "真实存在的！\n\n繪ほんの中には",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NkBcYmEpK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NkBcYmEpK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7380b507fec693d095199e5fb8eaf823915df50dae357bc7dbabe83a37bad6ad.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NkBcYmEpK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7380b507fec693d095199e5fb8eaf823915df50dae357bc7dbabe83a37bad6ad.jpg",
+    "title": "繪ほんの中には 春香SoloLive&EXPOday1感想回 【中村绘里子】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7380b507fec693d095199e5fb8eaf823915df50dae357bc7dbabe83a37bad6ad.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agbabhedhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NkBcYmEpK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1692a893995c33b7524677f388c80c1c7300218898ed89c97ef90d9e9006467d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

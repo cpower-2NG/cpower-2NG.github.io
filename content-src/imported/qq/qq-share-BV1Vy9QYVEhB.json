@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Vy9QYVEhB",
+  "schemaVersion": 1,
+  "title": "分享 · 【音MAD】世界如此可爱~",
+  "date": "2025-03-11",
+  "createdAt": "2025-03-11T14:04:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好久没听到这么正的midi系（？）音骂了",
+  "text": "好久没听到这么正的midi系（？）音骂了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Vy9QYVEhB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Vy9QYVEhB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a5a1e40e0503c5517b78a11d702a587023d348d18c8db8effaa52bf019b59d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Vy9QYVEhB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a5a1e40e0503c5517b78a11d702a587023d348d18c8db8effaa52bf019b59d.jpg",
+    "title": "【音MAD】世界如此可爱~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a5a1e40e0503c5517b78a11d702a587023d348d18c8db8effaa52bf019b59d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bhibahbehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Vy9QYVEhB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Flowzy",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b141bf3c31d8bd843d57c936607e0898ff4921f776fb89ccb1120d8db81dab39",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

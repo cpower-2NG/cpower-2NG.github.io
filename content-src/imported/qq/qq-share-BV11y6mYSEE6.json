@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11y6mYSEE6",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】M@STER EXPO LIVE SHOWCASE MILLION STAGE",
+  "date": "2025-01-06",
+  "createdAt": "2025-01-06T12:51:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好啊",
+  "text": "真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11y6mYSEE6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11y6mYSEE6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdbc34b39469c6f5e1daf9ea5e71a4eafc5a63d50786235f9e5460ed5a4acf8c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11y6mYSEE6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdbc34b39469c6f5e1daf9ea5e71a4eafc5a63d50786235f9e5460ed5a4acf8c.jpg",
+    "title": "【中字】M@STER EXPO LIVE SHOWCASE MILLION STAGE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cdbc34b39469c6f5e1daf9ea5e71a4eafc5a63d50786235f9e5460ed5a4acf8c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jiihgbgdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11y6mYSEE6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "森野千里",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e78cbdc48f6c61610b4aea564022d8d55553f1476c43612ccea5a819c9a40c15",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

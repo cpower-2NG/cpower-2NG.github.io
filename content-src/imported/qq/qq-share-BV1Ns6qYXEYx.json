@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ns6qYXEYx",
+  "schemaVersion": 1,
+  "title": "分享 · 樊振东：见过大场面但没见过这场面",
+  "date": "2025-01-04",
+  "createdAt": "2025-01-04T04:25:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神经病啊 -蝴蝶新物料",
+  "text": "神经病啊\n\n-蝴蝶新物料",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ns6qYXEYx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ns6qYXEYx&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/a57747209e70941434fc56cd3ade5f308e1c1334.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ns6qYXEYx",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/a57747209e70941434fc56cd3ade5f308e1c1334.jpg",
+    "title": "樊振东：见过大场面但没见过这场面"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/a57747209e70941434fc56cd3ade5f308e1c1334.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aehegjfdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ns6qYXEYx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "神以陶瓷为杯",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8ec5006939087713394d9e76f5c20b64756f43b3f50feb3887d76371661cd3c1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

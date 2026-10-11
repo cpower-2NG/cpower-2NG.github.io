@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PyXWY1EVT",
+  "schemaVersion": 1,
+  "title": "分享 · 【星街すいせい】Caramel Pain 原创曲MV",
+  "date": "2025-03-23",
+  "createdAt": "2025-03-23T06:13:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好神",
+  "text": "好神",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PyXWY1EVT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PyXWY1EVT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cca6e6bbd3431113f69710a55d0fda6b9c49c4f40fa829117e90ce3a743c5efb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PyXWY1EVT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cca6e6bbd3431113f69710a55d0fda6b9c49c4f40fa829117e90ce3a743c5efb.jpg",
+    "title": "【星街すいせい】Caramel Pain 原创曲MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cca6e6bbd3431113f69710a55d0fda6b9c49c4f40fa829117e90ce3a743c5efb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejdabhcehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PyXWY1EVT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "我妻_由乃poi",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f4f878992fbb9d4b4b7dd218882187b5464f89c0e46c6f942d0baccbef0ee30d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NCFAe3E9A",
+  "schemaVersion": 1,
+  "title": "分享 · （切）eri太拼命了",
+  "date": "2025-01-27",
+  "createdAt": "2025-01-27T14:18:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "啊啊，迷光的关系性 我这eri噶居然没切过eri",
+  "text": "啊啊，迷光的关系性\n\n我这eri噶居然没切过eri",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NCFAe3E9A",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NCFAe3E9A&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2b5d4ebdb9482ebb9958b674bde0730fe6fd879f26e8d934aacc57f5fdb3c38.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NCFAe3E9A",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2b5d4ebdb9482ebb9958b674bde0730fe6fd879f26e8d934aacc57f5fdb3c38.jpg",
+    "title": "（切）eri太拼命了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2b5d4ebdb9482ebb9958b674bde0730fe6fd879f26e8d934aacc57f5fdb3c38.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdfhijhdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NCFAe3E9A",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "虓只是昵称",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f39a8d20b12ea1b7a2a8d21e443dce66112000b5f0e5b2ba995127fe3942263",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

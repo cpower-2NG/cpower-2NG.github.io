@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KWwrexE96",
+  "schemaVersion": 1,
+  "title": "分享 · LOVE2000２",
+  "date": "2025-01-19",
+  "createdAt": "2025-01-19T14:22:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这一定是有预谋的行动",
+  "text": "这一定是有预谋的行动",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KWwrexE96",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KWwrexE96&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/241ddb902f66a69d32406ff499e1a85f8ff35c3ea6a8c8cf085d177d5eb54641.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KWwrexE96",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/241ddb902f66a69d32406ff499e1a85f8ff35c3ea6a8c8cf085d177d5eb54641.jpg",
+    "title": "LOVE2000２"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/241ddb902f66a69d32406ff499e1a85f8ff35c3ea6a8c8cf085d177d5eb54641.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdfgjchdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KWwrexE96",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e7de1f116b259240bc4efd4386cb76692def1fc5ca3f97695359b1130f31cf8a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nsNgeNE4h",
+  "schemaVersion": 1,
+  "title": "分享 · 可以 更多 褒奖我吗？",
+  "date": "2025-03-02",
+  "createdAt": "2025-03-02T02:12:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草",
+  "text": "草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nsNgeNE4h",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nsNgeNE4h&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db2ab2edc0d962625442273f10cb10b6117c84f324720b7534665a1201550493.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nsNgeNE4h",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db2ab2edc0d962625442273f10cb10b6117c84f324720b7534665a1201550493.jpg",
+    "title": "可以 更多 褒奖我吗？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db2ab2edc0d962625442273f10cb10b6117c84f324720b7534665a1201550493.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdfbiiaehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nsNgeNE4h",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Alice-Marisa",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c68b59831a25e411644f53671b1337ec4080a91d1b55611af4ab23e960d3568c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

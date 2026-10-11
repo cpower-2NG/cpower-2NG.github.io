@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UWAKeaEc4",
+  "schemaVersion": 1,
+  "title": "分享 · Fujitar Kotoner",
+  "date": "2025-02-17",
+  "createdAt": "2025-02-17T15:00:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "编排太神了",
+  "text": "编排太神了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UWAKeaEc4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UWAKeaEc4&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/21ef0177f9b6c83e42d66b9a3969782cf919041a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UWAKeaEc4",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/21ef0177f9b6c83e42d66b9a3969782cf919041a.jpg",
+    "title": "Fujitar Kotoner"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/21ef0177f9b6c83e42d66b9a3969782cf919041a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "feeeaijdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UWAKeaEc4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f0c5abcf5b8149cea00e15fcc655a1614979046b50dff6b981e1f3a8a3093baa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

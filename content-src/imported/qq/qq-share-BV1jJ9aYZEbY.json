@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jJ9aYZEbY",
+  "schemaVersion": 1,
+  "title": "分享 · 汉斯：被亨利攻略了怎么不找找自己问题",
+  "date": "2025-03-03",
+  "createdAt": "2025-03-03T15:48:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草死",
+  "text": "草死",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jJ9aYZEbY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jJ9aYZEbY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca936446aa4863a4702542ad26816b8b09cf087507b3a7dd37cddb92a3feb345.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jJ9aYZEbY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca936446aa4863a4702542ad26816b8b09cf087507b3a7dd37cddb92a3feb345.jpg",
+    "title": "汉斯：被亨利攻略了怎么不找找自己问题"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca936446aa4863a4702542ad26816b8b09cf087507b3a7dd37cddb92a3feb345.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibjgbabehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jJ9aYZEbY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "这个小鸿",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "274adbac57de15fbd46ee5fb092fa464e28f4c9affb49f43f06681c3ae20ad60",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

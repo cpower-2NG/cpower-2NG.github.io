@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nLXzYDEVp",
+  "schemaVersion": 1,
+  "title": "分享 · 葛城莉莉娅 solo2「極光」4K HDR【学園偶像大师/初星学園 真结局 MV】",
+  "date": "2025-03-21",
+  "createdAt": "2025-03-21T13:58:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "等一手live",
+  "text": "等一手live",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nLXzYDEVp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nLXzYDEVp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e878aac44cc838e5d5dab8f33fb6778157d53067c78ec75e4e6b3c2cf54b957.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nLXzYDEVp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e878aac44cc838e5d5dab8f33fb6778157d53067c78ec75e4e6b3c2cf54b957.jpg",
+    "title": "葛城莉莉娅 solo2「極光」4K HDR【学園偶像大师/初星学園 真结局 MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e878aac44cc838e5d5dab8f33fb6778157d53067c78ec75e4e6b3c2cf54b957.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdffgfcehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nLXzYDEVp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36ba477836796a4205a0acde33884c984d7f41de60d69fe7714a74565295a586",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

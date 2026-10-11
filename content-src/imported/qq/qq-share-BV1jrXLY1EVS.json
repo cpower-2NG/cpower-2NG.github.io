@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jrXLY1EVS",
+  "schemaVersion": 1,
+  "title": "分享 · 「コンテンポラリのダンス（当世之舞）」-筱泽広|学园偶像大师",
+  "date": "2025-03-18",
+  "createdAt": "2025-03-18T13:40:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "至福 自购",
+  "text": "至福\n\n自购",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jrXLY1EVS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jrXLY1EVS&high_quality=1&danmaku=0",
+    "cover": "https://i0.hdslb.com/bfs/archive/1281fa9099342b239098033bed931730ff4325b7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jrXLY1EVS",
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/1281fa9099342b239098033bed931730ff4325b7.jpg",
+    "title": "「コンテンポラリのダンス（当世之舞）」-筱泽広|学园偶像大师"
+  },
+  "cover": "https://i0.hdslb.com/bfs/archive/1281fa9099342b239098033bed931730ff4325b7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbcfadcehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jrXLY1EVS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e91fe6184efe51bb2df29d5dd45f2797e61702c6618709269a0e591452d9301a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

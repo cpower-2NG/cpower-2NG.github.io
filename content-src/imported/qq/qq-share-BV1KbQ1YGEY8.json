@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KbQ1YGEY8",
+  "schemaVersion": 1,
+  "title": "分享 · 《少女乐队的呐喊》官方MV「爆ぜて咲く」中文字幕（爆裂绽放）",
+  "date": "2025-03-15",
+  "createdAt": "2025-03-15T10:01:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "官方？！",
+  "text": "官方？！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KbQ1YGEY8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KbQ1YGEY8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7177912df95ba8587f190bd65fa40f588865c19bd83e2815defe5f343c7d28d2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KbQ1YGEY8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7177912df95ba8587f190bd65fa40f588865c19bd83e2815defe5f343c7d28d2.jpg",
+    "title": "《少女乐队的呐喊》官方MV「爆ぜて咲く」中文字幕（爆裂绽放）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7177912df95ba8587f190bd65fa40f588865c19bd83e2815defe5f343c7d28d2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjicdacehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KbQ1YGEY8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "少女乐队的呐喊官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "df3247b314bf2c58101d9bae42e78daca5a669c7eff65d2d577257b8a93acdaa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

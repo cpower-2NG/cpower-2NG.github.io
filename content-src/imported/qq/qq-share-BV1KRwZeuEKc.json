@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KRwZeuEKc",
+  "schemaVersion": 1,
+  "title": "分享 · 【ゲスト：長月あおい】飯田ヒカルのヒカROOM#17",
+  "date": "2025-02-18",
+  "createdAt": "2025-02-18T13:44:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "🥰 nico",
+  "text": "🥰\n\nnico",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KRwZeuEKc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KRwZeuEKc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29621dc6a2358f40f400a7145eda9b02aa8021120f2e18f9296f3e5a8b68f07d.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KRwZeuEKc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29621dc6a2358f40f400a7145eda9b02aa8021120f2e18f9296f3e5a8b68f07d.png",
+    "title": "【ゲスト：長月あおい】飯田ヒカルのヒカROOM#17"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29621dc6a2358f40f400a7145eda9b02aa8021120f2e18f9296f3e5a8b68f07d.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aicgiijdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KRwZeuEKc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "女声优加推小助手kuma",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e640706cadf0cbdc1141f9b2f28b1f5900b985272b98747f0165e3884dab6a37",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

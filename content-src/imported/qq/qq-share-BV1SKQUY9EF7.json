@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SKQUY9EF7",
+  "schemaVersion": 1,
+  "title": "分享 · 抵抗是MuDancer",
+  "date": "2025-03-15",
+  "createdAt": "2025-03-15T11:52:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "节奏控制得好可爱",
+  "text": "节奏控制得好可爱",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SKQUY9EF7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SKQUY9EF7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f27937e72784235acb5c0d8c34993319a641f6d7d2d56a3643d34c122cce8d3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SKQUY9EF7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f27937e72784235acb5c0d8c34993319a641f6d7d2d56a3643d34c122cce8d3.jpg",
+    "title": "抵抗是MuDancer"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f27937e72784235acb5c0d8c34993319a641f6d7d2d56a3643d34c122cce8d3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahfjdacehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SKQUY9EF7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0ce9e143df5897b47f1f7acc990a596cac7caf4b70741a04a82115b910c7f989",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

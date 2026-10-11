@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1xPFTeWEkH",
+  "schemaVersion": 1,
+  "title": "分享 · 开始爆发了\n\n开头没做出BV11J411b7kZ的感觉",
+  "date": "2025-01-30",
+  "createdAt": "2025-01-30T00:57:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "开始爆发了 开头没做出BV11J411b7kZ的感觉",
+  "text": "开始爆发了\n\n开头没做出BV11J411b7kZ的感觉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xPFTeWEkH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xPFTeWEkH&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xPFTeWEkH",
+    "coverUrl": "",
+    "title": "开始爆发了\n\n开头没做出BV11J411b7kZ的感觉"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cggijbidhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xPFTeWEkH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cfd5ca14f3adfea8b29b97b225bfcf9adccb5be8bbf86d3627e010f08edbe6f4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
