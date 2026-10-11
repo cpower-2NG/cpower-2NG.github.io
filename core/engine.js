@@ -803,6 +803,7 @@
           ${renderDailyPager(rest.length)}
         </div>
         <aside class="daily-gutter" aria-label="动态流导航">
+          <button class="daily-gutter__btn" type="button" data-gutter-top>↑<span>回到顶部</span></button>
           <div class="daily-gutter__page">
             <span class="daily-gutter__label">跳到页</span>
             <div class="daily-gutter__jump">
@@ -811,7 +812,6 @@
             </div>
             <span class="daily-gutter__total" data-gutter-total>共 ${Math.max(1, Math.ceil(rest.length / DAILY_BATCH))} 页</span>
           </div>
-          <button class="daily-gutter__btn" type="button" data-gutter-top>↑<span>回到顶部</span></button>
           <button class="daily-gutter__btn" type="button" data-gutter-bottom>↓<span>跳到底部</span></button>
         </aside>
       </div>
