@@ -365,19 +365,31 @@ function decodeHtmlEntities(value) {
 }
 
 /**
- * 从 feeds_html_module 的 HTML 里提取含 B 站视频卡片的转发条目。
+ * 从 feeds_html_module / feeds_html_act_all 的 HTML 里提取视频卡片转发
+ * （appid 202 / feedstype 100）。act_all 的 HTML 是 JS 转义形式，先反转义；
+ * 普通说说（appid 311）即使含 B 站链接也不提取——那些由 msglist 主流程覆盖。
  * 返回与 extractBilibiliShares 同形状的条目（shareId 用 data-fkey）。
  */
 export function extractWupShares(html) {
-  const text = String(html || '');
+  let text = String(html || '');
   if (!text) return [];
+  // act_all 的响应是 JS 转义形式（\x3C= <、\x22= "、\/= /）
+  text = text
+    .replace(/\\x3C/gi, '<')
+    .replace(/\\x3E/gi, '>')
+    .replace(/\\x22/g, '"')
+    .replace(/\\\//g, '/')
+    .replace(/\\n/g, ' ')
+    .replace(/\\t/g, ' ');
   const found = [];
   const seen = new Set();
   // 按条目切块：f-single 的 li 到下一个 li 之前。
   const blocks = text.split(/<li class="f-single[^"]*"/).slice(1);
   for (const block of blocks) {
     const bvid = block.match(/BV[A-Za-z0-9]{8,12}/)?.[0];
-    if (!bvid) continue; // 普通说说/无视频卡片的条目走主同步流程。
+    if (!bvid) continue;
+    // 视频卡片标记：条目 id 含 _202_（appid）或 data-feedstype="100"。
+    if (!/_202_|data-feedstype="100"/.test(block)) continue;
     const fkey = block.match(/data-fkey="([^"]+)"/)?.[1];
     const abstime = block.match(/data-abstime="(\d+)"/)?.[1];
     const authorId = block.match(/data-uin="(\d+)"/)?.[1] || '';
@@ -390,7 +402,7 @@ export function extractWupShares(html) {
     if (seen.has(shareId)) continue;
     seen.add(shareId);
     // 清掉跟踪参数，保留干净的观众链接。
-    let url = rawUrl ? decodeHtmlEntities(rawUrl.split('?')[0]) : `https://www.bilibili.com/video/${bvid}`;
+    const url = rawUrl ? decodeHtmlEntities(rawUrl.split('?')[0]) : `https://www.bilibili.com/video/${bvid}`;
     found.push({
       shareId,
       text: [reason, originText].filter(Boolean).join('\n\n'),
