@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17V4y1e7FU",
+  "schemaVersion": 1,
+  "title": "分享 · Glow Map × 途中下车系列【铁道M@ster】",
+  "date": "2025-07-16",
+  "createdAt": "2025-07-16T14:43:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好suang啊",
+  "text": "好suang啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17V4y1e7FU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17V4y1e7FU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c795f1ce44cca0a9bcb55fc993a800d7904350aa9016bb8b39789063065561d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17V4y1e7FU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c795f1ce44cca0a9bcb55fc993a800d7904350aa9016bb8b39789063065561d.jpg",
+    "title": "Glow Map × 途中下车系列【铁道M@ster】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c795f1ce44cca0a9bcb55fc993a800d7904350aa9016bb8b39789063065561d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcahhgcfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17V4y1e7FU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "莎奈亚林德",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d8e5ebb9378583044fdaa8a4d5e40738fa544bf78c182751dd76ae9aab631a04",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

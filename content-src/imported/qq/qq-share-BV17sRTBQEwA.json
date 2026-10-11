@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17sRTBQEwA",
+  "schemaVersion": 1,
+  "title": "分享 · 第1回『新幹線変形ロボ シンカリオン』キャスト同窓会【佐倉綾音・沼倉愛美・村川梨衣】",
+  "date": "2026-05-02",
+  "createdAt": "2026-05-02T15:45:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "谁？",
+  "text": "谁？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17sRTBQEwA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17sRTBQEwA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d96ba1380fb75204ea0cd9b8afba80d66be64e91f45aec795f3be99d647c2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17sRTBQEwA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d96ba1380fb75204ea0cd9b8afba80d66be64e91f45aec795f3be99d647c2.jpg",
+    "title": "第1回『新幹線変形ロボ シンカリオン』キャスト同窓会【佐倉綾音・沼倉愛美・村川梨衣】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d96ba1380fb75204ea0cd9b8afba80d66be64e91f45aec795f3be99d647c2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eehgdhhhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17sRTBQEwA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Aisua",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f3d573a26e81eb63440328996f97193ecfafe6148944e3da4019945c44279ea1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

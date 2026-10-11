@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CdoFY9E4Q",
+  "schemaVersion": 1,
+  "title": "分享 · [中字切片]强攻的希水 煽动的秋穗 复仇的恵理",
+  "date": "2025-04-16",
+  "createdAt": "2025-04-16T05:00:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "感谢しおちゃん！",
+  "text": "感谢しおちゃん！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CdoFY9E4Q",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CdoFY9E4Q&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e7b4ed40032916935490b95a85ada4ff9ca17936704dd1afa69fcbc325230cb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CdoFY9E4Q",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e7b4ed40032916935490b95a85ada4ff9ca17936704dd1afa69fcbc325230cb.jpg",
+    "title": "[中字切片]强攻的希水 煽动的秋穗 复仇的恵理"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e7b4ed40032916935490b95a85ada4ff9ca17936704dd1afa69fcbc325230cb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbgjhheehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CdoFY9E4Q",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ヰ世界穗の香",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b41d1aec42ff6baae955a8bc0d1c84ea47fe5e795af13fd2a57a8e009706677c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

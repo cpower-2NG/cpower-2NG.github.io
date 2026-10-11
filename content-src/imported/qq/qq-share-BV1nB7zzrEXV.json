@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1nB7zzrEXV",
+  "schemaVersion": 1,
+  "title": "分享 · 将这份珍贵的光景，铭记于心\n\n啊撒比",
+  "date": "2025-06-01",
+  "createdAt": "2025-06-01T13:32:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "将这份珍贵的光景，铭记于心 啊撒比",
+  "text": "将这份珍贵的光景，铭记于心\n\n啊撒比",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nB7zzrEXV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nB7zzrEXV&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nB7zzrEXV",
+    "coverUrl": "",
+    "title": "将这份珍贵的光景，铭记于心\n\n啊撒比"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcheihiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nB7zzrEXV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "89fa35a42908123ce1ceb71fc8bf982589a5f47c82f9ef93cb817a970e28047c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

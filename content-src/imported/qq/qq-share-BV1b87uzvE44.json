@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1b87uzvE44",
+  "schemaVersion": 1,
+  "title": "分享 · 🍋那一天的百万🥲现场起来，那一天的剧场🥹时光起来🍋",
+  "date": "2025-06-01",
+  "createdAt": "2025-06-01T02:33:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "整挺好",
+  "text": "整挺好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1b87uzvE44",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1b87uzvE44&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac0e566713cab001a43af270fec170f493469493e7ac6c6878445dd0a61fb2a1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1b87uzvE44",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac0e566713cab001a43af270fec170f493469493e7ac6c6878445dd0a61fb2a1.jpg",
+    "title": "🍋那一天的百万🥲现场起来，那一天的剧场🥹时光起来🍋"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ac0e566713cab001a43af270fec170f493469493e7ac6c6878445dd0a61fb2a1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "facfehiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1b87uzvE44",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "JellyTits-7",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9cf8a8e1173050f9814cd30aafcaaf5e52aa0d4efd84f55a665d14983ea3d4d9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

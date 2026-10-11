@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hmxTz9Ezt",
+  "schemaVersion": 1,
+  "title": "分享 · 再生 THE Animation",
+  "date": "2025-10-09",
+  "createdAt": "2025-10-09T14:01:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哇，这也有姊妹篇啊",
+  "text": "哇，这也有姊妹篇啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hmxTz9Ezt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hmxTz9Ezt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/60c8f82b7f6a580ff9b7a7a46d04d9ff202d346518daa1b260989eadaf76470d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hmxTz9Ezt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/60c8f82b7f6a580ff9b7a7a46d04d9ff202d346518daa1b260989eadaf76470d.jpg",
+    "title": "再生 THE Animation"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/60c8f82b7f6a580ff9b7a7a46d04d9ff202d346518daa1b260989eadaf76470d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bgeibaaghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hmxTz9Ezt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Voidazure",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f997921481388888fd252c27af11bbdee133fc8699be688dd7d75f3dd2fd184d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

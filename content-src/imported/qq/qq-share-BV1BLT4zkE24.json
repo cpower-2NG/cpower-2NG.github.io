@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1BLT4zkE24",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】Harmony Star DAY1 公演舞台裏映像",
+  "date": "2025-06-05",
+  "createdAt": "2025-06-05T15:29:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这就有了？学p产能好高啊",
+  "text": "这就有了？学p产能好高啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BLT4zkE24",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BLT4zkE24&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b552da7662c92668ec5ef313346d5ff2e9a835602f7f5ac90ec859554eb41a3c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BLT4zkE24",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b552da7662c92668ec5ef313346d5ff2e9a835602f7f5ac90ec859554eb41a3c.jpg",
+    "title": "【中字】Harmony Star DAY1 公演舞台裏映像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b552da7662c92668ec5ef313346d5ff2e9a835602f7f5ac90ec859554eb41a3c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hidhdbjehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BLT4zkE24",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Rrjgo15",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6222f3303859744b85c537ccbb257d7a36e3f7dfd5d7804d1ec77e34519b6c7f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

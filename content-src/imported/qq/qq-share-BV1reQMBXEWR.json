@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1reQMBXEWR",
+  "schemaVersion": 1,
+  "title": "分享 · 【曲谱同步/偶像大师】“我当时就听那个数七，边听边哭” - セブンカウント 钢琴改编 by I. Schumi",
+  "date": "2026-04-20",
+  "createdAt": "2026-04-20T02:41:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "泣いた",
+  "text": "泣いた",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1reQMBXEWR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1reQMBXEWR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5397e8b6e9fb1dc7a3ea3993dcc621bc5039f7b51f958bab90d097eee642a77f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1reQMBXEWR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5397e8b6e9fb1dc7a3ea3993dcc621bc5039f7b51f958bab90d097eee642a77f.jpg",
+    "title": "【曲谱同步/偶像大师】“我当时就听那个数七，边听边哭” - セブンカウント 钢琴改编 by I. Schumi"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5397e8b6e9fb1dc7a3ea3993dcc621bc5039f7b51f958bab90d097eee642a77f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgicfgghhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1reQMBXEWR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Lollikit",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9bfc0eb9ee3445b847d0aaea4aa036b0d1b0db72122c374d862d4de847068b2a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

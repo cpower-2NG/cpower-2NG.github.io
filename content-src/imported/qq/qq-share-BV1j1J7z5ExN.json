@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1j1J7z5ExN",
+  "schemaVersion": 1,
+  "title": "分享 · [熟切]本來討厭自己耳朵的葵醬因為老爸解開心結?",
+  "date": "2025-05-22",
+  "createdAt": "2025-05-22T14:08:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好生草的理由（）",
+  "text": "好生草的理由（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1j1J7z5ExN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1j1J7z5ExN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32f651f6a5763ddfcb11bbdaff4741718c5266d0f263d73a762e94705cefc1ae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1j1J7z5ExN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32f651f6a5763ddfcb11bbdaff4741718c5266d0f263d73a762e94705cefc1ae.jpg",
+    "title": "[熟切]本來討厭自己耳朵的葵醬因為老爸解開心結?"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/32f651f6a5763ddfcb11bbdaff4741718c5266d0f263d73a762e94705cefc1ae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "giiccjhehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1j1J7z5ExN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "chihaya0225",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ff9939c3293fc55ff7ec5f3c066b70b41e7cbc38b2d826bff58cc849cd2e86d0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

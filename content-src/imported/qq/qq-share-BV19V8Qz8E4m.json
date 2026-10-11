@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19V8Qz8E4m",
+  "schemaVersion": 1,
+  "title": "分享 · [熟切]今井麻美點評學偶後輩們，對比各分家與本家以前",
+  "date": "2025-07-29",
+  "createdAt": "2025-07-29T05:08:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "在意的地方意外的相似",
+  "text": "在意的地方意外的相似",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19V8Qz8E4m",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19V8Qz8E4m&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a945cd01bf0a1160f81cdf64d792b5f33714f577b42a7ea1dda971406a65e95f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19V8Qz8E4m",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a945cd01bf0a1160f81cdf64d792b5f33714f577b42a7ea1dda971406a65e95f.jpg",
+    "title": "[熟切]今井麻美點評學偶後輩們，對比各分家與本家以前"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a945cd01bf0a1160f81cdf64d792b5f33714f577b42a7ea1dda971406a65e95f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jahfghdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19V8Qz8E4m",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "chihaya0225",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f8f5bec11a0774d84d1967b1aedd9c0caa365f403a488aba3f17e24a3a9e55e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wn41zDEfR",
+  "schemaVersion": 1,
+  "title": "分享 · ましら",
+  "date": "2025-10-14",
+  "createdAt": "2025-10-14T02:50:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不赖",
+  "text": "不赖",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wn41zDEfR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wn41zDEfR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd91d7cea63ae1d4b730119df5436c6e32830805cb6e6092c9de60e937696e89.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wn41zDEfR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd91d7cea63ae1d4b730119df5436c6e32830805cb6e6092c9de60e937696e89.jpg",
+    "title": "ましら"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd91d7cea63ae1d4b730119df5436c6e32830805cb6e6092c9de60e937696e89.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbcabeaghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wn41zDEfR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "账号已注销",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bd919743abed73dcceeb7829f34c1683fbc521f3444c959cda12515d41d5bc5e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

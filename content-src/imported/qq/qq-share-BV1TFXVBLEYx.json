@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1TFXVBLEYx",
+  "schemaVersion": 1,
+  "title": "分享 · 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+  "date": "2026-03-30",
+  "createdAt": "2026-03-30T14:07:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "令人感慨 www.youtube.com/watch?v=-VVMF140zxc",
+  "text": "令人感慨\n\nwww.youtube.com/watch?v=-VVMF140zxc",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TFXVBLEYx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TFXVBLEYx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bc2c02efa44c6557acfe5ed7d88a7f7c8f3f08808fe93264d026bd86df682fa.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TFXVBLEYx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bc2c02efa44c6557acfe5ed7d88a7f7c8f3f08808fe93264d026bd86df682fa.jpg",
+    "title": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bc2c02efa44c6557acfe5ed7d88a7f7c8f3f08808fe93264d026bd86df682fa.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihgjhiehhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TFXVBLEYx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c834085c85fb51967eb8bcbe8645df52392981636da482350505cc82083a953e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

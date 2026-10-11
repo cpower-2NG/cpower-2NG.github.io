@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1TgjwzGEEP",
+  "schemaVersion": 1,
+  "title": "分享 · テマリング",
+  "date": "2025-04-27",
+  "createdAt": "2025-04-27T10:11:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "本人？！",
+  "text": "本人？！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TgjwzGEEP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TgjwzGEEP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bb49f1c1e02d1586fa99f3dfbcaa7902d7599e7a3754aec10a2227459f042c75.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TgjwzGEEP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bb49f1c1e02d1586fa99f3dfbcaa7902d7599e7a3754aec10a2227459f042c75.jpg",
+    "title": "テマリング"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bb49f1c1e02d1586fa99f3dfbcaa7902d7599e7a3754aec10a2227459f042c75.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbhiehfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TgjwzGEEP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "猫背",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ed19232f5504106fefe2e901a7b457cf04ce8fdd7f498879a37ecac9db25c55b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

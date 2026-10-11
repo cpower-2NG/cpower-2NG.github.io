@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qx2YBqEx7",
+  "schemaVersion": 1,
+  "title": "分享 · T.M.Revolution「HOT LIMIT」MV-TV动画「重返17岁」ED2",
+  "date": "2025-12-07",
+  "createdAt": "2025-12-07T12:24:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "终于",
+  "text": "终于",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qx2YBqEx7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qx2YBqEx7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e0e09a90fbeb717691f4ca4dd6086e76477b8f6a5818d0183a603f2764cd35d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qx2YBqEx7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e0e09a90fbeb717691f4ca4dd6086e76477b8f6a5818d0183a603f2764cd35d.jpg",
+    "title": "T.M.Revolution「HOT LIMIT」MV-TV动画「重返17岁」ED2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e0e09a90fbeb717691f4ca4dd6086e76477b8f6a5818d0183a603f2764cd35d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iicabbfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qx2YBqEx7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "TMR_西川贵教",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c5ab99a218b51dc6fc015737d28fe249904234b2b9ce6f534e1045e6b2e66058",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

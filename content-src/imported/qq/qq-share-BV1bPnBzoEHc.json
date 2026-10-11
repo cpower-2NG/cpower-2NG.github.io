@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bPnBzoEHc",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「がむしゃらに行こう！」Official Music Video (HATSUBOSHI GAKUEN - G",
+  "date": "2025-09-29",
+  "createdAt": "2025-09-29T23:11:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "现在听着曲子感觉完全不一样了",
+  "text": "现在听着曲子感觉完全不一样了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bPnBzoEHc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bPnBzoEHc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7092646e6d743711dbb50f8e1785b94a15b484a509398677d027069112434fc0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bPnBzoEHc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7092646e6d743711dbb50f8e1785b94a15b484a509398677d027069112434fc0.jpg",
+    "title": "初星学园 「がむしゃらに行こう！」Official Music Video (HATSUBOSHI GAKUEN - GAMUSHARA NI IKOU! )"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7092646e6d743711dbb50f8e1785b94a15b484a509398677d027069112434fc0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjehibjfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bPnBzoEHc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f847885ba79174db06c596311e517bf01742db87bbc964fcc82b5d1b434c1d8c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

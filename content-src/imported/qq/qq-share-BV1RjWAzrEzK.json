@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RjWAzrEzK",
+  "schemaVersion": 1,
+  "title": "分享 · 【补档】百万现场 × BWLAUTE BEIRRD【偶像大师MAD】",
+  "date": "2025-09-23",
+  "createdAt": "2025-09-23T05:31:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "补档草 无语子",
+  "text": "补档草\n\n无语子",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RjWAzrEzK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RjWAzrEzK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5376c24a16f903c8c19b94a9e876a558b6e6d0342392925534db37d39eb6d0b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RjWAzrEzK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5376c24a16f903c8c19b94a9e876a558b6e6d0342392925534db37d39eb6d0b.jpg",
+    "title": "【补档】百万现场 × BWLAUTE BEIRRD【偶像大师MAD】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d5376c24a16f903c8c19b94a9e876a558b6e6d0342392925534db37d39eb6d0b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhefagifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RjWAzrEzK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "人生不如一行波德萊爾",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e2f100a4ff6ab2e45cd83075b138a64e4103a3e8b6e54c089e4411c420efcdf7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

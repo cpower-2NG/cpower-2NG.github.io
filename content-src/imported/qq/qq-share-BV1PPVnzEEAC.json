@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PPVnzEEAC",
+  "schemaVersion": 1,
+  "title": "分享 · 超最終鬼畜妹国民的アイド～ル・H",
+  "date": "2025-05-04",
+  "createdAt": "2025-05-04T10:45:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草",
+  "text": "草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PPVnzEEAC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PPVnzEEAC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa718aaffa725757098abd956705d77e4f138399defb194e77d871d5ea0e1262.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PPVnzEEAC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa718aaffa725757098abd956705d77e4f138399defb194e77d871d5ea0e1262.jpg",
+    "title": "超最終鬼畜妹国民的アイド～ル・H"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa718aaffa725757098abd956705d77e4f138399defb194e77d871d5ea0e1262.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "idfffdgehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PPVnzEEAC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ちや",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "132085b08351a880416e55bc11c3dad5524b19f68ef6e7c8e93bd734070b5809",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

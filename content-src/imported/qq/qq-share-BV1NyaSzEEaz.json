@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NyaSzEEaz",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作单品】Part30.アカシア",
+  "date": "2025-09-05",
+  "createdAt": "2025-09-05T11:35:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "所有人都应该看看这个伟大的单品",
+  "text": "所有人都应该看看这个伟大的单品",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NyaSzEEaz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NyaSzEEaz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ff5142e4a1905bec089782053713ea38e955939c00c4e0bbe3335306dc22f9a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NyaSzEEaz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ff5142e4a1905bec089782053713ea38e955939c00c4e0bbe3335306dc22f9a.jpg",
+    "title": "【合作单品】Part30.アカシア"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ff5142e4a1905bec089782053713ea38e955939c00c4e0bbe3335306dc22f9a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbbchahfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NyaSzEEaz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "韵音匀韻",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2c38a83e7a2972c0a2809326f5f8715cf55fdd73db03c0ed5b2a6e7c77db2654",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

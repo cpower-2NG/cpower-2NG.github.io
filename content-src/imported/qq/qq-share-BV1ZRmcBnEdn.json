@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZRmcBnEdn",
+  "schemaVersion": 1,
+  "title": "分享 · 曾经憧憬着的 如今得以登上的 梦中的舞台 「灯里爱夏直播切片」",
+  "date": "2025-12-08",
+  "createdAt": "2025-12-08T15:35:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "曾经憧憬着的 如今得以登上的 梦中的舞台",
+  "text": "曾经憧憬着的 如今得以登上的 梦中的舞台",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZRmcBnEdn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZRmcBnEdn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b368ce01c690955cc71039e6f7f8bcc0dbddf52c454ad52c4872008aedd0607c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZRmcBnEdn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b368ce01c690955cc71039e6f7f8bcc0dbddf52c454ad52c4872008aedd0607c.jpg",
+    "title": "曾经憧憬着的 如今得以登上的 梦中的舞台 「灯里爱夏直播切片」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b368ce01c690955cc71039e6f7f8bcc0dbddf52c454ad52c4872008aedd0607c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bebiacfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZRmcBnEdn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "光ノアト",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7f31369264ce52df0c9eef2f9e76c7744aabafdd04f923e82444aacf38f56931",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

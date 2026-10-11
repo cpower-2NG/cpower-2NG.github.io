@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nDdYYVEYB",
+  "schemaVersion": 1,
+  "title": "分享 · 十王星南 制服SSR『桜フォトグラフ』【学园偶像大师 4K HDR 真结局MV/初星学園】",
+  "date": "2025-04-14",
+  "createdAt": "2025-04-14T13:59:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "改观了，但总感觉哪里差点",
+  "text": "改观了，但总感觉哪里差点",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nDdYYVEYB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nDdYYVEYB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d8df78198823b2903896f27ab11e8d153da9953afa8aecebf5daf22145ffadc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nDdYYVEYB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d8df78198823b2903896f27ab11e8d153da9953afa8aecebf5daf22145ffadc.jpg",
+    "title": "十王星南 制服SSR『桜フォトグラフ』【学园偶像大师 4K HDR 真结局MV/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d8df78198823b2903896f27ab11e8d153da9953afa8aecebf5daf22145ffadc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejbjdgeehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nDdYYVEYB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2e0bff90317be1f6af4f99c0a8a9a297ba87da423201f2534df5d2e8884013d4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

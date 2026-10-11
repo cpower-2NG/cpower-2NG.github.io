@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Njd6BcEDV",
+  "schemaVersion": 1,
+  "title": "分享 · Music_合作",
+  "date": "2026-04-21",
+  "createdAt": "2026-04-21T02:15:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "触",
+  "text": "触",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Njd6BcEDV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Njd6BcEDV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e774020d3e568ae388d15ba8579dd114931fc5a416935abacdc7c9abc7f9efc5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Njd6BcEDV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e774020d3e568ae388d15ba8579dd114931fc5a416935abacdc7c9abc7f9efc5.jpg",
+    "title": "Music_合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e774020d3e568ae388d15ba8579dd114931fc5a416935abacdc7c9abc7f9efc5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bbhhdhghhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Njd6BcEDV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0faec04744db7bf7c67cb297d3ba2d1922e090f80e6a538d0d2705fc17aebee4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

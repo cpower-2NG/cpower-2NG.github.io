@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1T5bv6QEVs",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR 泳装骷髅兵 SSR「ねえ、言っちゃうよ。」【学园偶像大师/初星学園 MV】",
+  "date": "2026-08-17",
+  "createdAt": "2026-08-17T11:28:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "说不上的怪",
+  "text": "说不上的怪",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T5bv6QEVs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1T5bv6QEVs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d7cb29a27aff00b4c10bbb4562dc4792841b84845626d371b4edb56e89aae78.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1T5bv6QEVs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d7cb29a27aff00b4c10bbb4562dc4792841b84845626d371b4edb56e89aae78.jpg",
+    "title": "4K HDR 泳装骷髅兵 SSR「ねえ、言っちゃうよ。」【学园偶像大师/初星学園 MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d7cb29a27aff00b4c10bbb4562dc4792841b84845626d371b4edb56e89aae78.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjaggjgihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1T5bv6QEVs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "102d31296f9d5aebd9f1800845d118598b89d891318c458342fe3860cee6fa1c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

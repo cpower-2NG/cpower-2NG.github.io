@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16s41137RV",
+  "schemaVersion": 1,
+  "title": "分享 · 超级热血的阿茜唱了超级厉害的歌",
+  "date": "2025-10-25",
+  "createdAt": "2025-10-25T16:09:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原来出处是这里吗",
+  "text": "原来出处是这里吗",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16s41137RV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16s41137RV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e30a141988987d923b1c8a7ef5572ca44c6cf14ca03c24685b2514e51e5d30a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16s41137RV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e30a141988987d923b1c8a7ef5572ca44c6cf14ca03c24685b2514e51e5d30a.jpg",
+    "title": "超级热血的阿茜唱了超级厉害的歌"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e30a141988987d923b1c8a7ef5572ca44c6cf14ca03c24685b2514e51e5d30a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ggfiaebghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16s41137RV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f594ec1e79669a066c4df8f32a0fb886dafa754f5ca4704ca32183bca76c6f89",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

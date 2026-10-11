@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sb84zVEch",
+  "schemaVersion": 1,
+  "title": "分享 · 【IM@S】アイ NEED YOU（FOR WONDERFUL STORY）【偶像大师20周年纪念曲翻唱】",
+  "date": "2025-07-26",
+  "createdAt": "2025-07-26T17:26:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好啊真好啊",
+  "text": "真好啊真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sb84zVEch",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sb84zVEch&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed230496ed4a3822c1a45effcc02e8f36c65ffc598b531e29ed1571e18db47ee.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sb84zVEch",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed230496ed4a3822c1a45effcc02e8f36c65ffc598b531e29ed1571e18db47ee.jpg",
+    "title": "【IM@S】アイ NEED YOU（FOR WONDERFUL STORY）【偶像大师20周年纪念曲翻唱】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed230496ed4a3822c1a45effcc02e8f36c65ffc598b531e29ed1571e18db47ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hihaffdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sb84zVEch",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CreamAngel",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cdec1239e5417518d4e8eea81c041724b644faf1005617d8b215e76451a08e8b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

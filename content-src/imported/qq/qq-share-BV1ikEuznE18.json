@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ikEuznE18",
+  "schemaVersion": 1,
+  "title": "分享 · 音之彼方合作 ~ Melodic Frontiers !!",
+  "date": "2025-05-13",
+  "createdAt": "2025-05-13T13:58:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还有对砍！",
+  "text": "还有对砍！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ikEuznE18",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ikEuznE18&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2a20f5270fb14c18156927cf4bb73862cf57a2e7aefe7cdd55565b284fa1a9a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ikEuznE18",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2a20f5270fb14c18156927cf4bb73862cf57a2e7aefe7cdd55565b284fa1a9a.jpg",
+    "title": "音之彼方合作 ~ Melodic Frontiers !!"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2a20f5270fb14c18156927cf4bb73862cf57a2e7aefe7cdd55565b284fa1a9a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "echeebhehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ikEuznE18",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Aozaky苍崎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f5af9e0fece04b3ab418b17b4c769b4049dfa4bc5c7bea70bbefa2c4fd30eb90",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

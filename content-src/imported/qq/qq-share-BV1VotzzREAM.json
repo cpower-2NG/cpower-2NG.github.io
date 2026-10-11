@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VotzzREAM",
+  "schemaVersion": 1,
+  "title": "分享 · 「GO MY WAY!!」-藤田琴音|学园偶像大师",
+  "date": "2025-08-07",
+  "createdAt": "2025-08-07T15:16:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "重编的乐队版也是别又一番风味啊，很适合ktn呢",
+  "text": "重编的乐队版也是别又一番风味啊，很适合ktn呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VotzzREAM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VotzzREAM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee094a21350bf8974173fc1561dc87e7dacd12e4a70ade488fceb077443ff0c7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VotzzREAM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee094a21350bf8974173fc1561dc87e7dacd12e4a70ade488fceb077443ff0c7.jpg",
+    "title": "「GO MY WAY!!」-藤田琴音|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee094a21350bf8974173fc1561dc87e7dacd12e4a70ade488fceb077443ff0c7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dghjhfefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VotzzREAM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ac0f9826787eee5d327339b405be79aefcb72cb7e10be39b41d5a37fd1cabf52",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

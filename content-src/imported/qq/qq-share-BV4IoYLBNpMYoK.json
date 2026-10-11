@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV4IoYLBNpMYoK",
+  "schemaVersion": 1,
+  "title": "分享 · 竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7",
+  "date": "2026-01-17",
+  "createdAt": "2026-01-17T15:22:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>",
+  "text": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV4IoYLBNpMYoK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV4IoYLBNpMYoK&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV4IoYLBNpMYoK",
+    "coverUrl": "",
+    "title": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb018a96b69d1110a00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV4IoYLBNpMYoK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b921d1fb16268da645adbb522d703e575ab9588b1641259901e2f813ed24af74",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

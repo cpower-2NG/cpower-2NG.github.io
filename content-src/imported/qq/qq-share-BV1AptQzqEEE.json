@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AptQzqEEE",
+  "schemaVersion": 1,
+  "title": "分享 · ままなっちゃいそう！",
+  "date": "2025-10-14",
+  "createdAt": "2025-10-14T02:52:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "しゅきしゅき",
+  "text": "しゅきしゅき",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AptQzqEEE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AptQzqEEE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fba4e3bb43a5990a44dc8690b8d7b20ed269b7c077410196f69df9ca4228747.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AptQzqEEE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fba4e3bb43a5990a44dc8690b8d7b20ed269b7c077410196f69df9ca4228747.jpg",
+    "title": "ままなっちゃいそう！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fba4e3bb43a5990a44dc8690b8d7b20ed269b7c077410196f69df9ca4228747.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcdabeaghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AptQzqEEE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "百合咲奈奈",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "17d5e0b6ebee20ba838fa23787f7c262d7c4241b954692c53d45d0249afb6839",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

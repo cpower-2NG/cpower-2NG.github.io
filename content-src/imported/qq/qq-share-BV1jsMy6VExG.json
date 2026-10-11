@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jsMy6VExG",
+  "schemaVersion": 1,
+  "title": "分享 · 【相声】我要做音MAD",
+  "date": "2026-08-05",
+  "createdAt": "2026-08-05T13:20:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神了",
+  "text": "神了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jsMy6VExG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jsMy6VExG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/239f9d275745287932137a938a20233454110d364522d9e0e5e69297b27044a8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jsMy6VExG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/239f9d275745287932137a938a20233454110d364522d9e0e5e69297b27044a8.jpg",
+    "title": "【相声】我要做音MAD"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/239f9d275745287932137a938a20233454110d364522d9e0e5e69297b27044a8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ceagdjfihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jsMy6VExG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "坏枪",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "25c318bf231ea05f9b5946fc5c36f690f4a0ec4ac8a1166e09fbb1855ad5fb90",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12g4y1J78m",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】百万现场！10th ANNIVERS@RY × 100万Power！",
+  "date": "2025-09-21",
+  "createdAt": "2025-09-21T14:51:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最近有点迷失了，甚至去找ai谈心了（笑）。想着这里有我最喜欢的情感，就又看了一遍。果然，我喜欢的、追逐的一直是那种纯粹的、...",
+  "text": "最近有点迷失了，甚至去找ai谈心了（笑）。想着这里有我最喜欢的情感，就又看了一遍。果然，我喜欢的、追逐的一直是那种纯粹的、...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12g4y1J78m",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12g4y1J78m&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86762ceb0eaec6a52def07ff805dd5f07382c220a03479ecace91206344c47f3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12g4y1J78m",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86762ceb0eaec6a52def07ff805dd5f07382c220a03479ecace91206344c47f3.jpg",
+    "title": "【合作】百万现场！10th ANNIVERS@RY × 100万Power！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86762ceb0eaec6a52def07ff805dd5f07382c220a03479ecace91206344c47f3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fbdggeifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12g4y1J78m",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "42902b317d165e48fd9e425968f3b0c7276102b5a16da56919e14af09c2808f6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

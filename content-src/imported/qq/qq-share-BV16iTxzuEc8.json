@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16iTxzuEc8",
+  "schemaVersion": 1,
+  "title": "分享 · 【中文填词/翻译】トゲガール「打ち上げ花火」",
+  "date": "2025-10-02",
+  "createdAt": "2025-10-02T15:12:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想了半天，还是听这首吧",
+  "text": "想了半天，还是听这首吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16iTxzuEc8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16iTxzuEc8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/742d8a0bf0f2b0171d847a8c3d4310062e4f0fadc65ac868782bf62a65bc0a9e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16iTxzuEc8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/742d8a0bf0f2b0171d847a8c3d4310062e4f0fadc65ac868782bf62a65bc0a9e.jpg",
+    "title": "【中文填词/翻译】トゲガール「打ち上げ花火」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/742d8a0bf0f2b0171d847a8c3d4310062e4f0fadc65ac868782bf62a65bc0a9e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bejhbejfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16iTxzuEc8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "涼本あほ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5cff7c39bc29f4ef1e78246113d157e1981399b6d8e8d3cb6b0aad6bbb5b1c11",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KaZ8Y2EWp",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学園 「桜フォトグラフ」Official Music Video",
+  "date": "2025-04-01",
+  "createdAt": "2025-04-01T13:38:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "稚嫩啊",
+  "text": "稚嫩啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KaZ8Y2EWp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KaZ8Y2EWp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ef5b2735b4d041da5a744ef6b8444893a4bc1e3ef1552968578e0fb5443b0006.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KaZ8Y2EWp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ef5b2735b4d041da5a744ef6b8444893a4bc1e3ef1552968578e0fb5443b0006.jpg",
+    "title": "初星学園 「桜フォトグラフ」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ef5b2735b4d041da5a744ef6b8444893a4bc1e3ef1552968578e0fb5443b0006.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gigebfdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KaZ8Y2EWp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "31b62ea6ba1182ceeba21b5e78d6c53883778d14597ebb602261de5a3338db4a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

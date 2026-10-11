@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pyGyz5EpJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【7月/阿部敦&种崎敦美】9-nine- 支配者的王冠  正式PV1【MCE汉化组】",
+  "date": "2025-04-29",
+  "createdAt": "2025-04-29T13:44:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "台词多来点就行",
+  "text": "台词多来点就行",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pyGyz5EpJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pyGyz5EpJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/51f4de0f919ce09039304c3902d32b8741ae1ffc22c34c95b16accfad17cb5cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pyGyz5EpJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/51f4de0f919ce09039304c3902d32b8741ae1ffc22c34c95b16accfad17cb5cc.jpg",
+    "title": "【7月/阿部敦&种崎敦美】9-nine- 支配者的王冠  正式PV1【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/51f4de0f919ce09039304c3902d32b8741ae1ffc22c34c95b16accfad17cb5cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "decedjfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pyGyz5EpJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b06d07174d7f238838f77f282eed8ad105ae2e00341249265d958e69ca7a3852",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jeVBzDErm",
+  "schemaVersion": 1,
+  "title": "分享 · 迷茫、云与天空",
+  "date": "2025-05-07",
+  "createdAt": "2025-05-07T05:04:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "舒服",
+  "text": "舒服",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jeVBzDErm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jeVBzDErm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/451b9db9970ad8311f229b90b147c70b30e887683c7a4909d1ebfc5257b6af48.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jeVBzDErm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/451b9db9970ad8311f229b90b147c70b30e887683c7a4909d1ebfc5257b6af48.jpg",
+    "title": "迷茫、云与天空"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/451b9db9970ad8311f229b90b147c70b30e887683c7a4909d1ebfc5257b6af48.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jicejfgehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jeVBzDErm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Z_003",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0320a5ef78fff1178209a693f7e771888cb739f49eaae206f038248200250ee7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

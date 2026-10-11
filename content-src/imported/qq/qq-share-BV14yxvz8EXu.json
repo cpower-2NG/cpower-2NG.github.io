@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14yxvz8EXu",
+  "schemaVersion": 1,
+  "title": "分享 · Tic",
+  "date": "2025-10-08",
+  "createdAt": "2025-10-08T14:17:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有点帅",
+  "text": "有点帅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14yxvz8EXu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14yxvz8EXu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ebd4fb8d69b3fbb54e5dc6fb44cab9133916947cbf331cb50368e62839c5bd01.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14yxvz8EXu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ebd4fb8d69b3fbb54e5dc6fb44cab9133916947cbf331cb50368e62839c5bd01.jpg",
+    "title": "Tic"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ebd4fb8d69b3fbb54e5dc6fb44cab9133916947cbf331cb50368e62839c5bd01.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edaddjjfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14yxvz8EXu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e47b2bf2465f65f2b465df49fa5822655cd072810547d24755997df4db14c182",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

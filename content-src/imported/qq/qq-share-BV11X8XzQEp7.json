@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11X8XzQEp7",
+  "schemaVersion": 1,
+  "title": "分享 · 【切片/熟肉】铃果对藤原肇角色的理解以及聊交响音乐会",
+  "date": "2025-08-01",
+  "createdAt": "2025-08-01T09:14:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不擅长唱歌的设定应该是争议的来源了吧（笑）",
+  "text": "不擅长唱歌的设定应该是争议的来源了吧（笑）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11X8XzQEp7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11X8XzQEp7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a014d6b16839993f98550fae60521280b0b22bc77292d42b391374d314e7f3a.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11X8XzQEp7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a014d6b16839993f98550fae60521280b0b22bc77292d42b391374d314e7f3a.png",
+    "title": "【切片/熟肉】铃果对藤原肇角色的理解以及聊交响音乐会"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a014d6b16839993f98550fae60521280b0b22bc77292d42b391374d314e7f3a.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eegjdaefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11X8XzQEp7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "幻P_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cb960de0d8c987e314245d1981bbd37b90c7ac5270a13fb36ab2abb7a7e9d990",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

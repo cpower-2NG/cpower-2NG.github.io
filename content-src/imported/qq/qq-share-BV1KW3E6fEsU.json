@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KW3E6fEsU",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年】20周年感谢！PV【偶像大师】",
+  "date": "2026-07-26",
+  "createdAt": "2026-07-26T14:54:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不得不说，偶像大师二十周年，真是让我度过了非常充实又充满回忆的三年啊",
+  "text": "不得不说，偶像大师二十周年，真是让我度过了非常充实又充满回忆的三年啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KW3E6fEsU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KW3E6fEsU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7365510fac142f67c5b2156b4b90d8933d803151e90d8ae829394e706190c9f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KW3E6fEsU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7365510fac142f67c5b2156b4b90d8933d803151e90d8ae829394e706190c9f.jpg",
+    "title": "【偶像大师20周年】20周年感谢！PV【偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7365510fac142f67c5b2156b4b90d8933d803151e90d8ae829394e706190c9f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egghhafihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KW3E6fEsU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8956063cf69ff487ceb5849e2a0866fc71e7e4a0f278a9b72d378403e9ecdc16",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

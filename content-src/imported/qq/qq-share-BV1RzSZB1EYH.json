@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RzSZB1EYH",
+  "schemaVersion": 1,
+  "title": "分享 · 【中日双语】One Live One Love S/N-GUL4R1TY 新曲 试听版",
+  "date": "2026-04-08",
+  "createdAt": "2026-04-08T04:42:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "相当迷光，甚至相当ふゆ的一曲啊",
+  "text": "相当迷光，甚至相当ふゆ的一曲啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RzSZB1EYH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RzSZB1EYH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bef4a4d7f9bee01697aa918414f944c7df0ee9adb38f06a989dbdc4fab2e3f28.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RzSZB1EYH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bef4a4d7f9bee01697aa918414f944c7df0ee9adb38f06a989dbdc4fab2e3f28.jpg",
+    "title": "【中日双语】One Live One Love S/N-GUL4R1TY 新曲 试听版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bef4a4d7f9bee01697aa918414f944c7df0ee9adb38f06a989dbdc4fab2e3f28.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ieddcgfhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RzSZB1EYH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "あさひかり_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "117c63c60e0d073f80d2457d819c940400db566cc04ed7f34962454ec8b669b8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

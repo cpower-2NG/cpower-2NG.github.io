@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1X9CiBPEq9",
+  "schemaVersion": 1,
+  "title": "分享 · 【中日双语】「Texting you」-高山纱代子、所惠美、野野原茜 MLTD官方MV|偶像大师百万现场",
+  "date": "2025-11-17",
+  "createdAt": "2025-11-17T14:58:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还得是土豆，这编舞，这分镜，这动作，好看 ytb",
+  "text": "还得是土豆，这编舞，这分镜，这动作，好看\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1X9CiBPEq9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X9CiBPEq9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8936171dd0a9d38b8f1ee63623bb418af719f21a572b6d25fc21ccf66dccd7d9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1X9CiBPEq9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8936171dd0a9d38b8f1ee63623bb418af719f21a572b6d25fc21ccf66dccd7d9.jpg",
+    "title": "【中日双语】「Texting you」-高山纱代子、所惠美、野野原茜 MLTD官方MV|偶像大师百万现场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8936171dd0a9d38b8f1ee63623bb418af719f21a572b6d25fc21ccf66dccd7d9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjebjddghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1X9CiBPEq9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a0739dfb283ff469efb488a876be82fbf877d9269d279428ce55570f29e46fba",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

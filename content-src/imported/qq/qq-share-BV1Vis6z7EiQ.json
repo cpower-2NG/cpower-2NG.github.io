@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Vis6z7EiQ",
+  "schemaVersion": 1,
+  "title": "分享 · Migratory Echoes（28色.ver）【螺旋D2】",
+  "date": "2025-10-26",
+  "createdAt": "2025-10-26T14:38:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "没看到这里好遗憾啊 【螺旋D2】",
+  "text": "没看到这里好遗憾啊\n\n【螺旋D2】",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Vis6z7EiQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Vis6z7EiQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f33f2106b67bd127f0a68360cb5df6ba6bd537476d2a59221fbd1be424676639.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Vis6z7EiQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f33f2106b67bd127f0a68360cb5df6ba6bd537476d2a59221fbd1be424676639.jpg",
+    "title": "Migratory Echoes（28色.ver）【螺旋D2】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f33f2106b67bd127f0a68360cb5df6ba6bd537476d2a59221fbd1be424676639.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibfjiebghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Vis6z7EiQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Ae_RiU",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0e035fe56f67292e7b565cc9be69ca79856f35056a274b764b5679234e8c4030",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

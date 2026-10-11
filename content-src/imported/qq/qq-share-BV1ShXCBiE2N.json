@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ShXCBiE2N",
+  "schemaVersion": 1,
+  "title": "分享 · 【全程中字】花海佑芽 2026生日LIVE",
+  "date": "2026-03-31",
+  "createdAt": "2026-03-31T15:18:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真是能让人开心起来的live啊，不愧是うめ",
+  "text": "真是能让人开心起来的live啊，不愧是うめ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ShXCBiE2N",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ShXCBiE2N&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d267c16954010a6eebee8cb68fabdee67ee02628aefd52977944bdf99b71f52e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ShXCBiE2N",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d267c16954010a6eebee8cb68fabdee67ee02628aefd52977944bdf99b71f52e.jpg",
+    "title": "【全程中字】花海佑芽 2026生日LIVE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d267c16954010a6eebee8cb68fabdee67ee02628aefd52977944bdf99b71f52e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "acdahjehhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ShXCBiE2N",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aba6e2a854b527365e8d25a8b98de9c4bbcf4aec95beca792ecd3f4891153ceb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

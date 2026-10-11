@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1XP6oB7Ehw",
+  "schemaVersion": 1,
+  "title": "分享 · 【明日方舟 日服六周年】蕾缪安ep【Mutual Trust】",
+  "date": "2026-01-11",
+  "createdAt": "2026-01-11T14:03:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就喝这碟醋就够了 youtu.be/kkbWbfZA_XU",
+  "text": "就喝这碟醋就够了\n\nyoutu.be/kkbWbfZA_XU",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XP6oB7Ehw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XP6oB7Ehw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200981469389674080b6ee332b391a9ce05b1e0e72b8ea0e056ad8e209ce61f9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1XP6oB7Ehw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200981469389674080b6ee332b391a9ce05b1e0e72b8ea0e056ad8e209ce61f9.jpg",
+    "title": "【明日方舟 日服六周年】蕾缪安ep【Mutual Trust】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200981469389674080b6ee332b391a9ce05b1e0e72b8ea0e056ad8e209ce61f9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "facaebighb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1XP6oB7Ehw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "屏幕另一边的迷云",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d80e5d7963daa88affc229691f16e6407569bbfaee861336f851e6750b65dc78",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

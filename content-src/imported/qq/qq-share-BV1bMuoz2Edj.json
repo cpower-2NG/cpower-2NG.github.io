@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bMuoz2Edj",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像大师OFA（全力以赴） 汉化补丁 正式发布",
+  "date": "2025-07-19",
+  "createdAt": "2025-07-19T13:33:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "愿您游玩OFA后，将这份和偶像们的回忆永存心底。这份最纯粹的、最真挚的、名为IM@S的「爱」，永远不会褪色！ 偶像大师企划即将迎来其20周年的生日。本次将由偶像",
+  "text": "愿您游玩OFA后，将这份和偶像们的回忆永存心底。这份最纯粹的、最真挚的、名为IM@S的「爱」，永远不会褪色！\n\n偶像大师企划即将迎来其20周年的生日。本次将由偶像大师OFA汉化组为大家带来偶像大师One for All（全力以赴）本体（包含短信DLC）...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bMuoz2Edj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bMuoz2Edj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8883b64b6fae25417b7e197b673d2c784a29ace904e186f56e8c05093f7a77e1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bMuoz2Edj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8883b64b6fae25417b7e197b673d2c784a29ace904e186f56e8c05093f7a77e1.jpg",
+    "title": "偶像大师OFA（全力以赴） 汉化补丁 正式发布"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8883b64b6fae25417b7e197b673d2c784a29ace904e186f56e8c05093f7a77e1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjjbdjcfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bMuoz2Edj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AaronNeP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "398414142e9b204721e03f714eb675528748d5b228243b30384fdc31f954d104",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

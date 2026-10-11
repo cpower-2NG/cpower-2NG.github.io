@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1BpgPzJEWm",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字CC】初星学園 「サンフェーデッド」Official Music Video",
+  "date": "2025-07-17",
+  "createdAt": "2025-07-17T15:18:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "看完这冠绝的MV，我已经完全理解了。喜欢上广真是太好了。",
+  "text": "看完这冠绝的MV，我已经完全理解了。喜欢上广真是太好了。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BpgPzJEWm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BpgPzJEWm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/408f8c18f06f52c7084605ea95eee7e7db3b51a336d6c16da220571f20b3d2e7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BpgPzJEWm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/408f8c18f06f52c7084605ea95eee7e7db3b51a336d6c16da220571f20b3d2e7.jpg",
+    "title": "【中字CC】初星学園 「サンフェーデッド」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/408f8c18f06f52c7084605ea95eee7e7db3b51a336d6c16da220571f20b3d2e7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdffghcfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BpgPzJEWm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e0696fb02b8e08ac42d23ef7d063d729176ca7345071c613276c1378a5f13bdc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1k957zgEf1",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】【誘爆ハートビート】黛冬優子",
+  "date": "2025-04-19",
+  "createdAt": "2025-04-19T11:59:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这么久没看，忽然发现忽悠的演技变化不小诶 译：@クモユキ 校：@まかべ丼 后期：@奥術心白",
+  "text": "这么久没看，忽然发现忽悠的演技变化不小诶\n\n译：@クモユキ 校：@まかべ丼 后期：@奥術心白",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1k957zgEf1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1k957zgEf1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d46c45f863eb428c0efcc1771a5b89f0bf56c4dae259fd9a6d80e220d5aa40c2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1k957zgEf1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d46c45f863eb428c0efcc1771a5b89f0bf56c4dae259fd9a6d80e220d5aa40c2.jpg",
+    "title": "【中字】【誘爆ハートビート】黛冬優子"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d46c45f863eb428c0efcc1771a5b89f0bf56c4dae259fd9a6d80e220d5aa40c2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifjdgafehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1k957zgEf1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "クモユキ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "64dcb882a1aaa028053e428e3d77b56c86106f622be99581433c27eadc30bc4e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

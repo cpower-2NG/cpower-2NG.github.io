@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bmo2Y2EmF",
+  "schemaVersion": 1,
+  "title": "分享 · 静止系MAD预告-少女与公路自行车",
+  "date": "2025-03-25",
+  "createdAt": "2025-03-25T05:18:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "wc，这是人？！ 预告",
+  "text": "wc，这是人？！\n\n预告",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bmo2Y2EmF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bmo2Y2EmF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d52903df7d23485bdbf27b982e49f5ec20abc008f17c70a7919c15e35c5199.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bmo2Y2EmF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d52903df7d23485bdbf27b982e49f5ec20abc008f17c70a7919c15e35c5199.jpg",
+    "title": "静止系MAD预告-少女与公路自行车"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d52903df7d23485bdbf27b982e49f5ec20abc008f17c70a7919c15e35c5199.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjijhicehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bmo2Y2EmF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "菌子会做完的",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "14054b0ae3d139fb75da7016a66aea7219a423af760a6f8cb1c572cab35addb6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

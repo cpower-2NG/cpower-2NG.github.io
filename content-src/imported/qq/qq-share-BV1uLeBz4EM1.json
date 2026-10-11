@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uLeBz4EM1",
+  "schemaVersion": 1,
+  "title": "分享 · 【全熟】苏皮卡CP的诞生 - 饭田光birthday party 2025 昼",
+  "date": "2025-08-25",
+  "createdAt": "2025-08-25T06:52:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想让「天然」的ピカルン唱「なんどでも笑おう」",
+  "text": "想让「天然」的ピカルン唱「なんどでも笑おう」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uLeBz4EM1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uLeBz4EM1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/755c82949a1992340544694a14abfe173f8c7b1ecad6051df5eae005862605a6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uLeBz4EM1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/755c82949a1992340544694a14abfe173f8c7b1ecad6051df5eae005862605a6.jpg",
+    "title": "【全熟】苏皮卡CP的诞生 - 饭田光birthday party 2025 昼"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/755c82949a1992340544694a14abfe173f8c7b1ecad6051df5eae005862605a6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdheabgfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uLeBz4EM1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "bakasanx",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "404268c4a000f262057ec0c4a6a779869d778b693ff146e393aec58ad7506b22",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

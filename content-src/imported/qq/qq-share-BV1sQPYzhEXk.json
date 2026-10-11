@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sQPYzhEXk",
+  "schemaVersion": 1,
+  "title": "分享 · 「偶像大师」管弦乐音乐会 专辑「SYMPHONY OF BRILLIANT STARS」",
+  "date": "2026-03-09",
+  "createdAt": "2026-03-09T15:40:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这首银海豚谁能不落泪 from:THE IDOLM@STER 20th anniversary ORCHESTRA CONCERT SYMPHONY OF BR",
+  "text": "这首银海豚谁能不落泪\n\nfrom:THE IDOLM@STER 20th anniversary ORCHESTRA CONCERT SYMPHONY OF BRILLIANT STARS コンサートアルバム / 四条貴音(CV:原由...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sQPYzhEXk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sQPYzhEXk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/41ec9c9f1ed68bdd9882e2bab79299b7e3d94822a9fae155a07cbcb3e57664d7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sQPYzhEXk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/41ec9c9f1ed68bdd9882e2bab79299b7e3d94822a9fae155a07cbcb3e57664d7.jpg",
+    "title": "「偶像大师」管弦乐音乐会 专辑「SYMPHONY OF BRILLIANT STARS」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/41ec9c9f1ed68bdd9882e2bab79299b7e3d94822a9fae155a07cbcb3e57664d7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cbiahadhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sQPYzhEXk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "丿BCZ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6ee9cbe770ca471488fc89f400a7175d3004735e2bb3e0520daf830187cd3422",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

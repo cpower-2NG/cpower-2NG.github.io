@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mZbDz2Ej9",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年纪念】致那一天开始培育我的你",
+  "date": "2025-07-25",
+  "createdAt": "2025-07-25T15:18:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不开玩笑的说，我很喜欢这套描写『制作人』的场外故事。正如我们20周年纪念曲，大家一点点的爱汇聚，才是偶像大师。",
+  "text": "不开玩笑的说，我很喜欢这套描写『制作人』的场外故事。正如我们20周年纪念曲，大家一点点的爱汇聚，才是偶像大师。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mZbDz2Ej9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mZbDz2Ej9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c16372472ff98f50e62ec56e8a4b91d63c96b3df9a7e2abb075cc6e9affff4c4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mZbDz2Ej9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c16372472ff98f50e62ec56e8a4b91d63c96b3df9a7e2abb075cc6e9affff4c4.jpg",
+    "title": "【偶像大师20周年纪念】致那一天开始培育我的你"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c16372472ff98f50e62ec56e8a4b91d63c96b3df9a7e2abb075cc6e9affff4c4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbhgfedfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mZbDz2Ej9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9934a5ffc96518315208ef26df54af6dbfbc31317b48b89dea7533df57c05172",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

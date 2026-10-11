@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZVhjziEJk",
+  "schemaVersion": 1,
+  "title": "分享 · 【中切】阁下:“今后，请跟随着我们的背影前进吧!!!”",
+  "date": "2025-08-04",
+  "createdAt": "2025-08-04T15:11:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "现在想来，这句话，远不只是对着台上的大家和我们说的啊",
+  "text": "现在想来，这句话，远不只是对着台上的大家和我们说的啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZVhjziEJk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZVhjziEJk&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/3055e826b6c7e32be1610f8465e2e1031fe2fe40.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZVhjziEJk",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/3055e826b6c7e32be1610f8465e2e1031fe2fe40.jpg",
+    "title": "【中切】阁下:“今后，请跟随着我们的背影前进吧!!!”"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/3055e826b6c7e32be1610f8465e2e1031fe2fe40.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjcacdefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZVhjziEJk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "GOCNA",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b8111fdcacd0bb676618fc034be482c23ceb95de7191f692f6fa8dd77b3f17a8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

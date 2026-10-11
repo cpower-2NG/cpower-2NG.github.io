@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18ZkhYXEys",
+  "schemaVersion": 1,
+  "title": "分享 · 花丸のニコニコ動画",
+  "date": "2025-04-30",
+  "createdAt": "2025-04-30T05:35:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "多么熟悉的味道",
+  "text": "多么熟悉的味道",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18ZkhYXEys",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18ZkhYXEys&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/88609dce5c4bc6f5c05e8e262421bd69c887276390b24a9f80715e6ca496b8db.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18ZkhYXEys",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/88609dce5c4bc6f5c05e8e262421bd69c887276390b24a9f80715e6ca496b8db.jpg",
+    "title": "花丸のニコニコ動画"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/88609dce5c4bc6f5c05e8e262421bd69c887276390b24a9f80715e6ca496b8db.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cddbjjfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18ZkhYXEys",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "叶问的皮毛",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7951ce32f64add500e2b0e141238526b0884a132e3fd900afc256d17f894e0cc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

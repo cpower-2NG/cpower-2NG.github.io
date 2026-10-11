@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1T88bznEHe",
+  "schemaVersion": 1,
+  "title": "分享 · 【熟肉】COSMO「原来大麻油也是车万人」【上水流宇宙/峰田茉优】",
+  "date": "2025-07-27",
+  "createdAt": "2025-07-27T05:29:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "完全不知道呢",
+  "text": "完全不知道呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T88bznEHe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1T88bznEHe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa69200ef9e6be9a25c779bded48a4903b84196d2c181899c899f0aecc4173cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1T88bznEHe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa69200ef9e6be9a25c779bded48a4903b84196d2c181899c899f0aecc4173cc.jpg",
+    "title": "【熟肉】COSMO「原来大麻油也是车万人」【上水流宇宙/峰田茉优】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa69200ef9e6be9a25c779bded48a4903b84196d2c181899c899f0aecc4173cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejbejfdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1T88bznEHe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "银河猫喵喵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "22bab1f82d4a275737ba3ec9b519ccd65cc69779c1c4b79d85c845c86bac6fbf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

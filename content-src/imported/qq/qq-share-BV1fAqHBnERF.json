@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fAqHBnERF",
+  "schemaVersion": 1,
+  "title": "分享 · （中字）“以闪1st为契机，策划了学的DEBUTLIVE...”小美野P和高山P印象深刻的演唱会",
+  "date": "2025-12-18",
+  "createdAt": "2025-12-18T11:24:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "别的不说，营造的紧张感确实是我甘之如饴的毒药",
+  "text": "别的不说，营造的紧张感确实是我甘之如饴的毒药",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fAqHBnERF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fAqHBnERF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c10d85d7b586d36fb1487a6ac1c75390c68d36dd020065c14245f7254533f1e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fAqHBnERF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c10d85d7b586d36fb1487a6ac1c75390c68d36dd020065c14245f7254533f1e.jpg",
+    "title": "（中字）“以闪1st为契机，策划了学的DEBUTLIVE...”小美野P和高山P印象深刻的演唱会"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c10d85d7b586d36fb1487a6ac1c75390c68d36dd020065c14245f7254533f1e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahahfagghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fAqHBnERF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "363c803c6fca991d56c6852dd24e20ab4c948cbe3c345c3fce2d79243740f475",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

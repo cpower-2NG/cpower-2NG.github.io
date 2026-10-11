@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Qx411c7Bk",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师MMD】ホメ春香舞蹈【LOVE＆JOY】",
+  "date": "2025-06-17",
+  "createdAt": "2025-06-17T05:10:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "会有吗 sm9538181 喜欢恶心丸的各位，不来点儿home春香吗~",
+  "text": "会有吗\n\nsm9538181 喜欢恶心丸的各位，不来点儿home春香吗~",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Qx411c7Bk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Qx411c7Bk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eff775dd5f2899f446478a511f36bf5e01306d217bc231435e2f0e9115c58c2d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Qx411c7Bk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eff775dd5f2899f446478a511f36bf5e01306d217bc231435e2f0e9115c58c2d.jpg",
+    "title": "【偶像大师MMD】ホメ春香舞蹈【LOVE＆JOY】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eff775dd5f2899f446478a511f36bf5e01306d217bc231435e2f0e9115c58c2d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfahdbafhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Qx411c7Bk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Lucky好心情",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d8ef3f30b640984ff65da2aec77e3a3c89d31d2cd97fa81292437c7891f16be5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

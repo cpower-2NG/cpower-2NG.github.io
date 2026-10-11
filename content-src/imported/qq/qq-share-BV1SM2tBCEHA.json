@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SM2tBCEHA",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字/SCSP】制作人送给冬优子的生日礼物",
+  "date": "2025-12-04",
+  "createdAt": "2025-12-04T03:22:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "フヘヘへ、フヘヘへ",
+  "text": "フヘヘへ、フヘヘへ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SM2tBCEHA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SM2tBCEHA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15e28926cf3b500ca22bd59dfd3298270b0fa2339d0d46e767421c549dc6b2f8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SM2tBCEHA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15e28926cf3b500ca22bd59dfd3298270b0fa2339d0d46e767421c549dc6b2f8.jpg",
+    "title": "【中字/SCSP】制作人送给冬优子的生日礼物"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15e28926cf3b500ca22bd59dfd3298270b0fa2339d0d46e767421c549dc6b2f8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecfibieghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SM2tBCEHA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "TaTa在吃饭",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6f7e66680bbdfb5bf71b983a88c22994fe40e4ee0ec216478f6b66317976a838",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

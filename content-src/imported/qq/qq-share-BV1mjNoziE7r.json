@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mjNoziE7r",
+  "schemaVersion": 1,
+  "title": "分享 · 「LOVE&JOY」-紫云清夏 官方MV|学园偶像大师",
+  "date": "2025-06-19",
+  "createdAt": "2025-06-19T15:00:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "看完真的是既惊喜又遗憾。惊喜于跨出这一大步，有遗憾于原地踏步。这首曲子的风格很适合清夏，但这多次的重复该不会是描写她这种... ytb",
+  "text": "看完真的是既惊喜又遗憾。惊喜于跨出这一大步，有遗憾于原地踏步。这首曲子的风格很适合清夏，但这多次的重复该不会是描写她这种...\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mjNoziE7r",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mjNoziE7r&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/098f86a59c466dba8760b6cc49054806311645665edd8231c5a428ec27d0144e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mjNoziE7r",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/098f86a59c466dba8760b6cc49054806311645665edd8231c5a428ec27d0144e.jpg",
+    "title": "「LOVE&JOY」-紫云清夏 官方MV|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/098f86a59c466dba8760b6cc49054806311645665edd8231c5a428ec27d0144e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdcfedafhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mjNoziE7r",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "784ba5e2588f67c87658af0b7ef85ddfc0071b8dea35bbef69f202629b48d47f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

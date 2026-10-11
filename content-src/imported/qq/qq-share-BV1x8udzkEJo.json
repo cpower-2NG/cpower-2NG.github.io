@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1x8udzkEJo",
+  "schemaVersion": 1,
+  "title": "分享 · [中字切片]被春香佔據一半人生的中村繪里子",
+  "date": "2025-07-19",
+  "createdAt": "2025-07-19T15:45:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "“把交接棒给出去的瞬间，自己却站上了另一条跑道”",
+  "text": "“把交接棒给出去的瞬间，自己却站上了另一条跑道”",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1x8udzkEJo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1x8udzkEJo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9754a5ed5ebae9234057960e2900ee7e37f376e263952c76e200d927d2ac4312.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1x8udzkEJo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9754a5ed5ebae9234057960e2900ee7e37f376e263952c76e200d927d2ac4312.jpg",
+    "title": "[中字切片]被春香佔據一半人生的中村繪里子"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9754a5ed5ebae9234057960e2900ee7e37f376e263952c76e200d927d2ac4312.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jajjdjcfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1x8udzkEJo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大宅P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fd48d1c1445a30c2e3d2fce24fd8feb4c75d2be90091b1822173ac6591357a12",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

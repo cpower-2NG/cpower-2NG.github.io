@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VQDLBhE2a",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「真っ白いページと水彩の主人公」Official Music Video",
+  "date": "2026-04-10",
+  "createdAt": "2026-04-10T13:27:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "完全没听懂（）",
+  "text": "完全没听懂（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VQDLBhE2a",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VQDLBhE2a&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7302bd98fead75dc5b3df2b078350b7d9385c07ac58ad4023d217a80d13c4f2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VQDLBhE2a",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7302bd98fead75dc5b3df2b078350b7d9385c07ac58ad4023d217a80d13c4f2.jpg",
+    "title": "初星学园 「真っ白いページと水彩の主人公」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7302bd98fead75dc5b3df2b078350b7d9385c07ac58ad4023d217a80d13c4f2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecghcifhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VQDLBhE2a",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7f640dcd15a21f935bc38b3006534ab7d9b4424512577c40ca44db5b535c10a4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

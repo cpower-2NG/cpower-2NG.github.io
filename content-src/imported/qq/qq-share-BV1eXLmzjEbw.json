@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eXLmzjEbw",
+  "schemaVersion": 1,
+  "title": "分享 · 【飯田ヒカル】以防你没听过皮卡丘在live上的尖叫🤗",
+  "date": "2025-04-29",
+  "createdAt": "2025-04-29T07:41:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草 万代你都是在哪找的神人，你真是那个啊",
+  "text": "草\n\n万代你都是在哪找的神人，你真是那个啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eXLmzjEbw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eXLmzjEbw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38af0b9465df9886ed4a23eb176120041386c6c9872ab696271d93c1c17da41f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eXLmzjEbw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38af0b9465df9886ed4a23eb176120041386c6c9872ab696271d93c1c17da41f.jpg",
+    "title": "【飯田ヒカル】以防你没听过皮卡丘在live上的尖叫🤗"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38af0b9465df9886ed4a23eb176120041386c6c9872ab696271d93c1c17da41f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igecbjfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eXLmzjEbw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "成海瑠奈",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "720a40159f18a9a0b29acada290676f238e6a88c723df55c73f223b40d2416d3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

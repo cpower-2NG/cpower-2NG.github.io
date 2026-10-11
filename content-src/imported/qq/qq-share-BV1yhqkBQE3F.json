@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yhqkBQE3F",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像大师SideM OVA",
+  "date": "2026-01-01",
+  "createdAt": "2026-01-01T03:54:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "happy new passion",
+  "text": "happy new passion",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yhqkBQE3F",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yhqkBQE3F&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47c974877858fb8a7c3164232725da7a316795f19def582720ef5b0692a8f64.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yhqkBQE3F",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47c974877858fb8a7c3164232725da7a316795f19def582720ef5b0692a8f64.jpg",
+    "title": "偶像大师SideM OVA"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47c974877858fb8a7c3164232725da7a316795f19def582720ef5b0692a8f64.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjgjdchghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yhqkBQE3F",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "我叫dps",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7e3fe7ae53d24a14421b5a6002777b5d26922bcf7c2e8be6ac64cb806e14f781",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

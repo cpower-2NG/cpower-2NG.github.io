@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1XknXe2EiY",
+  "schemaVersion": 1,
+  "title": "分享 · 【KTV字幕】I SAY YES - ICHIKO【卡拉OK投屏】【零之使魔】",
+  "date": "2025-11-02",
+  "createdAt": "2025-11-02T16:10:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "今天最喜欢的一首，真好啊 自制KTV字幕，投屏自用。这首经典的OP居然没人做，那我自己来，双月的骑士最好看的一季。",
+  "text": "今天最喜欢的一首，真好啊\n\n自制KTV字幕，投屏自用。这首经典的OP居然没人做，那我自己来，双月的骑士最好看的一季。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XknXe2EiY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XknXe2EiY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9a676c2dcaae2d63edc52135c1b005c9b2cdbc0bdbf38457c7579c47a4121a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1XknXe2EiY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9a676c2dcaae2d63edc52135c1b005c9b2cdbc0bdbf38457c7579c47a4121a.jpg",
+    "title": "【KTV字幕】I SAY YES - ICHIKO【卡拉OK投屏】【零之使魔】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d9a676c2dcaae2d63edc52135c1b005c9b2cdbc0bdbf38457c7579c47a4121a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fbijjacghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1XknXe2EiY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "默默的千年殺",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0eb64fc7d5f97dfd4146c60016afa748710631b581155dce10daa510497e2775",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

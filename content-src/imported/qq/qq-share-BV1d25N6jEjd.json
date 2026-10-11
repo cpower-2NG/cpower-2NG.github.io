@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1d25N6jEjd",
+  "schemaVersion": 1,
+  "title": "分享 · 爆弾魔 / 浅倉透",
+  "date": "2026-05-15",
+  "createdAt": "2026-05-15T13:25:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神人力",
+  "text": "神人力",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d25N6jEjd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1d25N6jEjd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4934a8dd452f8911ab6d138e7b3aee235f8469aaa56d61e28f227461b39554e3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1d25N6jEjd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4934a8dd452f8911ab6d138e7b3aee235f8469aaa56d61e28f227461b39554e3.jpg",
+    "title": "爆弾魔 / 浅倉透"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4934a8dd452f8911ab6d138e7b3aee235f8469aaa56d61e28f227461b39554e3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cefbfiihhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1d25N6jEjd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cbdd7c1b95520c1741b23c7dc0cc73391960c76e9b894d078e3c030a483010f4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

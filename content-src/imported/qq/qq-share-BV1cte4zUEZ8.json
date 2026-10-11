@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cte4zUEZ8",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年】【MV】动画《偶像大师闪耀色彩》×《Spread the Wings!!》",
+  "date": "2025-08-23",
+  "createdAt": "2025-08-23T11:43:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "说来惭愧，唯一一部没看的animas",
+  "text": "说来惭愧，唯一一部没看的animas",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cte4zUEZ8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cte4zUEZ8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3acd795ea4468ee54cb10180b645539bf73285f16ea1e6c772209c09df7b2b8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cte4zUEZ8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3acd795ea4468ee54cb10180b645539bf73285f16ea1e6c772209c09df7b2b8.jpg",
+    "title": "【偶像大师20周年】【MV】动画《偶像大师闪耀色彩》×《Spread the Wings!!》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3acd795ea4468ee54cb10180b645539bf73285f16ea1e6c772209c09df7b2b8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cidjejffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cte4zUEZ8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "435b91444ee265bbb05ce2eb2b574e5ddea155629ed8e266fc1f7efd487c07f9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

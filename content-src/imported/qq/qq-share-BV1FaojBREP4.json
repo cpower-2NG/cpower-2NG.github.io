@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1FaojBREP4",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师闪耀色彩】8周年纪念影像",
+  "date": "2026-04-25",
+  "createdAt": "2026-04-25T12:40:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "闪友习惯了（） 「偶像大师闪耀色彩」8周年纪念影像公开！",
+  "text": "闪友习惯了（）\n\n「偶像大师闪耀色彩」8周年纪念影像公开！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FaojBREP4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1FaojBREP4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b151c02b365dff9b3eb0fc0336900969fb023ca6e955d6c3c161e35d365f3567.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1FaojBREP4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b151c02b365dff9b3eb0fc0336900969fb023ca6e955d6c3c161e35d365f3567.jpg",
+    "title": "【偶像大师闪耀色彩】8周年纪念影像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b151c02b365dff9b3eb0fc0336900969fb023ca6e955d6c3c161e35d365f3567.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfiacbhhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1FaojBREP4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fb47915230f2d48fea891fb513520503014636fab646e45d9babddfb1976f1d8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

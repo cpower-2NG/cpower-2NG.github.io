@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Xg2CBtEmo",
+  "schemaVersion": 1,
+  "title": "分享 · 坏人的音mad",
+  "date": "2025-12-10",
+  "createdAt": "2025-12-10T05:34:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草",
+  "text": "草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xg2CBtEmo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Xg2CBtEmo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0aef83659b659069dcc5027caaa7206fffa86e57e72dd13faa28f283ec3df26.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Xg2CBtEmo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0aef83659b659069dcc5027caaa7206fffa86e57e72dd13faa28f283ec3df26.jpg",
+    "title": "坏人的音mad"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c0aef83659b659069dcc5027caaa7206fffa86e57e72dd13faa28f283ec3df26.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jeieedfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Xg2CBtEmo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "尘莎草",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "44eb2bf2b80ad5e54b8a10c51dd408213d2ed344a1ecd06bf2d9a783e4ddb632",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

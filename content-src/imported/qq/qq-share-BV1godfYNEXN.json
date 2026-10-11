@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1godfYNEXN",
+  "schemaVersion": 1,
+  "title": "分享 · eri親的笑声 涼獸的大声懂了 是帶刺女孩直播是吧",
+  "date": "2025-04-15",
+  "createdAt": "2025-04-15T13:10:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ヒヒヒヒヒ～",
+  "text": "ヒヒヒヒヒ～",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1godfYNEXN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1godfYNEXN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8272a29b99b813a10314f2cbb05a1caf82aad051ddc1c6f8a757da90271fe06.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1godfYNEXN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8272a29b99b813a10314f2cbb05a1caf82aad051ddc1c6f8a757da90271fe06.png",
+    "title": "eri親的笑声 涼獸的大声懂了 是帶刺女孩直播是吧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8272a29b99b813a10314f2cbb05a1caf82aad051ddc1c6f8a757da90271fe06.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bagccheehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1godfYNEXN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e69d7ebfb5c07cb790e1d023e107fd74232b216e0d46595191f612c88c3edee9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

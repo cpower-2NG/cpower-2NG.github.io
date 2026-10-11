@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RdWxzVEHn",
+  "schemaVersion": 1,
+  "title": "分享 · 像LabMem一样呐",
+  "date": "2025-10-20",
+  "createdAt": "2025-10-20T15:47:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好触的rap",
+  "text": "好触的rap",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RdWxzVEHn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RdWxzVEHn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d1e4a5589cd47fd38c73633cfd611ccf4df0a32585279c2ff467b41a990406c9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RdWxzVEHn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d1e4a5589cd47fd38c73633cfd611ccf4df0a32585279c2ff467b41a990406c9.jpg",
+    "title": "像LabMem一样呐"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d1e4a5589cd47fd38c73633cfd611ccf4df0a32585279c2ff467b41a990406c9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ffcfhjaghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RdWxzVEHn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0f7521c3bab1b1943825e5adf04913c9705ebe9acba1db79f141101cfe79b91c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

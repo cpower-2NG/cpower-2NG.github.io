@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1u99EBqE2e",
+  "schemaVersion": 1,
+  "title": "分享 · 【全程中字】花海咲季 2026生日LIVE",
+  "date": "2026-04-01",
+  "createdAt": "2026-04-01T15:24:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "跳得太可爱太好看了。最后还上了野花，还有不少致敬MV的动作，真好啊，能这样解释的野花属实是我没预想到的，完璧なお姉ちゃん！",
+  "text": "跳得太可爱太好看了。最后还上了野花，还有不少致敬MV的动作，真好啊，能这样解释的野花属实是我没预想到的，完璧なお姉ちゃん！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1u99EBqE2e",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1u99EBqE2e&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e5347866be57fd627883796e01fc23826f57f3e97fe9c838a11c3c51f92f2af6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1u99EBqE2e",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e5347866be57fd627883796e01fc23826f57f3e97fe9c838a11c3c51f92f2af6.jpg",
+    "title": "【全程中字】花海咲季 2026生日LIVE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e5347866be57fd627883796e01fc23826f57f3e97fe9c838a11c3c51f92f2af6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jiahfafhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1u99EBqE2e",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f1350444a6f7dedbfaf1fa5aad55c0f22d0a92ee47d294a1b7d5c5c17276b6a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

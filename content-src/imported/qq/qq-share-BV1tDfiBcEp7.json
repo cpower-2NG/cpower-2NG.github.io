@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tDfiBcEp7",
+  "schemaVersion": 1,
+  "title": "分享 · 灵梦卫冕幻想乡乒乓球冠军，魔理莎遗憾守银😭",
+  "date": "2026-06-12",
+  "createdAt": "2026-06-12T12:10:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "绷不住了 seedance免费次数用完了(悲",
+  "text": "绷不住了\n\nseedance免费次数用完了(悲",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tDfiBcEp7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tDfiBcEp7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/77d556fb3b7d8c4887a0d721c52e626c7724d246b0e077cfeb30e9f55bfed1cd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tDfiBcEp7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/77d556fb3b7d8c4887a0d721c52e626c7724d246b0e077cfeb30e9f55bfed1cd.jpg",
+    "title": "灵梦卫冕幻想乡乒乓球冠军，魔理莎遗憾守银😭"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/77d556fb3b7d8c4887a0d721c52e626c7724d246b0e077cfeb30e9f55bfed1cd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afcggcbihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tDfiBcEp7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "bili_67169714501",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a2984f0bc3b72cbc76c2200cef3aa695359a994aecc319374136cff116cae798",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

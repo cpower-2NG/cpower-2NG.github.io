@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hKxEzHEVv",
+  "schemaVersion": 1,
+  "title": "分享 · 【阳菜的IMAS翻跳系列】Thank You（上海IFE01“前夜祭”）",
+  "date": "2025-10-07",
+  "createdAt": "2025-10-07T03:08:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好啊，真好啊",
+  "text": "真好啊，真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hKxEzHEVv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hKxEzHEVv&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/b33b2c54f9ee5cc784ce93fee771f7438fdd63ee.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hKxEzHEVv",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/b33b2c54f9ee5cc784ce93fee771f7438fdd63ee.jpg",
+    "title": "【阳菜的IMAS翻跳系列】Thank You（上海IFE01“前夜祭”）"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/b33b2c54f9ee5cc784ce93fee771f7438fdd63ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iiegaijfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hKxEzHEVv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Hina阳菜",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e41f1714d590be1e6b54245a24939156c4ec5098f9d48f3871f26ce52be60392",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

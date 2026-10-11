@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18PXFYREkD",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】你一定没有仔细听过的季节活动BGM",
+  "date": "2025-03-29",
+  "createdAt": "2025-03-29T16:49:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "学的bgm真的好 最后一点存货了，剩下的游戏原声只能等官方补充了，我滴任务完成了",
+  "text": "学的bgm真的好\n\n最后一点存货了，剩下的游戏原声只能等官方补充了，我滴任务完成了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18PXFYREkD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18PXFYREkD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/506da84b8b603fa8dd28a8bda9325dbaf3cd605eb6e28bf76a917b15ad73ad81.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18PXFYREkD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/506da84b8b603fa8dd28a8bda9325dbaf3cd605eb6e28bf76a917b15ad73ad81.jpg",
+    "title": "【学园偶像大师】你一定没有仔细听过的季节活动BGM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/506da84b8b603fa8dd28a8bda9325dbaf3cd605eb6e28bf76a917b15ad73ad81.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fejggcdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18PXFYREkD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "cofflemon",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "02b5e705188103e219b880e14656bf4f9f728d35512362ce61b66b03978415e5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

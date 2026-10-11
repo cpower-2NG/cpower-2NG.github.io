@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1YmPTzMEwa",
+  "schemaVersion": 1,
+  "title": "分享 · Voy@ger - 花岩香奈　陽高真白　天音ゆかり　七瀬つむぎ",
+  "date": "2026-03-01",
+  "createdAt": "2026-03-01T12:31:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好 音樂祭Day2",
+  "text": "真好\n\n音樂祭Day2",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YmPTzMEwa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YmPTzMEwa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9846be8e7cd60ba003dbabdfa967ba1b986357cfc062d952518bb18761fde8e6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YmPTzMEwa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9846be8e7cd60ba003dbabdfa967ba1b986357cfc062d952518bb18761fde8e6.jpg",
+    "title": "Voy@ger - 花岩香奈　陽高真白　天音ゆかり　七瀬つむぎ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9846be8e7cd60ba003dbabdfa967ba1b986357cfc062d952518bb18761fde8e6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hicigdchhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YmPTzMEwa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "5220ayahihc",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a74ccc3603b6a283fb2128a1b79fd506dbe7f6c64c3620087c151c71d36dbc1e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

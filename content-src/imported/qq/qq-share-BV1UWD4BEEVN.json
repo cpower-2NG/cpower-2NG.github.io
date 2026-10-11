@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UWD4BEEVN",
+  "schemaVersion": 1,
+  "title": "分享 · 零星之光 XRLive 正式预告PV|偶像大师闪耀色彩",
+  "date": "2026-04-09",
+  "createdAt": "2026-04-09T11:32:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "期待 -",
+  "text": "期待\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UWD4BEEVN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UWD4BEEVN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7affdbd7443c4cac9673654a6900936044999593476bebb4d3ca9efd665150bb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UWD4BEEVN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7affdbd7443c4cac9673654a6900936044999593476bebb4d3ca9efd665150bb.jpg",
+    "title": "零星之光 XRLive 正式预告PV|偶像大师闪耀色彩"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7affdbd7443c4cac9673654a6900936044999593476bebb4d3ca9efd665150bb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icdedhfhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UWD4BEEVN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "55fa9d1c14c1c202a05e7440c2bdf5c3c9448d591dee21ba03963dfdab969def",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

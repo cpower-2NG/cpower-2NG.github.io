@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NN8UzuEpS",
+  "schemaVersion": 1,
+  "title": "分享 · 地上界",
+  "date": "2025-08-01",
+  "createdAt": "2025-08-01T04:39:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哇浪，这么帅的",
+  "text": "哇浪，这么帅的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NN8UzuEpS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NN8UzuEpS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dbc64f6d3a14108051186740ef9c443a6063313f7d93be96623cb1bbb1a3da1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NN8UzuEpS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dbc64f6d3a14108051186740ef9c443a6063313f7d93be96623cb1bbb1a3da1.jpg",
+    "title": "地上界"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1dbc64f6d3a14108051186740ef9c443a6063313f7d93be96623cb1bbb1a3da1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aebdcaefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NN8UzuEpS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "338fb4e8b03da2083e1b6de9237213af8dd0e945304eff353f4a19696c34dafa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

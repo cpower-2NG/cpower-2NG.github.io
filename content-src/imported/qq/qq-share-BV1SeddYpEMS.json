@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SeddYpEMS",
+  "schemaVersion": 1,
+  "title": "分享 · 【学マス天国】極月退散 主演：有村麻央 Fluorite版 ⧸ リズム天国MAD",
+  "date": "2025-04-13",
+  "createdAt": "2025-04-13T02:15:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，suang啊",
+  "text": "草，suang啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SeddYpEMS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SeddYpEMS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3914ac906779384b212a5e6e97aaf7c062d581b6ff751f8f8525d102e364a062.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SeddYpEMS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3914ac906779384b212a5e6e97aaf7c062d581b6ff751f8f8525d102e364a062.jpg",
+    "title": "【学マス天国】極月退散 主演：有村麻央 Fluorite版 ⧸ リズム天国MAD"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3914ac906779384b212a5e6e97aaf7c062d581b6ff751f8f8525d102e364a062.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jafabfeehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SeddYpEMS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "普通的六花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4a07b0e4b40d59f74928f683699eace0a8d1e88b375bd4a5b6a938ec2d59b567",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

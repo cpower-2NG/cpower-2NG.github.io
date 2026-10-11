@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uXfTYoEdU",
+  "schemaVersion": 1,
+  "title": "分享 · 誕生日",
+  "date": "2025-04-03",
+  "createdAt": "2025-04-03T14:46:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还得是他啊",
+  "text": "还得是他啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uXfTYoEdU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uXfTYoEdU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce1913252c83669346b0fc7678eace49e5a2165bd44e77d6da566f70622ee1f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uXfTYoEdU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce1913252c83669346b0fc7678eace49e5a2165bd44e77d6da566f70622ee1f.jpg",
+    "title": "誕生日"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce1913252c83669346b0fc7678eace49e5a2165bd44e77d6da566f70622ee1f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bgfbjgdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uXfTYoEdU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8d804212d474783a88cb7adc5ad4d954f0a5030f2ece671b53749dc14e6a46d1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

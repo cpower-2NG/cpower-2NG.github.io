@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qEbQzAEmc",
+  "schemaVersion": 1,
+  "title": "分享 · 【20周年纪念】来自中村绘里子·今井麻美·长谷川明子的问候",
+  "date": "2025-07-26",
+  "createdAt": "2025-07-26T03:19:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"h",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qEbQzAEmc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qEbQzAEmc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3049b04c60fd8a2963be4a975f76c0dad4331b7f15985aee6acbc568626b460.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qEbQzAEmc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3049b04c60fd8a2963be4a975f76c0dad4331b7f15985aee6acbc568626b460.jpg",
+    "title": "【20周年纪念】来自中村绘里子·今井麻美·长谷川明子的问候"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c3049b04c60fd8a2963be4a975f76c0dad4331b7f15985aee6acbc568626b460.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dfjjjedfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qEbQzAEmc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "28a692a95b7614c6887e3106ba31a2ad43e6fdd647c740b6cad65019fb92e9b9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

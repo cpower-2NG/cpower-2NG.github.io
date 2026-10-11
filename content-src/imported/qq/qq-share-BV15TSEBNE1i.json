@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15TSEBNE1i",
+  "schemaVersion": 1,
+  "title": "分享 · 【中日双语】THE FIRST T@KE×如月千早「約束」|偶像大师",
+  "date": "2025-11-28",
+  "createdAt": "2025-11-28T15:43:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不能哭，千早真的走出那一步了。「歩いて行こう 決めた道 歌っていこう」",
+  "text": "不能哭，千早真的走出那一步了。「歩いて行こう 決めた道 歌っていこう」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15TSEBNE1i",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15TSEBNE1i&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab1852a182e3a78b7a814693d860fddc27a7600524c2d9523fd6c64137db6f7e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15TSEBNE1i",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab1852a182e3a78b7a814693d860fddc27a7600524c2d9523fd6c64137db6f7e.jpg",
+    "title": "【中日双语】THE FIRST T@KE×如月千早「約束」|偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab1852a182e3a78b7a814693d860fddc27a7600524c2d9523fd6c64137db6f7e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gifeedeghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15TSEBNE1i",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fa15220ec82b88051698910ea44a73d4b6ab0727b321f990ae68e4e501517487",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

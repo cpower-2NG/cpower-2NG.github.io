@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1HodqYRE16",
+  "schemaVersion": 1,
+  "title": "分享 · 【茱莉亚】アロー彗星（演唱版）",
+  "date": "2025-04-13",
+  "createdAt": "2025-04-13T12:41:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是喜欢百万的live",
+  "text": "还是喜欢百万的live",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HodqYRE16",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HodqYRE16&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4683a9fbf52a05879bec945b87122a101bf43aeea67d639007271dba9bfb9e54.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HodqYRE16",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4683a9fbf52a05879bec945b87122a101bf43aeea67d639007271dba9bfb9e54.jpg",
+    "title": "【茱莉亚】アロー彗星（演唱版）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4683a9fbf52a05879bec945b87122a101bf43aeea67d639007271dba9bfb9e54.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eiaiefeehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HodqYRE16",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "中二可乐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5321f7225b2337b56a8ff5a07845e454a790ab3bf302554ee1b5fb28e811c978",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

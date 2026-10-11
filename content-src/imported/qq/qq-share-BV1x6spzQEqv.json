@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1x6spzQEqv",
+  "schemaVersion": 1,
+  "title": "分享 · 121作品比較 LOVE2000",
+  "date": "2025-11-04",
+  "createdAt": "2025-11-04T05:26:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "意外的感动 youtu.be/5Tz64rWiymg",
+  "text": "意外的感动\n\nyoutu.be/5Tz64rWiymg",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1x6spzQEqv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1x6spzQEqv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de91399900e0d259ccbcee04df94d5a927c3cb3bb10e63a31f68956f529a0de2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1x6spzQEqv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de91399900e0d259ccbcee04df94d5a927c3cb3bb10e63a31f68956f529a0de2.jpg",
+    "title": "121作品比較 LOVE2000"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de91399900e0d259ccbcee04df94d5a927c3cb3bb10e63a31f68956f529a0de2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igjddccghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1x6spzQEqv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "咕噜咕噜咕咕咕噜咕噜",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cc30022349238793fbc780f48fba59349bcd87084ed2d9519ace397ea65c01a2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

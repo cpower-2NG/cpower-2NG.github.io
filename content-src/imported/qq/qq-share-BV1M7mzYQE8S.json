@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1M7mzYQE8S",
+  "schemaVersion": 1,
+  "title": "分享 · 【Hi-Res】紫云清夏生日曲「Ride on Beat」完整版",
+  "date": "2025-04-01",
+  "createdAt": "2025-04-01T14:16:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "生日曲里最喜欢的一首 -",
+  "text": "生日曲里最喜欢的一首\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1M7mzYQE8S",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1M7mzYQE8S&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ffa4d9fe1d20e2af51793a52b8ec411e268f767192fddefa609308e2edfa169.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1M7mzYQE8S",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ffa4d9fe1d20e2af51793a52b8ec411e268f767192fddefa609308e2edfa169.jpg",
+    "title": "【Hi-Res】紫云清夏生日曲「Ride on Beat」完整版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ffa4d9fe1d20e2af51793a52b8ec411e268f767192fddefa609308e2edfa169.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "faahbfdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1M7mzYQE8S",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8021667dd691929d8ab8859c89996a66d8d9f5720b55ccf3d88edaa7134db9ae",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

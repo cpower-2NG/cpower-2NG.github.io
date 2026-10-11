@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13ndxBcEHR",
+  "schemaVersion": 1,
+  "title": "分享 · 本命角色合作 ~爱ta就要把ta做成音MAD!~",
+  "date": "2026-04-19",
+  "createdAt": "2026-04-19T15:01:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神！爱的力量是无限的！",
+  "text": "神！爱的力量是无限的！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13ndxBcEHR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13ndxBcEHR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98aa850498c0ee9076422581d546fc96fdde463a715cc5ab107d66de988122dc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13ndxBcEHR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98aa850498c0ee9076422581d546fc96fdde463a715cc5ab107d66de988122dc.jpg",
+    "title": "本命角色合作 ~爱ta就要把ta做成音MAD!~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98aa850498c0ee9076422581d546fc96fdde463a715cc5ab107d66de988122dc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahiabgghhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13ndxBcEHR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "玛丽的对头",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5773a03fbdf21f8093e76f902f1fb7b4cae1c935c60cf444abe17f4533b225c9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

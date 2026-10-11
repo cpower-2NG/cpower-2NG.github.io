@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vXeczvECF",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年】【MV】动画《偶像大师灰姑娘女孩》×《お願い！シンデレラ》",
+  "date": "2025-08-20",
+  "createdAt": "2025-08-20T11:01:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "来了",
+  "text": "来了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vXeczvECF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vXeczvECF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321f3684574a2650743e4a0b339f0a52af6269f4716cd2171f84667dfcdd8141.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vXeczvECF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321f3684574a2650743e4a0b339f0a52af6269f4716cd2171f84667dfcdd8141.jpg",
+    "title": "【偶像大师20周年】【MV】动画《偶像大师灰姑娘女孩》×《お願い！シンデレラ》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321f3684574a2650743e4a0b339f0a52af6269f4716cd2171f84667dfcdd8141.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bgghigffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vXeczvECF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "96184b1456391d24fcb79ee18e4c96496709634684be50334731080b7b9d1690",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KNLc6XEHR",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「MY STAGE」Official Music Video (HATSUBOSHI GAKUEN - MY ",
+  "date": "2026-05-21",
+  "createdAt": "2026-05-21T12:19:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "m(o_ _)m",
+  "text": "m(o_ _)m",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KNLc6XEHR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KNLc6XEHR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/97422c921a15841aa59a993505ece5dcae28c75aaaba28f8487c43559c8d84ce.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KNLc6XEHR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/97422c921a15841aa59a993505ece5dcae28c75aaaba28f8487c43559c8d84ce.jpg",
+    "title": "初星学园 「MY STAGE」Official Music Video (HATSUBOSHI GAKUEN - MY STAGE)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/97422c921a15841aa59a993505ece5dcae28c75aaaba28f8487c43559c8d84ce.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djjfgdjhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KNLc6XEHR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5a898bd377295a7ea7da6ab587e98722450edb20855aad8e4887e41f43abfd78",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

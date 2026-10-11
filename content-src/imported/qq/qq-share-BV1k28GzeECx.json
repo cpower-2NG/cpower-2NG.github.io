@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1k28GzeECx",
+  "schemaVersion": 1,
+  "title": "分享 · （中字）畅想moiw2025大家",
+  "date": "2025-07-27",
+  "createdAt": "2025-07-27T15:51:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "啊，开始幻想了",
+  "text": "啊，开始幻想了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1k28GzeECx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1k28GzeECx&high_quality=1&danmaku=0",
+    "cover": "https://i0.hdslb.com/bfs/archive/fa1b23e494fead7d4ae0096fc985714ce860d0bf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1k28GzeECx",
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/fa1b23e494fead7d4ae0096fc985714ce860d0bf.jpg",
+    "title": "（中字）畅想moiw2025大家"
+  },
+  "cover": "https://i0.hdslb.com/bfs/archive/fa1b23e494fead7d4ae0096fc985714ce860d0bf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cgebdgdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1k28GzeECx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "664adeeac53245a4291d2a1bc8a071ca8f9327f53cbb39dce4cee5c0a0e26b7a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

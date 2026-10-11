@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dFV6zQEcr",
+  "schemaVersion": 1,
+  "title": "分享 · 致被撕碎世界的书信",
+  "date": "2025-05-05",
+  "createdAt": "2025-05-05T11:02:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草 节约用纸",
+  "text": "草\n\n节约用纸",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dFV6zQEcr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dFV6zQEcr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3330580319bf7c66bff91f8dfdd78cdc84dc78c11e51e8e6bc70537ee343a7d6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dFV6zQEcr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3330580319bf7c66bff91f8dfdd78cdc84dc78c11e51e8e6bc70537ee343a7d6.jpg",
+    "title": "致被撕碎世界的书信"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3330580319bf7c66bff91f8dfdd78cdc84dc78c11e51e8e6bc70537ee343a7d6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "acjceegehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dFV6zQEcr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "万豪敦可可亚",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "87d79378112d608d35cffd7da114ba1495b004bcfc6ae8645b890995a006fd51",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

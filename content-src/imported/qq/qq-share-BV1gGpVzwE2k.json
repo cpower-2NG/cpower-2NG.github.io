@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gGpVzwE2k",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「光景」Official Music Video (HATSUBOSHI GAKUEN - Koukei)",
+  "date": "2025-09-16",
+  "createdAt": "2025-09-16T15:24:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "正好借此机会说说我心中的广吧，虽然更多是我自己的主观投射（笑）。 小广她​大多数时候表现出来的夸张的抖m属性和对困难、失败...",
+  "text": "正好借此机会说说我心中的广吧，虽然更多是我自己的主观投射（笑）。 小广她​大多数时候表现出来的夸张的抖m属性和对困难、失败...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gGpVzwE2k",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gGpVzwE2k&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85798f4388ed2a1f9767e0df9c6b69417fbe8a6814ec983d4e4af4401378ffb8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gGpVzwE2k",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85798f4388ed2a1f9767e0df9c6b69417fbe8a6814ec983d4e4af4401378ffb8.jpg",
+    "title": "初星学园 「光景」Official Music Video (HATSUBOSHI GAKUEN - Koukei)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85798f4388ed2a1f9767e0df9c6b69417fbe8a6814ec983d4e4af4401378ffb8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aecgdaifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gGpVzwE2k",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2d2dc558ac4818dede33554d6b52eed7abde8ac8bfd2b14bb6a81814b2607b90",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

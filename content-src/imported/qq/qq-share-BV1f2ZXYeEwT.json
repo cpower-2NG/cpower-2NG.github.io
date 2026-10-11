@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1f2ZXYeEwT",
+  "schemaVersion": 1,
+  "title": "分享 · 紫雲清夏 制服SSR『桜フォトグラフ』【学园偶像大师 4K HDR 真结局MV/初星学園】",
+  "date": "2025-04-04",
+  "createdAt": "2025-04-04T13:53:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "“希望能用我的个性丰富清夏的表现力”，真好啊",
+  "text": "“希望能用我的个性丰富清夏的表现力”，真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1f2ZXYeEwT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1f2ZXYeEwT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39b441d2490b4701d9e3d149f98cbc6413912bf28c75e938474827f7669cf4ff.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1f2ZXYeEwT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39b441d2490b4701d9e3d149f98cbc6413912bf28c75e938474827f7669cf4ff.jpg",
+    "title": "紫雲清夏 制服SSR『桜フォトグラフ』【学园偶像大师 4K HDR 真结局MV/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39b441d2490b4701d9e3d149f98cbc6413912bf28c75e938474827f7669cf4ff.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdiehhdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1f2ZXYeEwT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "237ee41cf0ee85526997bfa663bd99185d54454fe810baa59466fc2541482694",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

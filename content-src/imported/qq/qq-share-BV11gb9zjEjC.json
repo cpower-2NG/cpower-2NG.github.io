@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11gb9zjEjC",
+  "schemaVersion": 1,
+  "title": "分享 · 祝偶像大师20周年----翼 当时我就唱着那个偶像大师边唱边哭。",
+  "date": "2025-07-26",
+  "createdAt": "2025-07-26T03:45:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "当时我就看那个偶像大师边看边哭 《总有些事情，你觉得准备了许久，练习了无数次，肯定万无一失，但正式场合一出，又总会遭遇一些意想不到的》",
+  "text": "当时我就看那个偶像大师边看边哭\n\n《总有些事情，你觉得准备了许久，练习了无数次，肯定万无一失，但正式场合一出，又总会遭遇一些意想不到的》",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11gb9zjEjC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11gb9zjEjC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15a9e0f7662e02f259607f2af1f6b5bfaa9dbadf4fcf913d05e48df526582ea1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11gb9zjEjC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15a9e0f7662e02f259607f2af1f6b5bfaa9dbadf4fcf913d05e48df526582ea1.jpg",
+    "title": "祝偶像大师20周年----翼 当时我就唱着那个偶像大师边唱边哭。"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/15a9e0f7662e02f259607f2af1f6b5bfaa9dbadf4fcf913d05e48df526582ea1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcfbafdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11gb9zjEjC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师同人官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2dfe56a240fdbcc22fe70beca71e8000f450597a7446b321f1e4c8ee9329eab4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

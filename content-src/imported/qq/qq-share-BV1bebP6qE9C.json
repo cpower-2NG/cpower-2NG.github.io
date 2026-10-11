@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bebP6qE9C",
+  "schemaVersion": 1,
+  "title": "分享 · GPT 6 从零创作音乐从 fl studio 创建器乐，然后在 synthesize v studio2pro 中使用",
+  "date": "2026-09-08",
+  "createdAt": "2026-09-08T03:18:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "难道说",
+  "text": "难道说",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bebP6qE9C",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bebP6qE9C&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a94c5a33e6aff122759eef030557ed5cb17361cf6be01debe00d2fa3130b4b8.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bebP6qE9C",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a94c5a33e6aff122759eef030557ed5cb17361cf6be01debe00d2fa3130b4b8.png",
+    "title": "GPT 6 从零创作音乐从 fl studio 创建器乐，然后在 synthesize v studio2pro 中使用音库，无素材参考"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a94c5a33e6aff122759eef030557ed5cb17361cf6be01debe00d2fa3130b4b8.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibfhdiiihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bebP6qE9C",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "青龙圣者",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b0718f6ba619fe14806aa42ca8485efca77d9a0dc5ca957c18d93542f36b56e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

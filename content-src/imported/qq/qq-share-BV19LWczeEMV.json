@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19LWczeEMV",
+  "schemaVersion": 1,
+  "title": "分享 · 2:23 AM",
+  "date": "2025-09-25",
+  "createdAt": "2025-09-25T13:49:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草 睡吧，睡吧，我亲爱的宝贝",
+  "text": "草\n\n睡吧，睡吧，我亲爱的宝贝",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19LWczeEMV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19LWczeEMV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e6e78febfa8dbbc3172000f27df81ef20cae4124dd62ca02aa6dcd5c0b15092.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19LWczeEMV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e6e78febfa8dbbc3172000f27df81ef20cae4124dd62ca02aa6dcd5c0b15092.jpg",
+    "title": "2:23 AM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1e6e78febfa8dbbc3172000f27df81ef20cae4124dd62ca02aa6dcd5c0b15092.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhbiaiifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19LWczeEMV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "nlmhc",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8330edc1c1bab312d88fd22c993608319ce8cbfa32b46a9c6513b58630f9c19e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

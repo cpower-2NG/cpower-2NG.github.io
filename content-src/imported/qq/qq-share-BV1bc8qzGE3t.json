@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bc8qzGE3t",
+  "schemaVersion": 1,
+  "title": "分享 · No title",
+  "date": "2025-07-30",
+  "createdAt": "2025-07-30T18:19:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "rap段情绪一点点上来，爆发的时候转入人力副歌，好suang啊。就是结尾差点意思",
+  "text": "rap段情绪一点点上来，爆发的时候转入人力副歌，好suang啊。就是结尾差点意思",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bc8qzGE3t",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bc8qzGE3t&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/71c893c4e77530ea8a4dd3b738313c1820df29a1c75eddd5515022de6988c974.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bc8qzGE3t",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/71c893c4e77530ea8a4dd3b738313c1820df29a1c75eddd5515022de6988c974.jpg",
+    "title": "No title"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/71c893c4e77530ea8a4dd3b738313c1820df29a1c75eddd5515022de6988c974.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fifjjidfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bc8qzGE3t",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3603f2e3e335531386e3db7622591bcc678e1c8a59ca34aef25fabf687926081",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

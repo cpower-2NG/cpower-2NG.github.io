@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xMoRYLEQ1",
+  "schemaVersion": 1,
+  "title": "分享 · 新动画映像 「SHHis」中文字幕",
+  "date": "2026-01-11",
+  "createdAt": "2026-01-11T15:45:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "特意空了好久才看ova。和TV版体感差别不大，最多比s2那几集略逊一筹的程度吧。仔细想想，差异应该还是在叙事任务轻了，这应该是唯...",
+  "text": "特意空了好久才看ova。和TV版体感差别不大，最多比s2那几集略逊一筹的程度吧。仔细想想，差异应该还是在叙事任务轻了，这应该是唯...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xMoRYLEQ1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xMoRYLEQ1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fb4d7f80fcfaacecd58a83e6cb7b53633f9f901882886e6d05dfc2ec67f27b7c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xMoRYLEQ1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fb4d7f80fcfaacecd58a83e6cb7b53633f9f901882886e6d05dfc2ec67f27b7c.jpg",
+    "title": "新动画映像 「SHHis」中文字幕"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fb4d7f80fcfaacecd58a83e6cb7b53633f9f901882886e6d05dfc2ec67f27b7c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eddgebighb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xMoRYLEQ1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Ted007zz",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a5a1ee81af50907e02d0c03c0cb3b51d3b050c0afa439901fdd76ab9f0ded5e9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1HLZPYaE3a",
+  "schemaVersion": 1,
+  "title": "分享 · 就是这首歌，就是这首！",
+  "date": "2025-03-29",
+  "createdAt": "2025-03-29T13:35:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就是这首歌，就是这首！",
+  "text": "就是这首歌，就是这首！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HLZPYaE3a",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HLZPYaE3a&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HLZPYaE3a",
+    "coverUrl": "",
+    "title": "就是这首歌，就是这首！"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fadffcdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HLZPYaE3a",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4a165b36bf55b075f71548674dd811d4928ce7f593f5f2dd13ebd85b6d45f8ef",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

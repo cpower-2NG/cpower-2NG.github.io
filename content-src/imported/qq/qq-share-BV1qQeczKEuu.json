@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qQeczKEuu",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年】【MV】动画《偶像大师》×《READY!!》",
+  "date": "2025-08-19",
+  "createdAt": "2025-08-19T13:27:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "能不能把油管频道上的都搬来",
+  "text": "能不能把油管频道上的都搬来",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qQeczKEuu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qQeczKEuu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce42b68b2e2e2f4ad3142d2579871f5fdc02fad8cb281dab6f5f52004d917cf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qQeczKEuu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce42b68b2e2e2f4ad3142d2579871f5fdc02fad8cb281dab6f5f52004d917cf.jpg",
+    "title": "【偶像大师20周年】【MV】动画《偶像大师》×《READY!!》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9ce42b68b2e2e2f4ad3142d2579871f5fdc02fad8cb281dab6f5f52004d917cf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agaabgffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qQeczKEuu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f3744af36746393b88d7a73bbfa747c377901415f3295ad38714793145ff178b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KbK2zrEUN",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像 风野灯织 feat.山口一郎P【怪獣→プラトー】",
+  "date": "2025-06-28",
+  "createdAt": "2025-06-28T11:20:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "鸡皮疙瘩起来了",
+  "text": "鸡皮疙瘩起来了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KbK2zrEUN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KbK2zrEUN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5be97eff9e4830dc8f6a0d984fd69a81b7dda3ec67af24e5d8b474d5a4bde0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KbK2zrEUN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5be97eff9e4830dc8f6a0d984fd69a81b7dda3ec67af24e5d8b474d5a4bde0.jpg",
+    "title": "偶像 风野灯织 feat.山口一郎P【怪獣→プラトー】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5be97eff9e4830dc8f6a0d984fd69a81b7dda3ec67af24e5d8b474d5a4bde0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "degjabbfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KbK2zrEUN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "虚无韵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "53981ca656bb2d715a4b582af8e1ca6efc9f00ab6365757188acd2686726a2cc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18ZXNBYEMS",
+  "schemaVersion": 1,
+  "title": "分享 · 【切】伊藤舞音、天音ゆかり『点描の唄/Mrs. GREEN APPLE』",
+  "date": "2026-03-27",
+  "createdAt": "2026-03-27T11:53:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/>",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18ZXNBYEMS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18ZXNBYEMS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b84348db0f1024cd9969b6507697d50ea07040901a1f89263dbe66bafb9c6373.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18ZXNBYEMS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b84348db0f1024cd9969b6507697d50ea07040901a1f89263dbe66bafb9c6373.jpg",
+    "title": "【切】伊藤舞音、天音ゆかり『点描の唄/Mrs. GREEN APPLE』"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b84348db0f1024cd9969b6507697d50ea07040901a1f89263dbe66bafb9c6373.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "didcbgehhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18ZXNBYEMS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "士口田木",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7167c4a783100f9920c02d3f29337ed714ea18c2b994969e1034582c17aa6f3b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

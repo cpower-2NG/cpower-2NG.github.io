@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1TgRWYdE8c",
+  "schemaVersion": 1,
+  "title": "分享 · 真好，好有感染力o(ノ╥﹏╥)ノo",
+  "date": "2025-03-28",
+  "createdAt": "2025-03-28T14:38:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好，好有感染力o(ノ╥﹏╥)ノo",
+  "text": "真好，好有感染力o(ノ╥﹏╥)ノo",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TgRWYdE8c",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TgRWYdE8c&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TgRWYdE8c",
+    "coverUrl": "",
+    "title": "真好，好有感染力o(ノ╥﹏╥)ノo"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjgchbdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TgRWYdE8c",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f030f1364af5c14df3f55508bd3e8e77a48a2cc23d22d9dca6fef83b7becaff4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VuNBzbEdz",
+  "schemaVersion": 1,
+  "title": "分享 · Love & Joy 紫雲清夏 solo【学園偶像大师/初星学園 MV】",
+  "date": "2025-06-17",
+  "createdAt": "2025-06-17T14:10:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "竟然还能融进来芭蕾元素，期待一下完整版 -",
+  "text": "竟然还能融进来芭蕾元素，期待一下完整版\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VuNBzbEdz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VuNBzbEdz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d208ae299661fb67e7352bfc51827d8477b24b2119bbf0915f5807f39c9afd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VuNBzbEdz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d208ae299661fb67e7352bfc51827d8477b24b2119bbf0915f5807f39c9afd.jpg",
+    "title": "Love & Joy 紫雲清夏 solo【学園偶像大师/初星学園 MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07d208ae299661fb67e7352bfc51827d8477b24b2119bbf0915f5807f39c9afd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibejgbafhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VuNBzbEdz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a4eee6519b1f292aeaf7b84a8d1cb7e01d1b7763a6c51c9f1dc7604983254ad9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a9ZZYNEGT",
+  "schemaVersion": 1,
+  "title": "分享 · 【MADMAX/魔法少女小圆/叛逆的物语】蜘蛛之丝",
+  "date": "2025-04-05",
+  "createdAt": "2025-04-05T04:08:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真神！",
+  "text": "真神！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a9ZZYNEGT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a9ZZYNEGT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61fc1111258ed8ce29fb3c635c70a48a4137272d89ea98a9c3933eaf9cfdd6d9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a9ZZYNEGT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61fc1111258ed8ce29fb3c635c70a48a4137272d89ea98a9c3933eaf9cfdd6d9.jpg",
+    "title": "【MADMAX/魔法少女小圆/叛逆的物语】蜘蛛之丝"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61fc1111258ed8ce29fb3c635c70a48a4137272d89ea98a9c3933eaf9cfdd6d9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fabgcidehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a9ZZYNEGT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "永友i",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "210acf4e22c8d7918c107d6288ddcd26a589c7e48aab73e4173d262e029b9249",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

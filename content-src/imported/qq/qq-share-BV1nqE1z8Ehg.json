@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nqE1z8Ehg",
+  "schemaVersion": 1,
+  "title": "分享 · 「雨上がりのアイリス（雨霁鸢尾）」-Re;IRIS 官方MV|学园偶像大师",
+  "date": "2025-05-15",
+  "createdAt": "2025-05-15T16:10:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这首歌，请一直唱下去 ytb",
+  "text": "这首歌，请一直唱下去\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nqE1z8Ehg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nqE1z8Ehg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f167161cd52038506fa89009db2a3b2cd26cfb7a8e229a5f7c6760f1394a002e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nqE1z8Ehg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f167161cd52038506fa89009db2a3b2cd26cfb7a8e229a5f7c6760f1394a002e.jpg",
+    "title": "「雨上がりのアイリス（雨霁鸢尾）」-Re;IRIS 官方MV|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f167161cd52038506fa89009db2a3b2cd26cfb7a8e229a5f7c6760f1394a002e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "caefcdhehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nqE1z8Ehg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2f27f1723c6e97a535f1fb2b4fc7e3bda0e48a96a8d7de4e3ee0ef4737c64cc3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

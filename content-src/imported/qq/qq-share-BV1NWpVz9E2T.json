@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NWpVz9E2T",
+  "schemaVersion": 1,
+  "title": "分享 · 锡浅",
+  "date": "2025-09-13",
+  "createdAt": "2025-09-13T11:45:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "音色也太合适了，好舒服的YTPMV",
+  "text": "音色也太合适了，好舒服的YTPMV",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NWpVz9E2T",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NWpVz9E2T&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c38552c850e921da23e3d7de03c29516d8e09cc71f481f13512568003e86fb09.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NWpVz9E2T",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c38552c850e921da23e3d7de03c29516d8e09cc71f481f13512568003e86fb09.jpg",
+    "title": "锡浅"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c38552c850e921da23e3d7de03c29516d8e09cc71f481f13512568003e86fb09.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbjdghhfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NWpVz9E2T",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dd98156ede84ce46c0104e20bcb63308fe08da573c8e10f1d770944a72588159",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

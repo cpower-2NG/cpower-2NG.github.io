@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1BJPMzjE3v",
+  "schemaVersion": 1,
+  "title": "分享 · 花海咲季 STEP 3 预告【学园偶像大师/初星学園】",
+  "date": "2026-03-01",
+  "createdAt": "2026-03-01T11:39:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "感觉会是我继bbp之后又一感兴趣的saki solo.",
+  "text": "感觉会是我继bbp之后又一感兴趣的saki solo.",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BJPMzjE3v",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BJPMzjE3v&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0a562ced3161289719b75fe7a4db866a58f848722069830c547f1f40a688ae7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BJPMzjE3v",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0a562ced3161289719b75fe7a4db866a58f848722069830c547f1f40a688ae7.jpg",
+    "title": "花海咲季 STEP 3 预告【学园偶像大师/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0a562ced3161289719b75fe7a4db866a58f848722069830c547f1f40a688ae7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifbfgdchhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BJPMzjE3v",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "092649dabb325254febbaabaa727e327803af234ecb74cc0a4daa57726401ec8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gJfcBvEbq",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】S2 少女超宇宙版",
+  "date": "2026-03-02",
+  "createdAt": "2026-03-02T13:06:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "后半一个比一个厉害，「初音未来的消失」段的ルカ的人力和1/3疾走太神了，有点感动",
+  "text": "后半一个比一个厉害，「初音未来的消失」段的ルカ的人力和1/3疾走太神了，有点感动",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gJfcBvEbq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gJfcBvEbq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce83830c2e3dcf3b24df95f5a877652dc2d6cdae792bf5e3243bda1397da8541.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gJfcBvEbq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce83830c2e3dcf3b24df95f5a877652dc2d6cdae792bf5e3243bda1397da8541.jpg",
+    "title": "【合作】S2 少女超宇宙版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce83830c2e3dcf3b24df95f5a877652dc2d6cdae792bf5e3243bda1397da8541.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eghgfechhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gJfcBvEbq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bc4e57b21cb5140cd4daf85a42ae8dedef7a6ecebb7b7cc5a1382c2f572617b7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

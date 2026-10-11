@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZTf2B3EBk",
+  "schemaVersion": 1,
+  "title": "分享 · 【876FES】アイ NEED YOU（FOR WONDERFUL STORY） - 876PRO ALLSTARS,D",
+  "date": "2026-03-03",
+  "createdAt": "2026-03-03T09:23:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "asobi",
+  "text": "asobi",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZTf2B3EBk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZTf2B3EBk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/50117b6e0485827eddd263951fe2f0892c4e4064803ee43a9cda42db34aa9278.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZTf2B3EBk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/50117b6e0485827eddd263951fe2f0892c4e4064803ee43a9cda42db34aa9278.jpg",
+    "title": "【876FES】アイ NEED YOU（FOR WONDERFUL STORY） - 876PRO ALLSTARS,Dearly Stars,vα-liv"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/50117b6e0485827eddd263951fe2f0892c4e4064803ee43a9cda42db34aa9278.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdijcfchhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZTf2B3EBk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "张_鑫焱",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f0e99850cea5c281c6f3290961ba1396c47d14ff9dfa75d5594b72ce3750b045",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

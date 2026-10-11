@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sH2rBGEo9",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「Atmosphere」Official Music Video (HATSUBOSHI GAKUEN - A",
+  "date": "2025-12-08",
+  "createdAt": "2025-12-08T15:24:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "华丽的甚至有点凌乱，但永远能听见「心の叫び」",
+  "text": "华丽的甚至有点凌乱，但永远能听见「心の叫び」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sH2rBGEo9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sH2rBGEo9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9b275ed43b3ba5bf51e2ab147a06dcbe0ff0094fc6edd638a72f41413cff13d0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sH2rBGEo9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9b275ed43b3ba5bf51e2ab147a06dcbe0ff0094fc6edd638a72f41413cff13d0.jpg",
+    "title": "初星学园 「Atmosphere」Official Music Video (HATSUBOSHI GAKUEN - Atmosphere)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9b275ed43b3ba5bf51e2ab147a06dcbe0ff0094fc6edd638a72f41413cff13d0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgehacfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sH2rBGEo9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b46d39b41083e963cedfe9419e97603e1b1322437583fd81daae60be6b6c6c29",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

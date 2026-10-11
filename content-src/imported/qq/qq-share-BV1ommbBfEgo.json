@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ommbBfEgo",
+  "schemaVersion": 1,
+  "title": "分享 · 如月千早 - M@STERPIECE / THE FIRST TAKE",
+  "date": "2025-12-10",
+  "createdAt": "2025-12-10T13:16:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "泣いた、もう",
+  "text": "泣いた、もう",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ommbBfEgo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ommbBfEgo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39659c09b9fba11c64a281fa8bd76b93896e0244e40438098dadfaf018ad211c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ommbBfEgo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39659c09b9fba11c64a281fa8bd76b93896e0244e40438098dadfaf018ad211c.jpg",
+    "title": "如月千早 - M@STERPIECE / THE FIRST TAKE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/39659c09b9fba11c64a281fa8bd76b93896e0244e40438098dadfaf018ad211c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fbgchdfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ommbBfEgo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "THE FIRST TAKE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "23779ac2bca79dc2b40cb10b27f405baf6862472893e5803c1bc1ee80eb53c2e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

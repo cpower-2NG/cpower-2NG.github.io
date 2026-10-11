@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oAp4zyErF",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「36℃ U･B･U」Official Music Video (HATSUBOSHI GAKUEN - 36",
+  "date": "2025-09-17",
+  "createdAt": "2025-09-17T15:32:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我的破音乐素养完全欣赏不了了",
+  "text": "我的破音乐素养完全欣赏不了了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oAp4zyErF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oAp4zyErF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668085f75e7fca7b808a2f000e0ac0a8801e7f8394d11b148eda60630c9abc4f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oAp4zyErF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668085f75e7fca7b808a2f000e0ac0a8801e7f8394d11b148eda60630c9abc4f.jpg",
+    "title": "初星学园 「36℃ U･B･U」Official Music Video (HATSUBOSHI GAKUEN - 36℃ U･B･U)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668085f75e7fca7b808a2f000e0ac0a8801e7f8394d11b148eda60630c9abc4f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdbdcbifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oAp4zyErF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5c994dcbadc55254ea05c281f4fee801b5f69a5d53db6646e77c9ce7bcd9d840",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

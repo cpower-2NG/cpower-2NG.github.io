@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZkhJz5EPR",
+  "schemaVersion": 1,
+  "title": "分享 · Star-mine — Begrazia | 歌词分配 | 中字",
+  "date": "2025-08-08",
+  "createdAt": "2025-08-08T14:16:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "怎么今天才想着看看翻译，好在这词曲契合度实在高，我没出现理解偏差",
+  "text": "怎么今天才想着看看翻译，好在这词曲契合度实在高，我没出现理解偏差",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZkhJz5EPR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZkhJz5EPR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/519efe3b0b59d2b37c94d673037aa6164815b5fd0db53c0f73d254fee44bf996.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZkhJz5EPR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/519efe3b0b59d2b37c94d673037aa6164815b5fd0db53c0f73d254fee44bf996.jpg",
+    "title": "Star-mine — Begrazia | 歌词分配 | 中字"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/519efe3b0b59d2b37c94d673037aa6164815b5fd0db53c0f73d254fee44bf996.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajfcggefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZkhJz5EPR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "SAKUNOBUN_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7a663fe92c5ea210cfa39bd9e4511a5b2aad573c83437ac63c955898af5e1911",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

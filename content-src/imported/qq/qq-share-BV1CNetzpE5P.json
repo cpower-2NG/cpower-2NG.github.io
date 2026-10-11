@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CNetzpE5P",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年】【MV】动画《偶像大师SideM》×《Reason!!》",
+  "date": "2025-08-22",
+  "createdAt": "2025-08-22T13:10:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "M或许是风格最像本家动画的アニマス了（笑）。没有深入人心的主旨，也没有特别感人的单元回，也没有充足的资金（万南我第二季呢）...",
+  "text": "M或许是风格最像本家动画的アニマス了（笑）。没有深入人心的主旨，也没有特别感人的单元回，也没有充足的资金（万南我第二季呢）...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CNetzpE5P",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CNetzpE5P&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be6640c60fb0aea43d3e6874014f83c55e1df9e5e0831709da7ebdaa8a916403.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CNetzpE5P",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be6640c60fb0aea43d3e6874014f83c55e1df9e5e0831709da7ebdaa8a916403.jpg",
+    "title": "【偶像大师20周年】【MV】动画《偶像大师SideM》×《Reason!!》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be6640c60fb0aea43d3e6874014f83c55e1df9e5e0831709da7ebdaa8a916403.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iacigiffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CNetzpE5P",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "726c95de29916313eb462f29958d4b7c4152e069a14f0ddb56689a29b5deb21c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

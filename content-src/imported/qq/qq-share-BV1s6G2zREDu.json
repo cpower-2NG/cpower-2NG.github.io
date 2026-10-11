@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1s6G2zREDu",
+  "schemaVersion": 1,
+  "title": "分享 · 我打駒形友梨，真的假的……来烂蹭饭田光=san了我，卡拉OK的公主殿下",
+  "date": "2025-04-30",
+  "createdAt": "2025-04-30T06:27:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "难绷",
+  "text": "难绷",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1s6G2zREDu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1s6G2zREDu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f7b2f694ddb39fe7d185cec1cb866fd76347bde982abace7490a38905aa3aa6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1s6G2zREDu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f7b2f694ddb39fe7d185cec1cb866fd76347bde982abace7490a38905aa3aa6.jpg",
+    "title": "我打駒形友梨，真的假的……来烂蹭饭田光=san了我，卡拉OK的公主殿下"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f7b2f694ddb39fe7d185cec1cb866fd76347bde982abace7490a38905aa3aa6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdeejjfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1s6G2zREDu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "弱南早紀",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "95195faa7bc9e976a819fb27a150bf9e5f60de973945f7332b1787fda6908e15",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

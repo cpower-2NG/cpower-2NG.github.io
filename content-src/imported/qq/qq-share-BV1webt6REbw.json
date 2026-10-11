@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1webt6REbw",
+  "schemaVersion": 1,
+  "title": "分享 · 【中日歌词字幕】篠澤広《め》/《眼》",
+  "date": "2026-09-09",
+  "createdAt": "2026-09-09T14:46:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "给我脑子干懵了",
+  "text": "给我脑子干懵了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1webt6REbw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1webt6REbw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b646bc47ccdee015e785ff06d377af0417e6b843154803793bcf1ebb6c962625.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1webt6REbw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b646bc47ccdee015e785ff06d377af0417e6b843154803793bcf1ebb6c962625.jpg",
+    "title": "【中日歌词字幕】篠澤広《め》/《眼》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b646bc47ccdee015e785ff06d377af0417e6b843154803793bcf1ebb6c962625.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbcfgjiihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1webt6REbw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Azenix",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e2f49c02e5e7da9b6e63598aa59968180657523352a0f89353ef9c5d54e47a1d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

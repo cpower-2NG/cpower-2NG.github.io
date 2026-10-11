@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1aCrKBkEyC",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】「輝夜」-如月千早 歌曲试听|偶像大师",
+  "date": "2026-01-24",
+  "createdAt": "2026-01-24T03:36:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "二段主歌啊<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/> “为了与在",
+  "text": "二段主歌啊<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/>\n\n“为了与在此降生的某个人相遇”",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aCrKBkEyC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1aCrKBkEyC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e78d9a0640b4a710a0d360a50b63f561ed167272d0026e80a4c07119646092f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1aCrKBkEyC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e78d9a0640b4a710a0d360a50b63f561ed167272d0026e80a4c07119646092f.jpg",
+    "title": "【中字】「輝夜」-如月千早 歌曲试听|偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e78d9a0640b4a710a0d360a50b63f561ed167272d0026e80a4c07119646092f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhhfccjghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1aCrKBkEyC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "75289f45fdf2aa1a3b6f9ad24ddde2d7142d504f105386135adacab073655922",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

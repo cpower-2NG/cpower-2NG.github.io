@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1v8eXzGEzB",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师20周年纪念】从机战大师到锦织敦史版动画 企划揭秘&第一话群像演出浅析【有点长的浅谈】",
+  "date": "2025-08-28",
+  "createdAt": "2025-08-28T15:19:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "アイ NEED YOU",
+  "text": "アイ NEED YOU",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1v8eXzGEzB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1v8eXzGEzB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9db71cda56fb2b4a3ce6489cf5050b5ce19f5637015500841853a547da2b64cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1v8eXzGEzB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9db71cda56fb2b4a3ce6489cf5050b5ce19f5637015500841853a547da2b64cc.jpg",
+    "title": "【偶像大师20周年纪念】从机战大师到锦织敦史版动画 企划揭秘&第一话群像演出浅析【有点长的浅谈】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9db71cda56fb2b4a3ce6489cf5050b5ce19f5637015500841853a547da2b64cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eedejdgfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1v8eXzGEzB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8583321ee5dd77b611959ff89f4b0b696cbbb1810240890bddb66f781f2b3a09",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CZE5zyEKc",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】四季应激音mad合作——东方幻想指南单品",
+  "date": "2025-05-13",
+  "createdAt": "2025-05-13T14:04:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这应该是我唯一一部认为做得很好但完全不想收藏的音骂了。",
+  "text": "这应该是我唯一一部认为做得很好但完全不想收藏的音骂了。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CZE5zyEKc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CZE5zyEKc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c6a84a95b8295462b175e6e57dea37cd33b1a728540336c41e03703f062db7c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CZE5zyEKc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c6a84a95b8295462b175e6e57dea37cd33b1a728540336c41e03703f062db7c.jpg",
+    "title": "【合作】四季应激音mad合作——东方幻想指南单品"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4c6a84a95b8295462b175e6e57dea37cd33b1a728540336c41e03703f062db7c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jeafebhehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CZE5zyEKc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "四季映姬78",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0cca2a5668232c1c4160de6c7a3aed7f0a5cea26f2abb90782959a358ecf3948",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV13ovUBGETs",
+  "schemaVersion": 1,
+  "title": "分享 · 爱美两头跑太草了（）",
+  "date": "2026-01-01",
+  "createdAt": "2026-01-01T12:30:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "爱美两头跑太草了（）",
+  "text": "爱美两头跑太草了（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13ovUBGETs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13ovUBGETs&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13ovUBGETs",
+    "coverUrl": "",
+    "title": "爱美两头跑太草了（）"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfgahchghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13ovUBGETs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f92beca4b96f4a2bcc0c30bdf1e6b6e611fafbf2ec1ca8166dca0c8aba68e54",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

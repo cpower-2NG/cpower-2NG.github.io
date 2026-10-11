@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nt23BoEYs",
+  "schemaVersion": 1,
+  "title": "分享 · 「TO D@NCE TO FES!」专辑乐曲试听|偶像大师灰姑娘女孩",
+  "date": "2025-11-07",
+  "createdAt": "2025-11-07T15:09:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好爽好爽",
+  "text": "好爽好爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nt23BoEYs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nt23BoEYs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b4737d5b1ee7f34ee452f5fab2b838aae710c54393e15ca1bfe617ea674b20ca.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nt23BoEYs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b4737d5b1ee7f34ee452f5fab2b838aae710c54393e15ca1bfe617ea674b20ca.jpg",
+    "title": "「TO D@NCE TO FES!」专辑乐曲试听|偶像大师灰姑娘女孩"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b4737d5b1ee7f34ee452f5fab2b838aae710c54393e15ca1bfe617ea674b20ca.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dibicfcghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nt23BoEYs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "eca2145fb2015984add35f55c2419009464d2eadb4dfc20cdfa11ba0e62670e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

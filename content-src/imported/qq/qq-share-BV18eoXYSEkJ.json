@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18eoXYSEkJ",
+  "schemaVersion": 1,
+  "title": "分享 · 4K 60FPS「花ざかりWeekend✿ 2 Luxury ver.」(linkage SSR specialappe",
+  "date": "2025-03-28",
+  "createdAt": "2025-03-28T10:23:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "周日肯定会唱的吧",
+  "text": "周日肯定会唱的吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18eoXYSEkJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18eoXYSEkJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e6d4405060c11415ee392d8ca61b7143528d033caf53cb2f7d1f76b0fe2a85.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18eoXYSEkJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e6d4405060c11415ee392d8ca61b7143528d033caf53cb2f7d1f76b0fe2a85.jpg",
+    "title": "4K 60FPS「花ざかりWeekend✿ 2 Luxury ver.」(linkage SSR specialappeal)【偶像大师百万现场MLTD MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e6d4405060c11415ee392d8ca61b7143528d033caf53cb2f7d1f76b0fe2a85.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjdhfbdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18eoXYSEkJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "37a2f76d9b867a1672fd5ab0e990a03325746f8167823e7688773ef4282f3ea8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

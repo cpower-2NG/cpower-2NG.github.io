@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MnEa69EzR",
+  "schemaVersion": 1,
+  "title": "分享 · 一体いつから 2ndDay1",
+  "date": "2026-06-08",
+  "createdAt": "2026-06-08T01:46:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "昨天一恍惚真幻视淑女了。苍系传承 那一下忍不住哭我也哭了",
+  "text": "昨天一恍惚真幻视淑女了。苍系传承\n\n那一下忍不住哭我也哭了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MnEa69EzR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MnEa69EzR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4653d7ab95938ab06b0de682d31e8c38f941eb8ae1fa8ce1512d9c60e5905e94.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MnEa69EzR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4653d7ab95938ab06b0de682d31e8c38f941eb8ae1fa8ce1512d9c60e5905e94.jpg",
+    "title": "一体いつから 2ndDay1"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4653d7ab95938ab06b0de682d31e8c38f941eb8ae1fa8ce1512d9c60e5905e94.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egbdiiaihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MnEa69EzR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "5220ayahihc",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "01fa5b64f52df596383043e15900bf81a5ce997ff2b8e5934ca4dab3050866ef",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

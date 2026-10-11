@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1F5ddYTEi5",
+  "schemaVersion": 1,
+  "title": "分享 · 黑咖啡起来了",
+  "date": "2025-04-12",
+  "createdAt": "2025-04-12T10:11:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，这标题有点有才的（） 你说我是你的超级英雄",
+  "text": "草，这标题有点有才的（）\n\n你说我是你的超级英雄",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1F5ddYTEi5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1F5ddYTEi5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b5b2753315a7e0be0d2c8d312e7a4916e9ebb75b701f4180e6008281fde1f817.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1F5ddYTEi5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b5b2753315a7e0be0d2c8d312e7a4916e9ebb75b701f4180e6008281fde1f817.jpg",
+    "title": "黑咖啡起来了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b5b2753315a7e0be0d2c8d312e7a4916e9ebb75b701f4180e6008281fde1f817.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbhcfeeehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1F5ddYTEi5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Whereistruth",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f5b63bd6b948b1f183dfc4b0269031f9027efb62e6c2525d2ae78abfa06d49dc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

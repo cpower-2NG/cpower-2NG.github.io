@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UVAYzYEjE",
+  "schemaVersion": 1,
+  "title": "分享 · 【音乐祭直播切】DAY1 CRYST@LOUD（MOIW2023主题曲）",
+  "date": "2026-02-28",
+  "createdAt": "2026-02-28T11:37:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "今天最大的惊喜，满足了",
+  "text": "今天最大的惊喜，满足了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UVAYzYEjE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UVAYzYEjE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402442d3dc687ea6678acd58d52cf2cb5d1c5ee176d2e029c06cc5d64a98d0f1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UVAYzYEjE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402442d3dc687ea6678acd58d52cf2cb5d1c5ee176d2e029c06cc5d64a98d0f1.jpg",
+    "title": "【音乐祭直播切】DAY1 CRYST@LOUD（MOIW2023主题曲）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402442d3dc687ea6678acd58d52cf2cb5d1c5ee176d2e029c06cc5d64a98d0f1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gegihcchhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UVAYzYEjE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2a09892a4ff6214c11590339cbcf017dbd7df5d78fa533bd5158f13c22677e30",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

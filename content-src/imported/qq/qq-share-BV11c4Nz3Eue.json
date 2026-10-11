@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11c4Nz3Eue",
+  "schemaVersion": 1,
+  "title": "分享 · 「THE IDOLM@STER MILLION LIVE! THEATER DAYS」游戏内乐曲『MUSIC♪』12th",
+  "date": "2025-10-12",
+  "createdAt": "2025-10-12T12:03:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"h",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11c4Nz3Eue",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11c4Nz3Eue&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/868c3926f6ae79c8500253c0959886f15feff391c6d43e7bfa1f8012c59bd907.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11c4Nz3Eue",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/868c3926f6ae79c8500253c0959886f15feff391c6d43e7bfa1f8012c59bd907.jpg",
+    "title": "「THE IDOLM@STER MILLION LIVE! THEATER DAYS」游戏内乐曲『MUSIC♪』12th DAY2 Ver"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/868c3926f6ae79c8500253c0959886f15feff391c6d43e7bfa1f8012c59bd907.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fcgahcaghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11c4Nz3Eue",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d2f61530bc8f59ceea567a9a14d7eda36f75c2b76a8f803f4c785022d556d4a7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

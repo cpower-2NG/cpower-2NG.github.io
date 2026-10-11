@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RNtdzeEZu",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字CC】初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video",
+  "date": "2025-08-13",
+  "createdAt": "2025-08-13T08:08:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "给我听出内伤了，之前还质疑呢，现在没意见了",
+  "text": "给我听出内伤了，之前还质疑呢，现在没意见了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RNtdzeEZu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RNtdzeEZu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8241fa11c312e68c6cb626f670d3599c518acb279889fef25989e77f4380f417.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RNtdzeEZu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8241fa11c312e68c6cb626f670d3599c518acb279889fef25989e77f4380f417.jpg",
+    "title": "【中字CC】初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8241fa11c312e68c6cb626f670d3599c518acb279889fef25989e77f4380f417.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbfchaffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RNtdzeEZu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9243f623337702f99c32fd428ac3915cc159a41b5cd456d2db00a9a23d2d788c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

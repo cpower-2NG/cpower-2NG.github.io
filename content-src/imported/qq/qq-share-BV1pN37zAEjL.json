@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pN37zAEjL",
+  "schemaVersion": 1,
+  "title": "分享 · 日升 闪耀色彩联动实验动画『BLUE GALE XANBUNGLE SIDE R』预告PV|偶像大师闪耀色彩",
+  "date": "2025-07-04",
+  "createdAt": "2025-07-04T12:39:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？",
+  "text": "？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pN37zAEjL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pN37zAEjL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cd836c3f104c312292fe90a860787082346b059ad10aeb585403f20773afe05.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pN37zAEjL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cd836c3f104c312292fe90a860787082346b059ad10aeb585403f20773afe05.jpg",
+    "title": "日升 闪耀色彩联动实验动画『BLUE GALE XANBUNGLE SIDE R』预告PV|偶像大师闪耀色彩"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cd836c3f104c312292fe90a860787082346b059ad10aeb585403f20773afe05.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ighcdgbfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pN37zAEjL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fb40cc114a2bc69ed18605fbb2fbe9bad35653f1d8463b0d3961845b1886a6e9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

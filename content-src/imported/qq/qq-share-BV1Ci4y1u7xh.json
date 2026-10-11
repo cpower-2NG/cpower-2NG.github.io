@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ci4y1u7xh",
+  "schemaVersion": 1,
+  "title": "分享 · 【静止系MAD】向着蔚蓝的彼方【苍之彼方的四重奏】",
+  "date": "2026-04-22",
+  "createdAt": "2026-04-22T15:39:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最喜欢的还是明日香，或许该说是憧憬这样一位一往无前，永远乐天的能够超越胜负、超越敌我，甚至超越一切的翱翔于蓝天之上的女孩...",
+  "text": "最喜欢的还是明日香，或许该说是憧憬这样一位一往无前，永远乐天的能够超越胜负、超越敌我，甚至超越一切的翱翔于蓝天之上的女孩...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ci4y1u7xh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ci4y1u7xh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b5f742c1243e56585ae352f909412d5f2e12d97181cdd14666aa48245d5833e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ci4y1u7xh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b5f742c1243e56585ae352f909412d5f2e12d97181cdd14666aa48245d5833e.jpg",
+    "title": "【静止系MAD】向着蔚蓝的彼方【苍之彼方的四重奏】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b5f742c1243e56585ae352f909412d5f2e12d97181cdd14666aa48245d5833e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jedchighhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ci4y1u7xh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AHO西瓜",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7231e6df33ee9b811f31f83b35888c7ba62e9648d0809091bdf1ec7ed2af6aa4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

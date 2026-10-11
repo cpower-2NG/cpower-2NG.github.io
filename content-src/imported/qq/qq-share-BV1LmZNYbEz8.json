@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LmZNYbEz8",
+  "schemaVersion": 1,
+  "title": "分享 · 【The idolmaster】Happy!  m@d",
+  "date": "2025-03-26",
+  "createdAt": "2025-03-26T15:45:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好啊",
+  "text": "真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LmZNYbEz8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LmZNYbEz8&high_quality=1&danmaku=0",
+    "cover": "https://i1.hdslb.com/bfs/archive/e296cee6bc7cfdd62f3c097e96e8af6e364a5e86.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LmZNYbEz8",
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/e296cee6bc7cfdd62f3c097e96e8af6e364a5e86.jpg",
+    "title": "【The idolmaster】Happy!  m@d"
+  },
+  "cover": "https://i1.hdslb.com/bfs/archive/e296cee6bc7cfdd62f3c097e96e8af6e364a5e86.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcjdaadehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LmZNYbEz8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "id_souls24",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2bb5353e8f1480cfb15d8ac2898b435a755f39037f48f25750bdd67182eb1b9a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

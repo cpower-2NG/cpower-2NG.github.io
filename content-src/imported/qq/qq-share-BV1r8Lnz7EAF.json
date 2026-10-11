@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1r8Lnz7EAF",
+  "schemaVersion": 1,
+  "title": "分享 · 手毬认同【月村手毬×鱼韵】",
+  "date": "2025-04-26",
+  "createdAt": "2025-04-26T14:21:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "丰富得像豚骨拉面",
+  "text": "丰富得像豚骨拉面",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1r8Lnz7EAF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1r8Lnz7EAF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7921f426edde33e1e511bd7f056a6b931671b3f083e641f62673c9ca48e3edb2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1r8Lnz7EAF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7921f426edde33e1e511bd7f056a6b931671b3f083e641f62673c9ca48e3edb2.jpg",
+    "title": "手毬认同【月村手毬×鱼韵】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7921f426edde33e1e511bd7f056a6b931671b3f083e641f62673c9ca48e3edb2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbdhhgfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1r8Lnz7EAF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "虚无韵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "56e9a4fc4d359ebca71965dae2857c40598e3285d9c6ec11cbbcd1d010ff539b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

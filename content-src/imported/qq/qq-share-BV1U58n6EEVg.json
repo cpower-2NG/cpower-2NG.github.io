@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1U58n6EEVg",
+  "schemaVersion": 1,
+  "title": "分享 · 欢迎来到X次元 / 筱泽广【人力VOCALOID】",
+  "date": "2026-09-13",
+  "createdAt": "2026-09-13T14:17:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可爱",
+  "text": "可爱",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1U58n6EEVg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1U58n6EEVg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f66ac3b8c3a539d4100de933dd940f11312d4df78370aa209069506fdb21c78.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1U58n6EEVg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f66ac3b8c3a539d4100de933dd940f11312d4df78370aa209069506fdb21c78.jpg",
+    "title": "欢迎来到X次元 / 筱泽广【人力VOCALOID】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f66ac3b8c3a539d4100de933dd940f11312d4df78370aa209069506fdb21c78.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihajadjihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1U58n6EEVg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Alice-Marisa",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ac3587b251a60d87994b322e4777191346fe9f46ea24e478b57a17a85f476ab5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17YCXBXEkc",
+  "schemaVersion": 1,
+  "title": "分享 · 最Psy最chic Heats！",
+  "date": "2025-11-16",
+  "createdAt": "2025-11-16T13:22:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "帅",
+  "text": "帅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17YCXBXEkc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17YCXBXEkc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47742b0b1fea8e20245366887e8701215ec34cc3ecda932711681de510a6bf6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17YCXBXEkc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47742b0b1fea8e20245366887e8701215ec34cc3ecda932711681de510a6bf6.jpg",
+    "title": "最Psy最chic Heats！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b47742b0b1fea8e20245366887e8701215ec34cc3ecda932711681de510a6bf6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cgdjjcdghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17YCXBXEkc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dcc97059cfcf6e685748f884fa0f1ab4d46bf7eeb30b8bca5cc2e8547425b8c9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

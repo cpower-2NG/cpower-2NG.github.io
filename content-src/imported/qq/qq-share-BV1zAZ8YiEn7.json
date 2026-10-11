@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zAZ8YiEn7",
+  "schemaVersion": 1,
+  "title": "分享 · 【Hi-Res】【双语歌词字幕】花海咲季生日曲「Try it now」",
+  "date": "2025-04-01",
+  "createdAt": "2025-04-01T13:56:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "听不懂了",
+  "text": "听不懂了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zAZ8YiEn7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zAZ8YiEn7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c037c02bccc2c5cca1871962ee706374795d0241d7c528ae03ea5d78e4f9cf1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zAZ8YiEn7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c037c02bccc2c5cca1871962ee706374795d0241d7c528ae03ea5d78e4f9cf1.jpg",
+    "title": "【Hi-Res】【双语歌词字幕】花海咲季生日曲「Try it now」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c037c02bccc2c5cca1871962ee706374795d0241d7c528ae03ea5d78e4f9cf1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijhfbfdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zAZ8YiEn7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "456170fe40a58b42d769d5f71da138f9dc7e94bb2abd0cf7656555fcc61512c3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

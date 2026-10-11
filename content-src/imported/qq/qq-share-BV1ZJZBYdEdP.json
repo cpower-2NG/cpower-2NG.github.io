@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZJZBYdEdP",
+  "schemaVersion": 1,
+  "title": "分享 · [中日字幕]待ちぼうけのLacrima-たかはし智秋,原由実,阿部里果",
+  "date": "2025-03-30",
+  "createdAt": "2025-03-30T12:22:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "今日vo担当",
+  "text": "今日vo担当",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZJZBYdEdP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZJZBYdEdP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/219562791fcaba6a2b62e1b84082a8ce3b45f50189b5207238ec4b5dc1b714b0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZJZBYdEdP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/219562791fcaba6a2b62e1b84082a8ce3b45f50189b5207238ec4b5dc1b714b0.jpg",
+    "title": "[中日字幕]待ちぼうけのLacrima-たかはし智秋,原由実,阿部里果"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/219562791fcaba6a2b62e1b84082a8ce3b45f50189b5207238ec4b5dc1b714b0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fcdhdddehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZJZBYdEdP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一级天灾ww",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "238237dc5bda7173a17d4cbaa6af65e2d6a369fd36c3e0d17585472be1f7c396",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

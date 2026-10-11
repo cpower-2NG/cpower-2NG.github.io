@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1P7b5zuEv6",
+  "schemaVersion": 1,
+  "title": "分享 · 慢慢就这样了！",
+  "date": "2025-08-17",
+  "createdAt": "2025-08-17T11:49:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ままなっちゃいそう！",
+  "text": "ままなっちゃいそう！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1P7b5zuEv6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1P7b5zuEv6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b256fa2bc7fad02b2d6d50c5fef134d94c636550aaff94d2560940ccb7327c8a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1P7b5zuEv6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b256fa2bc7fad02b2d6d50c5fef134d94c636550aaff94d2560940ccb7327c8a.jpg",
+    "title": "慢慢就这样了！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b256fa2bc7fad02b2d6d50c5fef134d94c636550aaff94d2560940ccb7327c8a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hidbdeffhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1P7b5zuEv6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "edbbcc5cd92d2a88f52881b2655a667a7ce5b833033b7ae3030f8f2cb985c99e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

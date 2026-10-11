@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zW88zVEjQ",
+  "schemaVersion": 1,
+  "title": "分享 · 在唱好和弹好之间选择了既唱不好又弹不好（",
+  "date": "2025-07-26",
+  "createdAt": "2025-07-26T15:35:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "感动 我当时就看那个偶像大师，边看边哭",
+  "text": "感动\n\n我当时就看那个偶像大师，边看边哭",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zW88zVEjQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zW88zVEjQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28394393f6ac1338f9fbd3a391bba1cad9a1c9c00403941353a307fa139a7527.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zW88zVEjQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28394393f6ac1338f9fbd3a391bba1cad9a1c9c00403941353a307fa139a7527.jpg",
+    "title": "在唱好和弹好之间选择了既唱不好又弹不好（"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28394393f6ac1338f9fbd3a391bba1cad9a1c9c00403941353a307fa139a7527.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbbeefdfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zW88zVEjQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "竹原晴",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "be4932093ea2e82579cf7e70ab8554f92560ad8cac612602b474ac32b7adf0ee",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

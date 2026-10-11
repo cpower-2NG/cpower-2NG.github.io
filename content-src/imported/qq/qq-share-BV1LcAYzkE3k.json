@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LcAYzkE3k",
+  "schemaVersion": 1,
+  "title": "分享 · 【音乐祭直播切】DAY1 Endless dance",
+  "date": "2026-03-22",
+  "createdAt": "2026-03-22T05:59:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原来miya真的是在回应moiw那场，还有那句「かかってこい」果然是学ぬー吧",
+  "text": "原来miya真的是在回应moiw那场，还有那句「かかってこい」果然是学ぬー吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LcAYzkE3k",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LcAYzkE3k&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/448e54be8758473ba4a76c9ccc3dca9ed4e5106b1c676a652fbcd73dc8b7fa4e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LcAYzkE3k",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/448e54be8758473ba4a76c9ccc3dca9ed4e5106b1c676a652fbcd73dc8b7fa4e.jpg",
+    "title": "【音乐祭直播切】DAY1 Endless dance"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/448e54be8758473ba4a76c9ccc3dca9ed4e5106b1c676a652fbcd73dc8b7fa4e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfbjfbehhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LcAYzkE3k",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2227dd5ff6a10f7e697f00abec07ab354bc5b383e9fc67c6d611d84863c07324",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

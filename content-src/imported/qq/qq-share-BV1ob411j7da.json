@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ob411j7da",
+  "schemaVersion": 1,
+  "title": "分享 · kawaii make MY day!!",
+  "date": "2025-05-14",
+  "createdAt": "2025-05-14T15:22:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "恁suang",
+  "text": "恁suang",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ob411j7da",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ob411j7da&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d3b4f732841876daeb842b6e11786d580458b80a0960f3a7a5acad138074b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ob411j7da",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d3b4f732841876daeb842b6e11786d580458b80a0960f3a7a5acad138074b.jpg",
+    "title": "kawaii make MY day!!"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc3d3b4f732841876daeb842b6e11786d580458b80a0960f3a7a5acad138074b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccbgdchehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ob411j7da",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5a56f525c03885b8bacb9a95bccffd2018e489682fe6342032d7241f508bf121",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

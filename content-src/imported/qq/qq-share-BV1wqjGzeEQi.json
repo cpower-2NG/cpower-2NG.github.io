@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wqjGzeEQi",
+  "schemaVersion": 1,
+  "title": "分享 · 漫画第三卷特典「GO MY WAY!!」",
+  "date": "2025-05-25",
+  "createdAt": "2025-05-25T15:19:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "别的不说，call出来的时候，感动的啊",
+  "text": "别的不说，call出来的时候，感动的啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wqjGzeEQi",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wqjGzeEQi&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2e62d41a236cd5446ff9ecb20c23269e9a65b5e79fec59ddbd656d4989c581.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wqjGzeEQi",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2e62d41a236cd5446ff9ecb20c23269e9a65b5e79fec59ddbd656d4989c581.jpg",
+    "title": "漫画第三卷特典「GO MY WAY!!」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2e62d41a236cd5446ff9ecb20c23269e9a65b5e79fec59ddbd656d4989c581.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dedgibiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wqjGzeEQi",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8f7d86c985bd53a2bc22258f7a44a70a1face0559db7695e3d4e72b49a0b6a0b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

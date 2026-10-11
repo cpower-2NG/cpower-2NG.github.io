@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZZ2MBBEDh",
+  "schemaVersion": 1,
+  "title": "分享 · 【Song for Prism】「I'm a Cutie Finder」组合介绍PV",
+  "date": "2025-11-07",
+  "createdAt": "2025-11-07T15:41:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这下不得不好好了解一下羽那了，但感觉没什么新东西啊，估计还是轻轻碰一碰",
+  "text": "这下不得不好好了解一下羽那了，但感觉没什么新东西啊，估计还是轻轻碰一碰",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZZ2MBBEDh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZZ2MBBEDh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14a41056bbe9b28b7fd3a49e6b96c277e47886305de12e70401d6b0ed3e90a56.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZZ2MBBEDh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14a41056bbe9b28b7fd3a49e6b96c277e47886305de12e70401d6b0ed3e90a56.jpg",
+    "title": "【Song for Prism】「I'm a Cutie Finder」组合介绍PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/14a41056bbe9b28b7fd3a49e6b96c277e47886305de12e70401d6b0ed3e90a56.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hgaadfcghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZZ2MBBEDh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2dce1c61f3149c9fc33db4d0067d19a20cbb53f813af63e58d6882a42064f2a1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

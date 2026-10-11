@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Sq7PzsEC8",
+  "schemaVersion": 1,
+  "title": "分享 · 【1st DAY3 live切片】组曲「Star-mine」",
+  "date": "2025-06-02",
+  "createdAt": "2025-06-02T13:24:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "当副歌唱响的那一刻，什么对决、胜负之类的东西，都不重要了，只在乎当下释放出的热情就足够了，这才是那时的一番星吧",
+  "text": "当副歌唱响的那一刻，什么对决、胜负之类的东西，都不重要了，只在乎当下释放出的热情就足够了，这才是那时的一番星吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Sq7PzsEC8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Sq7PzsEC8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/46f4cf0cecb970948ef6b8d9748a6e0497d32c18f5c811aea016f07a2c73120b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Sq7PzsEC8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/46f4cf0cecb970948ef6b8d9748a6e0497d32c18f5c811aea016f07a2c73120b.jpg",
+    "title": "【1st DAY3 live切片】组曲「Star-mine」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/46f4cf0cecb970948ef6b8d9748a6e0497d32c18f5c811aea016f07a2c73120b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hggahiiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Sq7PzsEC8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "870f15df029adba1d2498fbf6e0585f0d3a43b8b0cc60c9f0bf90f62a57e47e3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

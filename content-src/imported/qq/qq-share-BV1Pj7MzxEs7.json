@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Pj7MzxEs7",
+  "schemaVersion": 1,
+  "title": "分享 · 【学マス？】老广和千奈的双人新曲听起来就像......",
+  "date": "2025-06-01",
+  "createdAt": "2025-06-01T02:49:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，就说当时为什么都刷电波感伤 这是简介",
+  "text": "草，就说当时为什么都刷电波感伤\n\n这是简介",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Pj7MzxEs7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Pj7MzxEs7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c8bbcded1e7de5e0c32eca77121ff0384c3c4cdda0c96f8330dad5534b602fd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Pj7MzxEs7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c8bbcded1e7de5e0c32eca77121ff0384c3c4cdda0c96f8330dad5534b602fd.jpg",
+    "title": "【学マス？】老广和千奈的双人新曲听起来就像......"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c8bbcded1e7de5e0c32eca77121ff0384c3c4cdda0c96f8330dad5534b602fd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahbgehiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Pj7MzxEs7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "藤井ゆきよ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "823b9aaac70f0cc7ca46816dc843ee1a76f0cbadfbf42a7447ac52cacc4066c9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

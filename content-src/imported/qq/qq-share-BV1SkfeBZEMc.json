@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SkfeBZEMc",
+  "schemaVersion": 1,
+  "title": "分享 · 脑内巧克力",
+  "date": "2026-02-26",
+  "createdAt": "2026-02-26T02:43:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好喜欢",
+  "text": "好喜欢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SkfeBZEMc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SkfeBZEMc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b0f185c2c5550623173b0ec730dfca21290bbb1fa7880eb132594cc0c0ad670.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SkfeBZEMc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b0f185c2c5550623173b0ec730dfca21290bbb1fa7880eb132594cc0c0ad670.jpg",
+    "title": "脑内巧克力"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b0f185c2c5550623173b0ec730dfca21290bbb1fa7880eb132594cc0c0ad670.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hihdhachhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SkfeBZEMc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a0e324dc1abc39b328baa151072c6ba4e14452642ee99080421146c0f0741cc8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12NnezzE76",
+  "schemaVersion": 1,
+  "title": "分享 · 『偶像大师 剧场版 向着光辉的彼岸！』 主题曲 《M@STERPIECE》【RAB】",
+  "date": "2025-09-26",
+  "createdAt": "2025-09-26T15:15:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "编的真好啊",
+  "text": "编的真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12NnezzE76",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12NnezzE76&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9988923bea39b3da648f96d1843d93912d0dec13b7e084e48c3882a68b11332.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12NnezzE76",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9988923bea39b3da648f96d1843d93912d0dec13b7e084e48c3882a68b11332.jpg",
+    "title": "『偶像大师 剧场版 向着光辉的彼岸！』 主题曲 《M@STERPIECE》【RAB】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9988923bea39b3da648f96d1843d93912d0dec13b7e084e48c3882a68b11332.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfhjjiifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12NnezzE76",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "宅男街舞队_RAB",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "89e79e760441d610fddce728e90a5885eb92124674b764e680604f034aada134",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

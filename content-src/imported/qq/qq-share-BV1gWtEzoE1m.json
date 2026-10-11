@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gWtEzoE1m",
+  "schemaVersion": 1,
+  "title": "分享 · NEI day2 沼仓爱美 Next Life 的后半有点眼熟？",
+  "date": "2025-08-05",
+  "createdAt": "2025-08-05T11:41:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "看的时候意识到是多种振付混在一起的，没想到是把这么多首混了",
+  "text": "看的时候意识到是多种振付混在一起的，没想到是把这么多首混了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gWtEzoE1m",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gWtEzoE1m&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/102a40fa3c75fab739b66b68175ef82d61ec8fb5f4f5985f530265470cb6825c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gWtEzoE1m",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/102a40fa3c75fab739b66b68175ef82d61ec8fb5f4f5985f530265470cb6825c.jpg",
+    "title": "NEI day2 沼仓爱美 Next Life 的后半有点眼熟？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/102a40fa3c75fab739b66b68175ef82d61ec8fb5f4f5985f530265470cb6825c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijaejdefhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gWtEzoE1m",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Valoc",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b16514f5be47a7009552ab03e4ff92c3b626dc01f969ece1808870001da75384",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

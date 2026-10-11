@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19vASzpEKr",
+  "schemaVersion": 1,
+  "title": "分享 · 牢广 SSR「ENDLESS DANCE」【学园偶像大师/初星学園 TE结局 4K HDR MV】",
+  "date": "2026-03-07",
+  "createdAt": "2026-03-07T11:49:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/><img src=\"h",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e257378.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19vASzpEKr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19vASzpEKr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200fea98bea2fc6f2328e78fa5ed7f8782f387e073ef16487bdbf6e621f21bc9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19vASzpEKr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200fea98bea2fc6f2328e78fa5ed7f8782f387e073ef16487bdbf6e621f21bc9.jpg",
+    "title": "牢广 SSR「ENDLESS DANCE」【学园偶像大师/初星学園 TE结局 4K HDR MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/200fea98bea2fc6f2328e78fa5ed7f8782f387e073ef16487bdbf6e621f21bc9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ghbeiichhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19vASzpEKr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c68fe86438e476c954791466927dce0fb1132ab2b3b68846d0464712cda8b7e1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

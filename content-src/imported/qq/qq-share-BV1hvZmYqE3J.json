@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hvZmYqE3J",
+  "schemaVersion": 1,
+  "title": "分享 · 【NovelsM@ster】庆祝虚构生日的合理性",
+  "date": "2025-04-03",
+  "createdAt": "2025-04-03T14:35:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "爱是第一",
+  "text": "爱是第一",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hvZmYqE3J",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hvZmYqE3J&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c55ff41db9db7e28bea25c820da0bbcd74a38afda1664d460a8a43735242b34.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hvZmYqE3J",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c55ff41db9db7e28bea25c820da0bbcd74a38afda1664d460a8a43735242b34.jpg",
+    "title": "【NovelsM@ster】庆祝虚构生日的合理性"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c55ff41db9db7e28bea25c820da0bbcd74a38afda1664d460a8a43735242b34.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcjajgdehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hvZmYqE3J",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7bd4d479b8e8ee5709f09c16ace9b61b65013a19b69b35c904c13d05c2e4dad4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

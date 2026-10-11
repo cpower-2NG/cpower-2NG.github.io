@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1e9oHYvE8W",
+  "schemaVersion": 1,
+  "title": "分享 · 【9-nine-天色天歌天籁音】主题曲『天空追忆』【中文字幕付】【调色板官方】",
+  "date": "2025-04-23",
+  "createdAt": "2025-04-23T15:00:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "梦回那个夏天",
+  "text": "梦回那个夏天",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1e9oHYvE8W",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1e9oHYvE8W&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29c44edca72a310750c979af8383f4c37e3bae2864910a6b1a3fe70a698f3090.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1e9oHYvE8W",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29c44edca72a310750c979af8383f4c37e3bae2864910a6b1a3fe70a698f3090.jpg",
+    "title": "【9-nine-天色天歌天籁音】主题曲『天空追忆』【中文字幕付】【调色板官方】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/29c44edca72a310750c979af8383f4c37e3bae2864910a6b1a3fe70a698f3090.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "caeacefehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1e9oHYvE8W",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Palette公式",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b05c99df4859d8f6fd72faade54950a10994fc2b333f77c6f20d158070bc742b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

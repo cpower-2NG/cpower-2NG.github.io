@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sZ421g74m",
+  "schemaVersion": 1,
+  "title": "分享 · 超级偶像",
+  "date": "2025-04-23",
+  "createdAt": "2025-04-23T15:14:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "当时怎么错过了这个，人力调的音色好好听啊",
+  "text": "当时怎么错过了这个，人力调的音色好好听啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sZ421g74m",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sZ421g74m&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e2d25bcd19cd786e43b8f6e4a1c6d3bc6c23282302203f00ac5572d09c7b56a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sZ421g74m",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e2d25bcd19cd786e43b8f6e4a1c6d3bc6c23282302203f00ac5572d09c7b56a.jpg",
+    "title": "超级偶像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e2d25bcd19cd786e43b8f6e4a1c6d3bc6c23282302203f00ac5572d09c7b56a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfcbcefehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sZ421g74m",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ShiningEmerald",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "38c3a65020ef4215f4f7b712a42ad81fd74b967f004aa0ec0fbf9480372298ee",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

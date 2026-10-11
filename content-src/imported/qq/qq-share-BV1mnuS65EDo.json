@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mnuS65EDo",
+  "schemaVersion": 1,
+  "title": "分享 · 【东方风arrange】Galge【主播女孩重度依赖】",
+  "date": "2026-08-09",
+  "createdAt": "2026-08-09T15:49:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "泣いた",
+  "text": "泣いた",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mnuS65EDo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mnuS65EDo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bbddd86d87256f8cac22c66f5d1c9c6c4db6f740003dc408106ab4453f4b2cf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mnuS65EDo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bbddd86d87256f8cac22c66f5d1c9c6c4db6f740003dc408106ab4453f4b2cf.jpg",
+    "title": "【东方风arrange】Galge【主播女孩重度依赖】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bbddd86d87256f8cac22c66f5d1c9c6c4db6f740003dc408106ab4453f4b2cf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aefajcgihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mnuS65EDo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "nulla",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "05dd280e4552bc413f88daba60625e05783e56ee05d21fd2ae3e915b2d380108",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

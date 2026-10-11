@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVSP5OBldHA8Mz",
+  "schemaVersion": 1,
+  "title": "分享 · 终于恢复过来了",
+  "date": "2025-11-11",
+  "createdAt": "2025-11-11T09:09:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "终于恢复过来了",
+  "text": "终于恢复过来了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVSP5OBldHA8Mz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVSP5OBldHA8Mz&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVSP5OBldHA8Mz",
+    "coverUrl": "",
+    "title": "终于恢复过来了"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb062fd126902ca0b00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVSP5OBldHA8Mz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cfe4548164c67efa92b9020d59b68c5e714fb3d09a56b17f85a4a7166e43f257",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

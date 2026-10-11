@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yK2kBGEN7",
+  "schemaVersion": 1,
+  "title": "分享 · 瑞希 Off Time音声试听|偶像大师百万现场",
+  "date": "2025-12-08",
+  "createdAt": "2025-12-08T15:01:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我死了 ytb",
+  "text": "我死了\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yK2kBGEN7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yK2kBGEN7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8150f5c502178c78995e07f78da689d402d54e8c0121333906450006ce0151c5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yK2kBGEN7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8150f5c502178c78995e07f78da689d402d54e8c0121333906450006ce0151c5.jpg",
+    "title": "瑞希 Off Time音声试听|偶像大师百万现场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8150f5c502178c78995e07f78da689d402d54e8c0121333906450006ce0151c5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhagacfghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yK2kBGEN7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4448d5a4de6a516ef618b06ba25c0ea2d8e148cd12ec7cf689e1b8bdd2f355e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

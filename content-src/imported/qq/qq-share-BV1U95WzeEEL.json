@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1U95WzeEEL",
+  "schemaVersion": 1,
+  "title": "分享 · 相干光",
+  "date": "2025-04-22",
+  "createdAt": "2025-04-22T08:03:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太神了吧",
+  "text": "太神了吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1U95WzeEEL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1U95WzeEEL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f56a6234e534c5558fbbb01fc426aba5293b448b77d5c541fec5714b6b98e814.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1U95WzeEEL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f56a6234e534c5558fbbb01fc426aba5293b448b77d5c541fec5714b6b98e814.jpg",
+    "title": "相干光"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f56a6234e534c5558fbbb01fc426aba5293b448b77d5c541fec5714b6b98e814.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbajadfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1U95WzeEEL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "秋A-utumn",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "46f5b69cd93480feb30fe38e0ba6f6ef297650897b3ef9f59d755da3cde3012a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

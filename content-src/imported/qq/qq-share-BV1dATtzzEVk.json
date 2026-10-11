@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dATtzzEVk",
+  "schemaVersion": 1,
+  "title": "分享 · 「Mythmaker」-三浦梓 预览MV|偶像大师百万现场",
+  "date": "2025-06-05",
+  "createdAt": "2025-06-05T13:47:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？？！！ mrrj",
+  "text": "？？！！\n\nmrrj",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dATtzzEVk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dATtzzEVk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/808ac1a8e7c9d94aabd8014acb8266d6af0cff359ded0de19e86d1f9b41fc5d5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dATtzzEVk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/808ac1a8e7c9d94aabd8014acb8266d6af0cff359ded0de19e86d1f9b41fc5d5.jpg",
+    "title": "「Mythmaker」-三浦梓 预览MV|偶像大师百万现场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/808ac1a8e7c9d94aabd8014acb8266d6af0cff359ded0de19e86d1f9b41fc5d5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bhcbdbjehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dATtzzEVk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "776ddb7dfbb804ecbf7a74154ed2fdc66666ea333d4661e62f06a5c56739ccb3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

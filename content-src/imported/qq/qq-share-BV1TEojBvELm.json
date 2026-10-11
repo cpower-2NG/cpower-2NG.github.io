@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1TEojBvELm",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】Shiny Seasons. -流转的色彩，编织的光芒-【闪耀色彩8周年】",
+  "date": "2026-04-24",
+  "createdAt": "2026-04-24T14:43:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "没那么有趣啊。大量的人力段落影响了节奏的变化，导致情绪流相当平淡。不过这次好多动画，PV下血本了，还有这么多人力，感觉憋了...",
+  "text": "没那么有趣啊。大量的人力段落影响了节奏的变化，导致情绪流相当平淡。不过这次好多动画，PV下血本了，还有这么多人力，感觉憋了...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TEojBvELm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TEojBvELm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5322d1f637986ec43eee8bc8ace7b7796cb1fede5ae5c32452c777c46d1ab99b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TEojBvELm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5322d1f637986ec43eee8bc8ace7b7796cb1fede5ae5c32452c777c46d1ab99b.jpg",
+    "title": "【合作】Shiny Seasons. -流转的色彩，编织的光芒-【闪耀色彩8周年】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5322d1f637986ec43eee8bc8ace7b7796cb1fede5ae5c32452c777c46d1ab99b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdibeahhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TEojBvELm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "35e7a83aebca4640550fc719c0e3050e0551232e6668cf242cd31a30d2d03a1c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pVwrzkE5T",
+  "schemaVersion": 1,
+  "title": "分享 · 花海咲季 STEP3 SSR 「Wildest Flower」solo3【学园偶像大师/初星学園 TE结局 4K HDR",
+  "date": "2026-03-19",
+  "createdAt": "2026-03-19T15:56:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "bbp服装赢了（）",
+  "text": "bbp服装赢了（）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pVwrzkE5T",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pVwrzkE5T&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e40bcb86236d1ee09e3579f8dff90c197f7fd0458878fa0f9f7046793af4a2d4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pVwrzkE5T",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e40bcb86236d1ee09e3579f8dff90c197f7fd0458878fa0f9f7046793af4a2d4.jpg",
+    "title": "花海咲季 STEP3 SSR 「Wildest Flower」solo3【学园偶像大师/初星学園 TE结局 4K HDR MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e40bcb86236d1ee09e3579f8dff90c197f7fd0458878fa0f9f7046793af4a2d4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "abifdjdhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pVwrzkE5T",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d833c6e8b2e6b87ef533f8d852351269fdabe952c1a5b46f5037f239fc91ace0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

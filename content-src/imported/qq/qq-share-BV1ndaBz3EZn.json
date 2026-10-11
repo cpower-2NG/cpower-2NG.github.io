@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ndaBz3EZn",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】偶像大师灰姑娘女孩 otoM@D ON STARLIGHT!!!!!!!!!!",
+  "date": "2025-09-03",
+  "createdAt": "2025-09-03T14:41:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "她们早已成为不需要魔法和水晶鞋的公主",
+  "text": "她们早已成为不需要魔法和水晶鞋的公主",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ndaBz3EZn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ndaBz3EZn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ab2d059c0ee5204e87ac912a3da218946d20f3abf3d8f889d3894dc5e1b802d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ndaBz3EZn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ab2d059c0ee5204e87ac912a3da218946d20f3abf3d8f889d3894dc5e1b802d.jpg",
+    "title": "【合作】偶像大师灰姑娘女孩 otoM@D ON STARLIGHT!!!!!!!!!!"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5ab2d059c0ee5204e87ac912a3da218946d20f3abf3d8f889d3894dc5e1b802d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gieabjgfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ndaBz3EZn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "虚无韵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aaba0052682f6776c971ecb0540c74062aa97ec217cdb62f84e714ce5b8bdd56",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

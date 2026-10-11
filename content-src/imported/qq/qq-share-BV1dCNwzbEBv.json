@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dCNwzbEBv",
+  "schemaVersion": 1,
+  "title": "分享 · 【中切・电台】MOIW2025的「RAY OF LIGHT」，迷光的叠手顺序为什么是朝日→冬优子→爱依→朝日",
+  "date": "2026-03-09",
+  "createdAt": "2026-03-09T05:37:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "回顾起来真的是越来越喜欢，还有太多细节当时没能注意到",
+  "text": "回顾起来真的是越来越喜欢，还有太多细节当时没能注意到",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dCNwzbEBv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dCNwzbEBv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95cd60a3a3ccfe4f456669af48ba065aa91381d05857a1494fc06b8d3fa259ba.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dCNwzbEBv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95cd60a3a3ccfe4f456669af48ba065aa91381d05857a1494fc06b8d3fa259ba.jpg",
+    "title": "【中切・电台】MOIW2025的「RAY OF LIGHT」，迷光的叠手顺序为什么是朝日→冬优子→爱依→朝日"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95cd60a3a3ccfe4f456669af48ba065aa91381d05857a1494fc06b8d3fa259ba.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "efgedadhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dCNwzbEBv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "GOCNA",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dcd3b92d468f8bdc5df90efb20c81204765c0729748f5eae54e204d73d286eda",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

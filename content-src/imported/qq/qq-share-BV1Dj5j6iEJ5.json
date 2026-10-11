@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Dj5j6iEJ5",
+  "schemaVersion": 1,
+  "title": "分享 · Lost Kill的号哭",
+  "date": "2026-05-10",
+  "createdAt": "2026-05-10T09:40:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "触",
+  "text": "触",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Dj5j6iEJ5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Dj5j6iEJ5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ef3f6d4590f25c33fd70339629353b6f285357d6de6d6c93991116a3e97f127.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Dj5j6iEJ5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ef3f6d4590f25c33fd70339629353b6f285357d6de6d6c93991116a3e97f127.jpg",
+    "title": "Lost Kill的号哭"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ef3f6d4590f25c33fd70339629353b6f285357d6de6d6c93991116a3e97f127.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdagaeihhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Dj5j6iEJ5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3056aadf6b06ff58c6a73d15aefea8186cd9e906c97137ffc631986d1dc20248",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SvVE6MEWP",
+  "schemaVersion": 1,
+  "title": "分享 · 【音mad】一般通信（笨蛋通信）",
+  "date": "2026-07-08",
+  "createdAt": "2026-07-08T13:44:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "憋不住笑了",
+  "text": "憋不住笑了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SvVE6MEWP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SvVE6MEWP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe90862d8a7927e6e1bb2c98950e03a0410b8392a95930eb3677949615ea113b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SvVE6MEWP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe90862d8a7927e6e1bb2c98950e03a0410b8392a95930eb3677949615ea113b.jpg",
+    "title": "【音mad】一般通信（笨蛋通信）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe90862d8a7927e6e1bb2c98950e03a0410b8392a95930eb3677949615ea113b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fjcibfdihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SvVE6MEWP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一条龙通用语",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "93138e1843679778bc6f76b3272691134c6049bd3bcd948615c8e84d76fde5e9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

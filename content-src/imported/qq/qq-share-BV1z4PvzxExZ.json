@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1z4PvzxExZ",
+  "schemaVersion": 1,
+  "title": "分享 · Hiori Dance / 风野灯织 feat.山口一郎P【illumination STARS×鱼韵】",
+  "date": "2026-03-04",
+  "createdAt": "2026-03-04T12:31:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草，旧作回顾给我看感动了，灯织生贺作。",
+  "text": "草，旧作回顾给我看感动了，灯织生贺作。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1z4PvzxExZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1z4PvzxExZ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e772d0b392685545e85f6fcd9f9e9658537fcbd1307fdb8939a2e78f8faec759.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1z4PvzxExZ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e772d0b392685545e85f6fcd9f9e9658537fcbd1307fdb8939a2e78f8faec759.jpg",
+    "title": "Hiori Dance / 风野灯织 feat.山口一郎P【illumination STARS×鱼韵】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e772d0b392685545e85f6fcd9f9e9658537fcbd1307fdb8939a2e78f8faec759.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbfhcgchhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1z4PvzxExZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Arfoos",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e520ee10076c80897207374732fe316baf4312b0722dc0e2cc6d263b34550f88",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

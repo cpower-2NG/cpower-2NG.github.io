@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1EE1sBjEPo",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】上水流宇宙 最终审查之路|偶像大师vα-liv",
+  "date": "2025-12-25",
+  "createdAt": "2025-12-25T15:13:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "【中字】上水流宇宙 最终审查之路|偶像大师vα-liv UP主：CH邮政公司",
+  "text": "【中字】上水流宇宙 最终审查之路|偶像大师vα-liv UP主：CH邮政公司",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EE1sBjEPo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1EE1sBjEPo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1486e1c34bd08e74e79a7e759364a86a9963384773c5bd7640d4c63b4615c53a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1EE1sBjEPo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1486e1c34bd08e74e79a7e759364a86a9963384773c5bd7640d4c63b4615c53a.jpg",
+    "title": "【中字】上水流宇宙 最终审查之路|偶像大师vα-liv"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1486e1c34bd08e74e79a7e759364a86a9963384773c5bd7640d4c63b4615c53a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdgfhggghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1EE1sBjEPo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9b4188d00245256a4bc90e5f1b446c4b60c8f432c309aa10e518cfc2484809ea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

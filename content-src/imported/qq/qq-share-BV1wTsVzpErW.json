@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wTsVzpErW",
+  "schemaVersion": 1,
+  "title": "分享 · ニコニコ動画摩天楼10周年記念リアレンジ合作",
+  "date": "2025-10-25",
+  "createdAt": "2025-10-25T16:39:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "爱...",
+  "text": "爱...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wTsVzpErW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wTsVzpErW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0012f47ad3db8cdd2ffb59a077bc93cd5d99f8bde28481a304c3e39a87046f73.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wTsVzpErW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0012f47ad3db8cdd2ffb59a077bc93cd5d99f8bde28481a304c3e39a87046f73.jpg",
+    "title": "ニコニコ動画摩天楼10周年記念リアレンジ合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0012f47ad3db8cdd2ffb59a077bc93cd5d99f8bde28481a304c3e39a87046f73.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdabebghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wTsVzpErW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "コサンジ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "933501b285b026b4f88e126e3e49d7534638e92063f21e6b671392f7211567e6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

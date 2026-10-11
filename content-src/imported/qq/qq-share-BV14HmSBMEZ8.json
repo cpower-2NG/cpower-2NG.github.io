@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14HmSBMEZ8",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪耀色彩】虹の行方 特别MV",
+  "date": "2025-12-15",
+  "createdAt": "2025-12-15T15:17:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "luca那里看哭百万闪友 我们为您带来「虹の行方」特别MV！",
+  "text": "luca那里看哭百万闪友\n\n我们为您带来「虹の行方」特别MV！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14HmSBMEZ8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14HmSBMEZ8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74e30ceba0ff3cbf01313c025492a219357da81f20332715da88624fe1f8871a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14HmSBMEZ8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74e30ceba0ff3cbf01313c025492a219357da81f20332715da88624fe1f8871a.jpg",
+    "title": "【闪耀色彩】虹の行方 特别MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/74e30ceba0ff3cbf01313c025492a219357da81f20332715da88624fe1f8871a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ieibbifghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14HmSBMEZ8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5061a104f457cf9436867181b1928bcdc25f06a2a83fbbbef1832b34db00a882",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

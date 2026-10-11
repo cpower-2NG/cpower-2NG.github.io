@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1m9uszREVv",
+  "schemaVersion": 1,
+  "title": "分享 · 【切片/熟肉】为什么周末不发推？因为沉迷...",
+  "date": "2025-07-16",
+  "createdAt": "2025-07-16T06:25:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "她真的好爱",
+  "text": "她真的好爱",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1m9uszREVv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1m9uszREVv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/debedc0994f061c309e2cc281a0472c5f98c666ebb490bd791e0a2cd09d31ab1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1m9uszREVv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/debedc0994f061c309e2cc281a0472c5f98c666ebb490bd791e0a2cd09d31ab1.jpg",
+    "title": "【切片/熟肉】为什么周末不发推？因为沉迷..."
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/debedc0994f061c309e2cc281a0472c5f98c666ebb490bd791e0a2cd09d31ab1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcbhegcfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1m9uszREVv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "幻P_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f8794b808c6fe8a04eed575b08e45f939fcf5d5eb5cd666301c9139d4fed8508",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

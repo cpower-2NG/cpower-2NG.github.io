@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19KE8zvEhU",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】はじめっど",
+  "date": "2025-05-26",
+  "createdAt": "2025-05-26T15:37:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "道中魔圆段怎么不是我想的那样（恼）",
+  "text": "道中魔圆段怎么不是我想的那样（恼）",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19KE8zvEhU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19KE8zvEhU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40ae6b8d4944671e8dfad1517ed6d95e0e3d83cf355f0157d04290cc30cdaf2b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19KE8zvEhU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40ae6b8d4944671e8dfad1517ed6d95e0e3d83cf355f0157d04290cc30cdaf2b.jpg",
+    "title": "【合作】はじめっど"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/40ae6b8d4944671e8dfad1517ed6d95e0e3d83cf355f0157d04290cc30cdaf2b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bgidhciehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19KE8zvEhU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kuukigyo",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7e9eda6cd09c3fd14737b0947789c19ab16dc267ec8987000184eb7d3921bccd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rbj7z5Ezb",
+  "schemaVersion": 1,
+  "title": "分享 · [中日雙字]メクルメ - 篠沢広 (CV: 川村玲奈) 1st Period SS Day2",
+  "date": "2025-05-26",
+  "createdAt": "2025-05-26T04:54:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "聪明的、绝妙的演唱 女神因為唱到人唱不到的歌所以稱作女神",
+  "text": "聪明的、绝妙的演唱\n\n女神因為唱到人唱不到的歌所以稱作女神",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rbj7z5Ezb",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rbj7z5Ezb&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd5c8618a0f07e5717bae8121c2cafec4239aa15d1fe92fd40030bafa7ea950f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rbj7z5Ezb",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd5c8618a0f07e5717bae8121c2cafec4239aa15d1fe92fd40030bafa7ea950f.jpg",
+    "title": "[中日雙字]メクルメ - 篠沢広 (CV: 川村玲奈) 1st Period SS Day2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd5c8618a0f07e5717bae8121c2cafec4239aa15d1fe92fd40030bafa7ea950f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhcfdciehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rbj7z5Ezb",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "chihaya0225",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f7c033857ab27bc3fdb57c7c84b3632699fba06f5dcd3e5fa6f7b1aeeac0d52d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

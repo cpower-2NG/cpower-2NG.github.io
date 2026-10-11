@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV162wvzREsE",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「Wildest Flower」Official Music Video (HATSUBOSHI GAKUEN",
+  "date": "2026-03-19",
+  "createdAt": "2026-03-19T15:45:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我好爱，如果考虑角色性的话，应该我saki的solo里最喜欢的一首了",
+  "text": "我好爱，如果考虑角色性的话，应该我saki的solo里最喜欢的一首了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV162wvzREsE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV162wvzREsE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/03cf5cd0ee2b762f08382d5e12919f98c730139a8cb7db98a50ec2c50d421e16.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV162wvzREsE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/03cf5cd0ee2b762f08382d5e12919f98c730139a8cb7db98a50ec2c50d421e16.jpg",
+    "title": "初星学园 「Wildest Flower」Official Music Video (HATSUBOSHI GAKUEN -  Wildest Flower)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/03cf5cd0ee2b762f08382d5e12919f98c730139a8cb7db98a50ec2c50d421e16.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edbfdjdhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV162wvzREsE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f04349b5f3fe46ec305f6c9b16e3a8ae805f5a89ad90ef04f523bd7f52ca9f36",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

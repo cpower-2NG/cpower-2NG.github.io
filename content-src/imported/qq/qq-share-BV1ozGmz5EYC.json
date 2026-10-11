@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ozGmz5EYC",
+  "schemaVersion": 1,
+  "title": "分享 · 藤祭り",
+  "date": "2025-04-29",
+  "createdAt": "2025-04-29T13:46:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "夏感",
+  "text": "夏感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ozGmz5EYC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ozGmz5EYC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7abafef9f7946736e88c11a16a8f96618085622dbf4a9c5ddb2d95ddd40ef5ac.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ozGmz5EYC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7abafef9f7946736e88c11a16a8f96618085622dbf4a9c5ddb2d95ddd40ef5ac.jpg",
+    "title": "藤祭り"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7abafef9f7946736e88c11a16a8f96618085622dbf4a9c5ddb2d95ddd40ef5ac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgdedjfehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ozGmz5EYC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "23c3411c0a8dc49422a7bd7f6ccb13dc8beac57b96de17f4429f78d6a9a349b9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

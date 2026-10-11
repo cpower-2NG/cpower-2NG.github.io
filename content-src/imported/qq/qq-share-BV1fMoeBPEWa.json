@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fMoeBPEWa",
+  "schemaVersion": 1,
+  "title": "分享 · 人机对决：索尼AI乒乓球机器人Ace 历史性战胜高水平职业选手",
+  "date": "2026-04-24",
+  "createdAt": "2026-04-24T11:41:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "吓了一跳。看了一下，应该还只是事件视觉系统为主、普通高速相机为辅的低延迟高精度感知的提升",
+  "text": "吓了一跳。看了一下，应该还只是事件视觉系统为主、普通高速相机为辅的低延迟高精度感知的提升",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fMoeBPEWa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fMoeBPEWa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab61dbfd7bfab6f3f10241629dbeb00cfa4ee0751d60320fceea758c03046246.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fMoeBPEWa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab61dbfd7bfab6f3f10241629dbeb00cfa4ee0751d60320fceea758c03046246.jpg",
+    "title": "人机对决：索尼AI乒乓球机器人Ace 历史性战胜高水平职业选手"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ab61dbfd7bfab6f3f10241629dbeb00cfa4ee0751d60320fceea758c03046246.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjiadahhhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fMoeBPEWa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "安涂生廿一",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f5713ac04a2c662634844eb18d23ac83d658dae69372a93fe9a49f67f7e2ab8b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bY71zuEgq",
+  "schemaVersion": 1,
+  "title": "分享 · [中日雙字]Our Chant(feat. 花海咲季) 十王星南 (陽高真白 長月あおい) 1st HS Day2",
+  "date": "2025-06-02",
+  "createdAt": "2025-06-02T14:21:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "其实开头的时候我还有点担心，四天下来大家的体力都不太够了，很多地方都有点站不太稳了，但saki真的扛旗上来的时候，我知道那份...",
+  "text": "其实开头的时候我还有点担心，四天下来大家的体力都不太够了，很多地方都有点站不太稳了，但saki真的扛旗上来的时候，我知道那份...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bY71zuEgq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bY71zuEgq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d63fa14001b15716595f6bf05c6f28845031258c03841b8d27dd9185c5a67a23.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bY71zuEgq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d63fa14001b15716595f6bf05c6f28845031258c03841b8d27dd9185c5a67a23.jpg",
+    "title": "[中日雙字]Our Chant(feat. 花海咲季) 十王星南 (陽高真白 長月あおい) 1st HS Day2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d63fa14001b15716595f6bf05c6f28845031258c03841b8d27dd9185c5a67a23.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbbehiiehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bY71zuEgq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "chihaya0225",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9c0d852350fff7f7fa9bb75a1cf6da460449de6290c76c4f2719e6b082630f40",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

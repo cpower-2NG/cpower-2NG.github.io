@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vY1QBDEWU",
+  "schemaVersion": 1,
+  "title": "分享 · Ukp【萩原雪步×UZ】",
+  "date": "2025-11-08",
+  "createdAt": "2025-11-08T14:14:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草草草",
+  "text": "草草草",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vY1QBDEWU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vY1QBDEWU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a69a408e9d259c113ed10519e71493b116136ea1920f992460787455a2620cdf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vY1QBDEWU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a69a408e9d259c113ed10519e71493b116136ea1920f992460787455a2620cdf.jpg",
+    "title": "Ukp【萩原雪步×UZ】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a69a408e9d259c113ed10519e71493b116136ea1920f992460787455a2620cdf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agcbbgcghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vY1QBDEWU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "94f793cd9c3044009d24f5be95b1f05f5748af9fec20d5be2fcd393b3ebca18c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

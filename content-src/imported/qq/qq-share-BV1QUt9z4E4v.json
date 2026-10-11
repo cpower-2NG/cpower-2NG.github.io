@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1QUt9z4E4v",
+  "schemaVersion": 1,
+  "title": "分享 · 给大忙人听的 スゴすぎ前橋ウィッチーズ",
+  "date": "2025-09-04",
+  "createdAt": "2025-09-04T14:22:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草 -",
+  "text": "草\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1QUt9z4E4v",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1QUt9z4E4v&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1b811d16087931eb3d4f2025d3e81ad43b310ca7a449d0aa92eb5bd45f98e3d4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1QUt9z4E4v",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1b811d16087931eb3d4f2025d3e81ad43b310ca7a449d0aa92eb5bd45f98e3d4.jpg",
+    "title": "给大忙人听的 スゴすぎ前橋ウィッチーズ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1b811d16087931eb3d4f2025d3e81ad43b310ca7a449d0aa92eb5bd45f98e3d4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahhfjjgfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1QUt9z4E4v",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "knddbs_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ca390fb0b12ad930a9d4d774fbb43189352f418dd8a23d9e5d07c92ff04a10e2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VUC3BaEJu",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】Whatever it means【私的】",
+  "date": "2025-11-20",
+  "createdAt": "2025-11-20T12:06:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "素材乱射しゅきしゅき",
+  "text": "素材乱射しゅきしゅき",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VUC3BaEJu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VUC3BaEJu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07134384bee2c5ecbf532c5611fa4b99c8dd512dc9815cc6c58f00e083f4cdb4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VUC3BaEJu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07134384bee2c5ecbf532c5611fa4b99c8dd512dc9815cc6c58f00e083f4cdb4.jpg",
+    "title": "【合作】Whatever it means【私的】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/07134384bee2c5ecbf532c5611fa4b99c8dd512dc9815cc6c58f00e083f4cdb4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijdaegdghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VUC3BaEJu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "08b8e77a195c2154eb49f8d02ea8a008190312892deff6e441c3220553007698",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

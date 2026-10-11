@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qinhzQE4Y",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】抓住它吧 你所期望的那颗星",
+  "date": "2025-09-26",
+  "createdAt": "2025-09-26T15:52:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太帅了",
+  "text": "太帅了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qinhzQE4Y",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qinhzQE4Y&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b91ea7c9a254fec01255303ccdf5309f659fabbb7c54008c3e3335efb38b7ee.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qinhzQE4Y",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b91ea7c9a254fec01255303ccdf5309f659fabbb7c54008c3e3335efb38b7ee.jpg",
+    "title": "【合作】抓住它吧 你所期望的那颗星"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b91ea7c9a254fec01255303ccdf5309f659fabbb7c54008c3e3335efb38b7ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecjbajifhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qinhzQE4Y",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1c7d0e89760a420aea6aef8a8384e3958e4957ef4ff64ae4b62ce578a7449f6a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

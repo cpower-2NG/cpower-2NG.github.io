@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LJHi6QE9T",
+  "schemaVersion": 1,
+  "title": "分享 · 盘点那些同时被过誉和低估的乒乓球运动员",
+  "date": "2026-10-07",
+  "createdAt": "2026-10-07T05:41:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最中肯 -",
+  "text": "最中肯\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LJHi6QE9T",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LJHi6QE9T&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd8ba03f4d11465e4f6bf7f0b42c78beefab58ef07d8cf87fff60676b4eb7672.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LJHi6QE9T",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd8ba03f4d11465e4f6bf7f0b42c78beefab58ef07d8cf87fff60676b4eb7672.jpg",
+    "title": "盘点那些同时被过誉和低估的乒乓球运动员"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fd8ba03f4d11465e4f6bf7f0b42c78beefab58ef07d8cf87fff60676b4eb7672.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "higbfdbjhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LJHi6QE9T",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "贝当元帅球",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f14e1efe703f5530a1b3316b0acfb40f860055c3694a5c9c5597bd3dfd78d422",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

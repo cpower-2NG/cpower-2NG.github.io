@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Q9STBAEtU",
+  "schemaVersion": 1,
+  "title": "分享 · 【舆水幸子合作】可爱的我和HBD",
+  "date": "2025-11-27",
+  "createdAt": "2025-11-27T11:46:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "世界第一可爱的音骂",
+  "text": "世界第一可爱的音骂",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Q9STBAEtU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Q9STBAEtU&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/ba27c22045af89a50859cbe599273db89d5e4f38.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Q9STBAEtU",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/ba27c22045af89a50859cbe599273db89d5e4f38.jpg",
+    "title": "【舆水幸子合作】可爱的我和HBD"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/ba27c22045af89a50859cbe599273db89d5e4f38.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djjdeceghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Q9STBAEtU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3231546768e1d15689b14b0b7269918a65657e9c7e8f2a154e067368b12245e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

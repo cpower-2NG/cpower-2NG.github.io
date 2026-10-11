@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1WbCRBPEwi",
+  "schemaVersion": 1,
+  "title": "分享 · 麻烦制造者",
+  "date": "2025-11-18",
+  "createdAt": "2025-11-18T14:15:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "【麻烦制造者】 <a href=\"https://www.bilibili.com/video/BV1WbCRBPEwi/?share_source=copy_",
+  "text": "【麻烦制造者】                   <a href=\"https://www.bilibili.com/video/BV1WbCRBPEwi/?share_source=copy_web&vd_source=05f528746a798ea0618a99152ecbd4ec\"            target=\"_blank\"              class=\" c_tx\" >  https://www.bilibili.com/video/BV1WbCRBPEwi/?share_source=copy_web&vd_source=05f528746a798ea0618a99152ecbd4ec  </a>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WbCRBPEwi",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1WbCRBPEwi&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7dcfcae1812d7f49b6c78d28bcb103ea9a95683a538b54676c87135bee004d97.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1WbCRBPEwi",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7dcfcae1812d7f49b6c78d28bcb103ea9a95683a538b54676c87135bee004d97.jpg",
+    "title": "麻烦制造者"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7dcfcae1812d7f49b6c78d28bcb103ea9a95683a538b54676c87135bee004d97.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcdfhedghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1WbCRBPEwi",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "气球-Balloon",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f62eb085dab84d957ba24ebdd89f30fcff9837f6ef2a61cc8f802de5b0d7581f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

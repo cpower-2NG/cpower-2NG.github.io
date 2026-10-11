@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16TGdzuEu2",
+  "schemaVersion": 1,
+  "title": "分享 · 【葛城莉莉娅】No title",
+  "date": "2025-05-04",
+  "createdAt": "2025-05-04T10:41:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "感觉音频哪里怪怪的？ 学马补全2",
+  "text": "感觉音频哪里怪怪的？\n\n学马补全2",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16TGdzuEu2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16TGdzuEu2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b44b29ff98de3173c94764b8c176cbec95a349207aadfa0a78b8133b016abdb1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16TGdzuEu2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b44b29ff98de3173c94764b8c176cbec95a349207aadfa0a78b8133b016abdb1.jpg",
+    "title": "【葛城莉莉娅】No title"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b44b29ff98de3173c94764b8c176cbec95a349207aadfa0a78b8133b016abdb1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgcffdgehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16TGdzuEu2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "法WAV",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4259d371224f18233dfbd8cccd99a3312824af2a806247041a32633860ec53c6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

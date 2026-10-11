@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fg53zLEAX",
+  "schemaVersion": 1,
+  "title": "分享 · 【9-nine-雪色雪花雪之痕】主题曲『DEAR MY WAKER』【中文字幕付】【调色板官方】",
+  "date": "2025-05-09",
+  "createdAt": "2025-05-09T12:08:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最喜欢的一集",
+  "text": "最喜欢的一集",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fg53zLEAX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fg53zLEAX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bde8120383432d5c70c4dbd8cd8b73aeba55ab33d0dc5498442ad3235236d9c5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fg53zLEAX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bde8120383432d5c70c4dbd8cd8b73aeba55ab33d0dc5498442ad3235236d9c5.jpg",
+    "title": "【9-nine-雪色雪花雪之痕】主题曲『DEAR MY WAKER』【中文字幕付】【调色板官方】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bde8120383432d5c70c4dbd8cd8b73aeba55ab33d0dc5498442ad3235236d9c5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iiecjhgehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fg53zLEAX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Palette公式",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3c730907c7b0b1192083ca1d8f0bbde17ed356c85ccbd42345e77eda322124cc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

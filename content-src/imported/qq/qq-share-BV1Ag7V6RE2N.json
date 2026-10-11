@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ag7V6RE2N",
+  "schemaVersion": 1,
+  "title": "分享 · 牢广 翻唱「GO MY WAY!! 」SSR【学园偶像大师/初星学園 TE 4K HDR MV】",
+  "date": "2026-06-28",
+  "createdAt": "2026-06-28T00:53:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"h",
+  "text": "<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/><img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328557.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ag7V6RE2N",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ag7V6RE2N&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f14994726f8591684d45ca4822af089abb8b49130fd1c49ee63031002780dce1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ag7V6RE2N",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f14994726f8591684d45ca4822af089abb8b49130fd1c49ee63031002780dce1.jpg",
+    "title": "牢广 翻唱「GO MY WAY!! 」SSR【学园偶像大师/初星学園 TE 4K HDR MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f14994726f8591684d45ca4822af089abb8b49130fd1c49ee63031002780dce1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecaiagcihb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ag7V6RE2N",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5b51d9daad07caee56b699420a9a0b3ba1adf4e3423fc6acffa37cd6831b660d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

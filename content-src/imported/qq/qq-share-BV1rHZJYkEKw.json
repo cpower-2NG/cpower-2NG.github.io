@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rHZJYkEKw",
+  "schemaVersion": 1,
+  "title": "分享 · 「超强无敌exercise」-花海佑芽|学园偶像大师",
+  "date": "2025-03-31",
+  "createdAt": "2025-03-31T14:03:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这是在做HIIT吗（笑） 自购",
+  "text": "这是在做HIIT吗（笑）\n\n自购",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rHZJYkEKw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rHZJYkEKw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/abb0880620ad573ad9125792859d13e1ed49758db085f9c05806fe73601bceb5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rHZJYkEKw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/abb0880620ad573ad9125792859d13e1ed49758db085f9c05806fe73601bceb5.jpg",
+    "title": "「超强无敌exercise」-花海佑芽|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/abb0880620ad573ad9125792859d13e1ed49758db085f9c05806fe73601bceb5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eihjcedehb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rHZJYkEKw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aeb058fbe4a2961594ee08f449e3c1e5d574d8a31b644918df79a459cf1575e8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

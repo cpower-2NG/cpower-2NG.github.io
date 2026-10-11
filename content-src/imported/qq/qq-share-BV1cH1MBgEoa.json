@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cH1MBgEoa",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园 「見て」Official Music Video (HATSUBOSHI GAKUEN - Face Me)",
+  "date": "2025-10-31",
+  "createdAt": "2025-10-31T16:26:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不懂音乐，但这三个初听感觉完全合不到一起的 电子乐鼓点、悠扬的钢琴音、似乎是唱不来歌剧一直跑调的人声，恰似mao自己呢",
+  "text": "不懂音乐，但这三个初听感觉完全合不到一起的 电子乐鼓点、悠扬的钢琴音、似乎是唱不来歌剧一直跑调的人声，恰似mao自己呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cH1MBgEoa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cH1MBgEoa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a2fca8bb69b186068662fda4cc6e42f29b4471553f456d402298f354958a858.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cH1MBgEoa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a2fca8bb69b186068662fda4cc6e42f29b4471553f456d402298f354958a858.jpg",
+    "title": "初星学园 「見て」Official Music Video (HATSUBOSHI GAKUEN - Face Me)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0a2fca8bb69b186068662fda4cc6e42f29b4471553f456d402298f354958a858.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ghjhcjbghb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cH1MBgEoa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8050088213f9d813691381d96cf7facb08cf54fc470849e612847e497b38b9b0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

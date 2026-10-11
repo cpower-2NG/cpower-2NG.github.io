@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13s536dEJt",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】篠泽广「H.I.F」出场告知PV",
+  "date": "2026-05-13",
+  "createdAt": "2026-05-13T13:08:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "小广压轴吗，来感觉了",
+  "text": "小广压轴吗，来感觉了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13s536dEJt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13s536dEJt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/793451a26a4080f92b68b5841436122073331264ab46ddfe5a28460d850d307f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13s536dEJt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/793451a26a4080f92b68b5841436122073331264ab46ddfe5a28460d850d307f.jpg",
+    "title": "【学园偶像大师】篠泽广「H.I.F」出场告知PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/793451a26a4080f92b68b5841436122073331264ab46ddfe5a28460d850d307f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjghhgihhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13s536dEJt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f4d35e8cf532da5f5bb94612251515ac81023480e434babe6934eb96c222e0e4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

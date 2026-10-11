@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16saHztEin",
+  "schemaVersion": 1,
+  "title": "分享 · 琴音紫菀",
+  "date": "2025-09-02",
+  "createdAt": "2025-09-02T03:20:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这么帅",
+  "text": "这么帅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16saHztEin",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16saHztEin&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c1e0a86f5312713c926247efc60e866d34bf8bdc676505471dd82d1f3401bc3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16saHztEin",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c1e0a86f5312713c926247efc60e866d34bf8bdc676505471dd82d1f3401bc3.jpg",
+    "title": "琴音紫菀"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3c1e0a86f5312713c926247efc60e866d34bf8bdc676505471dd82d1f3401bc3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iacdihgfhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16saHztEin",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0d65137109cfd5264d653ac1f35357059a2fe253791f81567c1ff017a7fa753c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
