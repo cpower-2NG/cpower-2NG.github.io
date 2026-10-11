@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1TM41167CX",
+  "schemaVersion": 1,
+  "title": "分享 · 【2023年/手冢治虫】火之鸟 PHOENIX EDEN17 先导PV【MCE汉化组】",
+  "date": "2022-11-30",
+  "createdAt": "2022-11-30T10:53:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这才是迪士尼网飞该干的事",
+  "text": "这才是迪士尼网飞该干的事",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TM41167CX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TM41167CX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b70bab0bbd22e773d468ad45e3fa9585a75b14a56b3ff3139061b2410c0244a.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TM41167CX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b70bab0bbd22e773d468ad45e3fa9585a75b14a56b3ff3139061b2410c0244a.png",
+    "title": "【2023年/手冢治虫】火之鸟 PHOENIX EDEN17 先导PV【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b70bab0bbd22e773d468ad45e3fa9585a75b14a56b3ff3139061b2410c0244a.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbgfaijggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TM41167CX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "41774efcb0cd7abd111ecce8c2db2b87c4dc0cb1b2e775e02ab62a01bef8df34",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1BM411k755",
+  "schemaVersion": 1,
+  "title": "分享 · 我，再转发！",
+  "date": "2022-11-13",
+  "createdAt": "2022-11-13T23:44:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我，再转发！",
+  "text": "我，再转发！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BM411k755",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BM411k755&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BM411k755",
+    "coverUrl": "",
+    "title": "我，再转发！"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "headidiggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BM411k755",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c1b5345bfe18b6af386a26cc5a6d3ce0ce23cc138c552cfeb5378dabd6c55f6e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVjlZeDBXeHlrI",
+  "schemaVersion": 1,
+  "title": "分享 · 普罗丢瑟哪有不喜欢miki的，硬撑着罢了（没图了拿文明凑凑",
+  "date": "2022-11-22",
+  "createdAt": "2022-11-22T17:28:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "普罗丢瑟哪有不喜欢miki的，硬撑着罢了（没图了拿文明凑凑",
+  "text": "普罗丢瑟哪有不喜欢miki的，硬撑着罢了（没图了拿文明凑凑",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVjlZeDBXeHlrI",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVjlZeDBXeHlrI&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVjlZeDBXeHlrI",
+    "coverUrl": "",
+    "title": "普罗丢瑟哪有不喜欢miki的，硬撑着罢了（没图了拿文明凑凑"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d6067d6339c70d00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVjlZeDBXeHlrI",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3462a3fb82aead9a60c602b57756dc9f74088cc09fd0155ec368ca94896d668d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

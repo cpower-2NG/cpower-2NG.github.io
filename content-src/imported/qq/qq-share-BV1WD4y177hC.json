@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1WD4y177hC",
+  "schemaVersion": 1,
+  "title": "分享 · 【预热】你可能觉得有点离谱，但这届拜年纪我们请过来了…（Galgame&视觉小说拜年纪）",
+  "date": "2022-12-23",
+  "createdAt": "2022-12-23T13:06:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这真的是重量级 这下重量级了",
+  "text": "这真的是重量级\n\n这下重量级了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WD4y177hC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1WD4y177hC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86e029a1aa07a6450b5c6ab1bf752a0c7f0e9b7a22a2143396e58ab681f1dd0f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1WD4y177hC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86e029a1aa07a6450b5c6ab1bf752a0c7f0e9b7a22a2143396e58ab681f1dd0f.jpg",
+    "title": "【预热】你可能觉得有点离谱，但这届拜年纪我们请过来了…（Galgame&视觉小说拜年纪）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/86e029a1aa07a6450b5c6ab1bf752a0c7f0e9b7a22a2143396e58ab681f1dd0f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "faiaaibhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1WD4y177hC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "苍麟sk",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "78b00aee95cd2bf6e8c4cc9c227b5e32d082d5ea67b2584bb76132d6bfdf9b9e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

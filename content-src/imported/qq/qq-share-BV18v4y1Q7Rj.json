@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18v4y1Q7Rj",
+  "schemaVersion": 1,
+  "title": "分享 · 东方高达组曲 Cambridge李劲锋 十年钢琴音乐会 伦敦2022",
+  "date": "2022-12-18",
+  "createdAt": "2022-12-18T09:10:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "!!!",
+  "text": "!!!",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18v4y1Q7Rj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18v4y1Q7Rj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/83cd1b7031ba28331c6264d793e851531eceebb27e1acab1fd918c88603e4879.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18v4y1Q7Rj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/83cd1b7031ba28331c6264d793e851531eceebb27e1acab1fd918c88603e4879.jpg",
+    "title": "东方高达组曲 Cambridge李劲锋 十年钢琴音乐会 伦敦2022"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/83cd1b7031ba28331c6264d793e851531eceebb27e1acab1fd918c88603e4879.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bagefdbhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18v4y1Q7Rj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Cambridge李劲锋",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fb4e07829b2cef5b2dd029ecb61de3f6f218467feaa7a884757482169fe9b78b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

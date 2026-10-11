@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1j84y1v77Z",
+  "schemaVersion": 1,
+  "title": "分享 · 【光敏预警】我妈逼我看孤独摇滚",
+  "date": "2022-11-10",
+  "createdAt": "2022-11-10T00:38:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "【光敏预警】",
+  "text": "【光敏预警】",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1j84y1v77Z",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1j84y1v77Z&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8c98cdef0b0a9f0da4a6079e3b3633ddcdf991b35a6e3bfc85d5e157b5abad6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1j84y1v77Z",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8c98cdef0b0a9f0da4a6079e3b3633ddcdf991b35a6e3bfc85d5e157b5abad6.jpg",
+    "title": "【光敏预警】我妈逼我看孤独摇滚"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c8c98cdef0b0a9f0da4a6079e3b3633ddcdf991b35a6e3bfc85d5e157b5abad6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bchaeaiggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1j84y1v77Z",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "非属MAGUS提督后宫分部",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f4fa7b9e269e3ca2b62de8cfc7d7bdcdc2e0636fa4d954142c5ab901588e3c7e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

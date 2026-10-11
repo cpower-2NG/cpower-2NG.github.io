@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bP411u7mo",
+  "schemaVersion": 1,
+  "title": "分享 · 动画「POLE PRINCESS!!」企划始動★解禁PV",
+  "date": "2022-11-25",
+  "createdAt": "2022-11-25T10:50:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这算啥 www.youtube.com/watch?v=Uz2et-JVd3c",
+  "text": "这算啥\n\nwww.youtube.com/watch?v=Uz2et-JVd3c",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bP411u7mo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bP411u7mo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6947ef9bfd1a91333614133b267fdeb4db07f8f8c63159fdb2db4bd312a541ae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bP411u7mo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6947ef9bfd1a91333614133b267fdeb4db07f8f8c63159fdb2db4bd312a541ae.jpg",
+    "title": "动画「POLE PRINCESS!!」企划始動★解禁PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6947ef9bfd1a91333614133b267fdeb4db07f8f8c63159fdb2db4bd312a541ae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fcedhdjggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bP411u7mo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5df40e233894e07b31b65b72795485330af7f25241840ce43066d374bfa9259f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

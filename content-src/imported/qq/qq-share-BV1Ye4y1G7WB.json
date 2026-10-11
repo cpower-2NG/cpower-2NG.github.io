@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ye4y1G7WB",
+  "schemaVersion": 1,
+  "title": "分享 · 【瓶子君152】瓶皇看《偶像大师》作画MAD",
+  "date": "2023-01-11",
+  "createdAt": "2023-01-11T03:52:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "傻逼 【瓶子君152的个人空间-哔哩哔哩】 b23.tv/SvAXYK4",
+  "text": "傻逼\n\n【瓶子君152的个人空间-哔哩哔哩】 b23.tv/SvAXYK4",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ye4y1G7WB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ye4y1G7WB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d648359a60d046781da9aa0081dbeca711cbe919b395ced72c179bcff60d6b12.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ye4y1G7WB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d648359a60d046781da9aa0081dbeca711cbe919b395ced72c179bcff60d6b12.jpg",
+    "title": "【瓶子君152】瓶皇看《偶像大师》作画MAD"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d648359a60d046781da9aa0081dbeca711cbe919b395ced72c179bcff60d6b12.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igbjaedhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ye4y1G7WB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "云余FFF",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "931fcef27b097570be20a82a63437b57f8a970c8902c4e8c0892772c050657c7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

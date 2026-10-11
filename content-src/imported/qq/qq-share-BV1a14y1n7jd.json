@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a14y1n7jd",
+  "schemaVersion": 1,
+  "title": "分享 · U149 动画化予告",
+  "date": "2022-11-27",
+  "createdAt": "2022-11-27T11:31:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "小春的cv还藏着啊 2023年 4月",
+  "text": "小春的cv还藏着啊\n\n2023年 4月",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a14y1n7jd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a14y1n7jd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa2e7b76395bfcd20eed24b5fc337e86eacdda6cc4e1141b6cc34282d71915f0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a14y1n7jd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa2e7b76395bfcd20eed24b5fc337e86eacdda6cc4e1141b6cc34282d71915f0.jpg",
+    "title": "U149 动画化予告"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aa2e7b76395bfcd20eed24b5fc337e86eacdda6cc4e1141b6cc34282d71915f0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cigiefjggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a14y1n7jd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3e7f3f5f5e59f4f7346f73040149150655b2f74d64f11bda9180df48f267d07f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

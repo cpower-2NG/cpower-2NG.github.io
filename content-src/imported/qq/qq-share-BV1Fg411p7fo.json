@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Fg411p7fo",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师闪耀色彩】下期卡池预告",
+  "date": "2022-12-05",
+  "createdAt": "2022-12-05T12:05:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "开肝 网络",
+  "text": "开肝\n\n网络",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fg411p7fo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Fg411p7fo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4076703c1f431c66b80c7e26143d24c75b813f32508a11004e96a1722d644aa2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Fg411p7fo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4076703c1f431c66b80c7e26143d24c75b813f32508a11004e96a1722d644aa2.jpg",
+    "title": "【偶像大师闪耀色彩】下期卡池预告"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4076703c1f431c66b80c7e26143d24c75b813f32508a11004e96a1722d644aa2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "adjbecahgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Fg411p7fo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Awz61",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d4756c01a7842f3dc5215a4c600845a72131f01fd539bf3fe1c51270e06894cf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

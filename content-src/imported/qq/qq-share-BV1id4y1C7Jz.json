@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1id4y1C7Jz",
+  "schemaVersion": 1,
+  "title": "分享 · 不愧是芳文的，直言きららアニメ",
+  "date": "2022-11-04",
+  "createdAt": "2022-11-04T14:30:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不愧是芳文的，直言きららアニメ",
+  "text": "不愧是芳文的，直言きららアニメ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1id4y1C7Jz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1id4y1C7Jz&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1id4y1C7Jz",
+    "coverUrl": "",
+    "title": "不愧是芳文的，直言きららアニメ"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfcchfhggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1id4y1C7Jz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3294c121ba5815e36242e33e39b1c2c7db1b6c4b98d1994a89f24fcd5f0c392c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

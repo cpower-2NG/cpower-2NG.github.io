@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1we411F7xQ",
+  "schemaVersion": 1,
+  "title": "分享 · 在内心渴望按赞的小怪兽，孤独摇滚【映画研＃39】",
+  "date": "2022-11-04",
+  "createdAt": "2022-11-04T09:36:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "确实是cw既奇蛋之后最花力气的动画了",
+  "text": "确实是cw既奇蛋之后最花力气的动画了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1we411F7xQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1we411F7xQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e8ee7732433bb30817b6599d14b054f0633ad52f576d59502a06b9cb181be344.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1we411F7xQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e8ee7732433bb30817b6599d14b054f0633ad52f576d59502a06b9cb181be344.jpg",
+    "title": "在内心渴望按赞的小怪兽，孤独摇滚【映画研＃39】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e8ee7732433bb30817b6599d14b054f0633ad52f576d59502a06b9cb181be344.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhfeffhggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1we411F7xQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kay-漫天大坑-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5b6ed1bc23e8fe5586984536d6132a3c1e5e49d249c5f9deda3c1bb658e2dd0c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

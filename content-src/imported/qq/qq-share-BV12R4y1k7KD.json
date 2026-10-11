@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12R4y1k7KD",
+  "schemaVersion": 1,
+  "title": "分享 · 梦幻联动⭐【车万七人合唱】幻想连接/幻想コネクト",
+  "date": "2022-12-09",
+  "createdAt": "2022-12-09T11:06:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这算袿姬的曲子嘛，这编曲偶像风太浓了吧",
+  "text": "这算袿姬的曲子嘛，这编曲偶像风太浓了吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12R4y1k7KD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12R4y1k7KD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54105c22e3c9dec3d497c7f0e12ed161b4d375f7f223721a3d0f7d761610c744.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12R4y1k7KD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54105c22e3c9dec3d497c7f0e12ed161b4d375f7f223721a3d0f7d761610c744.jpg",
+    "title": "梦幻联动⭐【车万七人合唱】幻想连接/幻想コネクト"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54105c22e3c9dec3d497c7f0e12ed161b4d375f7f223721a3d0f7d761610c744.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "faaeifahgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12R4y1k7KD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "影潞Kagami",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "83a0ad764818135956c9d6bd8d877c0cbd9dac02c9ae613519e5a6b18b0eefdc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

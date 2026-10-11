@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14L4y1n7Ah",
+  "schemaVersion": 1,
+  "title": "分享 · 甘奈列车",
+  "date": "2022-12-29",
+  "createdAt": "2022-12-29T09:28:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "bpart副歌多轨好爽",
+  "text": "bpart副歌多轨好爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14L4y1n7Ah",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14L4y1n7Ah&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99ae7fcf8376aaeb5af20aebcdb5a9ad62c96689b55e575db948093547b9c0bc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14L4y1n7Ah",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99ae7fcf8376aaeb5af20aebcdb5a9ad62c96689b55e575db948093547b9c0bc.jpg",
+    "title": "甘奈列车"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99ae7fcf8376aaeb5af20aebcdb5a9ad62c96689b55e575db948093547b9c0bc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcbgadchgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14L4y1n7Ah",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一般通过清厌",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "99b5b6626ff07a93aa240491ccc203760aae768bd3c8af17b352d754a49d53f6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

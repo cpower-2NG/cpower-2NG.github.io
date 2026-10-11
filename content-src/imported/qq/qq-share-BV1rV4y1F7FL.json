@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rV4y1F7FL",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师】“PROJECT IM@S 3.0 VISION”",
+  "date": "2022-12-26",
+  "createdAt": "2022-12-26T10:22:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "能唬住人,就是不知道那个新企划到底怎么样,真就管人? 网络",
+  "text": "能唬住人,就是不知道那个新企划到底怎么样,真就管人?\n\n网络",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rV4y1F7FL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rV4y1F7FL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2211a78bd7dda0477d485e47c9e2afcb07603841a3d770edededf74fc4160379.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rV4y1F7FL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2211a78bd7dda0477d485e47c9e2afcb07603841a3d770edededf74fc4160379.jpg",
+    "title": "【偶像大师】“PROJECT IM@S 3.0 VISION”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2211a78bd7dda0477d485e47c9e2afcb07603841a3d770edededf74fc4160379.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icbafachgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rV4y1F7FL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Awz61",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ed7f4cb59a95be17501612122ef0597d7c411275dfcd992029d8e55dd7ee6eec",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

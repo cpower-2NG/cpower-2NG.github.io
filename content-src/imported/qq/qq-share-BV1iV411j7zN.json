@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iV411j7zN",
+  "schemaVersion": 1,
+  "title": "分享 · 【熟肉】The Idolm@ster Anim@tion Master 生っすかSpecial 01",
+  "date": "2022-11-13",
+  "createdAt": "2022-11-13T11:14:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我即使是知道不会有人看，看不懂还要赞，也要用这腐朽的手转发",
+  "text": "我即使是知道不会有人看，看不懂还要赞，也要用这腐朽的手转发",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iV411j7zN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iV411j7zN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/332f535ed3058ffb68d8309cf683e213433042dc347fdd76eb74274ec1a5db4a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iV411j7zN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/332f535ed3058ffb68d8309cf683e213433042dc347fdd76eb74274ec1a5db4a.jpg",
+    "title": "【熟肉】The Idolm@ster Anim@tion Master 生っすかSpecial 01"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/332f535ed3058ffb68d8309cf683e213433042dc347fdd76eb74274ec1a5db4a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fiaiddiggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iV411j7zN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "美兔的学友P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "68e030b3172613e5ce9e11bbadaaebaa82479cc8b7e6dc4b04b9ffd9fde3d362",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

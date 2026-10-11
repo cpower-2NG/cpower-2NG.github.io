@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1v34y147vP",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】朋友是什么呢【NovelsM@ster】",
+  "date": "2023-01-03",
+  "createdAt": "2023-01-03T12:24:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "名作啊!",
+  "text": "名作啊!",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1v34y147vP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1v34y147vP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9cf187a0ac3e8b10d672290bdecf9a7faeae7d8fe9252c1ed67f3f6a1ddd7292.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1v34y147vP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9cf187a0ac3e8b10d672290bdecf9a7faeae7d8fe9252c1ed67f3f6a1ddd7292.jpg",
+    "title": "【中字】朋友是什么呢【NovelsM@ster】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9cf187a0ac3e8b10d672290bdecf9a7faeae7d8fe9252c1ed67f3f6a1ddd7292.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djgiehchgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1v34y147vP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d1ad0716ff48be23f582b3a9713cb1def8228310cc69322feea7d84badc6ffa9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

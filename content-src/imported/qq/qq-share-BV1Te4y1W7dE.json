@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Te4y1W7dE",
+  "schemaVersion": 1,
+  "title": "分享 · 试着画了ふるふるフューチャー☆",
+  "date": "2022-11-22",
+  "createdAt": "2022-11-22T17:40:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "觉醒美希是plove不可攀越的高峰",
+  "text": "觉醒美希是plove不可攀越的高峰",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Te4y1W7dE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Te4y1W7dE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7fd994747a0c16e95a1a331ae6cf39fa38b4821c87757e4ba57d7d1e5cc7d39.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Te4y1W7dE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7fd994747a0c16e95a1a331ae6cf39fa38b4821c87757e4ba57d7d1e5cc7d39.jpg",
+    "title": "试着画了ふるふるフューチャー☆"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a7fd994747a0c16e95a1a331ae6cf39fa38b4821c87757e4ba57d7d1e5cc7d39.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdiidbjggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Te4y1W7dE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f2578356932830da0feb3b22ae4c7084abe81395c45d5c2e39a9a2970d096e8a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

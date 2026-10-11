@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MD4y177aN",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】スノードーム・シンドローム【小宫果穗】",
+  "date": "2022-12-20",
+  "createdAt": "2022-12-20T22:53:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "定番的剧情,就吃这套",
+  "text": "定番的剧情,就吃这套",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MD4y177aN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MD4y177aN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2796890b3546b2e3459ffa8a6acdea227476d624cef0f664aaa76698c56bd0f8.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MD4y177aN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2796890b3546b2e3459ffa8a6acdea227476d624cef0f664aaa76698c56bd0f8.png",
+    "title": "【中字】スノードーム・シンドローム【小宫果穗】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2796890b3546b2e3459ffa8a6acdea227476d624cef0f664aaa76698c56bd0f8.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jaighfbhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MD4y177aN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "携带鞋带",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e5d9ec6031394ee14b44240bd1858168107807fb20238b186eb41a15b4287b43",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

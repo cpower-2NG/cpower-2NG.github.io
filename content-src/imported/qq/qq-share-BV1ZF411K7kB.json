@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZF411K7kB",
+  "schemaVersion": 1,
+  "title": "分享 · 輝く針の小糸ちゃん",
+  "date": "2022-11-13",
+  "createdAt": "2022-11-13T00:19:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹",
+  "text": "艹",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZF411K7kB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZF411K7kB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2686ab6076c744610f9c8420caa6bee91970bfe2922fedd487a48f0bc4bb2fd4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZF411K7kB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2686ab6076c744610f9c8420caa6bee91970bfe2922fedd487a48f0bc4bb2fd4.jpg",
+    "title": "輝く針の小糸ちゃん"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2686ab6076c744610f9c8420caa6bee91970bfe2922fedd487a48f0bc4bb2fd4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bhhijciggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZF411K7kB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大王君dwj",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "38f19e3c25908746b0105cb216db30aa14123b87809883b53b80f35c555bcc26",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1zv4y1X7A9",
+  "schemaVersion": 1,
+  "title": "分享 · 别的就算了,莎乐美这也太好笑了吧",
+  "date": "2022-12-15",
+  "createdAt": "2022-12-15T11:35:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "别的就算了,莎乐美这也太好笑了吧",
+  "text": "别的就算了,莎乐美这也太好笑了吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zv4y1X7A9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zv4y1X7A9&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zv4y1X7A9",
+    "coverUrl": "",
+    "title": "别的就算了,莎乐美这也太好笑了吧"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fcbeabbhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zv4y1X7A9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d5d87a5c139d48d6878283f981ca1828c6a334d0c5d3b4f80952fa4131530f2a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16R4y1U7Dc",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】MLTD 跨年2022-2023",
+  "date": "2023-01-02",
+  "createdAt": "2023-01-02T12:43:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可惜手机带不动啊",
+  "text": "可惜手机带不动啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16R4y1U7Dc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16R4y1U7Dc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b8cb80fd09e0ec8e911f736a0b4638ef4238d17739f9d9256dfdd5a71f28d97.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16R4y1U7Dc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b8cb80fd09e0ec8e911f736a0b4638ef4238d17739f9d9256dfdd5a71f28d97.jpg",
+    "title": "【中字】MLTD 跨年2022-2023"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b8cb80fd09e0ec8e911f736a0b4638ef4238d17739f9d9256dfdd5a71f28d97.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "faedggchgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16R4y1U7Dc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "38b2ac0a288b913b168651481add0e59bbf0d8aa4ad7d84343df2c3fab549ea1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

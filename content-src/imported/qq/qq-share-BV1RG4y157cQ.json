@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RG4y157cQ",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪耀色彩 同人】I must \"J@ZZ\". 【BOOTH】",
+  "date": "2023-01-02",
+  "createdAt": "2023-01-02T23:36:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "性感疯了",
+  "text": "性感疯了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RG4y157cQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RG4y157cQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0fe5f575a28d2c387af4f1b0b7dcb3a6bcc1b0d89838df2d30b6a0f7d5311344.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RG4y157cQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0fe5f575a28d2c387af4f1b0b7dcb3a6bcc1b0d89838df2d30b6a0f7d5311344.png",
+    "title": "【闪耀色彩 同人】I must \"J@ZZ\". 【BOOTH】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0fe5f575a28d2c387af4f1b0b7dcb3a6bcc1b0d89838df2d30b6a0f7d5311344.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbgcahchgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RG4y157cQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4abc340b6cd523274803ce27fc62921620edd7777169fd0631918b53ad5dda33",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fv4y117Qh",
+  "schemaVersion": 1,
+  "title": "分享 · 【孤独摇滚/小动画】给波奇酱穿新衣服~",
+  "date": "2022-11-19",
+  "createdAt": "2022-11-19T00:31:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "小波奇那么漂亮！快给她买新衣服！！",
+  "text": "小波奇那么漂亮！快给她买新衣服！！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fv4y117Qh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fv4y117Qh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af7944f2106421132402df128519357277f0ce4960f53bf8583eec5bd0b586e0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fv4y117Qh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af7944f2106421132402df128519357277f0ce4960f53bf8583eec5bd0b586e0.jpg",
+    "title": "【孤独摇滚/小动画】给波奇酱穿新衣服~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af7944f2106421132402df128519357277f0ce4960f53bf8583eec5bd0b586e0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "abjhbiiggb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fv4y117Qh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "纸欣Dream",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "110490625bf5911518161f43c2da7158814fa67a07a6b9b3ed6581889388226b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

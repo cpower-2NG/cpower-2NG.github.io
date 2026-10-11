@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1kW4y1g7Lu",
+  "schemaVersion": 1,
+  "title": "分享 · 最喜欢的一次隣に\n\n大家的衣服都好好看啊~八年没唱了吧？",
+  "date": "2022-12-11",
+  "createdAt": "2022-12-11T02:26:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最喜欢的一次隣に 大家的衣服都好好看啊~八年没唱了吧？",
+  "text": "最喜欢的一次隣に\n\n大家的衣服都好好看啊~八年没唱了吧？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kW4y1g7Lu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kW4y1g7Lu&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kW4y1g7Lu",
+    "coverUrl": "",
+    "title": "最喜欢的一次隣に\n\n大家的衣服都好好看啊~八年没唱了吧？"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chffchahgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kW4y1g7Lu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "69ca5d7f752150943d865cfb5f4ae093dcdfef23555faf9af25f0aa434257eb5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17W4y1G7Q9",
+  "schemaVersion": 1,
+  "title": "分享 · 生命流",
+  "date": "2023-01-08",
+  "createdAt": "2023-01-08T07:33:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "生命流",
+  "text": "生命流",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17W4y1G7Q9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17W4y1G7Q9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec553654a2fbd388ac7d471c9759297dfe3289f418753f0df0b3ba863e888b6a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17W4y1G7Q9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec553654a2fbd388ac7d471c9759297dfe3289f418753f0df0b3ba863e888b6a.jpg",
+    "title": "生命流"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ec553654a2fbd388ac7d471c9759297dfe3289f418753f0df0b3ba863e888b6a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "idcdgbdhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17W4y1G7Q9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "隬碼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "110da0e2e699f0b5271acffde6aa14fc2a4e9d85ce52add6f393cacbd64b58c3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
