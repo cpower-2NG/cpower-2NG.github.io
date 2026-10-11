@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wB4y1d7tM",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024年/动画工房/竹下良平】夜晚的水母不会游泳 先导PV4【MCE汉化组】",
+  "date": "2023-10-24",
+  "createdAt": "2023-10-24T12:24:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有自信把玩摄像机的，我相信成片不会差",
+  "text": "有自信把玩摄像机的，我相信成片不会差",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wB4y1d7tM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wB4y1d7tM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f05aded15381b808497b4da8dc36f03e58d2afc4e460dd12a7795609ad325be2.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wB4y1d7tM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f05aded15381b808497b4da8dc36f03e58d2afc4e460dd12a7795609ad325be2.png",
+    "title": "【2024年/动画工房/竹下良平】夜晚的水母不会游泳 先导PV4【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f05aded15381b808497b4da8dc36f03e58d2afc4e460dd12a7795609ad325be2.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ffcafbijgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wB4y1d7tM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aeaaa83a19225b6eed5a42ce53f31477573fecf45fc7c6b776d78b50622944c3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

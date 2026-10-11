@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1JM4y1t7Ah",
+  "schemaVersion": 1,
+  "title": "分享 · 【浅谈】于现实之中，此乃真正的孤独摇滚",
+  "date": "2023-05-14",
+  "createdAt": "2023-05-14T07:21:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这确实算是真正的孤独摇滚。话说什么时候有人想找濑户口做动画呢，这作明明很合适的",
+  "text": "这确实算是真正的孤独摇滚。话说什么时候有人想找濑户口做动画呢，这作明明很合适的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JM4y1t7Ah",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JM4y1t7Ah&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/19b04d7a1ad9c8183187c0cb3272514cdd20d345d1a6fa3c26bca324ea6b3a5b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JM4y1t7Ah",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/19b04d7a1ad9c8183187c0cb3272514cdd20d345d1a6fa3c26bca324ea6b3a5b.jpg",
+    "title": "【浅谈】于现实之中，此乃真正的孤独摇滚"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/19b04d7a1ad9c8183187c0cb3272514cdd20d345d1a6fa3c26bca324ea6b3a5b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejiieaeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JM4y1t7Ah",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CY-172",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "761e04753d37942be57b6a666ad9ac3334c46ac2ada91171393a997585f53238",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

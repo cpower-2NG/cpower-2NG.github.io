@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ah4y1t7aU",
+  "schemaVersion": 1,
+  "title": "分享 · 少女终末舞厅",
+  "date": "2023-05-21",
+  "createdAt": "2023-05-21T01:52:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "少女终末舞厅",
+  "text": "少女终末舞厅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ah4y1t7aU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ah4y1t7aU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db694d76d0b7f6e53aee7799975b4d3444f03dad8a60e2a8a790d82b5679b413.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ah4y1t7aU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db694d76d0b7f6e53aee7799975b4d3444f03dad8a60e2a8a790d82b5679b413.jpg",
+    "title": "少女终末舞厅"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db694d76d0b7f6e53aee7799975b4d3444f03dad8a60e2a8a790d82b5679b413.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ghjddgeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ah4y1t7aU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f68b3930aa76425b4abce7ff3af34395b3204e7590c74311693cde32d66c8f06",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

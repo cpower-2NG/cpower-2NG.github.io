@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16h411u7LK",
+  "schemaVersion": 1,
+  "title": "分享 · 【动画导视】偶像大师灰姑娘女孩U149【MosP】",
+  "date": "2023-04-06",
+  "createdAt": "2023-04-06T12:16:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "特殊上影是我很喜欢的部分，遗憾的是nico的画质太低，无法好好欣赏。就个人而言，苍系+王道叙事是主线的话，就以目前的热度。U14...",
+  "text": "特殊上影是我很喜欢的部分，遗憾的是nico的画质太低，无法好好欣赏。就个人而言，苍系+王道叙事是主线的话，就以目前的热度。U14...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16h411u7LK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16h411u7LK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5352f6d4e511d78220eda66777494948ecef59c8f42721f8c4c12017491cef1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16h411u7LK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5352f6d4e511d78220eda66777494948ecef59c8f42721f8c4c12017491cef1.jpg",
+    "title": "【动画导视】偶像大师灰姑娘女孩U149【MosP】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5352f6d4e511d78220eda66777494948ecef59c8f42721f8c4c12017491cef1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbedihaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16h411u7LK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "H.Mos",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f4e4179334b04ceda3a8e412528856a88bdce84bd5d93d783d4e90b3c18682e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

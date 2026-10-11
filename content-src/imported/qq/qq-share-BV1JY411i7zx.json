@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1JY411i7zx",
+  "schemaVersion": 1,
+  "title": "分享 · 饭冢的柄真好看.",
+  "date": "2023-02-11",
+  "createdAt": "2023-02-11T05:02:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "饭冢的柄真好看.",
+  "text": "饭冢的柄真好看.",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JY411i7zx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JY411i7zx&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JY411i7zx",
+    "coverUrl": "",
+    "title": "饭冢的柄真好看."
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "echbjaghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JY411i7zx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2312bf49573e94c11e71c43c3789ac5a4079e0db434b36ccfcc24b11fd306924",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

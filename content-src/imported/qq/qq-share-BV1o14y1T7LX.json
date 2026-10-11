@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1o14y1T7LX",
+  "schemaVersion": 1,
+  "title": "分享 · 百万动画 PV2",
+  "date": "2023-01-16",
+  "createdAt": "2023-01-16T00:36:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "干了两天活,错过了9th,让我看看有什么好消息,首先是pv2.演技有点k不动,大概是不指望全程高水准了.live部分好像也不够精细.最后就... 2023年8月",
+  "text": "干了两天活,错过了9th,让我看看有什么好消息,首先是pv2.演技有点k不动,大概是不指望全程高水准了.live部分好像也不够精细.最后就...\n\n2023年8月",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1o14y1T7LX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1o14y1T7LX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87ed776691ed434d5e28a872f38702681de315593bd5eb2bd3bbbd3f40b69852.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1o14y1T7LX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87ed776691ed434d5e28a872f38702681de315593bd5eb2bd3bbbd3f40b69852.jpg",
+    "title": "百万动画 PV2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87ed776691ed434d5e28a872f38702681de315593bd5eb2bd3bbbd3f40b69852.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgdjcidhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1o14y1T7LX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "699aa3d8a6ca4c52c4b83c0e30a00ad2363fce77d846cf1f22735d9a239cf130",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

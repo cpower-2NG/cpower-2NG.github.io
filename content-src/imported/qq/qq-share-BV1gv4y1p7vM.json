@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gv4y1p7vM",
+  "schemaVersion": 1,
+  "title": "分享 · 【arcadia -BOSSA NOVA Rearrange Mix】- 如月千早(cv.今井麻美) [アイマス/リアレ",
+  "date": "2023-04-21",
+  "createdAt": "2023-04-21T10:49:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这首意外的适合轻jazz",
+  "text": "这首意外的适合轻jazz",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gv4y1p7vM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gv4y1p7vM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/137e84176d4f2be31bf873d546dc441af40ea06a8369a2406920df7d098784a6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gv4y1p7vM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/137e84176d4f2be31bf873d546dc441af40ea06a8369a2406920df7d098784a6.jpg",
+    "title": "【arcadia -BOSSA NOVA Rearrange Mix】- 如月千早(cv.今井麻美) [アイマス/リアレンジ]"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/137e84176d4f2be31bf873d546dc441af40ea06a8369a2406920df7d098784a6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjbehacigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gv4y1p7vM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "清风云盘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8670d4089bf14f0e4255e4df567b72e1132cf689cf27efea9fdff56fbd814014",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

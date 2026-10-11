@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vT41147v8",
+  "schemaVersion": 1,
+  "title": "分享 · 锦织敦史Telegenic！画集",
+  "date": "2023-05-22",
+  "createdAt": "2023-05-22T14:47:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "锦织的人设是真的好看 收录了偶像大师、天元突破、吊带袜天使的插画，锦织敦史绘制的各类妹子图，与鹤卷和哉的对谈等内容。很厚实，不小心录了5分钟。",
+  "text": "锦织的人设是真的好看\n\n收录了偶像大师、天元突破、吊带袜天使的插画，锦织敦史绘制的各类妹子图，与鹤卷和哉的对谈等内容。很厚实，不小心录了5分钟。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vT41147v8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vT41147v8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/08c2efaf9fe96f87313becfd741abe19fae42359cc872e5236a333b2ab4b35aa.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vT41147v8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/08c2efaf9fe96f87313becfd741abe19fae42359cc872e5236a333b2ab4b35aa.jpg",
+    "title": "锦织敦史Telegenic！画集"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/08c2efaf9fe96f87313becfd741abe19fae42359cc872e5236a333b2ab4b35aa.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfiggheigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vT41147v8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "辣辣个蓝人",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "09c835c4efce398ba10e9f17b54df8544a0bacc61842e55afd8c5463e89285e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vV4y1i7uE",
+  "schemaVersion": 1,
+  "title": "分享 · 用身高149cm以下的小学生偶像们的力量，拯救被地球重力束缚的灵魂！【番声】",
+  "date": "2023-08-03",
+  "createdAt": "2023-08-03T12:22:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "那一脉相承的王道偶像",
+  "text": "那一脉相承的王道偶像",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vV4y1i7uE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vV4y1i7uE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9fca918e5283bff9fdd4032f9753fc308363b80154344a605c494e7cbccd26b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vV4y1i7uE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9fca918e5283bff9fdd4032f9753fc308363b80154344a605c494e7cbccd26b.jpg",
+    "title": "用身高149cm以下的小学生偶像们的力量，拯救被地球重力束缚的灵魂！【番声】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9fca918e5283bff9fdd4032f9753fc308363b80154344a605c494e7cbccd26b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcdfgabjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vV4y1i7uE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "JK低手鱼太",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "23d951c2863a8bb0ed203e95bafd7cafa00d5bb7bc198008627b1d3b6dbe143d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wG411y7LV",
+  "schemaVersion": 1,
+  "title": "分享 · 【彻夜之歌-七草荠cos】睡不着吗？少年",
+  "date": "2023-11-02",
+  "createdAt": "2023-11-02T12:38:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好牛的摄 因为摄影不会高级视频软件所以没给我加磨皮美颜瘦脸，很伤心，要抓一个人类来吸一吸",
+  "text": "好牛的摄\n\n因为摄影不会高级视频软件所以没给我加磨皮美颜瘦脸，很伤心，要抓一个人类来吸一吸",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wG411y7LV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wG411y7LV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3c09cf1ae92911344b5e961ce3641a5afaa0e3d88dac280f7d4b70188e87c7d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wG411y7LV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3c09cf1ae92911344b5e961ce3641a5afaa0e3d88dac280f7d4b70188e87c7d.jpg",
+    "title": "【彻夜之歌-七草荠cos】睡不着吗？少年"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3c09cf1ae92911344b5e961ce3641a5afaa0e3d88dac280f7d4b70188e87c7d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdhicjijgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wG411y7LV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "花布凉凉",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "580dbb8908c556bee293bcde47f4322b440ef4ce7d0ba33e1e08f16e26cfc891",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

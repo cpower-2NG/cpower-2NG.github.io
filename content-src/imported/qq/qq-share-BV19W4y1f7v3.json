@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19W4y1f7v3",
+  "schemaVersion": 1,
+  "title": "分享 · 纯命令 - 利用像素画在MC中游玩CLANNAD!",
+  "date": "2023-07-16",
+  "createdAt": "2023-07-16T02:30:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？",
+  "text": "？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19W4y1f7v3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19W4y1f7v3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4e897df168dd9fc960f9357f93ead621b26ac49d047c0fdb5172f512f70cb3d8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19W4y1f7v3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4e897df168dd9fc960f9357f93ead621b26ac49d047c0fdb5172f512f70cb3d8.jpg",
+    "title": "纯命令 - 利用像素画在MC中游玩CLANNAD!"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4e897df168dd9fc960f9357f93ead621b26ac49d047c0fdb5172f512f70cb3d8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aegehejigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19W4y1f7v3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "On_craft",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0658944571ab442baf606bc2bfc1f0d59b9c8a7627b7b8874e0c8d3396a13a8b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PT411e7wV",
+  "schemaVersion": 1,
+  "title": "分享 · Monny / 伪悟",
+  "date": "2023-03-13",
+  "createdAt": "2023-03-13T09:21:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真伪物.快板确实爽",
+  "text": "真伪物.快板确实爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PT411e7wV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PT411e7wV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3847498c23a28a6c8d432e75f40c9fd12d2853905fb6bed0cb3262f89f26737b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PT411e7wV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3847498c23a28a6c8d432e75f40c9fd12d2853905fb6bed0cb3262f89f26737b.jpg",
+    "title": "Monny / 伪悟"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3847498c23a28a6c8d432e75f40c9fd12d2853905fb6bed0cb3262f89f26737b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jicjjgihgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PT411e7wV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "坏枪",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a7c3c1a8aaa0597447a63daaf055be99a500b946ddebb642ed990fa8bb474f0b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

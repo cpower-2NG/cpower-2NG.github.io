@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pG4y1Q7Kz",
+  "schemaVersion": 1,
+  "title": "分享 · 【2023东方新春宴单品²】曙光",
+  "date": "2023-01-25",
+  "createdAt": "2023-01-25T10:53:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "强有力的人力",
+  "text": "强有力的人力",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pG4y1Q7Kz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pG4y1Q7Kz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8223b6f770ec62dce25fc7aad8b7ef33c632fd827811d19967129ce63f8e520e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pG4y1Q7Kz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8223b6f770ec62dce25fc7aad8b7ef33c632fd827811d19967129ce63f8e520e.jpg",
+    "title": "【2023东方新春宴单品²】曙光"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8223b6f770ec62dce25fc7aad8b7ef33c632fd827811d19967129ce63f8e520e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bijdegehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pG4y1Q7Kz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "伊鸽Er",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "01048280eeb7108a53a08b4a42134dfa57bac30e2cfb82e2a1c4ed580653f813",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

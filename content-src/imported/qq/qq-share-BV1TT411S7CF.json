@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1TT411S7CF",
+  "schemaVersion": 1,
+  "title": "分享 · 【4月】赛马娘 ROAD TO THE TOP 正式PV",
+  "date": "2023-02-22",
+  "createdAt": "2023-02-22T13:27:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "气质变了啊. www.youtube.com/watch?v=SQ7rv98fgH4",
+  "text": "气质变了啊.\n\nwww.youtube.com/watch?v=SQ7rv98fgH4",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TT411S7CF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1TT411S7CF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0233dbfddb82300d2118eebec591e3d700e4d583d61fc47f948eb312d5ecc79f.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1TT411S7CF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0233dbfddb82300d2118eebec591e3d700e4d583d61fc47f948eb312d5ecc79f.png",
+    "title": "【4月】赛马娘 ROAD TO THE TOP 正式PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0233dbfddb82300d2118eebec591e3d700e4d583d61fc47f948eb312d5ecc79f.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccechahhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1TT411S7CF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f2daa7d5fb72cf36c1e1bdcfac4219d7a0c5031cd6970e70583cd0c7826bdc5d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

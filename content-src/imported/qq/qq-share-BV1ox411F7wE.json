@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ox411F7wE",
+  "schemaVersion": 1,
+  "title": "分享 · 【人力Vocaloid】除夜m@s'12「我们是仏徒…对吧？」",
+  "date": "2023-04-27",
+  "createdAt": "2023-04-27T12:07:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "昨日观影有感 sm19706181 【動画：メカP 演奏：蝉丸P イラスト：くるわP サムネイル：SerikaP】偶像大师的人力Vocaloid系列简直超神！",
+  "text": "昨日观影有感\n\nsm19706181 【動画：メカP 演奏：蝉丸P イラスト：くるわP サムネイル：SerikaP】偶像大师的人力Vocaloid系列简直超神！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ox411F7wE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ox411F7wE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ba6e452ed16257d0c5c8061546b774341d6b2688cd533cec1e6463989840059c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ox411F7wE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ba6e452ed16257d0c5c8061546b774341d6b2688cd533cec1e6463989840059c.jpg",
+    "title": "【人力Vocaloid】除夜m@s'12「我们是仏徒…对吧？」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ba6e452ed16257d0c5c8061546b774341d6b2688cd533cec1e6463989840059c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahchjfcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ox411F7wE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Magus",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ec7686ff0a1fac177f6b3b2e05c268e9b1a86ebbad6e2c7faa2f552d07b1bf5f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

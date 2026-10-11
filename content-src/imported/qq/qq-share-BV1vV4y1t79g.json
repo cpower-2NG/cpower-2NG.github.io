@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vV4y1t79g",
+  "schemaVersion": 1,
+  "title": "分享 · 【动画剧集/MAPPA/渡边信一郎】LAZARUS 先导PV【MCE汉化组】",
+  "date": "2023-07-23",
+  "createdAt": "2023-07-23T03:42:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我信渡边",
+  "text": "我信渡边",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vV4y1t79g",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vV4y1t79g&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8cb2db99321b38dfb2a71c7131939224481ae56c2396bde70ccf05303177c679.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vV4y1t79g",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8cb2db99321b38dfb2a71c7131939224481ae56c2396bde70ccf05303177c679.png",
+    "title": "【动画剧集/MAPPA/渡边信一郎】LAZARUS 先导PV【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8cb2db99321b38dfb2a71c7131939224481ae56c2396bde70ccf05303177c679.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hchdiaajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vV4y1t79g",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f3c3f2430d9184025506997e9dd325d30241f5ca09add99e0966bc09bcd59c6f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

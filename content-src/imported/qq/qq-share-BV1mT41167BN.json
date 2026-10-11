@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mT41167BN",
+  "schemaVersion": 1,
+  "title": "分享 · 动画『创圣的大天使 Myth of Emotions』制作決定PV",
+  "date": "2023-03-20",
+  "createdAt": "2023-03-20T10:55:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "www.youtube.com/watch?v=eosPHXiNLUk",
+  "text": "www.youtube.com/watch?v=eosPHXiNLUk",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mT41167BN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mT41167BN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38d76af3aa747be0464e7b4a77c9ab63ef0d4b679409738128810ffd4aa7fb55.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mT41167BN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38d76af3aa747be0464e7b4a77c9ab63ef0d4b679409738128810ffd4aa7fb55.jpg",
+    "title": "动画『创圣的大天使 Myth of Emotions』制作決定PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38d76af3aa747be0464e7b4a77c9ab63ef0d4b679409738128810ffd4aa7fb55.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hehjadjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mT41167BN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b88946c5eff4e44e6a11bee4706b44ceaccdc2376a472ac2a189a1194e2f4f59",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

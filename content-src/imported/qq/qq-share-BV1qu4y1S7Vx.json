@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qu4y1S7Vx",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像大师 Destiny -太陽のあずさ- 永远的20岁",
+  "date": "2023-07-25",
+  "createdAt": "2023-07-25T03:55:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是多观摩一下神作吧",
+  "text": "还是多观摩一下神作吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qu4y1S7Vx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qu4y1S7Vx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b1c7da145b8d033d5aa21831cd6c6b1c286500140ae598dfd30ceb787ebe15a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qu4y1S7Vx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b1c7da145b8d033d5aa21831cd6c6b1c286500140ae598dfd30ceb787ebe15a.jpg",
+    "title": "偶像大师 Destiny -太陽のあずさ- 永远的20岁"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b1c7da145b8d033d5aa21831cd6c6b1c286500140ae598dfd30ceb787ebe15a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afdhfcajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qu4y1S7Vx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f40cdb8b12c50bf30612d4200c3b04da5405ca1939a6971c44117fce5b5c5c7e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

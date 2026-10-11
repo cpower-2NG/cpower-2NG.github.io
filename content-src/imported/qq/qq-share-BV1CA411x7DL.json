@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CA411x7DL",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】「光」春香千早",
+  "date": "2023-05-24",
+  "createdAt": "2023-05-24T15:03:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "いってらっしゃい",
+  "text": "いってらっしゃい",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CA411x7DL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CA411x7DL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb9054802297ee6e25e4d5bdc332b6a74f09b2582dbd4715153b7a9fbe963cc0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CA411x7DL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb9054802297ee6e25e4d5bdc332b6a74f09b2582dbd4715153b7a9fbe963cc0.jpg",
+    "title": "【中字】「光」春香千早"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb9054802297ee6e25e4d5bdc332b6a74f09b2582dbd4715153b7a9fbe963cc0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "acgaejeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CA411x7DL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6037be71f90f45c84b13469503b2349946fa582c62d0da5f36a93db95a83c214",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

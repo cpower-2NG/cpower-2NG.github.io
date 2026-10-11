@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1eo4y1T7ed",
+  "schemaVersion": 1,
+  "title": "分享 · 还好有刷频道的习惯，不然就看不到了。sp我电脑的模拟器一直搞不好，可以来这里看了。想想还挺巧的啊，先是群友找到了当年的汉",
+  "date": "2023-06-07",
+  "createdAt": "2023-06-07T14:50:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还好有刷频道的习惯，不然就看不到了。sp我电脑的模拟器一直搞不好，可以来这里看了。想想还挺巧的啊，先是群友找到了当年的汉化...",
+  "text": "还好有刷频道的习惯，不然就看不到了。sp我电脑的模拟器一直搞不好，可以来这里看了。想想还挺巧的啊，先是群友找到了当年的汉化...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eo4y1T7ed",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eo4y1T7ed&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eo4y1T7ed",
+    "coverUrl": "",
+    "title": "还好有刷频道的习惯，不然就看不到了。sp我电脑的模拟器一直搞不好，可以来这里看了。想想还挺巧的啊，先是群友找到了当年的汉化..."
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dfejebgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eo4y1T7ed",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2f827ec8829acb81275c37e9d84bcfb24175746cc35a3998a24b02934a60201d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

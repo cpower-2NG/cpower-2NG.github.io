@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1F34y1T7Vg",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师 闪耀色彩sp】「星の声」MV片段先行公開",
+  "date": "2023-08-30",
+  "createdAt": "2023-08-30T12:45:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这次的好看，人总算修正好了",
+  "text": "这次的好看，人总算修正好了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1F34y1T7Vg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1F34y1T7Vg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b1fa74937266212b7ed914d412f471f5d5900b768037cdc960cd14aec6f1cad.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1F34y1T7Vg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b1fa74937266212b7ed914d412f471f5d5900b768037cdc960cd14aec6f1cad.jpg",
+    "title": "【偶像大师 闪耀色彩sp】「星の声」MV片段先行公開"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2b1fa74937266212b7ed914d412f471f5d5900b768037cdc960cd14aec6f1cad.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbfjjddjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1F34y1T7Vg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d2799920b7efc3540e0c6a6ad803fb57e695c1837e69cdb3127b5e30b1b83bd8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

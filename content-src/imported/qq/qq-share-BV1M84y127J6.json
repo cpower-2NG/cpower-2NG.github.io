@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1M84y127J6",
+  "schemaVersion": 1,
+  "title": "分享 · 雨宫天 - 世界No.1的膨化零食「奇多」广告 第1集 画作篇",
+  "date": "2023-10-11",
+  "createdAt": "2023-10-11T11:06:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "什么天才美少女原画师",
+  "text": "什么天才美少女原画师",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1M84y127J6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1M84y127J6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2376e5ef19e626f174632c2fdf1d35cb640b05ea9acfb58fe5bba2769f67bab0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1M84y127J6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2376e5ef19e626f174632c2fdf1d35cb640b05ea9acfb58fe5bba2769f67bab0.jpg",
+    "title": "雨宫天 - 世界No.1的膨化零食「奇多」广告 第1集 画作篇"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2376e5ef19e626f174632c2fdf1d35cb640b05ea9acfb58fe5bba2769f67bab0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djdccahjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1M84y127J6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "果冻猫猫丶",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cbd90aa92f4f27ae8e5dad9e9bec074dffd7ae2735a4f89c04e4a4c6c3182c99",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

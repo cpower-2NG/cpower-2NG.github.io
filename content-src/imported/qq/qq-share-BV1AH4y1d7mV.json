@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AH4y1d7mV",
+  "schemaVersion": 1,
+  "title": "分享 · 『解夏傀儡』 MLTD MV",
+  "date": "2023-10-18",
+  "createdAt": "2023-10-18T13:27:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这才叫音乐的解构重组，ryo好好学学 -",
+  "text": "这才叫音乐的解构重组，ryo好好学学\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AH4y1d7mV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AH4y1d7mV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/643ad703d55fffcf87735a2ee823ec27495569d8eb6a015b72bb98ca0f4ea4d4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AH4y1d7mV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/643ad703d55fffcf87735a2ee823ec27495569d8eb6a015b72bb98ca0f4ea4d4.jpg",
+    "title": "『解夏傀儡』 MLTD MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/643ad703d55fffcf87735a2ee823ec27495569d8eb6a015b72bb98ca0f4ea4d4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "degfdghjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AH4y1d7mV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9554851c54c9fbb0eff0660a0d2b58c5c79bf821ff067bfcbe17580f5c11918f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hP411978k",
+  "schemaVersion": 1,
+  "title": "分享 · 765Pro的日常第1期",
+  "date": "2023-05-24",
+  "createdAt": "2023-05-24T14:43:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "imas真是好啊。可恶，今天居然没有u149 这些日常我能看一天。。。",
+  "text": "imas真是好啊。可恶，今天居然没有u149\n\n这些日常我能看一天。。。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hP411978k",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hP411978k&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/543685aee1e4d920ad4b1d84076017f9283eda9bef04bd8d68d31098dd22344a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hP411978k",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/543685aee1e4d920ad4b1d84076017f9283eda9bef04bd8d68d31098dd22344a.jpg",
+    "title": "765Pro的日常第1期"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/543685aee1e4d920ad4b1d84076017f9283eda9bef04bd8d68d31098dd22344a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdejdjeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hP411978k",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "中二可乐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "890bad201d02b1c744962b787a1b37ee113a8fe7a0b0bc5cf1f55190f754710a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

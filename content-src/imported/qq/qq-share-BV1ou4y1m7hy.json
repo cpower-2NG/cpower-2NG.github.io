@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ou4y1m7hy",
+  "schemaVersion": 1,
+  "title": "分享 · 冰室老板梁启潮参展潮汕THO！兄弟们，物！",
+  "date": "2023-07-20",
+  "createdAt": "2023-07-20T06:29:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "大的真来了",
+  "text": "大的真来了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ou4y1m7hy",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ou4y1m7hy&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/82e30e4a8ec4e6a032cddf6898de8ac5d102ce6b0d10e32c3303206bab219c53.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ou4y1m7hy",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/82e30e4a8ec4e6a032cddf6898de8ac5d102ce6b0d10e32c3303206bab219c53.jpg",
+    "title": "冰室老板梁启潮参展潮汕THO！兄弟们，物！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/82e30e4a8ec4e6a032cddf6898de8ac5d102ce6b0d10e32c3303206bab219c53.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "effedijigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ou4y1m7hy",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "潮汕THO秘封粤东之旅",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dfea82ef19936f846f43d90954d4734cf1fbc2dd9af3233162cce9e0a4e1b041",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iV411g78s",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024年/福山润/完全新作】狼与香辛料 PV1【MCE汉化组】",
+  "date": "2023-06-29",
+  "createdAt": "2023-06-29T11:57:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "人设不够成熟啊，这两位还是不适合新时代的稚气感。不过既然是高桥的班底，那也放心了。",
+  "text": "人设不够成熟啊，这两位还是不适合新时代的稚气感。不过既然是高桥的班底，那也放心了。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iV411g78s",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iV411g78s&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6361ba4aa80c29eb82ed1731f5963fb8fac5f23d5cb9e267f5d747650f76e4fb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iV411g78s",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6361ba4aa80c29eb82ed1731f5963fb8fac5f23d5cb9e267f5d747650f76e4fb.jpg",
+    "title": "【2024年/福山润/完全新作】狼与香辛料 PV1【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6361ba4aa80c29eb82ed1731f5963fb8fac5f23d5cb9e267f5d747650f76e4fb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "heijdaiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iV411g78s",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8bbe356e22de96179ebf28c9e2b05156ad4f2a4be13f6e8a0f792c308bf262dc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

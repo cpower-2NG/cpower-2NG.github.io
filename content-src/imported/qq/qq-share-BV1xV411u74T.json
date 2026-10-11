@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xV411u74T",
+  "schemaVersion": 1,
+  "title": "分享 · 【大型合作】RENDERROR2组曲",
+  "date": "2023-08-08",
+  "createdAt": "2023-08-08T11:19:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是第一次见到这么混沌的音骂，韩国人这么喜欢现实系素材吗（笑）。不过有不少单品技术力真得高，很有品味",
+  "text": "还是第一次见到这么混沌的音骂，韩国人这么喜欢现实系素材吗（笑）。不过有不少单品技术力真得高，很有品味",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xV411u74T",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xV411u74T&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0584338e8bd4ee5ea2524e7f38bc8c476af1aab4259f5f647214e26a861375e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xV411u74T",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0584338e8bd4ee5ea2524e7f38bc8c476af1aab4259f5f647214e26a861375e.jpg",
+    "title": "【大型合作】RENDERROR2组曲"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0584338e8bd4ee5ea2524e7f38bc8c476af1aab4259f5f647214e26a861375e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igfdjebjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xV411u74T",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ShiningEmerald",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8b9c38edb48c04f606848ace9e1816390549c6908384d56c6a558b5b2412465e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

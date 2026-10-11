@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ca4y1K7ZJ",
+  "schemaVersion": 1,
+  "title": "分享 · Weilin Zhang mad",
+  "date": "2023-04-16",
+  "createdAt": "2023-04-16T05:18:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "跨栏干开始才是魏林画的，也是从那里开始让我感觉有钢哥的影子 weilin zhang，知名web系原画。外面一般叫xenophoss。这个季度担当了天国大魔境o",
+  "text": "跨栏干开始才是魏林画的，也是从那里开始让我感觉有钢哥的影子\n\nweilin zhang，知名web系原画。外面一般叫xenophoss。这个季度担当了天国大魔境op的原画摄影演出作监（tv貌似也画了），和魔法少...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ca4y1K7ZJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ca4y1K7ZJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1a548e4e34c858d00b749667d349974e624e9e3625a066955f28d08af865338.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ca4y1K7ZJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1a548e4e34c858d00b749667d349974e624e9e3625a066955f28d08af865338.jpg",
+    "title": "Weilin Zhang mad"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1a548e4e34c858d00b749667d349974e624e9e3625a066955f28d08af865338.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jddccgbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ca4y1K7ZJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CTFbot",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b85826a3d3f57f3befe626989b4f5149678d43629dab1b9de1a4b1531693586f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

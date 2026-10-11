@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1e54y1g7wV",
+  "schemaVersion": 1,
+  "title": "分享 · 約束——如月千早",
+  "date": "2023-02-25",
+  "createdAt": "2023-02-25T15:53:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "千早ちゃん お誕生日おめでとう！ 千早ちゃん お誕生日おめでとう！",
+  "text": "千早ちゃん　お誕生日おめでとう！\n\n千早ちゃん　お誕生日おめでとう！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1e54y1g7wV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1e54y1g7wV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4138dda85365f22710505985ceadcb637f7b19be53192fb83d88332d3ffd4e76.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1e54y1g7wV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4138dda85365f22710505985ceadcb637f7b19be53192fb83d88332d3ffd4e76.jpg",
+    "title": "約束——如月千早"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4138dda85365f22710505985ceadcb637f7b19be53192fb83d88332d3ffd4e76.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijdaedhhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1e54y1g7wV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "2NG仙人星p",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f0e9f27a44d40892ad8ca15b77d455b89a63f4f2274e9bbf404148a6e6ee9790",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xs4y1e7Qs",
+  "schemaVersion": 1,
+  "title": "分享 · 【万粉纪念】日语版🚗燕子!没有你我怎么活啊!🏃【柚木つばめ】",
+  "date": "2023-02-10",
+  "createdAt": "2023-02-10T11:44:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "燕子来了,燕子去了 这是燕子特别为大家录的福利哟！感动吧！然后有没有看着视频稍微对燕子的周边有了兴趣的 和视频里不一样很好“追”喔！地址：yu...",
+  "text": "燕子来了,燕子去了\n\n这是燕子特别为大家录的福利哟！感动吧！然后有没有看着视频稍微对燕子的周边有了兴趣的 和视频里不一样很好“追”喔！地址：yu...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xs4y1e7Qs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xs4y1e7Qs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/579b0b0f36b49d8b9987ce2ded0ad3ed0dbcf2d1f8a75e78d11029a711c4d38f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xs4y1e7Qs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/579b0b0f36b49d8b9987ce2ded0ad3ed0dbcf2d1f8a75e78d11029a711c4d38f.jpg",
+    "title": "【万粉纪念】日语版🚗燕子!没有你我怎么活啊!🏃【柚木つばめ】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/579b0b0f36b49d8b9987ce2ded0ad3ed0dbcf2d1f8a75e78d11029a711c4d38f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afejcaghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xs4y1e7Qs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "柚木燕巢",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "57924968f9b827a6edd14e7012fafc1432d82a2845c05b3ee86304cf5607464b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

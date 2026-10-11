@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yN41187LM",
+  "schemaVersion": 1,
+  "title": "分享 · ニコニコ45秒メドレー",
+  "date": "2023-08-28",
+  "createdAt": "2023-08-28T12:10:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ニコニコ45秒メドレー UP主：サエスキ",
+  "text": "ニコニコ45秒メドレー UP主：サエスキ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yN41187LM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yN41187LM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3b48836c1d3599e5ebc8c670c17292c1be98cd129ad4e34b61ca56e107e5133.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yN41187LM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3b48836c1d3599e5ebc8c670c17292c1be98cd129ad4e34b61ca56e107e5133.jpg",
+    "title": "ニコニコ45秒メドレー"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d3b48836c1d3599e5ebc8c670c17292c1be98cd129ad4e34b61ca56e107e5133.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbgeccdjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yN41187LM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "サエスキ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "97128457a9484ca960dc7be4d44c52b7992bd571b9efea58a3c9c925896a2c71",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

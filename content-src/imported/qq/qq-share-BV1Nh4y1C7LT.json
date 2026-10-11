@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nh4y1C7LT",
+  "schemaVersion": 1,
+  "title": "分享 · M@STERPIECE",
+  "date": "2023-07-30",
+  "createdAt": "2023-07-30T10:57:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "刻入dna的live -",
+  "text": "刻入dna的live\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nh4y1C7LT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nh4y1C7LT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/da0b92832349d5d526da03b1e809bc916d2e2e584d5c0fa95344975ba770ac8c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nh4y1C7LT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/da0b92832349d5d526da03b1e809bc916d2e2e584d5c0fa95344975ba770ac8c.jpg",
+    "title": "M@STERPIECE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/da0b92832349d5d526da03b1e809bc916d2e2e584d5c0fa95344975ba770ac8c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "degebhajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nh4y1C7LT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cb694eec9e982eb0d1dc7eef98b2c4d89a607b13949342172d6db858fb965f1a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

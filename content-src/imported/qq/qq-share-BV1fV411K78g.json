@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fV411K78g",
+  "schemaVersion": 1,
+  "title": "分享 · 庞加莱猜想为何价值100万美元？宇宙到底是什么形状？",
+  "date": "2023-07-26",
+  "createdAt": "2023-07-26T03:48:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "什么时候？ 地球是什么形状的？你一定会说是球体，因为我们已经可以挑出地球，从宇宙中拍摄照片了。可是，如果我们从没离开地球，还能研究地...",
+  "text": "什么时候？\n\n地球是什么形状的？你一定会说是球体，因为我们已经可以挑出地球，从宇宙中拍摄照片了。可是，如果我们从没离开地球，还能研究地...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fV411K78g",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fV411K78g&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/078675cda6ac1bbf32c02b87c8152fbfb75d488771d3e2f6e29c3c41b879c3d6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fV411K78g",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/078675cda6ac1bbf32c02b87c8152fbfb75d488771d3e2f6e29c3c41b879c3d6.jpg",
+    "title": "庞加莱猜想为何价值100万美元？宇宙到底是什么形状？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/078675cda6ac1bbf32c02b87c8152fbfb75d488771d3e2f6e29c3c41b879c3d6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "daddedajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fV411K78g",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "李永乐老师官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ba72033c07752f255379c3be25ee33a3c3038c978bb4a3e8c39e222addbfee82",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

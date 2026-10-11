@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yh4y197jD",
+  "schemaVersion": 1,
+  "title": "分享 · 龙力听到直接连夜组队通缉UP",
+  "date": "2023-06-11",
+  "createdAt": "2023-06-11T06:04:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "毫无违和感",
+  "text": "毫无违和感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yh4y197jD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yh4y197jD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/908599fdd8023576edec9f94264503bcc037cb6c1286cc0f1463f2e3de1678dd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yh4y197jD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/908599fdd8023576edec9f94264503bcc037cb6c1286cc0f1463f2e3de1678dd.jpg",
+    "title": "龙力听到直接连夜组队通缉UP"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/908599fdd8023576edec9f94264503bcc037cb6c1286cc0f1463f2e3de1678dd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjedgegigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yh4y197jD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "欧气满满的千白",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36b9c7847512924a1bbfd115ea81f3f52bc5b165d28b4e7142d3b4fb55ff76bb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mW411x73R",
+  "schemaVersion": 1,
+  "title": "分享 · 央视居然用M@STERPIECE做BGM",
+  "date": "2023-09-17",
+  "createdAt": "2023-09-17T10:27:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "(￣▽￣)~*",
+  "text": "(￣▽￣)~*",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mW411x73R",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mW411x73R&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1770eb8e495302f7ae3f78268a5dac71067d693280859cd3c152379ada047faf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mW411x73R",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1770eb8e495302f7ae3f78268a5dac71067d693280859cd3c152379ada047faf.jpg",
+    "title": "央视居然用M@STERPIECE做BGM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1770eb8e495302f7ae3f78268a5dac71067d693280859cd3c152379ada047faf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icegejejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mW411x73R",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "hat600",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6dcebd5273d07f51fde56224cb4123f38ce40a56f57e0125cc58fcbf4ea56150",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

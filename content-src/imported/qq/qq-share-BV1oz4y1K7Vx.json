@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oz4y1K7Vx",
+  "schemaVersion": 1,
+  "title": "分享 · 盛夏的暑假合作.2023",
+  "date": "2023-09-29",
+  "createdAt": "2023-09-29T05:16:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "后半段好神，不过结尾是什么污物",
+  "text": "后半段好神，不过结尾是什么污物",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oz4y1K7Vx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oz4y1K7Vx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fa6f30353b03297eb37e1da64e0c22756b1448713243b57f42e9c5dc66ed486.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oz4y1K7Vx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fa6f30353b03297eb37e1da64e0c22756b1448713243b57f42e9c5dc66ed486.jpg",
+    "title": "盛夏的暑假合作.2023"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fa6f30353b03297eb37e1da64e0c22756b1448713243b57f42e9c5dc66ed486.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbgegjfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oz4y1K7Vx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "097389b7e67a27a545c73143ed7e70111f09d1a2eee9b55c025e15a824a13ffd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

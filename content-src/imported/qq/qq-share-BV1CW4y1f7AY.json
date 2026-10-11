@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CW4y1f7AY",
+  "schemaVersion": 1,
+  "title": "分享 · 一起回顾尼尔动画1-4集！",
+  "date": "2023-07-09",
+  "createdAt": "2023-07-09T11:59:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "之前追尼尔动画的时候，越看越感觉动画的野心越大，总感觉会把全系列串起来 12345",
+  "text": "之前追尼尔动画的时候，越看越感觉动画的野心越大，总感觉会把全系列串起来\n\n12345",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CW4y1f7AY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CW4y1f7AY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d24dae26d1d34ad6df82d88b229d48c9e0de47793567e1a23b4b9b1f678e7386.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CW4y1f7AY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d24dae26d1d34ad6df82d88b229d48c9e0de47793567e1a23b4b9b1f678e7386.jpg",
+    "title": "一起回顾尼尔动画1-4集！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d24dae26d1d34ad6df82d88b229d48c9e0de47793567e1a23b4b9b1f678e7386.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjjdajiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CW4y1f7AY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "杰克威胁taiga",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dd68b196de7199ec803bd7ca928ccdf6aea285cbe5b238c7d172d78c7c693ce3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

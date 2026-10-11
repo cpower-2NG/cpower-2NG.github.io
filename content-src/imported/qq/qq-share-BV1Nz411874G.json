@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nz411874G",
+  "schemaVersion": 1,
+  "title": "分享 · 本田未央 - ステップ！（Step!） 完整版",
+  "date": "2023-02-16",
+  "createdAt": "2023-02-16T12:14:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "简中特有二次发酵,多少有点离谱了",
+  "text": "简中特有二次发酵,多少有点离谱了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nz411874G",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nz411874G&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4d5caaf3ecfd70c78c96e9eed557135e8552a0d4783609de8f6631b7a886bf66.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nz411874G",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4d5caaf3ecfd70c78c96e9eed557135e8552a0d4783609de8f6631b7a886bf66.jpg",
+    "title": "本田未央 - ステップ！（Step!） 完整版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4d5caaf3ecfd70c78c96e9eed557135e8552a0d4783609de8f6631b7a886bf66.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajgjefghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nz411874G",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凉宫春日的吐槽",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8708ac12b7d3787b706f610f7185c923ef28da887b6b7ed899bbfc998d9f1676",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nV411F7rJ",
+  "schemaVersion": 1,
+  "title": "分享 · 小镜容易寂寞，说不定是个小兔子哦",
+  "date": "2023-10-03",
+  "createdAt": "2023-10-03T13:18:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好丝滑",
+  "text": "好丝滑",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nV411F7rJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nV411F7rJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3cca6e102df70c46cfc55ee2dcb0937516c74ba06242497dfe8caa96807110dd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nV411F7rJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3cca6e102df70c46cfc55ee2dcb0937516c74ba06242497dfe8caa96807110dd.jpg",
+    "title": "小镜容易寂寞，说不定是个小兔子哦"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3cca6e102df70c46cfc55ee2dcb0937516c74ba06242497dfe8caa96807110dd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ciajddgjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nV411F7rJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Voidazure",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "001955254a7778a9fb826d24dc46d44d12911921674701e50b5f8d2ca08c36e2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

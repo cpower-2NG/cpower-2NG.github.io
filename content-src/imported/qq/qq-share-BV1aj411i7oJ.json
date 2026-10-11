@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1aj411i7oJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师 闪耀色彩】SOS /covered by 时雨羽衣",
+  "date": "2023-10-23",
+  "createdAt": "2023-10-23T22:29:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "本家？？",
+  "text": "本家？？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aj411i7oJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1aj411i7oJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62736257ae998f0ec83491cbc1edbf82abf1c0e5f023ca7942f2c28d8a73e627.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1aj411i7oJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62736257ae998f0ec83491cbc1edbf82abf1c0e5f023ca7942f2c28d8a73e627.jpg",
+    "title": "【偶像大师 闪耀色彩】SOS /covered by 时雨羽衣"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62736257ae998f0ec83491cbc1edbf82abf1c0e5f023ca7942f2c28d8a73e627.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhbaabijgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1aj411i7oJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "時雨羽衣Official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b49a4162e5b7c624b2e13da58d8c2072324e433432669e734a1c1d5ff6be4dd3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

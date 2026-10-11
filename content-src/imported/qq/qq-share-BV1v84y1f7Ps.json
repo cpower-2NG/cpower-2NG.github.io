@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1v84y1f7Ps",
+  "schemaVersion": 1,
+  "title": "分享 · アルストロメリア「Magic of Love」",
+  "date": "2023-08-21",
+  "createdAt": "2023-08-21T13:52:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "花组和perfume的相性挺好的啊。话说回来アイマス和perfume关系匪浅啊",
+  "text": "花组和perfume的相性挺好的啊。话说回来アイマス和perfume关系匪浅啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1v84y1f7Ps",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1v84y1f7Ps&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bcc56bff5bcbb899e0efce7551c61a8cde7edba0e6ae1361af0a13569a335ac.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1v84y1f7Ps",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bcc56bff5bcbb899e0efce7551c61a8cde7edba0e6ae1361af0a13569a335ac.png",
+    "title": "アルストロメリア「Magic of Love」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8bcc56bff5bcbb899e0efce7551c61a8cde7edba0e6ae1361af0a13569a335ac.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgjfcgcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1v84y1f7Ps",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AniRemixBOT",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6749fd97c6a6f4f2571105358f1a30544341717158299484d9ff3859d491eec5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

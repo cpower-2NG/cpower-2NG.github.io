@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hm4y1z7zh",
+  "schemaVersion": 1,
+  "title": "分享 · 4月2日 noctchill活动「ワールプールフールガールズ」预告视频",
+  "date": "2023-03-30",
+  "createdAt": "2023-03-30T11:01:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？！ twitter.com/imassc_official/status/1641319594597011456?t=D0XYB5eGr7ikHMsnbgEo",
+  "text": "？！\n\ntwitter.com/imassc_official/status/1641319594597011456?t=D0XYB5eGr7ikHMsnbgEoAws=19",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hm4y1z7zh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hm4y1z7zh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/92c8373cb60c9c0dad7a947c32b241f1bdd0aeec28595bd6be304cae30e3daf0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hm4y1z7zh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/92c8373cb60c9c0dad7a947c32b241f1bdd0aeec28595bd6be304cae30e3daf0.jpg",
+    "title": "4月2日 noctchill活动「ワールプールフールガールズ」预告视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/92c8373cb60c9c0dad7a947c32b241f1bdd0aeec28595bd6be304cae30e3daf0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhaehbaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hm4y1z7zh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5344ca9e02bc34516a865826b5a6a59588f780df537ca9be3b322fbf4fb09345",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

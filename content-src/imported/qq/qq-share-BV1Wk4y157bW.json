@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Wk4y157bW",
+  "schemaVersion": 1,
+  "title": "分享 · 顺藤摸瓜合作",
+  "date": "2023-07-28",
+  "createdAt": "2023-07-28T13:21:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神啊！！年度音骂难道要易主了吗",
+  "text": "神啊！！年度音骂难道要易主了吗",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Wk4y157bW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Wk4y157bW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b14a8cc6f70ae9e8c252b3d95ea42da2931ee1b32bad53e6608f912b74f22838.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Wk4y157bW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b14a8cc6f70ae9e8c252b3d95ea42da2931ee1b32bad53e6608f912b74f22838.jpg",
+    "title": "顺藤摸瓜合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b14a8cc6f70ae9e8c252b3d95ea42da2931ee1b32bad53e6608f912b74f22838.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbfaffajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Wk4y157bW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Tojirra",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d5f24af6ddc46ec658c2f25771d26f46a4005da8cfaefb9b56fae8b5b910896a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

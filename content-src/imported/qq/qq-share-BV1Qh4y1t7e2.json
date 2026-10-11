@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Qh4y1t7e2",
+  "schemaVersion": 1,
+  "title": "分享 · 亚美・真美 『夏空グラフィティ』",
+  "date": "2023-05-22",
+  "createdAt": "2023-05-22T14:35:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是什么时候开始爱上这种类型的创作呢",
+  "text": "是什么时候开始爱上这种类型的创作呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Qh4y1t7e2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Qh4y1t7e2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff1f08ca2e54e239f92feba75d8af8a2fcbe836bbd3ee6540a5caa8c322b0056.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Qh4y1t7e2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff1f08ca2e54e239f92feba75d8af8a2fcbe836bbd3ee6540a5caa8c322b0056.png",
+    "title": "亚美・真美 『夏空グラフィティ』"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff1f08ca2e54e239f92feba75d8af8a2fcbe836bbd3ee6540a5caa8c322b0056.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfbggheigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Qh4y1t7e2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8e044a7a75a055419d33185a3da18816f135811c013220f7f11436204ab886dc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

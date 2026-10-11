@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1o54y1w7fB",
+  "schemaVersion": 1,
+  "title": "分享 · 【CG6th】 ステップ！（Step!） 本田未央（CV：原纱友里）",
+  "date": "2023-03-07",
+  "createdAt": "2023-03-07T11:39:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真是少见",
+  "text": "真是少见",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1o54y1w7fB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1o54y1w7fB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ad23492b4b8aa769fd3552f6877218b201b1be3da5687f5ca743ba3ef2626957.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1o54y1w7fB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ad23492b4b8aa769fd3552f6877218b201b1be3da5687f5ca743ba3ef2626957.jpg",
+    "title": "【CG6th】 ステップ！（Step!） 本田未央（CV：原纱友里）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ad23492b4b8aa769fd3552f6877218b201b1be3da5687f5ca743ba3ef2626957.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eibjibihgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1o54y1w7fB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "低调的芝士",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b4fe2eec476346123426872c717e68d450aa990c2b2473368acd7a77621ccc8c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

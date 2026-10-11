@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hc411L7dY",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024年/动画工房/竹下良平】夜晚的水母不会游泳 先导PV【MCE汉化组】",
+  "date": "2023-03-24",
+  "createdAt": "2023-03-24T11:41:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "平成の夜",
+  "text": "平成の夜",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hc411L7dY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hc411L7dY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a22e80b9910499929c50d221758616cb6f2482daa5768e77e63429cfda1e1d50.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hc411L7dY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a22e80b9910499929c50d221758616cb6f2482daa5768e77e63429cfda1e1d50.png",
+    "title": "【2024年/动画工房/竹下良平】夜晚的水母不会游泳 先导PV【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a22e80b9910499929c50d221758616cb6f2482daa5768e77e63429cfda1e1d50.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "biaifgjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hc411L7dY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8d5eaf41f55f431d74a0d336afc8f965c44b149ca7d02afed2bd8ff39af5d04c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

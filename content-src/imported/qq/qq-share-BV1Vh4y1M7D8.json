@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Vh4y1M7D8",
+  "schemaVersion": 1,
+  "title": "分享 · 【P极N】她定义了偶像动画——偶像大师",
+  "date": "2023-06-27",
+  "createdAt": "2023-06-27T12:42:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "虽然部分资料又误，但讲的是真不错！",
+  "text": "虽然部分资料又误，但讲的是真不错！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Vh4y1M7D8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Vh4y1M7D8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/554f37fa2ce6fea688730b8e74a0a6241e4ceed375f1c2965cdb93284d21b282.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Vh4y1M7D8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/554f37fa2ce6fea688730b8e74a0a6241e4ceed375f1c2965cdb93284d21b282.jpg",
+    "title": "【P极N】她定义了偶像动画——偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/554f37fa2ce6fea688730b8e74a0a6241e4ceed375f1c2965cdb93284d21b282.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhhjgihigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Vh4y1M7D8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "极游组",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "46571320ef12a59cc5dc985da752cd4999358faf8aa624c28c8d18a391d51f37",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

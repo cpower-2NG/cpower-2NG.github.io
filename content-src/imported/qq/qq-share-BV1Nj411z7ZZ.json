@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nj411z7ZZ",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师 闪耀色彩 动画】幕间映像",
+  "date": "2023-08-18",
+  "createdAt": "2023-08-18T02:59:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这live比百万差得不是一星半点啊",
+  "text": "这live比百万差得不是一星半点啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nj411z7ZZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nj411z7ZZ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54ea5555061088c828b62f83b90da6719dfcb59e66620f7436ee8fade298493d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nj411z7ZZ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54ea5555061088c828b62f83b90da6719dfcb59e66620f7436ee8fade298493d.jpg",
+    "title": "【偶像大师 闪耀色彩 动画】幕间映像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54ea5555061088c828b62f83b90da6719dfcb59e66620f7436ee8fade298493d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjfhcdcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nj411z7ZZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4cb4fe0a36ec85d53c7cd7be96e7e4e54be7a2cf841b3fb20d3aa54bb73350e6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

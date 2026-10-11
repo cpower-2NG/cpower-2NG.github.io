@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ga4y1E7nd",
+  "schemaVersion": 1,
+  "title": "分享 · 【音MAD合作】一次听完百首ACG曲！~the Medley Collab~",
+  "date": "2023-08-02",
+  "createdAt": "2023-08-02T07:31:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想起来再看一次",
+  "text": "想起来再看一次",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ga4y1E7nd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ga4y1E7nd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e900bfaa816caa7bd0c733c4e22280703912d290b9c505f347de1f74d9227351.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ga4y1E7nd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e900bfaa816caa7bd0c733c4e22280703912d290b9c505f347de1f74d9227351.jpg",
+    "title": "【音MAD合作】一次听完百首ACG曲！~the Medley Collab~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e900bfaa816caa7bd0c733c4e22280703912d290b9c505f347de1f74d9227351.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jafbgjajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ga4y1E7nd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "NOVA音MAD社",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "abe2d50090681a0ba9a7a9034bda23a9c0412e72f099b26104d7d20e2acffdf9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

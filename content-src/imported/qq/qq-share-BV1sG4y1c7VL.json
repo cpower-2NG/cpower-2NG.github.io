@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sG4y1c7VL",
+  "schemaVersion": 1,
+  "title": "分享 · 星井美希「sugar sweet nightmare」",
+  "date": "2023-01-14",
+  "createdAt": "2023-01-14T01:21:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "「sugar sweet nightmare」",
+  "text": "「sugar sweet nightmare」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sG4y1c7VL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sG4y1c7VL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8815ff344a942f34ddfb163fc5b4dc6f0871495c4e00c236c0888b6842b9b74f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sG4y1c7VL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8815ff344a942f34ddfb163fc5b4dc6f0871495c4e00c236c0888b6842b9b74f.jpg",
+    "title": "星井美希「sugar sweet nightmare」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8815ff344a942f34ddfb163fc5b4dc6f0871495c4e00c236c0888b6842b9b74f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhcjfgdhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sG4y1c7VL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "29539da23ece7212488fd749788b8232da415e2ae6ef370c4001d7004308319c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

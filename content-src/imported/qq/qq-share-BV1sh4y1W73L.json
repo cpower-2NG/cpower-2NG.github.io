@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1sh4y1W73L",
+  "schemaVersion": 1,
+  "title": "分享 · 这集对于没看过本家动画的人乐趣要少大半。而看着表记新人老人齐聚一堂也不失一种兴趣。",
+  "date": "2023-04-12",
+  "createdAt": "2023-04-12T15:50:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这集对于没看过本家动画的人乐趣要少大半。而看着表记新人老人齐聚一堂也不失一种兴趣。",
+  "text": "这集对于没看过本家动画的人乐趣要少大半。而看着表记新人老人齐聚一堂也不失一种兴趣。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sh4y1W73L",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sh4y1W73L&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sh4y1W73L",
+    "coverUrl": "",
+    "title": "这集对于没看过本家动画的人乐趣要少大半。而看着表记新人老人齐聚一堂也不失一种兴趣。"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edgebdbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sh4y1W73L",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a0a546718db283173ea6753d59c38a9182f0d91236f81c816ea0f2618994988c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

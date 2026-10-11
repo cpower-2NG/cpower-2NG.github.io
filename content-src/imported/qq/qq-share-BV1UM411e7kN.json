@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UM411e7kN",
+  "schemaVersion": 1,
+  "title": "分享 · 【自制动画】如果瑞克和莫蒂是一部日本动画 op",
+  "date": "2023-02-05",
+  "createdAt": "2023-02-05T15:55:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "液体变人好帅",
+  "text": "液体变人好帅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UM411e7kN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UM411e7kN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/527203caf61de50870e3e87e4372bbccd7b35a9cf14a1f3837f6f92a8c31d778.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UM411e7kN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/527203caf61de50870e3e87e4372bbccd7b35a9cf14a1f3837f6f92a8c31d778.jpg",
+    "title": "【自制动画】如果瑞克和莫蒂是一部日本动画 op"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/527203caf61de50870e3e87e4372bbccd7b35a9cf14a1f3837f6f92a8c31d778.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdfcbgfhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UM411e7kN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-柠檬猹-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "56a9721cdee93c771367cf1b65975bb3599ccbf783006ba8185a8212ba3a8ed2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

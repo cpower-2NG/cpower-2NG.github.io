@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Xk4y1J7kj",
+  "schemaVersion": 1,
+  "title": "分享 · 【IGN】《Omega Strikers》游戏开场音乐视频",
+  "date": "2023-04-25",
+  "createdAt": "2023-04-25T10:14:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "曜！ 比拼脚上功夫的时刻到了！在这个瞬息万变的3V3踢球格斗游戏中，把对手从赛场上打飞并进球得分。和好友组队，挑选个性十足、不断扩...",
+  "text": "曜！\n\n比拼脚上功夫的时刻到了！在这个瞬息万变的3V3踢球格斗游戏中，把对手从赛场上打飞并进球得分。和好友组队，挑选个性十足、不断扩...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xk4y1J7kj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Xk4y1J7kj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/327464149dde83326595e3310068771ed8c19774fe5254fa25ee1a7771359c11.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Xk4y1J7kj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/327464149dde83326595e3310068771ed8c19774fe5254fa25ee1a7771359c11.jpg",
+    "title": "【IGN】《Omega Strikers》游戏开场音乐视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/327464149dde83326595e3310068771ed8c19774fe5254fa25ee1a7771359c11.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjghbecigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Xk4y1J7kj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "IGN中国",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ed92d5d819f00c9a417ac9d15c22ad72ea7f60fbe620e659f74cc99c762808fb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

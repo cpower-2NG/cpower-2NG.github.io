@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14s4y1d7pF",
+  "schemaVersion": 1,
+  "title": "分享 · 【犬王】鲸—中日双语歌词（含假名、罗马注音）",
+  "date": "2023-07-12",
+  "createdAt": "2023-07-12T13:57:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "讲真，上次去影院的时候还真挺想回call的，但人有点多而且气氛不太对，于是作罢",
+  "text": "讲真，上次去影院的时候还真挺想回call的，但人有点多而且气氛不太对，于是作罢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14s4y1d7pF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14s4y1d7pF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a955d7d0f7f719a826c5f31d2b8dd6c6e50612604416a4c289a1244246ba7f7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14s4y1d7pF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a955d7d0f7f719a826c5f31d2b8dd6c6e50612604416a4c289a1244246ba7f7.jpg",
+    "title": "【犬王】鲸—中日双语歌词（含假名、罗马注音）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a955d7d0f7f719a826c5f31d2b8dd6c6e50612604416a4c289a1244246ba7f7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhcahbjigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14s4y1d7pF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Katouei",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "55a7c748a8b9c25327168329134297f8ce540743b803650526f82735f6d80f1e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

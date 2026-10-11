@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qm4y1e7NC",
+  "schemaVersion": 1,
+  "title": "分享 · 沙耶哦——",
+  "date": "2023-06-25",
+  "createdAt": "2023-06-25T12:19:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可惜太短了，要是不是合作单品就好了，感觉做完的话又是一个大作",
+  "text": "可惜太短了，要是不是合作单品就好了，感觉做完的话又是一个大作",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qm4y1e7NC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qm4y1e7NC&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/5ddd2ceb58cef4ea153ee855155e97cc35c8c1fc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qm4y1e7NC",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/5ddd2ceb58cef4ea153ee855155e97cc35c8c1fc.jpg",
+    "title": "沙耶哦——"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/5ddd2ceb58cef4ea153ee855155e97cc35c8c1fc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ffffjghigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qm4y1e7NC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kalkulilo",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7a961f134b5bb8c84a0de1676cda1def28751f7357882d1f5b11227b24ff799e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

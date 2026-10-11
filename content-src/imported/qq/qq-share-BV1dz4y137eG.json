@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dz4y137eG",
+  "schemaVersion": 1,
+  "title": "分享 · 【16bit观影会】寄给GALGAME的一封情书！《16bit的感动》动画前瞻 #0",
+  "date": "2023-09-29",
+  "createdAt": "2023-09-29T12:38:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "急急急急急，急死我了",
+  "text": "急急急急急，急死我了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dz4y137eG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dz4y137eG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8146ac66fd1e2f65472dd4c2460bdef839477beea374f3f81dea037462aa2d0f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dz4y137eG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8146ac66fd1e2f65472dd4c2460bdef839477beea374f3f81dea037462aa2d0f.jpg",
+    "title": "【16bit观影会】寄给GALGAME的一封情书！《16bit的感动》动画前瞻 #0"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8146ac66fd1e2f65472dd4c2460bdef839477beea374f3f81dea037462aa2d0f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eiabjjfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dz4y137eG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Galgame批评",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f1ea00fa6fbfa60c7fe710bc62c33fcb7478341254ddf8881f359c2686e375f1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

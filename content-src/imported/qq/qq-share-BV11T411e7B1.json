@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11T411e7B1",
+  "schemaVersion": 1,
+  "title": "分享 · 【今井麻美】niconico SSG 特番（嘉宾：末柄里恵＆大关英里）",
+  "date": "2023-02-25",
+  "createdAt": "2023-02-25T15:58:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是来看看ssg吧",
+  "text": "还是来看看ssg吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11T411e7B1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11T411e7B1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54312b1624429dad16e639a27a3fd6abb1e8e228713db00b2798f9c6b56a19a0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11T411e7B1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54312b1624429dad16e639a27a3fd6abb1e8e228713db00b2798f9c6b56a19a0.jpg",
+    "title": "【今井麻美】niconico SSG 特番（嘉宾：末柄里恵＆大关英里）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54312b1624429dad16e639a27a3fd6abb1e8e228713db00b2798f9c6b56a19a0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gigaedhhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11T411e7B1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "zeroxiris",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3075350f601dbec169b40f949427e891299edbf5b8c0ab5f03f1f5290ec6d5d9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

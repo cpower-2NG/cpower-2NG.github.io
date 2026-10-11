@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11M411H77p",
+  "schemaVersion": 1,
+  "title": "分享 · 中国・山东・蓝翔",
+  "date": "2023-03-18",
+  "createdAt": "2023-03-18T11:31:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "副歌段有点缺憾呢",
+  "text": "副歌段有点缺憾呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11M411H77p",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11M411H77p&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff6f7a316a9fc48ec7282fbf4517cbf4045e221da610ab8be093d128b18b96e4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11M411H77p",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff6f7a316a9fc48ec7282fbf4517cbf4045e221da610ab8be093d128b18b96e4.jpg",
+    "title": "中国・山东・蓝翔"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ff6f7a316a9fc48ec7282fbf4517cbf4045e221da610ab8be093d128b18b96e4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjajdbjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11M411H77p",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "萎缩的帝国",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "377ff4f8ba5f5af2346c06eb6ac45546d42a1469923835b1e8c1d9d2d5005ad4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

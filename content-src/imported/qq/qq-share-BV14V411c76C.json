@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14V411c76C",
+  "schemaVersion": 1,
+  "title": "分享 · Galgame玩家的所有结局！",
+  "date": "2023-09-24",
+  "createdAt": "2023-09-24T12:17:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不是，大家怎么都通结局了，我还在共通线呢",
+  "text": "不是，大家怎么都通结局了，我还在共通线呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14V411c76C",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14V411c76C&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3f877bf1f5bb9702e1bd86dee21e0f79983d859f0253f0dc492faa30347eec29.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14V411c76C",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3f877bf1f5bb9702e1bd86dee21e0f79983d859f0253f0dc492faa30347eec29.jpg",
+    "title": "Galgame玩家的所有结局！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3f877bf1f5bb9702e1bd86dee21e0f79983d859f0253f0dc492faa30347eec29.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfihfffjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14V411c76C",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "danasaki",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4f425239bfd34dade3189074fe347a423579fdd9b66722faed53bae2f88c4aeb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

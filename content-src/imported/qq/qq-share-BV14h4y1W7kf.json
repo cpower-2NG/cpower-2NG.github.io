@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14h4y1W7kf",
+  "schemaVersion": 1,
+  "title": "分享 · 给R星一点小小的个人开发者震撼",
+  "date": "2023-05-01",
+  "createdAt": "2023-05-01T01:22:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有种隔壁调酒游戏的味了，格调变了，这不洛圣都啊",
+  "text": "有种隔壁调酒游戏的味了，格调变了，这不洛圣都啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14h4y1W7kf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14h4y1W7kf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5c7b2e6852c48be0a21d960dcfeae3fa46fa29c5cd70ab356d8d1269b2fa315.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14h4y1W7kf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5c7b2e6852c48be0a21d960dcfeae3fa46fa29c5cd70ab356d8d1269b2fa315.jpg",
+    "title": "给R星一点小小的个人开发者震撼"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5c7b2e6852c48be0a21d960dcfeae3fa46fa29c5cd70ab356d8d1269b2fa315.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jfbeajcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14h4y1W7kf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Akkariins",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2326f66bcd00f7728b407d3c9d5707496574e29f52b389bc9e6e43c1e3585aea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

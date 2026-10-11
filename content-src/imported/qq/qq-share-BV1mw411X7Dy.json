@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mw411X7Dy",
+  "schemaVersion": 1,
+  "title": "分享 · 不为人知的黎平俺鱼童谣",
+  "date": "2023-08-22",
+  "createdAt": "2023-08-22T10:58:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "非常感谢大家的支持与等待，没有大家的鼓励我不会这么快振作起来，也非常感谢饮水机的倾力制作，没有他看不到这么绝美的pv，蟹蟹...",
+  "text": "非常感谢大家的支持与等待，没有大家的鼓励我不会这么快振作起来，也非常感谢饮水机的倾力制作，没有他看不到这么绝美的pv，蟹蟹...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mw411X7Dy",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mw411X7Dy&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2abefa3df31592c86036af46bfba184951a7395b1301ae65cf7d2cb0ad3e2db1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mw411X7Dy",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2abefa3df31592c86036af46bfba184951a7395b1301ae65cf7d2cb0ad3e2db1.jpg",
+    "title": "不为人知的黎平俺鱼童谣"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2abefa3df31592c86036af46bfba184951a7395b1301ae65cf7d2cb0ad3e2db1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbjbahcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mw411X7Dy",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "扶栏kencorn",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1aaebae2aae58191c899c7f815071ca075fce904ef89658a0d92c05d38c5232f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

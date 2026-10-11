@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13K4y1F7sW",
+  "schemaVersion": 1,
+  "title": "分享 · 平野绫vs玛奇玛",
+  "date": "2023-09-26",
+  "createdAt": "2023-09-26T11:53:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "当年的平胸绫。。。 平野绫演的玛奇玛色气爆表……好刺激啊",
+  "text": "当年的平胸绫。。。\n\n平野绫演的玛奇玛色气爆表……好刺激啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13K4y1F7sW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13K4y1F7sW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f77609c5c0829c9e06ff46b1419bec43be0cc34b2cffe34e8308644f91e763f9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13K4y1F7sW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f77609c5c0829c9e06ff46b1419bec43be0cc34b2cffe34e8308644f91e763f9.jpg",
+    "title": "平野绫vs玛奇玛"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f77609c5c0829c9e06ff46b1419bec43be0cc34b2cffe34e8308644f91e763f9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbcjchfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13K4y1F7sW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "噗噗噗的董董酱",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d8c7e32a81663db9437372857dd0589addf269cbadcab593b6869111423f8270",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

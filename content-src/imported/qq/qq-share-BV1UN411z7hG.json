@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UN411z7hG",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】BOMB兵的战场",
+  "date": "2023-08-18",
+  "createdAt": "2023-08-18T14:24:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "素材乱射才是炸弹兵的魅力，即使是单调循环的旋律也能做得如此有趣，这迷人的安定感太棒了",
+  "text": "素材乱射才是炸弹兵的魅力，即使是单调循环的旋律也能做得如此有趣，这迷人的安定感太棒了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UN411z7hG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UN411z7hG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d14bc80f16c996fa011d95a3fdc5d1a5328c103ed4dc35b2593069e135a9e68.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UN411z7hG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d14bc80f16c996fa011d95a3fdc5d1a5328c103ed4dc35b2593069e135a9e68.jpg",
+    "title": "【合作】BOMB兵的战场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d14bc80f16c996fa011d95a3fdc5d1a5328c103ed4dc35b2593069e135a9e68.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eggigdcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UN411z7hG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "RENZ557",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "672c5956a6a32333de21d3f7ade877f4de1726d04d396cebcc059bd8ab16c679",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

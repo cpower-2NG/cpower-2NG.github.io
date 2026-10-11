@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1724y1q7xN",
+  "schemaVersion": 1,
+  "title": "分享 · 古典艺术-Antiquity【Aram contest 2023】",
+  "date": "2023-02-08",
+  "createdAt": "2023-02-08T12:15:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "现代视角的古典艺术",
+  "text": "现代视角的古典艺术",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1724y1q7xN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1724y1q7xN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a6bc82e7e061db1416f40a7b0422b2d4259c81fce95537f184fb9f50e0cc0d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1724y1q7xN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a6bc82e7e061db1416f40a7b0422b2d4259c81fce95537f184fb9f50e0cc0d.jpg",
+    "title": "古典艺术-Antiquity【Aram contest 2023】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/28a6bc82e7e061db1416f40a7b0422b2d4259c81fce95537f184fb9f50e0cc0d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdfififhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1724y1q7xN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "NotZeroWY",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4088b83dada88c7a9b17ec76f6dd3c8640dd06aa85f5ce01ce86823de5f83b7c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

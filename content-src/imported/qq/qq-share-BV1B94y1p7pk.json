@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1B94y1p7pk",
+  "schemaVersion": 1,
+  "title": "分享 · 【しらたま】君とのミチシルベ",
+  "date": "2023-09-28",
+  "createdAt": "2023-09-28T12:36:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "起猛了，白玉唱歌了",
+  "text": "起猛了，白玉唱歌了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B94y1p7pk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1B94y1p7pk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bbb68d8daf34fc112d74b99391791fcad3ac9e776e2bd60cf657e6ffcbebed15.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1B94y1p7pk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bbb68d8daf34fc112d74b99391791fcad3ac9e776e2bd60cf657e6ffcbebed15.jpg",
+    "title": "【しらたま】君とのミチシルベ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bbb68d8daf34fc112d74b99391791fcad3ac9e776e2bd60cf657e6ffcbebed15.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gifeajfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1B94y1p7pk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "しらたまOfficial",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6dcd8dc9d82be873419f0b317e4dfeec80d134d2fef75ca77b94ec31920bde6a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1py4y1x7Nm",
+  "schemaVersion": 1,
+  "title": "分享 · SҢINУ CƟᒧƟЯS",
+  "date": "2023-01-11",
+  "createdAt": "2023-01-11T04:49:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "鉴作，虽不及原作，但也算另辟蹊径了",
+  "text": "鉴作，虽不及原作，但也算另辟蹊径了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1py4y1x7Nm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1py4y1x7Nm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/590cd746fa68a955a4e8c1a08e78b0a4a2e9c0db8bb49bd48c0f58648b4539d4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1py4y1x7Nm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/590cd746fa68a955a4e8c1a08e78b0a4a2e9c0db8bb49bd48c0f58648b4539d4.jpg",
+    "title": "SҢINУ CƟᒧƟЯS"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/590cd746fa68a955a4e8c1a08e78b0a4a2e9c0db8bb49bd48c0f58648b4539d4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bffcbedhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1py4y1x7Nm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "TarHighway",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ff938c3678741853036c192abefa28ea9f95de1b387684e289b2a9f5c73efbf8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

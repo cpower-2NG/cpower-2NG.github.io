@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19N411E7pB",
+  "schemaVersion": 1,
+  "title": "分享 · 「星の声」【偶像大师闪耀色彩 Song for Prism MV】",
+  "date": "2023-10-03",
+  "createdAt": "2023-10-03T12:26:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "模就不说了，镜头依旧是意义不明。",
+  "text": "模就不说了，镜头依旧是意义不明。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19N411E7pB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19N411E7pB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee18e83eba3742d49a11a24e545fb31ba3a956011fe8e136cc80ccd5f895591a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19N411E7pB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee18e83eba3742d49a11a24e545fb31ba3a956011fe8e136cc80ccd5f895591a.jpg",
+    "title": "「星の声」【偶像大师闪耀色彩 Song for Prism MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee18e83eba3742d49a11a24e545fb31ba3a956011fe8e136cc80ccd5f895591a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgjfddgjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19N411E7pB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "379e4f3585fe844dd6b1650d56078c8f62a38303ee06738e3e083996878b3eee",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

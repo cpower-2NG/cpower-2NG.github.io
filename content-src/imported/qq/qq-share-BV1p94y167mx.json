@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1p94y167mx",
+  "schemaVersion": 1,
+  "title": "分享 · 【音MAD】杀人孟夏幽蓝调留个档，难得一见的作品。这个“原作爱”合作不负众望啊",
+  "date": "2023-08-18",
+  "createdAt": "2023-08-18T14:44:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "【音MAD】杀人孟夏幽蓝调留个档，难得一见的作品。这个“原作爱”合作不负众望啊",
+  "text": "【音MAD】杀人孟夏幽蓝调留个档，难得一见的作品。这个“原作爱”合作不负众望啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1p94y167mx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1p94y167mx&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1p94y167mx",
+    "coverUrl": "",
+    "title": "【音MAD】杀人孟夏幽蓝调留个档，难得一见的作品。这个“原作爱”合作不负众望啊"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fjijgdcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1p94y167mx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8f238de2d6dc4eb02a210b4aef0876ba4914af0377e634dd463da171ed87306c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

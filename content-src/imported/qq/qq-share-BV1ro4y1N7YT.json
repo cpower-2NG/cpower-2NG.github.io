@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ro4y1N7YT",
+  "schemaVersion": 1,
+  "title": "分享 · ドレミのうぴゃ",
+  "date": "2023-06-15",
+  "createdAt": "2023-06-15T12:02:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "即时原音系战法！新时代音游！",
+  "text": "即时原音系战法！新时代音游！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ro4y1N7YT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ro4y1N7YT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce6668cbc263c7037731a103fdea41d9abd90b7072bd42965d06e42be0005515.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ro4y1N7YT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce6668cbc263c7037731a103fdea41d9abd90b7072bd42965d06e42be0005515.jpg",
+    "title": "ドレミのうぴゃ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce6668cbc263c7037731a103fdea41d9abd90b7072bd42965d06e42be0005515.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gffadigigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ro4y1N7YT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "洛林_起床太慢哦",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6eadd5032258464dee1f073aeaf5a55648067b7f051bbf4af0e16b4ed7bffb3b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

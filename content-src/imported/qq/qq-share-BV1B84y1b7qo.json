@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1B84y1b7qo",
+  "schemaVersion": 1,
+  "title": "分享 · 闪蝶",
+  "date": "2023-01-17",
+  "createdAt": "2023-01-17T07:09:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "英雄参上!英雄参上!英雄参上!",
+  "text": "英雄参上!英雄参上!英雄参上!",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B84y1b7qo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1B84y1b7qo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e55673160174e4bcd5810c3c63333938837ec45369470d75e66dab6c8f53b158.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1B84y1b7qo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e55673160174e4bcd5810c3c63333938837ec45369470d75e66dab6c8f53b158.jpg",
+    "title": "闪蝶"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e55673160174e4bcd5810c3c63333938837ec45369470d75e66dab6c8f53b158.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdjdjdhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1B84y1b7qo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "FFFanwen",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "96cb559599009598335c40094f995bd249b42c9a3e51d343803eb2bd5eb6b02d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

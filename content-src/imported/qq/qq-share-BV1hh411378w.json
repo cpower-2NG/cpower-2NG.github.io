@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hh411378w",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】发出池面声音的星组三人【闪耀色彩广播#237】",
+  "date": "2023-04-01",
+  "createdAt": "2023-04-01T07:48:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "池面的ひとみんくん",
+  "text": "池面的ひとみんくん",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hh411378w",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hh411378w&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f448710c9ff13a213adeb3ce8996b945364300e8c39b03ba17d3816dec8a512.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hh411378w",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f448710c9ff13a213adeb3ce8996b945364300e8c39b03ba17d3816dec8a512.jpg",
+    "title": "【中字】发出池面声音的星组三人【闪耀色彩广播#237】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f448710c9ff13a213adeb3ce8996b945364300e8c39b03ba17d3816dec8a512.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aadfddaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hh411378w",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "携带鞋带",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "da3f2ac31894f24f98760b67357fae743892e444574620bb7df906ac6c1362c8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1f34y1n7vV",
+  "schemaVersion": 1,
+  "title": "分享 · 【人力VOCALOID】ねぇ / Perfume【ALSTROEMERIA】",
+  "date": "2023-06-17",
+  "createdAt": "2023-06-17T11:20:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ねえ",
+  "text": "ねえ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1f34y1n7vV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1f34y1n7vV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a3c791b52769f279ea35eed9269c7912acf34aabaf78df1eb6bd7ef16577969.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1f34y1n7vV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a3c791b52769f279ea35eed9269c7912acf34aabaf78df1eb6bd7ef16577969.jpg",
+    "title": "【人力VOCALOID】ねぇ / Perfume【ALSTROEMERIA】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9a3c791b52769f279ea35eed9269c7912acf34aabaf78df1eb6bd7ef16577969.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cbiaaahigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1f34y1n7vV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2088dfb419ded408c48b810e4d6462e65c12ae0206894210295dda89c1e8cb8c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1SM411t7fu",
+  "schemaVersion": 1,
+  "title": "分享 · 【シャニマス】SOS 歌ってみたんですわ！ cover.壱百満天原サロメ【ですわ】",
+  "date": "2023-01-21",
+  "createdAt": "2023-01-21T16:14:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "2434和闪彩好像关系不菲",
+  "text": "2434和闪彩好像关系不菲",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SM411t7fu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1SM411t7fu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4293b67ba741da79c4a88c6e8bed63edc201c0186f130cfb5b9475ef30d16dfc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1SM411t7fu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4293b67ba741da79c4a88c6e8bed63edc201c0186f130cfb5b9475ef30d16dfc.jpg",
+    "title": "【シャニマス】SOS 歌ってみたんですわ！ cover.壱百満天原サロメ【ですわ】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4293b67ba741da79c4a88c6e8bed63edc201c0186f130cfb5b9475ef30d16dfc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cfghbdehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1SM411t7fu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "莎乐美的满分管家",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "693a866122ffe39fa9eca997bbf8783cc11593b5c1d967cab78a9e36a54d64b3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AW4y137k3",
+  "schemaVersion": 1,
+  "title": "分享 · 四位制作人越境献唱VOY@GER",
+  "date": "2023-01-12",
+  "createdAt": "2023-01-12T10:03:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真就p之声 sm41631340",
+  "text": "真就p之声\n\nsm41631340",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AW4y137k3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AW4y137k3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ed6abac6b6fa59f36ff939a49f46bb752e1ad2bf168b500afd1b4feac980bf7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AW4y137k3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ed6abac6b6fa59f36ff939a49f46bb752e1ad2bf168b500afd1b4feac980bf7.jpg",
+    "title": "四位制作人越境献唱VOY@GER"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ed6abac6b6fa59f36ff939a49f46bb752e1ad2bf168b500afd1b4feac980bf7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdihbfdhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AW4y137k3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "啊阿阿阿阿然",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a501c2a128a703fe59db265b907a9b082ebdc1d478f6f518d7a791c926509b1c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

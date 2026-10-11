@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1To4y1g7wv",
+  "schemaVersion": 1,
+  "title": "分享 · 蝶姐变身Cure Butterfly 广阔天空光之美少女",
+  "date": "2023-06-09",
+  "createdAt": "2023-06-09T16:51:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "魔法少女变身卡就是好啊，芳山优这卡真挺好看的。另外，这hop，step，jump三联，我不好说了 -",
+  "text": "魔法少女变身卡就是好啊，芳山优这卡真挺好看的。另外，这hop，step，jump三联，我不好说了\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1To4y1g7wv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1To4y1g7wv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4837ed4f188ceb162b71863cf2b657dd081befc0adcec6712e7b96b52c69d027.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1To4y1g7wv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4837ed4f188ceb162b71863cf2b657dd081befc0adcec6712e7b96b52c69d027.png",
+    "title": "蝶姐变身Cure Butterfly 广阔天空光之美少女"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4837ed4f188ceb162b71863cf2b657dd081befc0adcec6712e7b96b52c69d027.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahejcdgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1To4y1g7wv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "桐谷动漫游戏空间",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "75b80b060e48e7ed29657bbdec3ca6b2562d8a6842f26a56dbd838c86bfcfe5a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

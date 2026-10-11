@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gg4y1L7Bk",
+  "schemaVersion": 1,
+  "title": "分享 · 【主播女孩重度依賴】官方动画「夢充夜」",
+  "date": "2023-05-07",
+  "createdAt": "2023-05-07T15:10:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "齐藤大地是真懂 twitter.com/x_angelkawaii_x",
+  "text": "齐藤大地是真懂\n\ntwitter.com/x_angelkawaii_x",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gg4y1L7Bk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gg4y1L7Bk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f5258f3bcffc8a250b9a5ec315a972ffaa619a715012b13b70e28a696a826db.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gg4y1L7Bk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f5258f3bcffc8a250b9a5ec315a972ffaa619a715012b13b70e28a696a826db.png",
+    "title": "【主播女孩重度依賴】官方动画「夢充夜」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f5258f3bcffc8a250b9a5ec315a972ffaa619a715012b13b70e28a696a826db.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iccchedigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gg4y1L7Bk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d4ba050e9b45097e1ac84ce4c52bcfc82ac28bb06a15aaed468e327d24464680",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

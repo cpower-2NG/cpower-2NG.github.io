@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Wx411c7dn",
+  "schemaVersion": 1,
+  "title": "分享 · 【人力VOCALOID】Level5 -judgelight-【とある科学の超電磁砲】",
+  "date": "2023-03-28",
+  "createdAt": "2023-03-28T13:29:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "nicom@s的辉煌啊 sm12403999 BILI喝茶闲聊群-114019507-欢迎入裙",
+  "text": "nicom@s的辉煌啊\n\nsm12403999 BILI喝茶闲聊群-114019507-欢迎入裙",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Wx411c7dn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Wx411c7dn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cb5e5ea20a8ac1854927ef2f094c62353e4704e0a57d307e6e412e120296e3b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Wx411c7dn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cb5e5ea20a8ac1854927ef2f094c62353e4704e0a57d307e6e412e120296e3b.jpg",
+    "title": "【人力VOCALOID】Level5 -judgelight-【とある科学の超電磁砲】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cb5e5ea20a8ac1854927ef2f094c62353e4704e0a57d307e6e412e120296e3b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hibabaaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Wx411c7dn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "境界",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1027140fc387586cb7fe47dc953a6397b5764301a6f37eb1b9e18ee7dfcc32de",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

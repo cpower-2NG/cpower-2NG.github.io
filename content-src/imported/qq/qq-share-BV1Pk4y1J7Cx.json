@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Pk4y1J7Cx",
+  "schemaVersion": 1,
+  "title": "分享 · 【VOCALOID中文原创】这不是阿卡贝拉！【整活向/洛天依】",
+  "date": "2023-04-24",
+  "createdAt": "2023-04-24T11:56:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有趣 巩固壁垒：本曲仅作为整活用，不包含对阿卡贝拉的任何偏见与评价；这是一种很好的艺术形式，我自己也经常听，并没有说没有伴奏所...",
+  "text": "有趣\n\n巩固壁垒：本曲仅作为整活用，不包含对阿卡贝拉的任何偏见与评价；这是一种很好的艺术形式，我自己也经常听，并没有说没有伴奏所...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Pk4y1J7Cx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Pk4y1J7Cx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f462d0b5d76958650fc3c2e51770955ed16f8c4d1bf547b1fb7e116014abe8ac.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Pk4y1J7Cx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f462d0b5d76958650fc3c2e51770955ed16f8c4d1bf547b1fb7e116014abe8ac.jpg",
+    "title": "【VOCALOID中文原创】这不是阿卡贝拉！【整活向/洛天依】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f462d0b5d76958650fc3c2e51770955ed16f8c4d1bf547b1fb7e116014abe8ac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbehddcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Pk4y1J7Cx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "11是谁啊",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d172a56b633f58b0311bed7be4c272899c88bb512ab0ee4230318ff88dc55f25",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

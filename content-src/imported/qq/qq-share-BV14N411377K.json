@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14N411377K",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024年4月】夜晚的水母不会游泳 PV第1弹",
+  "date": "2023-11-01",
+  "createdAt": "2023-11-01T12:00:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "动工这微妙的画面质感。总体来说还是很期待的 www.youtube.com/watch?v=aqxpcoUTyEQ",
+  "text": "动工这微妙的画面质感。总体来说还是很期待的\n\nwww.youtube.com/watch?v=aqxpcoUTyEQ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14N411377K",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14N411377K&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5e82868d99aef30610ad15606290488454fb81413dfcf10b6122137b6b2a0f44.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14N411377K",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5e82868d99aef30610ad15606290488454fb81413dfcf10b6122137b6b2a0f44.jpg",
+    "title": "【2024年4月】夜晚的水母不会游泳 PV第1弹"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5e82868d99aef30610ad15606290488454fb81413dfcf10b6122137b6b2a0f44.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ieaaeiijgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14N411377K",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "829c6219bd2ca89866d67ee12bcfc93beff28d0f483ee482363265fe40faa676",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

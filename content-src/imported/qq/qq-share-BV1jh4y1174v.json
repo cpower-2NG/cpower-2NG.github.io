@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jh4y1174v",
+  "schemaVersion": 1,
+  "title": "分享 · 【TV动画/山下大辉】重组世界 Rebuild World 动画化决定PV【MCE汉化组】",
+  "date": "2023-07-17",
+  "createdAt": "2023-07-17T13:59:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "合着山下到处做短片是想自己做动画？不过这pv明显不如那些短片啊，而且柄好丑",
+  "text": "合着山下到处做短片是想自己做动画？不过这pv明显不如那些短片啊，而且柄好丑",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jh4y1174v",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jh4y1174v&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b432cd88bc69b46c0bfc57edefe4bce21316969d700adf398d1310b4143e1ed8.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jh4y1174v",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b432cd88bc69b46c0bfc57edefe4bce21316969d700adf398d1310b4143e1ed8.png",
+    "title": "【TV动画/山下大辉】重组世界 Rebuild World 动画化决定PV【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b432cd88bc69b46c0bfc57edefe4bce21316969d700adf398d1310b4143e1ed8.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hgdcagjigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jh4y1174v",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3dfc00f656596f61cc47c8f295bb0fd1b557746ece20e31cb4f7e121997e433c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

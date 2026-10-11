@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13p4y157Zq",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪彩手书】Shiny Stories",
+  "date": "2023-07-28",
+  "createdAt": "2023-07-28T12:01:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "才看到，好牛逼",
+  "text": "才看到，好牛逼",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13p4y157Zq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13p4y157Zq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fec362e275a90b762663eb852eef74c22064ef82999a575cb27abbeac1cbeef.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13p4y157Zq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fec362e275a90b762663eb852eef74c22064ef82999a575cb27abbeac1cbeef.jpg",
+    "title": "【闪彩手书】Shiny Stories"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7fec362e275a90b762663eb852eef74c22064ef82999a575cb27abbeac1cbeef.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dahfefajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13p4y157Zq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "啊阿阿阿阿然",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2fed3e8d3c1fc06bbeae222dc1e7f399f2c9017d1ed58ca35d4f9c8972f7a21c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

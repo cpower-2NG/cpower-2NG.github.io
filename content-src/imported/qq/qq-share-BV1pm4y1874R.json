@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pm4y1874R",
+  "schemaVersion": 1,
+  "title": "分享 · 【虾泥颂MV】バベルシティ・グレイス【剧情育成版】",
+  "date": "2023-05-20",
+  "createdAt": "2023-05-20T08:20:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "希望这真的只是beta版，曲线也太平淡了吧，很多地方怕不是只调用了函数。还有这镜头算什么，就舞蹈而言，切镜不以动作为基准，甚... twitter.com/rr",
+  "text": "希望这真的只是beta版，曲线也太平淡了吧，很多地方怕不是只调用了函数。还有这镜头算什么，就舞蹈而言，切镜不以动作为基准，甚...\n\ntwitter.com/rrowclev/status/1659544995425300480?t=wDkh9qTYvOVEubpZrt0W8ws=19",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pm4y1874R",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pm4y1874R&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af2b8e6c616a78e1dfe2911c8fe7dbb770153f4ff8e332fd6986f8a7f1bfafad.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pm4y1874R",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af2b8e6c616a78e1dfe2911c8fe7dbb770153f4ff8e332fd6986f8a7f1bfafad.jpg",
+    "title": "【虾泥颂MV】バベルシティ・グレイス【剧情育成版】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af2b8e6c616a78e1dfe2911c8fe7dbb770153f4ff8e332fd6986f8a7f1bfafad.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ifiahfeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pm4y1874R",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "啊阿阿阿阿然",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b93278bfcf26162813ea5992889b31e67068352744ba93683735c70c368f0acf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

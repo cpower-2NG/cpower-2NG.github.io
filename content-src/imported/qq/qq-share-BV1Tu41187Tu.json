@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tu41187Tu",
+  "schemaVersion": 1,
+  "title": "分享 · 765seconds minimix in 765GOLD",
+  "date": "2023-07-04",
+  "createdAt": "2023-07-04T13:15:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真是鬼畜的作品",
+  "text": "真是鬼畜的作品",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tu41187Tu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tu41187Tu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1ff165bd8fbbe6bc2e10911374305ef8c826b3682a03b870e5e1cae1dc401a18.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tu41187Tu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1ff165bd8fbbe6bc2e10911374305ef8c826b3682a03b870e5e1cae1dc401a18.jpg",
+    "title": "765seconds minimix in 765GOLD"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1ff165bd8fbbe6bc2e10911374305ef8c826b3682a03b870e5e1cae1dc401a18.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hcfgheiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tu41187Tu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a74653cc04a86ac911936d02ab2832f38a5ccc71783a931d2f39e6bd6f850750",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

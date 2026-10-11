@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sm4y1a7nk",
+  "schemaVersion": 1,
+  "title": "分享 · 咲耶さん、お誕生日おめでとう！",
+  "date": "2023-06-27",
+  "createdAt": "2023-06-27T12:06:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "牛び！",
+  "text": "牛び！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sm4y1a7nk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sm4y1a7nk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54dc29ea4738cd5a9cd118777534c916b826fca68a1f9f6dc4c5abe3f14848d7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sm4y1a7nk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54dc29ea4738cd5a9cd118777534c916b826fca68a1f9f6dc4c5abe3f14848d7.jpg",
+    "title": "咲耶さん、お誕生日おめでとう！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54dc29ea4738cd5a9cd118777534c916b826fca68a1f9f6dc4c5abe3f14848d7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iaghgihigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sm4y1a7nk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "啊阿阿阿阿然",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0003517575c0fa6f40c6b7b10022f350c0ac16bdf78df355a82c6e09024332bc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

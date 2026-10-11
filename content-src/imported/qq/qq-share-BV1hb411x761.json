@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hb411x761",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师灰姑娘CGSS MV】「With Love」(新衣装) 1080p60",
+  "date": "2023-10-02",
+  "createdAt": "2023-10-02T09:29:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "谨以此视频，向阿酱送上祝福",
+  "text": "谨以此视频，向阿酱送上祝福",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hb411x761",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hb411x761&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81b4bc06e9b6a411b8b24aeb60f40e534a6f5c3b58a64f89bb8dae7d6fcd0a70.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hb411x761",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81b4bc06e9b6a411b8b24aeb60f40e534a6f5c3b58a64f89bb8dae7d6fcd0a70.jpg",
+    "title": "【偶像大师灰姑娘CGSS MV】「With Love」(新衣装) 1080p60"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81b4bc06e9b6a411b8b24aeb60f40e534a6f5c3b58a64f89bb8dae7d6fcd0a70.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afjidcgjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hb411x761",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "720065d9b486f4fd208138cca4311208912224c5075b3691dffd589eebff7415",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

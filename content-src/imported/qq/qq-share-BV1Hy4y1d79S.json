@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hy4y1d79S",
+  "schemaVersion": 1,
+  "title": "分享 · 2023京阿尼贺年纪——正式PV",
+  "date": "2023-01-23",
+  "createdAt": "2023-01-23T05:12:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "リズムいい！",
+  "text": "リズムいい！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hy4y1d79S",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hy4y1d79S&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4368029634eb37394bf3303045b1f043e189fa0f5be31f2d58a86c1e7524a35c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hy4y1d79S",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4368029634eb37394bf3303045b1f043e189fa0f5be31f2d58a86c1e7524a35c.jpg",
+    "title": "2023京阿尼贺年纪——正式PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4368029634eb37394bf3303045b1f043e189fa0f5be31f2d58a86c1e7524a35c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jchafeehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hy4y1d79S",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "京阿尼语料",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "55564444da6c0e1f0c259d8e20bedbc2827a63e0e46396c691c0d85f74986de7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

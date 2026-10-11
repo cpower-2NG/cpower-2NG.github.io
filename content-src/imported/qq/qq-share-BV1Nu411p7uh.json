@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nu411p7uh",
+  "schemaVersion": 1,
+  "title": "分享 · 小林治监督的遗作—HYPERSONIC Music Club",
+  "date": "2023-08-03",
+  "createdAt": "2023-08-03T05:19:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唉",
+  "text": "唉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nu411p7uh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nu411p7uh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbd01cbf8c5249800c12c8875b341c26a21e74ffe145d8f9814e28f517d9723e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nu411p7uh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbd01cbf8c5249800c12c8875b341c26a21e74ffe145d8f9814e28f517d9723e.jpg",
+    "title": "小林治监督的遗作—HYPERSONIC Music Club"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbd01cbf8c5249800c12c8875b341c26a21e74ffe145d8f9814e28f517d9723e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfjjdabjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nu411p7uh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "森佳祐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3e9931766a37d20e2eca1eeb7ffe9d5aa1ab1b756bb18b712c06fccd11020196",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

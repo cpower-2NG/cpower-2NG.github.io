@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1QK4y1F7xz",
+  "schemaVersion": 1,
+  "title": "分享 · OH MY GOD【偶像大师闪耀色彩 Song for Prism MV】",
+  "date": "2023-09-29",
+  "createdAt": "2023-09-29T02:07:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "被人同人作品爆杀，高山是想怎样，这动捕真不如手k",
+  "text": "被人同人作品爆杀，高山是想怎样，这动捕真不如手k",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1QK4y1F7xz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1QK4y1F7xz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e4f9a798f702d76ff4db5019776b9f8fe6e77fc99e1d46db40022fb4874cab.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1QK4y1F7xz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e4f9a798f702d76ff4db5019776b9f8fe6e77fc99e1d46db40022fb4874cab.jpg",
+    "title": "OH MY GOD【偶像大师闪耀色彩 Song for Prism MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e4f9a798f702d76ff4db5019776b9f8fe6e77fc99e1d46db40022fb4874cab.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jccdfjfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1QK4y1F7xz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0cc6f2bd579dea258ba223e55236cb200a7790925f205fac1b6e8129a8669fdf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

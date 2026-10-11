@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11C4y1g7LA",
+  "schemaVersion": 1,
+  "title": "分享 · 【片段熟肉】聊到老公就很害羞的种崎敦美",
+  "date": "2023-10-22",
+  "createdAt": "2023-10-22T12:34:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "/(ㄒoㄒ)/~~",
+  "text": "/(ㄒoㄒ)/~~",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11C4y1g7LA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11C4y1g7LA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7487043b55d59404e0ce1c8694e706264faac92e7be848c43dea2fa138053c84.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11C4y1g7LA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7487043b55d59404e0ce1c8694e706264faac92e7be848c43dea2fa138053c84.png",
+    "title": "【片段熟肉】聊到老公就很害羞的种崎敦美"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7487043b55d59404e0ce1c8694e706264faac92e7be848c43dea2fa138053c84.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjaihjhjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11C4y1g7LA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "幽空Sileky",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5f65df5a191d10c0b149b7758b8ff819d611cc3e46e5a90707026b2751190083",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

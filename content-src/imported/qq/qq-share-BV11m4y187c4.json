@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11m4y187c4",
+  "schemaVersion": 1,
+  "title": "分享 · 「電波感傷」天海春香x如月千早【MLTD】",
+  "date": "2023-05-22",
+  "createdAt": "2023-05-22T14:07:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "土豆的live是真好啊，曲子也好",
+  "text": "土豆的live是真好啊，曲子也好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11m4y187c4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11m4y187c4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e11501ffd74e9aad97edf10a558d981800d2e4c307761cf7a1055cf2a070513.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11m4y187c4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e11501ffd74e9aad97edf10a558d981800d2e4c307761cf7a1055cf2a070513.jpg",
+    "title": "「電波感傷」天海春香x如月千早【MLTD】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e11501ffd74e9aad97edf10a558d981800d2e4c307761cf7a1055cf2a070513.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdeegheigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11m4y187c4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Haki姐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2e685ddb687eb3fb4a4839fd2ac34d6b7a708bbb9aa94de8c464b99de03850bb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

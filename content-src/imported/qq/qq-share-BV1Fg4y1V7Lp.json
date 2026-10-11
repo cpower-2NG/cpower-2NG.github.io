@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Fg4y1V7Lp",
+  "schemaVersion": 1,
+  "title": "分享 · 【浅谈】偶像大师U149第四话浅析【爱的赞歌】",
+  "date": "2023-05-12",
+  "createdAt": "2023-05-12T14:23:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这才该是完全体的桃华，这村山冲到底是何许人也",
+  "text": "这才该是完全体的桃华，这村山冲到底是何许人也",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fg4y1V7Lp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Fg4y1V7Lp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/23792aeb17b5aea19dae87c9fde1d8023b87e41f64122e111e87028468b95289.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Fg4y1V7Lp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/23792aeb17b5aea19dae87c9fde1d8023b87e41f64122e111e87028468b95289.jpg",
+    "title": "【浅谈】偶像大师U149第四话浅析【爱的赞歌】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/23792aeb17b5aea19dae87c9fde1d8023b87e41f64122e111e87028468b95289.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "daebajdigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Fg4y1V7Lp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0970f2bb6b9b9a0ed4370c5f4800465ae525999d253b70ac41e3fa0c65f2758a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

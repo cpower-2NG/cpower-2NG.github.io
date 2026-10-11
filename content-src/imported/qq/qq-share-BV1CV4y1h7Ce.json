@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CV4y1h7Ce",
+  "schemaVersion": 1,
+  "title": "分享 · 【シャニマス】#シャニマス推しの子コラボ TVCM公開！【アイドルマスター】",
+  "date": "2023-06-28",
+  "createdAt": "2023-06-28T14:57:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "厄厄！ www.youtube.com/watch?v=ydguGDBzr60",
+  "text": "厄厄！\n\nwww.youtube.com/watch?v=ydguGDBzr60",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CV4y1h7Ce",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CV4y1h7Ce&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4ed886dd4f6c6a1ab3b15cf64ed0f61173d16bf161dec99c8f3a94ff2c22f01.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CV4y1h7Ce",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4ed886dd4f6c6a1ab3b15cf64ed0f61173d16bf161dec99c8f3a94ff2c22f01.jpg",
+    "title": "【シャニマス】#シャニマス推しの子コラボ TVCM公開！【アイドルマスター】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a4ed886dd4f6c6a1ab3b15cf64ed0f61173d16bf161dec99c8f3a94ff2c22f01.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chcegjhigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CV4y1h7Ce",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b95a58159a19d47596b7fe660a7448a8e757446b8223f932d40bdd1b9a93d0fd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

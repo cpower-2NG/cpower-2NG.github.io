@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13o4y1x7ky",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像大师灰姑娘女孩 U149  ED5",
+  "date": "2023-05-03",
+  "createdAt": "2023-05-03T15:40:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这集的ed着实看爽了",
+  "text": "这集的ed着实看爽了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13o4y1x7ky",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13o4y1x7ky&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7785969ab2c90a69f1dfc17c7679b8c3a9c87a154527902a3ceb779a32dff3d7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13o4y1x7ky",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7785969ab2c90a69f1dfc17c7679b8c3a9c87a154527902a3ceb779a32dff3d7.jpg",
+    "title": "偶像大师灰姑娘女孩 U149  ED5"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7785969ab2c90a69f1dfc17c7679b8c3a9c87a154527902a3ceb779a32dff3d7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aeeicbdigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13o4y1x7ky",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夜空星虹",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "34b714a261a49ea9bffc8e4ef24e61267b0f5f4d143d81f9b2581f9574c2e42b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

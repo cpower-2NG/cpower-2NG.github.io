@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AY411e73j",
+  "schemaVersion": 1,
+  "title": "分享 · MILLION LIVE! 10th anniv. Special Setlist Phase.I - Mixed by",
+  "date": "2023-02-23",
+  "createdAt": "2023-02-23T11:26:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好爽的mix Mixer:@追忆之风luke",
+  "text": "好爽的mix\n\nMixer:@追忆之风luke",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AY411e73j",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AY411e73j&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/876042b8fcbba6aa641ad8be764ccdbb0d1ddc4d9ae0c4785ed0097290548907.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AY411e73j",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/876042b8fcbba6aa641ad8be764ccdbb0d1ddc4d9ae0c4785ed0097290548907.jpg",
+    "title": "MILLION LIVE! 10th anniv. Special Setlist Phase.I - Mixed by luke"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/876042b8fcbba6aa641ad8be764ccdbb0d1ddc4d9ae0c4785ed0097290548907.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aifbfbhhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AY411e73j",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ArashiAmami",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2f19f4e286a24ca7f53e0bd244587e3d871198443c00452895154404995c87f8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

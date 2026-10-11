@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15D4y1n7kU",
+  "schemaVersion": 1,
+  "title": "分享 · 【LoveLive新春会单品/虹咲】みんなの夢、私の夢",
+  "date": "2023-02-01",
+  "createdAt": "2023-02-01T10:28:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "听说拿了银赏,舞曲段好爽",
+  "text": "听说拿了银赏,舞曲段好爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15D4y1n7kU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15D4y1n7kU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ac735f9fba774d759a9a1676de45e219b4b025cac81ee43ec6986f3b385dc03.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15D4y1n7kU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ac735f9fba774d759a9a1676de45e219b4b025cac81ee43ec6986f3b385dc03.jpg",
+    "title": "【LoveLive新春会单品/虹咲】みんなの夢、私の夢"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4ac735f9fba774d759a9a1676de45e219b4b025cac81ee43ec6986f3b385dc03.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gddhecfhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15D4y1n7kU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "氵Yumu",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b15ac9bab7f3b45268b401cb20edc1308a875b5f6d2093eb94418e15fb0cbae0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

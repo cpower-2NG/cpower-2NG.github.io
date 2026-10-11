@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ae4y1P7Fz",
+  "schemaVersion": 1,
+  "title": "分享 · 『約束』如月千早 2023【偶像大师 星耀季节 MV?】",
+  "date": "2023-02-10",
+  "createdAt": "2023-02-10T12:46:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "永远的千早p",
+  "text": "永远的千早p",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ae4y1P7Fz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ae4y1P7Fz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e7852bd4a82d635c145336ea1726e44321f417ad2f9218a1b4064808347f6e14.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ae4y1P7Fz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e7852bd4a82d635c145336ea1726e44321f417ad2f9218a1b4064808347f6e14.jpg",
+    "title": "『約束』如月千早 2023【偶像大师 星耀季节 MV?】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e7852bd4a82d635c145336ea1726e44321f417ad2f9218a1b4064808347f6e14.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjbddaghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ae4y1P7Fz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fc03167eee2da8872bbc774e3f717158ae7ba4e1d223f755f3405283f414836a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

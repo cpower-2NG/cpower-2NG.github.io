@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Qm4y1v7JJ",
+  "schemaVersion": 1,
+  "title": "分享 · 4K 60FPS「Nocturne」 (高垣楓 限定SSR 7)【偶像大师灰姑娘CGSS MV】",
+  "date": "2023-06-14",
+  "createdAt": "2023-06-14T14:28:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "枫姐将于今晚11点抵达神圣的u149，这时候感觉延期都是顺理成章的了",
+  "text": "枫姐将于今晚11点抵达神圣的u149，这时候感觉延期都是顺理成章的了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Qm4y1v7JJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Qm4y1v7JJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85bb52311187a4b054d297628ded22742f8d6245767964649932cb3541dfbd86.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Qm4y1v7JJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85bb52311187a4b054d297628ded22742f8d6245767964649932cb3541dfbd86.jpg",
+    "title": "4K 60FPS「Nocturne」 (高垣楓 限定SSR 7)【偶像大师灰姑娘CGSS MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85bb52311187a4b054d297628ded22742f8d6245767964649932cb3541dfbd86.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hiicfhgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Qm4y1v7JJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a64a2c4cbde1ef68425cb113800fa5967ce01f644c01f945ca8153db4a22f371",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

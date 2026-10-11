@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11j41127zW",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「Dance in the Light」(SHS SSR special appeal) 【偶像大师百万现场",
+  "date": "2023-09-01",
+  "createdAt": "2023-09-01T12:46:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "迷人的electro trance，期待live完整版的dance break",
+  "text": "迷人的electro trance，期待live完整版的dance break",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11j41127zW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11j41127zW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56b8b60a899da78f1f558ff9809f4453efed6bc04c9bd0bbefcdf53199d35703.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11j41127zW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56b8b60a899da78f1f558ff9809f4453efed6bc04c9bd0bbefcdf53199d35703.jpg",
+    "title": "4K HDR「Dance in the Light」(SHS SSR special appeal) 【偶像大师百万现场MLTD】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56b8b60a899da78f1f558ff9809f4453efed6bc04c9bd0bbefcdf53199d35703.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iidchfdjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11j41127zW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c46434a20db27bf8967417dac55d3f8b84fef6ce46eed83d5a4f12204d78c401",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

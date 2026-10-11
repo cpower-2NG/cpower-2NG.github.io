@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ew411S7jz",
+  "schemaVersion": 1,
+  "title": "分享 · 【菊地真生誕祭2023】HOLDING OUT FOR A HERO / 麻倉未稀",
+  "date": "2023-08-29",
+  "createdAt": "2023-08-29T10:17:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真帅！",
+  "text": "真帅！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ew411S7jz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ew411S7jz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/751cc3bd61ac246f428246c328ef4c37fb23a1bcde3be2911318b1331d64d7a4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ew411S7jz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/751cc3bd61ac246f428246c328ef4c37fb23a1bcde3be2911318b1331d64d7a4.jpg",
+    "title": "【菊地真生誕祭2023】HOLDING OUT FOR A HERO / 麻倉未稀"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/751cc3bd61ac246f428246c328ef4c37fb23a1bcde3be2911318b1331d64d7a4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jcceaddjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ew411S7jz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7ef15c4117a4e2d64861a3cc9d28f6617afee0a86d59a98c78b5f48c34aa7640",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

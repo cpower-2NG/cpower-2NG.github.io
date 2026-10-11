@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1n34y137ZU",
+  "schemaVersion": 1,
+  "title": "分享 · 【小提琴演奏】偶像大师百万现场「Rat A Tat!!!」",
+  "date": "2023-10-10",
+  "createdAt": "2023-10-10T11:24:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "百万动画是成功的，至少她唤醒了无数沉睡的p",
+  "text": "百万动画是成功的，至少她唤醒了无数沉睡的p",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1n34y137ZU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1n34y137ZU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd238b12bb6dc841d7dbdd262493195d5a31a72682065d38f3be89272ba2d23.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1n34y137ZU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd238b12bb6dc841d7dbdd262493195d5a31a72682065d38f3be89272ba2d23.jpg",
+    "title": "【小提琴演奏】偶像大师百万现场「Rat A Tat!!!」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffd238b12bb6dc841d7dbdd262493195d5a31a72682065d38f3be89272ba2d23.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjahdjgjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1n34y137ZU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "九条悠季",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9113afe970a6777962b7c0bfaac9a309a94ae0ffe9c8b7f9f5f0818ed58792ec",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1FG4y1u7E7",
+  "schemaVersion": 1,
+  "title": "分享 · 【静止系】剑鬼恋歌 - 在那花海盛开的地方",
+  "date": "2023-02-06",
+  "createdAt": "2023-02-06T05:07:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "情绪流好顺畅啊",
+  "text": "情绪流好顺畅啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FG4y1u7E7",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1FG4y1u7E7&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59259487a160502b3f20be17abdd4590c8b623f03e27246d766234f83be27b0f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1FG4y1u7E7",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59259487a160502b3f20be17abdd4590c8b623f03e27246d766234f83be27b0f.jpg",
+    "title": "【静止系】剑鬼恋歌 - 在那花海盛开的地方"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59259487a160502b3f20be17abdd4590c8b623f03e27246d766234f83be27b0f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "beaaggfhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1FG4y1u7E7",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Nightbird",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "069d47ed4949540ddefd5124210e6d4848c16b698b517b3bacb58ec07ebcaa71",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

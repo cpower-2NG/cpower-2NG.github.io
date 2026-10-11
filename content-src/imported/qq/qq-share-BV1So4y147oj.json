@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1So4y147oj",
+  "schemaVersion": 1,
+  "title": "分享 · 好爽的bass啊，油管的源还是比不上cd源，层次感非常明显。劲爆的鼓点与间奏的不插电吉他，节奏变得好爽",
+  "date": "2023-04-26",
+  "createdAt": "2023-04-26T11:13:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好爽的bass啊，油管的源还是比不上cd源，层次感非常明显。劲爆的鼓点与间奏的不插电吉他，节奏变得好爽",
+  "text": "好爽的bass啊，油管的源还是比不上cd源，层次感非常明显。劲爆的鼓点与间奏的不插电吉他，节奏变得好爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1So4y147oj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1So4y147oj&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1So4y147oj",
+    "coverUrl": "",
+    "title": "好爽的bass啊，油管的源还是比不上cd源，层次感非常明显。劲爆的鼓点与间奏的不插电吉他，节奏变得好爽"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjfhafcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1So4y147oj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cd2510a3a42f1fdb7e3dbbcf90efa602e51601bd5e0ff29777625280a6ae819d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

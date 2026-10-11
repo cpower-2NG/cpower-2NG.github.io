@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cK4y1F78k",
+  "schemaVersion": 1,
+  "title": "分享 · 「世界はそれを愛と呼ぶんだぜ」(電車男 cover曲)【偶像大师灰姑娘CGSS MV】",
+  "date": "2023-09-20",
+  "createdAt": "2023-09-20T11:40:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "心阿姨在唤起青春记忆的歌曲中卸下了伪装",
+  "text": "心阿姨在唤起青春记忆的歌曲中卸下了伪装",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cK4y1F78k",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cK4y1F78k&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b80e8370fe161548cff9d858c389afbec0487751c5aa338974eb3f7ebaee4758.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cK4y1F78k",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b80e8370fe161548cff9d858c389afbec0487751c5aa338974eb3f7ebaee4758.jpg",
+    "title": "「世界はそれを愛と呼ぶんだぜ」(電車男 cover曲)【偶像大师灰姑娘CGSS MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b80e8370fe161548cff9d858c389afbec0487751c5aa338974eb3f7ebaee4758.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gaaabcfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cK4y1F78k",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f67d7ee42cfe817add6f07f1aa862e5808605f7e8a5b9bf273a7022113bf8fe1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NX4y1x7bc",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师闪耀色彩】高科技产物 宣传视频",
+  "date": "2023-08-17",
+  "createdAt": "2023-08-17T06:33:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "他是会养凯子的，鸽子(/*^_^*)/~ 网络",
+  "text": "他是会养凯子的，鸽子(/*^_^*)/~\n\n网络",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NX4y1x7bc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NX4y1x7bc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0bc74940fdef89c0aa5420cbc16d8bb019eb0260caae402e9226a5e677d7ba0a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NX4y1x7bc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0bc74940fdef89c0aa5420cbc16d8bb019eb0260caae402e9226a5e677d7ba0a.jpg",
+    "title": "【偶像大师闪耀色彩】高科技产物 宣传视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0bc74940fdef89c0aa5420cbc16d8bb019eb0260caae402e9226a5e677d7ba0a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjjdfccjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NX4y1x7bc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Awz61",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "37f0b0292aa9277dd7b0d8c778caf6f241b6ab948e262bb9c0fd4b418400a0c5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

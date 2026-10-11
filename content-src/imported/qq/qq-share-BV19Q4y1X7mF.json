@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19Q4y1X7mF",
+  "schemaVersion": 1,
+  "title": "分享 · 妹妹和未来嫂子的人生商谈 （非咸原创）",
+  "date": "2023-09-10",
+  "createdAt": "2023-09-10T13:23:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "呜呜，希亚，我的希亚(/ㄒoㄒ)/~~ 不好意思让大家久等了…虽然这次花费的时间比较长…但的视频制作我尽量用自己满意的方式将希亚的可爱表现出来了！不投币也没事、",
+  "text": "呜呜，希亚，我的希亚(/ㄒoㄒ)/~~\n\n不好意思让大家久等了…虽然这次花费的时间比较长…但的视频制作我尽量用自己满意的方式将希亚的可爱表现出来了！不投币也没事、...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19Q4y1X7mF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19Q4y1X7mF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bfb81eeb3b5f36aeeb8f1e37cfef34a08c2a0120f23b62609c260873de0c58f5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19Q4y1X7mF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bfb81eeb3b5f36aeeb8f1e37cfef34a08c2a0120f23b62609c260873de0c58f5.jpg",
+    "title": "妹妹和未来嫂子的人生商谈 （非咸原创）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bfb81eeb3b5f36aeeb8f1e37cfef34a08c2a0120f23b62609c260873de0c58f5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbccfdejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19Q4y1X7mF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "非洲咸鱼菌",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6e7b18ea145c8611d01091524250a528c0ccfa87bd2324c38f73f9ff582eca96",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

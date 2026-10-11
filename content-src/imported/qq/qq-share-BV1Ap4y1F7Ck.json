@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ap4y1F7Ck",
+  "schemaVersion": 1,
+  "title": "分享 · 多摩桥接力合作",
+  "date": "2023-10-05",
+  "createdAt": "2023-10-05T13:32:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好爽的合作。",
+  "text": "好爽的合作。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ap4y1F7Ck",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ap4y1F7Ck&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed7f302f4df2fc4d881e6f53e623af92d52730c1cb4c89aef2fd9745ad2b9318.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ap4y1F7Ck",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed7f302f4df2fc4d881e6f53e623af92d52730c1cb4c89aef2fd9745ad2b9318.jpg",
+    "title": "多摩桥接力合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed7f302f4df2fc4d881e6f53e623af92d52730c1cb4c89aef2fd9745ad2b9318.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fghcbfgjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ap4y1F7Ck",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "M大桑游君Official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e47a6703ed0f0e84729c6551edf3f82cc1f79a20593f300a75cf74b1d701a386",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

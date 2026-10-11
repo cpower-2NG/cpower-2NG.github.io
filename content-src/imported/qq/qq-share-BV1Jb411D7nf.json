@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Jb411D7nf",
+  "schemaVersion": 1,
+  "title": "分享 · 美琴列车",
+  "date": "2023-03-01",
+  "createdAt": "2023-03-01T11:29:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神!美琴还挺适合厌恶列车的",
+  "text": "神!美琴还挺适合厌恶列车的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Jb411D7nf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Jb411D7nf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d91edbb6398828001c5add76cc6d2b14ede185d0c8c1b77cf75389326b212b49.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Jb411D7nf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d91edbb6398828001c5add76cc6d2b14ede185d0c8c1b77cf75389326b212b49.jpg",
+    "title": "美琴列车"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d91edbb6398828001c5add76cc6d2b14ede185d0c8c1b77cf75389326b212b49.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bebahghhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Jb411D7nf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "684f33258a8ad5d098e4d3cf7c0131e629a04b391c7a89ce7814c665c777d10e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

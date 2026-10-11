@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1XM4y1z7Uz",
+  "schemaVersion": 1,
+  "title": "分享 · 华哥,没有你我要怎么活啊.哦,我还有阿酱.",
+  "date": "2023-03-18",
+  "createdAt": "2023-03-18T12:34:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "华哥,没有你我要怎么活啊.哦,我还有阿酱.",
+  "text": "华哥,没有你我要怎么活啊.哦,我还有阿酱.",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XM4y1z7Uz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1XM4y1z7Uz&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1XM4y1z7Uz",
+    "coverUrl": "",
+    "title": "华哥,没有你我要怎么活啊.哦,我还有阿酱."
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ghicebjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1XM4y1z7Uz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "849d66643c442220f94141de2303cd9de2700c3d0a6aadb4575cddce12e25fe8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

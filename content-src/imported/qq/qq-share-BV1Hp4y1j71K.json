@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hp4y1j71K",
+  "schemaVersion": 1,
+  "title": "分享 · Star Impression（群友说比《祝福》高达）",
+  "date": "2023-09-16",
+  "createdAt": "2023-09-16T12:30:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就好山口朗彦这口，这没个剧中剧说不过去了（",
+  "text": "就好山口朗彦这口，这没个剧中剧说不过去了（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hp4y1j71K",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hp4y1j71K&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/890d9c056f11fc20f0ea6d8448b38f9fd36fb07fa9731011d37ee83e5f6b97ce.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hp4y1j71K",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/890d9c056f11fc20f0ea6d8448b38f9fd36fb07fa9731011d37ee83e5f6b97ce.jpg",
+    "title": "Star Impression（群友说比《祝福》高达）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/890d9c056f11fc20f0ea6d8448b38f9fd36fb07fa9731011d37ee83e5f6b97ce.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iaehgiejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hp4y1j71K",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "星彡P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "21f2e1a164ec49b11a5383c3150bf8454d6f4f79ec12fe9c1c3dcee2a5b588ab",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

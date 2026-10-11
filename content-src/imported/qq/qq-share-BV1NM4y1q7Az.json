@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NM4y1q7Az",
+  "schemaVersion": 1,
+  "title": "分享 · 咻君和小春的目が逢う瞬間",
+  "date": "2023-05-18",
+  "createdAt": "2023-05-18T13:55:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可算来了，当时看的时候脑子里就在放这首",
+  "text": "可算来了，当时看的时候脑子里就在放这首",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NM4y1q7Az",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NM4y1q7Az&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d38667bd04c73b2b2cd4f0a01ed178578d7010abe9d5de699ddab68928104ce.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NM4y1q7Az",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d38667bd04c73b2b2cd4f0a01ed178578d7010abe9d5de699ddab68928104ce.jpg",
+    "title": "咻君和小春的目が逢う瞬間"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2d38667bd04c73b2b2cd4f0a01ed178578d7010abe9d5de699ddab68928104ce.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bdbibeeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NM4y1q7Az",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "人生不如一行波德萊爾",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5123ef21f3416e6f9c1ba8e12cb5e841b8d4c8c872d9739bf35732b8f52670d1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

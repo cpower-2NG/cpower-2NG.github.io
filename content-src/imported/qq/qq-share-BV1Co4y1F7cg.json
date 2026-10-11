@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Co4y1F7cg",
+  "schemaVersion": 1,
+  "title": "分享 · 晓美焰：我即是那迫近的风暴",
+  "date": "2023-05-21",
+  "createdAt": "2023-05-21T11:10:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "魔圆是真的合适做长篇mad啊，素材是真的多，还不掉价",
+  "text": "魔圆是真的合适做长篇mad啊，素材是真的多，还不掉价",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Co4y1F7cg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Co4y1F7cg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/087b565374470407adcb7eeb8b46943900adbd1002273adc5ac6c943d0b2987d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Co4y1F7cg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/087b565374470407adcb7eeb8b46943900adbd1002273adc5ac6c943d0b2987d.jpg",
+    "title": "晓美焰：我即是那迫近的风暴"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/087b565374470407adcb7eeb8b46943900adbd1002273adc5ac6c943d0b2987d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbehggeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Co4y1F7cg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ThePhalanx",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "253c831b8ea80b5730477a8b375b6a5b19e3bb1cfbd2eb3bbaa1f4982da3f59a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

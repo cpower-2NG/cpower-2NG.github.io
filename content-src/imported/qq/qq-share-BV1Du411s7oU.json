@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1Du411s7oU",
+  "schemaVersion": 1,
+  "title": "分享 · 重磅剧情啊，sc进入下一个阶段了啊。看样子斑鸠得安静一会了",
+  "date": "2023-05-28",
+  "createdAt": "2023-05-28T13:21:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "重磅剧情啊，sc进入下一个阶段了啊。看样子斑鸠得安静一会了",
+  "text": "重磅剧情啊，sc进入下一个阶段了啊。看样子斑鸠得安静一会了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Du411s7oU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Du411s7oU&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Du411s7oU",
+    "coverUrl": "",
+    "title": "重磅剧情啊，sc进入下一个阶段了啊。看样子斑鸠得安静一会了"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgaaicfigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Du411s7oU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bcd5a3f3c2303e86ccb1e55f297d1de3d9516154e18c368f41a609851e1cface",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

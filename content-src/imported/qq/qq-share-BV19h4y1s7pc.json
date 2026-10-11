@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19h4y1s7pc",
+  "schemaVersion": 1,
+  "title": "分享 · 年三二酔閑吟冷",
+  "date": "2023-06-03",
+  "createdAt": "2023-06-03T09:44:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好一曲东方乱乱流",
+  "text": "好一曲东方乱乱流",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19h4y1s7pc",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19h4y1s7pc&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cc1b911d6177a4c189a9bdbd1de05f649a1b19d45a950aa4f1d4ed26bca3f36.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19h4y1s7pc",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cc1b911d6177a4c189a9bdbd1de05f649a1b19d45a950aa4f1d4ed26bca3f36.jpg",
+    "title": "年三二酔閑吟冷"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6cc1b911d6177a4c189a9bdbd1de05f649a1b19d45a950aa4f1d4ed26bca3f36.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhefihfigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19h4y1s7pc",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "舟中晚起白乐天",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1d7d7dcc6ce774388c6c5423c7a719e73cf444b891da47724acd9d97bc5173a1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

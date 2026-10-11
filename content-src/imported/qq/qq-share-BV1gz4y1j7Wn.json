@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gz4y1j7Wn",
+  "schemaVersion": 1,
+  "title": "分享 · 「ソウソウ」生田辉 in imascgSoL_day2",
+  "date": "2023-09-16",
+  "createdAt": "2023-09-16T12:44:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最喜欢的一曲",
+  "text": "最喜欢的一曲",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gz4y1j7Wn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gz4y1j7Wn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0e6525ea2549db1091e34d3f4848c899e0f08dd488dfea317f5132045e43c3b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gz4y1j7Wn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0e6525ea2549db1091e34d3f4848c899e0f08dd488dfea317f5132045e43c3b.jpg",
+    "title": "「ソウソウ」生田辉 in imascgSoL_day2"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a0e6525ea2549db1091e34d3f4848c899e0f08dd488dfea317f5132045e43c3b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egcigiejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gz4y1j7Wn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "nor22",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0ca5059d273ade017989ef643036f6e4f90203329ff2ae580ede201bc537570d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

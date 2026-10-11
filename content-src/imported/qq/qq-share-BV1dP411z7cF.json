@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dP411z7cF",
+  "schemaVersion": 1,
+  "title": "分享 · GTAOL偷偷练习坦斗术",
+  "date": "2023-08-19",
+  "createdAt": "2023-08-19T10:58:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "几年前想的东西还真有人能做出来？！ 又是练习技术的好日子",
+  "text": "几年前想的东西还真有人能做出来？！\n\n又是练习技术的好日子",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dP411z7cF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dP411z7cF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26aeedd395cd9599cec2055880611863521f61e6a54c8d52276dda123b0ec0ce.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dP411z7cF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26aeedd395cd9599cec2055880611863521f61e6a54c8d52276dda123b0ec0ce.jpg",
+    "title": "GTAOL偷偷练习坦斗术"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26aeedd395cd9599cec2055880611863521f61e6a54c8d52276dda123b0ec0ce.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjgceecjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dP411z7cF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "种满香菜321",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "34e24f413e47299973096321ffdea6fd0cd42deb9d2396bae2e2769de93e912f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

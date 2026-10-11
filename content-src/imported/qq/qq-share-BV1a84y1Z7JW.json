@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a84y1Z7JW",
+  "schemaVersion": 1,
+  "title": "分享 · DECO*27 - ブループラネット feat. 初音未来",
+  "date": "2023-08-31",
+  "createdAt": "2023-08-31T13:43:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "迟到了，罚我再听十六遍",
+  "text": "迟到了，罚我再听十六遍",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a84y1Z7JW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a84y1Z7JW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bcf9b48484c77b5f8ee3aec3d2ab811b18c7b978c1c1580229730900b323e1d3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a84y1Z7JW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bcf9b48484c77b5f8ee3aec3d2ab811b18c7b978c1c1580229730900b323e1d3.jpg",
+    "title": "DECO*27 - ブループラネット feat. 初音未来"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bcf9b48484c77b5f8ee3aec3d2ab811b18c7b978c1c1580229730900b323e1d3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdejiedjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a84y1Z7JW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "DECO27_Official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3d8ba5cf5f4ef44e83ff9c4eeb4e01ede2237c0a8b698093f5cf5726ed67ee6b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

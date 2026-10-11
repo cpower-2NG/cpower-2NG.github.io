@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Jj411v7aN",
+  "schemaVersion": 1,
+  "title": "分享 · 「Fashionable」SHHis MMD LIVE MV【偶像大师闪耀色彩】",
+  "date": "2023-10-17",
+  "createdAt": "2023-10-17T12:18:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "万南真被同人作品薄纱。别家都是现实live参考游戏，就scsp，不管振付还是镜头都不如现实live，抄作业都不会超。更何况sclive的镜...",
+  "text": "万南真被同人作品薄纱。别家都是现实live参考游戏，就scsp，不管振付还是镜头都不如现实live，抄作业都不会超。更何况sclive的镜...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Jj411v7aN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Jj411v7aN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c6362f630a89b7dca87ca1ce97c95ddcd89beb6a5b969fc3cbcc5bd3f9cad458.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Jj411v7aN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c6362f630a89b7dca87ca1ce97c95ddcd89beb6a5b969fc3cbcc5bd3f9cad458.jpg",
+    "title": "「Fashionable」SHHis MMD LIVE MV【偶像大师闪耀色彩】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c6362f630a89b7dca87ca1ce97c95ddcd89beb6a5b969fc3cbcc5bd3f9cad458.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ciafefhjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Jj411v7aN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "mobiusP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b60c64c3c7ed0d1008b676a9da372f06b7e7aa31988ef72cdc6aa5b09b9ff076",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

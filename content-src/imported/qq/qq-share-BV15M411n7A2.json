@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15M411n7A2",
+  "schemaVersion": 1,
+  "title": "分享 · 【ピアノ】偶像大师(如月千早)组曲 byよみぃ【♪約束,♪細氷,蒼い鳥,etc.】",
+  "date": "2023-02-14",
+  "createdAt": "2023-02-14T12:52:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "说给千早弹琴的人怎么看着眼熟,原来是yomii. www.youtube.com/watch?v=VFvZxixTlF4",
+  "text": "说给千早弹琴的人怎么看着眼熟,原来是yomii.\n\nwww.youtube.com/watch?v=VFvZxixTlF4",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15M411n7A2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15M411n7A2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38fd1eb22771297a167ffe4a897a2af8c9c756c937dd73699133fac2bcc27626.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15M411n7A2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38fd1eb22771297a167ffe4a897a2af8c9c756c937dd73699133fac2bcc27626.jpg",
+    "title": "【ピアノ】偶像大师(如月千早)组曲 byよみぃ【♪約束,♪細氷,蒼い鳥,etc.】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/38fd1eb22771297a167ffe4a897a2af8c9c756c937dd73699133fac2bcc27626.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdbjhdghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15M411n7A2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Partisan67",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fc356a5a6762ebab62ccd9010a4c786add2940c1ffeddad38e74e41b3070420b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

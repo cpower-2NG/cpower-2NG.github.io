@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qs411L7po",
+  "schemaVersion": 1,
+  "title": "分享 · 【散人】被虐的诺艾尔 更新至第十二季【天真少女与霸道恶魔】",
+  "date": "2023-04-12",
+  "createdAt": "2023-04-12T05:39:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "居然更新了。这是我玩的游戏里最热血王道的一部了，相当有魅力啊",
+  "text": "居然更新了。这是我玩的游戏里最热血王道的一部了，相当有魅力啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qs411L7po",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qs411L7po&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/215a603e153bf2c94776c019fa6c7d64651e9edc21fa6ddba3e8c2420f59d3bb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qs411L7po",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/215a603e153bf2c94776c019fa6c7d64651e9edc21fa6ddba3e8c2420f59d3bb.jpg",
+    "title": "【散人】被虐的诺艾尔 更新至第十二季【天真少女与霸道恶魔】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/215a603e153bf2c94776c019fa6c7d64651e9edc21fa6ddba3e8c2420f59d3bb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jejhhcbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qs411L7po",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "逍遥散人",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "427c2719dfbc611ad0f9e4483afea504adfa42e42df4679d735eb7ace6435257",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

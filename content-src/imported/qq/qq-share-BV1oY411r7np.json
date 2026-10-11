@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oY411r7np",
+  "schemaVersion": 1,
+  "title": "分享 · 【东方b3d】秘封帽子sox",
+  "date": "2023-03-17",
+  "createdAt": "2023-03-17T10:59:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "?",
+  "text": "?",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oY411r7np",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oY411r7np&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/47205415e52e49ddfc66680edbc75c45f21d1fe50b0753d4324ab683215fd063.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oY411r7np",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/47205415e52e49ddfc66680edbc75c45f21d1fe50b0753d4324ab683215fd063.jpg",
+    "title": "【东方b3d】秘封帽子sox"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/47205415e52e49ddfc66680edbc75c45f21d1fe50b0753d4324ab683215fd063.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jehafajhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oY411r7np",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "红魔の呆芙兰",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bcda2fe127d4268deac3db81dd6e27962fbfbf8c16bd99332dd2566d62f1ebbb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

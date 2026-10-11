@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qX4y1t7u2",
+  "schemaVersion": 1,
+  "title": "分享 · 【中文CC字幕】【25時、ナイトコードで。 × MEIKO】フォニイ（phony）【2DMV『世界计划 多彩舞台』收录曲",
+  "date": "2023-06-09",
+  "createdAt": "2023-06-09T15:44:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神pv",
+  "text": "神pv",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qX4y1t7u2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qX4y1t7u2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d11d055b00ea1b5485e9693972c5cc7bdb4f7ab160705a7d12e10af355f2437e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qX4y1t7u2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d11d055b00ea1b5485e9693972c5cc7bdb4f7ab160705a7d12e10af355f2437e.jpg",
+    "title": "【中文CC字幕】【25時、ナイトコードで。 × MEIKO】フォニイ（phony）【2DMV『世界计划 多彩舞台』收录曲】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d11d055b00ea1b5485e9693972c5cc7bdb4f7ab160705a7d12e10af355f2437e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "heefcdgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qX4y1t7u2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Project_SEKAI资讯站",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d90c42053adc973f7e272bff7025e52769a70cac04a43bd7d742227f539293ce",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

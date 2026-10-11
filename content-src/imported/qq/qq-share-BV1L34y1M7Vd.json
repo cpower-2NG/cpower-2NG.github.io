@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1L34y1M7Vd",
+  "schemaVersion": 1,
+  "title": "分享 · 这或许是b站第一个跟声优联动的vup？",
+  "date": "2023-09-05",
+  "createdAt": "2023-09-05T12:00:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "啊？ 木户衣吹是一名日本女性声优、歌手。青森县出身。代表作为偶像大师million live 碧蓝档案 崩坏3 率属于horipro international",
+  "text": "啊？\n\n木户衣吹是一名日本女性声优、歌手。青森县出身。代表作为偶像大师million live 碧蓝档案 崩坏3 率属于horipro international。-...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1L34y1M7Vd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1L34y1M7Vd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c3d7ab2353ba0318484692be4163649a63f9da27826f0efd08343fa74b820cb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1L34y1M7Vd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c3d7ab2353ba0318484692be4163649a63f9da27826f0efd08343fa74b820cb.jpg",
+    "title": "这或许是b站第一个跟声优联动的vup？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c3d7ab2353ba0318484692be4163649a63f9da27826f0efd08343fa74b820cb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bacfbjdjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1L34y1M7Vd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "りんうらん霖雨蘭",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "01b8497ddcfbd1df881397370862d2fde27f51bdd619969d5b6cbc91b8a44eac",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

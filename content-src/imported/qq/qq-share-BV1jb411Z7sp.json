@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jb411Z7sp",
+  "schemaVersion": 1,
+  "title": "分享 · 《INTERNET YAMERO》 Aiobahn feat. KOTOKO 《主播女孩重度依赖/NEEDY GIRL ",
+  "date": "2023-03-17",
+  "createdAt": "2023-03-17T13:05:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真是放开了做啊.",
+  "text": "真是放开了做啊.",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jb411Z7sp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jb411Z7sp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3f2954f0af2189b0973b965da20046e213f887bab2cc1119e8222bb6cbe99b2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jb411Z7sp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3f2954f0af2189b0973b965da20046e213f887bab2cc1119e8222bb6cbe99b2.jpg",
+    "title": "《INTERNET YAMERO》 Aiobahn feat. KOTOKO 《主播女孩重度依赖/NEEDY GIRL OVERDOSE》第二弹MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e3f2954f0af2189b0973b965da20046e213f887bab2cc1119e8222bb6cbe99b2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcdifajhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jb411Z7sp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "WSS_playground官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a85f144e362094f61749ddd14e903b48cf2cbe1ee3771436cc81c16cba91b2ae",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

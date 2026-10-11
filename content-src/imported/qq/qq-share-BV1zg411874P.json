@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zg411874P",
+  "schemaVersion": 1,
+  "title": "分享 · 如果能成为谁的心脏的话 / Lycoris Recoil",
+  "date": "2023-08-03",
+  "createdAt": "2023-08-03T03:33:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "瑕不掩瑜",
+  "text": "瑕不掩瑜",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zg411874P",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zg411874P&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f731b048788c41f8b57f18de1d92b4c94cf887df2c70ee52f14d3f649ab6ecb0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zg411874P",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f731b048788c41f8b57f18de1d92b4c94cf887df2c70ee52f14d3f649ab6ecb0.jpg",
+    "title": "如果能成为谁的心脏的话 / Lycoris Recoil"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f731b048788c41f8b57f18de1d92b4c94cf887df2c70ee52f14d3f649ab6ecb0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hcgddabjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zg411874P",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8c58e0164284fa2729a86658dd91f774b80c27f477fd81a620ea0a0cb3a4bdfe",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ca4y1c7mj",
+  "schemaVersion": 1,
+  "title": "分享 · 【动画短片/悠星】主播女孩重度依赖 销量破百万 岩仓玲音联动祝贺短片【MCE汉化组】",
+  "date": "2023-07-08",
+  "createdAt": "2023-07-08T00:55:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我操，玲音真来了！",
+  "text": "我操，玲音真来了！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ca4y1c7mj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ca4y1c7mj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f493b208051a099b7ce21e6dc7791e55973da960e97f0e69e7072c608f195034.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ca4y1c7mj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f493b208051a099b7ce21e6dc7791e55973da960e97f0e69e7072c608f195034.png",
+    "title": "【动画短片/悠星】主播女孩重度依赖 销量破百万 岩仓玲音联动祝贺短片【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f493b208051a099b7ce21e6dc7791e55973da960e97f0e69e7072c608f195034.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aahhhhiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ca4y1c7mj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "12445be060d67f5132db906b7ea4817d3125be308766c15f8752061e7a8f2b9e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

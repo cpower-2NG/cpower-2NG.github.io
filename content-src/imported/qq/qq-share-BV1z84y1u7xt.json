@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1z84y1u7xt",
+  "schemaVersion": 1,
+  "title": "分享 · 梦幻联动+声优访谈~高槻市一日游~高槻弥生生日快乐！！【偶像大师】",
+  "date": "2023-03-25",
+  "createdAt": "2023-03-25T15:21:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "高槻弥生生日快乐！！",
+  "text": "高槻弥生生日快乐！！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1z84y1u7xt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1z84y1u7xt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a8cea43393d6d42ccd6b079619f2f3bece847be9b3a6a9a2ef7d0241b5f4228e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1z84y1u7xt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a8cea43393d6d42ccd6b079619f2f3bece847be9b3a6a9a2ef7d0241b5f4228e.jpg",
+    "title": "梦幻联动+声优访谈~高槻市一日游~高槻弥生生日快乐！！【偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a8cea43393d6d42ccd6b079619f2f3bece847be9b3a6a9a2ef7d0241b5f4228e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iighfhjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1z84y1u7xt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "宝恺Blacky",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cc76fa7ddfee09bd202e8ecc38ec55604e4a0f017421d07c3b4330b00cee8180",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

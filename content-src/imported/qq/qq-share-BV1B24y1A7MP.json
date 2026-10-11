@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1B24y1A7MP",
+  "schemaVersion": 1,
+  "title": "分享 · 《素晴日：不连续存在》 圣地巡礼：在终结的天空下牵起你的手，我亲爱的脑内女友",
+  "date": "2023-06-07",
+  "createdAt": "2023-06-07T16:19:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好强的mad",
+  "text": "好强的mad",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B24y1A7MP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1B24y1A7MP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/efda0122fa96ea1d9cbbd4467023036fafb7ed128ff7c01b89a1ec5093b91e2c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1B24y1A7MP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/efda0122fa96ea1d9cbbd4467023036fafb7ed128ff7c01b89a1ec5093b91e2c.jpg",
+    "title": "《素晴日：不连续存在》 圣地巡礼：在终结的天空下牵起你的手，我亲爱的脑内女友"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/efda0122fa96ea1d9cbbd4467023036fafb7ed128ff7c01b89a1ec5093b91e2c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhhefbgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1B24y1A7MP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "北原夕凪",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b08a652d83cd201e7f57dffdf5d5252f77a0c46133ca42635c61135cb86b06ec",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

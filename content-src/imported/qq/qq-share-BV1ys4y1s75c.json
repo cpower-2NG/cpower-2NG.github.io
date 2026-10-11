@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ys4y1s75c",
+  "schemaVersion": 1,
+  "title": "分享 · MAD需要一些故事感！【",
+  "date": "2023-02-05",
+  "createdAt": "2023-02-05T06:23:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "排版的胜利",
+  "text": "排版的胜利",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ys4y1s75c",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ys4y1s75c&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2193707a15f2d1ba1e8f344a5c036661dbe1545b09eada44fabf1dacefb4256a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ys4y1s75c",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2193707a15f2d1ba1e8f344a5c036661dbe1545b09eada44fabf1dacefb4256a.jpg",
+    "title": "MAD需要一些故事感！【"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2193707a15f2d1ba1e8f344a5c036661dbe1545b09eada44fabf1dacefb4256a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjbihffhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ys4y1s75c",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "醉石散客",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "23457be75e901b3fb2a16425a935807a296520b4fc508bb7b7f747ba599ff924",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

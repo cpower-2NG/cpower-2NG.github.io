@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eC4y1f7cA",
+  "schemaVersion": 1,
+  "title": "分享 · 【浅谈】偶像大师U149第九话浅析【寻找向日葵标记】",
+  "date": "2023-09-30",
+  "createdAt": "2023-09-30T04:11:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "抹布西！",
+  "text": "抹布西！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eC4y1f7cA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eC4y1f7cA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8cfe3f093d92ed04c1c513d72fa562dd38223422688a841585fa8832e1f38c6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eC4y1f7cA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8cfe3f093d92ed04c1c513d72fa562dd38223422688a841585fa8832e1f38c6.jpg",
+    "title": "【浅谈】偶像大师U149第九话浅析【寻找向日葵标记】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d8cfe3f093d92ed04c1c513d72fa562dd38223422688a841585fa8832e1f38c6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hiaheagjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eC4y1f7cA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "deb5e8f00a4ba3d23725af43edb85e0a31e203c5a5b44304f45bdb39914c5dc9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cu41157oG",
+  "schemaVersion": 1,
+  "title": "分享 · 【轻小说/钉宫理惠】绯弹的亚里亚 15周年纪念PV【MCE汉化组】",
+  "date": "2023-07-24",
+  "createdAt": "2023-07-24T12:54:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "难得听到钉宫的少女声线了",
+  "text": "难得听到钉宫的少女声线了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cu41157oG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cu41157oG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7f72359950996120da1568dcd55e77f81110efc266fd767679b8d34e17c349fc.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cu41157oG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7f72359950996120da1568dcd55e77f81110efc266fd767679b8d34e17c349fc.png",
+    "title": "【轻小说/钉宫理惠】绯弹的亚里亚 15周年纪念PV【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7f72359950996120da1568dcd55e77f81110efc266fd767679b8d34e17c349fc.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahcdacajgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cu41157oG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c3ceaeacae380b013c7347ba4e67f28cc1f35dfcf4f30a3890f4c6332e26e474",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

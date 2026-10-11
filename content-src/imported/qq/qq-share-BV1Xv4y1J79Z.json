@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Xv4y1J79Z",
+  "schemaVersion": 1,
+  "title": "分享 · 【数码宝贝卡牌对战】简体中文版主题曲《一体同心together》MV",
+  "date": "2023-05-13",
+  "createdAt": "2023-05-13T13:55:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "豪哥曲子还是好听的。不过这流行唱法真不适合，豪哥估计就给了个谱子就没管了吧。按豪哥的习惯，这曲子可不会是这样的。什么时候...",
+  "text": "豪哥曲子还是好听的。不过这流行唱法真不适合，豪哥估计就给了个谱子就没管了吧。按豪哥的习惯，这曲子可不会是这样的。什么时候...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xv4y1J79Z",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Xv4y1J79Z&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0905e789afaef39500c99a90c181b8535a1d641f00163a48905786ded76c8460.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Xv4y1J79Z",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0905e789afaef39500c99a90c181b8535a1d641f00163a48905786ded76c8460.jpg",
+    "title": "【数码宝贝卡牌对战】简体中文版主题曲《一体同心together》MV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0905e789afaef39500c99a90c181b8535a1d641f00163a48905786ded76c8460.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ddbgijdigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Xv4y1J79Z",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "数码宝贝卡牌对战",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fe4d501a0487ceca321375caf23b086026f50be2ccfc3e2a074f949e148652b5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

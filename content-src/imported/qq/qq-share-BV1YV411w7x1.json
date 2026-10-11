@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1YV411w7x1",
+  "schemaVersion": 1,
+  "title": "分享 · 还得是钢哥，虽然还是摸了",
+  "date": "2023-09-30",
+  "createdAt": "2023-09-30T03:30:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还得是钢哥，虽然还是摸了",
+  "text": "还得是钢哥，虽然还是摸了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YV411w7x1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YV411w7x1&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YV411w7x1",
+    "coverUrl": "",
+    "title": "还得是钢哥，虽然还是摸了"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcgeeagjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YV411w7x1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "22cca4b1735ade93eb0f30b16f2ba84105c3d8899e2ca23f4f97686a53175c26",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

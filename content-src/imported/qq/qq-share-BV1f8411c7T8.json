@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1f8411c7T8",
+  "schemaVersion": 1,
+  "title": "分享 · 没有什么比看着JK们一起敲敲打打+争风吃醋更让人感到治愈的了【番声】",
+  "date": "2023-01-22",
+  "createdAt": "2023-01-22T12:30:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "看diy的时候是我最想k帧的时候 大家都是女士，怎么就你赢麻了？",
+  "text": "看diy的时候是我最想k帧的时候\n\n大家都是女士，怎么就你赢麻了？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1f8411c7T8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1f8411c7T8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7680ad513de97423fe79b8bd2c8573f6c71f4c019fdfd42a6a12269d8183263e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1f8411c7T8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7680ad513de97423fe79b8bd2c8573f6c71f4c019fdfd42a6a12269d8183263e.jpg",
+    "title": "没有什么比看着JK们一起敲敲打打+争风吃醋更让人感到治愈的了【番声】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7680ad513de97423fe79b8bd2c8573f6c71f4c019fdfd42a6a12269d8183263e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gegajdehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1f8411c7T8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "JK低手鱼太",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "67f4adcce09595d5faa9501f22c91a4031ce6e84c618206583041f4e6892bcf6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

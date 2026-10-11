@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tk4y1s72L",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】偶像大师 MOIW2023 大家元气!!!!!广播 vol.1",
+  "date": "2023-06-04",
+  "createdAt": "2023-06-04T11:47:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这就是系列总大将、王道阵营的领袖天海春香役，偶像大师头号功臣中村绘里子是也！",
+  "text": "这就是系列总大将、王道阵营的领袖天海春香役，偶像大师头号功臣中村绘里子是也！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tk4y1s72L",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tk4y1s72L&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fde8321ce069635a63d64380baeb63ab2f41d2d9847f1065b83b36b318ec839f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tk4y1s72L",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fde8321ce069635a63d64380baeb63ab2f41d2d9847f1065b83b36b318ec839f.jpg",
+    "title": "【中字】偶像大师 MOIW2023 大家元气!!!!!广播 vol.1"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fde8321ce069635a63d64380baeb63ab2f41d2d9847f1065b83b36b318ec839f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehcjhifigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tk4y1s72L",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fb32eabd4889d956d51a3249ad41e3aefe6e6fc46aec33dd7ac214a9d6520db4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

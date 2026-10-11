@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UQ4y1s7hk",
+  "schemaVersion": 1,
+  "title": "分享 · 「無自覚アプリオリ」【偶像大师闪耀色彩 Song for Prism MV】",
+  "date": "2023-10-22",
+  "createdAt": "2023-10-22T12:25:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "越轴敢不敢再多一点。不过怎么说呢，镜头已经好了太多了，至少知道看什么，画面主体是完整的。还好昨天live不是完全按这个跳 コメティック「無自覚アプリオリ」MV",
+  "text": "越轴敢不敢再多一点。不过怎么说呢，镜头已经好了太多了，至少知道看什么，画面主体是完整的。还好昨天live不是完全按这个跳\n\nコメティック「無自覚アプリオリ」MV",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UQ4y1s7hk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UQ4y1s7hk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9f399df5135b4385af4a0c471b43b692d19a9aab5c32837976b837f4301ffc4b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UQ4y1s7hk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9f399df5135b4385af4a0c471b43b692d19a9aab5c32837976b837f4301ffc4b.jpg",
+    "title": "「無自覚アプリオリ」【偶像大师闪耀色彩 Song for Prism MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9f399df5135b4385af4a0c471b43b692d19a9aab5c32837976b837f4301ffc4b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcfhhjhjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UQ4y1s7hk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c76b572b016abc6f74837b0391717a136f7b1f7b9ade85f5e1af39a602a91e06",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

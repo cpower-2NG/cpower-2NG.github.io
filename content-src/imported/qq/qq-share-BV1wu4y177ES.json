@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wu4y177ES",
+  "schemaVersion": 1,
+  "title": "分享 · 【吉他演奏】nostalgia - 图书馆/教堂专用BGM - 纸上的魔法使BGM",
+  "date": "2023-11-02",
+  "createdAt": "2023-11-02T14:26:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "小时候听这首曲子，把书都烧了",
+  "text": "小时候听这首曲子，把书都烧了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wu4y177ES",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wu4y177ES&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1d165387cd51781fa33f18e7408988471ac31d071cdcfa3b5fe6879b326b1fa2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wu4y177ES",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1d165387cd51781fa33f18e7408988471ac31d071cdcfa3b5fe6879b326b1fa2.jpg",
+    "title": "【吉他演奏】nostalgia - 图书馆/教堂专用BGM - 纸上的魔法使BGM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1d165387cd51781fa33f18e7408988471ac31d071cdcfa3b5fe6879b326b1fa2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chbfdjijgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wu4y177ES",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LogOffMyLife",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d08d80e63091e291ae83b16f20887b5fc54738fd559232f328671ac9c2b1f3f1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

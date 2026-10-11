@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Us4y1T7WK",
+  "schemaVersion": 1,
+  "title": "分享 · [熟肉·正式版]音MAD史 第1话 音MAD的开幕 ~ 互联网之海将我等接纳",
+  "date": "2023-05-29",
+  "createdAt": "2023-05-29T14:03:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这可是真正的史啊",
+  "text": "这可是真正的史啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Us4y1T7WK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Us4y1T7WK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a05a76995a5f7103337939969037154b93f4db0fed3899af38917c23024f1204.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Us4y1T7WK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a05a76995a5f7103337939969037154b93f4db0fed3899af38917c23024f1204.jpg",
+    "title": "[熟肉·正式版]音MAD史 第1话 音MAD的开幕 ~ 互联网之海将我等接纳"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a05a76995a5f7103337939969037154b93f4db0fed3899af38917c23024f1204.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edajgdfigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Us4y1T7WK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "琪露诺瓦露",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5a4d6d407d5d5520c6326d14c5d7a8acbf27eb0af7bd1fbf0974f7d0d29f22e9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

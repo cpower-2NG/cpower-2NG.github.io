@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ru4y1d7yv",
+  "schemaVersion": 1,
+  "title": "分享 · 「Laters」 テキサス＆ラップランド",
+  "date": "2023-06-12",
+  "createdAt": "2023-06-12T16:50:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "此时，我是一名声豚",
+  "text": "此时，我是一名声豚",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ru4y1d7yv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ru4y1d7yv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3b2af3e961871f8b2dd0fb37f57eb4f41e77757e36b4e1649da73ede2d2e1b9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ru4y1d7yv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3b2af3e961871f8b2dd0fb37f57eb4f41e77757e36b4e1649da73ede2d2e1b9.jpg",
+    "title": "「Laters」 テキサス＆ラップランド"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b3b2af3e961871f8b2dd0fb37f57eb4f41e77757e36b4e1649da73ede2d2e1b9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fbgiifgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ru4y1d7yv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "咸鱼王喵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b6f16e91271fd39ed3556728cfdec05b023e7336ccc2b755487ef89d0e87e3a5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

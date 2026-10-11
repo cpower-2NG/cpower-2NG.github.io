@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oV4y1d7ga",
+  "schemaVersion": 1,
+  "title": "分享 · ROMANTIC NOW",
+  "date": "2023-04-19",
+  "createdAt": "2023-04-19T12:10:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "先预热一下 nyaa",
+  "text": "先预热一下\n\nnyaa",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oV4y1d7ga",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oV4y1d7ga&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a78ed34807fb65f9465c60684cac416833b87dd0c9e19e35e8a0bf2b6d902a7.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oV4y1d7ga",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a78ed34807fb65f9465c60684cac416833b87dd0c9e19e35e8a0bf2b6d902a7.png",
+    "title": "ROMANTIC NOW"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a78ed34807fb65f9465c60684cac416833b87dd0c9e19e35e8a0bf2b6d902a7.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bbcgajbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oV4y1d7ga",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b6736f0f0b31ab7a1fb45a0720c29f4dbfb1c5bada0fefbb449c4bbb09ba3317",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

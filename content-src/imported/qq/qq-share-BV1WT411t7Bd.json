@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1WT411t7Bd",
+  "schemaVersion": 1,
+  "title": "分享 · 你们想看的U149版Tulip 【偶像大师灰姑娘 U149 MAD】",
+  "date": "2023-05-11",
+  "createdAt": "2023-05-11T12:28:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹",
+  "text": "艹",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WT411t7Bd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1WT411t7Bd&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b1cf25bbd670c0d411a8b1a0cbc07e376e5bfc5cde55577dd122d2f44e11375.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1WT411t7Bd",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b1cf25bbd670c0d411a8b1a0cbc07e376e5bfc5cde55577dd122d2f44e11375.jpg",
+    "title": "你们想看的U149版Tulip 【偶像大师灰姑娘 U149 MAD】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4b1cf25bbd670c0d411a8b1a0cbc07e376e5bfc5cde55577dd122d2f44e11375.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecbiaidigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1WT411t7Bd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7de751cbaf75bc5a5b5a6debd4495faafa4e9dc60ded9dd4cd4e673224152882",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

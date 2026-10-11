@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ho4y1t7TF",
+  "schemaVersion": 1,
+  "title": "分享 · 日野下花帆！~今天开始起加入283Pro~ - Spread the Wings!!（星耀季节）",
+  "date": "2023-05-01",
+  "createdAt": "2023-05-01T02:51:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这么快就把模型给扒出来了 为新游 ⌈偶像大师 闪耀色彩 Song for Prism⌋ 献上祝福",
+  "text": "这么快就把模型给扒出来了\n\n为新游 ⌈偶像大师 闪耀色彩 Song for Prism⌋ 献上祝福",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ho4y1t7TF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ho4y1t7TF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98ad0da792b159d38a9d93271523693c6e3b5fecd3c97d0102b82b5a555c3803.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ho4y1t7TF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98ad0da792b159d38a9d93271523693c6e3b5fecd3c97d0102b82b5a555c3803.jpg",
+    "title": "日野下花帆！~今天开始起加入283Pro~ - Spread the Wings!!（星耀季节）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98ad0da792b159d38a9d93271523693c6e3b5fecd3c97d0102b82b5a555c3803.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "biejajcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ho4y1t7TF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "YoruSuki_柚子橘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "26939bd03e2d507be05dbe8cbcffbe627f00ad4b171cc0f4e78e3f9275db9964",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

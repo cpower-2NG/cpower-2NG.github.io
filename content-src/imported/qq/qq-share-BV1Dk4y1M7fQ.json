@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Dk4y1M7fQ",
+  "schemaVersion": 1,
+  "title": "分享 · u149_11_超级豆仁作画片段",
+  "date": "2023-06-22",
+  "createdAt": "2023-06-22T04:23:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就是这段，国人原画。web系的特征还是很明显的，平添的一种幻想感",
+  "text": "就是这段，国人原画。web系的特征还是很明显的，平添的一种幻想感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Dk4y1M7fQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Dk4y1M7fQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a3278dea32b84f7c221ee7389342931f2f3b42ea67695f8b57dc75555854959.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Dk4y1M7fQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a3278dea32b84f7c221ee7389342931f2f3b42ea67695f8b57dc75555854959.jpg",
+    "title": "u149_11_超级豆仁作画片段"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a3278dea32b84f7c221ee7389342931f2f3b42ea67695f8b57dc75555854959.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjhhaehigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Dk4y1M7fQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Ainalala_Xcdlo",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8ef627c2460825015123bec8e959f384c3c9bd1ca52ef6dae4fd84ae93398c51",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

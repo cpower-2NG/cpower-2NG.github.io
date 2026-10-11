@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NR4y1s7jA",
+  "schemaVersion": 1,
+  "title": "分享 · [年の瀬合作2021単品] 六兆年と一夜物語パート",
+  "date": "2023-08-25",
+  "createdAt": "2023-08-25T13:53:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "总算找到了，总记得有听过希亚的人力，这位是真的喜欢希亚啊",
+  "text": "总算找到了，总记得有听过希亚的人力，这位是真的喜欢希亚啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NR4y1s7jA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NR4y1s7jA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16a668f24b31df4f1eb1772519b288663d8ce51b5829b1da837c16ef08b7bb92.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NR4y1s7jA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16a668f24b31df4f1eb1772519b288663d8ce51b5829b1da837c16ef08b7bb92.jpg",
+    "title": "[年の瀬合作2021単品] 六兆年と一夜物語パート"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16a668f24b31df4f1eb1772519b288663d8ce51b5829b1da837c16ef08b7bb92.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djfbhjcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NR4y1s7jA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "うせ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f75530c5b486cf7c69f235fd88810039cbdb2ae396079d3584961849a49f9f3b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

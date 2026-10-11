@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1NN411C7X3",
+  "schemaVersion": 1,
+  "title": "分享 · 深圳东",
+  "date": "2023-06-16",
+  "createdAt": "2023-06-16T13:09:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "向着更东方奔去",
+  "text": "向着更东方奔去",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NN411C7X3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1NN411C7X3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bc0bbd47b4d524c2fa9fae105637c38def1bc49a49981717e830db7f56c826a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1NN411C7X3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bc0bbd47b4d524c2fa9fae105637c38def1bc49a49981717e830db7f56c826a.jpg",
+    "title": "深圳东"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bc0bbd47b4d524c2fa9fae105637c38def1bc49a49981717e830db7f56c826a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aijacjgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1NN411C7X3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "FFFanwen",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "eb5110f2090b2bd16ca5148914a610ad402dd44618fc1d71ccc7ba4888c588c8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

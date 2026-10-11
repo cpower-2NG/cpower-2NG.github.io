@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Cm4y147xB",
+  "schemaVersion": 1,
+  "title": "分享 · 【8月】偶像大师 百万现场 剧场先行上映 正式PV",
+  "date": "2023-06-01",
+  "createdAt": "2023-06-01T13:59:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好帅的赤羽根p，突然感觉本家真的可能会接近神隐啊。这身体比例应该是没救了，还是和解吧。最后就是这动作确实是完爆sc啊。 www.youtube.com/watc",
+  "text": "好帅的赤羽根p，突然感觉本家真的可能会接近神隐啊。这身体比例应该是没救了，还是和解吧。最后就是这动作确实是完爆sc啊。\n\nwww.youtube.com/watch?v=58D58_Wp7Ok",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Cm4y147xB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Cm4y147xB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f655ee6caa781b2fc1c46e1a9de4be2ddac21d5736ecea2abd5c9c8248199138.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Cm4y147xB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f655ee6caa781b2fc1c46e1a9de4be2ddac21d5736ecea2abd5c9c8248199138.jpg",
+    "title": "【8月】偶像大师 百万现场 剧场先行上映 正式PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f655ee6caa781b2fc1c46e1a9de4be2ddac21d5736ecea2abd5c9c8248199138.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egjhcgfigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Cm4y147xB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7009a9dd111e99ef9685e4978a72d81d473c00b51f29d777434e96b98334baa9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

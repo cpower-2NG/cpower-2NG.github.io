@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cG411f7g8",
+  "schemaVersion": 1,
+  "title": "分享 · 杀忆杀忆",
+  "date": "2023-08-15",
+  "createdAt": "2023-08-15T08:23:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "静止画的魅力 本作品参与了蚊的音MAD征集令 - 挑战赛道",
+  "text": "静止画的魅力\n\n本作品参与了蚊的音MAD征集令 - 挑战赛道",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cG411f7g8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cG411f7g8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/685654aa8fb13a9d242e0380e02999d999461e04a61bf2f279628ce311de2aa3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cG411f7g8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/685654aa8fb13a9d242e0380e02999d999461e04a61bf2f279628ce311de2aa3.jpg",
+    "title": "杀忆杀忆"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/685654aa8fb13a9d242e0380e02999d999461e04a61bf2f279628ce311de2aa3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fjhhiacjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cG411f7g8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "铝合金键盘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "38695b11c08bf3c9b5016d81ef518da50dfea9f0586b186ae2235791366bc5b4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

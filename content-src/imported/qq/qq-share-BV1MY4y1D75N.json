@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MY4y1D75N",
+  "schemaVersion": 1,
+  "title": "分享 · トンデモぼっち",
+  "date": "2023-03-31",
+  "createdAt": "2023-03-31T11:04:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "*神的上升* 2022年11月12日 从Youtube上重新上传 我是这个视频的创作者。",
+  "text": "*神的上升*\n\n2022年11月12日　从Youtube上重新上传　我是这个视频的创作者。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MY4y1D75N",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MY4y1D75N&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf584568849fb53aa3c59c9ed6a52f8a78bc278d6b77bfbf989b63babdadfdf4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MY4y1D75N",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf584568849fb53aa3c59c9ed6a52f8a78bc278d6b77bfbf989b63babdadfdf4.jpg",
+    "title": "トンデモぼっち"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bf584568849fb53aa3c59c9ed6a52f8a78bc278d6b77bfbf989b63babdadfdf4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dggagcaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MY4y1D75N",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Kayoffel",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d2b109cd0eeaf99035b5095d5397660953968cfbc22462492deac96cd7569d70",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

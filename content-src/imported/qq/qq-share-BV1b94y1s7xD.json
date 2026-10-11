@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1b94y1s7xD",
+  "schemaVersion": 1,
+  "title": "分享 · 百万P热唱月锅",
+  "date": "2023-09-16",
+  "createdAt": "2023-09-16T12:27:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有能源P！ 月锅，一门每位普罗丢瑟的必修课",
+  "text": "有能源P！\n\n月锅，一门每位普罗丢瑟的必修课",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1b94y1s7xD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1b94y1s7xD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/955603443b60e79659222ff510acf24a82c5505dfd59283956e1ca4d79667366.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1b94y1s7xD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/955603443b60e79659222ff510acf24a82c5505dfd59283956e1ca4d79667366.jpg",
+    "title": "百万P热唱月锅"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/955603443b60e79659222ff510acf24a82c5505dfd59283956e1ca4d79667366.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhchgiejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1b94y1s7xD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "獭獭p",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d71eb224e365e33c9470249e5c2bd4bd5d3627004c7abee1313e59789abaddfd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

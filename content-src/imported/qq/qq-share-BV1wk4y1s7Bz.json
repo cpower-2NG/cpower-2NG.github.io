@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wk4y1s7Bz",
+  "schemaVersion": 1,
+  "title": "分享 · 蓝天上的面容【NovelsM@ster】",
+  "date": "2023-06-07",
+  "createdAt": "2023-06-07T07:40:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "夏日的故事确实有一种迷人的魅力呢，或者说这种虚化时间的感觉？",
+  "text": "夏日的故事确实有一种迷人的魅力呢，或者说这种虚化时间的感觉？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wk4y1s7Bz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wk4y1s7Bz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/64bf574bf0a80c05e78acdf6ebd32caf3ef2baacdeba30dd2d1d829e7a65a127.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wk4y1s7Bz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/64bf574bf0a80c05e78acdf6ebd32caf3ef2baacdeba30dd2d1d829e7a65a127.jpg",
+    "title": "蓝天上的面容【NovelsM@ster】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/64bf574bf0a80c05e78acdf6ebd32caf3ef2baacdeba30dd2d1d829e7a65a127.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jegdcbgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wk4y1s7Bz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "益子鼎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9923e383a0ba8349d0853d3759f17ba24745517d2618e5ea384eaf7dce743ab7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

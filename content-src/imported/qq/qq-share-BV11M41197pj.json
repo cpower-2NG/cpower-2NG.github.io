@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11M41197pj",
+  "schemaVersion": 1,
+  "title": "分享 · 平行線の美学",
+  "date": "2023-10-21",
+  "createdAt": "2023-10-21T11:40:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还真有点nico系的味道。话说还真被我猜到了？ルカ不是c？ web",
+  "text": "还真有点nico系的味道。话说还真被我猜到了？ルカ不是c？\n\nweb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11M41197pj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11M41197pj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aed9ea3ea73164defcef756676a90d83ac4e8c411472d899023745070b585cc4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11M41197pj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aed9ea3ea73164defcef756676a90d83ac4e8c411472d899023745070b585cc4.jpg",
+    "title": "平行線の美学"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/aed9ea3ea73164defcef756676a90d83ac4e8c411472d899023745070b585cc4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gaeiiihjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11M41197pj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "祝各位单抽出年",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "175644ee0655f6e653e5ed6eff02e2417cf1f0ff99858d9c9259a7e4ea349588",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

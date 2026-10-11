@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Gp4y1u7Tq",
+  "schemaVersion": 1,
+  "title": "分享 · 今天周四，来过豆芽祭吧",
+  "date": "2023-10-13",
+  "createdAt": "2023-10-13T12:43:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "豆芽这样做真挺好吃的，我弥生真是贤惠 庆祝偶像大师百万开播，尝试了一下复刻本家中高槻家的秘传豆芽菜酱汁，感觉是没尝过的味道QAQ",
+  "text": "豆芽这样做真挺好吃的，我弥生真是贤惠\n\n庆祝偶像大师百万开播，尝试了一下复刻本家中高槻家的秘传豆芽菜酱汁，感觉是没尝过的味道QAQ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Gp4y1u7Tq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Gp4y1u7Tq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/485c5a7ef85425c3f62d2895a2298d28205be537189b35919416b0b446e476b3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Gp4y1u7Tq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/485c5a7ef85425c3f62d2895a2298d28205be537189b35919416b0b446e476b3.jpg",
+    "title": "今天周四，来过豆芽祭吧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/485c5a7ef85425c3f62d2895a2298d28205be537189b35919416b0b446e476b3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ababachjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Gp4y1u7Tq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "AraKoyo",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "09adc3228606fa57c3805dfbfa460324d71c885520462c9e9864caeffcb80bac",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

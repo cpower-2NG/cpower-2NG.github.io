@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1au4y117w9",
+  "schemaVersion": 1,
+  "title": "分享 · 【剧场版】你的颜色 先导PV",
+  "date": "2023-08-04",
+  "createdAt": "2023-08-04T02:35:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "又延期，什么时候能出来呢。这几位在一起太让人期待了 www.youtube.com/watch?v=06JUSvvGnDA",
+  "text": "又延期，什么时候能出来呢。这几位在一起太让人期待了\n\nwww.youtube.com/watch?v=06JUSvvGnDA",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1au4y117w9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1au4y117w9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbac5e38ca41e792dfcaf631a9d0caf8694cce258b622315f0e0a291e6cc2819.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1au4y117w9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbac5e38ca41e792dfcaf631a9d0caf8694cce258b622315f0e0a291e6cc2819.jpg",
+    "title": "【剧场版】你的颜色 先导PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cbac5e38ca41e792dfcaf631a9d0caf8694cce258b622315f0e0a291e6cc2819.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbfgbbbjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1au4y117w9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2d62fbef708a3f1ea15e034c49a6f1e8cd032607f20a76f612cd8d07295a43e6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

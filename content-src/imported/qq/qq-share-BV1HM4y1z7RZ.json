@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1HM4y1z7RZ",
+  "schemaVersion": 1,
+  "title": "分享 · 百万TV动画番宣相关合集",
+  "date": "2023-03-25",
+  "createdAt": "2023-03-25T06:18:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "shirogumi make million great again",
+  "text": "shirogumi make million great again",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HM4y1z7RZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HM4y1z7RZ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02990248a9204e4af43cba377b8a2a6c9b500f467e7f41bbbbc6cf66c8a4a385.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HM4y1z7RZ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02990248a9204e4af43cba377b8a2a6c9b500f467e7f41bbbbc6cf66c8a4a385.png",
+    "title": "百万TV动画番宣相关合集"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02990248a9204e4af43cba377b8a2a6c9b500f467e7f41bbbbc6cf66c8a4a385.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcbfchjhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HM4y1z7RZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b405e82f0e8750d09d70afcab7a307982553afdd34ede35db130be6fa5ca5f42",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

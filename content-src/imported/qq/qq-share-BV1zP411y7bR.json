@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zP411y7bR",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师 闪耀色彩】迷光新曲「Imitation Ghost」game ver 试听",
+  "date": "2023-07-10",
+  "createdAt": "2023-07-10T11:19:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "该说不愧是P主出身吗，这曲子感觉更适合乐队形式啊，不知道有没有机会",
+  "text": "该说不愧是P主出身吗，这曲子感觉更适合乐队形式啊，不知道有没有机会",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zP411y7bR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zP411y7bR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4707ebd13bddb73b95a59822cbd18c40cb26fd11d2a52ab265427e732f7d1dde.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zP411y7bR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4707ebd13bddb73b95a59822cbd18c40cb26fd11d2a52ab265427e732f7d1dde.jpg",
+    "title": "【偶像大师 闪耀色彩】迷光新曲「Imitation Ghost」game ver 试听"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4707ebd13bddb73b95a59822cbd18c40cb26fd11d2a52ab265427e732f7d1dde.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjjhijiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zP411y7bR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4c014f6b3c0503cecbd0b835e4ec1fd6f810ad3c88e633b672b55a4d951fac8a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

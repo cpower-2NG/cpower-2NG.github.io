@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1sj411u7ah",
+  "schemaVersion": 1,
+  "title": "分享 · 【STIC19/Dance】派对玩家//“𝙋𝙖𝙧𝙩𝙮 𝙈𝙖𝙠𝙚𝙧”",
+  "date": "2023-03-08",
+  "createdAt": "2023-03-08T23:26:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好强!",
+  "text": "好强!",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sj411u7ah",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sj411u7ah&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/710541ff3bf8ae960d44fe0a1b1fa84dab6b01d54c5cc8a91e4a63705f3d1a08.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sj411u7ah",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/710541ff3bf8ae960d44fe0a1b1fa84dab6b01d54c5cc8a91e4a63705f3d1a08.jpg",
+    "title": "【STIC19/Dance】派对玩家//“𝙋𝙖𝙧𝙩𝙮 𝙈𝙖𝙠𝙚𝙧”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/710541ff3bf8ae960d44fe0a1b1fa84dab6b01d54c5cc8a91e4a63705f3d1a08.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hgjhbdihgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sj411u7ah",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "寒雨默",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c9a7ac2c7d5ffc3a2131ad31c5ee683286942964b4a18c79f963f415ea6ea6d0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

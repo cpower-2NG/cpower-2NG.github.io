@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11G4y1D76N",
+  "schemaVersion": 1,
+  "title": "分享 · 【2023东方新春宴单品】ヒカリ",
+  "date": "2023-02-05",
+  "createdAt": "2023-02-05T06:50:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "被歌曲限制了编排啊",
+  "text": "被歌曲限制了编排啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11G4y1D76N",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11G4y1D76N&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6660abb43621b4d11c64878def6a619357967b141677c3fab1651c347199d6c6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11G4y1D76N",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6660abb43621b4d11c64878def6a619357967b141677c3fab1651c347199d6c6.jpg",
+    "title": "【2023东方新春宴单品】ヒカリ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6660abb43621b4d11c64878def6a619357967b141677c3fab1651c347199d6c6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iaijhffhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11G4y1D76N",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "镹十玖星降",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "898220c2a620644828930c09df9b1b5503c53c59e5e0b272f4dcae8c8afd7757",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

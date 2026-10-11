@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VV4y1S7Sf",
+  "schemaVersion": 1,
+  "title": "分享 · 【个人字幕】闪耀色彩５周年WEB CM",
+  "date": "2023-04-02",
+  "createdAt": "2023-04-02T10:14:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "本家动画ep1既视感，这对我来说算是im@s的醍醐味了 不误正业系列",
+  "text": "本家动画ep1既视感，这对我来说算是im@s的醍醐味了\n\n不误正业系列",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VV4y1S7Sf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VV4y1S7Sf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/565073b5badfb68b0a0d00bedd8950939de13ffdd7542d3d3f08d7914853a05d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VV4y1S7Sf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/565073b5badfb68b0a0d00bedd8950939de13ffdd7542d3d3f08d7914853a05d.jpg",
+    "title": "【个人字幕】闪耀色彩５周年WEB CM"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/565073b5badfb68b0a0d00bedd8950939de13ffdd7542d3d3f08d7914853a05d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgeadeaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VV4y1S7Sf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "森森森最棒了",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3b93b968d382f4f9ba834ab636494d7e20f991460829e58b1f0cdbeaa2a462ab",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

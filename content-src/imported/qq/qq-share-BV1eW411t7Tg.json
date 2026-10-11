@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eW411t7Tg",
+  "schemaVersion": 1,
+  "title": "分享 · 【静止系MAD】Alla fine delle lacrime【水葬银币的伊斯特里亚】【MADMAX2017】",
+  "date": "2023-04-16",
+  "createdAt": "2023-04-16T05:26:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "情绪流才应该是mad的要义。另外，这曲子原来这么丰富的吗",
+  "text": "情绪流才应该是mad的要义。另外，这曲子原来这么丰富的吗",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eW411t7Tg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eW411t7Tg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fec3555370645deee52c66c5e2415c7703f19c33fa0515763bb2c59aef873bc5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eW411t7Tg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fec3555370645deee52c66c5e2415c7703f19c33fa0515763bb2c59aef873bc5.jpg",
+    "title": "【静止系MAD】Alla fine delle lacrime【水葬银币的伊斯特里亚】【MADMAX2017】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fec3555370645deee52c66c5e2415c7703f19c33fa0515763bb2c59aef873bc5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhhccgbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eW411t7Tg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Magus",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2ecb55a3ad410d2d7d0725aacf3b059a394fa0710300cfd0f0432f895ab3d701",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

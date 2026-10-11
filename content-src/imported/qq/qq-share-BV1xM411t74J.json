@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xM411t74J",
+  "schemaVersion": 1,
+  "title": "分享 · 【2023东方新春宴单品】东方×Random 音MAD合作",
+  "date": "2023-01-26",
+  "createdAt": "2023-01-26T05:56:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "确实很符合random合作之名,音频就天子段有点欣喜,不过作为新人合作,这样的质量也不错了.真的很乱很random,但好像又不及東方乱乱流",
+  "text": "确实很符合random合作之名,音频就天子段有点欣喜,不过作为新人合作,这样的质量也不错了.真的很乱很random,但好像又不及東方乱乱流",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xM411t74J",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xM411t74J&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36cba3a1be11e423912c242dfa694f33f9b6cdbcc80fe59ddaa75db68254a29f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xM411t74J",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36cba3a1be11e423912c242dfa694f33f9b6cdbcc80fe59ddaa75db68254a29f.jpg",
+    "title": "【2023东方新春宴单品】东方×Random 音MAD合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36cba3a1be11e423912c242dfa694f33f9b6cdbcc80fe59ddaa75db68254a29f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cifcbhehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xM411t74J",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "稀神灵梦",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ac886ba711f38a9184e88d09714dbfcbf9d5c8e8c0788e6970f073ac6a2d2369",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

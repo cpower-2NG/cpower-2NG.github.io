@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fY411C7ku",
+  "schemaVersion": 1,
+  "title": "分享 · 【たいちP】ふぁっしょねいぼー 踊ってみた",
+  "date": "2023-01-11",
+  "createdAt": "2023-01-11T07:39:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹",
+  "text": "艹",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fY411C7ku",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fY411C7ku&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eee8d94079009c5bc881b5a8817063775d64a9e7ed5b9c0548c371cda00a3357.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fY411C7ku",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eee8d94079009c5bc881b5a8817063775d64a9e7ed5b9c0548c371cda00a3357.jpg",
+    "title": "【たいちP】ふぁっしょねいぼー 踊ってみた"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eee8d94079009c5bc881b5a8817063775d64a9e7ed5b9c0548c371cda00a3357.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfhccedhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fY411C7ku",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "五年目",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "03f521b1bcafe6430a5573d05a6cfe1d826956dd0ac0332cb71e3dacbffb8275",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dA411k7Qv",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作单品】近十年科技事件组成的亡灵幻想曲",
+  "date": "2023-01-28",
+  "createdAt": "2023-01-28T12:33:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这一单品的素材是让我最惊喜的",
+  "text": "这一单品的素材是让我最惊喜的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dA411k7Qv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dA411k7Qv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56d7782959516a84caf084e93d7521f3ebc786b04816ed7d88600f6411695d57.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dA411k7Qv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56d7782959516a84caf084e93d7521f3ebc786b04816ed7d88600f6411695d57.png",
+    "title": "【合作单品】近十年科技事件组成的亡灵幻想曲"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/56d7782959516a84caf084e93d7521f3ebc786b04816ed7d88600f6411695d57.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gacjajehgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dA411k7Qv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "gt2k01",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5bb81cc9e92fe9652b94907627da5a8c8f7f162d60b97f3a1591acbd56caaa6d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

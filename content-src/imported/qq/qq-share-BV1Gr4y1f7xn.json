@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Gr4y1f7xn",
+  "schemaVersion": 1,
+  "title": "分享 · 【10月/P.A.WORKS】【世界计划 多彩舞台】3周年纪念 主线剧情短篇动画 Leo/need篇预告",
+  "date": "2023-09-28",
+  "createdAt": "2023-09-28T13:04:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "世界计划讲啥来着，戏内外差别太大，让我很容易二设入脑啊",
+  "text": "世界计划讲啥来着，戏内外差别太大，让我很容易二设入脑啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Gr4y1f7xn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Gr4y1f7xn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/368d8d88bad77fe02366722513ca2da9ffc1d13dde1e92d8d22c7609ca22b2d5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Gr4y1f7xn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/368d8d88bad77fe02366722513ca2da9ffc1d13dde1e92d8d22c7609ca22b2d5.jpg",
+    "title": "【10月/P.A.WORKS】【世界计划 多彩舞台】3周年纪念 主线剧情短篇动画 Leo/need篇预告"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/368d8d88bad77fe02366722513ca2da9ffc1d13dde1e92d8d22c7609ca22b2d5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjcgajfjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Gr4y1f7xn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Project_SEKAI资讯站",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7202f48dbe4e78b74986a9760025bbbd188be2a41f065a53bc04139a527529ee",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

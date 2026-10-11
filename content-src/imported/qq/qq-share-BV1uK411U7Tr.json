@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uK411U7Tr",
+  "schemaVersion": 1,
+  "title": "分享 · 【iM@SHUP】夢見の魔法",
+  "date": "2023-03-03",
+  "createdAt": "2023-03-03T11:41:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "很好的mix 日高零奈(CV:蔀 祐佳)-しあわせの魔法 (feat. Jun Kuroda)×樋口円香 (CV.土屋李央)-夢見鳥",
+  "text": "很好的mix\n\n日高零奈(CV:蔀 祐佳)-しあわせの魔法 (feat. Jun Kuroda)×樋口円香 (CV.土屋李央)-夢見鳥",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uK411U7Tr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uK411U7Tr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e096009d6730586cd3b1d5054beda185f33ee5dedeea049878a55394ded86b.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uK411U7Tr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e096009d6730586cd3b1d5054beda185f33ee5dedeea049878a55394ded86b.png",
+    "title": "【iM@SHUP】夢見の魔法"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a5e096009d6730586cd3b1d5054beda185f33ee5dedeea049878a55394ded86b.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cahdeihhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uK411U7Tr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ゆいP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b04a1ca5c0b10d699eca8f25c1e1eba19d0ecf290821710614f786e99ee33134",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

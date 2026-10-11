@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13g4y1q7Tp",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】中村绘里子和那个女孩的相遇",
+  "date": "2023-03-28",
+  "createdAt": "2023-03-28T12:22:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "预告一下，算是自我监督吧",
+  "text": "预告一下，算是自我监督吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13g4y1q7Tp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13g4y1q7Tp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/09ecdbffad60f4b0c28dc97080d07b77d9835bbd6e06d7c0a7b0d0b588d4336b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13g4y1q7Tp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/09ecdbffad60f4b0c28dc97080d07b77d9835bbd6e06d7c0a7b0d0b588d4336b.jpg",
+    "title": "【中字】中村绘里子和那个女孩的相遇"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/09ecdbffad60f4b0c28dc97080d07b77d9835bbd6e06d7c0a7b0d0b588d4336b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aebgaaaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13g4y1q7Tp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "zeroxiris",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "02024f75f0c0ac2d36e7c0cc50d4c74655cae2bb5bb6f9ec4a20722606c41d49",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

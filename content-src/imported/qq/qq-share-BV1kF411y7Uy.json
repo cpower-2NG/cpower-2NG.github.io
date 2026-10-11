@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kF411y7Uy",
+  "schemaVersion": 1,
+  "title": "分享 · 【玲音】冷启动",
+  "date": "2023-08-17",
+  "createdAt": "2023-08-17T11:06:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "玲音mad！",
+  "text": "玲音mad！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kF411y7Uy",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kF411y7Uy&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bb9db60ceb5bb251ca04328b5c7aa57f006a311247ce05111694692e9a72b0c.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kF411y7Uy",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bb9db60ceb5bb251ca04328b5c7aa57f006a311247ce05111694692e9a72b0c.jpg",
+    "title": "【玲音】冷启动"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2bb9db60ceb5bb251ca04328b5c7aa57f006a311247ce05111694692e9a72b0c.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "daeahccjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kF411y7Uy",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "lachrymaL_Futura",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bb25f3b3b5590a1529f91327faec9eab8f6854ed786977b921c72d9222dbad44",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

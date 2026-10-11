@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1A84y1D7Vg",
+  "schemaVersion": 1,
+  "title": "分享 · 「魔法纪录」新企划「魔法少女小圆 scene0」预告PV",
+  "date": "2023-09-24",
+  "createdAt": "2023-09-24T11:18:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "www.youtube.com/watch?v=uO1SMBeziAk",
+  "text": "www.youtube.com/watch?v=uO1SMBeziAk",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1A84y1D7Vg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1A84y1D7Vg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4136f01c5f6f513e775aca4925541a124a6ee221140e0b19e48fe9aaab6af1d9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1A84y1D7Vg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4136f01c5f6f513e775aca4925541a124a6ee221140e0b19e48fe9aaab6af1d9.jpg",
+    "title": "「魔法纪录」新企划「魔法少女小圆 scene0」预告PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4136f01c5f6f513e775aca4925541a124a6ee221140e0b19e48fe9aaab6af1d9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcdefffjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1A84y1D7Vg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a26c478f1962fa24f2cf62fc69bbff640c99bf8406e02ec548f09c1d9d830caf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

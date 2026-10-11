@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1cV4y1C7Qx",
+  "schemaVersion": 1,
+  "title": "分享 · HAPPY BIRTHDAY！IORI",
+  "date": "2023-05-04",
+  "createdAt": "2023-05-04T22:21:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "伊织生日快乐！",
+  "text": "伊织生日快乐！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cV4y1C7Qx",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1cV4y1C7Qx&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d9fc8c8564cc00dbd83a50bc267a6baa4d69cf642ab862ab4432ee2e4270bae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1cV4y1C7Qx",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d9fc8c8564cc00dbd83a50bc267a6baa4d69cf642ab862ab4432ee2e4270bae.jpg",
+    "title": "HAPPY BIRTHDAY！IORI"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d9fc8c8564cc00dbd83a50bc267a6baa4d69cf642ab862ab4432ee2e4270bae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhiidcdigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1cV4y1C7Qx",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "df8f079f337ac96bf89dd459a319e98964b891ac6e0584d897209b2c5c47ead4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVlsAouyGi5BrZ",
+  "schemaVersion": 1,
+  "title": "分享 · 另外说一下，u149本季度Nico霸榜了，除了小春回掉队。nico民没有忘记im@s（",
+  "date": "2023-06-28",
+  "createdAt": "2023-06-28T16:42:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "另外说一下，u149本季度Nico霸榜了，除了小春回掉队。nico民没有忘记im@s（",
+  "text": "另外说一下，u149本季度Nico霸榜了，除了小春回掉队。nico民没有忘记im@s（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVlsAouyGi5BrZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVlsAouyGi5BrZ&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVlsAouyGi5BrZ",
+    "coverUrl": "",
+    "title": "另外说一下，u149本季度Nico霸榜了，除了小春回掉队。nico民没有忘记im@s（"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0fa629c64a6990500",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVlsAouyGi5BrZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f36b7abbdaf3b45241104859ea4595f32b0d3479576176fad6a12244b7026a98",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

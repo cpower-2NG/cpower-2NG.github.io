@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1eM411g7gS",
+  "schemaVersion": 1,
+  "title": "分享 · Band's hopes and dream",
+  "date": "2023-03-31",
+  "createdAt": "2023-03-31T12:31:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "声的厚度suki，和弦改变suki，没有合适的人声念白有点遗憾。",
+  "text": "声的厚度suki，和弦改变suki，没有合适的人声念白有点遗憾。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eM411g7gS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1eM411g7gS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6faf47e6ca9e59dbb8016d4340d1425d299054d94678198e577e80fe8ff626b4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1eM411g7gS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6faf47e6ca9e59dbb8016d4340d1425d299054d94678198e577e80fe8ff626b4.jpg",
+    "title": "Band's hopes and dream"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6faf47e6ca9e59dbb8016d4340d1425d299054d94678198e577e80fe8ff626b4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehifgcaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1eM411g7gS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "09b2bf30ef761a2b63e58dab8cd4813f428c43cb4e570a796ba612af2cbf85ec",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

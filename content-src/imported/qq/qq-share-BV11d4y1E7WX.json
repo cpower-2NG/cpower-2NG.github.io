@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11d4y1E7WX",
+  "schemaVersion": 1,
+  "title": "分享 · 《偶像大师》系列街机平台新作《偶像大师TOURS》先导影片",
+  "date": "2023-02-10",
+  "createdAt": "2023-02-10T12:27:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "必移植,柄不好看,必有养成,铁续作.最后就看脚本了",
+  "text": "必移植,柄不好看,必有养成,铁续作.最后就看脚本了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11d4y1E7WX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11d4y1E7WX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fc67a9a2c3a2b84256f8effc4c8549e81702f7612e59a1935f2f224ca51011ad.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11d4y1E7WX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fc67a9a2c3a2b84256f8effc4c8549e81702f7612e59a1935f2f224ca51011ad.jpg",
+    "title": "《偶像大师》系列街机平台新作《偶像大师TOURS》先导影片"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fc67a9a2c3a2b84256f8effc4c8549e81702f7612e59a1935f2f224ca51011ad.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "efacdaghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11d4y1E7WX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "A9VG",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7292372903d8a2c72ef7af637804c6b60a9f071f163140ba3cadda96f74fdd67",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1AL411v7B3",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「リベレイシング／アロン -LiberaSing Along-」(活动限定SSR another appea",
+  "date": "2023-04-19",
+  "createdAt": "2023-04-19T12:02:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "鸟之诗的编曲啊，那时候就在anisong里大玩迷幻电子的大手子",
+  "text": "鸟之诗的编曲啊，那时候就在anisong里大玩迷幻电子的大手子",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AL411v7B3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1AL411v7B3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be84ceed1cc0c58c39ab3f6b616efdb1541e381c7570bcd53a265a42e4f46dc7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1AL411v7B3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be84ceed1cc0c58c39ab3f6b616efdb1541e381c7570bcd53a265a42e4f46dc7.jpg",
+    "title": "4K HDR「リベレイシング／アロン -LiberaSing Along-」(活动限定SSR another appeal)【偶像大师百万现场MLTD MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be84ceed1cc0c58c39ab3f6b616efdb1541e381c7570bcd53a265a42e4f46dc7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ighfajbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1AL411v7B3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4e4ae7453557325538db48ebe55012833558c48bcf9d1ba38634f022c6a88f5b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

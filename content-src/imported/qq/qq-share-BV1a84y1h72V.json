@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a84y1h72V",
+  "schemaVersion": 1,
+  "title": "分享 · 切片「オレンジ•エピソード」",
+  "date": "2023-01-16",
+  "createdAt": "2023-01-16T02:22:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "等实装了 www.youtube.com/watch?v=c97tLMSTJu0",
+  "text": "等实装了\n\nwww.youtube.com/watch?v=c97tLMSTJu0",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a84y1h72V",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a84y1h72V&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2703cf2d21cb7c75401956ec58b95d5e77da650ad18b3c2453d6af99dd924940.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a84y1h72V",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2703cf2d21cb7c75401956ec58b95d5e77da650ad18b3c2453d6af99dd924940.jpg",
+    "title": "切片「オレンジ•エピソード」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2703cf2d21cb7c75401956ec58b95d5e77da650ad18b3c2453d6af99dd924940.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ichfdidhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a84y1h72V",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "星彡P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6963d2db718ed73d24bdf2bfe0c805083d6772283e6d4791227f4fb4e284a8d2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

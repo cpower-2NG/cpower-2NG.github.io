@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19V4y1R73o",
+  "schemaVersion": 1,
+  "title": "分享 · 秋葉原 ゲーマーズ 柚子社 新作发卖 现场",
+  "date": "2023-04-28",
+  "createdAt": "2023-04-28T12:00:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "现在这种场贩也就柚子社能做到了，柚子真是业界支柱啊 好激动好激动好激动好激动好激动，后面开始数数激动的颤抖",
+  "text": "现在这种场贩也就柚子社能做到了，柚子真是业界支柱啊\n\n好激动好激动好激动好激动好激动，后面开始数数激动的颤抖",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19V4y1R73o",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19V4y1R73o&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b594f1a6c3cfe231f8cb92d364b9c6e56836f654324c1dc51b9209da60fc7cb3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19V4y1R73o",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b594f1a6c3cfe231f8cb92d364b9c6e56836f654324c1dc51b9209da60fc7cb3.jpg",
+    "title": "秋葉原 ゲーマーズ 柚子社 新作发卖 现场"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b594f1a6c3cfe231f8cb92d364b9c6e56836f654324c1dc51b9209da60fc7cb3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "accdigcigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19V4y1R73o",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "JYUNN純",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36025ea99211e72ab1a28d1c13e7e4f19028316691845a0db3ef484330e275b1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

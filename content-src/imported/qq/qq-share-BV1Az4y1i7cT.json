@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Az4y1i7cT",
+  "schemaVersion": 1,
+  "title": "分享 · 【静止系MAD】成人童话【破碎的真理子/蔷薇宴】",
+  "date": "2023-06-11",
+  "createdAt": "2023-06-11T03:19:42.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "嘶",
+  "text": "嘶",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Az4y1i7cT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Az4y1i7cT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ade4bf1671edde32dc1fca652edad84b64b60fb4bd0db4bf86059df2c5508289.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Az4y1i7cT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ade4bf1671edde32dc1fca652edad84b64b60fb4bd0db4bf86059df2c5508289.jpg",
+    "title": "【静止系MAD】成人童话【破碎的真理子/蔷薇宴】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ade4bf1671edde32dc1fca652edad84b64b60fb4bd0db4bf86059df2c5508289.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cifdfegigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Az4y1i7cT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "黑喃nn",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3058294e5f8b7633f43651735a45d6e7b12574cc3e9289178999e34c2301c508",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

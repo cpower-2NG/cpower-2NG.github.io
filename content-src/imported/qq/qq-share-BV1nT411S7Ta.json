@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nT411S7Ta",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「恋」(前川みく 星野源 cover曲) 【偶像大师灰姑娘CGSS MV】",
+  "date": "2023-02-22",
+  "createdAt": "2023-02-22T11:14:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "在猫之日兼miku喵的生日,星野p和杏仁豆腐双双加持下,这支mv诞生了. -",
+  "text": "在猫之日兼miku喵的生日,星野p和杏仁豆腐双双加持下,这支mv诞生了.\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nT411S7Ta",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nT411S7Ta&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9eb45ac58b5ec834b94e8a41440dea98540f72050608ffb8d6cab15c7dc6f1bc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nT411S7Ta",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9eb45ac58b5ec834b94e8a41440dea98540f72050608ffb8d6cab15c7dc6f1bc.jpg",
+    "title": "4K HDR「恋」(前川みく 星野源 cover曲) 【偶像大师灰姑娘CGSS MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9eb45ac58b5ec834b94e8a41440dea98540f72050608ffb8d6cab15c7dc6f1bc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cgeegahhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nT411S7Ta",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f6541384d2ea463d338c12a37038ad63a729f29ebc6bb49686558cccd694dbab",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

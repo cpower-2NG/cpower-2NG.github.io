@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1aX4y117vE",
+  "schemaVersion": 1,
+  "title": "分享 · 【西尾维新】战物语刊行纪念PV",
+  "date": "2023-05-14",
+  "createdAt": "2023-05-14T14:19:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "shaft什么时候复活啊/(ㄒoㄒ)/~~",
+  "text": "shaft什么时候复活啊/(ㄒoㄒ)/~~",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aX4y117vE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1aX4y117vE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/94c0e05bb2247142fdfc6fa7aaa018c1db573dbfb9d7c013eedd6ccc3c74bf55.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1aX4y117vE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/94c0e05bb2247142fdfc6fa7aaa018c1db573dbfb9d7c013eedd6ccc3c74bf55.jpg",
+    "title": "【西尾维新】战物语刊行纪念PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/94c0e05bb2247142fdfc6fa7aaa018c1db573dbfb9d7c013eedd6ccc3c74bf55.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhjdhaeigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1aX4y117vE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "物语系列圈圈子",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aa8a564cc380e890236e3110baec76db33d1e0d5ae698330a9815ca23cf6c781",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

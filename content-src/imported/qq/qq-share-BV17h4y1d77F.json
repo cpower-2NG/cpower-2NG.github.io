@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17h4y1d77F",
+  "schemaVersion": 1,
+  "title": "分享 · 幽灵怒涛东京",
+  "date": "2023-05-31",
+  "createdAt": "2023-05-31T12:52:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好rap",
+  "text": "好rap",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17h4y1d77F",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17h4y1d77F&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca4269e1aacbd1f4532a7b744bab609287f61d2e1e02a37bfa20f506a736320a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17h4y1d77F",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca4269e1aacbd1f4532a7b744bab609287f61d2e1e02a37bfa20f506a736320a.jpg",
+    "title": "幽灵怒涛东京"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ca4269e1aacbd1f4532a7b744bab609287f61d2e1e02a37bfa20f506a736320a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hefhdffigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17h4y1d77F",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "687c16f907494bb8d12449075eaf728140399b8efa1be45fa8f3b915abfebcf4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

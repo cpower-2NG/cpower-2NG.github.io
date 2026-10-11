@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1JG4y1477b",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪耀色彩】Asahyaru Seizawaizer",
+  "date": "2023-06-08",
+  "createdAt": "2023-06-08T14:11:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "人力和rap都好帅",
+  "text": "人力和rap都好帅",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JG4y1477b",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JG4y1477b&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f57c8c24520bd966d93dc815d3a9706756a0106fba8ca16d11ee763a90903b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JG4y1477b",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f57c8c24520bd966d93dc815d3a9706756a0106fba8ca16d11ee763a90903b.jpg",
+    "title": "【闪耀色彩】Asahyaru Seizawaizer"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0f57c8c24520bd966d93dc815d3a9706756a0106fba8ca16d11ee763a90903b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibfddcgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JG4y1477b",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "82a78275630c2931045e6924fad34e5a6c1054f75a73bf749e133002dfa67cc8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

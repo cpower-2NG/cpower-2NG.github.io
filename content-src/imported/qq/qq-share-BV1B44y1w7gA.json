@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1B44y1w7gA",
+  "schemaVersion": 1,
+  "title": "分享 · 【音MAD】-幽灵两仪式-",
+  "date": "2023-08-08",
+  "createdAt": "2023-08-08T09:02:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这是音mad？",
+  "text": "这是音mad？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B44y1w7gA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1B44y1w7gA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db06956167e5c753de3d8c58d1c863511a6aa31e20a67b814449f6ed485a0d57.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1B44y1w7gA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db06956167e5c753de3d8c58d1c863511a6aa31e20a67b814449f6ed485a0d57.jpg",
+    "title": "【音MAD】-幽灵两仪式-"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db06956167e5c753de3d8c58d1c863511a6aa31e20a67b814449f6ed485a0d57.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chdfiebjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1B44y1w7gA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Shiktack",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e2b5e4f4a15cd53083a10aa5676ef1c6a659c92fff6d0aa742f6ba4eacbcfcf7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

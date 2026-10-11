@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uV4y1h7H2",
+  "schemaVersion": 1,
+  "title": "分享 · 有所进步！",
+  "date": "2023-07-08",
+  "createdAt": "2023-07-08T13:32:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "大胆猜测15天后真的能在live上看到弹唱，虽然肯定比不上那几位前辈震撼就是了 请大家给土屋李央加油打劲！",
+  "text": "大胆猜测15天后真的能在live上看到弹唱，虽然肯定比不上那几位前辈震撼就是了\n\n请大家给土屋李央加油打劲！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uV4y1h7H2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uV4y1h7H2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4f3a1738e51b90d58bd063095526164baa739157f6acf0b064338b63270ac7ff.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uV4y1h7H2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4f3a1738e51b90d58bd063095526164baa739157f6acf0b064338b63270ac7ff.jpg",
+    "title": "有所进步！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4f3a1738e51b90d58bd063095526164baa739157f6acf0b064338b63270ac7ff.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccbdciiigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uV4y1h7H2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "土屋李央Official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "be794909c14ecdbf4cdac16aeec983101b8fec17f89f89e0d51376e2066b2dcf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tp4y1g7UE",
+  "schemaVersion": 1,
+  "title": "分享 · 《舟中晚起》 唐 白居易",
+  "date": "2023-08-18",
+  "createdAt": "2023-08-18T14:57:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "rap好强",
+  "text": "rap好强",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tp4y1g7UE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tp4y1g7UE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b20b797a54000d5951eeea0ab6bff20cb62ba929ea9cdd473447f446713050bc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tp4y1g7UE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b20b797a54000d5951eeea0ab6bff20cb62ba929ea9cdd473447f446713050bc.jpg",
+    "title": "《舟中晚起》 唐 白居易"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b20b797a54000d5951eeea0ab6bff20cb62ba929ea9cdd473447f446713050bc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ahgahdcjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tp4y1g7UE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "广东纱雾",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "96a36602fea52cfa1582d63667c1f6f137aedeba6cbf06912d75fa2a9ad73491",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

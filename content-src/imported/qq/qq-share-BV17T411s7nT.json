@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV17T411s7nT",
+  "schemaVersion": 1,
+  "title": "分享 · 【CC字幕】给对育成斑鸠感到兴趣的人：有些事你可能需要先弄清楚",
+  "date": "2023-04-01",
+  "createdAt": "2023-04-01T16:00:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "pルカ去了",
+  "text": "pルカ去了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV17T411s7nT",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV17T411s7nT&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce9b8ec02543b4b90c1157ad56e7e1215f5e1391d55911494d483ae3a8070481.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV17T411s7nT",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce9b8ec02543b4b90c1157ad56e7e1215f5e1391d55911494d483ae3a8070481.jpg",
+    "title": "【CC字幕】给对育成斑鸠感到兴趣的人：有些事你可能需要先弄清楚"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ce9b8ec02543b4b90c1157ad56e7e1215f5e1391d55911494d483ae3a8070481.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aeiegdaigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV17T411s7nT",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "淚浣褎",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f6b637efb3fe47225ba93c87e572c5798c3b2eea8058582830b8b2bafea6b86a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

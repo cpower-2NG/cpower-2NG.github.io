@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1uQ4y1n7sF",
+  "schemaVersion": 1,
+  "title": "分享 · 这种破事真挺糟心的\n\n我不是组长，从今往后不再发布任何与汉化组相关的东西，也不再代表拯救失足少女汉化组",
+  "date": "2023-11-06",
+  "createdAt": "2023-11-06T13:04:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这种破事真挺糟心的 我不是组长，从今往后不再发布任何与汉化组相关的东西，也不再代表拯救失足少女汉化组",
+  "text": "这种破事真挺糟心的\n\n我不是组长，从今往后不再发布任何与汉化组相关的东西，也不再代表拯救失足少女汉化组",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uQ4y1n7sF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uQ4y1n7sF&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uQ4y1n7sF",
+    "coverUrl": "",
+    "title": "这种破事真挺糟心的\n\n我不是组长，从今往后不再发布任何与汉化组相关的东西，也不再代表拯救失足少女汉化组"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfifhcjjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uQ4y1n7sF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e47258e172d88c7c925ce608b5fbef8363e0631453d2cc94cdfd2a63d701463f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

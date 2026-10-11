@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nX4y1a7Qr",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作单品】会被真寻姫？骂的啦",
+  "date": "2023-06-08",
+  "createdAt": "2023-06-08T14:45:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好猛的rap",
+  "text": "好猛的rap",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nX4y1a7Qr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nX4y1a7Qr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d3a1174c9d7766a477a301e3911ae79c1cef59e7955e893536254cc1bfc0323.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nX4y1a7Qr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d3a1174c9d7766a477a301e3911ae79c1cef59e7955e893536254cc1bfc0323.jpg",
+    "title": "【合作单品】会被真寻姫？骂的啦"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3d3a1174c9d7766a477a301e3911ae79c1cef59e7955e893536254cc1bfc0323.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afffdcgigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nX4y1a7Qr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Shrinka_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b39a9f1ea34114bf6f1db2ab06efbb54084b1c102722c321a3fbf77f4306efd3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

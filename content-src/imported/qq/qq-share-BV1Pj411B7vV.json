@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Pj411B7vV",
+  "schemaVersion": 1,
+  "title": "分享 · 【CD26】Day2偶像大师唱跳环节",
+  "date": "2023-08-13",
+  "createdAt": "2023-08-13T14:15:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "羨ましい！",
+  "text": "羨ましい！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Pj411B7vV",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Pj411B7vV&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/132803d9262e6bfa34b623c7bd266b91df915c363664c3c54982206c6bd84b04.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Pj411B7vV",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/132803d9262e6bfa34b623c7bd266b91df915c363664c3c54982206c6bd84b04.jpg",
+    "title": "【CD26】Day2偶像大师唱跳环节"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/132803d9262e6bfa34b623c7bd266b91df915c363664c3c54982206c6bd84b04.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcbgdjbjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Pj411B7vV",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "PureWhite23",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a00f6a4665d9144780442019975a7484aa21b9a9dafd6910c7849da0ad338afa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

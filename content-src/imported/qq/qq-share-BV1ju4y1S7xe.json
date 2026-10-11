@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ju4y1S7xe",
+  "schemaVersion": 1,
+  "title": "分享 · 【无授权转载】アイマスP室内楽コンサート20230717",
+  "date": "2023-07-19",
+  "createdAt": "2023-07-19T14:08:05.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "晚上挺爽了",
+  "text": "晚上挺爽了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ju4y1S7xe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ju4y1S7xe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44370620703dd2f4548add9c1f351ead6b9218f29981f4050d5a3d57b374c3be.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ju4y1S7xe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44370620703dd2f4548add9c1f351ead6b9218f29981f4050d5a3d57b374c3be.jpg",
+    "title": "【无授权转载】アイマスP室内楽コンサート20230717"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44370620703dd2f4548add9c1f351ead6b9218f29981f4050d5a3d57b374c3be.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "figfhhjigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ju4y1S7xe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "犬塚アカツキ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "911b9b4a3854c3e4d29e086d65a5d1dc068177d3818a1f08786ef3f1fcc35757",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

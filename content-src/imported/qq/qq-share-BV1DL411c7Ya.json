@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1DL411c7Ya",
+  "schemaVersion": 1,
+  "title": "分享 · 私の永遠 / ALICes(黒崎真音×神田沙也加) Music Video",
+  "date": "2023-02-28",
+  "createdAt": "2023-02-28T11:55:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "谁又能想的到呢",
+  "text": "谁又能想的到呢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DL411c7Ya",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1DL411c7Ya&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e786e3963f601373a2a9358ab19210f5039c76f6a5bac08b5b4d961e971fe47e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1DL411c7Ya",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e786e3963f601373a2a9358ab19210f5039c76f6a5bac08b5b4d961e971fe47e.jpg",
+    "title": "私の永遠 / ALICes(黒崎真音×神田沙也加) Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e786e3963f601373a2a9358ab19210f5039c76f6a5bac08b5b4d961e971fe47e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfdfifhhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1DL411c7Ya",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-老布子-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36f3ba5a3e7644822976d7570b6ed81f1f1d33aa674f3c7afc0e3619dafcf02a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

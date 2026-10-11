@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ww411s7ZR",
+  "schemaVersion": 1,
+  "title": "分享 · CoMETIK「平行線の美学」",
+  "date": "2023-11-03",
+  "createdAt": "2023-11-03T11:33:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "nico系确实听着习惯，三首里最喜欢的",
+  "text": "nico系确实听着习惯，三首里最喜欢的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ww411s7ZR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ww411s7ZR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/564843d248c7879f7a3b5d1f231e59d853e4ffed6024b2e9e248d57551ea7c06.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ww411s7ZR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/564843d248c7879f7a3b5d1f231e59d853e4ffed6024b2e9e248d57551ea7c06.jpg",
+    "title": "CoMETIK「平行線の美学」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/564843d248c7879f7a3b5d1f231e59d853e4ffed6024b2e9e248d57551ea7c06.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edcbbajjgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ww411s7ZR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c811a3dbaf09759bf2b018c4e15283f8a51017857cb91a0433c19723edff6cc7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

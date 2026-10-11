@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1T14y1m7cX",
+  "schemaVersion": 1,
+  "title": "分享 · 【4月】偶像大师 灰姑娘女孩 U149 第12話「明るい時は見えなくて、眠る時に見えるもの、なに？」WEB予告",
+  "date": "2023-06-27",
+  "createdAt": "2023-06-27T10:50:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "www.youtube.com/watch?v=XkdOiquqAcg",
+  "text": "www.youtube.com/watch?v=XkdOiquqAcg",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T14y1m7cX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1T14y1m7cX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f73f88370d53fd37221f982eec06a91d98ad483a1b5125b5dfafc0c778c2bde.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1T14y1m7cX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f73f88370d53fd37221f982eec06a91d98ad483a1b5125b5dfafc0c778c2bde.jpg",
+    "title": "【4月】偶像大师 灰姑娘女孩 U149 第12話「明るい時は見えなくて、眠る時に見えるもの、なに？」WEB予告"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0f73f88370d53fd37221f982eec06a91d98ad483a1b5125b5dfafc0c778c2bde.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccadgihigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1T14y1m7cX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5a955dc2a45857219504888b2fd0b72676ddf8190730f78cfbcf588a7af1b7aa",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

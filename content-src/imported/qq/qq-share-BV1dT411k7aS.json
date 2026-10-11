@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dT411k7aS",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】樱木真乃 2023情人节准备剧情",
+  "date": "2023-01-31",
+  "createdAt": "2023-01-31T14:13:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "余裕",
+  "text": "余裕",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dT411k7aS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dT411k7aS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b984bb6396bd3fdd7606518a31f53b8a25fce47ea9ad1cc8104735502618f15.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dT411k7aS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b984bb6396bd3fdd7606518a31f53b8a25fce47ea9ad1cc8104735502618f15.png",
+    "title": "【中字】樱木真乃 2023情人节准备剧情"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6b984bb6396bd3fdd7606518a31f53b8a25fce47ea9ad1cc8104735502618f15.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdeehbfhgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dT411k7aS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "巡礼7型",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a5d765753f351c342538cd8b99cd21a9b121c3a5e5368da1e0e17d78481095a4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

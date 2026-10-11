@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MN411A7NR",
+  "schemaVersion": 1,
+  "title": "分享 · 【アイマスRemix】Neo Beautiful Pain -chill_out_pain-",
+  "date": "2023-04-12",
+  "createdAt": "2023-04-12T14:50:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "事前先溜一点 nico.ms/sm38201598",
+  "text": "事前先溜一点\n\nnico.ms/sm38201598",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MN411A7NR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MN411A7NR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a48c25a6d26317ee76b3d5265ffe8665fda1c814472a29de4dc004e0df1f910.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MN411A7NR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a48c25a6d26317ee76b3d5265ffe8665fda1c814472a29de4dc004e0df1f910.jpg",
+    "title": "【アイマスRemix】Neo Beautiful Pain -chill_out_pain-"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a48c25a6d26317ee76b3d5265ffe8665fda1c814472a29de4dc004e0df1f910.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbabbdbigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MN411A7NR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "imas_electronic",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "17072b4c69b50bbba127e7069c77da8d2b8b7bff7509a998b4b0fe822b55abdd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Fm4y1T7te",
+  "schemaVersion": 1,
+  "title": "分享 · 海蜇",
+  "date": "2023-09-09",
+  "createdAt": "2023-09-09T10:48:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "海蜇也是海鲜",
+  "text": "海蜇也是海鲜",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fm4y1T7te",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Fm4y1T7te&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81ba1c6071e579136b57e99df3291a58d230cd76d9af0ba57b1ad96375be4339.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Fm4y1T7te",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81ba1c6071e579136b57e99df3291a58d230cd76d9af0ba57b1ad96375be4339.jpg",
+    "title": "海蜇"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/81ba1c6071e579136b57e99df3291a58d230cd76d9af0ba57b1ad96375be4339.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebfgfcejgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Fm4y1T7te",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "榆木华",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0ebd3c3f5b7fe74a234d66f3fbdf0e9d454e2adaa54a0d9c01dc8b3284762f22",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

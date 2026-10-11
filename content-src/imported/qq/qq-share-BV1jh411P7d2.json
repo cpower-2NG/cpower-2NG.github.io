@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jh411P7d2",
+  "schemaVersion": 1,
+  "title": "分享 · JUSTICE - 偶像大师MLTD同人动画",
+  "date": "2023-06-25",
+  "createdAt": "2023-06-25T12:12:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "想起，奇迹的四周年",
+  "text": "想起，奇迹的四周年",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jh411P7d2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jh411P7d2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5239e88ffc94e423cdb5bae972be54d47d09a8b3cce9e2433e8c814cd59359cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jh411P7d2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5239e88ffc94e423cdb5bae972be54d47d09a8b3cce9e2433e8c814cd59359cc.jpg",
+    "title": "JUSTICE - 偶像大师MLTD同人动画"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5239e88ffc94e423cdb5bae972be54d47d09a8b3cce9e2433e8c814cd59359cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aebfjghigb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jh411P7d2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像大阪官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "51868daeda18aa188c9254aac568fdaa2169f8d9179a6968e75b5e4941cee49d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

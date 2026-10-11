@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1X14y1c79P",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】2023.2.12天海春香 留守电话",
+  "date": "2023-02-12",
+  "createdAt": "2023-02-12T14:24:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "无印的印迹,似乎渐渐变为现实 好好好",
+  "text": "无印的印迹,似乎渐渐变为现实\n\n好好好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1X14y1c79P",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1X14y1c79P&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe415713a988f444170c93d924bef06fb7fbbff6baf462ccbd44c6575725f6ac.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1X14y1c79P",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe415713a988f444170c93d924bef06fb7fbbff6baf462ccbd44c6575725f6ac.jpg",
+    "title": "【中字】2023.2.12天海春香 留守电话"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe415713a988f444170c93d924bef06fb7fbbff6baf462ccbd44c6575725f6ac.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ghibbcghgb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1X14y1c79P",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "臻久",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d873dd849024340a23511304fafed580234237ae557449b2150fbb4e21f9eaca",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
