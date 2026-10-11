@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1FFsMeVEp6",
+  "schemaVersion": 1,
+  "title": "分享 · 摸虾反差",
+  "date": "2024-08-29",
+  "createdAt": "2024-08-29T02:17:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是我最喜欢的虾mas<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328523.gif\" title=\"\"/>",
+  "text": "是我最喜欢的虾mas<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e328523.gif\" title=\"\"/>",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FFsMeVEp6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1FFsMeVEp6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/91a99a73dd4689ae8e9c335042c8ee16d5b29c1a1ced3c7287eb55f166f9b204.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1FFsMeVEp6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/91a99a73dd4689ae8e9c335042c8ee16d5b29c1a1ced3c7287eb55f166f9b204.jpg",
+    "title": "摸虾反差"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/91a99a73dd4689ae8e9c335042c8ee16d5b29c1a1ced3c7287eb55f166f9b204.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhihjiechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1FFsMeVEp6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "798a1ccbb1cfd1e939173c1e26e012245b64f60067a54d6c7bba32000efd5263",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

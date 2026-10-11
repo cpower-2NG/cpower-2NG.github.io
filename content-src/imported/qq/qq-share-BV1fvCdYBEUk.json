@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fvCdYBEUk",
+  "schemaVersion": 1,
+  "title": "分享 · 2024ちくせい花火大会 煙火大會偶像大師系列 山﨑煙火製造所",
+  "date": "2024-10-19",
+  "createdAt": "2024-10-19T14:44:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还是去看看疑似mas吧（",
+  "text": "还是去看看疑似mas吧（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fvCdYBEUk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fvCdYBEUk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9117ce8a239e6bc8b8755162fea94b9d8660c95b1b28adef05e2bda612d47f0a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fvCdYBEUk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9117ce8a239e6bc8b8755162fea94b9d8660c95b1b28adef05e2bda612d47f0a.jpg",
+    "title": "2024ちくせい花火大会 煙火大會偶像大師系列 山﨑煙火製造所"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9117ce8a239e6bc8b8755162fea94b9d8660c95b1b28adef05e2bda612d47f0a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "giajedjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fvCdYBEUk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4fc5d112bb9666b784273ae0edf38dda40f9654826cafdcbe32fa5ea3b432e45",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

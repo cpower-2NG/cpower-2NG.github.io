@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CgxseYESP",
+  "schemaVersion": 1,
+  "title": "分享 · 田中有纪 「未来スケッチ」 Music Video",
+  "date": "2024-10-02",
+  "createdAt": "2024-10-02T05:30:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好有感觉",
+  "text": "好有感觉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CgxseYESP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CgxseYESP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9ae3a1653d7c4b489f5282a1a7711c41dcc7e6b9f9c961601add85053061bd0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CgxseYESP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9ae3a1653d7c4b489f5282a1a7711c41dcc7e6b9f9c961601add85053061bd0.jpg",
+    "title": "田中有纪 「未来スケッチ」 Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e9ae3a1653d7c4b489f5282a1a7711c41dcc7e6b9f9c961601add85053061bd0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccaheihchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CgxseYESP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "万代南梦宫音乐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "18a944a370182abb721cd8c53d3b46bcbca6b2dd8c655a877733f905ab3b7480",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

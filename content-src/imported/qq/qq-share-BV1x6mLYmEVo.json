@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1x6mLYmEVo",
+  "schemaVersion": 1,
+  "title": "分享 · 【20241014夜 | 初恋_梅田】筱泽广「反差 | コントラスト」",
+  "date": "2024-10-17",
+  "createdAt": "2024-10-17T15:42:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太迷人了",
+  "text": "太迷人了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1x6mLYmEVo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1x6mLYmEVo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f581ecbf6ccd2f16871135f51ca6fd7e8296ef9461c70a3bf53548f9ed5ef7cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1x6mLYmEVo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f581ecbf6ccd2f16871135f51ca6fd7e8296ef9461c70a3bf53548f9ed5ef7cc.jpg",
+    "title": "【20241014夜 | 初恋_梅田】筱泽广「反差 | コントラスト」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f581ecbf6ccd2f16871135f51ca6fd7e8296ef9461c70a3bf53548f9ed5ef7cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhhjhbjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1x6mLYmEVo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e34b61f0100b9a7a1cd6211b520bbab0f1c2b3ea3f0f6a2d64563f8c02eaf4a8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

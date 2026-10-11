@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a34y1d7cn",
+  "schemaVersion": 1,
+  "title": "分享 · 【翻唱】アンノウン・マザーグース（wowaka） / 铃木实里 Suzuki Minori Covers Collect",
+  "date": "2024-09-25",
+  "createdAt": "2024-09-25T05:52:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "怎么现在才看到",
+  "text": "怎么现在才看到",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a34y1d7cn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a34y1d7cn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5316c5aeea0b42f66edc9cff63e5d81cc6ac5a03503c4d6160ad2b2eaeba6f74.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a34y1d7cn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5316c5aeea0b42f66edc9cff63e5d81cc6ac5a03503c4d6160ad2b2eaeba6f74.jpg",
+    "title": "【翻唱】アンノウン・マザーグース（wowaka） / 铃木实里 Suzuki Minori Covers Collection #6 (last)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5316c5aeea0b42f66edc9cff63e5d81cc6ac5a03503c4d6160ad2b2eaeba6f74.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aefdechchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a34y1d7cn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LoopCc",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "45bcbaeb25cc2b958fc2a23e5d496e3966b2f0ae50dfb70a483efaf1b071f5f5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kaUeYfEnB",
+  "schemaVersion": 1,
+  "title": "分享 · 【4K】「小さな野望 | 小小的野心」（十王星南 D结局）【学园偶像大师 MV】",
+  "date": "2024-11-16",
+  "createdAt": "2024-11-16T14:36:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "果然，就该是情绪的差别！ 会长 你慢点 我害怕",
+  "text": "果然，就该是情绪的差别！\n\n会长 你慢点 我害怕",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kaUeYfEnB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kaUeYfEnB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f41ccb74e4cb4a1f023b2a1cfff382945a78add8c64c610638804592ac352172.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kaUeYfEnB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f41ccb74e4cb4a1f023b2a1cfff382945a78add8c64c610638804592ac352172.jpg",
+    "title": "【4K】「小さな野望 | 小小的野心」（十王星南 D结局）【学园偶像大师 MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f41ccb74e4cb4a1f023b2a1cfff382945a78add8c64c610638804592ac352172.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjhhghbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kaUeYfEnB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "93b053fc40ca998994a2784e8eb39201d86987fc3d0e2819eb26f7ce52a2bd7e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

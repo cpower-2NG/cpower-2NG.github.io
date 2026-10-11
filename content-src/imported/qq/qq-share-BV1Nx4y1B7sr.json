@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nx4y1B7sr",
+  "schemaVersion": 1,
+  "title": "分享 · 「光景」2DMV (歌：篠澤広)【学園 偶像大师/初星学園】",
+  "date": "2024-06-06",
+  "createdAt": "2024-06-06T23:33:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "总有种想哭的冲动",
+  "text": "总有种想哭的冲动",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nx4y1B7sr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nx4y1B7sr&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f1e5a94060ac503de4f7e96716048340c2ae4307000a0a9126e2dc6332464fcb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nx4y1B7sr",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f1e5a94060ac503de4f7e96716048340c2ae4307000a0a9126e2dc6332464fcb.jpg",
+    "title": "「光景」2DMV (歌：篠澤広)【学園 偶像大师/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f1e5a94060ac503de4f7e96716048340c2ae4307000a0a9126e2dc6332464fcb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cbigbhhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nx4y1B7sr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a7f55716d82bce69b3317324f1a530b0f636e4ceccf930bc1a33055c6959b578",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

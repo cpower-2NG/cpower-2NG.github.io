@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1QU411U7Nt",
+  "schemaVersion": 1,
+  "title": "分享 · 《攻壳机动队 SAC_2045》田中敦子热泪「我始终都会在你们身边」",
+  "date": "2024-08-20",
+  "createdAt": "2024-08-20T13:02:23.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唉...",
+  "text": "唉...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1QU411U7Nt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1QU411U7Nt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2834ec7e2c5f3bdbf905f3a701da77cfe782f5e71303cff5ad1184c157b281b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1QU411U7Nt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2834ec7e2c5f3bdbf905f3a701da77cfe782f5e71303cff5ad1184c157b281b.jpg",
+    "title": "《攻壳机动队 SAC_2045》田中敦子热泪「我始终都会在你们身边」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d2834ec7e2c5f3bdbf905f3a701da77cfe782f5e71303cff5ad1184c157b281b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dejifbechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1QU411U7Nt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "A9VG",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c13937713bfeec9b38b788e544be2af51a7208ed0a33d66e81c9dcc28b23083a",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

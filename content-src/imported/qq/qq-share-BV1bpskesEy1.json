@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1bpskesEy1",
+  "schemaVersion": 1,
+  "title": "分享 · 【4月/最终回/福山润&小清水亚美】狼与香辛料 新版 第25话预告【MCE汉化组】",
+  "date": "2024-09-23",
+  "createdAt": "2024-09-23T02:33:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "明天就没了啊，会有第二季的吧",
+  "text": "明天就没了啊，会有第二季的吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bpskesEy1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bpskesEy1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0207c53af11fbc7e502fa464bf14c33f91774a37fe2a2d25f980bdd091ca9db5.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1bpskesEy1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0207c53af11fbc7e502fa464bf14c33f91774a37fe2a2d25f980bdd091ca9db5.png",
+    "title": "【4月/最终回/福山润&小清水亚美】狼与香辛料 新版 第25话预告【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0207c53af11fbc7e502fa464bf14c33f91774a37fe2a2d25f980bdd091ca9db5.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijhifahchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1bpskesEy1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "964a259bb9981eec3ccdeb3feb498148e42cf221da8039ad08c68d6a0dd14a90",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

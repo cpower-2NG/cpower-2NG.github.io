@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14aU7YREfv",
+  "schemaVersion": 1,
+  "title": "分享 · 李锦记 so happy",
+  "date": "2024-11-18",
+  "createdAt": "2024-11-18T04:54:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "唐突热潮",
+  "text": "唐突热潮",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14aU7YREfv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14aU7YREfv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/825b0f9946cad80592c0c53e68b945f82dd194ba4b532798a82f9f91c4122ad1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14aU7YREfv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/825b0f9946cad80592c0c53e68b945f82dd194ba4b532798a82f9f91c4122ad1.jpg",
+    "title": "李锦记 so happy"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/825b0f9946cad80592c0c53e68b945f82dd194ba4b532798a82f9f91c4122ad1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijgfajbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14aU7YREfv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d78347958437562c4ead8e0ea833789167fc1c416280ae62d903bbdc5c727e0d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

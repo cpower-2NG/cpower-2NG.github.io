@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV18x4y147f9",
+  "schemaVersion": 1,
+  "title": "分享 · 好多世一卡。间谍过家家那几卡给我看感动了，找个时间看看吧",
+  "date": "2024-08-18",
+  "createdAt": "2024-08-18T02:46:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好多世一卡。间谍过家家那几卡给我看感动了，找个时间看看吧",
+  "text": "好多世一卡。间谍过家家那几卡给我看感动了，找个时间看看吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18x4y147f9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18x4y147f9&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18x4y147f9",
+    "coverUrl": "",
+    "title": "好多世一卡。间谍过家家那几卡给我看感动了，找个时间看看吧"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aacjejdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18x4y147f9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1d496833269d785a7a9c77933cf930ad1d230d4f3a92cece132b8ebaa820c84d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

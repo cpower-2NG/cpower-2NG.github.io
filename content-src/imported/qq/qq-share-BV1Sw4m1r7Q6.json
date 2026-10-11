@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Sw4m1r7Q6",
+  "schemaVersion": 1,
+  "title": "分享 · 听了学马仕新歌，我dna串了.jpg",
+  "date": "2024-08-13",
+  "createdAt": "2024-08-13T08:09:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "奇妙的夏日感",
+  "text": "奇妙的夏日感",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Sw4m1r7Q6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Sw4m1r7Q6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/21b02c870d736b928d3725f6dd4dcd30d09ba3e001efb3fe36b953d106644910.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Sw4m1r7Q6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/21b02c870d736b928d3725f6dd4dcd30d09ba3e001efb3fe36b953d106644910.jpg",
+    "title": "听了学马仕新歌，我dna串了.jpg"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/21b02c870d736b928d3725f6dd4dcd30d09ba3e001efb3fe36b953d106644910.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cefgdfdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Sw4m1r7Q6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏夜Natsu",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e9de0fa8e60e267f63abbf876a1b9c9df66cf586ff3e8144a10fa716201a9647",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

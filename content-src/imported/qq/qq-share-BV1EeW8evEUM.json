@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1EeW8evEUM",
+  "schemaVersion": 1,
+  "title": "分享 · 【4K】异次元ASOBI特典 小偶像们努力赚伙食费",
+  "date": "2024-08-21",
+  "createdAt": "2024-08-21T08:35:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "🥰🥰🥰 自购自压",
+  "text": "🥰🥰🥰\n\n自购自压",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EeW8evEUM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1EeW8evEUM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/310c3b0f77654e82e4a454503366651c47065b4fee53985ebef58dd9285d9051.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1EeW8evEUM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/310c3b0f77654e82e4a454503366651c47065b4fee53985ebef58dd9285d9051.jpg",
+    "title": "【4K】异次元ASOBI特典 小偶像们努力赚伙食费"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/310c3b0f77654e82e4a454503366651c47065b4fee53985ebef58dd9285d9051.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfdjccechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1EeW8evEUM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "楠明日葉",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1ab394f632b7841740957193627383973c7904517fe17f22ae23b1a007edc171",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

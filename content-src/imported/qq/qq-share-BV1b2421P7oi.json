@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1b2421P7oi",
+  "schemaVersion": 1,
+  "title": "分享 · 【节选中字】最尊的一集：“好喜欢可以互相对视唱歌的迷光”",
+  "date": "2024-03-21",
+  "createdAt": "2024-03-21T12:41:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "啊，迷光",
+  "text": "啊，迷光",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1b2421P7oi",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1b2421P7oi&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a4a982f7e1b5bd3682d405e20716562680814e9a24f87eccf4cad7448fb70ba.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1b2421P7oi",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a4a982f7e1b5bd3682d405e20716562680814e9a24f87eccf4cad7448fb70ba.jpg",
+    "title": "【节选中字】最尊的一集：“好喜欢可以互相对视唱歌的迷光”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a4a982f7e1b5bd3682d405e20716562680814e9a24f87eccf4cad7448fb70ba.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hgiecabbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1b2421P7oi",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "まかべ丼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c893ce59f97f3d10c91ea6a9cec9ccb606091e81f3bf7255a677105ed14e0067",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

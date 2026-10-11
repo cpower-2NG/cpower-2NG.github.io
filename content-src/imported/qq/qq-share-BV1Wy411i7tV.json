@@ -2,8 +2,8 @@
   "id": "qq-share-BV1Wy411i7tV",
   "schemaVersion": 1,
   "title": "分享 · 蜕变【筱泽广/偶像大师/静止系/mep片段偷跑】",
-  "date": "2025-01-10",
-  "createdAt": "2025-01-10T09:06:28.000Z",
+  "date": "2024-07-16",
+  "createdAt": "2024-07-16T05:26:00.000Z",
   "phase": "fantasy",
   "type": "diary",
   "section": "daily",
@@ -13,8 +13,8 @@
     "分享"
   ],
   "category": "分享",
-  "summary": "广救我",
-  "text": "广救我",
+  "summary": "非常好片段，刺激我的创作...",
+  "text": "非常好片段，刺激我的创作...",
   "media": [],
   "video": {
     "platform": "哔哩哔哩",
@@ -34,7 +34,7 @@
   },
   "source": {
     "provider": "qq",
-    "id": "iijjjegdhb",
+    "id": "agfhabbchb",
     "authorId": "",
     "url": "https://www.bilibili.com/video/BV1Wy411i7tV",
     "state": "active",
@@ -49,7 +49,7 @@
     "author": "_表表表面_",
     "source": "哔哩哔哩"
   },
-  "contentHash": "68b9499b25adf2d7404a84381cf977fdccd61cce6e16959fe7f48a7d93c8420a",
+  "contentHash": "9b318f8c17b73769d18e93d791e814dc28b953beb7fb1159304ea6340c33af29",
   "publishStatus": "published",
   "reviewReasons": []
 }

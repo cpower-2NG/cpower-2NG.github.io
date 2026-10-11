@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1M2tDeQEzS",
+  "schemaVersion": 1,
+  "title": "分享 · 中二的日直",
+  "date": "2024-10-03",
+  "createdAt": "2024-10-03T16:18:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "好有意思 一个标新立异，不同寻常的乒乓球解说视频。",
+  "text": "好有意思\n\n一个标新立异，不同寻常的乒乓球解说视频。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1M2tDeQEzS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1M2tDeQEzS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61c8a0587e759c4eaaa0cfe9160cc534fa7078a58120771a80ee51b3670411ae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1M2tDeQEzS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61c8a0587e759c4eaaa0cfe9160cc534fa7078a58120771a80ee51b3670411ae.jpg",
+    "title": "中二的日直"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/61c8a0587e759c4eaaa0cfe9160cc534fa7078a58120771a80ee51b3670411ae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eadchjhchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1M2tDeQEzS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "冰箱上的柯基",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "60fafd119142f1ff62f2ea6c9fb4cd0633193e6b16bb4029ad5eb0abfcb53b49",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

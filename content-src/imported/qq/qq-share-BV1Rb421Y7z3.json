@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Rb421Y7z3",
+  "schemaVersion": 1,
+  "title": "分享 · 这一定是那样的事吧",
+  "date": "2024-04-30",
+  "createdAt": "2024-04-30T16:53:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我一直想看想做的就是这个啊，把人力做进mad里。无比伦比的感染力",
+  "text": "我一直想看想做的就是这个啊，把人力做进mad里。无比伦比的感染力",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Rb421Y7z3",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Rb421Y7z3&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc1176c7db4b1eeb1bf42865f1c0466a409943270b768d83bb4074645e0d92f7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Rb421Y7z3",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc1176c7db4b1eeb1bf42865f1c0466a409943270b768d83bb4074645e0d92f7.jpg",
+    "title": "这一定是那样的事吧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/bc1176c7db4b1eeb1bf42865f1c0466a409943270b768d83bb4074645e0d92f7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjjfjeebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Rb421Y7z3",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b641b03d4001aa39af8653eefd72bc97d61d38e45d5e8b77371835c69d569c52",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rteDexE6u",
+  "schemaVersion": 1,
+  "title": "分享 · 【ロシデレ】『ハレ晴レユカイ』｜艾莉和声優一起跳舞~",
+  "date": "2024-07-26",
+  "createdAt": "2024-07-26T09:34:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "其实这是MOIW（",
+  "text": "其实这是MOIW（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rteDexE6u",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rteDexE6u&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3b6e1f905f3ae34b5aa73f0a13adb3a3dcb394390cfc24b3087241b4ce1f46d8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rteDexE6u",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3b6e1f905f3ae34b5aa73f0a13adb3a3dcb394390cfc24b3087241b4ce1f46d8.jpg",
+    "title": "【ロシデレ】『ハレ晴レユカイ』｜艾莉和声優一起跳舞~"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3b6e1f905f3ae34b5aa73f0a13adb3a3dcb394390cfc24b3087241b4ce1f46d8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fiegijbchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rteDexE6u",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dcc24e7c068c24d057d52a8d9326e5c771cbc6e796d165b8c6c1a92a2f94539c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

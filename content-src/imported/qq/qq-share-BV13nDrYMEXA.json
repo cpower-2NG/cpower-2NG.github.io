@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV13nDrYMEXA",
+  "schemaVersion": 1,
+  "title": "分享 · 助かる",
+  "date": "2024-11-17",
+  "createdAt": "2024-11-17T03:07:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "助かる",
+  "text": "助かる",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13nDrYMEXA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13nDrYMEXA&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13nDrYMEXA",
+    "coverUrl": "",
+    "title": "助かる"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "acicbibdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13nDrYMEXA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1ded7e67380be2213dfbffb4ad39239edc2b77b72c9cb689cbe0ca0d7f1fceb7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

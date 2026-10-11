@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ttewewEUp",
+  "schemaVersion": 1,
+  "title": "分享 · 小孩：我要打十个！",
+  "date": "2024-08-13",
+  "createdAt": "2024-08-13T03:47:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太贴切了O(∩_∩)O哈哈~ 虽然熬不了夜没能直播看到君哥夺冠，早上起来补完全程真的替君哥高兴！随即给君哥整个活庆祝夺冠！君哥真的时电竞格斗职业生涯大...",
+  "text": "太贴切了O(∩_∩)O哈哈~\n\n虽然熬不了夜没能直播看到君哥夺冠，早上起来补完全程真的替君哥高兴！随即给君哥整个活庆祝夺冠！君哥真的时电竞格斗职业生涯大...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ttewewEUp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ttewewEUp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8373cf0438f26e76c57a93849cb953bd5703c9cd4a998a2013279e6b54db2093.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ttewewEUp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8373cf0438f26e76c57a93849cb953bd5703c9cd4a998a2013279e6b54db2093.jpg",
+    "title": "小孩：我要打十个！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8373cf0438f26e76c57a93849cb953bd5703c9cd4a998a2013279e6b54db2093.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cfiacfdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ttewewEUp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "山茶_海棠",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2b6ee3a153e923ed7d67d0708706ff286e19bd7df4bfb8b4655066f323207eb4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

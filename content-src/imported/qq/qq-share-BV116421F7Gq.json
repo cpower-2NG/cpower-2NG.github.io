@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV116421F7Gq",
+  "schemaVersion": 1,
+  "title": "分享 · キラメキラリ 八音盒版",
+  "date": "2024-03-25",
+  "createdAt": "2024-03-25T12:26:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ハピバー！",
+  "text": "ハピバー！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV116421F7Gq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV116421F7Gq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c9379107c12b89ec2a83b1eb16f768407e4d8db961b0927335a62c50accb535.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV116421F7Gq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c9379107c12b89ec2a83b1eb16f768407e4d8db961b0927335a62c50accb535.png",
+    "title": "キラメキラリ 八音盒版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6c9379107c12b89ec2a83b1eb16f768407e4d8db961b0927335a62c50accb535.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgfjgdbbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV116421F7Gq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "梦违宇佐见",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "98ed3cc4e9c44bc9cfa186448867d260c4c99fb95049149beb5ad3834d34998d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

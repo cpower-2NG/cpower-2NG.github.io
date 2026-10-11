@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV166421f7m8",
+  "schemaVersion": 1,
+  "title": "分享 · 【原创动画】梦形",
+  "date": "2024-06-09",
+  "createdAt": "2024-06-09T09:50:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神 这是我们四个人八个月的执念。我们找到了自己梦想的形状。我们将这份祝福送给高考学子，送给所有人。前有梦想，敬请见证！！",
+  "text": "神\n\n这是我们四个人八个月的执念。我们找到了自己梦想的形状。我们将这份祝福送给高考学子，送给所有人。前有梦想，敬请见证！！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV166421f7m8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV166421f7m8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6e773bb40d8dfa0f9361226109e443c869bbb550d4bde77366c74b994323fc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV166421f7m8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6e773bb40d8dfa0f9361226109e443c869bbb550d4bde77366c74b994323fc.jpg",
+    "title": "【原创动画】梦形"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6e773bb40d8dfa0f9361226109e443c869bbb550d4bde77366c74b994323fc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "baggcjhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV166421f7m8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "芥梦-捡树枝",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "21795872acf94fc3ea547b4567cf56b70a4d7826c3114831ca4015c3eda085f5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kS411c77n",
+  "schemaVersion": 1,
+  "title": "分享 · 【音声作品/ASMR】「愛した妹にもう一度だけ会えたとしても」【PV】",
+  "date": "2024-07-05",
+  "createdAt": "2024-07-05T12:11:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "御苑生梅！",
+  "text": "御苑生梅！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kS411c77n",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kS411c77n&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/edd21449c12963c0a7632a1696ad1a7b3b98b0345fa8e23705abc3215783c607.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kS411c77n",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/edd21449c12963c0a7632a1696ad1a7b3b98b0345fa8e23705abc3215783c607.jpg",
+    "title": "【音声作品/ASMR】「愛した妹にもう一度だけ会えたとしても」【PV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/edd21449c12963c0a7632a1696ad1a7b3b98b0345fa8e23705abc3215783c607.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajebibachb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kS411c77n",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Lucle_Totometori",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5980776a3df57c36621f4710158768bcef0ec3d75702068aedc1b8385c061453",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

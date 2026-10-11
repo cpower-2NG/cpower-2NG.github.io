@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16D421A7YL",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】学园偶像大师 初星篇 剧情第14话",
+  "date": "2024-05-20",
+  "createdAt": "2024-05-20T12:22:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "极化的迷光？真不愧拉了一帮轻小说家来，萌属性爆表啊。期待以后能在深度上有所发展",
+  "text": "极化的迷光？真不愧拉了一帮轻小说家来，萌属性爆表啊。期待以后能在深度上有所发展",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16D421A7YL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16D421A7YL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/792d8a08acf383092b6ba78edc3c595605fd2092301513993fa1151cbc0f2f94.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16D421A7YL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/792d8a08acf383092b6ba78edc3c595605fd2092301513993fa1151cbc0f2f94.jpg",
+    "title": "【中字】学园偶像大师 初星篇 剧情第14话"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/792d8a08acf383092b6ba78edc3c595605fd2092301513993fa1151cbc0f2f94.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ddhhacgbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16D421A7YL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "凑铃花",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7934cc7721903bffc49ae611e26212bae6a9589b05ce086655fbefb75a5fe9a4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

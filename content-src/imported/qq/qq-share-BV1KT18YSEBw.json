@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1KT18YSEBw",
+  "schemaVersion": 1,
+  "title": "分享 · 【shiny stories】黛冬优子#下 伟大勇者 战斗专家",
+  "date": "2024-10-27",
+  "createdAt": "2024-10-27T15:31:51.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是的，我们的孩子已经14岁了",
+  "text": "是的，我们的孩子已经14岁了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KT18YSEBw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1KT18YSEBw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f77f17b68c78a9cbccadf562e2f5fcaea0cfedcccc518998a6e4b60aa39018a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1KT18YSEBw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f77f17b68c78a9cbccadf562e2f5fcaea0cfedcccc518998a6e4b60aa39018a.jpg",
+    "title": "【shiny stories】黛冬优子#下 伟大勇者 战斗专家"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2f77f17b68c78a9cbccadf562e2f5fcaea0cfedcccc518998a6e4b60aa39018a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bbbdeaadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1KT18YSEBw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "GabrielStupid",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "29ea9575b96988d31789fab44eb3b5f6e8c7ddfd27b8521aaa66bd329a266b35",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zx411c7Gg",
+  "schemaVersion": 1,
+  "title": "分享 · 【松冈修造】原来卡农也可以如此让人热血沸腾！",
+  "date": "2024-09-28",
+  "createdAt": "2024-09-28T15:34:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "sm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
+  "text": "sm7930881 在nico这个视频有一个传说（也就是松岡天満宮），1:07-1:27之间在弹幕许下愿望，那么愿望就会实现！頑張れ！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zx411c7Gg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zx411c7Gg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c593826ff54332581828bbc14edd1a3fd2b2b03b5e75f9933af1e2ba7239688.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zx411c7Gg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c593826ff54332581828bbc14edd1a3fd2b2b03b5e75f9933af1e2ba7239688.jpg",
+    "title": "【松冈修造】原来卡农也可以如此让人热血沸腾！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5c593826ff54332581828bbc14edd1a3fd2b2b03b5e75f9933af1e2ba7239688.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "geghdfhchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zx411c7Gg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "H娘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "99405eb87b6016da3792664aa51ad3e3ff096f5213904653d5c0d5364ec22ba5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

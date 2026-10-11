@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RTD5YwEJY",
+  "schemaVersion": 1,
+  "title": "分享 · 【ヒトリエ】NOTOK【MV】",
+  "date": "2024-11-11",
+  "createdAt": "2024-11-11T15:44:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "いい",
+  "text": "いい",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RTD5YwEJY",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RTD5YwEJY&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e683251439072d119378e009a3a38d280878cd0ad894ceb958ab9cf056a7f94.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RTD5YwEJY",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e683251439072d119378e009a3a38d280878cd0ad894ceb958ab9cf056a7f94.jpg",
+    "title": "【ヒトリエ】NOTOK【MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8e683251439072d119378e009a3a38d280878cd0ad894ceb958ab9cf056a7f94.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djijddbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RTD5YwEJY",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "阿赫official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "34fb8de46414c5ea0e643b71ef03369f4a230a6364a95dbe84c96cbd38a9fea2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

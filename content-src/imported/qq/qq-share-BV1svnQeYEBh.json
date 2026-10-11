@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1svnQeYEBh",
+  "schemaVersion": 1,
+  "title": "分享 · エビ揉tion",
+  "date": "2024-09-20",
+  "createdAt": "2024-09-20T13:59:32.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "扩散这么快的",
+  "text": "扩散这么快的",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1svnQeYEBh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1svnQeYEBh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402ffd9a1f076ae8d3f363ebbee929d098aa49c7e4fd3235357f42d045db8e8f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1svnQeYEBh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402ffd9a1f076ae8d3f363ebbee929d098aa49c7e4fd3235357f42d045db8e8f.jpg",
+    "title": "エビ揉tion"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/402ffd9a1f076ae8d3f363ebbee929d098aa49c7e4fd3235357f42d045db8e8f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chhaeigchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1svnQeYEBh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "航向偏离",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "baefa6debb1604156bad698482698781b566efc02b9ec01f9db375bfdd056465",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12dxQe2E7H",
+  "schemaVersion": 1,
+  "title": "分享 · 大哈吉米",
+  "date": "2024-10-22",
+  "createdAt": "2024-10-22T15:11:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草了 东方大豪猫",
+  "text": "草了\n\n东方大豪猫",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12dxQe2E7H",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12dxQe2E7H&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f1511809dcc4bcba0f32f3a09ea34a49892394d867de504a3c08c010f8f947d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12dxQe2E7H",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f1511809dcc4bcba0f32f3a09ea34a49892394d867de504a3c08c010f8f947d.jpg",
+    "title": "大哈吉米"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8f1511809dcc4bcba0f32f3a09ea34a49892394d867de504a3c08c010f8f947d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iiijagjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12dxQe2E7H",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "mamaipipipipi",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "17a6ae0a59c35249557426e67e055d2e7cfab7aea99ed0c6044d46b681accd0c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

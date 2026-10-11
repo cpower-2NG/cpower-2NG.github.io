@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19Z421N7yt",
+  "schemaVersion": 1,
+  "title": "分享 · 【相声全明星】CЯƟ55TAᒧК CƟNNE✕IƟN",
+  "date": "2024-08-28",
+  "createdAt": "2024-08-28T11:06:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "妙！太妙了！",
+  "text": "妙！太妙了！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19Z421N7yt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19Z421N7yt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2c0d03b6a04d16e27baa5e5f8e95b2fe7878409fe859c35fe3a918003b91029.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19Z421N7yt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2c0d03b6a04d16e27baa5e5f8e95b2fe7878409fe859c35fe3a918003b91029.jpg",
+    "title": "【相声全明星】CЯƟ55TAᒧК CƟNNE✕IƟN"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2c0d03b6a04d16e27baa5e5f8e95b2fe7878409fe859c35fe3a918003b91029.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "igbdeiechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19Z421N7yt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "耿鬼老师",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2e650b8b187c0298b0faf7d3eac766f7fd6cdc454e2fcae3b3bff9fdfad26fa7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

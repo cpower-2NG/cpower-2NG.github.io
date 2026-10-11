@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1BnsDeZEr5",
+  "schemaVersion": 1,
+  "title": "分享 · 艹，缺德\n\n-",
+  "date": "2024-09-25",
+  "createdAt": "2024-09-25T01:57:54.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹，缺德 -",
+  "text": "艹，缺德\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BnsDeZEr5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1BnsDeZEr5&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1BnsDeZEr5",
+    "coverUrl": "",
+    "title": "艹，缺德\n\n-"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehejcchchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1BnsDeZEr5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2a25db6efc066c8b45f070c863692ed0575843f4973967213b4dfece1a4f0d1c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

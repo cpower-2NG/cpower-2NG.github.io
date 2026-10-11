@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MZ421n7Lf",
+  "schemaVersion": 1,
+  "title": "分享 · くだらないや【横滨day2】",
+  "date": "2024-04-21",
+  "createdAt": "2024-04-21T15:23:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最好的 web",
+  "text": "最好的\n\nweb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MZ421n7Lf",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MZ421n7Lf&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af91faab87f314676482085db41b7a4e477c8e678738467a9cfd1e671995a30b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MZ421n7Lf",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af91faab87f314676482085db41b7a4e477c8e678738467a9cfd1e671995a30b.jpg",
+    "title": "くだらないや【横滨day2】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af91faab87f314676482085db41b7a4e477c8e678738467a9cfd1e671995a30b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjjcbhdbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MZ421n7Lf",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Ae_RiU",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ceadaaf52467e761ef432c529626f477f0599dc1f3968c05c5db58c2930790ba",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

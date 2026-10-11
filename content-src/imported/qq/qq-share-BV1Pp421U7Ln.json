@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Pp421U7Ln",
+  "schemaVersion": 1,
+  "title": "分享 · 【Official Music Video】回層浮（Kaisou）/ MyGO!!!!!【原创歌曲】",
+  "date": "2024-03-23",
+  "createdAt": "2024-03-23T13:02:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "哪找的静止系高手",
+  "text": "哪找的静止系高手",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Pp421U7Ln",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Pp421U7Ln&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811e96b80d37c4cde6a76030d46b6efc519f0619c52422c5ff6b40bcce516bae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Pp421U7Ln",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811e96b80d37c4cde6a76030d46b6efc519f0619c52422c5ff6b40bcce516bae.jpg",
+    "title": "【Official Music Video】回層浮（Kaisou）/ MyGO!!!!!【原创歌曲】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/811e96b80d37c4cde6a76030d46b6efc519f0619c52422c5ff6b40bcce516bae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccjijbbbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Pp421U7Ln",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "MyGO_AveMujica",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "94bf03c2cc4243e2575bb3cf350e7ab0da5ef9e9b730ac9fd201f45f1e318aa9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

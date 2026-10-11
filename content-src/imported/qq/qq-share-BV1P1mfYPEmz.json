@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1P1mfYPEmz",
+  "schemaVersion": 1,
+  "title": "分享 · 【双语CC字幕】初星学園 「小さな野望」Official Music Video",
+  "date": "2024-11-15",
+  "createdAt": "2024-11-15T14:27:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "伟大",
+  "text": "伟大",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1P1mfYPEmz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1P1mfYPEmz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98e52b0542fb54b407c41d9862a27f1b78bbcf34e06d62a40b956b143797d537.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1P1mfYPEmz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98e52b0542fb54b407c41d9862a27f1b78bbcf34e06d62a40b956b143797d537.jpg",
+    "title": "【双语CC字幕】初星学園 「小さな野望」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/98e52b0542fb54b407c41d9862a27f1b78bbcf34e06d62a40b956b143797d537.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfiaigbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1P1mfYPEmz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "aa7ff5152cd829499af52f2ef505fd1ef60bef3e224fdad1147df3d2f473b973",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1a4tYerEhU",
+  "schemaVersion": 1,
+  "title": "分享 · 【少女终末旅行】 - enchanted love",
+  "date": "2024-09-22",
+  "createdAt": "2024-09-22T11:48:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神作啊！",
+  "text": "神作啊！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a4tYerEhU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a4tYerEhU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d48076534dc3674dfcf177c422e1adf98c8be5e0a6e815dd7714181910ef24d1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1a4tYerEhU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d48076534dc3674dfcf177c422e1adf98c8be5e0a6e815dd7714181910ef24d1.jpg",
+    "title": "【少女终末旅行】 - enchanted love"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d48076534dc3674dfcf177c422e1adf98c8be5e0a6e815dd7714181910ef24d1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gigfaahchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1a4tYerEhU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "tig921",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d4f65a7b8a522fa7f761829f8afab3ed014bf713845e07cb07777328773963f9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1noYiejEHz",
+  "schemaVersion": 1,
+  "title": "分享 · 角色试镜结果发表录像",
+  "date": "2024-08-12",
+  "createdAt": "2024-08-12T15:30:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "久违的，满足冲动期待",
+  "text": "久违的，满足冲动期待",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1noYiejEHz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1noYiejEHz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d88f1e8eb5ae7179eda625bd77452f1c46bcec5e7c714e565da61a3f562f4a6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1noYiejEHz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d88f1e8eb5ae7179eda625bd77452f1c46bcec5e7c714e565da61a3f562f4a6.jpg",
+    "title": "角色试镜结果发表录像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7d88f1e8eb5ae7179eda625bd77452f1c46bcec5e7c714e565da61a3f562f4a6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bagghedchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1noYiejEHz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1dd60844c98a5707399823d76b879ac492fa830f53888ddefe7332710cff0aeb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

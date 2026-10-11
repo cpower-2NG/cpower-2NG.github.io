@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tx411C7QJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师】明明比谁都要喜欢你 水濑伊织ver.",
+  "date": "2024-05-05",
+  "createdAt": "2024-05-05T14:22:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "いつも優しくて素敵な伊織ちゃん、お誕生日おめでとうー！",
+  "text": "いつも優しくて素敵な伊織ちゃん、お誕生日おめでとうー！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tx411C7QJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tx411C7QJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e53cf269170bddc29097d52a387eeccee5ef30654a9a091b6d9ab7ddbcd608a7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tx411C7QJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e53cf269170bddc29097d52a387eeccee5ef30654a9a091b6d9ab7ddbcd608a7.jpg",
+    "title": "【偶像大师】明明比谁都要喜欢你 水濑伊织ver."
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e53cf269170bddc29097d52a387eeccee5ef30654a9a091b6d9ab7ddbcd608a7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccjibjebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tx411C7QJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "RabbitC",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6d489a94d0236c676f7d17874eff5210e2679a9379544a3752c4e8fc51330182",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

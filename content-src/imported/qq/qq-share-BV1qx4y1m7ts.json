@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1qx4y1m7ts",
+  "schemaVersion": 1,
+  "title": "分享 · 商业，很神奇吧",
+  "date": "2024-03-31",
+  "createdAt": "2024-03-31T11:37:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "商业，很神奇吧",
+  "text": "商业，很神奇吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qx4y1m7ts",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qx4y1m7ts&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qx4y1m7ts",
+    "coverUrl": "",
+    "title": "商业，很神奇吧"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhafiibbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qx4y1m7ts",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f3c12a642ee01f2c3137242bd239bfff2fb3d2a6514d3c3d5c678543dae63d6b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

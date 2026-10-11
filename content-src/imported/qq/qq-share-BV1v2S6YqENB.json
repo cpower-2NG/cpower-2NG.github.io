@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1v2S6YqENB",
+  "schemaVersion": 1,
+  "title": "分享 · 中文填词《相遇天使！》唱哭校领导！高三学生乐队告别演出轻音毕业神曲，感谢能遇见天使一般的你！！",
+  "date": "2024-11-16",
+  "createdAt": "2024-11-16T15:17:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "相遇天使",
+  "text": "相遇天使",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1v2S6YqENB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1v2S6YqENB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9be9b9068e637c6ff187a448b4d5024ccb808ec018f8430ebb6ad9ee6895fd04.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1v2S6YqENB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9be9b9068e637c6ff187a448b4d5024ccb808ec018f8430ebb6ad9ee6895fd04.jpg",
+    "title": "中文填词《相遇天使！》唱哭校领导！高三学生乐队告别演出轻音毕业神曲，感谢能遇见天使一般的你！！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9be9b9068e637c6ff187a448b4d5024ccb808ec018f8430ebb6ad9ee6895fd04.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdcahhbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1v2S6YqENB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "陆音机乐队",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1b2e76c1062b03fc2137a36297f95a44a5e55bbb7a398f82151e6c19b8db1a9f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZZ421N7q4",
+  "schemaVersion": 1,
+  "title": "分享 · 【双语歌词字幕】花海咲季 藤田琴音 葛城莉莉娅「冠菊」(锦冠）",
+  "date": "2024-08-09",
+  "createdAt": "2024-08-09T01:29:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "耽搁一下现在才听，这就是早川博隆啊！ 鸣谢 mk2",
+  "text": "耽搁一下现在才听，这就是早川博隆啊！\n\n鸣谢 mk2",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZZ421N7q4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZZ421N7q4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a809cafc99f10269756f90562ce0c27b2eeecf36b0e3460eeae155e7b94b8f4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZZ421N7q4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a809cafc99f10269756f90562ce0c27b2eeecf36b0e3460eeae155e7b94b8f4.jpg",
+    "title": "【双语歌词字幕】花海咲季 藤田琴音 葛城莉莉娅「冠菊」(锦冠）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a809cafc99f10269756f90562ce0c27b2eeecf36b0e3460eeae155e7b94b8f4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjjggbdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZZ421N7q4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "-病毒-",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7374f0c25937b8818fef47b9d5dec18d1f817013ea17df1738f356c5c38653e3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

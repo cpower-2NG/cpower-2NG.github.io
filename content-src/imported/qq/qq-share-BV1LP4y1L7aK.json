@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LP4y1L7aK",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪耀色彩3.5周年】Acacia -Shiny Colors Special Coll@boration-",
+  "date": "2024-10-17",
+  "createdAt": "2024-10-17T04:49:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "令人感叹",
+  "text": "令人感叹",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LP4y1L7aK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LP4y1L7aK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54f1784240ebc43490c05665e252f27be48e217ce6aa29532b432c2d0a108d4b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LP4y1L7aK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54f1784240ebc43490c05665e252f27be48e217ce6aa29532b432c2d0a108d4b.jpg",
+    "title": "【闪耀色彩3.5周年】Acacia -Shiny Colors Special Coll@boration-"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/54f1784240ebc43490c05665e252f27be48e217ce6aa29532b432c2d0a108d4b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hffaebjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LP4y1L7aK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "00c6db5e11d19829cadcd9de1a91e41829d9893d7260dade46af22f1a21fdbd2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

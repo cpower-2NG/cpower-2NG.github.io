@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jE42137Nh",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】空战之路",
+  "date": "2024-05-12",
+  "createdAt": "2024-05-12T10:21:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "联 合 国",
+  "text": "联 合 国",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jE42137Nh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jE42137Nh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0d503e648b87fa08291732b6714063f53b3273c23b3c9fa650b1fe4ea468787.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jE42137Nh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0d503e648b87fa08291732b6714063f53b3273c23b3c9fa650b1fe4ea468787.jpg",
+    "title": "【合作】空战之路"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0d503e648b87fa08291732b6714063f53b3273c23b3c9fa650b1fe4ea468787.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjcjaffbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jE42137Nh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "腦控通信中",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d9500629dcce3f85013a19ce24d200d9b9255ff2ed0b00e2b787abb4ccc301cd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

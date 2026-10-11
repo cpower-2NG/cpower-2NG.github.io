@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11s421P7ec",
+  "schemaVersion": 1,
+  "title": "分享 · CƟPPER CƟNNE✕IƟN",
+  "date": "2024-05-05",
+  "createdAt": "2024-05-05T05:13:24.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "梗小鬼呢，救一下啊",
+  "text": "梗小鬼呢，救一下啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11s421P7ec",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11s421P7ec&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c953132db0f4043736bfd79ee6225c065b9035c1d9f4ae33b7a094003c42962e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11s421P7ec",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c953132db0f4043736bfd79ee6225c065b9035c1d9f4ae33b7a094003c42962e.jpg",
+    "title": "CƟPPER CƟNNE✕IƟN"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c953132db0f4043736bfd79ee6225c065b9035c1d9f4ae33b7a094003c42962e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eaagiiebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11s421P7ec",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "KooHi_",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1646ad70f0f84a7bbf9f17a2ace2fb0958d3c03be968afcd6fb65cf9cc05abe4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

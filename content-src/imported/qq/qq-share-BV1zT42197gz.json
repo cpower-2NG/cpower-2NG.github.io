@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1zT42197gz",
+  "schemaVersion": 1,
+  "title": "分享 · Roots of Shikiness",
+  "date": "2024-05-07",
+  "createdAt": "2024-05-07T10:54:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "美妙的YTPMV",
+  "text": "美妙的YTPMV",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zT42197gz",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1zT42197gz&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/04943cfc45107291118c04af1372efabd82c6f253a6dc0d1efcfebd4a88d3a73.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1zT42197gz",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/04943cfc45107291118c04af1372efabd82c6f253a6dc0d1efcfebd4a88d3a73.jpg",
+    "title": "Roots of Shikiness"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/04943cfc45107291118c04af1372efabd82c6f253a6dc0d1efcfebd4a88d3a73.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jicjhafbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1zT42197gz",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "稻米纳特",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1d1d6eb4262b577c9378a0a19184b1123cc2900012fbf0563bed4c43ae02e293",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

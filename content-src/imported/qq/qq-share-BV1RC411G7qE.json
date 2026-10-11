@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1RC411G7qE",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】閃耀之日2024特別劇情-偶像大師閃耀色彩翻譯 中文字幕",
+  "date": "2024-04-12",
+  "createdAt": "2024-04-12T11:55:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "终于又拎起这双鞋子的故事了，一年一次的难得的主线，让我们看看社长的努力吧",
+  "text": "终于又拎起这双鞋子的故事了，一年一次的难得的主线，让我们看看社长的努力吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RC411G7qE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1RC411G7qE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c10cdf900447b6ab05244710acf1d2aed763260d7015c584f9c3cfcb39cd8b27.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1RC411G7qE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c10cdf900447b6ab05244710acf1d2aed763260d7015c584f9c3cfcb39cd8b27.jpg",
+    "title": "【中字】閃耀之日2024特別劇情-偶像大師閃耀色彩翻譯 中文字幕"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c10cdf900447b6ab05244710acf1d2aed763260d7015c584f9c3cfcb39cd8b27.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jajccjcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1RC411G7qE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "曾差",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4b926e64f12e437b147e6e7f42f4f878f2464ef852ea83644bd3a1bfcaf0405e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

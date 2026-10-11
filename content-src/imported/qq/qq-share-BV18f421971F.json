@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV18f421971F",
+  "schemaVersion": 1,
+  "title": "分享 · 【ゲスト：小鹿なお】黒木ほの香のSecret Show Room（第93回） - 2024_5_30(木) 20_00開",
+  "date": "2024-05-31",
+  "createdAt": "2024-05-31T02:11:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "各种意义上，好快",
+  "text": "各种意义上，好快",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV18f421971F",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV18f421971F&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e465adfcdd98839dcd7b5cece0dbdf88c9143a92e4bf39e186899b0a02d3acf.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV18f421971F",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e465adfcdd98839dcd7b5cece0dbdf88c9143a92e4bf39e186899b0a02d3acf.jpg",
+    "title": "【ゲスト：小鹿なお】黒木ほの香のSecret Show Room（第93回） - 2024_5_30(木) 20_00開始 - ニコニコ生放送"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7e465adfcdd98839dcd7b5cece0dbdf88c9143a92e4bf39e186899b0a02d3acf.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eafbcbhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV18f421971F",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夜夜魅力的",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f29e02cac2d422fe962439cea667159fc39d36d0d3d86593173f8accca36ef2c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVAyECvX8H4IQQ",
+  "schemaVersion": 1,
+  "title": "分享 · 历史性时刻",
+  "date": "2024-04-23",
+  "createdAt": "2024-04-23T13:50:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "历史性时刻",
+  "text": "历史性时刻",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVAyECvX8H4IQQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVAyECvX8H4IQQ&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVAyECvX8H4IQQ",
+    "coverUrl": "",
+    "title": "历史性时刻"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0abbc276695610400",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVAyECvX8H4IQQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "04e487c5ecc2f371f369f983f65b425f944a2402b43185eba986cfe52e3a09a8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

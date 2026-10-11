@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ZrtPeBEWN",
+  "schemaVersion": 1,
+  "title": "分享 · 【个人汉化】地道北京腔的女版小仓朝日你喜欢吗？",
+  "date": "2024-09-14",
+  "createdAt": "2024-09-14T08:17:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这样翻译冲绳话看笑了",
+  "text": "这样翻译冲绳话看笑了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZrtPeBEWN",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZrtPeBEWN&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c59a1c22ac28dabab7a4ca95c1d0ff2d4c2c3e82116a9b21820d67b6b90df9d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ZrtPeBEWN",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c59a1c22ac28dabab7a4ca95c1d0ff2d4c2c3e82116a9b21820d67b6b90df9d.jpg",
+    "title": "【个人汉化】地道北京腔的女版小仓朝日你喜欢吗？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0c59a1c22ac28dabab7a4ca95c1d0ff2d4c2c3e82116a9b21820d67b6b90df9d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jgibadgchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ZrtPeBEWN",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "孟纸Mencius",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3ddcd4f3535b8f25a118f1aca331fed4d3c9c601855db6957ee16175a796ad67",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

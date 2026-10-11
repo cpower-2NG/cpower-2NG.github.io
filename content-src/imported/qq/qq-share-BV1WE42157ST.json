@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1WE42157ST",
+  "schemaVersion": 1,
+  "title": "分享 · 「初」〈はじめ〉(歌 : 月村手毬）4K MV【学園 偶像大师】",
+  "date": "2024-04-28",
+  "createdAt": "2024-04-28T16:11:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "原口别写偶像曲了",
+  "text": "原口别写偶像曲了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WE42157ST",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1WE42157ST&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668d3286afff6a36a19191e2749f24d1621820287f9ace985f2d5631dccae42d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1WE42157ST",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668d3286afff6a36a19191e2749f24d1621820287f9ace985f2d5631dccae42d.jpg",
+    "title": "「初」〈はじめ〉(歌 : 月村手毬）4K MV【学園 偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/668d3286afff6a36a19191e2749f24d1621820287f9ace985f2d5631dccae42d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cbhacdebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1WE42157ST",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1770b44a3ac552e3c0a7b5ef2be7d72fdc2aa2091f8b72d794b901a277bb697f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

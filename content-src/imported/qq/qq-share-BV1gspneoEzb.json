@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gspneoEzb",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024/9/8】 美波373 东京 日比谷大音乐堂 Aquatic pride 演唱会",
+  "date": "2024-09-12",
+  "createdAt": "2024-09-12T15:18:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "还真有啊",
+  "text": "还真有啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gspneoEzb",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gspneoEzb&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321e8f71f7fbb27d727b0b574c0112686405acd193bccad973ec0c6ee61236fd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gspneoEzb",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321e8f71f7fbb27d727b0b574c0112686405acd193bccad973ec0c6ee61236fd.jpg",
+    "title": "【2024/9/8】 美波373 东京 日比谷大音乐堂 Aquatic pride 演唱会"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/321e8f71f7fbb27d727b0b574c0112686405acd193bccad973ec0c6ee61236fd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjcefbgchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gspneoEzb",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "syuminami",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f2aecf62be352a2ff9ec1b2d5349aa7017809120241cc3032c99b732fa354e4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15a4y1S7iC",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】音MAD怎么回事！？",
+  "date": "2024-04-23",
+  "createdAt": "2024-04-23T14:07:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "做得也太好了，有致敬也有新意，加上素材本土化，看爽了",
+  "text": "做得也太好了，有致敬也有新意，加上素材本土化，看爽了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15a4y1S7iC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15a4y1S7iC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b75efdd87182062b334eca9ec53789c6a7f670cda00567e4b447b11bcbc11c05.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15a4y1S7iC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b75efdd87182062b334eca9ec53789c6a7f670cda00567e4b447b11bcbc11c05.jpg",
+    "title": "【合作】音MAD怎么回事！？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b75efdd87182062b334eca9ec53789c6a7f670cda00567e4b447b11bcbc11c05.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "becbiidbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15a4y1S7iC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LArk25",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9640b19ce5f2a13bd17c96761858907840f1acff9a38bf1ba3f7d8a624351d41",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

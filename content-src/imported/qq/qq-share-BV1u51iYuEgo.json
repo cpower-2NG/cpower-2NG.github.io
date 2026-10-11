@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1u51iYuEgo",
+  "schemaVersion": 1,
+  "title": "分享 · （中字）仲不可言的三人星",
+  "date": "2024-10-06",
+  "createdAt": "2024-10-06T10:40:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "00！ ||ヽ(*￣▽￣*)ノミ|Ю",
+  "text": "00！  ||ヽ(*￣▽￣*)ノミ|Ю",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1u51iYuEgo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1u51iYuEgo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9848215d5c1c7a59b3d3c6622f49937a2ea75853b05d926c0df257852f1efa7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1u51iYuEgo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9848215d5c1c7a59b3d3c6622f49937a2ea75853b05d926c0df257852f1efa7.jpg",
+    "title": "（中字）仲不可言的三人星"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f9848215d5c1c7a59b3d3c6622f49937a2ea75853b05d926c0df257852f1efa7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "edcbbcichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1u51iYuEgo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e1943009da2346fcd11b56a85c3bde5453d6f40a935ab2089bca1fccbeba0b2f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

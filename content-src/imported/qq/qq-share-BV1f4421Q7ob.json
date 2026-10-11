@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1f4421Q7ob",
+  "schemaVersion": 1,
+  "title": "分享 · 【美波】Luna say maybe/月说或许 学园偶像大师角色曲 弹唱",
+  "date": "2024-07-01",
+  "createdAt": "2024-07-01T04:13:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "量身定制",
+  "text": "量身定制",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1f4421Q7ob",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1f4421Q7ob&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/094651ead0a758bf1411fb15471591e82739cf447665814ae02a095f30955ae5.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1f4421Q7ob",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/094651ead0a758bf1411fb15471591e82739cf447665814ae02a095f30955ae5.jpg",
+    "title": "【美波】Luna say maybe/月说或许 学园偶像大师角色曲 弹唱"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/094651ead0a758bf1411fb15471591e82739cf447665814ae02a095f30955ae5.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cdchaijbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1f4421Q7ob",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "美波Minami资讯站",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1849d3ac6bea4992f80351d7ad62fdd798ee70f6192d52feb25d8c5072374904",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

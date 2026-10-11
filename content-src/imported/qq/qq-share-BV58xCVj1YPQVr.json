@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV58xCVj1YPQVr",
+  "schemaVersion": 1,
+  "title": "分享 · 是爱玩电子的豪哥。感觉混音有点问题啊（",
+  "date": "2024-11-15",
+  "createdAt": "2024-11-15T14:21:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是爱玩电子的豪哥。感觉混音有点问题啊（",
+  "text": "是爱玩电子的豪哥。感觉混音有点问题啊（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV58xCVj1YPQVr",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV58xCVj1YPQVr&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV58xCVj1YPQVr",
+    "coverUrl": "",
+    "title": "是爱玩电子的豪哥。感觉混音有点问题啊（"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "abfaigbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV58xCVj1YPQVr",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6c80bd36568ff5beb1239c7ff64122bb138fc2b55bbd608a0aace3020deb12e4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

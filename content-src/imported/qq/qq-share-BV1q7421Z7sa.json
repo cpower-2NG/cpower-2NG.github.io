@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1q7421Z7sa",
+  "schemaVersion": 1,
+  "title": "分享 · 【6月/剧场版/花田十辉】数分的欢呼 / 数分钟的赞歌 本篇影像 第1弹【MCE汉化组】",
+  "date": "2024-05-29",
+  "createdAt": "2024-05-29T04:13:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这就是创作的魅力啊！",
+  "text": "这就是创作的魅力啊！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1q7421Z7sa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1q7421Z7sa&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fbf09c87d9fa365f01a39847f00f263fff066cb27523f10d124d2c00090260f2.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1q7421Z7sa",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fbf09c87d9fa365f01a39847f00f263fff066cb27523f10d124d2c00090260f2.png",
+    "title": "【6月/剧场版/花田十辉】数分的欢呼 / 数分钟的赞歌 本篇影像 第1弹【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fbf09c87d9fa365f01a39847f00f263fff066cb27523f10d124d2c00090260f2.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbagfjgbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1q7421Z7sa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0862c947968801b1dff130af89b93f8e757c1eddc6ed04727324e635c8398700",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

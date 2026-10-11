@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVdjIwXfPMCeRK",
+  "schemaVersion": 1,
+  "title": "分享 · 最羡慕现地的一集（",
+  "date": "2024-10-10",
+  "createdAt": "2024-10-10T16:02:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最羡慕现地的一集（",
+  "text": "最羡慕现地的一集（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVdjIwXfPMCeRK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVdjIwXfPMCeRK&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVdjIwXfPMCeRK",
+    "coverUrl": "",
+    "title": "最羡慕现地的一集（"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bebghfichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVdjIwXfPMCeRK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2dc8e6328482e321e79eaba12fdd802399e2dd1bac13fe293593f4cb9a658a51",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1jPyrYtEHo",
+  "schemaVersion": 1,
+  "title": "分享 · 十年前钉宫三连，十年后钉宫：良爷别打了",
+  "date": "2024-10-30",
+  "createdAt": "2024-10-30T14:59:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "冲着钉宫玩玩",
+  "text": "冲着钉宫玩玩",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jPyrYtEHo",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jPyrYtEHo&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f66f4eedeee78cd3d86357baca24dcfd264666a6b1cc88d5a7dfc5dc9352197d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1jPyrYtEHo",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f66f4eedeee78cd3d86357baca24dcfd264666a6b1cc88d5a7dfc5dc9352197d.jpg",
+    "title": "十年前钉宫三连，十年后钉宫：良爷别打了"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f66f4eedeee78cd3d86357baca24dcfd264666a6b1cc88d5a7dfc5dc9352197d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bedaadadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1jPyrYtEHo",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "゙星空只在凝望的眼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "89a0dd5e61dd980d341bb18df640e9b9f2f27ca11d72519c725455862de3bea4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

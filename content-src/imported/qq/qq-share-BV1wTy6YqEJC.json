@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wTy6YqEJC",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作】闪耀色彩6.5th合作 - 响彩记录 Refulgent Color Days-",
+  "date": "2024-10-24",
+  "createdAt": "2024-10-24T16:07:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好啊",
+  "text": "真好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wTy6YqEJC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wTy6YqEJC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7e94c4ca1bc781e5eea6eedd796ac24c0dc7164776b6c2f5a8a60b7ef0bf0e7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wTy6YqEJC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7e94c4ca1bc781e5eea6eedd796ac24c0dc7164776b6c2f5a8a60b7ef0bf0e7.jpg",
+    "title": "【合作】闪耀色彩6.5th合作 - 响彩记录 Refulgent Color Days-"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d7e94c4ca1bc781e5eea6eedd796ac24c0dc7164776b6c2f5a8a60b7ef0bf0e7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agagihjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wTy6YqEJC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4757a9d6f21977bc9abf51057ecb534bbe07d4bd8f32ff88a402ccca7c1cf324",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

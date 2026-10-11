@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Wx411F7Hs",
+  "schemaVersion": 1,
+  "title": "分享 · 东方同人音乐嘉年华（17/03/20）",
+  "date": "2024-11-29",
+  "createdAt": "2024-11-29T06:40:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "找到了初入东方的感动 网易云→music.163.com/#/playlist?id=52804225",
+  "text": "找到了初入东方的感动\n\n网易云→music.163.com/#/playlist?id=52804225",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Wx411F7Hs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Wx411F7Hs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8411b6ebba4375ed3c99d1cd64c9712071c5df9bf08913dd2dfc7e9b27c8ab47.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Wx411F7Hs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8411b6ebba4375ed3c99d1cd64c9712071c5df9bf08913dd2dfc7e9b27c8ab47.jpg",
+    "title": "东方同人音乐嘉年华（17/03/20）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8411b6ebba4375ed3c99d1cd64c9712071c5df9bf08913dd2dfc7e9b27c8ab47.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gbecgicdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Wx411F7Hs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "骑空士",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "488e53e3e80f82e86dcfe3828202dad9fc749a74bed3ba82da3816528c060ece",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

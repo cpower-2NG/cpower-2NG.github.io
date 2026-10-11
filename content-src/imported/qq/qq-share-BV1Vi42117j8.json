@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Vi42117j8",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】閃耀色彩6周年紀念PV",
+  "date": "2024-04-24",
+  "createdAt": "2024-04-24T12:43:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "做得好啊。「故事才刚刚开始」",
+  "text": "做得好啊。「故事才刚刚开始」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Vi42117j8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Vi42117j8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e096ff99ccc5ec280ae8201c5559cbcc173e2c60a29360344ef817e12d5aad6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Vi42117j8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e096ff99ccc5ec280ae8201c5559cbcc173e2c60a29360344ef817e12d5aad6.jpg",
+    "title": "【中字】閃耀色彩6周年紀念PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3e096ff99ccc5ec280ae8201c5559cbcc173e2c60a29360344ef817e12d5aad6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbgcgjdbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Vi42117j8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "曾差",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8a25acc3c366167f13bbb5636758f33a10eae032601a39d109170f73e409a3c5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

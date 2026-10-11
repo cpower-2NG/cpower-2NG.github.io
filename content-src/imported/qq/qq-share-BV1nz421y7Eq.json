@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nz421y7Eq",
+  "schemaVersion": 1,
+  "title": "分享 · 【壁家讲坛】看懂《你想活出怎样的人生》只需做一件事…（无剧透）",
+  "date": "2024-04-02",
+  "createdAt": "2024-04-02T12:01:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "很纠结要不要去看 宫崎骏新作《你想活出怎样的人生》在中国内地上映，本杂谈节目既可以作为观前功课，也可以作为观后回顾，无情节上的剧透放心观看...",
+  "text": "很纠结要不要去看\n\n宫崎骏新作《你想活出怎样的人生》在中国内地上映，本杂谈节目既可以作为观前功课，也可以作为观后回顾，无情节上的剧透放心观看...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nz421y7Eq",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nz421y7Eq&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06f9badc0b9718b3fcbb38006e069aac6de86b2d3ab7bba712c5186263a2810e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nz421y7Eq",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06f9badc0b9718b3fcbb38006e069aac6de86b2d3ab7bba712c5186263a2810e.jpg",
+    "title": "【壁家讲坛】看懂《你想活出怎样的人生》只需做一件事…（无剧透）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/06f9badc0b9718b3fcbb38006e069aac6de86b2d3ab7bba712c5186263a2810e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ggcjfacbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nz421y7Eq",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "名作之壁吧",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3929877a6a45c7687d8496af8c06c49660f381e13183b70ff9bd472372ecb6ec",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

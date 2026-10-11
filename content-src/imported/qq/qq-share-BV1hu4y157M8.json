@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hu4y157M8",
+  "schemaVersion": 1,
+  "title": "分享 · 老师…老师…我…人生相談です。",
+  "date": "2024-09-17",
+  "createdAt": "2024-09-17T03:46:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "草 笑死我了自己都绷不住哈哈哈哈哈哈哈哈哈",
+  "text": "草\n\n笑死我了自己都绷不住哈哈哈哈哈哈哈哈哈",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hu4y157M8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hu4y157M8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8377c558de0d9ff61e4b47bb86d85bc405a080902dac37cf1de95e0934c9cb42.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hu4y157M8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8377c558de0d9ff61e4b47bb86d85bc405a080902dac37cf1de95e0934c9cb42.jpg",
+    "title": "老师…老师…我…人生相談です。"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8377c558de0d9ff61e4b47bb86d85bc405a080902dac37cf1de95e0934c9cb42.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibieefgchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hu4y157M8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "春雷sh",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "762be1f72f7a9815282fe358fc9c42e5b8b0d1178de08113465fc0c011feaacb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

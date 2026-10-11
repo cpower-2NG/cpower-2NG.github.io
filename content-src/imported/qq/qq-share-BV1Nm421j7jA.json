@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nm421j7jA",
+  "schemaVersion": 1,
+  "title": "分享 · 藤田琴音华金合作",
+  "date": "2024-05-03",
+  "createdAt": "2024-05-03T05:18:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我不应该抱有期待的，还是看看不远处的黄金祭吧",
+  "text": "我不应该抱有期待的，还是看看不远处的黄金祭吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nm421j7jA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nm421j7jA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c183362285af801c24561f43f53249d7615b37170cbdc63cb1877f56f3c42975.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nm421j7jA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c183362285af801c24561f43f53249d7615b37170cbdc63cb1877f56f3c42975.jpg",
+    "title": "藤田琴音华金合作"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c183362285af801c24561f43f53249d7615b37170cbdc63cb1877f56f3c42975.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iiedbhebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nm421j7jA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "粉毛双马尾美美兔",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "54a64b6aa8e765d265bc383e30ba2bc5104ee16432e962403018aba33e808241",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

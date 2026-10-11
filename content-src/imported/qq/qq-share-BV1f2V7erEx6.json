@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1f2V7erEx6",
+  "schemaVersion": 1,
+  "title": "分享 · 觉醒了。",
+  "date": "2024-06-19",
+  "createdAt": "2024-06-19T01:29:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "觉醒了。 阿Q死了，他虽没有女人，但并不如同小尼姑所骂的那样断子绝孙了。因为据考察家们考证说，阿Q还是有后代的，而且子孙繁多，至今不...",
+  "text": "觉醒了。\n\n阿Q死了，他虽没有女人，但并不如同小尼姑所骂的那样断子绝孙了。因为据考察家们考证说，阿Q还是有后代的，而且子孙繁多，至今不...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1f2V7erEx6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1f2V7erEx6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0787af8a46412a28d88b24bce2313a9aa9f704476ea22e5ac4fa1b81c3c5b001.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1f2V7erEx6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0787af8a46412a28d88b24bce2313a9aa9f704476ea22e5ac4fa1b81c3c5b001.jpg",
+    "title": "觉醒了。"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0787af8a46412a28d88b24bce2313a9aa9f704476ea22e5ac4fa1b81c3c5b001.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjfaghibhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1f2V7erEx6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "nanamiya0534",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "63f955e9eb48e43dada7cbcc1bf796e4806ac2ae35cf6a17a6b2dc2d7e1e6691",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

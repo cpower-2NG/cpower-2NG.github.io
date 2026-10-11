@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVLTZed4W4q6ld",
+  "schemaVersion": 1,
+  "title": "分享 · 需要知道的是，今年是今井麻美声优活动25周年，歌手活动15周年。特别的，今天也是她的生日，在最后的时刻，让我们为她献上祝",
+  "date": "2024-05-16",
+  "createdAt": "2024-05-16T14:51:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "需要知道的是，今年是今井麻美声优活动25周年，歌手活动15周年。特别的，今天也是她的生日，在最后的时刻，让我们为她献上祝福！",
+  "text": "需要知道的是，今年是今井麻美声优活动25周年，歌手活动15周年。特别的，今天也是她的生日，在最后的时刻，让我们为她献上祝福！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVLTZed4W4q6ld",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVLTZed4W4q6ld&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVLTZed4W4q6ld",
+    "coverUrl": "",
+    "title": "需要知道的是，今年是今井麻美声优活动25周年，歌手活动15周年。特别的，今天也是她的生日，在最后的时刻，让我们为她献上祝福！"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0601d46660a420e00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVLTZed4W4q6ld",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "93e47de7d2f6205deaf3fba43f47eddaad70439bafa24ebb78535e39009c7e94",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

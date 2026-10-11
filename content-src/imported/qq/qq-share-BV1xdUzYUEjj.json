@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xdUzYUEjj",
+  "schemaVersion": 1,
+  "title": "分享 · 【九个学P凑一桌】初【学园偶像大师翻唱】",
+  "date": "2024-11-17",
+  "createdAt": "2024-11-17T13:53:57.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "热门就是好啊",
+  "text": "热门就是好啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xdUzYUEjj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xdUzYUEjj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e4c8315d62e5a95eff027288a4ded5a4b9066da013e355b4a7cdc5115726d5ca.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xdUzYUEjj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e4c8315d62e5a95eff027288a4ded5a4b9066da013e355b4a7cdc5115726d5ca.jpg",
+    "title": "【九个学P凑一桌】初【学园偶像大师翻唱】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e4c8315d62e5a95eff027288a4ded5a4b9066da013e355b4a7cdc5115726d5ca.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdgbfibdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xdUzYUEjj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "暁月とおる",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "01c6f691d6b0b10dfb1ef58ad0d87845355b2955215e42ca31b44f17a7089207",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

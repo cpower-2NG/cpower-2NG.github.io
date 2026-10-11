@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1ubsYe8EXd",
+  "schemaVersion": 1,
+  "title": "分享 · 这怎么都要补档",
+  "date": "2024-09-25",
+  "createdAt": "2024-09-25T01:50:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这怎么都要补档",
+  "text": "这怎么都要补档",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ubsYe8EXd",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ubsYe8EXd&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ubsYe8EXd",
+    "coverUrl": "",
+    "title": "这怎么都要补档"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccajcchchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ubsYe8EXd",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "abe9d98d4d7172fe222481855b14f9ab8330e197c52b3fed1de714d0d62be360",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

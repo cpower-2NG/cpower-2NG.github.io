@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1JT421678K",
+  "schemaVersion": 1,
+  "title": "分享 · 没有让熬夜支持我的家人们失望",
+  "date": "2024-08-11",
+  "createdAt": "2024-08-11T23:56:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "孩神！",
+  "text": "孩神！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JT421678K",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JT421678K&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95d95c222a4fd847302c93f9ace8209e2d556d27de86f33f3570757f7d9e3ba3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JT421678K",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95d95c222a4fd847302c93f9ace8209e2d556d27de86f33f3570757f7d9e3ba3.jpg",
+    "title": "没有让熬夜支持我的家人们失望"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/95d95c222a4fd847302c93f9ace8209e2d556d27de86f33f3570757f7d9e3ba3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjfacedchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JT421678K",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "小孩曾卓君",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "cb6ebd913cdfe60a201723d38c9c73683a38a2995b153043cbfa05cf377606ac",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

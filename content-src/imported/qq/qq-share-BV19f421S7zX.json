@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19f421S7zX",
+  "schemaVersion": 1,
+  "title": "分享 · 2DMV 预览【学園 偶像大师 / 初星学園】",
+  "date": "2024-05-01",
+  "createdAt": "2024-05-01T10:54:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太可怕了",
+  "text": "太可怕了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19f421S7zX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19f421S7zX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/31509764fe8c44ee9d4e5f767767574de3279027cb5a5378082e15ce1fa94cf0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19f421S7zX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/31509764fe8c44ee9d4e5f767767574de3279027cb5a5378082e15ce1fa94cf0.jpg",
+    "title": "2DMV 预览【学園 偶像大师 / 初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/31509764fe8c44ee9d4e5f767767574de3279027cb5a5378082e15ce1fa94cf0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ihiagfebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19f421S7zX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8c2664f37d95d38dec8c930985bd0f8c688d0efd740b5d59a8a91fc4b8bc0bde",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

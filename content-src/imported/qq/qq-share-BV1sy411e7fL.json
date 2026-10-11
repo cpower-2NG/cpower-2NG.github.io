@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1sy411e7fL",
+  "schemaVersion": 1,
+  "title": "分享 · 就在大家都沉迷学的时候，闪彩整出了个大活。有点痛了，刚看到四格的时候，还以为是二创。之后才意识到高山的毒辣",
+  "date": "2024-05-23",
+  "createdAt": "2024-05-23T14:24:07.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "就在大家都沉迷学的时候，闪彩整出了个大活。有点痛了，刚看到四格的时候，还以为是二创。之后才意识到高山的毒辣",
+  "text": "就在大家都沉迷学的时候，闪彩整出了个大活。有点痛了，刚看到四格的时候，还以为是二创。之后才意识到高山的毒辣",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sy411e7fL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1sy411e7fL&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1sy411e7fL",
+    "coverUrl": "",
+    "title": "就在大家都沉迷学的时候，闪彩整出了个大活。有点痛了，刚看到四格的时候，还以为是二创。之后才意识到高山的毒辣"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hecehegbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1sy411e7fL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8165a6406dd5446570eb855e5c1ecba2d1d2c12a56a2320de7a5849393ab65cd",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV15JySYJEDZ",
+  "schemaVersion": 1,
+  "title": "分享 · 神\n\n初投稿。",
+  "date": "2024-11-10",
+  "createdAt": "2024-11-10T03:55:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "神 初投稿。",
+  "text": "神\n\n初投稿。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15JySYJEDZ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15JySYJEDZ&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15JySYJEDZ",
+    "coverUrl": "",
+    "title": "神\n\n初投稿。"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbjabcbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15JySYJEDZ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e469a591f13c6610019e69351df32a7a070cc3a6ecfe62d143383bc331f9decb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12i421X7fE",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字/切片】什么！土屋李央居然是我的青梅竹马？",
+  "date": "2024-03-26",
+  "createdAt": "2024-03-26T12:06:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有声优痴要破防了",
+  "text": "有声优痴要破防了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12i421X7fE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12i421X7fE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5dabd8e8068b7b837bf368ad1e6d81dba4be7359da02f198548b6e71c2e2418.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12i421X7fE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5dabd8e8068b7b837bf368ad1e6d81dba4be7359da02f198548b6e71c2e2418.jpg",
+    "title": "【中字/切片】什么！土屋李央居然是我的青梅竹马？"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c5dabd8e8068b7b837bf368ad1e6d81dba4be7359da02f198548b6e71c2e2418.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "baiefebbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12i421X7fE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "携带鞋带",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "83f375e26b5526d358316b194ec67a528afe4fdcaf623efb88f59dbdc25a7055",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Rm421M7Ea",
+  "schemaVersion": 1,
+  "title": "分享 · あのねあのねあのねあのねあのねあのねあのねあのねあのねあのね",
+  "date": "2024-05-26",
+  "createdAt": "2024-05-26T13:27:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有饼啊！",
+  "text": "有饼啊！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Rm421M7Ea",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Rm421M7Ea&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85eef8806f3b8cac5a724c1463348e79f199603891b0634d9fe97b8d3de0d61f.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Rm421M7Ea",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85eef8806f3b8cac5a724c1463348e79f199603891b0634d9fe97b8d3de0d61f.png",
+    "title": "あのねあのねあのねあのねあのねあのねあのねあのねあのねあのね"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85eef8806f3b8cac5a724c1463348e79f199603891b0634d9fe97b8d3de0d61f.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ceaadhgbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Rm421M7Ea",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "作料作料",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "98cdccc5c464ae5b561fef5dccc5f484c6773ad55e8e6d556563b2057f402e0e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

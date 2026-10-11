@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1t5UCYAERs",
+  "schemaVersion": 1,
+  "title": "分享 · LOVE晾迁",
+  "date": "2024-11-17",
+  "createdAt": "2024-11-17T11:33:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "わがる！",
+  "text": "わがる！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1t5UCYAERs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1t5UCYAERs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5a469f64b117711d02479e8d53fd7eeef443eec972688059057858f3c0f5f4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1t5UCYAERs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5a469f64b117711d02479e8d53fd7eeef443eec972688059057858f3c0f5f4.jpg",
+    "title": "LOVE晾迁"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e5a469f64b117711d02479e8d53fd7eeef443eec972688059057858f3c0f5f4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbcdeibdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1t5UCYAERs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f21238eb9803e45a57f70205039ca43c89125d30b81f702b41a13b3b763a7ac2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

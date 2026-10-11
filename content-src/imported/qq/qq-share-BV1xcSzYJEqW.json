@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xcSzYJEqW",
+  "schemaVersion": 1,
+  "title": "分享 · 【和音社交响管乐团】“同为利兹，互为青鸟——”利兹与青鸟节选片段  来自顶级双簧管的“跨越国境的旋律”",
+  "date": "2024-11-02",
+  "createdAt": "2024-11-02T12:26:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "爽了",
+  "text": "爽了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xcSzYJEqW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xcSzYJEqW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85a1a5cf254c95a712c16a2b62a51ce9b9119308cc075d3e228988f5e63cb0be.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xcSzYJEqW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85a1a5cf254c95a712c16a2b62a51ce9b9119308cc075d3e228988f5e63cb0be.jpg",
+    "title": "【和音社交响管乐团】“同为利兹，互为青鸟——”利兹与青鸟节选片段  来自顶级双簧管的“跨越国境的旋律”"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/85a1a5cf254c95a712c16a2b62a51ce9b9119308cc075d3e228988f5e63cb0be.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdaffadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xcSzYJEqW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "和音社交响乐团",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "590a032b820ae5e9cae79a4b54ac461741a8e4e2ac0d7d63c545731d782d0a7f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

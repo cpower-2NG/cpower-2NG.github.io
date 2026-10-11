@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Sx4y1i7aQ",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字cc】初星学園 「Wonder Scale」Official Music Video",
+  "date": "2024-05-08",
+  "createdAt": "2024-05-08T14:30:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是我草率了，不是作画而是spine（总不能算上特效作画吧）。",
+  "text": "是我草率了，不是作画而是spine（总不能算上特效作画吧）。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Sx4y1i7aQ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Sx4y1i7aQ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e93f48a9be84418e74a4cf35b4c01491f6f0b41692fd0458802d731aca235f5f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Sx4y1i7aQ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e93f48a9be84418e74a4cf35b4c01491f6f0b41692fd0458802d731aca235f5f.jpg",
+    "title": "【中字cc】初星学園 「Wonder Scale」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e93f48a9be84418e74a4cf35b4c01491f6f0b41692fd0458802d731aca235f5f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ddgihbfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Sx4y1i7aQ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7d1e96ee42682a707179f8b35eb1addf204a858b65c644546b8bdff3136825b4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

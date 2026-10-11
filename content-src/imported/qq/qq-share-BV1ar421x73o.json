@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ar421x73o",
+  "schemaVersion": 1,
+  "title": "分享 · 八九寺イ",
+  "date": "2024-04-06",
+  "createdAt": "2024-04-06T11:33:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "物语长对白应该很适合做音骂的，但意外的不多见？",
+  "text": "物语长对白应该很适合做音骂的，但意外的不多见？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ar421x73o",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ar421x73o&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16dd8b6e1ec1251a6190bf7dd62ab200ad1cc0641f3e36f9c99b36f23dec304b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ar421x73o",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16dd8b6e1ec1251a6190bf7dd62ab200ad1cc0641f3e36f9c99b36f23dec304b.jpg",
+    "title": "八九寺イ"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/16dd8b6e1ec1251a6190bf7dd62ab200ad1cc0641f3e36f9c99b36f23dec304b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iacdaecbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ar421x73o",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e981aa9ecadb3c18bdcb99087736a84e3e32ff8a43dc85bee86128ecaa1fa837",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

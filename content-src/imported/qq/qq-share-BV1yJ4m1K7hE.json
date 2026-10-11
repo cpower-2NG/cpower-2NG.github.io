@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yJ4m1K7hE",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字cc】初星学園 「光景」Official Music Video",
+  "date": "2024-05-06",
+  "createdAt": "2024-05-06T14:26:29.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "单方面宣布广为第一神",
+  "text": "单方面宣布广为第一神",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yJ4m1K7hE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yJ4m1K7hE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b43a9780dc260f68d706241eec060931d92429738fb1369af7f91440c71d2fd8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yJ4m1K7hE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b43a9780dc260f68d706241eec060931d92429738fb1369af7f91440c71d2fd8.jpg",
+    "title": "【中字cc】初星学園 「光景」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b43a9780dc260f68d706241eec060931d92429738fb1369af7f91440c71d2fd8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jiffaafbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yJ4m1K7hE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ae2c02eeab8ec4137e04a4b63facb08791b379fb8f0a46e1c355fc3679774677",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

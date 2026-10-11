@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bh4y1c7ad",
+  "schemaVersion": 1,
+  "title": "分享 · 「今井麻美」MOIW2015-細氷",
+  "date": "2024-06-06",
+  "createdAt": "2024-06-06T23:40:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "泣いて 「今井麻美」MOIW2015-細氷, 视频播放量 2169、弹幕量 0、点赞数 64、投硬币枚数 48、收藏人数 122、转发人数 61, 视频作者 萩",
+  "text": "泣いて\n\n「今井麻美」MOIW2015-細氷, 视频播放量 2169、弹幕量 0、点赞数 64、投硬币枚数 48、收藏人数 122、转发人数 61, 视频作者 萩原...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bh4y1c7ad",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bh4y1c7ad&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f08582e99c213314550ad0dbcbb1b70bd137e4eb0170ba46c00d192b02d5a9d3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bh4y1c7ad",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f08582e99c213314550ad0dbcbb1b70bd137e4eb0170ba46c00d192b02d5a9d3.jpg",
+    "title": "「今井麻美」MOIW2015-細氷"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f08582e99c213314550ad0dbcbb1b70bd137e4eb0170ba46c00d192b02d5a9d3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dbchbhhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bh4y1c7ad",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "萩原ジュンヨ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8054fa99fedb0f839d68a7c47473c25ce7a74c04469d8e82877a0febbc3cdae9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

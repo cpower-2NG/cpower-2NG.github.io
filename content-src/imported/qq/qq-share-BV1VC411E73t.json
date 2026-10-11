@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VC411E73t",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】试着和能登有沙老师跳「世界一可愛い私」吧",
+  "date": "2024-05-03",
+  "createdAt": "2024-05-03T15:12:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "没想到最先在学上看到的爱马仕传承感是在这里 www.youtube.com/shorts/QnfMytOPJiw",
+  "text": "没想到最先在学上看到的爱马仕传承感是在这里\n\nwww.youtube.com/shorts/QnfMytOPJiw",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VC411E73t",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VC411E73t&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a1da0a0a9ad4a65517fa2fd0f8216e260efc5a77d761c69925d218280823fad.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VC411E73t",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a1da0a0a9ad4a65517fa2fd0f8216e260efc5a77d761c69925d218280823fad.jpg",
+    "title": "【学园偶像大师】试着和能登有沙老师跳「世界一可愛い私」吧"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6a1da0a0a9ad4a65517fa2fd0f8216e260efc5a77d761c69925d218280823fad.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ecbjehebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VC411E73t",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "23c1256c5bb0828bea514bc6e79030f965742d7d484dabb863d4a6132e347304",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

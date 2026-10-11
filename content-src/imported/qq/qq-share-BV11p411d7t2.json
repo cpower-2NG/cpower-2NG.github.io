@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11p411d7t2",
+  "schemaVersion": 1,
+  "title": "分享 · 伊丹美保子在【NHKのど自慢】中演唱水树奈奈的【Discotheque】",
+  "date": "2024-05-13",
+  "createdAt": "2024-05-13T12:15:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "昨天的ksl...",
+  "text": "昨天的ksl...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11p411d7t2",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11p411d7t2&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/adc81372ee906dffdd2a492205c0e4bfaa6e4db193f76ea92a01bcc94ed8ffe1.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11p411d7t2",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/adc81372ee906dffdd2a492205c0e4bfaa6e4db193f76ea92a01bcc94ed8ffe1.jpg",
+    "title": "伊丹美保子在【NHKのど自慢】中演唱水树奈奈的【Discotheque】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/adc81372ee906dffdd2a492205c0e4bfaa6e4db193f76ea92a01bcc94ed8ffe1.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eafcagfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11p411d7t2",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "寒川静司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "06c4edcc3897b0985ba95737159f4e43112822fa04deb618f8cdcd726ba71c43",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LC411L7pR",
+  "schemaVersion": 1,
+  "title": "分享 · 好热好热",
+  "date": "2024-08-15",
+  "createdAt": "2024-08-15T02:01:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这个格式看一次没什么感觉，多看几次好洗脑啊",
+  "text": "这个格式看一次没什么感觉，多看几次好洗脑啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LC411L7pR",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LC411L7pR&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/67d02d86c069d5096bde21e35eadf7acb171049c7d7dc6c32730a2983de39f8e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LC411L7pR",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/67d02d86c069d5096bde21e35eadf7acb171049c7d7dc6c32730a2983de39f8e.jpg",
+    "title": "好热好热"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/67d02d86c069d5096bde21e35eadf7acb171049c7d7dc6c32730a2983de39f8e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhchigdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LC411L7pR",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f17e8ee849853f71c00b26be22afe9e4d6105d566d2f270253d9d152036b0eab",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

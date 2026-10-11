@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hx4y1m7dH",
+  "schemaVersion": 1,
+  "title": "分享 · 【4月】哭泣少女乐队(闺泣)Girls Band Cry 正式PV2【MCE汉化组】",
+  "date": "2024-03-30",
+  "createdAt": "2024-03-30T13:17:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这3d演技有点可怕了，感觉像是酒井或者谁画好原画再k表情的，这可是东映的原创啊。",
+  "text": "这3d演技有点可怕了，感觉像是酒井或者谁画好原画再k表情的，这可是东映的原创啊。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hx4y1m7dH",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hx4y1m7dH&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36561a30fd9b438d5db91016de7f1ec885df490a8c22255233cb1a176bdf5519.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hx4y1m7dH",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36561a30fd9b438d5db91016de7f1ec885df490a8c22255233cb1a176bdf5519.jpg",
+    "title": "【4月】哭泣少女乐队(闺泣)Girls Band Cry 正式PV2【MCE汉化组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/36561a30fd9b438d5db91016de7f1ec885df490a8c22255233cb1a176bdf5519.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfgeaibbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hx4y1m7dH",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "夏日幻听MCE",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7961d02baa7c3ca6fc332b49c07b411047516ce2fa8a9d6396b5866d7f82a5a1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

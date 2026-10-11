@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1adzdYnEF4",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】听歌识曲挑战第一期",
+  "date": "2024-12-02",
+  "createdAt": "2024-12-02T05:09:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "失格了（ 尝试了一直想做的听伴奏识曲类型的视频，第一次做互动视频，低技术力图一乐",
+  "text": "失格了（\n\n尝试了一直想做的听伴奏识曲类型的视频，第一次做互动视频，低技术力图一乐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1adzdYnEF4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1adzdYnEF4&high_quality=1&danmaku=0",
+    "cover": "https://i1.hdslb.com/bfs/archive/866cbc3c9c0cbac85e2e04da18a412cdd3820284.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1adzdYnEF4",
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/866cbc3c9c0cbac85e2e04da18a412cdd3820284.jpg",
+    "title": "【学园偶像大师】听歌识曲挑战第一期"
+  },
+  "cover": "https://i1.hdslb.com/bfs/archive/866cbc3c9c0cbac85e2e04da18a412cdd3820284.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fgbgbbddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1adzdYnEF4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "cofflemon",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dee9e35bc49116678be1f120910c6b003b0d2a95c5493a237c00d019152f6861",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

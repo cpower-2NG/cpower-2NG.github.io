@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1r5hWezEHC",
+  "schemaVersion": 1,
+  "title": "分享 · 全球人工智能大会主持人尴尬瞬间",
+  "date": "2024-07-07",
+  "createdAt": "2024-07-07T15:15:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "人工智能使用者真的需要prompt吗 全球人工智能大会主持人尴尬瞬间, 视频播放量 87256、弹幕量 319、点赞数 910、投硬币枚数 131、收藏人数 7",
+  "text": "人工智能使用者真的需要prompt吗\n\n全球人工智能大会主持人尴尬瞬间, 视频播放量 87256、弹幕量 319、点赞数 910、投硬币枚数 131、收藏人数 713、转发人数 3479, 视...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1r5hWezEHC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1r5hWezEHC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0d89217ae460733a61d2bb144ccd68af644863dc694c60a141b1b4b17d7911.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1r5hWezEHC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0d89217ae460733a61d2bb144ccd68af644863dc694c60a141b1b4b17d7911.jpg",
+    "title": "全球人工智能大会主持人尴尬瞬间"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a0d89217ae460733a61d2bb144ccd68af644863dc694c60a141b1b4b17d7911.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cadfgdachb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1r5hWezEHC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "sharkshuai",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "be5a9e13e6e4b4f3a8f8ed7d703c226513c32a38a9b3fb30990e2b02bf81dc7c",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

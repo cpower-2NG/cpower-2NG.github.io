@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qi421h73f",
+  "schemaVersion": 1,
+  "title": "分享 · 我的素材的冷吟闲醉",
+  "date": "2024-07-24",
+  "createdAt": "2024-07-24T00:37:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "rap段太有趣了",
+  "text": "rap段太有趣了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qi421h73f",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qi421h73f&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/375d1620cbfde20a2684ec483cffdb339a8011e5caa6cb5373099f7ac7c06db2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qi421h73f",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/375d1620cbfde20a2684ec483cffdb339a8011e5caa6cb5373099f7ac7c06db2.jpg",
+    "title": "我的素材的冷吟闲醉"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/375d1620cbfde20a2684ec483cffdb339a8011e5caa6cb5373099f7ac7c06db2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfebihbchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qi421h73f",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8dca971fa6326d0d38f503e123a390d1050c163c534ccabc55edf8d92496595b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

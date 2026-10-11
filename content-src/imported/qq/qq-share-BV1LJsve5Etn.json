@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LJsve5Etn",
+  "schemaVersion": 1,
+  "title": "分享 · 致发奶龙的小朋友",
+  "date": "2024-09-26",
+  "createdAt": "2024-09-26T05:38:43.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "第一次对这个格式的音骂这么陌生（不过看不懂也没关系，0:44有这一卡就够了。",
+  "text": "第一次对这个格式的音骂这么陌生（不过看不懂也没关系，0:44有这一卡就够了。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LJsve5Etn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LJsve5Etn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18bc2ac2b728935f3b723fb730eb0a14d16694007f7000dab74be682581eb2cd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LJsve5Etn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18bc2ac2b728935f3b723fb730eb0a14d16694007f7000dab74be682581eb2cd.jpg",
+    "title": "致发奶龙的小朋友"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/18bc2ac2b728935f3b723fb730eb0a14d16694007f7000dab74be682581eb2cd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcbjcdhchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LJsve5Etn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "i依瓶p",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ab44423d2927d0780adb5d16fc7581b420a5ff0c00ca50b2caae4fbfecb28327",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

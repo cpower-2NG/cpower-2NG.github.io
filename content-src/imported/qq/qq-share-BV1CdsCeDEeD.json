@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CdsCeDEeD",
+  "schemaVersion": 1,
+  "title": "分享 · 露娜：难说",
+  "date": "2024-09-23",
+  "createdAt": "2024-09-23T08:33:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "笑死了 剧场版种自剧透微存",
+  "text": "笑死了\n\n剧场版种自剧透微存",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CdsCeDEeD",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CdsCeDEeD&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db68e67c971a72c87cbc9dd21f0abb7f209bb4a72e77733af8438a93d04a0d57.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CdsCeDEeD",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db68e67c971a72c87cbc9dd21f0abb7f209bb4a72e77733af8438a93d04a0d57.jpg",
+    "title": "露娜：难说"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/db68e67c971a72c87cbc9dd21f0abb7f209bb4a72e77733af8438a93d04a0d57.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eceaiahchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CdsCeDEeD",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "GabrielStupid",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "27b1688705e6344d6fac318d71d815dc0e425cd812f51203a6f05ba08b4ff6bf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

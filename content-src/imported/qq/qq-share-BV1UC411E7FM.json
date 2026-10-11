@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1UC411E7FM",
+  "schemaVersion": 1,
+  "title": "分享 · No title",
+  "date": "2024-05-06",
+  "createdAt": "2024-05-06T12:40:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "No title",
+  "text": "No title",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UC411E7FM",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UC411E7FM&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6f3bf6b789d156164dbda68c793270e1357e7959b65533f0acb411c8edf026cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1UC411E7FM",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6f3bf6b789d156164dbda68c793270e1357e7959b65533f0acb411c8edf026cc.jpg",
+    "title": "No title"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6f3bf6b789d156164dbda68c793270e1357e7959b65533f0acb411c8edf026cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hccjjjebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1UC411E7FM",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4df7e264108a4686827d81db38f2ba1cdcc9ec064bd49c4cda726c24f762aa27",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

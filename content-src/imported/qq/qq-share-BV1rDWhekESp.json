@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1rDWhekESp",
+  "schemaVersion": 1,
+  "title": "分享 · BMLSP2018 MilionLive",
+  "date": "2024-08-28",
+  "createdAt": "2024-08-28T04:24:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "珍惜资源啊",
+  "text": "珍惜资源啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rDWhekESp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1rDWhekESp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ede43aef02e5f01906c16b19a6616a03d868dadde5932636b0105eb4a3c1ae.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1rDWhekESp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ede43aef02e5f01906c16b19a6616a03d868dadde5932636b0105eb4a3c1ae.jpg",
+    "title": "BMLSP2018 MilionLive"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/00ede43aef02e5f01906c16b19a6616a03d868dadde5932636b0105eb4a3c1ae.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hhajbiechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1rDWhekESp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "一只VAY",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "939d6cac97b3039531304f54ba1bffe7bccf4d358ff656207cf50681f2acd4c8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

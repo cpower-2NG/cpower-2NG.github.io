@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vRayedEii",
+  "schemaVersion": 1,
+  "title": "分享 · 【告知】中华特有音MAD晒",
+  "date": "2024-08-11",
+  "createdAt": "2024-08-11T06:14:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "始まるよー！",
+  "text": "始まるよー！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vRayedEii",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vRayedEii&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de8bd1dafd767723a520b7491d5f1d4fb410b6ad3475dcc878ffc068152487cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vRayedEii",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de8bd1dafd767723a520b7491d5f1d4fb410b6ad3475dcc878ffc068152487cc.jpg",
+    "title": "【告知】中华特有音MAD晒"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/de8bd1dafd767723a520b7491d5f1d4fb410b6ad3475dcc878ffc068152487cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aiigfddchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vRayedEii",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "铝合金键盘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e554181d8053fb9a8308f3924069a17c802999bb40d58938cb9f5fe99ceebd4f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

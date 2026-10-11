@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1h3zhY5Ef9",
+  "schemaVersion": 1,
+  "title": "分享 · 「White Night! White Wish!(full size)」2DMV【学園偶像大师/初星学園】",
+  "date": "2024-11-29",
+  "createdAt": "2024-11-29T05:04:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "果然还得是全曲啊。这种压着音调唱的感觉舒服得很呐",
+  "text": "果然还得是全曲啊。这种压着音调唱的感觉舒服得很呐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1h3zhY5Ef9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1h3zhY5Ef9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf1c2e885e18bd75a7d26c9938452885f9f4f90bbd14cbf8353975a3b2bff1cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1h3zhY5Ef9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf1c2e885e18bd75a7d26c9938452885f9f4f90bbd14cbf8353975a3b2bff1cc.jpg",
+    "title": "「White Night! White Wish!(full size)」2DMV【学園偶像大师/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf1c2e885e18bd75a7d26c9938452885f9f4f90bbd14cbf8353975a3b2bff1cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjggficdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1h3zhY5Ef9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "415a1e0a347e4a2f908c46cfd281e8031692c09454a454826da1894b78559c25",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

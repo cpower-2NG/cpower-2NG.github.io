@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1CcePetEGe",
+  "schemaVersion": 1,
+  "title": "分享 · 拉拉四代团都唱过的一首是?  | 4K BD",
+  "date": "2024-08-20",
+  "createdAt": "2024-08-20T12:38:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这标题涉嫌引战啊，我喜欢",
+  "text": "这标题涉嫌引战啊，我喜欢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CcePetEGe",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CcePetEGe&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d624021c6b6b04ba6fc7cdb19d0db8b455fe8056e0d8d03857990f3902bb915.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1CcePetEGe",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d624021c6b6b04ba6fc7cdb19d0db8b455fe8056e0d8d03857990f3902bb915.jpg",
+    "title": "拉拉四代团都唱过的一首是?  | 4K BD"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8d624021c6b6b04ba6fc7cdb19d0db8b455fe8056e0d8d03857990f3902bb915.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ijehfbechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1CcePetEGe",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "YoruSuki_柚子橘",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8ac554a62291c3bcc6cb8e8f4e3fbebfc63250cde7e104a3ba55468558345a24",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

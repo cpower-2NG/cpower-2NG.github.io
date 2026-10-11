@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12E421A7HL",
+  "schemaVersion": 1,
+  "title": "分享 · 沼仓爱美 - あんなに一緒だったのに from CrosSing/机动战士高达SEED ED",
+  "date": "2024-07-11",
+  "createdAt": "2024-07-11T04:27:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "结尾的ぬーさん。。。 www.youtube.com/watch?v=WjZWECYwgH8",
+  "text": "结尾的ぬーさん。。。\n\nwww.youtube.com/watch?v=WjZWECYwgH8",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12E421A7HL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12E421A7HL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52d381b57de99e8fc0f53f5db4cc6383455060ec13c2b1ea92d9828b4ceb650e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12E421A7HL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52d381b57de99e8fc0f53f5db4cc6383455060ec13c2b1ea92d9828b4ceb650e.jpg",
+    "title": "沼仓爱美 - あんなに一緒だったのに from CrosSing/机动战士高达SEED ED"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52d381b57de99e8fc0f53f5db4cc6383455060ec13c2b1ea92d9828b4ceb650e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "beachgachb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12E421A7HL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dd7946dde55843b2825d8e70f6df4cf9914ddc8efc5b424b70d62806506d2269",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

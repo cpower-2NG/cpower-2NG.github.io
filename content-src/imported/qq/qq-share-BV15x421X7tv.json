@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15x421X7tv",
+  "schemaVersion": 1,
+  "title": "分享 · 「中字」偶像大师百万现场 Encore Stage『Rat A Tat!!! 』",
+  "date": "2024-03-30",
+  "createdAt": "2024-03-30T13:59:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "『…这景色，我曾在Act-4亲眼见过。』真好啊，这句话。",
+  "text": "『…这景色，我曾在Act-4亲眼见过。』真好啊，这句话。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15x421X7tv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15x421X7tv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62f37670cc32005387a10b5fe53723e7be7f8f5442f1903c01f3a044ef82c06b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15x421X7tv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62f37670cc32005387a10b5fe53723e7be7f8f5442f1903c01f3a044ef82c06b.jpg",
+    "title": "「中字」偶像大师百万现场 Encore Stage『Rat A Tat!!! 』"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/62f37670cc32005387a10b5fe53723e7be7f8f5442f1903c01f3a044ef82c06b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfbhaibbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15x421X7tv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "中村豐",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8d518364ecbf28296c5f1a7c25096dd71bb43600ebd83190df94dcbd10b8dc26",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ze411k7SF",
+  "schemaVersion": 1,
+  "title": "分享 · Dye the Sky - 但是三大苍系",
+  "date": "2024-04-10",
+  "createdAt": "2024-04-10T14:45:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "又是期待火锅2的一天",
+  "text": "又是期待火锅2的一天",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ze411k7SF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ze411k7SF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e1b057b0dddc15137336d32f4ed64f8bbfe83306ccd90c5aeb5e29910a2f6c4.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ze411k7SF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e1b057b0dddc15137336d32f4ed64f8bbfe83306ccd90c5aeb5e29910a2f6c4.jpg",
+    "title": "Dye the Sky - 但是三大苍系"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6e1b057b0dddc15137336d32f4ed64f8bbfe83306ccd90c5aeb5e29910a2f6c4.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "abdaghcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ze411k7SF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "宇宙第十圆厨",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "343afb2d5ead03c7079499e38fff733c4673d1257fa7ca36f4b57244184767f3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

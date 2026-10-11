@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gCp9eXEr5",
+  "schemaVersion": 1,
+  "title": "分享 · 【疑似m@s】一边听imas歌曲，一边看动物视频",
+  "date": "2024-08-18",
+  "createdAt": "2024-08-18T14:18:58.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "是我最喜欢的疑似m@s",
+  "text": "是我最喜欢的疑似m@s",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gCp9eXEr5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gCp9eXEr5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/291964df4497a835a10082e44717ddf1e7565af8be38625b3846e64c9e67ec97.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gCp9eXEr5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/291964df4497a835a10082e44717ddf1e7565af8be38625b3846e64c9e67ec97.jpg",
+    "title": "【疑似m@s】一边听imas歌曲，一边看动物视频"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/291964df4497a835a10082e44717ddf1e7565af8be38625b3846e64c9e67ec97.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "idhajjdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gCp9eXEr5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "ブルース",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "6e4e23c085d6f6ce3f0c83063e8bf48e924e4c0b3b17abed30832e5adfdfedc1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

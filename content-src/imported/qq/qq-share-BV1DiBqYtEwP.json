@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1DiBqYtEwP",
+  "schemaVersion": 1,
+  "title": "分享 · 【舞冰的祈愿】特別企画「スケートに挑戦編」",
+  "date": "2024-11-22",
+  "createdAt": "2024-11-22T10:30:09.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "しあわせ www.youtube.com/watch?v=oPPSqXio-f8",
+  "text": "しあわせ\n\nwww.youtube.com/watch?v=oPPSqXio-f8",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DiBqYtEwP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1DiBqYtEwP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6bf2421622342790ceee56ddd349c3a4c873887f8853bf88740138ea4927e302.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1DiBqYtEwP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6bf2421622342790ceee56ddd349c3a4c873887f8853bf88740138ea4927e302.jpg",
+    "title": "【舞冰的祈愿】特別企画「スケートに挑戦編」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6bf2421622342790ceee56ddd349c3a4c873887f8853bf88740138ea4927e302.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jaebhccdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1DiBqYtEwP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f67ffa4f777a7d5a9ac916c5a9cc86f733f14e976ace57aa2568043776686e32",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

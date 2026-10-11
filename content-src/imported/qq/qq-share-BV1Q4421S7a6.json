@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Q4421S7a6",
+  "schemaVersion": 1,
+  "title": "分享 · 版税的Dance",
+  "date": "2024-06-24",
+  "createdAt": "2024-06-24T03:25:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我去，是琴音mad",
+  "text": "我去，是琴音mad",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Q4421S7a6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Q4421S7a6&high_quality=1&danmaku=0",
+    "cover": "https://i2.hdslb.com/bfs/archive/76fab855c49ccf48b4179a0004b6cf4feb821c12.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Q4421S7a6",
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/76fab855c49ccf48b4179a0004b6cf4feb821c12.jpg",
+    "title": "版税的Dance"
+  },
+  "cover": "https://i2.hdslb.com/bfs/archive/76fab855c49ccf48b4179a0004b6cf4feb821c12.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gafjjbjbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Q4421S7a6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c89292ecff09503ebe12c448a831fec7ed8c291442542027133e111696da8dbf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Dq421F7Y4",
+  "schemaVersion": 1,
+  "title": "分享 · 倉本千奈  PV 【学園 偶像大师】",
+  "date": "2024-04-10",
+  "createdAt": "2024-04-10T12:25:36.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "模型最不满意的一个，本来挺知性的，怎么这么蠢。原来舅舅党说中国人是因为叫ちな（笑",
+  "text": "模型最不满意的一个，本来挺知性的，怎么这么蠢。原来舅舅党说中国人是因为叫ちな（笑",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Dq421F7Y4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Dq421F7Y4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99512b2875f2d652e5be831172a9ec38af363ce5fe540b74eca6937cd1d51dd3.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Dq421F7Y4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99512b2875f2d652e5be831172a9ec38af363ce5fe540b74eca6937cd1d51dd3.jpg",
+    "title": "倉本千奈  PV 【学園 偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/99512b2875f2d652e5be831172a9ec38af363ce5fe540b74eca6937cd1d51dd3.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdjbfhcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Dq421F7Y4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "c5ce4188a965e54ce4d50f5d65520d80303b103df8e2f181b8bfab0bad2dd185",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1nzSHY8Euk",
+  "schemaVersion": 1,
+  "title": "分享 · [中字切片]美也的絕對領域",
+  "date": "2024-10-31",
+  "createdAt": "2024-10-31T14:23:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "助かる！",
+  "text": "助かる！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nzSHY8Euk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1nzSHY8Euk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d98c1359d9c915f683f511f4760b623cb99c3a48003e13cd22231f0995ea6536.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1nzSHY8Euk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d98c1359d9c915f683f511f4760b623cb99c3a48003e13cd22231f0995ea6536.jpg",
+    "title": "[中字切片]美也的絕對領域"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d98c1359d9c915f683f511f4760b623cb99c3a48003e13cd22231f0995ea6536.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iifeidadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1nzSHY8Euk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大宅P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4184c958f5de5e458e9ac5208d6bbd174c788e24b6b3bd883b77d217e05318b9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

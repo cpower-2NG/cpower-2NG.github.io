@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1q1421t7t9",
+  "schemaVersion": 1,
+  "title": "分享 · 不透明前夜",
+  "date": "2024-08-02",
+  "createdAt": "2024-08-02T14:30:18.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "suang！",
+  "text": "suang！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1q1421t7t9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1q1421t7t9&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1102f92887f6c7de57856e11647f714099a93118200c38a3c89208d25dedbb0b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1q1421t7t9",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1102f92887f6c7de57856e11647f714099a93118200c38a3c89208d25dedbb0b.jpg",
+    "title": "不透明前夜"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1102f92887f6c7de57856e11647f714099a93118200c38a3c89208d25dedbb0b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibajagcchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1q1421t7t9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4727500def76da002298ae52067e2af1bf7a9ac27ad52db0600e06d01d1ccbd7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

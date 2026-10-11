@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1VaSuY2E7U",
+  "schemaVersion": 1,
+  "title": "分享 · 初星学园放送部 第13话|学园偶像大师",
+  "date": "2024-11-22",
+  "createdAt": "2024-11-22T02:41:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "很合得来的两人 asobi",
+  "text": "很合得来的两人\n\nasobi",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VaSuY2E7U",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VaSuY2E7U&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6be08189839974e412ecabe19b7b174a609d750fe97a1eb3eac208dd1e27b8f2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1VaSuY2E7U",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6be08189839974e412ecabe19b7b174a609d750fe97a1eb3eac208dd1e27b8f2.jpg",
+    "title": "初星学园放送部 第13话|学园偶像大师"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6be08189839974e412ecabe19b7b174a609d750fe97a1eb3eac208dd1e27b8f2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chcdeccdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1VaSuY2E7U",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "83b8741a771b1fe0656e63e5e476d762677c5b12343c41c355e953e56b3180ea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1yFBYYiEes",
+  "schemaVersion": 1,
+  "title": "分享 · アンノウン・マザーグース（cover 川口莉奈）",
+  "date": "2024-11-25",
+  "createdAt": "2024-11-25T05:09:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "すっご！",
+  "text": "すっご！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yFBYYiEes",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1yFBYYiEes&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87893904041eb08a33422469f49f1a2ccdb6acfc899c3767504df6d307c43878.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1yFBYYiEes",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87893904041eb08a33422469f49f1a2ccdb6acfc899c3767504df6d307c43878.jpg",
+    "title": "アンノウン・マザーグース（cover 川口莉奈）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/87893904041eb08a33422469f49f1a2ccdb6acfc899c3767504df6d307c43878.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ehdbbfcdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1yFBYYiEes",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4d2ea975a4954381b48578ae8ea841c77804acd7ca2dd9d06ba54f04d02ded76",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

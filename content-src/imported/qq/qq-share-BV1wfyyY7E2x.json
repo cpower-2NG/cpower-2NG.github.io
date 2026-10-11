@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wfyyY7E2x",
+  "schemaVersion": 1,
+  "title": "分享 · 腾格尔演唱《目标是宝可梦大师》中文版MV正式公开",
+  "date": "2024-10-26",
+  "createdAt": "2024-10-26T14:44:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "听得想看动画了 官方",
+  "text": "听得想看动画了\n\n官方",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wfyyY7E2x",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wfyyY7E2x&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e81dd00608a77dfb944344a5cce4a37f2179d88e6201f6dd626867ed386b0e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wfyyY7E2x",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e81dd00608a77dfb944344a5cce4a37f2179d88e6201f6dd626867ed386b0e.jpg",
+    "title": "腾格尔演唱《目标是宝可梦大师》中文版MV正式公开"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/02e81dd00608a77dfb944344a5cce4a37f2179d88e6201f6dd626867ed386b0e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ceidfjjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wfyyY7E2x",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "TGBUS电玩巴士",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "7e1a1ca86a6b2b902bec14c8ad6ea2ce01880ce74cd6137e3387c9a0a6a3d3e0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

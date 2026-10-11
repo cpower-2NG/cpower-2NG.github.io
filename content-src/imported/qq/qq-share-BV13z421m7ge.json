@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV13z421m7ge",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】游戏OP动画",
+  "date": "2024-05-08",
+  "createdAt": "2024-05-08T11:26:27.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "学mas最不喜欢的一集。既然日升没人能做那为什么还要找日升呢。不会真以为这样的op能吸引人吧。",
+  "text": "学mas最不喜欢的一集。既然日升没人能做那为什么还要找日升呢。不会真以为这样的op能吸引人吧。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV13z421m7ge",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13z421m7ge&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3765d0321bfcbaa31ca66eefac720f3a43fcfaef9399e5dc8bb67a82a406176c.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV13z421m7ge",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3765d0321bfcbaa31ca66eefac720f3a43fcfaef9399e5dc8bb67a82a406176c.png",
+    "title": "【学园偶像大师】游戏OP动画"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3765d0321bfcbaa31ca66eefac720f3a43fcfaef9399e5dc8bb67a82a406176c.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hifhgbfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV13z421m7ge",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5e517af68931b636da0069e1f3c4bd636329d7938fd89718a0af2b99f37676e7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

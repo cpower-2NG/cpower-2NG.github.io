@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Hc1MY5EkA",
+  "schemaVersion": 1,
+  "title": "分享 · 【学马仕】篠澤さんのプロデュースは、ままならない",
+  "date": "2024-10-28",
+  "createdAt": "2024-10-28T00:01:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "？！？！？！ x.com/aimi_material/status/1850462540226322726?t=NGwr-v9_pwcgYNqrvtzM5gs=",
+  "text": "？！？！？！\n\nx.com/aimi_material/status/1850462540226322726?t=NGwr-v9_pwcgYNqrvtzM5gs=19",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hc1MY5EkA",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Hc1MY5EkA&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fdc002b8d61681cdfa5594eed8e498ab16fbe0928339b9a32aaa516577b8f494.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Hc1MY5EkA",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fdc002b8d61681cdfa5594eed8e498ab16fbe0928339b9a32aaa516577b8f494.jpg",
+    "title": "【学马仕】篠澤さんのプロデュースは、ままならない"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fdc002b8d61681cdfa5594eed8e498ab16fbe0928339b9a32aaa516577b8f494.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ejgdhaadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Hc1MY5EkA",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "永远なる刹那",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "885fbf73f222493526f648859a327c065b7c5344ea02da69096dbd0ebf31fed7",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

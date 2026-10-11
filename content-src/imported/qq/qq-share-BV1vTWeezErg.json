@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vTWeezErg",
+  "schemaVersion": 1,
+  "title": "分享 · [240810]【スペシャル特典】舞台裏映像",
+  "date": "2024-08-22",
+  "createdAt": "2024-08-22T10:17:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "要成噶逼了，关系性厨非常满意 asobistage",
+  "text": "要成噶逼了，关系性厨非常满意\n\nasobistage",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vTWeezErg",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vTWeezErg&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe0b41e690be043fad60b2cf2c22046984a183ecd6efa17b92d4c5af91f35262.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vTWeezErg",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe0b41e690be043fad60b2cf2c22046984a183ecd6efa17b92d4c5af91f35262.jpg",
+    "title": "[240810]【スペシャル特典】舞台裏映像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/fe0b41e690be043fad60b2cf2c22046984a183ecd6efa17b92d4c5af91f35262.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jhibcdechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vTWeezErg",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大宅P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "25a4e8b407bccc0daf00d0e83a05b89e6a700c4ab05715d23168978033196d07",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

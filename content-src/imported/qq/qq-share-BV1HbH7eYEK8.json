@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1HbH7eYEK8",
+  "schemaVersion": 1,
+  "title": "分享 · 即使不是我也依然旺盛",
+  "date": "2024-09-27",
+  "createdAt": "2024-09-27T16:07:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "念白好有感觉",
+  "text": "念白好有感觉",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HbH7eYEK8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HbH7eYEK8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a1ec4bc91afbf551c3ee93f16356d3fe0afffaba8aa33751674ee75d66b7f92.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HbH7eYEK8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a1ec4bc91afbf551c3ee93f16356d3fe0afffaba8aa33751674ee75d66b7f92.jpg",
+    "title": "即使不是我也依然旺盛"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1a1ec4bc91afbf551c3ee93f16356d3fe0afffaba8aa33751674ee75d66b7f92.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gdcdfehchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HbH7eYEK8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "17ad18270a5323c4adbbe77e940bd5130302e7b26dbf818cea54782b8eaf9417",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

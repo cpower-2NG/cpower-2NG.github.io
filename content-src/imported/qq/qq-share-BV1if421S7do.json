@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1if421S7do",
+  "schemaVersion": 1,
+  "title": "分享 · ⿰字见 / Zixian",
+  "date": "2024-05-02",
+  "createdAt": "2024-05-02T13:17:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "函数2.0",
+  "text": "函数2.0",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1if421S7do",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1if421S7do&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/819b54ccddbea818eaaaab052882187e5c28528d225b7b70823d00047988ff31.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1if421S7do",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/819b54ccddbea818eaaaab052882187e5c28528d225b7b70823d00047988ff31.jpg",
+    "title": "⿰字见 / Zixian"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/819b54ccddbea818eaaaab052882187e5c28528d225b7b70823d00047988ff31.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhiffgebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1if421S7do",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "坏枪",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "69dcb7aac3c8b9a88b2829b9551b83283bd99b32d907a7427e9daeebf1bc91ea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

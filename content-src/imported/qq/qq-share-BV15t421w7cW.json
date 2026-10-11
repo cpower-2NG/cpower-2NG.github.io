@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15t421w7cW",
+  "schemaVersion": 1,
+  "title": "分享 · 「Luna say maybe」2DMV (歌：月村手毬)【学園 偶像大师/初星学園】",
+  "date": "2024-05-02",
+  "createdAt": "2024-05-02T15:04:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "美波的曲子中很少见的「希望」的呐喊。或许声优的演绎还稍显稚嫩，但丝毫不减月村渴望证明作为偶像的自己的感染力。（纯粹地从听...",
+  "text": "美波的曲子中很少见的「希望」的呐喊。或许声优的演绎还稍显稚嫩，但丝毫不减月村渴望证明作为偶像的自己的感染力。（纯粹地从听...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15t421w7cW",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15t421w7cW&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3358721529fc695f0d81a2ada9583c4392a06da5db506068157e621ce124ac6d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15t421w7cW",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3358721529fc695f0d81a2ada9583c4392a06da5db506068157e621ce124ac6d.jpg",
+    "title": "「Luna say maybe」2DMV (歌：月村手毬)【学園 偶像大师/初星学園】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3358721529fc695f0d81a2ada9583c4392a06da5db506068157e621ce124ac6d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhccggebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15t421w7cW",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "20eede613851c28d65c6ed5b26d431e77a783f3b549a604a568a2aced16d529f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

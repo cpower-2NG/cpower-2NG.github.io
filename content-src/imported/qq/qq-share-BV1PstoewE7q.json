@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PstoewE7q",
+  "schemaVersion": 1,
+  "title": "分享 · 【学園偶像大师】「Feel Jewel Dream」有村麻央 solo2 SSR【初星学園 4K HDR MV】",
+  "date": "2024-09-20",
+  "createdAt": "2024-09-20T13:56:06.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "完全陌生的领域",
+  "text": "完全陌生的领域",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PstoewE7q",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PstoewE7q&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf479f4d424a4722bcb8d90773ec5a14c870e1f726b8c0b7965219636c2e96dd.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PstoewE7q",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf479f4d424a4722bcb8d90773ec5a14c870e1f726b8c0b7965219636c2e96dd.jpg",
+    "title": "【学園偶像大师】「Feel Jewel Dream」有村麻央 solo2 SSR【初星学園 4K HDR MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf479f4d424a4722bcb8d90773ec5a14c870e1f726b8c0b7965219636c2e96dd.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ggfaeigchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PstoewE7q",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "568bacb00d13f46a6999047a55fba4226dd615c181956902bb16d5b6b5bb8702",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

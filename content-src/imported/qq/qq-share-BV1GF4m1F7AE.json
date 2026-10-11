@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1GF4m1F7AE",
+  "schemaVersion": 1,
+  "title": "分享 · 【节选中字】Straylight中之人异次元FES演出感想",
+  "date": "2024-03-26",
+  "createdAt": "2024-03-26T12:40:17.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "「总之这是Straylight的歌曲，爱依是center，也只派了爱依出场，可不能输」迷光真好啊 字幕仅供参考。",
+  "text": "「总之这是Straylight的歌曲，爱依是center，也只派了爱依出场，可不能输」迷光真好啊\n\n字幕仅供参考。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1GF4m1F7AE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1GF4m1F7AE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/587f875781309a0613aaba2a343fc64a26031be5f2e74104c0b37e0830732ff2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1GF4m1F7AE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/587f875781309a0613aaba2a343fc64a26031be5f2e74104c0b37e0830732ff2.jpg",
+    "title": "【节选中字】Straylight中之人异次元FES演出感想"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/587f875781309a0613aaba2a343fc64a26031be5f2e74104c0b37e0830732ff2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hbigfebbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1GF4m1F7AE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "まかべ丼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ae5e99927bcbe077ef0620d17f3ce7b07b2f5c805bdebe8ed25f8d8ef4ab3398",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

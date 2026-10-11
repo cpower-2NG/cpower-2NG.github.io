@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1vD421776U",
+  "schemaVersion": 1,
+  "title": "分享 · 【AJ2024/SHAFT】物语系列 愚物语 先导PV",
+  "date": "2024-03-24",
+  "createdAt": "2024-03-24T07:15:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "「猜猜我是谁」，如果被这么说了的话，这里让我答不上来的人，应该会有三个 物语系列新作正式PV！！！",
+  "text": "「猜猜我是谁」，如果被这么说了的话，这里让我答不上来的人，应该会有三个\n\n物语系列新作正式PV！！！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vD421776U",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1vD421776U&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0176306979772134488be813f836c2d3dead5729a57c1f0a7424199105ed7a8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1vD421776U",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0176306979772134488be813f836c2d3dead5729a57c1f0a7424199105ed7a8.jpg",
+    "title": "【AJ2024/SHAFT】物语系列 愚物语 先导PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d0176306979772134488be813f836c2d3dead5729a57c1f0a7424199105ed7a8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dafegcbbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1vD421776U",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "物语系列圈圈子",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "bc31c75d92e9a751cc4469d196ca3df6ce4728c5203468c4bc17ac5c24faec9b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

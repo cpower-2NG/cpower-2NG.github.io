@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV12u4m1c72i",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】友情BURNING！【小宫果穗】",
+  "date": "2024-04-21",
+  "createdAt": "2024-04-21T14:43:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "回味回味，真帅啊",
+  "text": "回味回味，真帅啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV12u4m1c72i",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV12u4m1c72i&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb453e6bc02414344386d6bd0f9d7700986960438b794665a86f33effb6bcc3e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV12u4m1c72i",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb453e6bc02414344386d6bd0f9d7700986960438b794665a86f33effb6bcc3e.jpg",
+    "title": "【中字】友情BURNING！【小宫果穗】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb453e6bc02414344386d6bd0f9d7700986960438b794665a86f33effb6bcc3e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jbgabhdbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV12u4m1c72i",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "携带鞋带",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "73f0148a49fc0e52c8c0c9890cae7b8b7b25f5c9834dac27a0144f2990771442",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

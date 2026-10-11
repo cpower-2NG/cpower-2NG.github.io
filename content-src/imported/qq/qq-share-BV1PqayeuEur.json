@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1PqayeuEur",
+  "schemaVersion": 1,
+  "title": "分享 · 【夜雀食堂音MAD+人力】童祭",
+  "date": "2024-08-20",
+  "createdAt": "2024-08-20T12:15:48.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "久违的头皮发麻",
+  "text": "久违的头皮发麻",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PqayeuEur",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PqayeuEur&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10c154cf96c4e71be7bd0a52ac9c61655b623c867ec46804a4cf95f2e1b07b2e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1PqayeuEur",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10c154cf96c4e71be7bd0a52ac9c61655b623c867ec46804a4cf95f2e1b07b2e.jpg",
+    "title": "【夜雀食堂音MAD+人力】童祭"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/10c154cf96c4e71be7bd0a52ac9c61655b623c867ec46804a4cf95f2e1b07b2e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iebgfbechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1PqayeuEur",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LC_022",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "8014346fb3ac6742ad50cde36031c00ad1522e16bf9343385913a57dedab9517",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1JFxxeFEJb",
+  "schemaVersion": 1,
+  "title": "分享 · （BD中字）小偶像们的闪耀动画特典大合宿",
+  "date": "2024-10-07",
+  "createdAt": "2024-10-07T04:29:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这特典看得我都想看动画了",
+  "text": "这特典看得我都想看动画了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JFxxeFEJb",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1JFxxeFEJb&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6b1b9f46b5b1a274b2a9e2d241f121b8591d45b703d11b8dae452251080039.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1JFxxeFEJb",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6b1b9f46b5b1a274b2a9e2d241f121b8591d45b703d11b8dae452251080039.jpg",
+    "title": "（BD中字）小偶像们的闪耀动画特典大合宿"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1f6b1b9f46b5b1a274b2a9e2d241f121b8591d45b703d11b8dae452251080039.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gjdfhcichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1JFxxeFEJb",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5845b8a13867dfd0fde95e753ed52ff7630e8bb6590768a7cda601c6330d8c9e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

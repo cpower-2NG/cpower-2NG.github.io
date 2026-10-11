@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1c3411K7Mt",
+  "schemaVersion": 1,
+  "title": "分享 · 【芙莉莲/静止系MAD】想不想看花海盛开",
+  "date": "2024-12-02",
+  "createdAt": "2024-12-02T04:48:34.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "一千万了诶",
+  "text": "一千万了诶",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1c3411K7Mt",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1c3411K7Mt&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1635c516b72caa10599c51b154d98dc8fc89d9959af8a1185d78c8be3f55c9f8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1c3411K7Mt",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1635c516b72caa10599c51b154d98dc8fc89d9959af8a1185d78c8be3f55c9f8.jpg",
+    "title": "【芙莉莲/静止系MAD】想不想看花海盛开"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1635c516b72caa10599c51b154d98dc8fc89d9959af8a1185d78c8be3f55c9f8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ebjebbddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1c3411K7Mt",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "折木Lz",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b4de149f741515f56f91653c4a4e9a9341baa18d12a837d4b30e46263172eca2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

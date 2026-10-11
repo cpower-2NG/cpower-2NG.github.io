@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1fp42117nS",
+  "schemaVersion": 1,
+  "title": "分享 · 【wowaka纪念合作#2】センスレス・ワンダー【10人PV合作】",
+  "date": "2024-04-05",
+  "createdAt": "2024-04-05T09:26:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "在wowaka创作的「Senseless Wonder」发表的十周年，ヒトリエ也发表了「10年後のセンスレス・ワンダー」。借此机会，我们特地选择...",
+  "text": "在wowaka创作的「Senseless Wonder」发表的十周年，ヒトリエ也发表了「10年後のセンスレス・ワンダー」。借此机会，我们特地选择...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fp42117nS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1fp42117nS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e62e0c228d68bae312932bc0ce50f6dbbcef4b92e90f53bab4325f43b285a576.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1fp42117nS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e62e0c228d68bae312932bc0ce50f6dbbcef4b92e90f53bab4325f43b285a576.jpg",
+    "title": "【wowaka纪念合作#2】センスレス・ワンダー【10人PV合作】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e62e0c228d68bae312932bc0ce50f6dbbcef4b92e90f53bab4325f43b285a576.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgbjadcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1fp42117nS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "低音咖喱",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "411d46be3bef86a88a6e681958feabc435aa90b83ee399573ac8804a8b2f8604",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1iz421m7TU",
+  "schemaVersion": 1,
+  "title": "分享 · 巴麻美 VS 唐纳德·麦当劳 口技对决 Bad Apple!!(Old Formula Type)",
+  "date": "2024-05-12",
+  "createdAt": "2024-05-12T00:48:01.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最强单品kana？",
+  "text": "最强单品kana？",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iz421m7TU",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1iz421m7TU&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e27913897ad12d78554734069b986f69619e91088db8edf6d32ebf87f4f2b9a6.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1iz421m7TU",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e27913897ad12d78554734069b986f69619e91088db8edf6d32ebf87f4f2b9a6.jpg",
+    "title": "巴麻美 VS 唐纳德·麦当劳 口技对决 Bad Apple!!(Old Formula Type)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e27913897ad12d78554734069b986f69619e91088db8edf6d32ebf87f4f2b9a6.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "biiehefbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1iz421m7TU",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d168efb65d5d0dec88dfcb5f744425252d11dbf518bff880a90bc532b3fa7c5d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

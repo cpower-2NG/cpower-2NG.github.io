@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bc411i73w",
+  "schemaVersion": 1,
+  "title": "分享 · NicoNico动画麒麟儿【NicoNico原曲组曲】",
+  "date": "2024-12-01",
+  "createdAt": "2024-12-01T15:44:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不是一般的爽",
+  "text": "不是一般的爽",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bc411i73w",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bc411i73w&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/babb5a5118481a6c90846578f3ab36f5cff3233862c667643852d6ab8d2d9051.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bc411i73w",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/babb5a5118481a6c90846578f3ab36f5cff3233862c667643852d6ab8d2d9051.jpg",
+    "title": "NicoNico动画麒麟儿【NicoNico原曲组曲】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/babb5a5118481a6c90846578f3ab36f5cff3233862c667643852d6ab8d2d9051.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agihgaddhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bc411i73w",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "叁冰变奏",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2d5ab672f738a047bc0648ce79d889c2c28bb00a09043baef9bf4d3d0979d7e8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Si42127n6",
+  "schemaVersion": 1,
+  "title": "分享 · 有村麻央  PV【学園 偶像大师】",
+  "date": "2024-04-17",
+  "createdAt": "2024-04-17T12:09:15.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "很少见的配置，可以期待一下啊",
+  "text": "很少见的配置，可以期待一下啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Si42127n6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Si42127n6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/89a5f28c50548cedbd73f0eed93a1d7b63335e3eca89332a20322ec7218ccf36.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Si42127n6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/89a5f28c50548cedbd73f0eed93a1d7b63335e3eca89332a20322ec7218ccf36.jpg",
+    "title": "有村麻央  PV【学園 偶像大师】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/89a5f28c50548cedbd73f0eed93a1d7b63335e3eca89332a20322ec7218ccf36.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ffhffddbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Si42127n6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0aecc9abd837a600f74b81a3f61d298de3ad9b8200061223bd5ff674eeff7e73",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

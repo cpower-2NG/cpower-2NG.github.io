@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1wCmoYoEUw",
+  "schemaVersion": 1,
+  "title": "分享 · 【鈴湯】ハートビート・フィルム【原唱】",
+  "date": "2024-11-18",
+  "createdAt": "2024-11-18T14:25:30.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "本人？！",
+  "text": "本人？！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wCmoYoEUw",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1wCmoYoEUw&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6228a95a6b2c7bce0b3ef4d037d1f9a3fde35b518663ed9dd5c70817bd650ee.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1wCmoYoEUw",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6228a95a6b2c7bce0b3ef4d037d1f9a3fde35b518663ed9dd5c70817bd650ee.jpg",
+    "title": "【鈴湯】ハートビート・フィルム【原唱】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6228a95a6b2c7bce0b3ef4d037d1f9a3fde35b518663ed9dd5c70817bd650ee.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "adjjdjbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1wCmoYoEUw",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "鈴湯_Suzuyu",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "b17de34a1b1dfb923f2b7f9bbbdc3240089c231894659e0ce7db9facc1391c5f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

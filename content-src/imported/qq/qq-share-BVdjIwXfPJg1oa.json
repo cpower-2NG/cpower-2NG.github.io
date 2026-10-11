@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVdjIwXfPJg1oa",
+  "schemaVersion": 1,
+  "title": "分享 · 排面！\n\n2007年8月12日，曾卓君在日本获得了斗剧《拳皇98》冠军，17年后的同一天，他在利雅得捧起了沙特电竞世界杯",
+  "date": "2024-10-12",
+  "createdAt": "2024-10-12T15:17:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "排面！ 2007年8月12日，曾卓君在日本获得了斗剧《拳皇98》冠军，17年后的同一天，他在利雅得捧起了沙特电竞世界杯《街头霸王6》的冠军奖...",
+  "text": "排面！\n\n2007年8月12日，曾卓君在日本获得了斗剧《拳皇98》冠军，17年后的同一天，他在利雅得捧起了沙特电竞世界杯《街头霸王6》的冠军奖...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVdjIwXfPJg1oa",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVdjIwXfPJg1oa&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVdjIwXfPJg1oa",
+    "coverUrl": "",
+    "title": "排面！\n\n2007年8月12日，曾卓君在日本获得了斗剧《拳皇98》冠军，17年后的同一天，他在利雅得捧起了沙特电竞世界杯《街头霸王6》的冠军奖..."
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "egcgehichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVdjIwXfPJg1oa",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f0dd0200b391e2f3a935a91cf610d5bb728d0fe1818bc03da14eb40da9ca02f9",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

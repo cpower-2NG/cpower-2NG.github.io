@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1J6mXYVEvh",
+  "schemaVersion": 1,
+  "title": "分享 · HOTCHPOTCH FESTIV@L!! 2 PV|偶像大师综合",
+  "date": "2024-11-15",
+  "createdAt": "2024-11-15T04:13:13.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "火锅2！火锅2！ ytb",
+  "text": "火锅2！火锅2！\n\nytb",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1J6mXYVEvh",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1J6mXYVEvh&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e750f4cce3c82fe72d1948c2581a0397232c7beaf15a81a928024fef95a343b.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1J6mXYVEvh",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e750f4cce3c82fe72d1948c2581a0397232c7beaf15a81a928024fef95a343b.jpg",
+    "title": "HOTCHPOTCH FESTIV@L!! 2 PV|偶像大师综合"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0e750f4cce3c82fe72d1948c2581a0397232c7beaf15a81a928024fef95a343b.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "djjdegbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1J6mXYVEvh",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "dda418cb977810d505ab558a6d1966d672bff368e8884b9dfbaa1cee53a36272",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

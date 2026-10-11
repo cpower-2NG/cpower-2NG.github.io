@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1F6y3YHEPm",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「L.U.V」(歌：姫崎莉波) solo2【学園偶像大师/初星学園 TE结局 MV】",
+  "date": "2024-10-18",
+  "createdAt": "2024-10-18T14:55:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不知道是不是先入为主，感觉不如初心live（",
+  "text": "不知道是不是先入为主，感觉不如初心live（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1F6y3YHEPm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1F6y3YHEPm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d51cc9b99d8a3489f67a98bf085c4f04a3c8548b477c895ead3334ae7f664b1f.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1F6y3YHEPm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d51cc9b99d8a3489f67a98bf085c4f04a3c8548b477c895ead3334ae7f664b1f.jpg",
+    "title": "4K HDR「L.U.V」(歌：姫崎莉波) solo2【学園偶像大师/初星学園 TE结局 MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d51cc9b99d8a3489f67a98bf085c4f04a3c8548b477c895ead3334ae7f664b1f.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hdddgcjchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1F6y3YHEPm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "46d8db0a51c69a0f0ace91c58a8163117288ec24381dfd826e3f3cceab2328d1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

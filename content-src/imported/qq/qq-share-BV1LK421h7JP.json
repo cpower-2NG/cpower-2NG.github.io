@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LK421h7JP",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】Straylight『Stay just the way you are』活动剧情",
+  "date": "2024-04-09",
+  "createdAt": "2024-04-09T05:40:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "ボロボロに泣き崩れたよ！",
+  "text": "ボロボロに泣き崩れたよ！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LK421h7JP",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LK421h7JP&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a11db6fc3ddcf9ae91f3e3549b47e4ac32d88d4af9687b28bb98d5cecca40ed0.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LK421h7JP",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a11db6fc3ddcf9ae91f3e3549b47e4ac32d88d4af9687b28bb98d5cecca40ed0.png",
+    "title": "【中字】Straylight『Stay just the way you are』活动剧情"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a11db6fc3ddcf9ae91f3e3549b47e4ac32d88d4af9687b28bb98d5cecca40ed0.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cccbegcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LK421h7JP",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "まかべ丼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a00ccf52aec7fab3471ce7e6455d01c87370e6fb54b0ed0f0dcd41ddc9407b16",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

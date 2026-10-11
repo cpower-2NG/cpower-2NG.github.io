@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bs4y177DE",
+  "schemaVersion": 1,
+  "title": "分享 · 【偶像大师MAD】　時を刻む唄　15years after",
+  "date": "2024-04-03",
+  "createdAt": "2024-04-03T14:39:14.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不同于初代的壮绝，锦织版偶像大师将春香塑造成了一个爱着身为偶像的自己的一切、自信歌唱的少女。她动人的歌声不只是来自于练习...",
+  "text": "不同于初代的壮绝，锦织版偶像大师将春香塑造成了一个爱着身为偶像的自己的一切、自信歌唱的少女。她动人的歌声不只是来自于练习...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bs4y177DE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bs4y177DE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6815fe02cfe17df1a1ec719c3c46c6bd07eb68ede33f744f27f4d3a36295fdea.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bs4y177DE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6815fe02cfe17df1a1ec719c3c46c6bd07eb68ede33f744f27f4d3a36295fdea.jpg",
+    "title": "【偶像大师MAD】　時を刻む唄　15years after"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6815fe02cfe17df1a1ec719c3c46c6bd07eb68ede33f744f27f4d3a36295fdea.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "efbffbcbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bs4y177DE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八坂ガンキャノン",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f4d4953a8db854534ee5ae860ce30f13c2a428cdd278d34e56a5955589b6b25e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

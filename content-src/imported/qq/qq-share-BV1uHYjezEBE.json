@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1uHYjezEBE",
+  "schemaVersion": 1,
+  "title": "分享 · 音MAD | 照进房间里的光",
+  "date": "2024-08-15",
+  "createdAt": "2024-08-15T10:33:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "封闭许久后突然遇到光明与色彩确实很让人感动啊",
+  "text": "封闭许久后突然遇到光明与色彩确实很让人感动啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uHYjezEBE",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1uHYjezEBE&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b31504498ae892712fb6fd1e79ebcd727202d0a6252cf7e74408cde6f4ca07bb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1uHYjezEBE",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b31504498ae892712fb6fd1e79ebcd727202d0a6252cf7e74408cde6f4ca07bb.jpg",
+    "title": "音MAD | 照进房间里的光"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b31504498ae892712fb6fd1e79ebcd727202d0a6252cf7e74408cde6f4ca07bb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aijhbhdchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1uHYjezEBE",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "passthem",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e3929787fd68cf6425e201d33eca3e25f20b514c956f28554347e1ac4cfe63ff",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

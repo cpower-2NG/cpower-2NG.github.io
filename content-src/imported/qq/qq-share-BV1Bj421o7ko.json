@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Bj421o7ko",
+  "schemaVersion": 1,
+  "title": "分享 · 【中日双语/广播】四月新番—夜晚的水母不会游泳 广播第零回【北宇治字幕组】",
+  "date": "2024-03-19",
+  "createdAt": "2024-03-19T04:41:21.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这就是新组的活力啊，还没出，就先把广播翻了",
+  "text": "这就是新组的活力啊，还没出，就先把广播翻了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Bj421o7ko",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Bj421o7ko&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c1ef8e9b1667093bda109456d0882afa628c90cb258fa92927bc68882d05ce8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Bj421o7ko",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c1ef8e9b1667093bda109456d0882afa628c90cb258fa92927bc68882d05ce8.jpg",
+    "title": "【中日双语/广播】四月新番—夜晚的水母不会游泳 广播第零回【北宇治字幕组】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2c1ef8e9b1667093bda109456d0882afa628c90cb258fa92927bc68882d05ce8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bicdciabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Bj421o7ko",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "北宇治字幕组-已停用",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0a0f90f9a70f24899daab2421a9ed77338389f72ed895db14fa1a52876dd7ffb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

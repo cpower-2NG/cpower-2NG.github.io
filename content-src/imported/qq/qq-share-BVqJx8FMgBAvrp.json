@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVqJx8FMgBAvrp",
+  "schemaVersion": 1,
+  "title": "分享 · 休息的方法错了",
+  "date": "2024-10-27",
+  "createdAt": "2024-10-27T12:39:56.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "休息的方法错了",
+  "text": "休息的方法错了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVqJx8FMgBAvrp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVqJx8FMgBAvrp&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVqJx8FMgBAvrp",
+    "coverUrl": "",
+    "title": "休息的方法错了"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb09c341e675cf20d00",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVqJx8FMgBAvrp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "520dff64dab916bde31bb40fc003bfdd4c982e548819f9d746cb0e8aa8b18696",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV11h17YyEM4",
+  "schemaVersion": 1,
+  "title": "分享 · 乐意琴音",
+  "date": "2024-10-30",
+  "createdAt": "2024-10-30T14:50:08.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "艹",
+  "text": "艹",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV11h17YyEM4",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV11h17YyEM4&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/05667e7c6c0348ff2fed4e4139361a58efb72bbcc36351c1c13fb8f8b57e0528.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV11h17YyEM4",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/05667e7c6c0348ff2fed4e4139361a58efb72bbcc36351c1c13fb8f8b57e0528.jpg",
+    "title": "乐意琴音"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/05667e7c6c0348ff2fed4e4139361a58efb72bbcc36351c1c13fb8f8b57e0528.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "iaijjcadhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV11h17YyEM4",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "魔法毛颜的幻想曲",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "25e317ab5cc53d5f624e534b2555eb2a1976c5bf6bdfd62218683be4348fc4ea",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

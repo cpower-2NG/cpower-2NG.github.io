@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVS3xavYa1cAI9",
+  "schemaVersion": 1,
+  "title": "分享 · 世界第一可爱金发小女孩（",
+  "date": "2024-10-05",
+  "createdAt": "2024-10-05T02:44:35.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "世界第一可爱金发小女孩（",
+  "text": "世界第一可爱金发小女孩（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVS3xavYa1cAI9",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVS3xavYa1cAI9&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVS3xavYa1cAI9",
+    "coverUrl": "",
+    "title": "世界第一可爱金发小女孩（"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fhcgjaichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVS3xavYa1cAI9",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f786a7ba5eeed0523c9d46b4591221321c4af3767d9e81d405f6936187005b2",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

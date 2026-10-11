@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dJ4m1M7EX",
+  "schemaVersion": 1,
+  "title": "分享 · 『4K/暂缓更新』原来我们喜欢的LoveLive!的曲子很多都是他作的 (LoveLive!系列作/编曲—EFFY)",
+  "date": "2024-06-24",
+  "createdAt": "2024-06-24T04:57:19.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "难绷",
+  "text": "难绷",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dJ4m1M7EX",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dJ4m1M7EX&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9355aae704ae7a1be816fc82925a94cff4fd953bf0f46dcd84d44cb950e326a0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dJ4m1M7EX",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9355aae704ae7a1be816fc82925a94cff4fd953bf0f46dcd84d44cb950e326a0.jpg",
+    "title": "『4K/暂缓更新』原来我们喜欢的LoveLive!的曲子很多都是他作的 (LoveLive!系列作/编曲—EFFY)"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9355aae704ae7a1be816fc82925a94cff4fd953bf0f46dcd84d44cb950e326a0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jdafacjbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dJ4m1M7EX",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "RisingStar_MZK",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "5b6ef878cf6d2359f1cd15058e06a7e751a2b6bf3b2fdeae92bf6b32fc4755db",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

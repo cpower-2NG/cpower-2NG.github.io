@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Ww4m1m7n5",
+  "schemaVersion": 1,
+  "title": "分享 · 偶像 if線的未来",
+  "date": "2024-04-16",
+  "createdAt": "2024-04-16T11:09:33.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "有点意思",
+  "text": "有点意思",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ww4m1m7n5",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ww4m1m7n5&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1b649a9737cf7223ec0aa6776b943d09518b208419c116e4d7e9f319bcb6d29.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Ww4m1m7n5",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1b649a9737cf7223ec0aa6776b943d09518b208419c116e4d7e9f319bcb6d29.png",
+    "title": "偶像 if線的未来"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e1b649a9737cf7223ec0aa6776b943d09518b208419c116e4d7e9f319bcb6d29.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhhfgcdbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Ww4m1m7n5",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "等待幸代寫真集的明P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "01d9dd65b2456dc3fdd4fa0f198e03baf27f36751797cfd629ad7c37e6db7f87",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1WT421r77p",
+  "schemaVersion": 1,
+  "title": "分享 · 【学園偶像大师】「コントラスト」篠澤広 solo2 SSR【初星学園 4K HDR MV】",
+  "date": "2024-07-24",
+  "createdAt": "2024-07-24T03:31:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "太美了",
+  "text": "太美了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WT421r77p",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1WT421r77p&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/30fdfc90eaf09acd37aa958742a6fb15b00f6e8d71e3ce13f9a7300caa5ac881.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1WT421r77p",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/30fdfc90eaf09acd37aa958742a6fb15b00f6e8d71e3ce13f9a7300caa5ac881.jpg",
+    "title": "【学園偶像大师】「コントラスト」篠澤広 solo2 SSR【初星学園 4K HDR MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/30fdfc90eaf09acd37aa958742a6fb15b00f6e8d71e3ce13f9a7300caa5ac881.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "chibjhbchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1WT421r77p",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9177ca7a2ec5c18643fd99cdd549e57203ae866671b95863d20d7680dacae385",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

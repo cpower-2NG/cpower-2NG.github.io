@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14y411q7br",
+  "schemaVersion": 1,
+  "title": "分享 · 【宝石少女1st.cut】预告视频公开",
+  "date": "2024-06-19",
+  "createdAt": "2024-06-19T02:28:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可以明显察觉的，现在声优的演绎风格逐渐走向现实系。我的御苑生...",
+  "text": "可以明显察觉的，现在声优的演绎风格逐渐走向现实系。我的御苑生...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14y411q7br",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14y411q7br&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52f0b353463521f8faea964f4e5f94a10c0edbce373ccb1ef6114c1394a3d0c0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14y411q7br",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52f0b353463521f8faea964f4e5f94a10c0edbce373ccb1ef6114c1394a3d0c0.jpg",
+    "title": "【宝石少女1st.cut】预告视频公开"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/52f0b353463521f8faea964f4e5f94a10c0edbce373ccb1ef6114c1394a3d0c0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gabeghibhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14y411q7br",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "Lucle_Totometori",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e98369c4aba38d328d22ef95ddee35a6917f4ee22d1dabf08dc881bae9bea4db",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

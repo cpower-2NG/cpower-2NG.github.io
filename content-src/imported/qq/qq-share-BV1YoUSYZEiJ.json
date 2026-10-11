@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1YoUSYZEiJ",
+  "schemaVersion": 1,
+  "title": "分享 · 【转载】【人力VOCALOID】VOY@GER 偶像大师 ディアリースターズver.【876PRO】",
+  "date": "2024-11-26",
+  "createdAt": "2024-11-26T10:14:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "真好",
+  "text": "真好",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YoUSYZEiJ",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1YoUSYZEiJ&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f5336a53215a1dc557055b96906c0ad31cc08d5e5838bd6eaf69ce9a20fa53b7.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1YoUSYZEiJ",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f5336a53215a1dc557055b96906c0ad31cc08d5e5838bd6eaf69ce9a20fa53b7.jpg",
+    "title": "【转载】【人力VOCALOID】VOY@GER 偶像大师 ディアリースターズver.【876PRO】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f5336a53215a1dc557055b96906c0ad31cc08d5e5838bd6eaf69ce9a20fa53b7.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfagbgcdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1YoUSYZEiJ",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "柯园2517",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4ed9f01a4bf05049412f920e7378d55b57fb8575edf4a658d519f1533fb4dadc",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

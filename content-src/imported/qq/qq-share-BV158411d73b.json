@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV158411d73b",
+  "schemaVersion": 1,
+  "title": "分享 · スローモーション——近藤玲奈（day1半熟）",
+  "date": "2024-03-28",
+  "createdAt": "2024-03-28T13:18:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "玲玲什么时候能超进化",
+  "text": "玲玲什么时候能超进化",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV158411d73b",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV158411d73b&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0f91d9311440a56d16105dd85df8b7a02f6ada852616fe7177815377959f090.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV158411d73b",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0f91d9311440a56d16105dd85df8b7a02f6ada852616fe7177815377959f090.jpg",
+    "title": "スローモーション——近藤玲奈（day1半熟）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b0f91d9311440a56d16105dd85df8b7a02f6ada852616fe7177815377959f090.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bcjbdgbbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV158411d73b",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "SCP-682Official",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9bb585eb6904610dba3dd963d936702d4b597c932201bb8d7b3fe1d7794a7eca",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

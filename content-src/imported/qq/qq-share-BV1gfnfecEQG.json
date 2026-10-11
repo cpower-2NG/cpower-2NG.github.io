@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1gfnfecEQG",
+  "schemaVersion": 1,
+  "title": "分享 · 经常出现的群友表情包但是不知道名字的黄金皮卡丘小偶像",
+  "date": "2024-09-14",
+  "createdAt": "2024-09-14T11:08:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "多得有点害怕了",
+  "text": "多得有点害怕了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gfnfecEQG",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1gfnfecEQG&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7deaf3293b3b3e23f885ccd09e3b9665da97fab4d20367078a8b362d046b8b4e.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1gfnfecEQG",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7deaf3293b3b3e23f885ccd09e3b9665da97fab4d20367078a8b362d046b8b4e.jpg",
+    "title": "经常出现的群友表情包但是不知道名字的黄金皮卡丘小偶像"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7deaf3293b3b3e23f885ccd09e3b9665da97fab4d20367078a8b362d046b8b4e.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cabcbdgchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1gfnfecEQG",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "猫猫三3rd",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d2a8d5d2c21c16b11efdb3910a34d1d0788a89061c6f8bf77654527de332494e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1W44y1H7Fm",
+  "schemaVersion": 1,
+  "title": "分享 · Reol - no title 完整版",
+  "date": "2024-09-27",
+  "createdAt": "2024-09-27T15:28:55.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我现在才知道那么多NoTitle格式的音骂，就是用这首原曲 转自kuwo音乐",
+  "text": "我现在才知道那么多NoTitle格式的音骂，就是用这首原曲\n\n转自kuwo音乐",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1W44y1H7Fm",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1W44y1H7Fm&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4921e4e24c14669f842406a579c2ea0f3b460448079543141422eb94ac48e8f9.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1W44y1H7Fm",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4921e4e24c14669f842406a579c2ea0f3b460448079543141422eb94ac48e8f9.jpg",
+    "title": "Reol - no title 完整版"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4921e4e24c14669f842406a579c2ea0f3b460448079543141422eb94ac48e8f9.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fdjafehchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1W44y1H7Fm",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "cat37100087",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2718e5f0820df8ed1abd48522d93a37f7c61880572a8a8584dd9bb4532de3a64",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

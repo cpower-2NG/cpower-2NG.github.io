@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ix411c7Ye",
+  "schemaVersion": 1,
+  "title": "分享 · 【穿越】绿光",
+  "date": "2024-09-15",
+  "createdAt": "2024-09-15T14:01:45.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "自从看到这个视频后，我就不再反感任何 动 漫 混 剪。",
+  "text": "自从看到这个视频后，我就不再反感任何 动 漫 混 剪。",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ix411c7Ye",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ix411c7Ye&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cd08f90f4c8c62648824bf6158c34968e04a97d5e5091234d4519cb62b32c26.gif",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ix411c7Ye",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cd08f90f4c8c62648824bf6158c34968e04a97d5e5091234d4519cb62b32c26.gif",
+    "title": "【穿越】绿光"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7cd08f90f4c8c62648824bf6158c34968e04a97d5e5091234d4519cb62b32c26.gif",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fajiaegchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ix411c7Ye",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "小太",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "2537b8aef889230ab455510568484f476d38fb6a34d352e0eabbf4941c38a242",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

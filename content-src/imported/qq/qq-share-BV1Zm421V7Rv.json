@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Zm421V7Rv",
+  "schemaVersion": 1,
+  "title": "分享 · 本届上影节最佳动画观看前你该知道的——聊聊山田尚子最新作《你的颜色》",
+  "date": "2024-06-24",
+  "createdAt": "2024-06-24T14:34:16.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "堀口，山田不能没有你啊",
+  "text": "堀口，山田不能没有你啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Zm421V7Rv",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Zm421V7Rv&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/24a74476f63b939c6424127e1e35e1f033039aa55fa5483dcaf9a982a3aaf987.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Zm421V7Rv",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/24a74476f63b939c6424127e1e35e1f033039aa55fa5483dcaf9a982a3aaf987.jpg",
+    "title": "本届上影节最佳动画观看前你该知道的——聊聊山田尚子最新作《你的颜色》"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/24a74476f63b939c6424127e1e35e1f033039aa55fa5483dcaf9a982a3aaf987.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gfgjdcjbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Zm421V7Rv",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "动画魂-Anitama",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3763664923d9b0eb5e340289a6a3fa7e855dcf633427835f03338d51d56d24ed",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

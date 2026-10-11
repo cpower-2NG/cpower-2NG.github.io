@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1tm42157ja",
+  "schemaVersion": 1,
+  "title": "分享 · 【男声翻唱】世界一かわE",
+  "date": "2024-06-02",
+  "createdAt": "2024-06-02T05:36:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "爆杀哈尼沃克斯！ 这个藤田琴音啊，看30秒还不爱上的都是神人了",
+  "text": "爆杀哈尼沃克斯！\n\n这个藤田琴音啊，看30秒还不爱上的都是神人了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tm42157ja",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tm42157ja&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee49b713180e0f06cf71da8dedeb28360fdb9752404e81bb0f0d85e1b8c98f22.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1tm42157ja",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee49b713180e0f06cf71da8dedeb28360fdb9752404e81bb0f0d85e1b8c98f22.jpg",
+    "title": "【男声翻唱】世界一かわE"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee49b713180e0f06cf71da8dedeb28360fdb9752404e81bb0f0d85e1b8c98f22.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgfgadhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1tm42157ja",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "老翊尧",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a7e5b9af91d5703642143255591042b02b60d92e200669c80fb7bef0328092d1",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

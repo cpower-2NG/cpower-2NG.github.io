@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tm411d7tB",
+  "schemaVersion": 1,
+  "title": "分享 · 【MAPPA原创动画】全修 先导PV",
+  "date": "2024-03-22",
+  "createdAt": "2024-03-22T12:59:52.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "什么地狱笑话",
+  "text": "什么地狱笑话",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tm411d7tB",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tm411d7tB&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1eac951b8dc405c32ea4e08b5d0f574689502ad999ff8516f6c109f80f85c6cc.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tm411d7tB",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1eac951b8dc405c32ea4e08b5d0f574689502ad999ff8516f6c109f80f85c6cc.jpg",
+    "title": "【MAPPA原创动画】全修 先导PV"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1eac951b8dc405c32ea4e08b5d0f574689502ad999ff8516f6c109f80f85c6cc.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjdcbbbbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tm411d7tB",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "____轩",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d94fe9f79798fa7b78f338df79bb4e60635ececf717083ecfdd737912e1b1e79",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

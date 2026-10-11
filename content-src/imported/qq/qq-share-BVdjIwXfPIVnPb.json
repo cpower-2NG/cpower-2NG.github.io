@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BVdjIwXfPIVnPb",
+  "schemaVersion": 1,
+  "title": "分享 · 最好的生日礼物",
+  "date": "2024-10-10",
+  "createdAt": "2024-10-10T15:24:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最好的生日礼物",
+  "text": "最好的生日礼物",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BVdjIwXfPIVnPb",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BVdjIwXfPIVnPb&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BVdjIwXfPIVnPb",
+    "coverUrl": "",
+    "title": "最好的生日礼物"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bfidhfichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BVdjIwXfPIVnPb",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e902e8c5f788d1e7a33d8fbc83e54cebb5ed67afcf6f7c6cec59519a7a2cde78",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

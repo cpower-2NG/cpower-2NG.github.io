@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1qH4y1g74d",
+  "schemaVersion": 1,
+  "title": "分享 · 【2024年4月】nico月间舞蹈排行榜 TOP30",
+  "date": "2024-05-09",
+  "createdAt": "2024-05-09T11:28:46.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "top最实至名归的一次",
+  "text": "top最实至名归的一次",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qH4y1g74d",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qH4y1g74d&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c9d40bd0c3e5ae37d8ec6d9ceb87216d1422ddd1d68ec2a164d10cc57d5b44d.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1qH4y1g74d",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c9d40bd0c3e5ae37d8ec6d9ceb87216d1422ddd1d68ec2a164d10cc57d5b44d.png",
+    "title": "【2024年4月】nico月间舞蹈排行榜 TOP30"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c9d40bd0c3e5ae37d8ec6d9ceb87216d1422ddd1d68ec2a164d10cc57d5b44d.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "gcbefcfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1qH4y1g74d",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "莲见时雨",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "fd90c957a711fdf209bd05bb54bf26e9d1b377e948a901204e2161a061a283e8",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

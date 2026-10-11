@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1kb421e7mF",
+  "schemaVersion": 1,
+  "title": "分享 · Adobe回应窃取用户作品一事⬅️继续引众怒",
+  "date": "2024-06-20",
+  "createdAt": "2024-06-20T05:08:38.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "不联网为什么不用盗版 封面是假的= = 我自己做的，不要当真",
+  "text": "不联网为什么不用盗版\n\n封面是假的= = 我自己做的，不要当真",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kb421e7mF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1kb421e7mF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9aa4afaad6dd47531f911cfb5fc1a4a92ef2649406e86ac1a85efe2b61d01176.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1kb421e7mF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9aa4afaad6dd47531f911cfb5fc1a4a92ef2649406e86ac1a85efe2b61d01176.jpg",
+    "title": "Adobe回应窃取用户作品一事⬅️继续引众怒"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9aa4afaad6dd47531f911cfb5fc1a4a92ef2649406e86ac1a85efe2b61d01176.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ibbagiibhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1kb421e7mF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CG快报",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "596c15824c5fe4ce1dc9c9aface58367cb2b611912421a67d2fd25b13abe02cb",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

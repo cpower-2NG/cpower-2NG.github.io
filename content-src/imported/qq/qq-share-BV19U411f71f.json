@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV19U411f71f",
+  "schemaVersion": 1,
+  "title": "分享 · 【漫谈】偶像大师百万现场 终章【迈向新的未来】",
+  "date": "2024-05-18",
+  "createdAt": "2024-05-18T15:06:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "最高杰作！",
+  "text": "最高杰作！",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV19U411f71f",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV19U411f71f&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6d8c8ca23716549e4c8f3b643dd34cc270eecaa15c19ad1989d73bd3f075b45.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV19U411f71f",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6d8c8ca23716549e4c8f3b643dd34cc270eecaa15c19ad1989d73bd3f075b45.jpg",
+    "title": "【漫谈】偶像大师百万现场 终章【迈向新的未来】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/e6d8c8ca23716549e4c8f3b643dd34cc270eecaa15c19ad1989d73bd3f075b45.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aiheeagbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV19U411f71f",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "amuro1985",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "419676d0db4ec64e9806ad481d9283dc407c9522f43512fc01dc8adff5da5fb0",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

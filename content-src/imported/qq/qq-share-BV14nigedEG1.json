@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV14nigedEG1",
+  "schemaVersion": 1,
+  "title": "分享 · 小 圆 的 五 月 病",
+  "date": "2024-08-02",
+  "createdAt": "2024-08-02T14:25:25.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "人力和rap做这么好怎么音响平衡这么差",
+  "text": "人力和rap做这么好怎么音响平衡这么差",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV14nigedEG1",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV14nigedEG1&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/609cbee2fb8d087a559687ddda96c0abfeaa35238d981238f7da71f25c9c94c0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV14nigedEG1",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/609cbee2fb8d087a559687ddda96c0abfeaa35238d981238f7da71f25c9c94c0.jpg",
+    "title": "小 圆 的 五 月 病"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/609cbee2fb8d087a559687ddda96c0abfeaa35238d981238f7da71f25c9c94c0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "fchiagcchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV14nigedEG1",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "36cde1ab3ab06c48a465679a23e93760e55dae8dae6c38ad7400d922bd00ff6b",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

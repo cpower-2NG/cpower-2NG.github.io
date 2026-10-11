@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1DU411o7fn",
+  "schemaVersion": 1,
+  "title": "分享 · 【学园偶像大师】如月千早聆听『空间音频』的世界 P1",
+  "date": "2024-05-26",
+  "createdAt": "2024-05-26T13:21:31.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "多搞点MR企划，爱看",
+  "text": "多搞点MR企划，爱看",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DU411o7fn",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1DU411o7fn&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9e993f7e67d7aed007230fedd752ee357b6fe533b4a88f01a1a6669018fb05ad.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1DU411o7fn",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9e993f7e67d7aed007230fedd752ee357b6fe533b4a88f01a1a6669018fb05ad.png",
+    "title": "【学园偶像大师】如月千早聆听『空间音频』的世界 P1"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9e993f7e67d7aed007230fedd752ee357b6fe533b4a88f01a1a6669018fb05ad.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bjgjchgbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1DU411o7fn",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "4016d162438e795226caf4222e490674a294ff03796ea5ebc25b8f4032497786",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

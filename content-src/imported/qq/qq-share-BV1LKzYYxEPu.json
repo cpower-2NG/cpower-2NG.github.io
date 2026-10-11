@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1LKzYYxEPu",
+  "schemaVersion": 1,
+  "title": "分享 · Luna Say 咚咔",
+  "date": "2024-11-30",
+  "createdAt": "2024-11-30T05:08:12.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "笑得肚子疼 -",
+  "text": "笑得肚子疼\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LKzYYxEPu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LKzYYxEPu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a06ad70a069b2fa3ad000f6bae09ca0d76d4b482a318353dc4a103c76ef787a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1LKzYYxEPu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a06ad70a069b2fa3ad000f6bae09ca0d76d4b482a318353dc4a103c76ef787a.jpg",
+    "title": "Luna Say 咚咔"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5a06ad70a069b2fa3ad000f6bae09ca0d76d4b482a318353dc4a103c76ef787a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cjcdejcdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1LKzYYxEPu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "纯爱喵梦子",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ec94315002dc771495621f9869d99af422e2ba7ee86b8c65fdc1ce8c95a28cc4",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

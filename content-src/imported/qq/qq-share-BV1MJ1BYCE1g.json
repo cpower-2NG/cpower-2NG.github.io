@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1MJ1BYCE1g",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「Fermata in Rapsodia」(四条貴音 私服 SHS SSR)【偶像大师百万现场MLTD MV",
+  "date": "2024-10-06",
+  "createdAt": "2024-10-06T14:11:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "期待live",
+  "text": "期待live",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MJ1BYCE1g",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1MJ1BYCE1g&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b500bfef974a0f2dfb8f946237996dc339b5c1f16185b1bc13c3ceb8b35d56b0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1MJ1BYCE1g",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b500bfef974a0f2dfb8f946237996dc339b5c1f16185b1bc13c3ceb8b35d56b0.jpg",
+    "title": "4K HDR「Fermata in Rapsodia」(四条貴音 私服 SHS SSR)【偶像大师百万现场MLTD MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b500bfef974a0f2dfb8f946237996dc339b5c1f16185b1bc13c3ceb8b35d56b0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hjidccichb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1MJ1BYCE1g",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9c5a8d5290b567421890a2824e3d62d4054c9a4f1b5aef05486cd566bc45c817",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

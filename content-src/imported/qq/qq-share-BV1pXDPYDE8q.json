@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1pXDPYDE8q",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】听错前辈话差点原地解散",
+  "date": "2024-11-10",
+  "createdAt": "2024-11-10T03:26:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我也听错好几次了（",
+  "text": "我也听错好几次了（",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pXDPYDE8q",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pXDPYDE8q&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2da338a90d17ee9ede75d59ed159304550b12aa3db8e442ecb06e66d66c54501.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1pXDPYDE8q",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2da338a90d17ee9ede75d59ed159304550b12aa3db8e442ecb06e66d66c54501.jpg",
+    "title": "【中字】听错前辈话差点原地解散"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2da338a90d17ee9ede75d59ed159304550b12aa3db8e442ecb06e66d66c54501.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dgbjacbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1pXDPYDE8q",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "钢铁布朗尼",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "1c28f244d991d19287657dd006c184d1d83206a40264f8b3fd238446dd176198",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Nr421A7RL",
+  "schemaVersion": 1,
+  "title": "分享 · [现场版] OTAHEN アンセム - 夢見りあむ (星希成奏）偶像大师灰姑娘 cg_UNITTOUR 東京公演 202",
+  "date": "2024-06-09",
+  "createdAt": "2024-06-09T09:57:02.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "这粪曲怎么让人听得既想笑有想哭",
+  "text": "这粪曲怎么让人听得既想笑有想哭",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nr421A7RL",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Nr421A7RL&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b9250da1c047026d5f448411d12de02efdb2a815f9ae66bd77411ba8209d48b0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Nr421A7RL",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b9250da1c047026d5f448411d12de02efdb2a815f9ae66bd77411ba8209d48b0.jpg",
+    "title": "[现场版] OTAHEN アンセム - 夢見りあむ (星希成奏）偶像大师灰姑娘 cg_UNITTOUR 東京公演 2024-06-01"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b9250da1c047026d5f448411d12de02efdb2a815f9ae66bd77411ba8209d48b0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ccahcjhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Nr421A7RL",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "LeVeL",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "f9d9bc811655256d3ac2fe5339d13fa2c187684714b183f7176d9c514b017adf",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

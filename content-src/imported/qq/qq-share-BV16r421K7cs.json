@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV16r421K7cs",
+  "schemaVersion": 1,
+  "title": "分享 · （中字）大麻油和瞳瞳的全力救场——Live Fun",
+  "date": "2024-07-28",
+  "createdAt": "2024-07-28T12:09:11.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "伟大",
+  "text": "伟大",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV16r421K7cs",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16r421K7cs&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13f75f4d9c8a6825fc46b0d94081672696d2fb81c4bdda47f98a38a72b94af02.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV16r421K7cs",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13f75f4d9c8a6825fc46b0d94081672696d2fb81c4bdda47f98a38a72b94af02.jpg",
+    "title": "（中字）大麻油和瞳瞳的全力救场——Live Fun"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/13f75f4d9c8a6825fc46b0d94081672696d2fb81c4bdda47f98a38a72b94af02.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "bffigbcchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV16r421K7cs",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "1410617",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ab84e833583a6c0b97c8dc2383451853b4600859a2cd06a754db94659d167841",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1hN4y1p7tF",
+  "schemaVersion": 1,
+  "title": "分享 · とあ重调了一小段拼凑的断音！",
+  "date": "2024-03-26",
+  "createdAt": "2024-03-26T11:32:22.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "可怕 twitter.com/o0toa0o/status/1745826809676177598?t=-EbjUtkXdEuGs0aKpMah3gs=19",
+  "text": "可怕\n\ntwitter.com/o0toa0o/status/1745826809676177598?t=-EbjUtkXdEuGs0aKpMah3gs=19",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1hN4y1p7tF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hN4y1p7tF&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee21773932f2cd12319ec5d6d150320ab71d44d6523200ef04ad142c2d08b266.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1hN4y1p7tF",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee21773932f2cd12319ec5d6d150320ab71d44d6523200ef04ad142c2d08b266.jpg",
+    "title": "とあ重调了一小段拼凑的断音！"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ee21773932f2cd12319ec5d6d150320ab71d44d6523200ef04ad142c2d08b266.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "cehcfebbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1hN4y1p7tF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "纸鸢KamiMoshi",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "a4afa4ac901e28b3c93dba139dbeab4f99b3ea53b4416427ac5fcd6b6a71723f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

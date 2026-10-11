@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1ux4y1H7x6",
+  "schemaVersion": 1,
+  "title": "分享 · 「学园偶像大师」花海佑芽 单曲「The Rolling Riceball」",
+  "date": "2024-05-31",
+  "createdAt": "2024-05-31T15:10:20.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "欢脱的贵公子，欢脱的佑芽 from:The Rolling Riceball / 花海佑芽(CV:松田彩音) [240601]",
+  "text": "欢脱的贵公子，欢脱的佑芽\n\nfrom:The Rolling Riceball / 花海佑芽(CV:松田彩音) [240601]",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ux4y1H7x6",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ux4y1H7x6&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/90ef8833840a8155ae588388e5f4a26ccb0ba7a9fa84d2b0e4c387e55a02fae3.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1ux4y1H7x6",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/90ef8833840a8155ae588388e5f4a26ccb0ba7a9fa84d2b0e4c387e55a02fae3.png",
+    "title": "「学园偶像大师」花海佑芽 单曲「The Rolling Riceball」"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/90ef8833840a8155ae588388e5f4a26ccb0ba7a9fa84d2b0e4c387e55a02fae3.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "accigbhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1ux4y1H7x6",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "丿BCZ",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ff0ddef683562ee01ee9aa241b5a4f773d58154f1b69079abecb956c246afa77",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

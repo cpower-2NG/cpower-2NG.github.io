@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1d1421B7oK",
+  "schemaVersion": 1,
+  "title": "分享 · 【熟肉】三川华月「试图反抗羽那的人都失败了」【小泽丽那/三川华月/今井麻美】",
+  "date": "2024-05-09",
+  "createdAt": "2024-05-09T11:45:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我没有失败",
+  "text": "我没有失败",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d1421B7oK",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1d1421B7oK&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff5e2af27704066e60d10fc13fa50fc858bbb6a8b44edbcae731c19c74e6aea.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1d1421B7oK",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff5e2af27704066e60d10fc13fa50fc858bbb6a8b44edbcae731c19c74e6aea.jpg",
+    "title": "【熟肉】三川华月「试图反抗羽那的人都失败了」【小泽丽那/三川华月/今井麻美】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/7ff5e2af27704066e60d10fc13fa50fc858bbb6a8b44edbcae731c19c74e6aea.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icbffcfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1d1421B7oK",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "银河猫喵喵",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e375a01852d2e0f7bee8132bf7c499f20aa11fe8f222fc118771a3a0cfb4de91",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

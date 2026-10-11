@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1Tf421i7so",
+  "schemaVersion": 1,
+  "title": "分享 · 【先行/学园偶像大师】篠泽广solo2「コントラスト」（Contrast）",
+  "date": "2024-07-22",
+  "createdAt": "2024-07-22T02:43:49.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "我一直是広p啊",
+  "text": "我一直是広p啊",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tf421i7so",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Tf421i7so&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b9e92abe8845ee41afcb9155219d769793a5b9d351ec61265852d3b44f82f49.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1Tf421i7so",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b9e92abe8845ee41afcb9155219d769793a5b9d351ec61265852d3b44f82f49.jpg",
+    "title": "【先行/学园偶像大师】篠泽广solo2「コントラスト」（Contrast）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5b9e92abe8845ee41afcb9155219d769793a5b9d351ec61265852d3b44f82f49.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jccgbgbchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1Tf421i7so",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "cofflemon",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "212cb7270fde4ab51ce6a79257931eb8daf5b71c3d4a8c203cd9a26297944238",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

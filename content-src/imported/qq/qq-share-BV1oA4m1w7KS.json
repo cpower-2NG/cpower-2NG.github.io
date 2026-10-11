@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1oA4m1w7KS",
+  "schemaVersion": 1,
+  "title": "分享 · [中字]Overdrive Emotion [ストレイライト][SC 5th(BD)-day2]",
+  "date": "2024-04-22",
+  "createdAt": "2024-04-22T12:37:26.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "闪彩这bd都修不了的镜头问题",
+  "text": "闪彩这bd都修不了的镜头问题",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oA4m1w7KS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1oA4m1w7KS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d821cae1a469800699cebe34551e55f1ff47742bd48dd0a0d09cd2c55bdb7f0.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1oA4m1w7KS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d821cae1a469800699cebe34551e55f1ff47742bd48dd0a0d09cd2c55bdb7f0.jpg",
+    "title": "[中字]Overdrive Emotion [ストレイライト][SC 5th(BD)-day2]"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9d821cae1a469800699cebe34551e55f1ff47742bd48dd0a0d09cd2c55bdb7f0.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "geejihdbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1oA4m1w7KS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "大宅P",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "24a5e23162c27a744cfc2e51e5807a53ff25fc3118f96bd731bfc84adf80dec3",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

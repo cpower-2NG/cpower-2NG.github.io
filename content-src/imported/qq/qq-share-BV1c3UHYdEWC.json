@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1c3UHYdEWC",
+  "schemaVersion": 1,
+  "title": "分享 · [中字切片]百万的雨女众和tkmn谈百万11th",
+  "date": "2024-11-18",
+  "createdAt": "2024-11-18T14:48:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "いつが",
+  "text": "いつが",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1c3UHYdEWC",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1c3UHYdEWC&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59b07f3816f1742603b5d19f662fef0fe25d3c2a6d53cc6c2b322d29ba86f989.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1c3UHYdEWC",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59b07f3816f1742603b5d19f662fef0fe25d3c2a6d53cc6c2b322d29ba86f989.jpg",
+    "title": "[中字切片]百万的雨女众和tkmn谈百万11th"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/59b07f3816f1742603b5d19f662fef0fe25d3c2a6d53cc6c2b322d29ba86f989.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hcdbejbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1c3UHYdEWC",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "偶像小鸠官方",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "db40367bb3d83197ed8f2d172216924f62ba12898d064aea70a9b56869ffb806",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1or421M7sp",
+  "schemaVersion": 1,
+  "title": "分享 · 【闪耀色彩合作】SHADOW∞BEAT",
+  "date": "2024-05-10",
+  "createdAt": "2024-05-10T12:15:28.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "黑组段和乱流段好喜欢",
+  "text": "黑组段和乱流段好喜欢",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1or421M7sp",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1or421M7sp&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27570ea94ddeba4bcc389409419079b7094044fe972d4ef608ec4ef84fd74556.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1or421M7sp",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27570ea94ddeba4bcc389409419079b7094044fe972d4ef608ec4ef84fd74556.jpg",
+    "title": "【闪耀色彩合作】SHADOW∞BEAT"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/27570ea94ddeba4bcc389409419079b7094044fe972d4ef608ec4ef84fd74556.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "icddedfbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1or421M7sp",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "莎奈亚林德",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "3913876bf5a3063f04f59e8aeb456c70b4a8ce379ac55b9d45ceef29b7a353c5",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

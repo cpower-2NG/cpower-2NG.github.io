@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1dx4y1J7hj",
+  "schemaVersion": 1,
+  "title": "分享 · 4K HDR「流星浪漫」(鷺沢文香・鷹富士茄子 限定SSR)【偶像大师灰姑娘CGSS MV】",
+  "date": "2024-05-31",
+  "createdAt": "2024-05-31T02:09:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "井上馨太真神吧",
+  "text": "井上馨太真神吧",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dx4y1J7hj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1dx4y1J7hj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/606e2eb62dd1085ad1fa4288f03321d23daceefe8e555c68b8ad412d8c4b7cc2.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1dx4y1J7hj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/606e2eb62dd1085ad1fa4288f03321d23daceefe8e555c68b8ad412d8c4b7cc2.jpg",
+    "title": "4K HDR「流星浪漫」(鷺沢文香・鷹富士茄子 限定SSR)【偶像大师灰姑娘CGSS MV】"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/606e2eb62dd1085ad1fa4288f03321d23daceefe8e555c68b8ad412d8c4b7cc2.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdbcbhbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1dx4y1J7hj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "十六夜カズヤP",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "0c03305385a47265d02d610093ab71dd768948929e5e77a2b023f562ac7c972e",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1mE421T7Bj",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字】【BLUES】斑鳩露加斑鳩ルカP-SSR 偶像大師 閃耀色彩",
+  "date": "2024-04-13",
+  "createdAt": "2024-04-13T12:39:10.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "「明澈無瑕的天空，肯定也是最寂寞的天空吧」",
+  "text": "「明澈無瑕的天空，肯定也是最寂寞的天空吧」",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mE421T7Bj",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mE421T7Bj&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2666480071f02ca4ff97bfdca11f4b7fb5757ccb3c86844c59d4b99cec38594.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1mE421T7Bj",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2666480071f02ca4ff97bfdca11f4b7fb5757ccb3c86844c59d4b99cec38594.jpg",
+    "title": "【中字】【BLUES】斑鳩露加斑鳩ルカP-SSR 偶像大師 閃耀色彩"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a2666480071f02ca4ff97bfdca11f4b7fb5757ccb3c86844c59d4b99cec38594.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "afjbbadbhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1mE421T7Bj",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "曾差",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "015f53cf8037175d87aebc6b745e0438ede3f0bd8920069b3115220662ff177d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

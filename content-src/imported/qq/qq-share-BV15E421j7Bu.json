@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV15E421j7Bu",
+  "schemaVersion": 1,
+  "title": "分享 · 【中字cc】初星学園 「Luna say maybe」Official Music Video",
+  "date": "2024-05-03",
+  "createdAt": "2024-05-03T05:31:39.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "昨天听到全曲太震撼了，都没来得及好好看看mv。比咲季的好太多了。由于剧情还看不到，就先不作解读。另外负责动画作画的是MAPPA新...",
+  "text": "昨天听到全曲太震撼了，都没来得及好好看看mv。比咲季的好太多了。由于剧情还看不到，就先不作解读。另外负责动画作画的是MAPPA新...",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV15E421j7Bu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15E421j7Bu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fdf01c84bf4b5ea3f9afabaad4802c5a0679b07d9af4721b54480a8a6c7935a.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV15E421j7Bu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fdf01c84bf4b5ea3f9afabaad4802c5a0679b07d9af4721b54480a8a6c7935a.jpg",
+    "title": "【中字cc】初星学園 「Luna say maybe」Official Music Video"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/3fdf01c84bf4b5ea3f9afabaad4802c5a0679b07d9af4721b54480a8a6c7935a.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "jjcebhebhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV15E421j7Bu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "学园偶像大师同好会",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "563e4eeceffc7eb9f857527f562bc0a4500676b7280ea69b2763129279f15e4f",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV198STYgEJF",
+  "schemaVersion": 1,
+  "title": "分享 · 【合作告知CM】『宗教都市祭』虚拟空间散射场引发的异变",
+  "date": "2024-11-20",
+  "createdAt": "2024-11-20T13:37:53.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "23年因为华灯宴音骂创价段落而感动的时候，我就知道我的○○已经被扭曲了。这是一条不能回头的路",
+  "text": "23年因为华灯宴音骂创价段落而感动的时候，我就知道我的○○已经被扭曲了。这是一条不能回头的路",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV198STYgEJF",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV198STYgEJF&high_quality=1&danmaku=0",
+    "cover": "https://i1.hdslb.com/bfs/archive/e4515479a76307648f4ae4f91391e0ef5e93bc20.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV198STYgEJF",
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/e4515479a76307648f4ae4f91391e0ef5e93bc20.jpg",
+    "title": "【合作告知CM】『宗教都市祭』虚拟空间散射场引发的异变"
+  },
+  "cover": "https://i1.hdslb.com/bfs/archive/e4515479a76307648f4ae4f91391e0ef5e93bc20.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dhijabcdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV198STYgEJF",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "八叶莲华音mad社",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "72cd02b7526f5ef489fa63dffb2120e8d959e2e38898faae7caae3afcf2489ca",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

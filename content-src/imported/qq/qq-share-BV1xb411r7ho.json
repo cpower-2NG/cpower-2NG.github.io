@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1xb411r7ho",
+  "schemaVersion": 1,
+  "title": "分享 · 由角色曲看如月千早的成长历程",
+  "date": "2024-09-30",
+  "createdAt": "2024-09-30T13:37:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "陪我跑步的千早，推荐给所有千早p。(＾Ｕ＾)ノ~ＹＯ",
+  "text": "陪我跑步的千早，推荐给所有千早p。(＾Ｕ＾)ノ~ＹＯ",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xb411r7ho",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1xb411r7ho&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c3011011a97651fb05bc73801b3be93dfc7e3cb42257dafd31725da370d2551.png",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1xb411r7ho",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c3011011a97651fb05bc73801b3be93dfc7e3cb42257dafd31725da370d2551.png",
+    "title": "由角色曲看如月千早的成长历程"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1c3011011a97651fb05bc73801b3be93dfc7e3cb42257dafd31725da370d2551.png",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "hfedahhchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1xb411r7ho",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "名侦探普罗丢可梦",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "246b6ebc5a76681a94f9312df51a95d77cb482ee377da740000300c339f3a72d",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

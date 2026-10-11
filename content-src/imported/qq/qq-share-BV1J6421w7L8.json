@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1J6421w7L8",
+  "schemaVersion": 1,
+  "title": "分享 · 二り二り",
+  "date": "2024-03-18",
+  "createdAt": "2024-03-18T11:22:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "死了",
+  "text": "死了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1J6421w7L8",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1J6421w7L8&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6596f9965048ab12edb5ba3c76b28893767a61fab9e806ae3c20053faef71fc8.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1J6421w7L8",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6596f9965048ab12edb5ba3c76b28893767a61fab9e806ae3c20053faef71fc8.jpg",
+    "title": "二り二り"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6596f9965048ab12edb5ba3c76b28893767a61fab9e806ae3c20053faef71fc8.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "dcjaghabhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1J6421w7L8",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "盐边张家川北林",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "d4ff9eb289184800ced588946f91c900e82390d78ee3ce3aabef57a79be11595",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

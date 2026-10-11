@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1HMUYY4Ezu",
+  "schemaVersion": 1,
+  "title": "分享 · 2025年春推出、新事务员登场|偶像大师tours",
+  "date": "2024-11-16",
+  "createdAt": "2024-11-16T10:17:40.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "寺川姐妹齐进组！ -",
+  "text": "寺川姐妹齐进组！\n\n-",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HMUYY4Ezu",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1HMUYY4Ezu&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/258ffec2bd1edb133b0650dea2e38d4e10726a05a0d56523abd4c877d9e0dc12.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1HMUYY4Ezu",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/258ffec2bd1edb133b0650dea2e38d4e10726a05a0d56523abd4c877d9e0dc12.jpg",
+    "title": "2025年春推出、新事务员登场|偶像大师tours"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/258ffec2bd1edb133b0650dea2e38d4e10726a05a0d56523abd4c877d9e0dc12.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "agccfhbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1HMUYY4Ezu",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "ac7d5188896630ad129ba3057076e1148fe43e6ce06aa2b309f90f3d33e7cbd6",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

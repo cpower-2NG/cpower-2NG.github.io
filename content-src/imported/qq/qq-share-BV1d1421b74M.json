@@ -1,0 +1,56 @@
+{
+  "id": "qq-share-BV1d1421b74M",
+  "schemaVersion": 1,
+  "title": "分享 · 梅原总是喜欢搞这种企划呢，爱看",
+  "date": "2024-07-18",
+  "createdAt": "2024-07-18T03:21:44.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "梅原总是喜欢搞这种企划呢，爱看",
+  "text": "梅原总是喜欢搞这种企划呢，爱看",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d1421b74M",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1d1421b74M&high_quality=1&danmaku=0",
+    "cover": "",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1d1421b74M",
+    "coverUrl": "",
+    "title": "梅原总是喜欢搞这种企划呢，爱看"
+  },
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "eajchcbchb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1d1421b74M",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "BILIBILI_META_MISSING",
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "9f9578b0fb9a17df270bfecd2a2f598134222ba7fba01d5bd086f120923b0531",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1FzDNYJEiS",
+  "schemaVersion": 1,
+  "title": "分享 · 【今井麻美】niconico SSG（第221回）（嘉宾：长月葵、小鹿奈绪、饭田光 ）",
+  "date": "2024-11-14",
+  "createdAt": "2024-11-14T15:49:50.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "幸福",
+  "text": "幸福",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FzDNYJEiS",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1FzDNYJEiS&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/75b13d65cb2cacf556f73f44ba483f9ed56cbf61c1925330b018ae3cc2208b1d.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1FzDNYJEiS",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/75b13d65cb2cacf556f73f44ba483f9ed56cbf61c1925330b018ae3cc2208b1d.jpg",
+    "title": "【今井麻美】niconico SSG（第221回）（嘉宾：长月葵、小鹿奈绪、饭田光 ）"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/75b13d65cb2cacf556f73f44ba483f9ed56cbf61c1925330b018ae3cc2208b1d.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "ajdjjfbdhb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1FzDNYJEiS",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "zeroxiris",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "e74575232fdee9841853a9143a476e33cc0374a8e719f435e2fec5abb8e0e122",
+  "publishStatus": "published",
+  "reviewReasons": []
+}

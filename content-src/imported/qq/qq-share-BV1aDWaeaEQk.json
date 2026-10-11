@@ -1,0 +1,55 @@
+{
+  "id": "qq-share-BV1aDWaeaEQk",
+  "schemaVersion": 1,
+  "title": "分享 · 「偶像大师SP|961pro」 「Re:FLAME」演出预告片",
+  "date": "2024-08-22",
+  "createdAt": "2024-08-22T06:23:00.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步",
+    "分享"
+  ],
+  "category": "分享",
+  "summary": "掉器胃口了",
+  "text": "掉器胃口了",
+  "media": [],
+  "video": {
+    "platform": "哔哩哔哩",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aDWaeaEQk",
+    "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1aDWaeaEQk&high_quality=1&danmaku=0",
+    "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2d1cc37a2f5944324b7251fccafdc01e783be403bb95a4eefbad26691dceeb.jpg",
+    "note": "转发视频，内嵌 B 站播放器。",
+    "watchUrl": "https://www.bilibili.com/video/BV1aDWaeaEQk",
+    "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2d1cc37a2f5944324b7251fccafdc01e783be403bb95a4eefbad26691dceeb.jpg",
+    "title": "「偶像大师SP|961pro」 「Re:FLAME」演出预告片"
+  },
+  "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ed2d1cc37a2f5944324b7251fccafdc01e783be403bb95a4eefbad26691dceeb.jpg",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "aihhadechb",
+    "authorId": "",
+    "url": "https://www.bilibili.com/video/BV1aDWaeaEQk",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [
+      "MIGRATION_VISIBILITY_BYPASS"
+    ],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "CH邮政公司",
+    "source": "哔哩哔哩"
+  },
+  "contentHash": "874540223c6db0b5fb91c5923fc65d5a7dab000d8d5725fbdb987bb690164a21",
+  "publishStatus": "published",
+  "reviewReasons": []
+}
