@@ -291,7 +291,7 @@ async function recheckDeleted(client, rules, report) {
     await report?.(`正在复查已发布内容的存活状态（${index + 1}/${existing.length}）…`);
   }
 
-  const checkedIds = updates.map(({ record }) => record.id);
+  const checkedIds = updates.map((record) => record.id);
   const rotated = rotateQueue(rest, checkedIds, [...missingIds, ...skippedIds]);
   await writeState('recheck-queue', {
     type: 'recheck-queue',
