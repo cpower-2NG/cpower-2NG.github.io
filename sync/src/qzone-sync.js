@@ -255,6 +255,7 @@ async function recheckDeleted(client, rules, report) {
   const { records: existing, missingIds } = await getContentRecords(batchEntries);
   const updates = [];
   const skippedIds = [];
+  const retryIds = [];
 
   for (const [index, { record }] of existing.entries()) {
     // 已判定删除或缺少源信息的记录不再复查（与旧的全量筛选行为一致）。
@@ -271,11 +272,17 @@ async function recheckDeleted(client, rules, report) {
       });
       record.source.missingChecks = 0;
     } catch (error) {
-      if (!(error instanceof QzoneNotFoundError)) throw error;
-      record.source.missingChecks = Number(record.source.missingChecks || 0) + 1;
-      if (record.source.missingChecks >= Number(rules.safety?.confirmedMissingChecks || 2)) {
-        record.source.state = 'deleted';
-        record.source.deletedDetectedAt = new Date().toISOString();
+      if (error instanceof QzoneNotFoundError) {
+        record.source.missingChecks = Number(record.source.missingChecks || 0) + 1;
+        if (record.source.missingChecks >= Number(rules.safety?.confirmedMissingChecks || 2)) {
+          record.source.state = 'deleted';
+          record.source.deletedDetectedAt = new Date().toISOString();
+        }
+      } else {
+        // 单条接口异常（限流/瞬时报错等）不放弃整轮复查：跳过这条，留在队列下轮重试。
+        retryIds.push(record.id);
+        console.warn(`Recheck ${record.id} skipped: ${error.message}`);
+        continue;
       }
     }
     record.source.lastCheckedAt = new Date().toISOString();
@@ -285,9 +292,11 @@ async function recheckDeleted(client, rules, report) {
   }
 
   const checkedIds = updates.map(({ record }) => record.id);
+  const rotated = rotateQueue(rest, checkedIds, [...missingIds, ...skippedIds]);
   await writeState('recheck-queue', {
     type: 'recheck-queue',
-    queue: rotateQueue(rest, checkedIds, [...missingIds, ...skippedIds]),
+    // 本轮重试的记录排到下轮队首。
+    queue: [...retryIds, ...rotated],
   });
   return updates;
 }
