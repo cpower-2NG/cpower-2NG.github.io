@@ -198,7 +198,7 @@ export async function listContentRecordPaths() {
   const { config } = clients();
   const token = await appToken();
   const repo = config.githubRepository;
-  const ref = await githubApi(token, `/git/ref/heads/${config.githubBranch}`);
+  const ref = await githubApi(token, `/repos/${repo}/git/ref/heads/${config.githubBranch}`);
   const commit = await githubApi(token, `/repos/${repo}/git/commits/${ref.object.sha}`);
   const tree = await githubApi(token, `/repos/${repo}/git/trees/${commit.tree.sha}?recursive=1`);
   const prefix = `${config.contentPrefix}/`;
