@@ -236,7 +236,7 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
   return candidate;
 }
 
-async function recheckDeleted(client, rules) {
+async function recheckDeleted(client, rules, onProgress) {
   const existing = await listContentRecords();
   const candidates = existing
     .filter(({ record }) => record.source?.state !== 'deleted' && record.source?.id && record.source?.authorId)
@@ -244,7 +244,7 @@ async function recheckDeleted(client, rules) {
     .slice(0, 20);
   const updates = [];
 
-  for (const { record } of candidates) {
+  for (const [index, { record }] of candidates.entries()) {
     try {
       await client.getPost({
         post: {
@@ -264,6 +264,7 @@ async function recheckDeleted(client, rules) {
     record.source.lastCheckedAt = new Date().toISOString();
     updates.push(record);
     await sleep(1200);
+    await onProgress?.(index + 1, candidates.length);
   }
   return updates;
 }
@@ -326,9 +327,27 @@ export async function syncQzone() {
   const rawArchive = createRawArchive();
   let cursor = null;
   let pages = 0;
+  let processed = 0;
+  let rechecked = 0;
   let reachedCutoff = false;
 
-  await setStatus('running', dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。');
+  // 进度上报：管理台在同步卡实时展示阶段消息与计数。
+  // 写 Cosmos 有成本，节流到最少 4 秒一次；force 用于阶段切换的即时反馈。
+  const progress = () => ({
+    pages,
+    processed,
+    candidates: records.length + pendingReview.length + quarantined.length,
+    rechecked,
+  });
+  let lastProgressWriteAt = 0;
+  const reportProgress = async (message, { force = false } = {}) => {
+    const now = Date.now();
+    if (!force && now - lastProgressWriteAt < 4000) return;
+    lastProgressWriteAt = now;
+    await setStatus('running', message, { startedAt: runStartedAt, progress: progress() });
+  };
+
+  await reportProgress(dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。', { force: true });
   let paginationError = '';
   try {
     do {
@@ -347,6 +366,7 @@ export async function syncQzone() {
         break;
       }
       pages += 1;
+      await reportProgress(`正在抓取动态（第 ${pages} 页，共 ${page.items.length} 条）…`);
       for (const feed of page.items) {
         const created = feed.createdAt ? new Date(feed.createdAt).getTime() : 0;
         if (created && created < cutoff) {
@@ -376,12 +396,21 @@ export async function syncQzone() {
         } else {
           quarantined.push(record);
         }
+        processed += 1;
+        // 抓取限速下每条约 2 秒，进度每 10 条上报一次（内部还有 4 秒节流）。
+        if (processed % 10 === 0) {
+          await reportProgress(`正在抓取动态（第 ${pages} 页，已处理 ${processed} 条，发现 ${records.length + pendingReview.length + quarantined.length} 条候选）…`);
+        }
         await sleep(1600 + Math.floor(Math.random() * 700));
       }
       cursor = page.nextCursor;
       if (!cursor || reachedCutoff || pages >= maxPages) break;
       await sleep(900);
     } while (cursor);
+    await reportProgress(
+      paginationError ? '动态抓取提前中断，正在检查转发与分享视频…' : '动态抓取完成，正在检查转发与分享视频…',
+      { force: true },
+    );
 
     // 分享/转发动态（如 B 站视频分享）：SDK 会丢弃这些条目。两个来源：
     //   1) feeds_html_module 的视频卡片转发（appid 202，主路径，实测可达）；
@@ -426,17 +455,20 @@ export async function syncQzone() {
           }
         }
         if (shareRecords.length) {
-          await setStatus('running', `正在同步 QQ 内容（含 ${shareRecords.length} 条分享视频）。`);
+          await reportProgress(`正在同步 QQ 内容（含 ${shareRecords.length} 条分享视频）。`, { force: true });
         }
       } catch (error) {
         console.warn(`Share video capture skipped: ${error.message}`);
       }
     }
 
-    const deletedUpdates = await recheckDeleted(client, rules).catch((error) => {
+    const deletedUpdates = await recheckDeleted(client, rules, async (done, total) => {
+      await reportProgress(`正在复查已发布内容的存活状态（${done}/${total}）…`);
+    }).catch((error) => {
       console.warn(`Deletion recheck skipped: ${error.message}`);
       return [];
     });
+    rechecked = deletedUpdates.length;
     const allRecords = [...records, ...pendingReview, ...quarantined, ...deletedUpdates];
     const rawArchivePath = await rawArchive.save();
     const report = {
@@ -487,6 +519,7 @@ export async function syncQzone() {
     const quarantinePath = reviewRecords.length
       ? await publishQuarantineRecords(reviewRecords)
       : '';
+    await reportProgress('正在提交内容到发布仓库…', { force: true });
     const commit = await commitRecords([...records, ...deletedUpdates]);
 
     // 已发布记录写入权威库（content-moments）：发布物化只认 Cosmos，

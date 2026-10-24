@@ -20,12 +20,13 @@ export async function writeState(id, value, partitionKey = clients().config.stat
   return document;
 }
 
-export async function setStatus(state, message = '') {
+export async function setStatus(state, message = '', extra = {}) {
   return writeState('sync-status', {
     type: 'sync-status',
     state,
     message,
     updatedAt: new Date().toISOString(),
+    ...extra,
   });
 }
 

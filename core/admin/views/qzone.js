@@ -8,6 +8,7 @@ import {
   REVIEW_REASON,
   fmtDateTime,
   fmtCountdown,
+  fmtElapsed,
   overrideKeyFor,
 } from '../format.js';
 import {
@@ -38,6 +39,9 @@ const local = {
   qzoneState: 'not_connected',
   syncState: 'idle',
   lastSync: null,
+  syncMessage: '',     // 运行中作业上报的当前阶段消息
+  syncStartedAt: null, // 本次同步的开始时间（云端写入，刷新页面也不丢）
+  syncProgress: null,  // { pages, processed, candidates, rechecked }
   report: null,
   overrides: {},       // 已保存的覆盖文档（key → override）
   draft: new Map(),    // 覆盖草稿（overrideKey → { publishStatus }）
@@ -47,6 +51,7 @@ const local = {
 let qrTimer = null;
 let countdownTimer = null;
 let syncTimer = null;
+let progressTimer = null;
 let qrPollTicks = 0;
 let syncPollTicks = 0;
 let awaitingSyncStart = false;
@@ -69,7 +74,14 @@ export default {
     const taskBody = h('div', { class: 'stack' });
     const queueBody = h('div', { class: 'stack' });
     const overridesBody = h('div', { class: 'stack' });
-    hosts = { connectionBody, autoPublishBody, taskBody, queueBody, overridesBody };
+    hosts = {
+      connectionBody,
+      autoPublishBody,
+      taskBody,
+      queueBody,
+      overridesBody,
+      progressBody: h('div', { class: 'stack' }),
+    };
 
     container.append(
       card({ title: '连接', eyebrow: 'CONNECTION', body: [connectionBody] }),
@@ -93,7 +105,8 @@ export default {
       window.clearInterval(qrTimer);
       window.clearInterval(countdownTimer);
       window.clearInterval(syncTimer);
-      qrTimer = countdownTimer = syncTimer = null;
+      window.clearInterval(progressTimer);
+      qrTimer = countdownTimer = syncTimer = progressTimer = null;
     };
   },
 };
@@ -277,6 +290,9 @@ async function refreshTaskInfo() {
   }
   local.syncState = payload.sync?.state || 'idle';
   local.lastSync = payload.lastSync || null;
+  local.syncMessage = String(payload.sync?.message || '');
+  local.syncStartedAt = payload.sync?.startedAt || null;
+  local.syncProgress = payload.sync?.progress || null;
   renderTask();
 }
 
@@ -300,7 +316,12 @@ function renderTask() {
     awaitingSyncStart = true;
     syncPollTicks = 0;
     local.syncState = 'running';
+    // 云端容器冷启动约需半分钟，先显示本地进度行，等作业首条进度覆盖它。
+    local.syncStartedAt = new Date().toISOString();
+    local.syncMessage = '同步任务已启动，等待云端容器就绪…';
+    local.syncProgress = null;
     renderTask();
+    startProgressTicker();
     startSyncPolling();
   }, '启动失败');
 
@@ -322,7 +343,11 @@ function renderTask() {
     awaitingSyncStart = true;
     syncPollTicks = 0;
     local.syncState = 'running';
+    local.syncStartedAt = new Date().toISOString();
+    local.syncMessage = '全量搬迁已启动，等待云端容器就绪…';
+    local.syncProgress = null;
     renderTask();
+    startProgressTicker();
     startSyncPolling();
   }, '启动失败');
 
@@ -338,10 +363,10 @@ function renderTask() {
         ? h('span', { class: 'muted' }, `上次同步水位：${fmtDateTime(watermark.lastRunStartedAt)}`)
         : h('span', { class: 'muted' }, '尚无水位：首次同步将回看 7 天。'),
     ),
+    hosts.progressBody,
     muted([
       '「同步新动态」从上次成功同步的时间点开始抓取（自动含 2 小时缓冲），日常点这一个即可；',
       '每天凌晨 2 点云端也会自动同步一次，02:30 自动发布上线。',
-      running ? ' 同步任务运行中，请稍候。' : '',
     ].join(' ')),
     collapse('高级：历史回填与全量搬迁',
       h('div', { class: 'inline' },
@@ -361,11 +386,57 @@ function renderTask() {
       h('span', { class: 'muted' }, fmtDateTime(last.generatedAt)),
     ) : muted('还没有同步记录。'),
   );
+  renderProgress();
+}
+
+/** 运行中的实时进度行：每秒重绘已运行时间，消息与计数由轮询更新。 */
+function renderProgress() {
+  const body = hosts.progressBody;
+  if (!body) return;
+  if (local.syncState !== 'running') {
+    if (progressTimer) {
+      window.clearInterval(progressTimer);
+      progressTimer = null;
+    }
+    body.replaceChildren();
+    return;
+  }
+  const startedAtMs = local.syncStartedAt ? new Date(local.syncStartedAt).getTime() : NaN;
+  const facts = [Number.isFinite(startedAtMs) ? `已运行 ${fmtElapsed(Date.now() - startedAtMs)}` : '运行中'];
+  const progress = local.syncProgress || {};
+  if (Number.isFinite(progress.pages) && progress.pages > 0) facts.push(`已抓取 ${progress.pages} 页`);
+  if (Number.isFinite(progress.processed) && progress.processed > 0) facts.push(`已处理 ${progress.processed} 条`);
+  if (Number.isFinite(progress.candidates) && progress.candidates > 0) facts.push(`发现候选 ${progress.candidates} 条`);
+  if (Number.isFinite(progress.rechecked) && progress.rechecked > 0) facts.push(`复查 ${progress.rechecked} 条`);
+  body.replaceChildren(
+    h('div', { class: 'sync-live' },
+      h('span', { class: 'sync-live__dot' }),
+      h('div', { class: 'sync-live__main' },
+        h('strong', { class: 'sync-live__msg' }, local.syncMessage || '正在同步 QQ 内容。'),
+        h('span', { class: 'sync-live__meta mono' }, facts.join(' · ')),
+      ),
+    ),
+  );
+}
+
+function startProgressTicker() {
+  window.clearInterval(progressTimer);
+  progressTimer = window.setInterval(() => {
+    if (local.syncState !== 'running') {
+      window.clearInterval(progressTimer);
+      progressTimer = null;
+      return;
+    }
+    renderProgress();
+  }, 1000);
 }
 
 /** 任务运行期间轮询，直到回到非 running 状态后刷新报告。 */
 function startSyncPollingIfNeeded() {
-  if (local.syncState === 'running') startSyncPolling();
+  if (local.syncState === 'running') {
+    startProgressTicker();
+    startSyncPolling();
+  }
 }
 
 function startSyncPolling() {
@@ -376,6 +447,13 @@ function startSyncPolling() {
       const payload = await request('/manage/status');
       local.syncState = payload.sync?.state || 'idle';
       local.lastSync = payload.lastSync || null;
+      // 运行中把云端上报的阶段消息与计数同步进进度行。
+      if (local.syncState === 'running') {
+        if (payload.sync?.message) local.syncMessage = payload.sync.message;
+        local.syncStartedAt = payload.sync?.startedAt || local.syncStartedAt;
+        local.syncProgress = payload.sync?.progress || local.syncProgress;
+        renderProgress();
+      }
       if (awaitingSyncStart && local.syncState === 'running') awaitingSyncStart = false;
       const settled = !awaitingSyncStart && local.syncState !== 'running';
       if (settled || syncPollTicks >= SYNC_POLL_MAX) {

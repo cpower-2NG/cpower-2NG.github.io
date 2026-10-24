@@ -809,3 +809,44 @@ textarea.code { min-height: 320px; background: var(--surface-2); }
 .grow { flex: 1; min-width: 0; }
 .nowrap { white-space: nowrap; }
 .mono { font-family: var(--mono); font-size: 12px; }
+
+/* ---------- 同步进度行 ---------- */
+
+.sync-live {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+}
+
+.sync-live__dot {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex: none;
+  animation: sync-pulse 1.2s ease-in-out infinite;
+}
+
+.sync-live__main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.sync-live__msg { font-size: 13.5px; overflow-wrap: anywhere; }
+.sync-live__meta { color: var(--muted); }
+
+@keyframes sync-pulse {
+  0%, 100% { opacity: .35; transform: scale(.75); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sync-live__dot { animation: none; }
+}
