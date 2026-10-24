@@ -26,6 +26,7 @@ import {
 } from '../ui.js';
 
 const QR_POLL_MS = 3000;
+const QR_POLL_MAX = 240; // 3s × 240 = 12 分钟上限：比二维码有效期多 2 分钟余量，防止云端任务没启动时无限轮询
 const SYNC_POLL_MS = 5000;
 const SYNC_POLL_MAX = 240; // 5s × 240 = 20 分钟上限
 
@@ -46,6 +47,7 @@ const local = {
 let qrTimer = null;
 let countdownTimer = null;
 let syncTimer = null;
+let qrPollTicks = 0;
 let syncPollTicks = 0;
 let awaitingSyncStart = false;
 
@@ -59,6 +61,7 @@ export default {
     local.draft = new Map();
     local.queueFilter = 'pending';
     awaitingSyncStart = false;
+    qrPollTicks = 0;
     syncPollTicks = 0;
 
     const connectionBody = h('div', { class: 'stack' });
@@ -191,12 +194,14 @@ async function reconnect(btn) {
   }, '启动失败');
 }
 
-/** 等待扫码期间每 3 秒轮询一次，直到连接成功 / 过期 / 失败。 */
+/** 等待扫码期间每 3 秒轮询一次，直到连接成功 / 过期 / 失败 / 超出上限。 */
 function startQzonePolling() {
   window.clearInterval(qrTimer);
+  qrPollTicks = 0;
   const shouldPoll = local.auth?.state === 'starting' || local.auth?.state === 'waiting_for_scan';
   if (!shouldPoll) return;
   qrTimer = window.setInterval(async () => {
+    qrPollTicks += 1;
     try {
       const payload = await request('/manage/qzone/status');
       const before = local.auth?.state;
@@ -213,6 +218,10 @@ function startQzonePolling() {
       } else if (['expired', 'failed'].includes(payload.auth?.state)) {
         window.clearInterval(qrTimer);
         qrTimer = null;
+      } else if (qrPollTicks >= QR_POLL_MAX) {
+        window.clearInterval(qrTimer);
+        qrTimer = null;
+        toast('长时间没有等到扫码结果，已停止自动刷新，请重试「重新连接 QQ」。', 'info');
       }
     } catch {
       // 轮询失败静默重试，避免网络抖动打断扫码流程。
