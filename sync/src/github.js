@@ -190,11 +190,11 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
   );
 }
 
-export async function listContentRecords() {
+export async function listContentRecords(onProgress) {
   const { config } = clients();
   const token = await appToken();
   const repo = config.githubRepository;
-  const ref = await githubApi(token, `/repos/${repo}/git/ref/heads/${config.githubBranch}`);
+  const ref = await githubApi(token, `/git/ref/heads/${config.githubBranch}`);
   const commit = await githubApi(token, `/repos/${repo}/git/commits/${ref.object.sha}`);
   const tree = await githubApi(token, `/repos/${repo}/git/trees/${commit.tree.sha}?recursive=1`);
   const entries = (tree.tree || []).filter(
@@ -203,7 +203,7 @@ export async function listContentRecords() {
       && entry.path.endsWith('.json'),
   );
   const records = [];
-  for (const entry of entries) {
+  for (const [index, entry] of entries.entries()) {
     const blob = await githubApi(token, `/repos/${repo}/git/blobs/${entry.sha}`);
     const content = Buffer.from(blob.content, blob.encoding || 'base64').toString('utf8');
     try {
@@ -211,6 +211,7 @@ export async function listContentRecords() {
     } catch {
       // A malformed record must not block synchronization of healthy records.
     }
+    await onProgress?.(index + 1, entries.length);
   }
   return records;
 }

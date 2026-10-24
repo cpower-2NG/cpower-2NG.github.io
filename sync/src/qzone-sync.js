@@ -236,8 +236,12 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
   return candidate;
 }
 
-async function recheckDeleted(client, rules, onProgress) {
-  const existing = await listContentRecords();
+async function recheckDeleted(client, rules, report) {
+  // listContentRecords 要把仓库里全部内容记录逐个下载（几百上千个，经常 5 分钟以上），
+  // 必须有进度，否则这是整轮同步里最长的无反馈阶段。
+  const existing = await listContentRecords(async (done, total) => {
+    await report?.(`正在读取仓库内容记录（${done}/${total}）…`);
+  });
   const candidates = existing
     .filter(({ record }) => record.source?.state !== 'deleted' && record.source?.id && record.source?.authorId)
     .sort((a, b) => String(a.record.source.lastCheckedAt || '').localeCompare(String(b.record.source.lastCheckedAt || '')))
@@ -264,7 +268,7 @@ async function recheckDeleted(client, rules, onProgress) {
     record.source.lastCheckedAt = new Date().toISOString();
     updates.push(record);
     await sleep(1200);
-    await onProgress?.(index + 1, candidates.length);
+    await report?.(`正在复查已发布内容的存活状态（${index + 1}/${candidates.length}）…`);
   }
   return updates;
 }
@@ -462,9 +466,7 @@ export async function syncQzone() {
       }
     }
 
-    const deletedUpdates = await recheckDeleted(client, rules, async (done, total) => {
-      await reportProgress(`正在复查已发布内容的存活状态（${done}/${total}）…`);
-    }).catch((error) => {
+    const deletedUpdates = await recheckDeleted(client, rules, (message) => reportProgress(message)).catch((error) => {
       console.warn(`Deletion recheck skipped: ${error.message}`);
       return [];
     });
