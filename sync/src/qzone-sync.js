@@ -163,7 +163,7 @@ function normalizeVideo(post, media) {
 }
 
 // 本地全量搬迁（migrate-local）与云端同步共用这条归一化链路。
-export async function normalizePost(post, rules, salt, cookies, { allowPublicMedia }) {
+export async function normalizePost(post, rules, salt, cookies, { allowPublicMedia, overrides }) {
   const sourceMedia = (post.media || []).map(sourceMediaDescriptor).filter(Boolean);
   const sourceVideo = normalizeVideo(post, sourceMedia);
   const comments = (post.comments || []).map((comment) => anonymizeComment(comment, salt));
@@ -181,9 +181,21 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
     'complete',
   );
 
+  // 人工覆盖可能把记录放行：媒体转存决策必须基于覆盖后的最终状态。
+  // 否则「审查队列放行」的记录永远跳过转存，带着 QQ 图床链接发布。
+  const overridePreview = overrides
+    ? applyOverride(
+        { id: `qq-${safeRecordId(post.id)}`, source: { id: String(post.id) }, publishStatus: preliminaryDecision.publishStatus },
+        overrides,
+      )
+    : null;
+  const willPublish = overridePreview
+    ? overridePreview.publishStatus === 'published'
+    : preliminaryDecision.publishStatus === 'published';
+
   let media = sourceMedia;
   let video = sourceVideo;
-  if (allowPublicMedia && preliminaryDecision.publishStatus === 'published') {
+  if (allowPublicMedia && willPublish) {
     const mappedMedia = await mapMedia(post, cookies);
     media = mappedMedia.media?.filter((item) => item.kind !== 'video-cover') || [];
     video = normalizeVideo(post, mappedMedia.media || []);
@@ -434,6 +446,7 @@ export async function syncQzone() {
         const record = applyOverride(
           await normalizePost(post, rules, salt, cookies, {
             allowPublicMedia: rules.autoPublish && !dryRun,
+            overrides,
           }),
           overrides,
         );
