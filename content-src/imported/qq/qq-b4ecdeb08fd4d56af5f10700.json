@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb08fd4d56af5f10700",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-19",
+  "date": "2026-10-19",
+  "createdAt": "2026-10-19T08:27:59.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ふゆこちゃん、长江ですよ",
+  "text": "ふゆこちゃん、长江ですよ",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqa8S6mInvvunFQBIrrJL*Q72sukSYLUbK6BqQYU6VBFW2zfp743nbOolmcKWY33ilPNshBuBiQZ6EAnIG.i6BSI!/b&bo=VQhABlUIQAYBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqa8S6mInvvunFQBIrrJL*Q72sukSYLUbK6BqQYU6VBFW2zfp743nbOolmcKWY33ilPNshBuBiQZ6EAnIG.i6BSI!/b&bo=VQhABlUIQAYBACc!",
+      "width": 2133,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqa8S6mInvvunFQBIrrJL*Q72sukSYLUbK6BqQYU6VBFW2zfp743nbOolmcKWY33ilPNshBuBiQZ6EAnIG.i6BSI!/b&bo=VQhABlUIQAYBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb08fd4d56af5f10700",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb08fd4d56af5f10700",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "b3f1cea82a1c49c184470f6099044d3d4166e0d01b7aee37aa85e5f01f885f04",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

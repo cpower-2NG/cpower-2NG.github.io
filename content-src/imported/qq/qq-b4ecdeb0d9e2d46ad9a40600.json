@@ -1,0 +1,74 @@
+{
+  "id": "qq-b4ecdeb0d9e2d46ad9a40600",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-18",
+  "date": "2026-10-18",
+  "createdAt": "2026-10-18T15:16:41.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "明日に備えて、おやすみ〜",
+  "text": "明日に備えて、おやすみ〜",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThLXriG9Ee6dkQaOeh6f3mHxc9t9jl5XLZ6NwGnjRylmFKg7RqhoD3Uhdi1GXEmvKc!/b&bo=QAZVCEAGVQgBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThLXriG9Ee6dkQaOeh6f3mHxc9t9jl5XLZ6NwGnjRylmFKg7RqhoD3Uhdi1GXEmvKc!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKTgPh*z0qn3kU*Pwcjd6c13dIswd.gsJbpe1SvtDsOZb0DMzfSLIoDf*4nb3AiSVfzA!/b&bo=VQhABlUIQAYBACc!&phash=e3d3d67229a91edb",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKTgPh*z0qn3kU*Pwcjd6c13dIswd.gsJbpe1SvtDsOZb0DMzfSLIoDf*4nb3AiSVfzA!/b&bo=VQhABlUIQAYBACc!&phash=e3d3d67229a91edb",
+      "width": 2133,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThLXriG9Ee6dkQaOeh6f3mHxc9t9jl5XLZ6NwGnjRylmFKg7RqhoD3Uhdi1GXEmvKc!/b&bo=QAZVCEAGVQgBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 95864E",
+        "text": "哇好萌！！！！",
+        "createdAt": "2026-10-18T15:23:49.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d9e2d46ad9a40600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d9e2d46ad9a40600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "df4c8d21181ab67b2e32e305c1af1d9cac44acb209e8e27bef911707ae692d66",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

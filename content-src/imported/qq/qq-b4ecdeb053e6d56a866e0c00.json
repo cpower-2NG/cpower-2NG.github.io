@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb053e6d56a866e0c00",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-19",
+  "date": "2026-10-19",
+  "createdAt": "2026-10-19T09:43:47.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "ふゆこちゃん、IPAだよー",
+  "text": "ふゆこちゃん、IPAだよー",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqZkeMKTVIrDAgF6sjYuqHX699iVZkkrKcupavp6dZ1u3n1LDZYecqjOdNq4*F5pIRAS9FrujIg1txNLyFzuJNoY!/b&bo=QAZVCEAGVQgBACc!&phash=67d7591c24c3491f",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqZkeMKTVIrDAgF6sjYuqHX699iVZkkrKcupavp6dZ1u3n1LDZYecqjOdNq4*F5pIRAS9FrujIg1txNLyFzuJNoY!/b&bo=QAZVCEAGVQgBACc!&phash=67d7591c24c3491f",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqZkeMKTVIrDAgF6sjYuqHX699iVZkkrKcupavp6dZ1u3n1LDZYecqjOdNq4*F5pIRAS9FrujIg1txNLyFzuJNoY!/b&bo=QAZVCEAGVQgBACc!&phash=67d7591c24c3491f",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb053e6d56a866e0c00",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb053e6d56a866e0c00",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "5cafff94910b3682a8abf4a1ca583c8249e283f6c908fb5257f5a3356d9da48f",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

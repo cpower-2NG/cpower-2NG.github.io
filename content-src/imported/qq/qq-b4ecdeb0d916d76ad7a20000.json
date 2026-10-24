@@ -1,0 +1,65 @@
+{
+  "id": "qq-b4ecdeb0d916d76ad7a20000",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-20",
+  "date": "2026-10-20",
+  "createdAt": "2026-10-20T07:23:04.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "なんだかんだ、会場はすごい……",
+  "text": "なんだかんだ、会場はすごい……",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThoyB8BXlMqnd.xpcMWJp1oj6K96TX5C4mtFEx3mogNZIKwDX7KWWp6fHPlLvwQ2Ms!/b&bo=VQhABlUIQAYBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThoyB8BXlMqnd.xpcMWJp1oj6K96TX5C4mtFEx3mogNZIKwDX7KWWp6fHPlLvwQ2Ms!/b&bo=VQhABlUIQAYBACc!",
+      "width": 2133,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRYI57m.8pIYKxhyJjzeKThoyB8BXlMqnd.xpcMWJp1oj6K96TX5C4mtFEx3mogNZIKwDX7KWWp6fHPlLvwQ2Ms!/b&bo=VQhABlUIQAYBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 1,
+    "comments": [
+      {
+        "id": "1",
+        "authorLabel": "匿名访客 3D3426",
+        "text": "“调试的怎么样，还带了吉祥物”",
+        "createdAt": "2026-10-20T07:50:35.000Z"
+      }
+    ]
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0d916d76ad7a20000",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0d916d76ad7a20000",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "197082ccea652e3d859bfe98c51fd6c2970060e06d79e6256dd4374d280fba01",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "qq-b4ecdeb0999cd56a89d00600",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-19",
+  "date": "2026-10-19",
+  "createdAt": "2026-10-19T04:29:13.000Z",
+  "phase": "fantasy",
+  "type": "article",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "重庆に到着〜！みんなでホテル散策✨",
+  "text": "重庆に到着〜！みんなでホテル散策✨",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSZHG6y27ThqNqNLfRVsmPy2fMQolG5TvsItXWLG2*.K*HTVoBC0iq9DaH*vxQTts0H5Sd07OgP8wAghdpVJfAE!/b&bo=VQhABlUIQAYBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSZHG6y27ThqNqNLfRVsmPy2fMQolG5TvsItXWLG2*.K*HTVoBC0iq9DaH*vxQTts0H5Sd07OgP8wAghdpVJfAE!/b&bo=VQhABlUIQAYBACc!",
+      "width": 2133,
+      "height": 1600,
+      "sourceQuality": "original",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSZHG6y27ThqNqNLfRVsmPzmIKzSTtSHENyyZdXyO*Xwy6cOQyPl80fr354m*Y6AwpRUgwYi*o.hQ5RcxCn7*r4!/b&bo=QAZVCEAGVQgBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSZHG6y27ThqNqNLfRVsmPzmIKzSTtSHENyyZdXyO*Xwy6cOQyPl80fr354m*Y6AwpRUgwYi*o.hQ5RcxCn7*r4!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    },
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRlm7r8vcZmh6LcVh0E5xMTmdhfkFHZ1qS7CaHYp1AOrzMDt7JAsrjT0JnI9cuYLG5cEJxCPtHdCSFNVSnYmmEc!/b&bo=QAZVCEAGVQgBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqRlm7r8vcZmh6LcVh0E5xMTmdhfkFHZ1qS7CaHYp1AOrzMDt7JAsrjT0JnI9cuYLG5cEJxCPtHdCSFNVSnYmmEc!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqSZHG6y27ThqNqNLfRVsmPy2fMQolG5TvsItXWLG2*.K*HTVoBC0iq9DaH*vxQTts0H5Sd07OgP8wAghdpVJfAE!/b&bo=VQhABlUIQAYBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb0999cd56a89d00600",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb0999cd56a89d00600",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "2dff409762877fb2211ce5d6288a38a5890a75d2f8000906db4bfbd927fa796a",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

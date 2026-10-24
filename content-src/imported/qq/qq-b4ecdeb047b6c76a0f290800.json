@@ -1,0 +1,48 @@
+{
+  "id": "qq-b4ecdeb047b6c76a0f290800",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-08",
+  "date": "2026-10-08",
+  "createdAt": "2026-10-08T15:27:03.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "被自己气笑了，娃包找不到了。那明天ひろちゃん和篠澤くん只能留守了。",
+  "text": "被自己气笑了，娃包找不到了。那明天ひろちゃん和篠澤くん只能留守了。",
+  "media": [],
+  "video": null,
+  "cover": "",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb047b6c76a0f290800",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb047b6c76a0f290800",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "6a1007e6737535e5d0abf766e46bb4d969d04d2b7ab355845095d980e9231545",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}

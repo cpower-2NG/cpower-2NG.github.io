@@ -1,0 +1,58 @@
+{
+  "id": "qq-b4ecdeb02922d86a7fcd0500",
+  "schemaVersion": 1,
+  "title": "日常 · 2026-10-21",
+  "date": "2026-10-21",
+  "createdAt": "2026-10-21T02:23:37.000Z",
+  "phase": "fantasy",
+  "type": "diary",
+  "section": "daily",
+  "tags": [
+    "QQ空间",
+    "自动同步"
+  ],
+  "category": "日常",
+  "summary": "哇，现场好多摄像机，你们能不能把拍的娃娃照片发我",
+  "text": "哇，现场好多摄像机，你们能不能把拍的娃娃照片发我",
+  "media": [
+    {
+      "kind": "image",
+      "url": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqVkvFFKpELyTpo11WlTSlV3RSFktPhWpEAWIRmtDJKMyLhHRFuyvdaAxnaqYBes1YYWiFWG.BGNQ5oyqH43HIak!/b&bo=QAZVCEAGVQgBACc!",
+      "sourceUrl": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqVkvFFKpELyTpo11WlTSlV3RSFktPhWpEAWIRmtDJKMyLhHRFuyvdaAxnaqYBes1YYWiFWG.BGNQ5oyqH43HIak!/b&bo=QAZVCEAGVQgBACc!",
+      "width": 1600,
+      "height": 2133,
+      "sourceQuality": "original",
+      "variants": []
+    }
+  ],
+  "video": null,
+  "cover": "https://photogzmaz.photo.store.qq.com/psc?/V11AegfB09aSpV/bqQfVz5yrrGYSXMvKr.cqVkvFFKpELyTpo11WlTSlV3RSFktPhWpEAWIRmtDJKMyLhHRFuyvdaAxnaqYBes1YYWiFWG.BGNQ5oyqH43HIak!/b&bo=QAZVCEAGVQgBACc!",
+  "historicalInteractions": {
+    "likeCount": 0,
+    "commentCount": 0,
+    "comments": []
+  },
+  "source": {
+    "provider": "qq",
+    "id": "b4ecdeb02922d86a7fcd0500",
+    "authorId": "2967399604",
+    "url": "https://user.qzone.qq.com/2967399604/mood/b4ecdeb02922d86a7fcd0500",
+    "state": "active",
+    "visibility": "unknown",
+    "adapterVersion": 1,
+    "warnings": [],
+    "missingChecks": 0
+  },
+  "syndication": {
+    "author": "",
+    "source": "QQ 空间"
+  },
+  "publishStatus": "published",
+  "reviewReasons": [
+    "UNKNOWN_VISIBILITY"
+  ],
+  "contentHash": "4e0d0d7137491d88ebd00d305da8286e772505b6754d6340fcd9e179be175549",
+  "overrides": {
+    "publishStatus": "published"
+  }
+}
