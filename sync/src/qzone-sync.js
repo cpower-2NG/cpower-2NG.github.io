@@ -339,6 +339,11 @@ export async function syncQzone() {
         // 深翻历史时 QQ 接口偶发失败：保住已抓取的部分并正常提交，而不是整轮报废。
         paginationError = error.message;
         console.warn(`Feed pagination stopped: ${error.message}`);
+        // 首屏就失败且报登录类错误 = 会话已失效。必须把连接状态翻成 auth_required，
+        // 管理台侧栏与连接卡才会提示「需要扫码」，否则用户看到的是永远"已连接"。
+        if (pages === 0 && /登录|会话|auth/i.test(error.message)) {
+          await setQzoneStatus('auth_required', `QQ 会话已失效：${error.message}，请在管理台重新扫码。`).catch(() => undefined);
+        }
         break;
       }
       pages += 1;
@@ -524,7 +529,7 @@ export async function syncQzone() {
         : reviewRecords.length
           ? `本轮没有新增发布，${reviewRecords.length} 条内容进入审查队列，报告已更新。`
           : paginationError
-            ? '抓取提前中断（QQ 接口报错），内容没有变化，下一轮从原水位重扫。'
+            ? `抓取提前中断（${paginationError}），内容没有变化，下一轮从原水位重扫。`
             : '内容没有变化。',
     );
     return { ...report, commit };
