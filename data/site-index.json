@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-23T18:30:49.457Z",
+  "generated": "2026-10-24T13:48:31.332Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -159,15 +159,15 @@
   "tags": [
     {
       "label": "QQ空间",
-      "count": 2589
+      "count": 2601
     },
     {
       "label": "自动同步",
-      "count": 2586
+      "count": 2598
     },
     {
       "label": "分享",
-      "count": 1091
+      "count": 1090
     },
     {
       "label": "漫评",
@@ -976,31 +976,309 @@
   ],
   "moments": [
     {
+      "id": "01M5M472BRHGX7QR4GFSDQBPAH",
+      "path": "/moment/01M5M472BRHGX7QR4GFSDQBPAH.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-23T10:16:59.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "和娃娃们的充实的重庆之旅",
+      "html": "<p>和娃娃们的充实的重庆之旅</p>",
+      "summary": "和娃娃们的充实的重庆之旅",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M5E4AW18M5042T73CFB4BYYP",
+      "path": "/moment/01M5E4AW18M5042T73CFB4BYYP.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-21T02:23:37.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "哇，现场好多摄像机，你们能不能把拍的娃娃照片发我",
+      "html": "<p>哇，现场好多摄像机，你们能不能把拍的娃娃照片发我</p>",
+      "summary": "哇，现场好多摄像机，你们能不能把拍的娃娃照片发我",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M5C32EY0YR19DTDP41VDRG79",
+      "path": "/moment/01M5C32EY0YR19DTDP41VDRG79.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-20T07:23:04.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "なんだかんだ、会場はすごい……",
+      "html": "<p>なんだかんだ、会場はすごい……</p>",
+      "summary": "なんだかんだ、会場はすごい……",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M5BQWPP8MBJBEQXG2EQETV98",
+      "path": "/moment/01M5BQWPP8MBJBEQXG2EQETV98.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-20T04:07:41.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "ふゆこちゃん、ひろちゃん、篠澤くんと一緒に、三峡博物館を見学してきたよ〜！",
+      "html": "<p>ふゆこちゃん、ひろちゃん、篠澤くんと一緒に、三峡博物館を見学してきたよ〜！</p>",
+      "summary": "ふゆこちゃん、ひろちゃん、篠澤くんと一緒に、三峡博物館を見学してきたよ〜！",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M5A1EKM0XFSJWYXK0KYXWHSS",
+      "path": "/moment/01M5A1EKM0XFSJWYXK0KYXWHSS.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-19T12:16:16.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "昼から夜まで、ずっと一緒！",
+      "html": "<p>昼から夜まで、ずっと一緒！</p>",
+      "summary": "昼から夜まで、ずっと一緒！",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M59RQD1RVXAEW4PW258ZC94W",
+      "path": "/moment/01M59RQD1RVXAEW4PW258ZC94W.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-19T09:43:47.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "ふゆこちゃん、IPAだよー",
+      "html": "<p>ふゆこちゃん、IPAだよー</p>",
+      "summary": "ふゆこちゃん、IPAだよー",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M59MCKMRZ3YNDBSVQBT65JQB",
+      "path": "/moment/01M59MCKMRZ3YNDBSVQBT65JQB.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-19T08:27:59.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "ふゆこちゃん、长江ですよ",
+      "html": "<p>ふゆこちゃん、长江ですよ</p>",
+      "summary": "ふゆこちゃん、长江ですよ",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M59AVSQRR0TKHQ6Z1T0TKPJ0",
+      "path": "/moment/01M59AVSQRR0TKHQ6Z1T0TKPJ0.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-19T05:41:31.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "ついに念願の川菜！まだまだ食べるぞー！",
+      "html": "<p>ついに念願の川菜！まだまだ食べるぞー！</p>",
+      "summary": "ついに念願の川菜！まだまだ食べるぞー！",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 2
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M596QDD83QAN4J5PCQ60TTC8",
+      "path": "/moment/01M596QDD83QAN4J5PCQ60TTC8.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-19T04:29:13.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "重庆に到着〜！みんなでホテル散策✨",
+      "html": "<p>重庆に到着〜！みんなでホテル散策✨</p>",
+      "summary": "重庆に到着〜！みんなでホテル散策✨",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 0
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M58MEJJ88D1FYS4ZQWGW9KE5",
+      "path": "/moment/01M58MEJJ88D1FYS4ZQWGW9KE5.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-18T23:09:49.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "朝日を浴びて、いざ出発！",
+      "html": "<p>朝日を浴びて、いざ出発！</p>",
+      "summary": "朝日を浴びて、いざ出発！",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M57SC7X8Z2FNM0WYJYF27KTA",
+      "path": "/moment/01M57SC7X8Z2FNM0WYJYF27KTA.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-18T15:16:41.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "明日に備えて、おやすみ〜",
+      "html": "<p>明日に備えて、おやすみ〜</p>",
+      "summary": "明日に備えて、おやすみ〜",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
+      },
+      "pinned": false,
+      "featured": false
+    },
+    {
       "id": "01M4G7AJG00MVCNBD6YZBFZFVF",
       "path": "/moment/01M4G7AJG00MVCNBD6YZBFZFVF.html",
       "month": "2026-10",
       "publishedAt": "2026-10-09T11:38:40.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "和ふゆこちゃん一起去看了魔圆电影。<br/>「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！<br/>でも、ちょっと難解で、私にはよくわからなかったな……。」",
-      "html": "<p>和ふゆこちゃん一起去看了魔圆电影。&lt;br/&gt;「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！&lt;br/&gt;でも、ちょっと難解で、私にはよくわからなかったな……。」</p>",
-      "summary": "和ふゆこちゃん一起去看了魔圆电影。<br/>「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！<br/>でも、ちょっと難解で、私にはよくわからなかったな……。」",
+      "text": "和ふゆこちゃん一起去看了魔圆电影。\n「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！\nでも、ちょっと難解で、私にはよくわからなかったな……。」",
+      "html": "<p>和ふゆこちゃん一起去看了魔圆电影。<br>「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！<br>でも、ちょっと難解で、私にはよくわからなかったな……。」</p>",
+      "summary": "和ふゆこちゃん一起去看了魔圆电影。 「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！ でも、ちょっと難解で、私にはよくわからなかったな……。」",
       "tags": [
         "QQ空间",
-        "自动同步",
-        "分享"
+        "自动同步"
       ],
       "media": [],
-      "video": {
-        "platform": "哔哩哔哩",
-        "sourceUrl": "https://www.bilibili.com/video/BVFvgTKYoqoig3",
-        "embedUrl": "https://player.bilibili.com/player.html?bvid=BVFvgTKYoqoig3&high_quality=1&danmaku=0",
-        "cover": "",
-        "note": "转发视频，内嵌 B 站播放器。",
-        "watchUrl": "https://www.bilibili.com/video/BVFvgTKYoqoig3",
-        "coverUrl": "",
-        "title": "和ふゆこちゃん一起去看了魔圆电影。<br/>「ふゆこちゃんの大好きなまどマギの新作映画だよ〜！<br/>でも、ちょっと難解で、私にはよくわからなかったな……。」"
+      "video": null,
+      "counts": {
+        "likes": 0,
+        "views": 0,
+        "comments": 1
       },
+      "pinned": false,
+      "featured": false
+    },
+    {
+      "id": "01M4E201ARC291HYM67AABWGBQ",
+      "path": "/moment/01M4E201ARC291HYM67AABWGBQ.html",
+      "month": "2026-10",
+      "publishedAt": "2026-10-08T15:27:03.000Z",
+      "phase": "fantasy",
+      "section": "daily",
+      "text": "被自己气笑了，娃包找不到了。那明天ひろちゃん和篠澤くん只能留守了。",
+      "html": "<p>被自己气笑了，娃包找不到了。那明天ひろちゃん和篠澤くん只能留守了。</p>",
+      "summary": "被自己气笑了，娃包找不到了。那明天ひろちゃん和篠澤くん只能留守了。",
+      "tags": [
+        "QQ空间",
+        "自动同步"
+      ],
+      "media": [],
+      "video": null,
       "counts": {
         "likes": 0,
         "views": 0,
