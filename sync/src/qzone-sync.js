@@ -475,20 +475,12 @@ export async function syncQzone() {
       return { ...report, reportPath };
     }
 
-    if (rules.autoPublish && !records.length && !deletedUpdates.length) {
-      if (request) {
-        await writeState('sync-request', {
-          type: 'sync-request',
-          state: 'completed',
-          dryRun: false,
-          completedAt: new Date().toISOString(),
-        });
-      }
-      await setStatus('idle', '没有需要发布的新内容。');
-      return report;
-    }
-    const quarantinePath = quarantined.length
-      ? await publishQuarantineRecords(quarantined)
+    // 待审查与被隔离的内容统一落 quarantine 产物，管理台审查队列从报告的
+    // quarantinePath 读到的就是这份内容；只发布 records 不落审查产物的话，
+    // 一轮同步结束后站点与管理台都不会有任何变化，表现为「同步了但没效果」。
+    const reviewRecords = [...pendingReview, ...quarantined];
+    const quarantinePath = reviewRecords.length
+      ? await publishQuarantineRecords(reviewRecords)
       : '';
     const commit = await commitRecords([...records, ...deletedUpdates]);
 
@@ -503,16 +495,8 @@ export async function syncQzone() {
         console.warn(`Moment upsert skipped: ${error.message}`);
       }
     }
-    // 推进水位（仅真实同步）：since 模式的下一次起点。
-    if (!dryRun) {
-      await writeState('sync-watermark', {
-        type: 'sync-watermark',
-        lastRunStartedAt: runStartedAt,
-        lastCompletedAt: new Date().toISOString(),
-        mode,
-      });
-    }
-
+    // 报告与请求状态先落库；水位最后推进（仅真实同步且本轮完整抓取）。
+    // 分页中断的部分抓取保留原水位，下一轮从原点重扫：宁可慢，不能丢内容。
     await writeState('last-sync-report', {
       type: 'last-sync-report',
       ...report,
@@ -525,11 +509,23 @@ export async function syncQzone() {
       dryRun: false,
       completedAt: new Date().toISOString(),
     });
+    if (!dryRun && !paginationError) {
+      await writeState('sync-watermark', {
+        type: 'sync-watermark',
+        lastRunStartedAt: runStartedAt,
+        lastCompletedAt: new Date().toISOString(),
+        mode,
+      });
+    }
     await setStatus(
       'idle',
       commit.changed
         ? `已提交 ${commit.files} 个内容文件${momentUpserts ? `，${momentUpserts} 条动态入库` : ''}。`
-        : '内容没有变化。',
+        : reviewRecords.length
+          ? `本轮没有新增发布，${reviewRecords.length} 条内容进入审查队列，报告已更新。`
+          : paginationError
+            ? '抓取提前中断（QQ 接口报错），内容没有变化，下一轮从原水位重扫。'
+            : '内容没有变化。',
     );
     return { ...report, commit };
   } catch (error) {
