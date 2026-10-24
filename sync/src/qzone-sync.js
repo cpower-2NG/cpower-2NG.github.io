@@ -64,9 +64,11 @@ function uniqueMedia(media) {
 }
 
 // 人工覆盖：云端同步与本地全量搬迁共用（键 id:<sourceId> / path:<recordId>）。
+// path: 键优先：分享卡片的 source.id 与原动态相同（同一条 QQ 动态的两种形态），
+// 复用 id: 键会导致无法单独排除分享版；path: 键（记录自身的 id）可以。
 export function applyOverride(record, overrides) {
-  const override = overrides[`id:${record.source?.id || ''}`]
-    || overrides[`path:${record.id}`]
+  const override = overrides[`path:${record.id}`]
+    || overrides[`id:${record.source?.id || ''}`]
     || null;
   if (!override || typeof override !== 'object') return record;
   return {
@@ -349,6 +351,7 @@ export async function syncQzone() {
   const records = [];
   const pendingReview = [];
   const quarantined = [];
+  const processedSourceIds = new Set();
   let pages = 0;
   let processed = 0;
   let rechecked = 0;
@@ -413,6 +416,9 @@ export async function syncQzone() {
       pages += 1;
       await reportProgress(`正在抓取动态（第 ${pages} 页，共 ${page.items.length} 条）…`);
       for (const feed of page.items) {
+        // 记录主列表已抓到的动态 id：转发卡片流（wup）以同一 id 为 shareId，
+        // 同一条动态会被两条管线各抓一次（一次成"文字+照片"，一次成"B 站视频"），据此去重。
+        processedSourceIds.add(String(feed.id || ''));
         const created = feed.createdAt ? new Date(feed.createdAt).getTime() : 0;
         if (created && created < cutoff) {
           reachedCutoff = true;
@@ -461,6 +467,8 @@ export async function syncQzone() {
     //   1) feeds_html_module 的视频卡片转发（appid 202，主路径，实测可达）；
     //   2) 聚合流 JSON 捕获的 B 站链接条目（辅助）。
     // 全部走同一套审查/发布管线。
+    // shareId 与主列表已抓到的动态 id 相同的条目直接跳过：那是同一条动态的
+    // 卡片形态（例如带图说说我贴了 B 站链接），否则会生成重复的第二份记录。
     if (rules.include?.videoReposts !== false) {
       try {
         const capturedEntries = shareCapture.payloads
@@ -468,6 +476,7 @@ export async function syncQzone() {
         const wupEntries = await fetchWupShareEntries(session, { uin: session.accountId });
         const merged = new Map();
         for (const entry of [...wupEntries, ...capturedEntries]) {
+          if (processedSourceIds.has(String(entry.shareId))) continue;
           if (!merged.has(entry.shareId)) merged.set(entry.shareId, entry);
         }
         const shares = [...merged.values()]
