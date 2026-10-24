@@ -507,17 +507,17 @@ function renderQueue() {
     return;
   }
   const records = Array.isArray(local.report.records) ? local.report.records : [];
-  const actionable = records.filter((record) => {
+  // 已保存过放行/排除覆盖的记录：待处理视图里不再列出，全部记录视图里保留并带状态徽标。
+  const isDismissed = (record) => {
     const saved = savedOverrideFor(record);
-    const dismissed = saved && ['published', 'excluded'].includes(String(saved.publishStatus || ''));
-    if (local.queueFilter === 'pending') {
-      return record.publishStatus !== 'published' && !dismissed;
-    }
-    return !dismissed || local.draft.has(overrideKeyFor(record));
-  });
+    return Boolean(saved && ['published', 'excluded'].includes(String(saved.publishStatus || '')));
+  };
+  const pendingRecords = records.filter((record) => record.publishStatus !== 'published' && !isDismissed(record));
+  const approvedCount = records.filter((record) => String(savedOverrideFor(record)?.publishStatus || '') === 'published').length;
+  const actionable = local.queueFilter === 'pending' ? pendingRecords : records;
 
   const filterButtons = h('div', { class: 'inline' },
-    button(`待处理（${records.filter((r) => r.publishStatus !== 'published').length}）`, {
+    button(`待处理（${pendingRecords.length}）`, {
       size: 'sm', kind: local.queueFilter === 'pending' ? 'primary' : '',
       onclick: () => { local.queueFilter = 'pending'; renderQueue(); },
     }),
@@ -562,8 +562,12 @@ function renderQueue() {
     filterButtons,
     visibilityHint,
     muted(`报告生成于 ${fmtDateTime(local.report.generatedAt)}${local.report.dryRun ? '（验收预览）' : ''}。报告反映的是本次同步时的状态；保存放行后需要再跑一次真实同步，记录才会真正发布。`),
+    approvedCount ? h('div', { class: 'inline' },
+      badge(`已放行 ${approvedCount} 条，待真实同步发布`, 'ok'),
+      muted('保存的放行不会丢失；运行一次覆盖这些内容日期的「回填同步」后自动发布（增量同步抓不到旧日期）。'),
+    ) : null,
     draftBar,
-    cards.length ? h('div', { class: 'stack' }, cards) : muted('没有待处理的记录。'),
+    cards.length ? h('div', { class: 'stack' }, cards) : muted(local.queueFilter === 'pending' ? '没有待处理的记录。' : '报告里没有记录。'),
   );
 }
 

@@ -43,12 +43,12 @@ export default {
     }, '输入关键词后回车，如：抽奖');
 
     // ---- include / exclude / safety 开关组 ----
+    // 注意：只放真正参与评估逻辑的开关；originalText / historicalInteractions /
+    // duplicateMedia 目前只是存储字段、评估时不读取，不放出来误导。
     const includeToggles = h('div', { class: 'inline' },
       ...toggleGroup('include', {
-        originalText: '保留原文',
-        imagePosts: '图片内容',
-        videoReposts: '视频转载',
-        historicalInteractions: '历史互动数据',
+        imagePosts: '纯图片动态',
+        videoReposts: '视频转载（B 站卡片）',
       }),
     );
     const excludeToggles = h('div', { class: 'inline' },
@@ -56,7 +56,6 @@ export default {
         emptyPosts: '排除空内容',
         checkIns: '排除签到',
         applicationShares: '排除应用分享',
-        duplicateMedia: '排除重复媒体',
       }),
     );
     const safetyToggles = h('div', { class: 'inline' },
@@ -121,8 +120,15 @@ export default {
           h('span', { class: 'field__label' }, '排除关键词'),
           keywords,
         ),
-        h('div', { class: 'field' }, h('span', { class: 'field__label' }, '包含内容'), includeToggles),
-        h('div', { class: 'field' }, h('span', { class: 'field__label' }, '排除与安全'), excludeToggles, safetyToggles,
+        h('div', { class: 'field' },
+          h('span', { class: 'field__label' }, '抓取的内容类型'),
+          includeToggles,
+          h('span', { class: 'field__hint' }, '只影响纯媒体动态：关闭「纯图片动态」后，没有文字的图片说说不再抓取；关闭「视频转载」后，B 站转发卡片不再抓取。带文字的说说始终抓取。')),
+        h('div', { class: 'field' },
+          h('span', { class: 'field__label' }, '排除（命中即隔离，不会发布）'),
+          excludeToggles,
+          h('span', { class: 'field__label' }, '安全隔离'),
+          safetyToggles,
           h('span', { class: 'field__hint' }, 'QQ 接口不返回说说的可见性字段，「可见性未知时隔离」开启时全部内容都会进审查队列。关闭后干净内容随真实同步直接发布，但「仅自己可见」的说说也会一并公开。')),
         h('div', { class: 'field' },
           h('span', { class: 'field__label' }, '删除判定：连续拉取失败次数'),
@@ -130,7 +136,7 @@ export default {
           h('span', { class: 'field__hint' }, '原始说说连续 N 次确认不存在后，才在站内标记为已删除（防止 QQ 接口抖动误判）。'),
         ),
         collapse('高级：完整规则 JSON',
-          muted('表单未覆盖的字段（media 尺寸数组等）在这里编辑。手改过 JSON 后将以 JSON 内容为准保存。'),
+          muted('表单未覆盖的字段在这里编辑。手改过 JSON 后将以 JSON 内容为准保存。'),
           jsonArea,
         ),
         h('div', { class: 'inline' }, save, msg),
