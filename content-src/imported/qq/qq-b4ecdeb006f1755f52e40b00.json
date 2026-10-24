@@ -56,7 +56,8 @@
     "warnings": [
       "MIGRATION_VISIBILITY_BYPASS"
     ],
-    "missingChecks": 0
+    "missingChecks": 0,
+    "lastCheckedAt": "2026-10-24T13:03:02.340Z"
   },
   "syndication": {
     "author": "",
