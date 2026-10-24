@@ -448,38 +448,40 @@ function startSyncPolling() {
     syncPollTicks += 1;
     try {
       const payload = await request('/manage/status');
-      local.syncState = payload.sync?.state || 'idle';
       local.lastSync = payload.lastSync || null;
+      const payloadState = payload.sync?.state || 'idle';
       // 状态文档在本次点击之后更新过 = 云端已经上报过这一轮运行。
       // （快任务可能整个生命周期都短于轮询间隔，永远观察不到 running。）
       const updatedAtMs = payload.sync?.updatedAt ? Date.parse(payload.sync.updatedAt) : NaN;
       const reportedThisRun = Number.isFinite(updatedAtMs) && updatedAtMs > local.syncClickedAt - 30000;
-      if (local.syncState === 'running') {
+
+      if (payloadState === 'running') {
+        awaitingSyncStart = false;
+        local.syncState = 'running';
         if (payload.sync?.message) local.syncMessage = payload.sync.message;
         local.syncStartedAt = payload.sync?.startedAt || local.syncStartedAt;
         local.syncProgress = payload.sync?.progress || local.syncProgress;
-        awaitingSyncStart = false;
         renderProgress();
-      } else if (awaitingSyncStart && reportedThisRun) {
-        // 快速失败/完成：直接收敛并展示云端给出的结果，而不是傻等 20 分钟。
+      } else if (awaitingSyncStart && !reportedThisRun) {
+        // 云端尚未上报本轮：忽略上一轮遗留的旧终态，保持本地「运行中」展示与秒表，
+        // 否则进度行会在点击几秒后被旧状态清掉，表现为「卡在 00:05」。
+        if (syncPollTicks === 36) {
+          local.syncMessage = '云端容器迟迟未上报状态（正常 1 分钟内）。若再过几分钟仍无变化，请重新点击同步或稍后检查。';
+          renderProgress();
+        }
+      } else {
+        // 本轮运行的终态（或非等待期间的普通轮询）：收敛并展示结果。
         awaitingSyncStart = false;
-        local.syncMessage = String(payload.sync?.message || '');
-      }
-      if (awaitingSyncStart && syncPollTicks === 36) {
-        // 约 3 分钟仍无任何云端上报：容器多半没起来，给出明确提示而不是无限转。
-        local.syncMessage = '云端容器迟迟未上报状态（正常 1 分钟内）。若再过几分钟仍无变化，请重新点击同步或稍后检查。';
-        renderProgress();
-      }
-      if ((local.syncState !== 'running' && !awaitingSyncStart) || syncPollTicks >= SYNC_POLL_MAX) {
-        const timedOut = awaitingSyncStart;
-        awaitingSyncStart = false;
+        local.syncState = payloadState;
+        local.syncMessage = String(payload.sync?.message || local.syncMessage);
         window.clearInterval(syncTimer);
         syncTimer = null;
         renderTask();
         await loadReport();
+        const timedOut = syncPollTicks >= SYNC_POLL_MAX;
         toast(timedOut
           ? '同步任务耗时较长，请稍后手动刷新查看结果。'
-          : `同步任务结束：${(payload.sync?.message || '完成').slice(0, 80)}`, timedOut ? 'info' : 'ok');
+          : `同步任务结束：${local.syncMessage.slice(0, 80)}`, timedOut ? 'info' : 'ok');
         local.ctx?.refreshStatus?.();
       }
     } catch {

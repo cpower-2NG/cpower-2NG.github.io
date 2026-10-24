@@ -32,12 +32,12 @@ export function videoSourceFromText(text) {
         const bvid = parsed.pathname.match(/\/(BV[A-Za-z0-9]+)/)?.[1]
           || parsed.searchParams.get('bvid')
           || '';
+        // 没有 BV 号的链接（影视条目页、个人主页等）不是视频，按普通链接留在正文里。
+        if (!bvid) continue;
         return {
           platform: '哔哩哔哩',
           sourceUrl,
-          embedUrl: bvid
-            ? `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(bvid)}&high_quality=1&danmaku=0`
-            : '',
+          embedUrl: `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(bvid)}&high_quality=1&danmaku=0`,
         };
       }
       if (host.endsWith('v.qq.com')) {

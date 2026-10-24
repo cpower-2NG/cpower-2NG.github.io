@@ -81,20 +81,20 @@ export function extractBilibiliShares(payloadText) {
     // 自身属性值（不含嵌套对象）里出现 B 站链接才算命中，避免聚合父节点整棵命中。
     const ownValues = Object.values(record).filter((value) => typeof value === 'string');
     const hit = ownValues.find((value) => BILIBILI_URL.test(value));
-    if (hit) {
-      // 元数据可能在命中节点的祖先层（如 common.createtime），沿祖先链查找。
-      const lookup = (keys) => {
-        for (const level of [record, ...ancestors]) {
-          const value = firstOwnString(level, keys);
-          if (value !== null && value !== undefined && value !== '') return value;
-        }
-        return null;
-      };
-      const shareId = lookup(ID_KEYS) ?? `url:${hit}`;
-      const key = String(shareId);
-      if (!seenIds.has(key)) {
-        seenIds.add(key);
-        const text = String(lookup(TEXT_KEYS) || '');
+      if (hit) {
+        // 元数据可能在命中节点的祖先层（如 common.createtime），沿祖先链查找。
+        const lookup = (keys) => {
+          for (const level of [record, ...ancestors]) {
+            const value = firstOwnString(level, keys);
+            if (value !== null && value !== undefined && value !== '') return value;
+          }
+          return null;
+        };
+        const shareId = lookup(ID_KEYS) ?? `url:${hit}`;
+        const key = String(shareId);
+        if (!seenIds.has(key)) {
+          seenIds.add(key);
+          const text = cleanShareText(lookup(TEXT_KEYS) || '');
         const urlMatch = [hit, ...ownValues].map((value) => value.match(BILIBILI_URL)).find(Boolean);
         const bvidMatch = ownValues.map((value) => value.match(BVID)).find(Boolean);
         found.push({
@@ -365,6 +365,18 @@ function decodeHtmlEntities(value) {
 }
 
 /**
+ * QQ 接口里的分享文案带 HTML 残留（<br/> 换行、零散标签）。
+ * 统一清洗：实体解码 → <br> 转真实换行 → 去掉其余标签 → 压平多余空行。
+ */
+export function cleanShareText(value) {
+  return decodeHtmlEntities(value)
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+/**
  * 从 feeds_html_module / feeds_html_act_all 的 HTML 里提取视频卡片转发
  * （appid 202 / feedstype 100）。act_all 的 HTML 是 JS 转义形式，先反转义；
  * 普通说说（appid 311）即使含 B 站链接也不提取——那些由 msglist 主流程覆盖。
@@ -393,10 +405,10 @@ export function extractWupShares(html) {
     const fkey = block.match(/data-fkey="([^"]+)"/)?.[1];
     const abstime = block.match(/data-abstime="(\d+)"/)?.[1];
     const authorId = block.match(/data-uin="(\d+)"/)?.[1] || '';
-    const reason = decodeHtmlEntities(block.match(/<div class="f-info">\s*([\s\S]*?)<\/div>/)?.[1] || '').trim();
-    const originText = decodeHtmlEntities(
+    const reason = cleanShareText(block.match(/<div class="f-info">\s*([\s\S]*?)<\/div>/)?.[1] || '');
+    const originText = cleanShareText(
       block.match(/class="[^"]*f-name info[^"]*"[^>]*>([^<]{2,200})<\/a>/)?.[1] || '',
-    ).trim();
+    );
     const rawUrl = block.match(/href="(https:\/\/www\.bilibili\.com\/video\/[^"]+)"/)?.[1];
     const shareId = fkey || `wup:${bvid}`;
     if (seen.has(shareId)) continue;

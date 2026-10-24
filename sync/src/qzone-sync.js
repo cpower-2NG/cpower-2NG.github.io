@@ -45,6 +45,14 @@ function typeFor(text, media) {
   return length <= 180 && media.length <= 2 ? 'diary' : 'article';
 }
 
+/** 正文清洗：QQ 接口偶发带 <br/> 等残留标签，转成真实换行并去掉标签。 */
+function postText(content) {
+  return String(content || '')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .trim();
+}
+
 function uniqueMedia(media) {
   const seen = new Set();
   return media.filter((item) => {
@@ -191,8 +199,8 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
     section: 'daily',
     tags: ['QQ空间', '自动同步'],
     category: '日常',
-    summary: String(post.content || '').replace(/\s+/g, ' ').slice(0, 80),
-    text: String(post.content || '').trim(),
+    summary: postText(post.content).replace(/\s+/g, ' ').slice(0, 80),
+    text: postText(post.content),
     media,
     video,
     cover: video?.cover || media.find((item) => item.kind === 'image')?.url || '',
