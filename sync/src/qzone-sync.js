@@ -5,13 +5,15 @@ import { anonymizeComment } from './anonymize.js';
 import { createRawArchive } from './archive.js';
 import {
   commitRecords,
-  listContentRecords,
+  getContentRecords,
+  listContentRecordPaths,
   publishDryRunReport,
   publishQuarantineRecords,
 } from './github.js';
 import { storeImage } from './media.js';
 import { contentHash, evaluatePost, hashSalt, loadRules, safeRecordId } from './rules.js';
 import { readState, setQzoneStatus, setStatus, writeState } from './state.js';
+import { nextRecheckBatch, rotateQueue } from './recheck-queue.js';
 import { videoSourceFromText } from './video.js';
 import {
   buildShareRecords,
@@ -236,19 +238,30 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
   return candidate;
 }
 
-async function recheckDeleted(client, rules, report) {
-  // listContentRecords 要把仓库里全部内容记录逐个下载（几百上千个，经常 5 分钟以上），
-  // 必须有进度，否则这是整轮同步里最长的无反馈阶段。
-  const existing = await listContentRecords(async (done, total) => {
-    await report?.(`正在读取仓库内容记录（${done}/${total}）…`);
-  });
-  const candidates = existing
-    .filter(({ record }) => record.source?.state !== 'deleted' && record.source?.id && record.source?.authorId)
-    .sort((a, b) => String(a.record.source.lastCheckedAt || '').localeCompare(String(b.record.source.lastCheckedAt || '')))
-    .slice(0, 20);
-  const updates = [];
+const RECHECK_BATCH_SIZE = 20;
 
-  for (const [index, { record }] of candidates.entries()) {
+/**
+ * 删除复查：从 Cosmos 的轮转队列取一小批内容记录，实测它们在 QQ 侧是否还存在。
+ * 不再全量下载仓库记录——那会消耗数千个 GitHub API 请求，触发配额限流。
+ */
+async function recheckDeleted(client, rules, report) {
+  const entries = await listContentRecordPaths();
+  const knownIds = new Set(entries.map((entry) => entry.id));
+  const stored = await readState('recheck-queue');
+  const { batch: batchIds, rest, total } = nextRecheckBatch(stored?.queue, knownIds, RECHECK_BATCH_SIZE);
+  await report?.(`待复查 ${total} 条，本轮处理 ${batchIds.length} 条…`);
+  const byId = new Map(entries.map((entry) => [entry.id, entry]));
+  const batchEntries = batchIds.map((id) => byId.get(id)).filter(Boolean);
+  const { records: existing, missingIds } = await getContentRecords(batchEntries);
+  const updates = [];
+  const skippedIds = [];
+
+  for (const [index, { record }] of existing.entries()) {
+    // 已判定删除或缺少源信息的记录不再复查（与旧的全量筛选行为一致）。
+    if (!record.source?.id || !record.source?.authorId || record.source?.state === 'deleted') {
+      skippedIds.push(record.id);
+      continue;
+    }
     try {
       await client.getPost({
         post: {
@@ -268,13 +281,18 @@ async function recheckDeleted(client, rules, report) {
     record.source.lastCheckedAt = new Date().toISOString();
     updates.push(record);
     await sleep(1200);
-    await report?.(`正在复查已发布内容的存活状态（${index + 1}/${candidates.length}）…`);
+    await report?.(`正在复查已发布内容的存活状态（${index + 1}/${existing.length}）…`);
   }
+
+  const checkedIds = updates.map(({ record }) => record.id);
+  await writeState('recheck-queue', {
+    type: 'recheck-queue',
+    queue: rotateQueue(rest, checkedIds, [...missingIds, ...skippedIds]),
+  });
   return updates;
 }
 
 export async function syncQzone() {
-  const { config, secrets } = clients();
   const rules = await loadRules();
   const overridesDocument = await readState('content-overrides', 'settings');
   const overrides = overridesDocument?.overrides && typeof overridesDocument.overrides === 'object'
@@ -310,30 +328,14 @@ export async function syncQzone() {
   } else {
     cutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
   }
-  const salt = await hashSalt();
-  const session = await loadSession();
-  const shareCapture = createShareCapture();
-  const client = new QzoneClient({
-    session,
-    fetch: shareCapture.fetch,
-    onSessionChange: persistSession,
-    logger: (event) => {
-      if (event.level === 'warn' || event.level === 'error') {
-        console.warn(JSON.stringify(event));
-      }
-    },
-  });
-  await setQzoneStatus('connected', 'QQ 登录会话可用。');
-  const cookies = (await client.exportSession()).cookies;
+
   const records = [];
   const pendingReview = [];
   const quarantined = [];
-  const rawArchive = createRawArchive();
-  let cursor = null;
   let pages = 0;
   let processed = 0;
   let rechecked = 0;
-  let reachedCutoff = false;
+  let recheckError = '';
 
   // 进度上报：管理台在同步卡实时展示阶段消息与计数。
   // 写 Cosmos 有成本，节流到最少 4 秒一次；force 用于阶段切换的即时反馈。
@@ -351,9 +353,31 @@ export async function syncQzone() {
     await setStatus('running', message, { startedAt: runStartedAt, progress: progress() });
   };
 
-  await reportProgress(dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。', { force: true });
+  // 容器一起跑就写入 running（此前的版本要等 KeyVault/Cosmos 初始化完才写，
+  // 快速失败或初始化阶段崩溃时管理台会永远停在「等待云端容器就绪」）。
+  await reportProgress(dryRun ? '正在执行验收同步。' : '正在同步 QQ 内容。', { force: true }).catch(() => undefined);
+
+  const rawArchive = createRawArchive();
+  let client = null;
   let paginationError = '';
   try {
+    const salt = await hashSalt();
+    const session = await loadSession();
+    const shareCapture = createShareCapture();
+    client = new QzoneClient({
+      session,
+      fetch: shareCapture.fetch,
+      onSessionChange: persistSession,
+      logger: (event) => {
+        if (event.level === 'warn' || event.level === 'error') {
+          console.warn(JSON.stringify(event));
+        }
+      },
+    });
+    await setQzoneStatus('connected', 'QQ 登录会话可用。');
+    const cookies = (await client.exportSession()).cookies;
+    let cursor = null;
+    let reachedCutoff = false;
     do {
       let page;
       try {
@@ -466,11 +490,16 @@ export async function syncQzone() {
       }
     }
 
-    const deletedUpdates = await recheckDeleted(client, rules, (message) => reportProgress(message)).catch((error) => {
+    let deletedUpdates = [];
+    try {
+      deletedUpdates = await recheckDeleted(client, rules, (message) => reportProgress(message));
+      rechecked = deletedUpdates.length;
+    } catch (error) {
+      // 复查失败（如 GitHub 配额限流）不拖垮整轮同步，但必须在报告与状态里留痕，
+      // 不然「跳过了删除复查」这件事对外完全不可见。
+      recheckError = error.message;
       console.warn(`Deletion recheck skipped: ${error.message}`);
-      return [];
-    });
-    rechecked = deletedUpdates.length;
+    }
     const allRecords = [...records, ...pendingReview, ...quarantined, ...deletedUpdates];
     const rawArchivePath = await rawArchive.save();
     const report = {
@@ -480,6 +509,7 @@ export async function syncQzone() {
       dryRun,
       mode,
       ...(paginationError ? { partial: true, paginationError } : {}),
+      ...(recheckError ? { recheckSkipped: true, recheckError } : {}),
       candidates: allRecords.map((record) => ({
         id: record.id,
         date: record.date,
@@ -557,16 +587,14 @@ export async function syncQzone() {
         mode,
       });
     }
-    await setStatus(
-      'idle',
-      commit.changed
-        ? `已提交 ${commit.files} 个内容文件${momentUpserts ? `，${momentUpserts} 条动态入库` : ''}。`
-        : reviewRecords.length
-          ? `本轮没有新增发布，${reviewRecords.length} 条内容进入审查队列，报告已更新。`
-          : paginationError
-            ? `抓取提前中断（${paginationError}），内容没有变化，下一轮从原水位重扫。`
-            : '内容没有变化。',
-    );
+    const summary = commit.changed
+      ? `已提交 ${commit.files} 个内容文件${momentUpserts ? `，${momentUpserts} 条动态入库` : ''}。`
+      : reviewRecords.length
+        ? `本轮没有新增发布，${reviewRecords.length} 条内容进入审查队列，报告已更新。`
+        : paginationError
+          ? `抓取提前中断（${paginationError}），内容没有变化，下一轮从原水位重扫。`
+          : '内容没有变化。';
+    await setStatus('idle', recheckError ? `${summary}（删除复查本轮跳过：${recheckError}）` : summary);
     return { ...report, commit };
   } catch (error) {
     await setStatus('failed', error.message);
@@ -575,6 +603,6 @@ export async function syncQzone() {
     }
     throw error;
   } finally {
-    await client.close().catch(() => undefined);
+    await client?.close().catch(() => undefined);
   }
 }

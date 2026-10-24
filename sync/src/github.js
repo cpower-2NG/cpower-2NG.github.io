@@ -190,30 +190,48 @@ export async function commitRecords(records, { removePaths = [] } = {}) {
   );
 }
 
-export async function listContentRecords(onProgress) {
+/**
+ * 内容记录的路径清单：一次 tree 调用，不下载内容。
+ * 删除复查的轮转队列据此构建，把每轮同步的 GitHub 用量从几千个请求降到几十个。
+ */
+export async function listContentRecordPaths() {
   const { config } = clients();
   const token = await appToken();
   const repo = config.githubRepository;
   const ref = await githubApi(token, `/git/ref/heads/${config.githubBranch}`);
   const commit = await githubApi(token, `/repos/${repo}/git/commits/${ref.object.sha}`);
   const tree = await githubApi(token, `/repos/${repo}/git/trees/${commit.tree.sha}?recursive=1`);
-  const entries = (tree.tree || []).filter(
-    (entry) => entry.type === 'blob'
-      && entry.path.startsWith(`${config.contentPrefix}/`)
-      && entry.path.endsWith('.json'),
-  );
+  const prefix = `${config.contentPrefix}/`;
+  return (tree.tree || [])
+    .filter((entry) => entry.type === 'blob'
+      && entry.path.startsWith(prefix)
+      && entry.path.endsWith('.json'))
+    .map((entry) => ({
+      id: entry.path.slice(prefix.length, -'.json'.length),
+      path: entry.path,
+      sha: entry.sha,
+    }));
+}
+
+/** 下载指定的一批内容记录。缺失或损坏的文件不算失败，归入 missingIds 由调用方清理队列。 */
+export async function getContentRecords(entries) {
+  const { config } = clients();
+  const token = await appToken();
+  const repo = config.githubRepository;
   const records = [];
-  for (const [index, entry] of entries.entries()) {
-    const blob = await githubApi(token, `/repos/${repo}/git/blobs/${entry.sha}`);
-    const content = Buffer.from(blob.content, blob.encoding || 'base64').toString('utf8');
+  const missingIds = [];
+  for (const entry of entries) {
     try {
+      const blob = await githubApi(token, `/repos/${repo}/git/blobs/${entry.sha}`);
+      const content = Buffer.from(blob.content, blob.encoding || 'base64').toString('utf8');
       records.push({ path: entry.path, record: JSON.parse(content) });
-    } catch {
-      // A malformed record must not block synchronization of healthy records.
+    } catch (error) {
+      if (error.status && error.status !== 404) throw error;
+      // 404：记录已在仓库中被移除；解析失败：文件损坏。两者都从队列剔除。
+      missingIds.push(entry.id);
     }
-    await onProgress?.(index + 1, entries.length);
   }
-  return records;
+  return { records, missingIds };
 }
 
 export async function publishDryRunReport(report) {

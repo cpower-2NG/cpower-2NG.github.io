@@ -42,6 +42,7 @@ const local = {
   syncMessage: '',     // 运行中作业上报的当前阶段消息
   syncStartedAt: null, // 本次同步的开始时间（云端写入，刷新页面也不丢）
   syncProgress: null,  // { pages, processed, candidates, rechecked }
+  syncClickedAt: 0,    // 本次点击同步的时间戳，用于识别「云端已上报过本次运行」
   report: null,
   overrides: {},       // 已保存的覆盖文档（key → override）
   draft: new Map(),    // 覆盖草稿（overrideKey → { publishStatus }）
@@ -315,6 +316,7 @@ function renderTask() {
     toast(dryRun ? '验收预览已启动，完成后审查队列自动更新。' : '同步任务已启动，运行中按钮会保持禁用。', 'ok');
     awaitingSyncStart = true;
     syncPollTicks = 0;
+    local.syncClickedAt = Date.now();
     local.syncState = 'running';
     // 云端容器冷启动约需半分钟，先显示本地进度行，等作业首条进度覆盖它。
     local.syncStartedAt = new Date().toISOString();
@@ -342,6 +344,7 @@ function renderTask() {
     toast('全量搬迁已启动，预计 1 小时以上，页面可关闭，任务在云端进行。', 'ok');
     awaitingSyncStart = true;
     syncPollTicks = 0;
+    local.syncClickedAt = Date.now();
     local.syncState = 'running';
     local.syncStartedAt = new Date().toISOString();
     local.syncMessage = '全量搬迁已启动，等待云端容器就绪…';
@@ -447,22 +450,36 @@ function startSyncPolling() {
       const payload = await request('/manage/status');
       local.syncState = payload.sync?.state || 'idle';
       local.lastSync = payload.lastSync || null;
-      // 运行中把云端上报的阶段消息与计数同步进进度行。
+      // 状态文档在本次点击之后更新过 = 云端已经上报过这一轮运行。
+      // （快任务可能整个生命周期都短于轮询间隔，永远观察不到 running。）
+      const updatedAtMs = payload.sync?.updatedAt ? Date.parse(payload.sync.updatedAt) : NaN;
+      const reportedThisRun = Number.isFinite(updatedAtMs) && updatedAtMs > local.syncClickedAt - 30000;
       if (local.syncState === 'running') {
         if (payload.sync?.message) local.syncMessage = payload.sync.message;
         local.syncStartedAt = payload.sync?.startedAt || local.syncStartedAt;
         local.syncProgress = payload.sync?.progress || local.syncProgress;
+        awaitingSyncStart = false;
+        renderProgress();
+      } else if (awaitingSyncStart && reportedThisRun) {
+        // 快速失败/完成：直接收敛并展示云端给出的结果，而不是傻等 20 分钟。
+        awaitingSyncStart = false;
+        local.syncMessage = String(payload.sync?.message || '');
+      }
+      if (awaitingSyncStart && syncPollTicks === 36) {
+        // 约 3 分钟仍无任何云端上报：容器多半没起来，给出明确提示而不是无限转。
+        local.syncMessage = '云端容器迟迟未上报状态（正常 1 分钟内）。若再过几分钟仍无变化，请重新点击同步或稍后检查。';
         renderProgress();
       }
-      if (awaitingSyncStart && local.syncState === 'running') awaitingSyncStart = false;
-      const settled = !awaitingSyncStart && local.syncState !== 'running';
-      if (settled || syncPollTicks >= SYNC_POLL_MAX) {
+      if ((local.syncState !== 'running' && !awaitingSyncStart) || syncPollTicks >= SYNC_POLL_MAX) {
+        const timedOut = awaitingSyncStart;
+        awaitingSyncStart = false;
         window.clearInterval(syncTimer);
         syncTimer = null;
-        awaitingSyncStart = false;
         renderTask();
         await loadReport();
-        toast(syncPollTicks >= SYNC_POLL_MAX ? '同步任务耗时较长，请稍后手动刷新查看结果。' : '同步任务结束，报告已刷新。', 'ok');
+        toast(timedOut
+          ? '同步任务耗时较长，请稍后手动刷新查看结果。'
+          : `同步任务结束：${(payload.sync?.message || '完成').slice(0, 80)}`, timedOut ? 'info' : 'ok');
         local.ctx?.refreshStatus?.();
       }
     } catch {
