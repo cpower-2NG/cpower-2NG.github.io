@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-27T06:15:40.223Z",
+  "generated": "2026-10-27T06:33:24.468Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -167,7 +167,7 @@
     },
     {
       "label": "分享",
-      "count": 1090
+      "count": 1089
     },
     {
       "label": "漫评",
@@ -6212,29 +6212,25 @@
       "publishedAt": "2026-01-17T15:22:00.000Z",
       "phase": "fantasy",
       "section": "daily",
-      "text": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>",
-      "html": "<p>竟然真的有「見て」，真好&lt;img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/&gt;</p>",
-      "summary": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>",
+      "text": "竟然真的有「見て」，真好[em]e7023[/em]",
+      "html": "<p>竟然真的有「見て」，真好[em]e7023[/em]</p>",
+      "summary": "竟然真的有「見て」，真好[em]e7023[/em]",
       "tags": [
         "QQ空间",
-        "自动同步",
-        "分享"
+        "自动同步"
       ],
-      "media": [],
-      "video": {
-        "platform": "哔哩哔哩",
-        "sourceUrl": "https://www.bilibili.com/video/BV4IoYLBNpMYoK",
-        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV4IoYLBNpMYoK&high_quality=1&danmaku=0",
-        "cover": "",
-        "note": "转发视频，内嵌 B 站播放器。",
-        "watchUrl": "https://www.bilibili.com/video/BV4IoYLBNpMYoK",
-        "coverUrl": "",
-        "title": "竟然真的有「見て」，真好<img src=\"http://qzonestyle.gtimg.cn/qzone/em/e7023.gif\" title=\"\"/>"
-      },
+      "media": [
+        {
+          "url": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/4638ad8c7e5758d53e47ebe2b48fca208d024c6558fbf3673b04264af830d1bd.jpg",
+          "width": 392,
+          "height": 221
+        }
+      ],
+      "video": null,
       "counts": {
         "likes": 0,
         "views": 0,
-        "comments": 0
+        "comments": 2
       },
       "pinned": false,
       "featured": false
