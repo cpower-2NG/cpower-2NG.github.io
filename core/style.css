@@ -3658,6 +3658,38 @@ html[data-phase="fantasy"] .moment-month__label::before {
   margin: 0;
 }
 
+/* 多图两端对齐行（Flickr 式）：行内格子按宽高比分摊宽度，aspect-ratio 撑出
+   统一行高（行高 = 容器宽 / 行累计宽高比）——无空洞、不裁切、保持时间顺序。
+   末行不拉伸，按固定高度左对齐。单图沿用上方网格样式。 */
+.moment__media-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0 2px;
+}
+
+.moment__media-row {
+  display: flex;
+  gap: 6px;
+}
+
+.moment__media-row .moment__media {
+  flex: var(--ar) 1 0%;
+  aspect-ratio: var(--ar);
+  min-width: 0;
+}
+
+.moment__media-row .moment__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.moment__media-row.is-last .moment__media {
+  flex: 0 0 auto;
+  height: clamp(110px, 30vw, 200px);
+}
+
 /* 独立动态页的配图 */
 .moment__figure {
   margin: 14px 0 0;

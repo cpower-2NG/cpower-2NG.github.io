@@ -954,6 +954,47 @@
     next?.addEventListener('click', () => go(1));
   }
 
+  /**
+   * 多图排布：两端对齐行（Flickr / Google Photos 式）。
+   * 按宽高比贪心分行（行累计宽高比达阈值即换行），行内各格 flex-grow ∝ 宽高比，
+   * 配合 aspect-ratio 自动得到统一行高：无空洞、不裁切原图、保持从左到右的时间顺序。
+   * 单图沿用旧网格样式（最大 420px，原比例完整显示）。
+   */
+  function renderMediaGrid(items) {
+    const entries = items.map((item) => {
+      const width = Number(item.width) || 0;
+      const height = Number(item.height) || 0;
+      // 钳制极端比例，避免超长截图/全景图把整行压扁。
+      const ar = width > 0 && height > 0 ? Math.min(Math.max(width / height, 0.56), 2.2) : 1;
+      return { item, ar };
+    });
+    if (entries.length === 1) {
+      const { item } = entries[0];
+      return `<div class="moment__media-grid"><a class="moment__media" href="${escapeHtml(item.url)}" data-lightbox><img src="${escapeHtml(item.url)}" alt="" loading="lazy" onerror="this.closest('.moment__media').style.display='none'"></a></div>`;
+    }
+    const TARGET_AR = 3;
+    const MAX_AR = 4.3;
+    const rows = [];
+    let row = [];
+    let sum = 0;
+    for (const entry of entries) {
+      if (row.length && (sum >= TARGET_AR || sum + entry.ar > MAX_AR)) {
+        rows.push(row);
+        row = [];
+        sum = 0;
+      }
+      row.push(entry);
+      sum += entry.ar;
+    }
+    if (row.length) rows.push(row);
+    const cell = ({ item, ar }) => `
+        <a class="moment__media" style="--ar:${ar.toFixed(3)}" href="${escapeHtml(item.url)}" data-lightbox>
+          <img src="${escapeHtml(item.url)}" alt="" loading="lazy" onerror="this.closest('.moment__media').style.display='none'">
+        </a>`;
+    return `<div class="moment__media-rows">${rows.map((row, index) => `
+        <div class="moment__media-row${index === rows.length - 1 ? ' is-last' : ''}">${row.map(cell).join('')}</div>`).join('')}</div>`;
+  }
+
   function renderMoment(moment, isPinned = false) {
     const video = moment.video && moment.video.watchUrl
       ? `<a class="moment__video" href="${escapeHtml(moment.video.watchUrl)}" target="_blank" rel="noopener noreferrer">
@@ -967,12 +1008,7 @@
         </a>`
       : '';
     const media = (moment.media || []).filter((item) => item.url !== moment.video?.coverUrl).length
-      ? `<div class="moment__media-grid">${(moment.media || [])
-          .filter((item) => item.url !== moment.video?.coverUrl)
-          .map((item) => `
-          <a class="moment__media" href="${escapeHtml(item.url)}" data-lightbox>
-            <img src="${escapeHtml(item.url)}" alt="" loading="lazy" onerror="this.closest('.moment__media').style.display='none'">
-          </a>`).join('')}</div>`
+      ? renderMediaGrid((moment.media || []).filter((item) => item.url !== moment.video?.coverUrl))
       : '';
     const flags = [
       isPinned || moment.pinned ? '<span class="moment__flag">置顶</span>' : '',
