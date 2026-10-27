@@ -991,8 +991,11 @@
         <a class="moment__media" style="--ar:${ar.toFixed(3)}" href="${escapeHtml(item.url)}" data-lightbox>
           <img src="${escapeHtml(item.url)}" alt="" loading="lazy" onerror="this.closest('.moment__media').style.display='none'">
         </a>`;
-    return `<div class="moment__media-rows">${rows.map((row, index) => `
-        <div class="moment__media-row${index === rows.length - 1 ? ' is-last' : ''}">${row.map(cell).join('')}</div>`).join('')}</div>`;
+  return `<div class="moment__media-rows">${rows.map((row, index) => {
+    const sumAr = row.reduce((total, entry) => total + entry.ar, 0);
+    return `
+      <div class="moment__media-row" style="--row-ar:${sumAr.toFixed(3)};--row-n:${row.length}">${row.map(cell).join('')}</div>`;
+  }).join('')}</div>`;
   }
 
   function renderMoment(moment, isPinned = false) {
