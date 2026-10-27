@@ -205,7 +205,8 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
 
       const sourceUrl = video?.link || `https://www.bilibili.com/video/${bvid}`;
       const embedUrl = bvid ? `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(bvid)}&high_quality=1&danmaku=0` : '';
-      const title = video?.title || share.text || '分享的视频';
+      // 元信息缺失（视频失效/接口失败）时标题用中性兜底——绝不把用户转发文案当成视频标题。
+      const title = video?.title || `B 站视频（${bvid || share.shareId}，可能已失效）`;
       // 视频信息由前端视频卡片承载，text 只保留转发理由与原分享配文。
       const text = String(share.text || '').trim();
       const coverUrl = (video?.cover || '').replace(/^http:/, 'https:');
