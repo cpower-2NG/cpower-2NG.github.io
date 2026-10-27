@@ -7,10 +7,7 @@
   "phase": "fantasy",
   "type": "diary",
   "section": "daily",
-  "tags": [
-    "QQ空间",
-    "自动同步"
-  ],
+  "tags": [],
   "category": "日常",
   "summary": "设备开发问题太多了。什么叫苹果的热点能用，其他手机的热点用不了TCP",
   "text": "设备开发问题太多了。什么叫苹果的热点能用，其他手机的热点用不了TCP",
