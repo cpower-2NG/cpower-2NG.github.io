@@ -231,7 +231,7 @@ export async function buildShareRecords(shares, { cookies, coverTransfer }) {
         phase: 'fantasy',
         type: 'diary',
         section: 'daily',
-        tags: ['QQ空间', '自动同步', '分享'],
+        tags: [], // 日常区不打标签（同上）
         category: '分享',
         summary: (share.text || title).replace(/\s+/g, ' ').slice(0, 80),
         text,

@@ -211,7 +211,7 @@ export async function normalizePost(post, rules, salt, cookies, { allowPublicMed
     phase: rules.defaultPhase || 'fantasy',
     type: typeFor(post.content, media),
     section: 'daily',
-    tags: ['QQ空间', '自动同步'],
+    tags: [], // 日常区不打标签：QQ空间/自动同步属元数据，会污染搜索
     category: '日常',
     summary: postText(post.content).replace(/\s+/g, ' ').slice(0, 80),
     text: postText(post.content),
