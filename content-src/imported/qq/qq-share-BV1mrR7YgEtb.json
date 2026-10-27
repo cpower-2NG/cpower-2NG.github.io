@@ -24,7 +24,7 @@
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1mrR7YgEtb",
     "coverUrl": "",
-    "title": "呜呜呜，ume！o(╥﹏╥)o"
+    "title": "【中字】学园偶像大师 初星篇 剧情第四章第14话"
   },
   "cover": "",
   "historicalInteractions": {
@@ -41,7 +41,6 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [
-      "BILIBILI_META_MISSING",
       "MIGRATION_VISIBILITY_BYPASS"
     ],
     "missingChecks": 0

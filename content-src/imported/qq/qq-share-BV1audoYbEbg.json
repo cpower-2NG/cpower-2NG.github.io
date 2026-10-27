@@ -24,7 +24,7 @@
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1audoYbEbg",
     "coverUrl": "",
-    "title": "赞美"
+    "title": "（中字）人狼バトル THE NIGHTMARE PRINCESS 2025 APRIL FOOL 第1部"
   },
   "cover": "",
   "historicalInteractions": {
@@ -41,7 +41,6 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [
-      "BILIBILI_META_MISSING",
       "MIGRATION_VISIBILITY_BYPASS"
     ],
     "missingChecks": 0

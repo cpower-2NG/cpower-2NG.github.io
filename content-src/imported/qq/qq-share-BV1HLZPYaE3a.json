@@ -24,7 +24,7 @@
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1HLZPYaE3a",
     "coverUrl": "",
-    "title": "就是这首歌，就是这首！"
+    "title": "如月千早 最上静香合唱《Snow White》"
   },
   "cover": "",
   "historicalInteractions": {
@@ -41,7 +41,6 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [
-      "BILIBILI_META_MISSING",
       "MIGRATION_VISIBILITY_BYPASS"
     ],
     "missingChecks": 0

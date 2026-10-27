@@ -24,7 +24,7 @@
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1tx9UYZErK",
     "coverUrl": "",
-    "title": "?!?!?!?"
+    "title": "日本美少女插画师すしめかぶ（桐葉）入驻B站啦！！请多关照！！"
   },
   "cover": "",
   "historicalInteractions": {
@@ -41,7 +41,6 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [
-      "BILIBILI_META_MISSING",
       "MIGRATION_VISIBILITY_BYPASS"
     ],
     "missingChecks": 0

@@ -24,7 +24,7 @@
     "note": "转发视频，内嵌 B 站播放器。",
     "watchUrl": "https://www.bilibili.com/video/BV1r59pYgEzG",
     "coverUrl": "",
-    "title": "草\n\n-"
+    "title": "小鸟跳如今的我们偶遇起飞大水浇头，拼尽全力无法战胜令人忍俊不禁"
   },
   "cover": "",
   "historicalInteractions": {
@@ -41,7 +41,6 @@
     "visibility": "unknown",
     "adapterVersion": 1,
     "warnings": [
-      "BILIBILI_META_MISSING",
       "MIGRATION_VISIBILITY_BYPASS"
     ],
     "missingChecks": 0
