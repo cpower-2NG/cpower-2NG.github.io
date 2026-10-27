@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-10-27T05:42:34.587Z",
+  "generated": "2026-10-27T06:15:40.223Z",
   "siteUrl": "https://cpower-2ng.github.io",
   "phases": [
     {
@@ -1655,13 +1655,13 @@
       "media": [],
       "video": {
         "platform": "哔哩哔哩",
-        "sourceUrl": "https://www.bilibili.com/video/BVRGuU88wuS8",
-        "embedUrl": "https://player.bilibili.com/player.html?bvid=BVRGuU88wuS8&high_quality=1&danmaku=0",
-        "cover": "",
+        "sourceUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+        "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1VLHE6hEpE&high_quality=1&danmaku=0",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6451035f4398d92db8d8a3e162b0635691bc520bf6926f39de8a2e7ea9ffac45.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
-        "watchUrl": "https://www.bilibili.com/video/BVRGuU88wuS8",
-        "coverUrl": "",
-        "title": "B 站视频（BVRGuU88wuS8，已失效）"
+        "watchUrl": "https://www.bilibili.com/video/BV1VLHE6hEpE",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6451035f4398d92db8d8a3e162b0635691bc520bf6926f39de8a2e7ea9ffac45.jpg",
+        "title": "回去妇儿剧场看凉本秋穗FMT一周年"
       },
       "counts": {
         "likes": 0,
@@ -2363,10 +2363,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1qqb26vEYp",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qqb26vEYp&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/9583649405cd002b5b75baab6bba4b622452153a.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5f1665a733bf4e6ebd30cb4ae0ee1549472ecff771cb130ac6b031a677d8cfda.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1qqb26vEYp",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/9583649405cd002b5b75baab6bba4b622452153a.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/5f1665a733bf4e6ebd30cb4ae0ee1549472ecff771cb130ac6b031a677d8cfda.jpg",
         "title": "【C108】INTERSEMESTER 专辑"
       },
       "counts": {
@@ -3573,10 +3573,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1a8wjz9E6M",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1a8wjz9E6M&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/1ab0b64549e71b32558d21f27b65fe9884c019bd.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc4e7bc425c85178d859ec51a4eb85cb10a0c51d0ddcf4a96b422c6f2573a3eb.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1a8wjz9E6M",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/1ab0b64549e71b32558d21f27b65fe9884c019bd.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc4e7bc425c85178d859ec51a4eb85cb10a0c51d0ddcf4a96b422c6f2573a3eb.jpg",
         "title": "「学园偶像大师」初星学園 Remix Album「ReCollection」vol.1"
       },
       "counts": {
@@ -6716,10 +6716,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV16WB4BKEgQ",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV16WB4BKEgQ&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/a9ad38940779e4f2e813d1fb24aa33c0127b0e2f.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d4eedbdbc61a531026f07451689d8a570ac9a4f8373b30532a50f825d78ccf16.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV16WB4BKEgQ",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/a9ad38940779e4f2e813d1fb24aa33c0127b0e2f.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d4eedbdbc61a531026f07451689d8a570ac9a4f8373b30532a50f825d78ccf16.jpg",
         "title": "keep on \"DICEY\""
       },
       "counts": {
@@ -7536,10 +7536,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1Q9STBAEtU",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Q9STBAEtU&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/ba27c22045af89a50859cbe599273db89d5e4f38.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1cecea1e2b2ed9930054bdcf657726ca2de3915819e9b00d2a9d7b881377f080.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1Q9STBAEtU",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/ba27c22045af89a50859cbe599273db89d5e4f38.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/1cecea1e2b2ed9930054bdcf657726ca2de3915819e9b00d2a9d7b881377f080.jpg",
         "title": "【舆水幸子合作】可爱的我和HBD"
       },
       "counts": {
@@ -8728,10 +8728,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1hKxEzHEVv",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1hKxEzHEVv&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/b33b2c54f9ee5cc784ce93fee771f7438fdd63ee.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c68178e8d192db4f450fb4ba735016ad4e58b74640664504c4fc567c8c9975a5.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1hKxEzHEVv",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/b33b2c54f9ee5cc784ce93fee771f7438fdd63ee.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c68178e8d192db4f450fb4ba735016ad4e58b74640664504c4fc567c8c9975a5.jpg",
         "title": "【阳菜的IMAS翻跳系列】Thank You（上海IFE01“前夜祭”）"
       },
       "counts": {
@@ -10253,10 +10253,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1ZVhjziEJk",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1ZVhjziEJk&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/3055e826b6c7e32be1610f8465e2e1031fe2fe40.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a260124008c485267e24a32b62fb60026c00770e0004e209828093fb9a0cf3d7.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1ZVhjziEJk",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/3055e826b6c7e32be1610f8465e2e1031fe2fe40.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/a260124008c485267e24a32b62fb60026c00770e0004e209828093fb9a0cf3d7.jpg",
         "title": "【中切】阁下:“今后，请跟随着我们的背影前进吧!!!”"
       },
       "counts": {
@@ -10532,10 +10532,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1k28GzeECx",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1k28GzeECx&high_quality=1&danmaku=0",
-        "cover": "https://i0.hdslb.com/bfs/archive/fa1b23e494fead7d4ae0096fc985714ce860d0bf.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f18a16ce41c006977d55589824096c652c567d8941e83e3b1173b715a2d3fd44.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1k28GzeECx",
-        "coverUrl": "https://i0.hdslb.com/bfs/archive/fa1b23e494fead7d4ae0096fc985714ce860d0bf.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/f18a16ce41c006977d55589824096c652c567d8941e83e3b1173b715a2d3fd44.jpg",
         "title": "（中字）畅想moiw2025大家"
       },
       "counts": {
@@ -11254,10 +11254,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1EcN6zkEUx",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1EcN6zkEUx&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/1ee8534d5596072204b2f13c9af84fd199a04e47.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b03a0cf0632a0ab374b0c76a2f1d8e71bf71c758a23895037d283a794dfe49b0.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1EcN6zkEUx",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/1ee8534d5596072204b2f13c9af84fd199a04e47.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b03a0cf0632a0ab374b0c76a2f1d8e71bf71c758a23895037d283a794dfe49b0.jpg",
         "title": "我是2代目御社神大人哟"
       },
       "counts": {
@@ -13106,10 +13106,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1n35Bz8Ebe",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1n35Bz8Ebe&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/db23e031400b026d0f98830fd24ce04b81ea2e42.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c31c04444f00b587eb998b77f0159c0adaac76ec5aa4b261e7c1107fc6721252.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1n35Bz8Ebe",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/db23e031400b026d0f98830fd24ce04b81ea2e42.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c31c04444f00b587eb998b77f0159c0adaac76ec5aa4b261e7c1107fc6721252.jpg",
         "title": "【中字】伊藤舞音立志蹂躏广播业界 - 伊藤舞音のおいでよ まおーこく 第一回"
       },
       "counts": {
@@ -14308,10 +14308,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1LmZNYbEz8",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1LmZNYbEz8&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/e296cee6bc7cfdd62f3c097e96e8af6e364a5e86.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ada5e68cbad71f0170f81a87ffbb58ccaf1f741404d4ca9a64b202203844a47.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1LmZNYbEz8",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/e296cee6bc7cfdd62f3c097e96e8af6e364a5e86.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/6ada5e68cbad71f0170f81a87ffbb58ccaf1f741404d4ca9a64b202203844a47.jpg",
         "title": "【The idolmaster】Happy!  m@d"
       },
       "counts": {
@@ -14666,10 +14666,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1jrXLY1EVS",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1jrXLY1EVS&high_quality=1&danmaku=0",
-        "cover": "https://i0.hdslb.com/bfs/archive/1281fa9099342b239098033bed931730ff4325b7.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9def986c4db9fea12cd6795dcd200c7a292c32dc05ea24072e91f0fbad41e53e.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1jrXLY1EVS",
-        "coverUrl": "https://i0.hdslb.com/bfs/archive/1281fa9099342b239098033bed931730ff4325b7.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9def986c4db9fea12cd6795dcd200c7a292c32dc05ea24072e91f0fbad41e53e.jpg",
         "title": "「コンテンポラリのダンス（当世之舞）」-筱泽広|学园偶像大师"
       },
       "counts": {
@@ -14832,10 +14832,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1CgQyYvE6e",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1CgQyYvE6e&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/1738bb3af9444bff1ac50b5faa957a5d64fa4dfc.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb478b42028d5cdec0e85e89664ff14af485d9a0dde71acb10b7da5b840d35be.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1CgQyYvE6e",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/1738bb3af9444bff1ac50b5faa957a5d64fa4dfc.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/eb478b42028d5cdec0e85e89664ff14af485d9a0dde71acb10b7da5b840d35be.jpg",
         "title": "No title"
       },
       "counts": {
@@ -15172,10 +15172,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1tMQWYjEV6",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1tMQWYjEV6&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/e9c643445bee46457a0c8817bec8634c86838d31.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b448d86dd7ca1e132344cdaf149ec23f37e42304f3866ab2ee8f01c0f78f725a.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1tMQWYjEV6",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/e9c643445bee46457a0c8817bec8634c86838d31.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/b448d86dd7ca1e132344cdaf149ec23f37e42304f3866ab2ee8f01c0f78f725a.jpg",
         "title": "【节选】种田梨沙IMAS EXPO repo（种田沙龙78回）"
       },
       "counts": {
@@ -15342,10 +15342,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1pZQGYVEy4",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1pZQGYVEy4&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/1fef58c2379f4741d7d9cbc1bbcdca3f89bd7f7e.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8c36f37188ed09f6d1bb4f4263cffa65fecca5120d849d14d8bbc75a37b9b7a3.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1pZQGYVEy4",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/1fef58c2379f4741d7d9cbc1bbcdca3f89bd7f7e.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/8c36f37188ed09f6d1bb4f4263cffa65fecca5120d849d14d8bbc75a37b9b7a3.jpg",
         "title": "转起来的野中心菜 不知所措的长月葵 看乐子的湊咪和piyo"
       },
       "counts": {
@@ -16086,10 +16086,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1bmPieHEpk",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bmPieHEpk&high_quality=1&danmaku=0",
-        "cover": "https://i0.hdslb.com/bfs/archive/c80965946aea4661f0227e65c8542df118786b6b.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc3fd3c448b6bb9c283957a757c034b53077d29c447ecb1e77ce7113a6755230.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1bmPieHEpk",
-        "coverUrl": "https://i0.hdslb.com/bfs/archive/c80965946aea4661f0227e65c8542df118786b6b.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cc3fd3c448b6bb9c283957a757c034b53077d29c447ecb1e77ce7113a6755230.jpg",
         "title": "VOY@GER 【偶像大师闪耀色彩 Song for Prism MV】"
       },
       "counts": {
@@ -16256,10 +16256,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1UWAKeaEc4",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1UWAKeaEc4&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/21ef0177f9b6c83e42d66b9a3969782cf919041a.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be18d1019289f42673ba63bd37965b2e842477156853963a34409083c8e1ba22.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1UWAKeaEc4",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/21ef0177f9b6c83e42d66b9a3969782cf919041a.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/be18d1019289f42673ba63bd37965b2e842477156853963a34409083c8e1ba22.jpg",
         "title": "Fujitar Kotoner"
       },
       "counts": {
@@ -18072,10 +18072,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1Ns6qYXEYx",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ns6qYXEYx&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/a57747209e70941434fc56cd3ade5f308e1c1334.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/396410b8b2815733d305f65501276b83d012c5b6e48c5cebe902fae8a8260f4c.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1Ns6qYXEYx",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/a57747209e70941434fc56cd3ade5f308e1c1334.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/396410b8b2815733d305f65501276b83d012c5b6e48c5cebe902fae8a8260f4c.jpg",
         "title": "樊振东：见过大场面但没见过这场面"
       },
       "counts": {
@@ -19200,10 +19200,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1PkkUYZE92",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1PkkUYZE92&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/65ae8f57b8dcabcd54fd6c60d04f1d8677304d94.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffcbca8c322cdedd9b74e77428656621e0d30479e21d9af0b83efec3c38088a0.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1PkkUYZE92",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/65ae8f57b8dcabcd54fd6c60d04f1d8677304d94.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/ffcbca8c322cdedd9b74e77428656621e0d30479e21d9af0b83efec3c38088a0.jpg",
         "title": "【发售版】【CV.飯田ヒカル】【CV.川村玲奈】いっしょに密着憑依～依神姉妹に両耳ささやき甘やかされ眠れないASMR～"
       },
       "counts": {
@@ -19526,10 +19526,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1Ru4y157Mr",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Ru4y157Mr&high_quality=1&danmaku=0",
-        "cover": "https://i0.hdslb.com/bfs/archive/dae563921f2543ca72e2a484cc8b6ffd09132395.png",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/585e4d4a49724b283cb4ebf2af3e2177c8b755ef103e2d3de11879d296d08548.png",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1Ru4y157Mr",
-        "coverUrl": "https://i0.hdslb.com/bfs/archive/dae563921f2543ca72e2a484cc8b6ffd09132395.png",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/585e4d4a49724b283cb4ebf2af3e2177c8b755ef103e2d3de11879d296d08548.png",
         "title": "星の声各成员solo版"
       },
       "counts": {
@@ -19911,10 +19911,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1S2i6Y8EjY",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1S2i6Y8EjY&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/36ef6b7fd449536cb30bbd38f98b12fcadcbff4b.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9bdd8a2d910c9738c630012f18afe68a1bd9046597683481b2e90f4bcb8672fe.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1S2i6Y8EjY",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/36ef6b7fd449536cb30bbd38f98b12fcadcbff4b.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/9bdd8a2d910c9738c630012f18afe68a1bd9046597683481b2e90f4bcb8672fe.jpg",
         "title": "【生】花岩香奈的首次游戏实况挑战『MiSide -ミサイド-』DEMO"
       },
       "counts": {
@@ -19979,10 +19979,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1q34y1z7pz",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1q34y1z7pz&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/64228bfe2a0eead06ef655b08b46eedb8f50d064.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/438ef34e0a4c6c45807363884e94a6ac3c155eb7b6da7760923c6f76a0fdf308.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1q34y1z7pz",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/64228bfe2a0eead06ef655b08b46eedb8f50d064.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/438ef34e0a4c6c45807363884e94a6ac3c155eb7b6da7760923c6f76a0fdf308.jpg",
         "title": "NicoNico十五周年漂流記（N站弹幕版）"
       },
       "counts": {
@@ -20320,10 +20320,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1adzdYnEF4",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1adzdYnEF4&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/866cbc3c9c0cbac85e2e04da18a412cdd3820284.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44411e273780c027921b9d40673478861e538ad7e7aa9073e33b7fad605daef2.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1adzdYnEF4",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/866cbc3c9c0cbac85e2e04da18a412cdd3820284.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/44411e273780c027921b9d40673478861e538ad7e7aa9073e33b7fad605daef2.jpg",
         "title": "【学园偶像大师】听歌识曲挑战第一期"
       },
       "counts": {
@@ -21012,10 +21012,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV198STYgEJF",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV198STYgEJF&high_quality=1&danmaku=0",
-        "cover": "https://i1.hdslb.com/bfs/archive/e4515479a76307648f4ae4f91391e0ef5e93bc20.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af4a2b661ca1b1417b57fd064b4a90bb3f07125b03f5dd891a0befa1bb012b82.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV198STYgEJF",
-        "coverUrl": "https://i1.hdslb.com/bfs/archive/e4515479a76307648f4ae4f91391e0ef5e93bc20.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/af4a2b661ca1b1417b57fd064b4a90bb3f07125b03f5dd891a0befa1bb012b82.jpg",
         "title": "【合作告知CM】『宗教都市祭』虚拟空间散射场引发的异变"
       },
       "counts": {
@@ -21352,10 +21352,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV15HmfYSE9X",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV15HmfYSE9X&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/772212c74c990134ad6a748aaa2ff8e3c175e95c.png",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26f02c5848c5371b076966dcec95db2837395d8669ba7d497de45ddbd21cbb92.png",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV15HmfYSE9X",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/772212c74c990134ad6a748aaa2ff8e3c175e95c.png",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/26f02c5848c5371b076966dcec95db2837395d8669ba7d497de45ddbd21cbb92.png",
         "title": "【11月/早见沙织名场面十周年】日清冬兵卫面 ×《日常系的异能战斗》联动CM【MCE汉化组】"
       },
       "counts": {
@@ -21580,10 +21580,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV13um2YgE5H",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV13um2YgE5H&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/db949a4db69ff6a39038af78319ee5e1d34ef198.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/796c0307b07a55702b30ec72a5be69848d8df03b6d986f5d87d36f13c886cf13.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV13um2YgE5H",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/db949a4db69ff6a39038af78319ee5e1d34ef198.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/796c0307b07a55702b30ec72a5be69848d8df03b6d986f5d87d36f13c886cf13.jpg",
         "title": "T.M.Revolution×水树奈奈「Preserved Roses」MV-TV动画「革命机Valvrave」OP"
       },
       "counts": {
@@ -28455,10 +28455,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1Q4421S7a6",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1Q4421S7a6&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/76fab855c49ccf48b4179a0004b6cf4feb821c12.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e804544c52ef9b05c8cadf6f8bdcb0c2677372ef14213e740dd6f560a756bef.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1Q4421S7a6",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/76fab855c49ccf48b4179a0004b6cf4feb821c12.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/2e804544c52ef9b05c8cadf6f8bdcb0c2677372ef14213e740dd6f560a756bef.jpg",
         "title": "版税的Dance"
       },
       "counts": {
@@ -34877,10 +34877,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1bf4y1R799",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1bf4y1R799&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/fd158f837f6fe1c3e3bb0ca3aebda725b0305060.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0de625ff10436ba21f1a20da192cfaad9e40ace7bb8ce5225d9aca256d128d24.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1bf4y1R799",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/fd158f837f6fe1c3e3bb0ca3aebda725b0305060.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/0de625ff10436ba21f1a20da192cfaad9e40ace7bb8ce5225d9aca256d128d24.jpg",
         "title": "【搬运/裴小峰】高考恋爱一百天游戏解说"
       },
       "counts": {
@@ -35587,10 +35587,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV116421u7iU",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV116421u7iU&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/8c244ed81006b9195f4bd11ba02bb2fdd04b4274.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf0bdc3e1801277ab430681daf552b7271a58fe73e046096d1bc8b9b50b83e10.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV116421u7iU",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/8c244ed81006b9195f4bd11ba02bb2fdd04b4274.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/cf0bdc3e1801277ab430681daf552b7271a58fe73e046096d1bc8b9b50b83e10.jpg",
         "title": "Illution"
       },
       "counts": {
@@ -48504,10 +48504,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1mh411P7Pu",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1mh411P7Pu&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/6f0439805135e1306f63fbecc5e87283b0e01fe2.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d6203bcf67b05f88d32695b9a05abed14e24700367353bf6b32457cc6a81b50f.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1mh411P7Pu",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/6f0439805135e1306f63fbecc5e87283b0e01fe2.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/d6203bcf67b05f88d32695b9a05abed14e24700367353bf6b32457cc6a81b50f.jpg",
         "title": "【最新作】物语系列X魔法少女小圆【2023年圆物语夏日大作战】"
       },
       "counts": {
@@ -49570,10 +49570,10 @@
         "platform": "哔哩哔哩",
         "sourceUrl": "https://www.bilibili.com/video/BV1qm4y1e7NC",
         "embedUrl": "https://player.bilibili.com/player.html?bvid=BV1qm4y1e7NC&high_quality=1&danmaku=0",
-        "cover": "https://i2.hdslb.com/bfs/archive/5ddd2ceb58cef4ea153ee855155e97cc35c8c1fc.jpg",
+        "cover": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c248ab0fa33f8af374c7e3ce4353b6bc506b3c82de2a9d7b83edcccf0361588f.jpg",
         "note": "转发视频，内嵌 B 站播放器。",
         "watchUrl": "https://www.bilibili.com/video/BV1qm4y1e7NC",
-        "coverUrl": "https://i2.hdslb.com/bfs/archive/5ddd2ceb58cef4ea153ee855155e97cc35c8c1fc.jpg",
+        "coverUrl": "https://stbifrostz43zcc.blob.core.windows.net/media/qq/c248ab0fa33f8af374c7e3ce4353b6bc506b3c82de2a9d7b83edcccf0361588f.jpg",
         "title": "沙耶哦——"
       },
       "counts": {
